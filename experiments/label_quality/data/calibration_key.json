@@ -1,0 +1,170 @@
+{
+  "1_14_gold": {
+    "type": "gold",
+    "judge_overall": 2.0,
+    "layer": 1,
+    "idx": 14
+  },
+  "0_69_ancestor": {
+    "type": "ancestor",
+    "judge_overall": 1.0,
+    "layer": 0,
+    "idx": 69
+  },
+  "0_64_generic": {
+    "type": "generic",
+    "judge_overall": 0.0,
+    "layer": 0,
+    "idx": 64
+  },
+  "0_12_verbose": {
+    "type": "verbose",
+    "judge_overall": 1.0,
+    "layer": 0,
+    "idx": 12
+  },
+  "1_2_sibling": {
+    "type": "sibling",
+    "judge_overall": 2.0,
+    "layer": 1,
+    "idx": 2
+  },
+  "0_13_verbose": {
+    "type": "verbose",
+    "judge_overall": 2.6666666666666665,
+    "layer": 0,
+    "idx": 13
+  },
+  "2_6_sibling": {
+    "type": "sibling",
+    "judge_overall": 0.0,
+    "layer": 2,
+    "idx": 6
+  },
+  "0_52_ancestor": {
+    "type": "ancestor",
+    "judge_overall": 1.0,
+    "layer": 0,
+    "idx": 52
+  },
+  "2_4_sibling": {
+    "type": "sibling",
+    "judge_overall": 0.0,
+    "layer": 2,
+    "idx": 4
+  },
+  "1_7_gold": {
+    "type": "gold",
+    "judge_overall": 2.0,
+    "layer": 1,
+    "idx": 7
+  },
+  "0_24_gold": {
+    "type": "gold",
+    "judge_overall": 3.0,
+    "layer": 0,
+    "idx": 24
+  },
+  "0_69_gold": {
+    "type": "gold",
+    "judge_overall": 2.3333333333333335,
+    "layer": 0,
+    "idx": 69
+  },
+  "0_50_verbose": {
+    "type": "verbose",
+    "judge_overall": 1.0,
+    "layer": 0,
+    "idx": 50
+  },
+  "0_60_gold": {
+    "type": "gold",
+    "judge_overall": 2.3333333333333335,
+    "layer": 0,
+    "idx": 60
+  },
+  "1_20_gold": {
+    "type": "gold",
+    "judge_overall": 3.0,
+    "layer": 1,
+    "idx": 20
+  },
+  "0_12_generic": {
+    "type": "generic",
+    "judge_overall": 0.0,
+    "layer": 0,
+    "idx": 12
+  },
+  "1_18_gold": {
+    "type": "gold",
+    "judge_overall": 3.3333333333333335,
+    "layer": 1,
+    "idx": 18
+  },
+  "0_16_generic": {
+    "type": "generic",
+    "judge_overall": 1.0,
+    "layer": 0,
+    "idx": 16
+  },
+  "1_16_generic": {
+    "type": "generic",
+    "judge_overall": 1.0,
+    "layer": 1,
+    "idx": 16
+  },
+  "0_63_gold": {
+    "type": "gold",
+    "judge_overall": 3.0,
+    "layer": 0,
+    "idx": 63
+  },
+  "0_47_ancestor": {
+    "type": "ancestor",
+    "judge_overall": 1.6666666666666667,
+    "layer": 0,
+    "idx": 47
+  },
+  "1_13_generic": {
+    "type": "generic",
+    "judge_overall": 0.0,
+    "layer": 1,
+    "idx": 13
+  },
+  "1_9_verbose": {
+    "type": "verbose",
+    "judge_overall": 3.0,
+    "layer": 1,
+    "idx": 9
+  },
+  "1_21_ancestor": {
+    "type": "ancestor",
+    "judge_overall": 3.0,
+    "layer": 1,
+    "idx": 21
+  },
+  "1_12_sibling": {
+    "type": "sibling",
+    "judge_overall": 0.0,
+    "layer": 1,
+    "idx": 12
+  },
+  "1_10_verbose": {
+    "type": "verbose",
+    "judge_overall": 2.0,
+    "layer": 1,
+    "idx": 10
+  },
+  "0_28_ancestor": {
+    "type": "ancestor",
+    "judge_overall": 2.0,
+    "layer": 0,
+    "idx": 28
+  },
+  "0_68_sibling": {
+    "type": "sibling",
+    "judge_overall": 1.0,
+    "layer": 0,
+    "idx": 68
+  }
+}
