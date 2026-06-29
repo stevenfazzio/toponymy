@@ -1,9 +1,10 @@
 # Contrastive context for Toponymy's LLM naming — an evaluation
 
-**Status: negative result, and it survives the obvious objection.** Written to be adaptable into a
-standalone issue, referencing the *Contrastive Extractor* item under FeatureExtractor in the #171
-(v0.6 refactor) roadmap — that's a contrastive *feature* extractor; this experiment is the
-naming-*prompt*-stage sibling of it.
+**Status: negative result, and it held up under each follow-up check** (four naming models, a
+neighbour-aware judge, and a tuning pass). This is the full writeup; a condensed version is posted as
+Discussion #173 (TutteInstitute/toponymy). It relates to the *Contrastive Extractor* item under
+FeatureExtractor in #171 (the v0.6 refactor roadmap), which is a contrastive *feature* extractor — this
+experiment is the naming-*prompt*-stage sibling of it.
 
 ## TL;DR
 
