@@ -210,8 +210,18 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   genuinely fit). → **Phase 0 instrument COMPLETE + calibrated.**
 - [ ] **Phase 1 · fine discrimination** — judge multiple *good* real labels/cluster (the prior
   negative's regime): can any metric rank good-vs-good? (the open question gate (b) doesn't settle)
+- [x] **Phase 2a · generality bake-off** — `phase2_generality.py` on HyperLex. A linear generality
+  axis EXISTS in MiniLM space but is WEAK: lexical-split test Spearman emb-axis 0.32 / cosine 0.34 /
+  combined 0.45; frequency 0.19, length ~0, emb-norm −0.12. Confirms idea D + Renner (structure ≫
+  embeddings). Embedding axis is the phrase-label-applicable proxy → used in 2b. (axis saved.)
+- [x] **Phase 2b · hierarchy check** — `phase2b_hierarchy.py` on 86 real parent→child edges. The
+  embedding generality axis FAILS to transfer to Toponymy phrase labels: **50.0% direction accuracy
+  (= chance)**. But **LENGTH works (86%)** — coarse labels are shorter (partly an artifact of haiku's
+  verbose-fine/terse-coarse style); frequency is anti-correlated (27%, coarse labels use rarer words).
+  Quantified defect: **14% name-propagation** (parent==child label) + visible mis-altitudes ("Waco
+  Siege" as a coarse parent, cos=0.13). Practical altitude check = (parent shorter) + (cosine high).
 - [ ] **Phase 0 · leg 2** — gold-category alignment.
-- [ ] **Phase 2 / 3** — as gated.
+- [ ] **Phase 1 · fine discrimination** / **Phase 3 · erasure** — as gated.
 
 ### Findings to carry forward
 - **Named tree has skip-level edges** (matters for Phase 2's parent⊇child pairs): a fine cluster's
@@ -231,6 +241,17 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   was *fine* discrimination (two good contrast labels, ~chance); this is *coarse* (good vs degraded).
   So embedding-similarity is a usable **guardrail** (catch bad labels), not yet shown to be a
   fine-grained ranker.
+- **A generality axis exists in embedding space but is WEAK (Phase 2a).** On HyperLex it adds ~0.10
+  over cosine (combined ρ~0.45) but is far below structural WordNet-IC (0.744) — embeddings encode
+  hypernymy weakly/entangled, as the lit predicted. It's the only proxy that applies directly to
+  multi-word labels, so 2b uses it but should expect noise. Faint hyperbolic hint: general words sit
+  at slightly smaller embedding norm (ρ=−0.12).
+- **Phase 2b: idea D is DEAD for Toponymy phrase labels.** The HyperLex-learned axis gives chance
+  (50%) direction accuracy on real parent→child label pairs — single-word hypernymy geometry does not
+  transfer to phrase-label generality. The working proxy is dead-simple **LENGTH** (86%: coarse labels
+  are shorter, partly because haiku names fine verbosely). Cheap hierarchy-altitude diagnostic =
+  (parent shorter than child) + (parent–child cosine high); flag violations. Real defect: **14% of
+  edges are name-propagation** (coarse region inherited a child's exact name) + mis-altitudes.
 - **Whitening is a trade-off, not a free win.** It fixes the verbose blind spot (the motivating
   failure) but compresses the anisotropic over-separation that helps track big good-vs-bad gaps
   (lower global Spearman). Pick whitened for robustness-to-padding; raw centroid for raw graded
