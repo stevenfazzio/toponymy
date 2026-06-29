@@ -221,7 +221,17 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   Quantified defect: **14% name-propagation** (parent==child label) + visible mis-altitudes ("Waco
   Siege" as a coarse parent, cos=0.13). Practical altitude check = (parent shorter) + (cosine high).
 - [ ] **Phase 0 · leg 2** — gold-category alignment.
-- [ ] **Phase 1 · fine discrimination** / **Phase 3 · erasure** — as gated.
+- [x] **Phase 1 · fine discrimination (DONE, rigorous)** — `fine_discrimination_grounded.py`: 104
+  haiku-vs-gpt4o-mini pairs judged by grounded sonnet, 54 decided (judge TIED on 48% — the two good
+  labels are often indistinguishable). ALL reference points ~chance (centroid 48%, whitened 37%
+  [worst], medoid 50%, exemplar 57% but within noise; none clears 50% on both winner-splits).
+  **DEFINITIVE: the metric is a coarse guardrail, NOT a fine ranker.**
+- [x] **Phase 3 · erasure (DONE)** — `phase3_rank_diagnostic.py` + `phase3b_erasure.py`. SURPRISE:
+  the label↔doc gap is a low-rank LINEAR mean offset (separability 0.935 → 0.325 after per-class
+  centering; INLP inseparable after 2 directions) — erasable, NOT nonlinear like the modality gap;
+  the gate PASSES. BUT erasing it does **NOTHING** (coarse ρ 0.737 vs 0.740 raw; verbose 74.8% vs
+  77.6%) — the offset is class-uniform, hence irrelevant to scoring. **Idea A is dead: the gap is
+  erasable but irrelevant; the real fix was anisotropy (whitening), a broader property than the offset.**
 
 ### Findings to carry forward
 - **Named tree has skip-level edges** (matters for Phase 2's parent⊇child pairs): a fine cluster's

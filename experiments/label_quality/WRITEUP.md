@@ -1,7 +1,7 @@
 # Can you judge Toponymy label quality from embedding geometry?
 
-> **DRAFT — not for posting.** Holding for two more experiments (fine-grained discrimination;
-> label↔document erasure) and a voice pass before sharing to TutteInstitute/toponymy Discussion #173.
+> **DRAFT.** All experiments complete. Remaining before posting to TutteInstitute/toponymy
+> Discussion #173: a voice pass and your sign-off.
 
 ## TL;DR
 
@@ -116,21 +116,32 @@ Finding 2, since whitening's whole edge is penalizing padded labels.
 ## Caveats & open questions
 
 Single corpus (20NG), single namer (haiku), single embedder (MiniLM) — the verbosity-driven results
-in particular should be re-checked with a terser namer and a different embedder. Two experiments are
-pending before this is complete:
+in particular should be re-checked with a terser namer and a different embedder. The two follow-up
+experiments below close out the metric (fine discrimination) and the cross-class hypothesis (erasure):
 
-## Coming: fine-grained discrimination
+## Fine-grained discrimination — the metric is a guardrail, not a ranker
 
-*(TBD)* — judge multiple genuinely-good real labels per cluster (a small alternative-labels run) to
-test whether **any** reference point ranks good-vs-good, i.e. the exact regime the original negative
-result lived in. Expectation: low, but we want the number.
+To test the regime the original negative lived in, we gave each cluster two genuinely-good labels
+from *different* namers (haiku vs gpt-4o-mini) and had the grounded sonnet judge (neither namer, so no
+self-preference) pick the better one. Of 104 pairs, the judge **tied on nearly half** — the two good
+labels are often indistinguishable — and on the 54 it decided, **no reference point tracks its
+preference**: centroid 48%, whitened 37% (worst), medoid 50%, exemplar 57% (within noise), none
+clearing 50% on *both* winner-splits. So definitively: **embedding similarity is a coarse guardrail
+(good-vs-bad), not a fine ranker (good-vs-good)** — for subtle quality calls, use the LLM judge.
 
-## Coming: label↔document erasure
+## Label↔document erasure — the gap is real, erasable, and irrelevant
 
-*(TBD)* — the original "labels and documents are different classes" hypothesis. A rank-diagnostic
-(is the label↔document gap a low-rank linear offset, or nonlinear?) gates whether erasing it
-(LEACE / INLP) could help. Lower priority now that whitening already neutralized the cross-class
-confound, but the geometry question is interesting on its own.
+The original "labels and documents are different classes" hypothesis turns out **correct but inert**.
+A rank diagnostic shows label and document embeddings are highly linearly separable (balanced-acc
+0.935) but become inseparable after removing just **1–2 linear directions** (per-class centering drops
+it to 0.33) — so the gap is a **low-rank linear mean offset**, cleanly erasable, and *not* nonlinear
+like the image/text modality gap (a small surprise — it behaves like a corpus-identity gap). **But
+erasing it changes nothing:** coarse judge-correlation 0.737 (vs 0.740 raw), verbose intrusion 74.8%
+(vs 77.6% raw, 91.6% whitened). The offset is **class-uniform** — every label is displaced the same
+way — so removing it can't change which label is closer to a cluster, nor fix verbosity. The real
+problem was never the cross-class offset; it was **anisotropy**, which whitening (a broader transform)
+addresses and offset-erasure does not. So "subtract the difference between labels and documents" is
+geometrically valid and practically useless.
 
 ## Reproduce
 
