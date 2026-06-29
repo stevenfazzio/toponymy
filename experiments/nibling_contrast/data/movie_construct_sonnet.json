@@ -1,0 +1,52 @@
+{
+  "fine": [
+    "Live Concert Films and Music Performance Documentaries Featuring Legendary Artists",
+    "Supernatural Horror Films Featuring Killers Monsters and Haunted Settings",
+    "Romantic Comedy Films Exploring Love Affairs Dating and Relationship Dynamics",
+    "Science Fiction Films Featuring Alien Invasions Dinosaurs Asteroids and Space Threats",
+    "Classic European Romance Films Exploring Love Affairs and Social Intrigue",
+    "Coming-of-Age Stories Featuring Young Men Navigating Family and Identity",
+    "Family Dramas Centered on Parent-Child Relationships and Domestic Life",
+    "Animated Children's Holiday and Adventure Movies Featuring Beloved Cartoon Characters",
+    "Asian Martial Arts Sword Fighting Warriors Samurai Ninja Action Films",
+    "Classic and Modern Crime Thrillers Featuring Heists Gangsters and Criminal Underworld",
+    "World War II and Military Combat Films Across Historical Conflicts",
+    "Documentary Films Exploring Culture, History, Art, and Global Issues",
+    "Crime Drama and Police Procedural TV Series Complete Seasons Collection",
+    "Science Fiction Space Exploration TV Series Featuring Interstellar Travel and Alien Encounters",
+    "Classic American and British Television Series Complete Season DVD Collections",
+    "Japanese Anime Series and Volumes Including Classic and Modern Titles",
+    "Classic and Contemporary American TV Sitcom Complete Season Collections",
+    "Television Drama Series Seasonal Collections Spanning Teen and Adult Narratives"
+  ],
+  "coarse": {
+    "baseline": [
+      "Mixed Genres",
+      "TV Seasons"
+    ],
+    "v1": [
+      "Diverse Cinema",
+      "TV Seasons"
+    ],
+    "v2": [
+      "Classic Cinema",
+      "TV Seasons"
+    ]
+  },
+  "contrast": {
+    "1,0": [
+      "Japanese Anime Series and Volumes from Various Genres and Eras",
+      "Classic and Contemporary American TV Sitcom Complete Season Collections",
+      "Police Procedural and Crime Drama TV Series Complete Seasons Collection",
+      "Classic American and British Television Series Complete Season DVD Collections",
+      "Television Drama Series Seasonal Collections Spanning Teen and Adult Narratives"
+    ],
+    "1,1": [
+      "Animated Children's Holiday and Adventure Movies Featuring Beloved Cartoon Characters",
+      "Family Dynamics Centered on Parent-Child Relationships and Domestic Life",
+      "Live Concert Films and Music Performance Documentaries Featuring Legendary Artists",
+      "Asian Martial Arts Sword Fighting Warriors Samurai Ninja Action Films",
+      "Romantic Comedy Films Exploring Love Affairs Relationships and Sexual Attraction"
+    ]
+  }
+}

@@ -1,0 +1,1187 @@
+{
+  "dataset": "arxiv",
+  "model": "sonnet",
+  "k": 5,
+  "max_dist": null,
+  "disambig": false,
+  "base_min_cluster_size": 25,
+  "min_clusters": 4,
+  "subsample": null,
+  "counts": [
+    118,
+    39,
+    11,
+    4
+  ],
+  "floor_rows": [
+    {
+      "layer": 0,
+      "n": 118,
+      "changed": 49,
+      "rate": 0.4152542372881356,
+      "uniq_base": 112,
+      "uniq_contrast": 112,
+      "dup_base": 6,
+      "dup_contrast": 6,
+      "renames": [
+        [
+          0,
+          "Diverse AI Research Topics Spanning NLP, Robotics, and System Design",
+          "Diverse Machine Learning Applications Spanning NLP, Robotics, and AI Systems"
+        ],
+        [
+          3,
+          "Miscellaneous Machine Learning Applications Across Diverse Domains and Tasks",
+          "Diverse Machine Learning Applications Spanning NLP, Healthcare, and Reinforcement Learning"
+        ],
+        [
+          4,
+          "Diverse Machine Learning Methods Spanning Optimization, Fairness, and Decision-Making",
+          "Diverse Machine Learning Methods Spanning Fairness, Optimization, and Decision-Making"
+        ],
+        [
+          5,
+          "Diverse Machine Learning Applications Spanning Computer Vision, Explainability, and Federated Learning",
+          "Diverse Machine Learning Applications Spanning Computer Vision Explainability and Data Efficiency"
+        ],
+        [
+          6,
+          "Miscellaneous AI and Machine Learning Research Across Diverse Domains",
+          "Miscellaneous AI and Machine Learning Research Across Diverse Application Domains"
+        ],
+        [
+          7,
+          "Diverse Machine Learning Methods Across Heterogeneous Application Domains and Tasks",
+          "Diverse Machine Learning Applications Spanning Optimization, Perception, and Uncertainty Quantification"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Applications Spanning Classification, Optimization, and Neural Architectures",
+          "Diverse Machine Learning Applications Spanning Classification, Recommendation, and Optimization Methods"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Methods Across Knowledge Transfer Argumentation and Graph Representations",
+          "Diverse Machine Learning Methods Across Knowledge Transfer and Argumentation Frameworks"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Applications Spanning Clustering Generalization and Federated Systems",
+          "Diverse Machine Learning Applications Spanning Generalization, Clustering, and Federated Systems"
+        ],
+        [
+          13,
+          "Diverse Machine Learning Methods Across Federated Systems Explainability and Graph Algorithms",
+          "Diverse Machine Learning Applications Spanning Explainability, Federated Learning, and System Optimization"
+        ],
+        [
+          15,
+          "Diverse Machine Learning Applications Spanning Reasoning Memory Safety and Knowledge Graphs",
+          "Diverse Machine Learning Applications Across Heterogeneous Domains and Tasks"
+        ],
+        [
+          18,
+          "Diverse Machine Learning Methods Spanning Ensembles, Reinforcement Learning, and Adversarial Systems",
+          "Diverse Machine Learning Methods Across Varied Application Domains and Tasks"
+        ],
+        [
+          19,
+          "Diverse AI Methods Spanning Causal Inference, Reinforcement Learning, and Impact Assessment",
+          "Diverse Machine Learning Applications Spanning Causality, Reinforcement Learning, and AI Governance"
+        ],
+        [
+          20,
+          "Diverse Machine Learning Methods Spanning NLP, Autonomous Driving, and Model Evaluation",
+          "Diverse Machine Learning Methods Across Autonomous Systems and NLP Applications"
+        ],
+        [
+          23,
+          "Diverse AI Applications Spanning Optimization, Control, Robotics, and Natural Language Processing",
+          "Diverse AI Applications Spanning Optimization, Control, Robotics, and Language Understanding"
+        ],
+        [
+          27,
+          "Miscellaneous Machine Learning Methods Across Diverse Application Domains",
+          "Miscellaneous Machine Learning Applications Spanning Diverse Unrelated Research Domains"
+        ],
+        [
+          28,
+          "Diverse Machine Learning Applications Spanning Generative Models, Reinforcement Learning, and AI Governance",
+          "Diverse Machine Learning Research Spanning Generative Models, Reinforcement Learning, and AI Governance"
+        ],
+        [
+          30,
+          "Miscellaneous Machine Learning and AI Research Across Diverse Application Domains",
+          "Miscellaneous Machine Learning and AI Research Across Diverse Domains"
+        ],
+        [
+          33,
+          "Diverse Machine Learning Applications Spanning Federated Learning Multi-Agent and Meta-Reinforcement Learning",
+          "Diverse Machine Learning Applications Spanning Federated Learning Multi-Agent and Reinforcement Learning"
+        ],
+        [
+          36,
+          "Diverse Machine Learning Applications Across Robotics, NLP, and Network Systems",
+          "Diverse Machine Learning Applications Across Robotics, Networks, and Explainable AI"
+        ],
+        [
+          38,
+          "Diverse Machine Learning Methods Spanning Clustering Robotics NLP and Neural Networks",
+          "Diverse Machine Learning Methods Spanning Clustering, Robotics, and Language Understanding"
+        ],
+        [
+          40,
+          "Miscellaneous AI and NLP Research Papers Across Diverse Domains",
+          "Miscellaneous AI and Machine Learning Research Papers Across Diverse Domains"
+        ],
+        [
+          43,
+          "Diverse Machine Learning Applications Spanning Neural Networks, Testing, and Embedded Systems",
+          "Diverse Machine Learning Applications Spanning Neural Networks Software Testing and IoT Systems"
+        ],
+        [
+          49,
+          "Diverse Machine Learning Methods Across Unrelated Application Domains",
+          "Diverse Machine Learning Methods Across Unrelated Application Domains and Tasks"
+        ],
+        [
+          50,
+          "Diverse AI and Machine Learning Research Across Multiple Unrelated Domains",
+          "Diverse AI and Machine Learning Research Across Multiple Domains and Applications"
+        ],
+        [
+          52,
+          "Diverse Machine Learning Methods Spanning Theory Applications and Specialized Domains",
+          "Diverse Miscellaneous Machine Learning Methods Spanning Theory Applications and Domains"
+        ],
+        [
+          56,
+          "Diverse Machine Learning Research Papers Without Clear Unifying Theme",
+          "Diverse Machine Learning Research Spanning Federated Learning, Reinforcement Learning, and Multi-Agent Systems"
+        ],
+        [
+          60,
+          "Diverse Machine Learning Applications Across Safety, Detection, and Optimization Domains",
+          "Diverse Machine Learning Applications Spanning NLP, Safety, Anomaly Detection, and Trajectory Analysis"
+        ],
+        [
+          62,
+          "Diverse Machine Learning Methods Across Vision Language and Audio Domains",
+          "Diverse Machine Learning Methods Spanning Vision, Audio, and Representation Learning"
+        ],
+        [
+          63,
+          "Miscellaneous Machine Learning and AI Research Across Diverse Domains",
+          "Diverse Machine Learning and AI Research Spanning Multiple Unrelated Domains"
+        ],
+        [
+          64,
+          "Diverse Machine Learning Applications Spanning NLP, Reinforcement Learning, and Probabilistic Models",
+          "Diverse Machine Learning Applications Spanning NLP, Reinforcement Learning, and Knowledge Representation"
+        ],
+        [
+          65,
+          "Diverse Machine Learning Methods Spanning Tokenization, Embeddings, and Inference Techniques",
+          "Diverse Machine Learning Methods Across NLP, Knowledge Graphs, and Reinforcement Learning"
+        ],
+        [
+          69,
+          "Diverse Machine Learning Methods Across NLP, Reasoning, and Optimization Tasks",
+          ""
+        ],
+        [
+          72,
+          "Diverse Machine Learning Applications Across Safety, Healthcare, and Optimization Domains",
+          "Diverse Machine Learning Applications Across Safety Evaluation and Decision Making"
+        ],
+        [
+          73,
+          "Diverse Applied Machine Learning Across Healthcare, Autonomous Systems, and Knowledge Representation",
+          "Diverse Machine Learning Applications Across Healthcare, Autonomous Systems, and Knowledge Representation"
+        ],
+        [
+          77,
+          "Diverse Machine Learning Methods Across Vision, Robotics, and Applied Domains",
+          "Diverse Machine Learning Methods Across Vision Robotics and Applied Domains"
+        ],
+        [
+          79,
+          "Diverse Machine Learning Applications Across Modalities Domains and Architectures",
+          "Diverse Machine Learning Applications Across Domains Without Clear Unifying Theme"
+        ],
+        [
+          81,
+          "Diverse Miscellaneous Machine Learning and Computer Science Research Papers",
+          "Miscellaneous AI and Machine Learning Research Papers Across Diverse Domains"
+        ],
+        [
+          83,
+          "Diverse Machine Learning Methods Spanning Neural Networks, Generative Models, and Sustainability",
+          "Diverse Machine Learning Methods Across Varied Application Domains and Architectures"
+        ],
+        [
+          85,
+          "Diverse Machine Learning Applications Spanning Temporal Reasoning Detection and Recommendation Systems",
+          "Diverse Machine Learning Applications Spanning Temporal, Spatial, and Multimodal Domains"
+        ],
+        [
+          87,
+          "Diverse Machine Learning Applications Across Security, NLP, and Reinforcement Learning",
+          "Diverse Machine Learning Applications Across Security, Optimization, and Representation Learning"
+        ],
+        [
+          89,
+          "Diverse Machine Learning Methods Spanning NLP, Reinforcement Learning, and Computer Vision",
+          "Diverse Machine Learning Methods Spanning Reinforcement Learning NLP and Robotics"
+        ],
+        [
+          91,
+          "Diverse Machine Learning Applications Spanning NLP, Biology, and Optimization",
+          "Diverse Machine Learning Applications Spanning NLP Biology Optimization and Forecasting"
+        ],
+        [
+          93,
+          "Miscellaneous AI and machine learning applications across diverse unrelated domains",
+          "Diverse Machine Learning Applications Security Optimization and Reasoning Systems"
+        ],
+        [
+          100,
+          "Diverse Machine Learning Applications Across Healthcare Robotics and Temporal Data",
+          "Diverse Machine Learning Applications Across Healthcare, Robotics, and Temporal Data"
+        ],
+        [
+          108,
+          "Diverse Machine Learning Applications Spanning Vision Language Security and Human-Computer Interaction",
+          "Diverse Machine Learning Applications Spanning Vision Language Security and Human-AI Interaction"
+        ],
+        [
+          111,
+          "Diverse Machine Learning Methods Spanning NLP, Reinforcement Learning, and AI Safety",
+          "Diverse Machine Learning Methods Across NLP, Reasoning, and Sequential Decision Making"
+        ],
+        [
+          112,
+          "Diverse AI Research Topics Spanning Safety, Generation, and Decision Making",
+          "Diverse Machine Learning Applications Spanning Robotics Safety Pathology and Conversational AI"
+        ],
+        [
+          115,
+          "Diverse Machine Learning Tools, Methods, and Applications Research Collection",
+          "Diverse Machine Learning Tools and Methods Across Specialized Application Domains"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 39,
+      "changed": 17,
+      "rate": 0.4358974358974359,
+      "uniq_base": 32,
+      "uniq_contrast": 31,
+      "dup_base": 7,
+      "dup_contrast": 8,
+      "renames": [
+        [
+          1,
+          "Diverse Machine Learning and AI Methods",
+          "Diverse Machine Learning Methods and Applications"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Methods Across Federated Systems Explainability and Graph Algorithms",
+          "Diverse Machine Learning Applications Spanning Explainability, Federated Learning, and System Optimization"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications Spanning Reasoning Memory Safety and Knowledge Graphs",
+          "Diverse Machine Learning Applications Across Heterogeneous Domains and Tasks"
+        ],
+        [
+          6,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse Miscellaneous Machine Learning Research Applications"
+        ],
+        [
+          7,
+          "Diverse Machine Learning Applications Across NLP and Multi-Agent Systems",
+          "Diverse Machine Learning Applications Across Multiple Domains"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Applications Spanning Generative Models, Reinforcement Learning, and AI Governance",
+          "Diverse Machine Learning Research Spanning Generative Models, Reinforcement Learning, and AI Governance"
+        ],
+        [
+          12,
+          "Miscellaneous Machine Learning and AI Research Across Diverse Application Domains",
+          "Miscellaneous Machine Learning and AI Research Across Diverse Domains"
+        ],
+        [
+          15,
+          "Diverse Unrelated Machine Learning Research Applications",
+          "Diverse Miscellaneous Machine Learning Research Across Domains"
+        ],
+        [
+          16,
+          "Miscellaneous AI and NLP Research Papers Across Diverse Domains",
+          "Miscellaneous AI and Machine Learning Research Papers Across Diverse Domains"
+        ],
+        [
+          24,
+          "Diverse Machine Learning Applications Across Multiple Domains",
+          "Diverse Machine Learning Research Across Multiple Domains"
+        ],
+        [
+          25,
+          "Diverse Machine Learning Methods Across Multiple Domains",
+          "Diverse Machine Learning Methods and Applications"
+        ],
+        [
+          26,
+          "Diverse Miscellaneous Machine Learning Research Papers",
+          "Diverse Unrelated AI and Machine Learning Research"
+        ],
+        [
+          27,
+          "Diverse Applied AI Across Multiple Domains",
+          "Diverse AI Applications Across Multiple Domains"
+        ],
+        [
+          28,
+          "Diverse Machine Learning Methods Across Domains",
+          "Diverse Machine Learning Methods Across Multiple Domains"
+        ],
+        [
+          32,
+          "Diverse Machine Learning Methods and Adversarial Robustness",
+          "Diverse Adversarial and Machine Learning Techniques"
+        ],
+        [
+          36,
+          "Diverse Machine Learning Methods and Applications Research",
+          "Diverse Machine Learning Applications Across Multiple Domains"
+        ],
+        [
+          38,
+          "Diverse Machine Learning Methods and Applications Research",
+          "Diverse Machine Learning Methods Across Heterogeneous Domains"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 11,
+      "changed": 6,
+      "rate": 0.5454545454545454,
+      "uniq_base": 7,
+      "uniq_contrast": 8,
+      "dup_base": 4,
+      "dup_contrast": 3,
+      "renames": [
+        [
+          0,
+          "Diverse Unrelated Machine Learning Research Applications",
+          "Diverse Miscellaneous Machine Learning Research Across Domains"
+        ],
+        [
+          1,
+          "Diverse Miscellaneous ML Research",
+          "Diverse AI/ML Research Papers"
+        ],
+        [
+          5,
+          "Diverse Machine Learning Applications Across Multiple Domains",
+          "Diverse Machine Learning Research Across Multiple Domains"
+        ],
+        [
+          6,
+          "Diverse Miscellaneous Machine Learning Research Papers",
+          "Diverse Unrelated AI and Machine Learning Research"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Methods and Applications Research",
+          "Diverse Machine Learning Applications Across Multiple Domains"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Methods and Applications Research",
+          "Diverse Machine Learning Methods Across Heterogeneous Domains"
+        ]
+      ]
+    },
+    {
+      "layer": 3,
+      "n": 4,
+      "changed": 1,
+      "rate": 0.25,
+      "uniq_base": 2,
+      "uniq_contrast": 3,
+      "dup_base": 2,
+      "dup_contrast": 1,
+      "renames": [
+        [
+          0,
+          "Miscellaneous ML",
+          "Diverse ML"
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "layer": 0,
+      "n": 118,
+      "changed": 49,
+      "rate": 0.4152542372881356,
+      "uniq_base": 112,
+      "uniq_contrast": 116,
+      "dup_base": 6,
+      "dup_contrast": 2,
+      "renames": [
+        [
+          0,
+          "Diverse AI Research Topics Spanning NLP, Robotics, and System Design",
+          "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems"
+        ],
+        [
+          3,
+          "Miscellaneous Machine Learning Applications Across Diverse Domains and Tasks",
+          "Diverse Machine Learning Applications Across Healthcare, NLP, and Reinforcement Learning"
+        ],
+        [
+          4,
+          "Diverse Machine Learning Methods Spanning Optimization, Fairness, and Decision-Making",
+          "Diverse Machine Learning Methods for Decision Making and Optimization Problems"
+        ],
+        [
+          6,
+          "Miscellaneous AI and Machine Learning Research Across Diverse Domains",
+          "Miscellaneous AI and Machine Learning Research Across Diverse Application Domains"
+        ],
+        [
+          7,
+          "Diverse Machine Learning Methods Across Heterogeneous Application Domains and Tasks",
+          "Diverse Machine Learning Applications Spanning Optimization, Perception, and Uncertainty Quantification"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Methods Across Knowledge Transfer Argumentation and Graph Representations",
+          "Diverse Machine Learning Methods Across Knowledge Transfer and Argumentation Frameworks"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Applications Spanning Clustering Generalization and Federated Systems",
+          "Diverse Machine Learning Applications Spanning Generalization Federated Learning and Adaptive Systems"
+        ],
+        [
+          13,
+          "Diverse Machine Learning Methods Across Federated Systems Explainability and Graph Algorithms",
+          "Diverse Machine Learning Applications Spanning Federated Learning Explainability and Graph Algorithms"
+        ],
+        [
+          15,
+          "Diverse Machine Learning Applications Spanning Reasoning Memory Safety and Knowledge Graphs",
+          "Diverse Machine Learning Applications Spanning Knowledge Graphs, Safety Monitoring, and Reasoning"
+        ],
+        [
+          18,
+          "Diverse Machine Learning Methods Spanning Ensembles, Reinforcement Learning, and Adversarial Systems",
+          "Diverse Machine Learning Methods Spanning Ensembles, Reinforcement Learning, and Adversarial Approaches"
+        ],
+        [
+          20,
+          "Diverse Machine Learning Methods Spanning NLP, Autonomous Driving, and Model Evaluation",
+          "Diverse Machine Learning Methods Across Autonomous Systems and NLP Applications"
+        ],
+        [
+          23,
+          "Diverse AI Applications Spanning Optimization, Control, Robotics, and Natural Language Processing",
+          "Diverse AI Applications Spanning Optimization, Control, Robotics, and Explainability"
+        ],
+        [
+          28,
+          "Diverse Machine Learning Applications Spanning Generative Models, Reinforcement Learning, and AI Governance",
+          "Diverse Machine Learning Research Spanning Generative Models, Reinforcement Learning, and AI Governance"
+        ],
+        [
+          29,
+          "Diverse Machine Learning Methods Spanning Clustering Fairness Optimization and Reinforcement Learning",
+          "Diverse Machine Learning Methods Across Clustering Fairness Optimization and Representation Learning"
+        ],
+        [
+          30,
+          "Miscellaneous Machine Learning and AI Research Across Diverse Application Domains",
+          "Miscellaneous Machine Learning and AI Research Across Diverse Domains"
+        ],
+        [
+          33,
+          "Diverse Machine Learning Applications Spanning Federated Learning Multi-Agent and Meta-Reinforcement Learning",
+          "Diverse Machine Learning Applications Spanning Federated Learning Multi-Agent and Reinforcement Learning"
+        ],
+        [
+          34,
+          "Diverse Machine Learning Applications Spanning Benchmarks, Recommendations, and Sequential Decision Making",
+          "Diverse Machine Learning Applications Across Systems Optimization and Intelligent Reasoning"
+        ],
+        [
+          36,
+          "Diverse Machine Learning Applications Across Robotics, NLP, and Network Systems",
+          "Diverse Machine Learning Applications Across Robotics, Networks, and Language Understanding"
+        ],
+        [
+          38,
+          "Diverse Machine Learning Methods Spanning Clustering Robotics NLP and Neural Networks",
+          "Diverse Machine Learning Methods Spanning Clustering, Robotics, and Language Understanding"
+        ],
+        [
+          40,
+          "Miscellaneous AI and NLP Research Papers Across Diverse Domains",
+          "Miscellaneous AI and NLP Research Papers Across Diverse Unrelated Domains"
+        ],
+        [
+          43,
+          "Diverse Machine Learning Applications Spanning Neural Networks, Testing, and Embedded Systems",
+          "Diverse Machine Learning Applications Spanning Neural Networks Software Testing and IoT Systems"
+        ],
+        [
+          45,
+          "Diverse Machine Learning Applications Across Heterogeneous Domains and Tasks",
+          "Diverse Machine Learning Applications Across Industrial and Multi-Agent Systems"
+        ],
+        [
+          49,
+          "Diverse Machine Learning Methods Across Unrelated Application Domains",
+          "Diverse Machine Learning Methods Across Unrelated Application Domains and Tasks"
+        ],
+        [
+          50,
+          "Diverse AI and Machine Learning Research Across Multiple Unrelated Domains",
+          "Diverse AI and Machine Learning Research Across Multiple Domains and Applications"
+        ],
+        [
+          52,
+          "Diverse Machine Learning Methods Spanning Theory Applications and Specialized Domains",
+          "Diverse Miscellaneous Machine Learning Methods Spanning Theory Applications and Domains"
+        ],
+        [
+          53,
+          "Diverse Machine Learning Applications Across Vision, NLP, and Systems",
+          "Diverse Machine Learning Applications Across Multiple Unrelated Research Domains"
+        ],
+        [
+          56,
+          "Diverse Machine Learning Research Papers Without Clear Unifying Theme",
+          "Diverse Machine Learning Research Spanning Federated Learning, Reinforcement Learning, and Multi-Agent Systems"
+        ],
+        [
+          60,
+          "Diverse Machine Learning Applications Across Safety, Detection, and Optimization Domains",
+          "Diverse Machine Learning Applications Spanning NLP, Safety, Anomaly Detection, and Trajectory Analysis"
+        ],
+        [
+          62,
+          "Diverse Machine Learning Methods Across Vision Language and Audio Domains",
+          "Diverse Machine Learning Methods Spanning Vision, Audio, and Representation Learning"
+        ],
+        [
+          63,
+          "Miscellaneous Machine Learning and AI Research Across Diverse Domains",
+          "Diverse Machine Learning and AI Research Spanning Multiple Unrelated Domains"
+        ],
+        [
+          64,
+          "Diverse Machine Learning Applications Spanning NLP, Reinforcement Learning, and Probabilistic Models",
+          "Diverse Machine Learning Applications Spanning NLP, Reinforcement Learning, and Knowledge Representation"
+        ],
+        [
+          69,
+          "Diverse Machine Learning Methods Across NLP, Reasoning, and Optimization Tasks",
+          ""
+        ],
+        [
+          73,
+          "Diverse Applied Machine Learning Across Healthcare, Autonomous Systems, and Knowledge Representation",
+          "Diverse Machine Learning Applications Across Healthcare, Autonomous Systems, and Knowledge Representation"
+        ],
+        [
+          76,
+          "Diverse Machine Learning Methods Across Reinforcement Learning, Generative Models, and Structured Inference",
+          "Diverse Machine Learning Methods Across Reinforcement Learning, Generative Models, and Causal Inference"
+        ],
+        [
+          77,
+          "Diverse Machine Learning Methods Across Vision, Robotics, and Applied Domains",
+          "Diverse Machine Learning Methods Across Vision Robotics and Specialized Domains"
+        ],
+        [
+          79,
+          "Diverse Machine Learning Applications Across Modalities Domains and Architectures",
+          "Diverse Machine Learning Applications Across Personalization, Sequential Data, and Multimodal Systems"
+        ],
+        [
+          85,
+          "Diverse Machine Learning Applications Spanning Temporal Reasoning Detection and Recommendation Systems",
+          "Diverse Machine Learning Applications Spanning Temporal Reasoning Detection and Multimodal Analysis"
+        ],
+        [
+          91,
+          "Diverse Machine Learning Applications Spanning NLP, Biology, and Optimization",
+          "Diverse Machine Learning Applications Spanning NLP Biology Optimization and Forecasting"
+        ],
+        [
+          93,
+          "Miscellaneous AI and machine learning applications across diverse unrelated domains",
+          "Diverse Machine Learning Applications Security Optimization and Reasoning Systems"
+        ],
+        [
+          94,
+          "Diverse Machine Learning Research Spanning Reinforcement Learning, NLP, and Game Theory",
+          "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications"
+        ],
+        [
+          95,
+          "Diverse Machine Learning Applications Spanning Recommendations, Reasoning, and Optimization Problems",
+          "Diverse Machine Learning Applications Spanning Recommendations, Reasoning, and Optimization"
+        ],
+        [
+          100,
+          "Diverse Machine Learning Applications Across Healthcare Robotics and Temporal Data",
+          "Diverse Machine Learning Applications Across Healthcare, Robotics, and Temporal Data"
+        ],
+        [
+          102,
+          "Diverse AI Research Papers Spanning Reasoning, Learning, and Human-Agent Interaction",
+          "Diverse AI Research Papers Spanning Reasoning, Planning, and Human-AI Interaction"
+        ],
+        [
+          105,
+          "Diverse Machine Learning Methods Across Vision Language and Network Applications",
+          "Diverse Machine Learning Methods Spanning NLP, Vision, and Wireless Systems"
+        ],
+        [
+          107,
+          "Diverse Machine Learning Applications Spanning Classification Detection and Control Systems",
+          "Diverse Machine Learning Applications Spanning Classification Detection and Optimization Tasks"
+        ],
+        [
+          110,
+          "Diverse Machine Learning Methods Spanning Vision Language Models and Evaluation Frameworks",
+          "Diverse Machine Learning Methods Across Vision Language and Reasoning Tasks"
+        ],
+        [
+          111,
+          "Diverse Machine Learning Methods Spanning NLP, Reinforcement Learning, and AI Safety",
+          "Diverse Machine Learning Methods Across NLP, Reasoning, and Sequential Decision Making"
+        ],
+        [
+          112,
+          "Diverse AI Research Topics Spanning Safety, Generation, and Decision Making",
+          "Diverse Machine Learning Applications Spanning Generative AI Safety and Robustness"
+        ],
+        [
+          115,
+          "Diverse Machine Learning Tools, Methods, and Applications Research Collection",
+          "Diverse Machine Learning Tools, Methods, and Applications Across Multiple Domains"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 39,
+      "changed": 31,
+      "rate": 0.7948717948717948,
+      "uniq_base": 32,
+      "uniq_contrast": 39,
+      "dup_base": 7,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Diverse Machine Learning and AI Methods",
+          "Diverse AI Methods with Causal and Adversarial Approaches"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Methods Across Federated Systems Explainability and Graph Algorithms",
+          "Diverse Machine Learning Applications Spanning Federated Learning Explainability and Graph Algorithms"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications Spanning Reasoning Memory Safety and Knowledge Graphs",
+          "Diverse Machine Learning Applications Spanning Knowledge Graphs, Safety Monitoring, and Reasoning"
+        ],
+        [
+          5,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse ML Methods Across Representation and Autonomous Systems"
+        ],
+        [
+          6,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse AI Methods Spanning Diffusion, RL, and Edge Systems"
+        ],
+        [
+          7,
+          "Diverse Machine Learning Applications Across NLP and Multi-Agent Systems",
+          "Diverse ML Applications Spanning Federated NLP and Multi-Agent Systems"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Applications Spanning Generative Models, Reinforcement Learning, and AI Governance",
+          "Diverse Machine Learning Research Spanning Generative Models, Reinforcement Learning, and AI Governance"
+        ],
+        [
+          10,
+          "Diverse Miscellaneous AI and Machine Learning Applications",
+          "Diverse AI Applications Across Specialized Domains and Systems"
+        ],
+        [
+          11,
+          "Diverse Machine Learning Methods Spanning Clustering Fairness Optimization and Reinforcement Learning",
+          "Diverse Machine Learning Methods Across Clustering Fairness Optimization and Representation Learning"
+        ],
+        [
+          12,
+          "Miscellaneous Machine Learning and AI Research Across Diverse Application Domains",
+          "Miscellaneous Machine Learning and AI Research Across Diverse Domains"
+        ],
+        [
+          14,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse Machine Learning Methods Across Neural Architectures and Applications"
+        ],
+        [
+          15,
+          "Diverse Unrelated Machine Learning Research Applications",
+          "Miscellaneous Machine Learning Applications Across Heterogeneous Domains"
+        ],
+        [
+          16,
+          "Miscellaneous AI and NLP Research Papers Across Diverse Domains",
+          "Miscellaneous AI and NLP Research Papers Across Diverse Unrelated Domains"
+        ],
+        [
+          17,
+          "Diverse Machine Learning Applications Across Heterogeneous Domains",
+          "Diverse ML Applications Across Heterogeneous Industrial Domains"
+        ],
+        [
+          21,
+          "Diverse Deep Learning Methods Across Multiple Domains",
+          "Diverse Deep Learning Methods Across Vision Graphs NLP"
+        ],
+        [
+          22,
+          "Diverse Machine Learning Applications and Methods",
+          "Diverse ML Applications Spanning Vision, Health, and Generative AI"
+        ],
+        [
+          24,
+          "Diverse Machine Learning Applications Across Multiple Domains",
+          "Diverse Machine Learning Research Across Unrelated Specialized Domains"
+        ],
+        [
+          25,
+          "Diverse Machine Learning Methods Across Multiple Domains",
+          "Heterogeneous Ensemble and Representation Learning Methods"
+        ],
+        [
+          26,
+          "Diverse Miscellaneous Machine Learning Research Papers",
+          "Diverse Miscellaneous Machine Learning and Computer Science Research"
+        ],
+        [
+          27,
+          "Diverse Applied AI Across Multiple Domains",
+          "Diverse AI Applications Across Autonomous Systems Healthcare and Knowledge"
+        ],
+        [
+          28,
+          "Diverse Machine Learning Methods Across Domains",
+          "Diverse ML Applications Across Vision Language Personalization Multimodal"
+        ],
+        [
+          29,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse ML Methods Reinforcement Learning Generative EEG Applications"
+        ],
+        [
+          30,
+          "Diverse Machine Learning Applications Across Heterogeneous Domains",
+          "Diverse ML Applications Across Security Healthcare and RL"
+        ],
+        [
+          31,
+          "Diverse Machine Learning Applications Across Unrelated Domains",
+          "Diverse ML Applications Across Unrelated Niche Domains"
+        ],
+        [
+          32,
+          "Diverse Machine Learning Methods and Adversarial Robustness",
+          "Adversarial Robustness and Diverse ML Methods Survey"
+        ],
+        [
+          33,
+          "Diverse Machine Learning Applications Across Multiple Domains",
+          "Diverse Deep Learning Applications Across Healthcare Safety and Society"
+        ],
+        [
+          34,
+          "Diverse AI and Machine Learning Research Collection",
+          "Diverse AI Methods Spanning Graphs Reasoning and Human Interaction"
+        ],
+        [
+          35,
+          "Diverse Machine Learning Security and Applications Research",
+          "Diverse ML Security Fairness and System Optimization"
+        ],
+        [
+          36,
+          "Diverse Machine Learning Methods and Applications Research",
+          "Diverse ML Applications Spanning Generative Models and RL"
+        ],
+        [
+          37,
+          "Diverse Machine Learning Applications Across Multiple Domains",
+          "Diverse ML Applications Spanning Vision Language and Sequential Data"
+        ],
+        [
+          38,
+          "Diverse Machine Learning Methods and Applications Research",
+          "Diverse ML Methods Across Vision Planning and Optimization"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 11,
+      "changed": 11,
+      "rate": 1.0,
+      "uniq_base": 7,
+      "uniq_contrast": 11,
+      "dup_base": 4,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Diverse Unrelated Machine Learning Research Applications",
+          "Miscellaneous Machine Learning Applications Across Heterogeneous Domains"
+        ],
+        [
+          1,
+          "Diverse Miscellaneous ML Research",
+          "Miscellaneous AI Research Papers"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Applications",
+          "Diverse ML Industrial Applications"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications",
+          "Diverse Niche ML Applications"
+        ],
+        [
+          4,
+          "Diverse Machine Learning Applications",
+          "Diverse AI Applications Across Domains"
+        ],
+        [
+          5,
+          "Diverse Machine Learning Applications Across Multiple Domains",
+          "Diverse Machine Learning Research Across Unrelated Specialized Domains"
+        ],
+        [
+          6,
+          "Diverse Miscellaneous Machine Learning Research Papers",
+          "Diverse Miscellaneous Machine Learning and Computer Science Research"
+        ],
+        [
+          7,
+          "Diverse Machine Learning Applications Across Heterogeneous Domains",
+          "Diverse ML Applications Across Security Healthcare and RL"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Methods and Applications Research",
+          "Diverse ML Applications Spanning Generative Models and RL"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Applications Across Multiple Domains",
+          "Diverse ML Applications Spanning Vision Language and Sequential Data"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Methods and Applications Research",
+          "Diverse ML Methods Across Vision Planning and Optimization"
+        ]
+      ]
+    },
+    {
+      "layer": 3,
+      "n": 4,
+      "changed": 4,
+      "rate": 1.0,
+      "uniq_base": 2,
+      "uniq_contrast": 4,
+      "dup_base": 2,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Miscellaneous ML",
+          "Diverse ML Applications"
+        ],
+        [
+          1,
+          "Miscellaneous ML",
+          "Miscellaneous ML Research"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Applications",
+          "Diverse Niche ML Applications"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications",
+          "Diverse AI Applications Across Domains"
+        ]
+      ]
+    }
+  ],
+  "injection": {
+    "injected": 31,
+    "calls": 31,
+    "skip": 23,
+    "nocand": 0,
+    "filtered": 0,
+    "nearest_dist": {
+      "min": 0.045579196615790796,
+      "med": 0.18097863146094495,
+      "max": 0.4147295174879895
+    }
+  },
+  "injected_names": {
+    "1,1": [
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Social Domains",
+      "Diverse Machine Learning Applications Spanning Vision Language Safety and Information Retrieval",
+      "Diverse Machine Learning Applications Spanning Classification, Optimization, and Neural Architectures",
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Methods Spanning NLP, Reinforcement Learning, and Computer Vision"
+    ],
+    "1,5": [
+      "Diverse Machine Learning Applications Spanning NLP, Federated Learning, and AI Ethics",
+      "Diverse Machine Learning Applications Spanning Healthcare Robotics and Representation Learning",
+      "Miscellaneous AI and Machine Learning Research Across Diverse Specialized Topics",
+      "Diverse Machine Learning Methods Spanning Interpretability, Optimization, and Applied AI Systems",
+      "Diverse Machine Learning Applications Across Systems Optimization and Intelligent Reasoning"
+    ],
+    "1,6": [
+      "Diverse Machine Learning Methods Across Unrelated Application Domains",
+      "Diverse Machine Learning Methods Spanning Bandits, Robustness, and Miscellaneous Applications",
+      "Diverse Machine Learning Applications Spanning Healthcare, Security, and Generative AI Systems",
+      "Diverse Machine Learning Methods Across Representation Learning and Combinatorial Optimization",
+      "Diverse Machine Learning Applications Spanning Optimization, Perception, and Uncertainty Quantification"
+    ],
+    "1,7": [
+      "Diverse Machine Learning Methods Spanning Bandits, Robustness, and Miscellaneous Applications",
+      "Diverse Machine Learning Applications Spanning Optimization, Perception, and Uncertainty Quantification",
+      "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems",
+      "Miscellaneous AI and Machine Learning Research Across Diverse Application Domains",
+      "Diverse Machine Learning Methods Across Unrelated Application Domains"
+    ],
+    "1,10": [
+      "Diverse Machine Learning Methods Across Representation Learning and Combinatorial Optimization",
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks",
+      "Diverse Machine Learning Applications Across Industrial and Multi-Agent Systems",
+      "Diverse Machine Learning Applications Spanning NLP Vision and Optimization Tasks",
+      "Diverse Machine Learning Methods Spanning Bandits, Robustness, and Miscellaneous Applications"
+    ],
+    "1,14": [
+      "Miscellaneous AI and NLP Research Papers Across Diverse Unrelated Domains",
+      "Diverse Machine Learning Methods Across Reinforcement Learning Benchmarks and Operator Frameworks",
+      "Miscellaneous Machine Learning Methods Across Diverse Unrelated Application Domains",
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks"
+    ],
+    "1,15": [
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications",
+      "Diverse Machine Learning Applications Across Safety, Healthcare, and Optimization Domains",
+      "Diverse Machine Learning Methods Spanning Tokenization, Embeddings, and Inference Techniques",
+      "Diverse Machine Learning Applications Spanning Healthcare Robotics and Representation Learning"
+    ],
+    "1,17": [
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks",
+      "Diverse Machine Learning Methods Across Reinforcement Learning Benchmarks and Operator Frameworks",
+      "Miscellaneous AI and Machine Learning Research Across Diverse Specialized Topics",
+      "Diverse Machine Learning Applications Spanning NLP, Federated Learning, and AI Ethics",
+      "Diverse Machine Learning Applications Spanning NLP, Continual Learning, and AI Systems"
+    ],
+    "1,21": [
+      "Diverse AI Applications Spanning Healthcare Explainability Accessibility and Decision Making",
+      "Diverse Machine Learning Applications Across Healthcare, Autonomous Systems, and Knowledge Representation",
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications",
+      "Diverse Machine Learning Applications Across Healthcare, NLP, and Reinforcement Learning",
+      "Diverse Machine Learning Applications Spanning Generalization Federated Learning and Adaptive Systems"
+    ],
+    "1,22": [
+      "Diverse Machine Learning Applications Spanning Generalization Federated Learning and Adaptive Systems",
+      "Diverse Machine Learning Methods Across Robotics Vision and Inference Applications",
+      "Diverse Machine Learning Applications Spanning EEG Decoding, Reinforcement Learning, and Code Analysis",
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Methods Spanning NLP, Vision, and Sequence Modeling"
+    ],
+    "1,24": [
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Applications Spanning Healthcare Robotics and Representation Learning",
+      "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems",
+      "Diverse AI and Machine Learning Research Across Multiple Domains and Applications",
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications"
+    ],
+    "1,25": [
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks",
+      "Diverse Machine Learning Applications Spanning NLP Vision and Reinforcement Learning",
+      "Diverse Machine Learning Applications Spanning NLP, Continual Learning, and AI Systems",
+      "Diverse Machine Learning Methods Across Reinforcement Learning Benchmarks and Operator Frameworks",
+      "Diverse Machine Learning Applications Spanning NLP Vision and Optimization Tasks"
+    ],
+    "1,26": [
+      "Diverse Machine Learning Applications Spanning Healthcare, Security, and Generative AI Systems",
+      "Diverse Machine Learning Applications Across Multiple Unrelated Research Domains",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Social Domains",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Temporal Data",
+      "Diverse Machine Learning Research Spanning Federated Learning, Reinforcement Learning, and Multi-Agent Systems"
+    ],
+    "1,27": [
+      "Diverse Machine Learning Methods Spanning NLP, Vision, and Sequence Modeling",
+      "Diverse Machine Learning Methods Spanning NLP, Graphs, Adversarial Robustness, and Planning",
+      "Diverse Machine Learning Applications Across Healthcare, NLP, and Reinforcement Learning",
+      "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems",
+      "Diverse Machine Learning Applications Spanning Knowledge Graphs, Safety Monitoring, and Reasoning"
+    ],
+    "1,28": [
+      "Diverse Machine Learning Applications Security Fairness and System Optimization Research",
+      "Diverse Machine Learning Tools, Methods, and Applications Across Multiple Domains",
+      "Diverse Machine Learning Applications Across Multiple Unrelated Research Domains",
+      "Diverse Machine Learning Applications Across Vision, NLP, and Systems",
+      "Diverse Machine Learning Methods Across Medical Imaging Security and Optimization Domains"
+    ],
+    "1,29": [
+      "Diverse Machine Learning Methods Spanning Vision, Audio, and Representation Learning",
+      "Diverse Machine Learning Methods Spanning NLP, Vision, and Sequence Modeling",
+      "Diverse Machine Learning Applications Security Fairness and System Optimization Research",
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications",
+      "Diverse Machine Learning Applications Across Healthcare, Autonomous Systems, and Knowledge Representation"
+    ],
+    "1,30": [
+      "Diverse Machine Learning Methods Across Unrelated Application Domains",
+      "Miscellaneous AI and Machine Learning Research Across Diverse Application Domains",
+      "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems",
+      "Diverse Machine Learning Applications Spanning Vision Language Safety and Information Retrieval",
+      "Diverse Machine Learning Methods Spanning Bandits, Robustness, and Miscellaneous Applications"
+    ],
+    "1,31": [
+      "Diverse Machine Learning Methods Spanning NLP, Reinforcement Learning, and Computer Vision",
+      "Adversarial Robustness and Security Challenges in Diverse Machine Learning Contexts",
+      "Diverse Machine Learning Applications Across Scientific and Engineering Domains",
+      "Diverse Machine Learning Applications Spanning Temporal Reasoning Detection and Multimodal Analysis",
+      "Diverse Machine Learning Research Spanning Federated Learning, Reinforcement Learning, and Multi-Agent Systems"
+    ],
+    "1,32": [
+      "Diverse AI and Optimization Methods Across Unrelated Application Domains",
+      "Diverse Machine Learning Applications Spanning NLP Biology Optimization and Forecasting",
+      "Diverse Machine Learning Applications Across Scientific and Engineering Domains",
+      "Diverse Machine Learning Methods Spanning Neural Networks, Generative Models, and Sustainability",
+      "Diverse Machine Learning Applications Spanning Healthcare, Security, and Generative AI Systems"
+    ],
+    "1,33": [
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications",
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Applications Spanning Classification, Optimization, and Neural Architectures",
+      "Diverse AI Research Papers Spanning Reasoning, Planning, and Human-AI Interaction",
+      "Diverse Miscellaneous Machine Learning and Computer Science Research Papers"
+    ],
+    "1,34": [
+      "Diverse Machine Learning Applications Security Fairness and System Optimization Research",
+      "Diverse Machine Learning Methods Across Vision Language and Reasoning Tasks",
+      "Diverse Applied Machine Learning Methods Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications Spanning Neural Networks, Reinforcement Learning, and AI Systems",
+      "Diverse Machine Learning Applications Across Vision, NLP, and Systems"
+    ],
+    "1,35": [
+      "Diverse Machine Learning Applications Spanning Classification Detection and Optimization Tasks",
+      "Diverse Machine Learning Applications Across Vision, NLP, and Systems",
+      "Diverse Applied Machine Learning Methods Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Temporal Data",
+      "Diverse AI Research Papers Spanning Reasoning, Planning, and Human-AI Interaction"
+    ],
+    "1,36": [
+      "Diverse Machine Learning Methods Across Vision Language and Reasoning Tasks",
+      "Diverse Applied Machine Learning Methods Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications Spanning Computer Vision Transfer Learning and Optimization",
+      "Miscellaneous Machine Learning Applications Across Diverse Domains and Tasks",
+      "Diverse Machine Learning Applications Spanning Vision Language Privacy and Sequential Learning"
+    ],
+    "1,37": [
+      "Diverse Machine Learning Applications Spanning Neural Networks, Reinforcement Learning, and AI Systems",
+      "Diverse Applied Machine Learning Methods Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications Spanning Computer Vision Transfer Learning and Optimization",
+      "Diverse Machine Learning Tools, Methods, and Applications Across Multiple Domains",
+      "Diverse Machine Learning Applications Spanning Recommendations, Reasoning, and Optimization"
+    ],
+    "1,38": [
+      "Diverse Machine Learning Applications Across Vision, NLP, and Systems",
+      "Miscellaneous Machine Learning Applications Across Diverse Domains and Tasks",
+      "Diverse Machine Learning Applications Spanning Neural Networks, Reinforcement Learning, and AI Systems",
+      "Diverse Machine Learning Methods Across Knowledge Transfer and Argumentation Frameworks",
+      "Diverse Machine Learning Applications Spanning Recommendations, Reasoning, and Optimization"
+    ],
+    "2,1": [
+      "Diverse Machine Learning Methods Across Neural Architectures and Applications",
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks",
+      "Heterogeneous Ensemble and Representation Learning Methods",
+      "Diverse ML Applications Across Heterogeneous Industrial Domains",
+      "Diverse AI Applications Across Specialized Domains and Systems"
+    ],
+    "2,2": [
+      "Diverse Machine Learning Methods Across Reinforcement Learning Benchmarks and Operator Frameworks",
+      "Diverse AI Applications Across Specialized Domains and Systems",
+      "Heterogeneous Ensemble and Representation Learning Methods",
+      "Diverse Machine Learning Methods Across Neural Architectures and Applications",
+      "Diverse Machine Learning Applications Spanning NLP, Federated Learning, and AI Ethics"
+    ],
+    "2,3": [
+      "Diverse Miscellaneous Machine Learning and Computer Science Research",
+      "Diverse ML Methods Across Representation and Autonomous Systems",
+      "Diverse Deep Learning Applications Across Healthcare Safety and Society",
+      "Diverse ML Applications Across Security Healthcare and RL",
+      "Diverse ML Applications Across Heterogeneous Industrial Domains"
+    ],
+    "2,4": [
+      "Diverse ML Security Fairness and System Optimization",
+      "Diverse Deep Learning Methods Across Vision Graphs NLP",
+      "Diverse Machine Learning and NLP Methods Across Heterogeneous Application Domains",
+      "Diverse ML Methods Across Vision Planning and Optimization",
+      "Miscellaneous Machine Learning Applications Across Heterogeneous Domains"
+    ],
+    "3,0": [
+      "Diverse AI Applications Across Domains",
+      "Diverse ML Applications Across Security Healthcare and RL",
+      "Diverse Machine Learning Research Across Unrelated Specialized Domains",
+      "Diverse Miscellaneous Machine Learning and Computer Science Research",
+      "Diverse Niche ML Applications"
+    ],
+    "3,1": [
+      "Diverse AI Applications Across Domains",
+      "Miscellaneous Machine Learning Applications Across Heterogeneous Domains",
+      "Miscellaneous AI Research Papers",
+      "Diverse Niche ML Applications",
+      "Diverse ML Industrial Applications"
+    ]
+  },
+  "seconds": 1272.0
+}

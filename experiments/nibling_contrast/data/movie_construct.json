@@ -1,0 +1,52 @@
+{
+  "fine": [
+    "Live Concert Films and Music Performance Documentaries Featuring Major Artists",
+    "Supernatural Horror Films Featuring Killers, Monsters, and Haunted Locations",
+    "Contemporary romantic comedies exploring unconventional relationships and emotional complications",
+    "Sci-Fi Disaster Films: Alien Invasions, Cosmic Threats, and Prehistoric Catastrophes",
+    "European Period Romance and Infidelity: Aristocratic Affairs and Social Intrigue",
+    "Coming-of-Age Stories About Young Men Navigating Family Conflict and Personal Growth",
+    "Family Relationships and Domestic Life: Mothers, Daughters, and Generational Bonds",
+    "Family-Friendly Animated and Live-Action Holiday Adventures Featuring Beloved Cartoon Characters",
+    "Asian Martial Arts Action: Samurai, Kung Fu, and Warrior Combat Films",
+    "Crime Thrillers Featuring Criminals, Heists, and Law Enforcement Conflicts",
+    "Military Combat Operations and Soldier Missions Across Multiple Wars and Theaters",
+    "Documentary Films Exploring Artists, Ideas, History, and Global Issues Through Archival Footage",
+    "Police Procedural and Crime Investigation Television Series with Episodic Case-Solving Narratives",
+    "Science Fiction Space Exploration Series with Military and Government Agencies",
+    "Classic Television Series Complete Seasons and Episodes on DVD",
+    "Anime Series Collections: Complete Seasons and Volume Releases",
+    "Television Series Season Collections and Multi-Disc DVD Box Sets",
+    "Television Drama Series First and Early Seasons Featuring Teen and Young Adult Characters"
+  ],
+  "coarse": {
+    "baseline": [
+      "Dramatic Cinema",
+      "Television Seasons"
+    ],
+    "v1": [
+      "Classic Drama",
+      "Television Seasons"
+    ],
+    "v2": [
+      "Classic Drama",
+      "Television Series"
+    ]
+  },
+  "contrast": {
+    "1,0": [
+      "Anime Series Collections: Complete Seasons and Volume Releases",
+      "Television Series Season Collections and Multi-Disc DVD Box Sets",
+      "Police Procedural and Crime Investigation Television Series with Episodic Case-Solving Narratives",
+      "Classic Television Series Complete Seasons and Episodes on DVD",
+      "Television Drama Series First and Early Seasons Featuring Teen and Young Adult Characters"
+    ],
+    "1,1": [
+      "Family-Friendly Animated and Live-Action Holiday Adventures Featuring Beloved Cartoon Characters",
+      "Family Relationships and Domestic Life: Mothers, Daughters, and Generational Bonds",
+      "Live Concert Films and Music Performance Documentaries Featuring Major Artists",
+      "Asian Martial Arts Action: Samurai, Kung Fu, and Warrior Combat Films",
+      "Contemporary Romance Comedies Exploring Love, Relationships, and Emotional Complications"
+    ]
+  }
+}

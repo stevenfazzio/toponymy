@@ -1,0 +1,51 @@
+{
+  "counts": [
+    2
+  ],
+  "coarsest": [
+    {
+      "cluster": 0,
+      "n": 2260,
+      "tv_frac": 0.025221238938053097,
+      "kind": "MOVIE",
+      "baseline": "Crime Thrillers Featuring Criminals, Killers, and Violent Revenge Plots",
+      "v1": "Crime Thrillers Featuring Criminals, Killers, and Violent Revenge Plots",
+      "v2": "Crime Thrillers Featuring Criminals, Killers, and Violent Revenge Plots",
+      "v1_contrast": [],
+      "v2_contrast": [],
+      "children": []
+    },
+    {
+      "cluster": 1,
+      "n": 2333,
+      "tv_frac": 0.010715816545220747,
+      "kind": "MOVIE",
+      "baseline": "Romantic Relationships and Marriage Complications in Classic and Contemporary Cinema",
+      "v1": "Romantic Relationships and Marriage Complications in Classic and Contemporary Cinema",
+      "v2": "Romantic Relationships and Marriage Complications in Classic and Contemporary Cinema",
+      "v1_contrast": [],
+      "v2_contrast": [],
+      "children": []
+    }
+  ],
+  "all_layers": {
+    "baseline": [
+      [
+        "Crime Thrillers Featuring Criminals, Killers, and Violent Revenge Plots",
+        "Romantic Relationships and Marriage Complications in Classic and Contemporary Cinema"
+      ]
+    ],
+    "v1": [
+      [
+        "Crime Thrillers Featuring Criminals, Killers, and Violent Revenge Plots",
+        "Romantic Relationships and Marriage Complications in Classic and Contemporary Cinema"
+      ]
+    ],
+    "v2": [
+      [
+        "Crime Thrillers Featuring Criminals, Killers, and Violent Revenge Plots",
+        "Romantic Relationships and Marriage Complications in Classic and Contemporary Cinema"
+      ]
+    ]
+  }
+}

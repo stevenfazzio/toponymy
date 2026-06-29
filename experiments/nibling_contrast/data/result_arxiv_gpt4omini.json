@@ -1,0 +1,758 @@
+{
+  "dataset": "arxiv",
+  "model": "gpt4omini",
+  "k": 5,
+  "max_dist": null,
+  "disambig": false,
+  "base_min_cluster_size": 25,
+  "min_clusters": 4,
+  "subsample": null,
+  "counts": [
+    118,
+    39,
+    11,
+    4
+  ],
+  "floor_rows": [
+    {
+      "layer": 0,
+      "n": 118,
+      "changed": 18,
+      "rate": 0.15254237288135594,
+      "uniq_base": 118,
+      "uniq_contrast": 118,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          8,
+          "AI Techniques for Educational Support and Neurological Disorder Diagnosis",
+          "AI Techniques for Medical Diagnosis and Recommendation Systems"
+        ],
+        [
+          17,
+          "Autonomous Systems and Machine Learning for Dynamic Environments",
+          "Cognitive Dynamics and Reinforcement Learning in Autonomous Systems"
+        ],
+        [
+          26,
+          "On-Device AI Systems and Active Learning for Malware Detection",
+          "On-Device AI Systems and Adaptive Learning for Malware Detection"
+        ],
+        [
+          32,
+          "Causal Inference, Image Generation, and Federated Learning in AI",
+          "Advanced Techniques in Causal Inference and Image Generation with LLMs"
+        ],
+        [
+          41,
+          "Advanced Techniques in Machine Learning for Real-World Applications",
+          "Advanced Machine Learning Techniques for Real-World Applications and Human Interaction"
+        ],
+        [
+          42,
+          "Advanced Machine Learning Techniques for Diverse Applications and Data Representation",
+          "Advanced Machine Learning Techniques for Diverse Applications and Modeling"
+        ],
+        [
+          49,
+          "Advanced Machine Learning Techniques for Natural Language and Uncertainty Modeling",
+          "Advanced Machine Learning Techniques for Natural Language and Theorem Proving"
+        ],
+        [
+          51,
+          "Machine Learning Applications in Human Interaction, Transportation, and Data Analysis",
+          "Machine Learning Applications in Human Interaction and Urban Analysis"
+        ],
+        [
+          55,
+          "Multimodal Learning, Vulnerability Detection, and Intellectual Property in AI",
+          "Multimodal AI Applications in Vulnerability Detection and Generative Design"
+        ],
+        [
+          64,
+          "Machine Learning Applications in Marketing and Social Media Analysis",
+          "Machine Learning Applications in Marketing and Speech Analysis"
+        ],
+        [
+          72,
+          "Advanced Techniques in Machine Learning for Healthcare and Code Search",
+          "Advanced Techniques in Machine Learning for Decision-Making and Safety Evaluation"
+        ],
+        [
+          80,
+          "Multimodal Machine Learning and Causal Inference Techniques",
+          "Multimodal Learning and Causal Inference in Machine Learning Applications"
+        ],
+        [
+          84,
+          "Advanced Techniques in Time-Series Analysis and Anomaly Detection",
+          "Advanced Techniques in Anomaly Detection and Optimization in AI Systems"
+        ],
+        [
+          87,
+          "Deep Learning Applications in Security, Uncertainty, and Structured Data Verification",
+          "Deep Learning Applications in Security, Uncertainty Quantification, and Data Verification"
+        ],
+        [
+          88,
+          "Advanced Machine Learning Techniques in Healthcare and Finance Applications",
+          "Advanced Machine Learning Applications in Healthcare, Finance, and Anomaly Detection"
+        ],
+        [
+          102,
+          "Multimodal AI Systems for Task Guidance and Causal Reasoning",
+          "Multimodal AI, Reinforcement Learning, and Causal Reasoning in Complex Systems"
+        ],
+        [
+          107,
+          "Advanced Techniques in Machine Learning for Complex Data Analysis",
+          "Advanced Techniques in Machine Learning for Complex Systems and Applications"
+        ],
+        [
+          109,
+          "Advanced Techniques in Machine Learning for Social Interaction and Semantic Understanding",
+          "Advanced Techniques in Machine Learning for Image and Action Analysis"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 39,
+      "changed": 7,
+      "rate": 0.1794871794871795,
+      "uniq_base": 39,
+      "uniq_contrast": 39,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Advanced AI Techniques for 3D Data Analysis",
+          "Advanced AI Techniques for 3D Data"
+        ],
+        [
+          14,
+          "Advanced Machine Learning Techniques for Task Optimization",
+          "Advanced Machine Learning for Autonomous Systems"
+        ],
+        [
+          15,
+          "Advanced Machine Learning Techniques and Applications",
+          "Advanced AI Techniques in Healthcare and Interaction"
+        ],
+        [
+          21,
+          "Advanced Machine Learning for Image and Event Analysis",
+          "Advanced Machine Learning Techniques for Prediction"
+        ],
+        [
+          24,
+          "Advanced Machine Learning Techniques for Diverse Applications",
+          "Advanced Machine Learning for Misinformation and Decision-Making"
+        ],
+        [
+          34,
+          "Graph Similarity and Adaptive Learning Models",
+          "Graph Similarity and Adaptive Learning Techniques"
+        ],
+        [
+          36,
+          "AI Techniques for Robust Decision Making",
+          "AI Techniques for Robust Decision-Making"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 11,
+      "changed": 4,
+      "rate": 0.36363636363636365,
+      "uniq_base": 11,
+      "uniq_contrast": 11,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Advanced Machine Learning Techniques and Applications",
+          "Advanced AI Techniques in Healthcare and Interaction"
+        ],
+        [
+          3,
+          "AI Techniques for Decision-Making",
+          "AI Optimization and Learning"
+        ],
+        [
+          5,
+          "Advanced Machine Learning Techniques for Diverse Applications",
+          "Advanced Machine Learning for Misinformation and Decision-Making"
+        ],
+        [
+          8,
+          "AI Techniques for Robust Decision Making",
+          "AI Techniques for Robust Decision-Making"
+        ]
+      ]
+    },
+    {
+      "layer": 3,
+      "n": 4,
+      "changed": 1,
+      "rate": 0.25,
+      "uniq_base": 4,
+      "uniq_contrast": 4,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          2,
+          "AI Techniques for Decision-Making",
+          "AI Optimization and Learning"
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "layer": 0,
+      "n": 118,
+      "changed": 19,
+      "rate": 0.16101694915254236,
+      "uniq_base": 118,
+      "uniq_contrast": 118,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          10,
+          "Federated Learning and Generalization in Short Text Clustering and Reinforcement Learning",
+          "Federated Learning and Generalization in Short Text Clustering and Action Planning"
+        ],
+        [
+          17,
+          "Autonomous Systems and Machine Learning for Dynamic Environments",
+          "Advanced Algorithms for Autonomous Systems and Human-Robot Collaboration"
+        ],
+        [
+          18,
+          "Advanced Machine Learning Techniques for 3D Data and AI Applications",
+          "Advanced Machine Learning Techniques for Robustness and Fairness in AI Systems"
+        ],
+        [
+          32,
+          "Causal Inference, Image Generation, and Federated Learning in AI",
+          "Advanced Techniques in Causal Inference and Image Generation with LLMs"
+        ],
+        [
+          37,
+          "Reinforcement Learning Applications in Drug Design and Autonomous Systems",
+          "Reinforcement Learning and Deep Learning Applications in Autonomous Systems"
+        ],
+        [
+          42,
+          "Advanced Machine Learning Techniques for Diverse Applications and Data Representation",
+          "Advanced Machine Learning Techniques for Diverse Applications and Modeling"
+        ],
+        [
+          48,
+          "Advanced Techniques in Multi-Agent Learning and Preference-Based Reinforcement Learning",
+          "Advanced Techniques in Multi-Agent Learning and Object Recognition"
+        ],
+        [
+          49,
+          "Advanced Machine Learning Techniques for Natural Language and Uncertainty Modeling",
+          "Advanced Machine Learning Techniques for Natural Language and Theorem Proving"
+        ],
+        [
+          55,
+          "Multimodal Learning, Vulnerability Detection, and Intellectual Property in AI",
+          "Multimodal AI Applications in Vulnerability Detection and Intellectual Property Rights"
+        ],
+        [
+          64,
+          "Machine Learning Applications in Marketing and Social Media Analysis",
+          "Machine Learning Approaches for Marketing Knowledge and Speech Detection"
+        ],
+        [
+          67,
+          "Advanced Techniques in Biomedical Data Analysis and Model Interpretability",
+          "Advanced Techniques in Biomedical Data Analysis and Model Robustness"
+        ],
+        [
+          72,
+          "Advanced Techniques in Machine Learning for Healthcare and Code Search",
+          "Advanced Techniques in Machine Learning for Decision-Making and Safety Evaluation"
+        ],
+        [
+          80,
+          "Multimodal Machine Learning and Causal Inference Techniques",
+          "Multimodal Machine Learning and Causal Inference in AI Applications"
+        ],
+        [
+          88,
+          "Advanced Machine Learning Techniques in Healthcare and Finance Applications",
+          "Advanced Machine Learning Applications in Healthcare, Finance, and Anomaly Detection"
+        ],
+        [
+          94,
+          "Exploration, Fairness, and Sequential Decision-Making in AI Systems",
+          "Exploration, Fairness, and Sequential Learning in AI Systems"
+        ],
+        [
+          107,
+          "Advanced Techniques in Machine Learning for Complex Data Analysis",
+          "Advanced Techniques in Machine Learning for Complex Systems and Applications"
+        ],
+        [
+          108,
+          "Innovative AI Techniques for Design, Speech, and Security Applications",
+          "Innovative AI Techniques for Design, Speech Recognition, and Security Challenges"
+        ],
+        [
+          109,
+          "Advanced Techniques in Machine Learning for Social Interaction and Semantic Understanding",
+          "Advanced Techniques in Machine Learning for Semantic Understanding and Action Detection"
+        ],
+        [
+          116,
+          "Advanced Techniques in Machine Learning for Causal Inference and Privacy",
+          "Advanced Techniques in Machine Learning for Privacy, Optimization, and Causality"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 39,
+      "changed": 18,
+      "rate": 0.46153846153846156,
+      "uniq_base": 39,
+      "uniq_contrast": 39,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Advanced AI Techniques for 3D Data Analysis",
+          "Robustness and Fairness in AI Systems"
+        ],
+        [
+          7,
+          "Innovations in Multi-Agent Learning and Causality",
+          "Innovations in Multi-Agent Learning and Causal Inference"
+        ],
+        [
+          14,
+          "Advanced Machine Learning Techniques for Task Optimization",
+          "Advanced Machine Learning for Autonomous Systems"
+        ],
+        [
+          15,
+          "Advanced Machine Learning Techniques and Applications",
+          "Innovative Machine Learning Techniques for Healthcare"
+        ],
+        [
+          17,
+          "Multi-Modal Learning in AI Applications",
+          "Multi-Modal Learning for Industrial Applications"
+        ],
+        [
+          20,
+          "Advanced Techniques in Multi-Agent Learning and Preference-Based Reinforcement Learning",
+          "Advanced Techniques in Multi-Agent Learning and Object Recognition"
+        ],
+        [
+          24,
+          "Advanced Machine Learning Techniques for Diverse Applications",
+          "Advanced Machine Learning for Misinformation and Decision-Making"
+        ],
+        [
+          25,
+          "Advanced Techniques in Low-Resource Learning",
+          "Advanced Techniques in Low-Resource NLP"
+        ],
+        [
+          26,
+          "Graph-Based Learning and Multi-Objective Optimization",
+          "Graph Representation and Multi-Objective Learning"
+        ],
+        [
+          27,
+          "AI in Healthcare, Communication, and Ontology",
+          "AI Applications in Healthcare and Communication"
+        ],
+        [
+          28,
+          "Advanced Techniques in Sequential Data Modeling",
+          "Sequential Data Modeling and Personalized Recommendations"
+        ],
+        [
+          30,
+          "Machine Learning for Healthcare and Security",
+          "Machine Learning for Healthcare and Security Applications"
+        ],
+        [
+          31,
+          "AI Optimization in Biology and Decision-Making",
+          "Deep Learning and Optimization in AI Applications"
+        ],
+        [
+          33,
+          "AI and Machine Learning in Healthcare Applications",
+          "AI and Machine Learning for Healthcare Applications"
+        ],
+        [
+          35,
+          "Adversarial Learning and Multi-Modal Systems",
+          "Adversarial Attacks and Multi-Modal Learning"
+        ],
+        [
+          36,
+          "AI Techniques for Robust Decision Making",
+          "AI Techniques for Robustness and Decision Making"
+        ],
+        [
+          37,
+          "Multimodal AI Techniques for Data Generation",
+          "Innovative AI Techniques for Multimodal Applications"
+        ],
+        [
+          38,
+          "Advanced Techniques in Machine Learning Applications",
+          "Advanced Techniques in AI for System Optimization"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 11,
+      "changed": 11,
+      "rate": 1.0,
+      "uniq_base": 11,
+      "uniq_contrast": 11,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Advanced Machine Learning Techniques and Applications",
+          "Innovative Machine Learning Techniques for Healthcare"
+        ],
+        [
+          1,
+          "Robust AI and Automation",
+          "Robust AI Communication Systems"
+        ],
+        [
+          2,
+          "Multi-Modal Machine Learning",
+          "Multi-Modal Machine Learning Techniques"
+        ],
+        [
+          3,
+          "AI Techniques for Decision-Making",
+          "Green AI and Federated Learning"
+        ],
+        [
+          4,
+          "AI in Healthcare and Learning",
+          "AI in Healthcare and Dialogue"
+        ],
+        [
+          5,
+          "Advanced Machine Learning Techniques for Diverse Applications",
+          "Advanced Machine Learning for Misinformation and Decision-Making"
+        ],
+        [
+          6,
+          "Graph-Based Learning and Multi-Objective Optimization",
+          "Graph Representation and Multi-Objective Learning"
+        ],
+        [
+          7,
+          "Machine Learning for Healthcare and Security",
+          "Machine Learning for Healthcare and Security Applications"
+        ],
+        [
+          8,
+          "AI Techniques for Robust Decision Making",
+          "AI Techniques for Robustness and Decision Making"
+        ],
+        [
+          9,
+          "Multimodal AI Techniques for Data Generation",
+          "Innovative AI Techniques for Multimodal Applications"
+        ],
+        [
+          10,
+          "Advanced Techniques in Machine Learning Applications",
+          "Advanced Techniques in AI for System Optimization"
+        ]
+      ]
+    },
+    {
+      "layer": 3,
+      "n": 4,
+      "changed": 4,
+      "rate": 1.0,
+      "uniq_base": 4,
+      "uniq_contrast": 4,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Robust Multi-Modal Learning",
+          "Robust AI Techniques"
+        ],
+        [
+          1,
+          "Multimodal Learning",
+          "Multimodal AI Techniques"
+        ],
+        [
+          2,
+          "AI Techniques for Decision-Making",
+          "Green AI and Federated Learning"
+        ],
+        [
+          3,
+          "AI in Healthcare and Learning",
+          "AI in Healthcare and Dialogue"
+        ]
+      ]
+    }
+  ],
+  "injection": {
+    "injected": 31,
+    "calls": 31,
+    "skip": 23,
+    "nocand": 0,
+    "filtered": 0,
+    "nearest_dist": {
+      "min": 0.045579196615790796,
+      "med": 0.18097863146094495,
+      "max": 0.4147295174879895
+    }
+  },
+  "injected_names": {
+    "1,1": [
+      "AI Techniques for Image Generation, Bias Detection, and Domain Adaptation",
+      "Advanced Techniques in Machine Learning for Real-Time Decision Making",
+      "AI Techniques for Educational Support and Neurological Disorder Diagnosis",
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "Reinforcement Learning and Knowledge Integration in AI Systems"
+    ],
+    "1,5": [
+      "Multi-Modal Learning and Ethical AI in Data-Driven Applications",
+      "Advanced AI Techniques for Deception Detection and Medical Diagnosis",
+      "Advanced Techniques in AI for Explainability, Acceleration, and Domain-Specific Applications",
+      "Interpretable Machine Learning and Collaborative AI Research Advances",
+      "Advanced Deep Learning Techniques for Efficient Model Performance and Evaluation"
+    ],
+    "1,6": [
+      "Advanced Machine Learning Techniques for Causal Inference and Reinforcement Learning",
+      "Advanced Techniques in Language Processing and Robust Machine Learning",
+      "Algorithmic Approaches in Healthcare, 3D Modeling, and Adversarial Learning",
+      "Advanced Techniques in Graph Neural Networks and Time Series Representation Learning",
+      "Advanced Techniques in Machine Learning for User-Centric Applications and Robustness"
+    ],
+    "1,7": [
+      "Advanced Techniques in Language Processing and Robust Machine Learning",
+      "Advanced Techniques in Machine Learning for User-Centric Applications and Robustness",
+      "Advanced AI Techniques for User Representation and Causal Reasoning",
+      "AI in Healthcare, Fairness, and Multi-Agent Learning Dynamics",
+      "Advanced Machine Learning Techniques for Causal Inference and Reinforcement Learning"
+    ],
+    "1,10": [
+      "Advanced Techniques in Graph Neural Networks and Time Series Representation Learning",
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving",
+      "Advanced Machine Learning Techniques for Industrial Applications and Multi-Agent Systems",
+      "Multi-Modal Learning, Fairness, and Efficient Neural Network Architectures",
+      "Advanced Techniques in Language Processing and Robust Machine Learning"
+    ],
+    "1,14": [
+      "AI-Driven Communication, Knowledge Graphs, and Autonomous Systems Research",
+      "Advanced Techniques in Multi-Agent Learning and Object Recognition",
+      "Robustness and Adaptability in Machine Learning and Automation Techniques",
+      "Advanced Techniques in Low-Resource NLP and Multi-Agent Learning",
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving"
+    ],
+    "1,15": [
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "Exploration, Fairness, and Sequential Learning in AI Systems",
+      "Advanced Techniques in Machine Learning for Decision-Making and Safety Evaluation",
+      "Advanced Techniques in Machine Learning for Structured Data and Tokenization",
+      "Advanced AI Techniques for Deception Detection and Medical Diagnosis"
+    ],
+    "1,17": [
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving",
+      "Advanced Techniques in Multi-Agent Learning and Object Recognition",
+      "Advanced Techniques in AI for Explainability, Acceleration, and Domain-Specific Applications",
+      "Multi-Modal Learning and Ethical AI in Data-Driven Applications",
+      "Reinforcement Learning and Novel Class Detection in AI Applications"
+    ],
+    "1,21": [
+      "AI Applications in Misinformation, Sign Language, and Medical Diagnosis",
+      "AI Applications in Healthcare, Gaming, and Ontology Development",
+      "Exploration, Fairness, and Sequential Learning in AI Systems",
+      "Advanced Techniques in Federated Learning and Medical Data Analysis",
+      "Federated Learning and Generalization in Short Text Clustering and Action Planning"
+    ],
+    "1,22": [
+      "Federated Learning and Generalization in Short Text Clustering and Action Planning",
+      "Dynamic Machine Learning Models and Robust Graph-Based Approaches",
+      "Advanced Techniques in EEG Signal Processing and Reinforcement Learning",
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "Advanced Techniques in Machine Learning for Event Prediction and Image Analysis"
+    ],
+    "1,24": [
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "Advanced AI Techniques for Deception Detection and Medical Diagnosis",
+      "Advanced AI Techniques for User Representation and Causal Reasoning",
+      "AI Applications in Language Processing and Human Coordination",
+      "Exploration, Fairness, and Sequential Learning in AI Systems"
+    ],
+    "1,25": [
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving",
+      "Advanced Techniques in Machine Learning for Data Representation and Analysis",
+      "Reinforcement Learning and Novel Class Detection in AI Applications",
+      "Advanced Techniques in Multi-Agent Learning and Object Recognition",
+      "Multi-Modal Learning, Fairness, and Efficient Neural Network Architectures"
+    ],
+    "1,26": [
+      "Algorithmic Approaches in Healthcare, 3D Modeling, and Adversarial Learning",
+      "Innovative Techniques in Deep Learning and Federated Learning Applications",
+      "AI Techniques for Image Generation, Bias Detection, and Domain Adaptation",
+      "Adaptive Learning and Predictive Modeling in Complex Environments",
+      "Collaborative Learning and Coordination in Multi-Agent Systems"
+    ],
+    "1,27": [
+      "Advanced Techniques in Machine Learning for Event Prediction and Image Analysis",
+      "Adversarial Learning and Coordination in AI Systems",
+      "Advanced Techniques in Federated Learning and Medical Data Analysis",
+      "Advanced AI Techniques for User Representation and Causal Reasoning",
+      "Advanced Machine Learning Techniques for Reasoning and Safety Monitoring"
+    ],
+    "1,28": [
+      "Adversarial Attacks and Defenses in Machine Learning Systems",
+      "Advanced Techniques in Data Analysis, Change Detection, and Multimodal Learning",
+      "Innovative Techniques in Deep Learning and Federated Learning Applications",
+      "Deep Learning Applications in Traffic Management and Data Optimization",
+      "Advanced Techniques in Biomedical Data Analysis and Model Robustness"
+    ],
+    "1,29": [
+      "Advancements in Deep Learning for Robustness, Fairness, and Representation Learning",
+      "Advanced Techniques in Machine Learning for Event Prediction and Image Analysis",
+      "Adversarial Attacks and Defenses in Machine Learning Systems",
+      "Exploration, Fairness, and Sequential Learning in AI Systems",
+      "AI Applications in Healthcare, Gaming, and Ontology Development"
+    ],
+    "1,30": [
+      "Advanced Machine Learning Techniques for Causal Inference and Reinforcement Learning",
+      "AI in Healthcare, Fairness, and Multi-Agent Learning Dynamics",
+      "Advanced AI Techniques for User Representation and Causal Reasoning",
+      "Advanced Techniques in Machine Learning for Real-Time Decision Making",
+      "Advanced Techniques in Language Processing and Robust Machine Learning"
+    ],
+    "1,31": [
+      "Reinforcement Learning and Knowledge Integration in AI Systems",
+      "Adversarial Techniques and Class Imbalance in Machine Learning Models",
+      "Advanced Techniques in Time-Series Analysis and Anomaly Detection",
+      "Neurosymbolic Approaches and Knowledge Transfer in AI Applications",
+      "Collaborative Learning and Coordination in Multi-Agent Systems"
+    ],
+    "1,32": [
+      "Advanced Optimization and Decision-Making Techniques in AI Applications",
+      "Deep Learning Applications in Computational Biology and Quotation Extraction",
+      "Advanced Techniques in Time-Series Analysis and Anomaly Detection",
+      "Innovations in Green AI and Advanced Neural Network Techniques",
+      "Algorithmic Approaches in Healthcare, 3D Modeling, and Adversarial Learning"
+    ],
+    "1,33": [
+      "Exploration, Fairness, and Sequential Learning in AI Systems",
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "AI Techniques for Educational Support and Neurological Disorder Diagnosis",
+      "Multimodal AI Systems for Task Guidance and Causal Reasoning",
+      "Advanced Techniques in Graph Representation and Multi-Objective Optimization"
+    ],
+    "1,34": [
+      "Adversarial Attacks and Defenses in Machine Learning Systems",
+      "Advanced Techniques in Action Recognition and Model Explanation for AI Systems",
+      "Advanced Techniques in Machine Learning for Privacy, Optimization, and Causality",
+      "Advanced Techniques in AI for Visual Processing and Decision Making",
+      "Deep Learning Applications in Traffic Management and Data Optimization"
+    ],
+    "1,35": [
+      "Advanced Techniques in Machine Learning for Complex Systems and Applications",
+      "Deep Learning Applications in Traffic Management and Data Optimization",
+      "Advanced Techniques in Machine Learning for Privacy, Optimization, and Causality",
+      "Adaptive Learning and Predictive Modeling in Complex Environments",
+      "Multimodal AI Systems for Task Guidance and Causal Reasoning"
+    ],
+    "1,36": [
+      "Advanced Techniques in Action Recognition and Model Explanation for AI Systems",
+      "Advanced Techniques in Machine Learning for Privacy, Optimization, and Causality",
+      "Adversarial Learning and Data Efficiency in Machine Learning Models",
+      "Adaptive Machine Learning Techniques for Federated Learning and Uncertainty Quantification",
+      "Multimodal Learning and Privacy in AI Systems"
+    ],
+    "1,37": [
+      "Advanced Techniques in AI for Visual Processing and Decision Making",
+      "Advanced Techniques in Machine Learning for Privacy, Optimization, and Causality",
+      "Adversarial Learning and Data Efficiency in Machine Learning Models",
+      "Advanced Techniques in Data Analysis, Change Detection, and Multimodal Learning",
+      "Innovative Approaches in AI for Recommendation and Multimodal Learning"
+    ],
+    "1,38": [
+      "Deep Learning Applications in Traffic Management and Data Optimization",
+      "Adaptive Machine Learning Techniques for Federated Learning and Uncertainty Quantification",
+      "Advanced Techniques in AI for Visual Processing and Decision Making",
+      "Knowledge Transferability, Adversarial Learning, and Argumentation in AI",
+      "Innovative Approaches in AI for Recommendation and Multimodal Learning"
+    ],
+    "2,1": [
+      "Advanced Machine Learning for Autonomous Systems",
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving",
+      "Advanced Techniques in Low-Resource NLP",
+      "Multi-Modal Learning for Industrial Applications",
+      "Advanced AI Techniques for Model Optimization"
+    ],
+    "2,2": [
+      "Advanced Techniques in Multi-Agent Learning and Object Recognition",
+      "Advanced AI Techniques for Model Optimization",
+      "Advanced Techniques in Low-Resource NLP",
+      "Advanced Machine Learning for Autonomous Systems",
+      "Multi-Modal Learning and Ethical AI in Data-Driven Applications"
+    ],
+    "2,3": [
+      "Graph Representation and Multi-Objective Learning",
+      "Dynamic Systems and Graph Representation Learning",
+      "AI and Machine Learning for Healthcare Applications",
+      "Machine Learning for Healthcare and Security Applications",
+      "Multi-Modal Learning for Industrial Applications"
+    ],
+    "2,4": [
+      "Adversarial Attacks and Multi-Modal Learning",
+      "Advanced Machine Learning for Image and Event Analysis",
+      "Advanced Techniques in Natural Language Processing and Reinforcement Learning",
+      "Advanced Techniques in AI for System Optimization",
+      "Innovative Machine Learning Techniques for Healthcare"
+    ],
+    "3,0": [
+      "AI in Healthcare and Dialogue",
+      "Machine Learning for Healthcare and Security Applications",
+      "Advanced Machine Learning for Misinformation and Decision-Making",
+      "Graph Representation and Multi-Objective Learning",
+      "Green AI and Federated Learning"
+    ],
+    "3,1": [
+      "AI in Healthcare and Dialogue",
+      "Innovative Machine Learning Techniques for Healthcare",
+      "Robust AI Communication Systems",
+      "Green AI and Federated Learning",
+      "Multi-Modal Machine Learning Techniques"
+    ]
+  },
+  "seconds": 661.1
+}

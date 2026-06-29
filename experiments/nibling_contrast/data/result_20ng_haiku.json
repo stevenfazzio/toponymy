@@ -1,0 +1,437 @@
+{
+  "dataset": "20ng",
+  "model": "haiku",
+  "k": 5,
+  "max_dist": null,
+  "disambig": false,
+  "base_min_cluster_size": 25,
+  "min_clusters": 4,
+  "subsample": null,
+  "counts": [
+    74,
+    24,
+    9
+  ],
+  "floor_rows": [
+    {
+      "layer": 0,
+      "n": 74,
+      "changed": 7,
+      "rate": 0.0945945945945946,
+      "uniq_base": 74,
+      "uniq_contrast": 74,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          7,
+          "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+          "NHL Hockey Playoff Fantasy Draft League Standings and Game Results"
+        ],
+        [
+          20,
+          "Clipper Chip Encryption Technology and Government Key Escrow Policy Debate",
+          "Clipper Chip Key Escrow Encryption Government Surveillance and Privacy Debate"
+        ],
+        [
+          25,
+          "Usenet Debate Discourse: Ad Hominem Attacks, Misquotations, and Argumentative Fallacies",
+          "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds"
+        ],
+        [
+          26,
+          "Automotive Cleaning Products and Techniques for Paint, Plastic, and Components",
+          "Automotive Cleaning Products and Maintenance Solutions for Vehicles"
+        ],
+        [
+          38,
+          "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+          "Second Amendment Rights Advocacy and Legislative Gun Control Opposition Activism"
+        ],
+        [
+          49,
+          "Classic and Modern Automobile Engine Types, Performance Specifications, and Convertible Options",
+          "Automotive Engine Types, Performance Cars, and Convertible Vehicle Discussions"
+        ],
+        [
+          70,
+          "Vintage PC Graphics Card Performance Benchmarking and VESA Driver Compatibility",
+          "Windows 3.1 VLB Video Card Performance Benchmarking and Driver Compatibility"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 24,
+      "changed": 3,
+      "rate": 0.125,
+      "uniq_base": 24,
+      "uniq_contrast": 24,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          7,
+          "Usenet Debate Discourse: Ad Hominem Attacks, Misquotations, and Argumentative Fallacies",
+          "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds"
+        ],
+        [
+          14,
+          "Used Cars and Automobile Performance Discussion",
+          "Used Cars Sales and Performance Specifications"
+        ],
+        [
+          22,
+          "Vintage Graphics Card Driver Issues",
+          "Windows 3.1 VLB Video Card Drivers"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 9,
+      "changed": 0,
+      "rate": 0.0,
+      "uniq_base": 9,
+      "uniq_contrast": 9,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": []
+    }
+  ],
+  "rows": [
+    {
+      "layer": 0,
+      "n": 74,
+      "changed": 10,
+      "rate": 0.13513513513513514,
+      "uniq_base": 74,
+      "uniq_contrast": 74,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          7,
+          "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+          "NHL Hockey Playoff Fantasy Draft League Standings and Game Results"
+        ],
+        [
+          22,
+          "Clipper Chip Key Escrow Encryption Debate and Government Backdoor Concerns",
+          "Clipper Chip Key Escrow Encryption Debate and Government Wiretap Concerns"
+        ],
+        [
+          25,
+          "Usenet Debate Discourse: Ad Hominem Attacks, Misquotations, and Argumentative Fallacies",
+          "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations"
+        ],
+        [
+          26,
+          "Automotive Cleaning Products and Techniques for Paint, Plastic, and Components",
+          "Automotive Cleaning Products and Maintenance Solutions for Vehicles"
+        ],
+        [
+          34,
+          "Waco siege fire investigation: FBI tear gas tactics and compound fire causation debate",
+          "Waco siege fire investigation: FBI tear gas tactics and compound burning controversy"
+        ],
+        [
+          41,
+          "Waco siege 1993 David Koresh compound FBI BATF confrontation debate",
+          "Waco siege 1993 David Koresh FBI BATF compound standoff controversy"
+        ],
+        [
+          49,
+          "Classic and Modern Automobile Engine Types, Performance Specifications, and Convertible Options",
+          "Automotive Engine Types, Performance Cars, and Convertible Vehicle Discussions"
+        ],
+        [
+          52,
+          "TrueType Font Printing Issues and Windows Font Management Solutions",
+          "TrueType Font Printing Issues and Configuration in Windows Systems"
+        ],
+        [
+          66,
+          "X11R5 Build Issues, Compilation Errors, and Library Linking Problems",
+          "X11R5 Build Issues, Linking Errors, and Configuration Problems on Unix Systems"
+        ],
+        [
+          70,
+          "Vintage PC Graphics Card Performance Benchmarking and VESA Driver Compatibility",
+          "Windows 3.1 VLB Video Card Performance Benchmarking and Driver Compatibility"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 24,
+      "changed": 14,
+      "rate": 0.5833333333333334,
+      "uniq_base": 24,
+      "uniq_contrast": 24,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Early 1990s NHL Playoff Fantasy League",
+          "Early 1990s NHL Playoff Fantasy Draft"
+        ],
+        [
+          1,
+          "Nutritional and Alternative Medicine Approaches",
+          "Nutritional and Alternative Medicine Treatments"
+        ],
+        [
+          2,
+          "Major League Baseball Analysis and Predictions",
+          "MLB Season Predictions and Player Performance"
+        ],
+        [
+          4,
+          "Israeli-Palestinian Conflict and Ethnic Violence",
+          "Israeli-Palestinian Conflict and Middle East Violence"
+        ],
+        [
+          5,
+          "Clipper Chip Encryption Key Escrow Debate",
+          "Clipper Chip Key Escrow Encryption Debate"
+        ],
+        [
+          7,
+          "Usenet Debate Discourse: Ad Hominem Attacks, Misquotations, and Argumentative Fallacies",
+          "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations"
+        ],
+        [
+          8,
+          "Libertarian Critique of Government Coercion",
+          "Libertarian Philosophy Government Regulation Debate"
+        ],
+        [
+          9,
+          "Waco Siege Federal Government Accountability Debate",
+          "Waco Siege Government Accountability Controversy"
+        ],
+        [
+          14,
+          "Used Cars and Automobile Performance Discussion",
+          "Used Cars Sales and Performance Specifications"
+        ],
+        [
+          16,
+          "Christian Scripture Authority and Esoteric Traditions",
+          "Christian History, Canon Formation, and Secret Rituals"
+        ],
+        [
+          18,
+          "Used Electronics and Equipment Classifieds",
+          "Used Electronics and Audio Equipment Sales"
+        ],
+        [
+          21,
+          "X11 Programming and Build Issues",
+          "X11 Programming and Build Configuration"
+        ],
+        [
+          22,
+          "Vintage Graphics Card Driver Issues",
+          "Windows 3.1 VLB Video Card Drivers"
+        ],
+        [
+          23,
+          "Vintage Computer Hardware Sales Classifieds",
+          "Vintage Computer Hardware Components Sales"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 9,
+      "changed": 3,
+      "rate": 0.3333333333333333,
+      "uniq_base": 9,
+      "uniq_contrast": 9,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Nutritional and Alternative Medicine Approaches",
+          "Nutritional and Alternative Medicine Treatments"
+        ],
+        [
+          2,
+          "Clipper Chip Encryption Key Escrow Debate",
+          "Clipper Chip Key Escrow Encryption Debate"
+        ],
+        [
+          8,
+          "Computer Classifieds",
+          "Computer Hardware"
+        ]
+      ]
+    }
+  ],
+  "injection": {
+    "injected": 21,
+    "calls": 21,
+    "skip": 12,
+    "nocand": 0,
+    "filtered": 0,
+    "nearest_dist": {
+      "min": 0.09806742451538031,
+      "med": 0.39022900765964286,
+      "max": 0.7817844324985807
+    }
+  },
+  "injected_names": {
+    "1,0": [
+      "NHL Hockey Television Coverage Scheduling and Broadcast Rights Disputes",
+      "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+      "Major League Baseball Season Predictions, Standings, and Game Recaps",
+      "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+      "Clinton Administration Press Briefings and Policy Announcements April 1993"
+    ],
+    "1,1": [
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Waco siege fire investigation: FBI tear gas tactics and compound burning controversy",
+      "Kinsey Report Sexual Behavior Statistics and Homosexuality Prevalence Debate",
+      "Larson's Reciprocal System Theory and Alternative Physics Unified Framework Discussions",
+      "Automotive Cleaning Products and Maintenance Solutions for Vehicles"
+    ],
+    "1,2": [
+      "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+      "Early 1990s NHL Regular Season Performance Analysis and Player Evaluations",
+      "NHL Hockey Playoff Fantasy Draft League Standings and Game Results",
+      "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+      "AHL and NHL franchise relocations, expansions, and organizational changes discussions"
+    ],
+    "1,4": [
+      "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Critical Analysis of BATF FBI Tactics and Government Accountability in Waco Siege",
+      "Waco siege federal raid accountability Clinton Reno BATF FBI investigation",
+      "Waco siege 1993 David Koresh FBI BATF compound standoff controversy"
+    ],
+    "1,5": [
+      "Software Piracy, Copy Protection Schemes, and Hacker Ethics Debate",
+      "Waco siege federal raid accountability Clinton Reno BATF FBI investigation",
+      "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+      "Critical Analysis of BATF FBI Tactics and Government Accountability in Waco Siege",
+      "Modem Sales, Specifications, and Technical Features Discussion"
+    ],
+    "1,6": [
+      "Clinton Administration Press Briefings and Policy Announcements April 1993",
+      "Usenet Classifieds: Used Electronics and Computer Equipment For Sale and Wanted",
+      "Used Car Sales Listings with Specifications and Pricing Information",
+      "X11 Window System Software Distribution Sources and Toolkit Resources",
+      "Usenet Classified Advertisements for Collectible Comics, Music, and Media Sales"
+    ],
+    "1,8": [
+      "Waco siege federal raid accountability Clinton Reno BATF FBI investigation",
+      "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+      "Clinton Administration Press Briefings and Policy Announcements April 1993",
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Clipper Chip Encryption Technology and Government Key Escrow Policy Debate"
+    ],
+    "1,9": [
+      "Waco siege fire investigation: FBI tear gas tactics and compound burning controversy",
+      "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+      "Clinton Administration Press Briefings and Policy Announcements April 1993",
+      "Clinton Administration Tax Policy and Government Spending Debates Early 1990s",
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations"
+    ],
+    "1,10": [
+      "Critical Analysis of BATF FBI Tactics and Government Accountability in Waco Siege",
+      "Waco siege federal raid accountability Clinton Reno BATF FBI investigation",
+      "Waco siege fire investigation: FBI tear gas tactics and compound burning controversy",
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Clinton Administration Tax Policy and Government Spending Debates Early 1990s"
+    ],
+    "1,14": [
+      "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+      "Usenet Classifieds: Used Electronics and Computer Equipment For Sale and Wanted",
+      "Usenet Classified Advertisements for Collectible Comics, Music, and Media Sales",
+      "Vintage Computer Hardware and Components For Sale Classifieds",
+      "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, Speakers"
+    ],
+    "1,16": [
+      "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+      "Gilligan's Island Moral Allegory and Religious Symbolism Discussion",
+      "Philosophical Debate on Atheism, Theism, and Definitions of Belief and Faith",
+      "Biblical Interpretation of Homosexuality and Christian Theology Debate",
+      "Heated Debates on Israel, Anti-Semitism, and Jewish Identity in Usenet"
+    ],
+    "1,18": [
+      "Vintage Computer Hardware and Software Sales from 1980s-1990s Era",
+      "Used Car Sales Listings with Specifications and Pricing Information",
+      "Vintage Computer Hardware and Components For Sale Classifieds",
+      "Modem Sales, Specifications, and Technical Features Discussion",
+      "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations"
+    ],
+    "1,21": [
+      "X Window System Colormap Management and Visual Configuration Techniques",
+      "Windows 3.x Utilities and Tools: File Managers, Compression, and System Configuration",
+      "Image File Format Conversion and Viewer Software for Graphics Files",
+      "TrueType Font Printing Issues and Configuration in Windows Systems",
+      "DOS and Windows 3.1 Compatibility Issues, System Configuration, and Troubleshooting"
+    ],
+    "1,22": [
+      "Vintage Computer Monitor Selection and Compatibility for PC and Mac Systems",
+      "Macintosh Memory Upgrades and Expansion Cards for Classic Mac Models",
+      "Vintage Computer Hardware and Components For Sale Classifieds",
+      "Centris Macintosh Hardware Configuration, Performance, and Compatibility Issues",
+      "Modem Sales, Specifications, and Technical Features Discussion"
+    ],
+    "1,23": [
+      "Modem Sales, Specifications, and Technical Features Discussion",
+      "Usenet Classifieds: Used Electronics and Computer Equipment For Sale and Wanted",
+      "Vintage Computer Monitor Selection and Compatibility for PC and Mac Systems",
+      "Windows 3.1 VLB Video Card Performance Benchmarking and Driver Compatibility",
+      "IDE and SCSI Hard Drive Installation Configuration Troubleshooting"
+    ],
+    "2,0": [
+      "Waco Siege Government Accountability Controversy",
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+      "Space Exploration Missions and Spacecraft",
+      "Libertarian Philosophy Government Regulation Debate"
+    ],
+    "2,4": [
+      "Used Electronics and Audio Equipment Sales",
+      "Space Exploration Missions and Spacecraft",
+      "Vintage Computer Hardware Components Sales",
+      "Second Amendment Rights and Gun Control Debate",
+      "Windows 3.1 VLB Video Card Drivers"
+    ],
+    "2,5": [
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Israeli-Palestinian Conflict and Middle East Violence",
+      "Libertarian Philosophy Government Regulation Debate",
+      "Waco Siege Government Accountability Controversy",
+      "Second Amendment Rights and Gun Control Debate"
+    ],
+    "2,6": [
+      "Israeli-Palestinian Conflict and Middle East Violence",
+      "Clipper Chip Key Escrow Encryption Debate",
+      "Philosophical Debate on Atheism, Theism, and Definitions of Belief and Faith",
+      "Christian History, Canon Formation, and Secret Rituals",
+      "Space Exploration Missions and Spacecraft"
+    ],
+    "2,7": [
+      "Windows 3.1 VLB Video Card Drivers",
+      "DOS and Windows 3.1 Compatibility Issues, System Configuration, and Troubleshooting",
+      "Vintage Computer Hardware Components Sales",
+      "Space Exploration Missions and Spacecraft",
+      "Used Electronics and Audio Equipment Sales"
+    ],
+    "2,8": [
+      "DOS and Windows 3.1 Compatibility Issues, System Configuration, and Troubleshooting",
+      "Image File Format Conversion and Viewer Software for Graphics Files",
+      "Used Cars Sales and Performance Specifications",
+      "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+      "Space Exploration Missions and Spacecraft"
+    ]
+  },
+  "seconds": 399.9
+}

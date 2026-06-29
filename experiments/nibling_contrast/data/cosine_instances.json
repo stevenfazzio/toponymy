@@ -1,0 +1,2319 @@
+[
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 2,
+    "old": "Baseball Performance and Strategy Analysis",
+    "new": "MLB Team Performance and Strategy",
+    "cos_old": 0.7118153328310557,
+    "cos_new": 0.7102892381439647,
+    "dcent": -0.001526094687090973,
+    "old_new": 0.859594464302063,
+    "contrast": [
+      "Analysis of Major League Baseball Players and Performance Metrics",
+      "NHL Coaching Strategies and Player Performance Analysis",
+      "NHL Playoff Standings and Team Performance Analysis",
+      "NHL Playoff Discussions: Teams, Scores, and Player Performances",
+      "AHL Franchise Movements and Team Dynamics in Hockey"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 5,
+    "old": "Clipper Chip and Encryption Debate",
+    "new": "Clipper Chip and Encryption Policy",
+    "cos_old": 0.6537827052021463,
+    "cos_new": 0.6621094159074363,
+    "dcent": 0.008326710705290008,
+    "old_new": 0.9408783912658691,
+    "contrast": [
+      "Software Piracy, Copy Protection, and Hacker Ethics Discussions",
+      "Waco Siege Controversy: Government Accountability and Civil Rights Violations",
+      "Gun Control Legislation and Second Amendment Advocacy Discussions",
+      "Waco Siege: Government Tactics and Civil Rights Controversies",
+      "Discussion on Fax Modems and Data Communication Technologies"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 8,
+    "old": "Libertarian Views on Government and Taxation",
+    "new": "Libertarian Views on Taxation and Governance",
+    "cos_old": 0.5161019464376375,
+    "cos_new": 0.4896555312822984,
+    "dcent": -0.02644641515533913,
+    "old_new": 0.937095046043396,
+    "contrast": [
+      "Waco Siege Controversy: Government Accountability and Civil Rights Violations",
+      "Gun Control Legislation and Second Amendment Advocacy Discussions",
+      "Clinton Administration's Youth Employment and Economic Policy Initiatives",
+      "Racial Discourse and Online Argumentation Dynamics",
+      "Government Surveillance and Encryption Policy Debates Surrounding Clipper Chip"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 9,
+    "old": "Waco Siege Government Accountability",
+    "new": "Waco Siege: Government Accountability Issues",
+    "cos_old": 0.5031099765959616,
+    "cos_new": 0.5186029861112177,
+    "dcent": 0.015493009515256118,
+    "old_new": 0.9729094505310059,
+    "contrast": [
+      "Waco Siege: Government Actions and Cult Response Analysis",
+      "Gun Control Legislation and Second Amendment Advocacy Discussions",
+      "Clinton Administration's Youth Employment and Economic Policy Initiatives",
+      "Political Discussions on Taxation and Government Spending Policies",
+      "Racial Discourse and Online Argumentation Dynamics"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 16,
+    "old": "Christianity and Early Church Debates",
+    "new": "Christianity, Canon, and Mysticism",
+    "cos_old": 0.6096369800780076,
+    "cos_new": 0.5801485575405549,
+    "dcent": -0.029488422537452652,
+    "old_new": 0.5475313663482666,
+    "contrast": [
+      "Christian Theology: Salvation, Sin, and the Nature of God",
+      "Discussion on Literature, Cults, and Moral Themes in Society",
+      "Atheism, Belief Systems, and Philosophical Arguments Against Theism",
+      "Christian Perspectives on Homosexuality and Biblical Interpretation",
+      "Anti-Semitism, Holocaust Denial, and Jewish Identity Debates"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 18,
+    "old": "Audio and Comic Sales",
+    "new": "Comics and Audio Equipment Sales",
+    "cos_old": 0.45734735245369995,
+    "cos_new": 0.551345741403604,
+    "dcent": 0.09399838894990409,
+    "old_new": 0.9119439721107483,
+    "contrast": [
+      "Used Computer Hardware and Software Sales with Manuals",
+      "Used Car Sales and Listings for Various Models",
+      "Vintage Computer Hardware Sales and Upgrades Discussions",
+      "Discussion on Fax Modems and Data Communication Technologies",
+      "Travel Tickets and Vacation Packages for Sale or Exchange"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 21,
+    "old": "X Window System Development Issues",
+    "new": "X11R5 and Xterm Development",
+    "cos_old": 0.6843728060062733,
+    "cos_new": 0.6680999833071106,
+    "dcent": -0.016272822699162637,
+    "old_new": 0.5319048166275024,
+    "contrast": [
+      "X Windows Colormap Management and Graphics Programming Issues",
+      "Windows Utilities and File Management Tools Discussion",
+      "Image File Formats and Viewer Software Discussions",
+      "TrueType Fonts and Printing Issues in Windows Environments",
+      "Issues and Solutions Running DOS Applications in Windows Environments"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 22,
+    "old": "Legacy Video Card Support Issues",
+    "new": "Legacy Video Card Driver Support",
+    "cos_old": 0.5905784333311873,
+    "cos_new": 0.6435551434578608,
+    "dcent": 0.05297671012667349,
+    "old_new": 0.8473016023635864,
+    "contrast": [
+      "VGA Monitors and Compatibility for Vintage Computers",
+      "Macintosh Memory Upgrades and Peripheral Compatibility Issues",
+      "Vintage Computer Hardware Sales and Upgrades Discussions",
+      "Technical Discussions on Apple Centris 610 and 650 Hardware Issues",
+      "Discussion on Fax Modems and Data Communication Technologies"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 2,
+    "i": 5,
+    "old": "Christian Debates",
+    "new": "Christian Theology",
+    "cos_old": 0.5577508326712435,
+    "cos_new": 0.6386619281317389,
+    "dcent": 0.08091109546049546,
+    "old_new": 0.6252613067626953,
+    "contrast": [
+      "Racial Discourse and Online Argumentation Dynamics",
+      "Middle East Conflict and Human Rights",
+      "Libertarian Views on Taxation and Governance",
+      "Waco Siege: Government Accountability Issues",
+      "Gun Control and Self-Defense Debate"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 2,
+    "i": 6,
+    "old": "Waco Controversy",
+    "new": "Waco and Gun Control",
+    "cos_old": 0.36313033267892025,
+    "cos_new": 0.49212146678509905,
+    "dcent": 0.1289911341061788,
+    "old_new": 0.6762896776199341,
+    "contrast": [
+      "Middle East Conflict and Human Rights",
+      "Clipper Chip and Encryption Policy",
+      "Atheism, Belief Systems, and Philosophical Arguments Against Theism",
+      "Christianity, Canon, and Mysticism",
+      "Space Exploration and Missions"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 2,
+    "i": 7,
+    "old": "X Graphics Development",
+    "new": "X11 Graphics",
+    "cos_old": 0.5785419017088652,
+    "cos_new": 0.5733283141441154,
+    "dcent": -0.0052135875647497665,
+    "old_new": 0.7769745588302612,
+    "contrast": [
+      "Legacy Video Card Driver Support",
+      "Issues and Solutions Running DOS Applications in Windows Environments",
+      "Vintage Macintosh Hardware Sales",
+      "Space Exploration and Missions",
+      "Comics and Audio Equipment Sales"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "gpt4omini",
+    "L": 2,
+    "i": 8,
+    "old": "Vintage Computer Sales",
+    "new": "Vintage Computer Hardware",
+    "cos_old": 0.550752561569438,
+    "cos_new": 0.5936016100799231,
+    "dcent": 0.0428490485104851,
+    "old_new": 0.7708119750022888,
+    "contrast": [
+      "Issues and Solutions Running DOS Applications in Windows Environments",
+      "Image File Formats and Viewer Software Discussions",
+      "Classic American Cars and Engines",
+      "Motorcycle Buying, Selling, and Performance Discussions",
+      "Space Exploration and Missions"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 0,
+    "old": "Early 1990s NHL Playoff Fantasy League",
+    "new": "Early 1990s NHL Playoff Fantasy Draft",
+    "cos_old": 0.5889693080571138,
+    "cos_new": 0.562159498276011,
+    "dcent": -0.02680980978110281,
+    "old_new": 0.9052184820175171,
+    "contrast": [
+      "NHL Hockey Television Coverage Scheduling and Broadcast Rights Disputes",
+      "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+      "Major League Baseball Season Predictions, Standings, and Game Recaps",
+      "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+      "Clinton Administration Press Briefings and Policy Announcements April 1993"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 1,
+    "old": "Nutritional and Alternative Medicine Approaches",
+    "new": "Nutritional and Alternative Medicine Treatments",
+    "cos_old": 0.41641826569888873,
+    "cos_new": 0.49566497016586075,
+    "dcent": 0.07924670446697202,
+    "old_new": 0.9213730096817017,
+    "contrast": [
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Waco siege fire investigation: FBI tear gas tactics and compound burning controversy",
+      "Kinsey Report Sexual Behavior Statistics and Homosexuality Prevalence Debate",
+      "Larson's Reciprocal System Theory and Alternative Physics Unified Framework Discussions",
+      "Automotive Cleaning Products and Maintenance Solutions for Vehicles"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 2,
+    "old": "Major League Baseball Analysis and Predictions",
+    "new": "MLB Season Predictions and Player Performance",
+    "cos_old": 0.6792483733653957,
+    "cos_new": 0.6889051612104501,
+    "dcent": 0.009656787845054415,
+    "old_new": 0.8045979738235474,
+    "contrast": [
+      "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+      "Early 1990s NHL Regular Season Performance Analysis and Player Evaluations",
+      "NHL Hockey Playoff Fantasy Draft League Standings and Game Results",
+      "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+      "AHL and NHL franchise relocations, expansions, and organizational changes discussions"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 4,
+    "old": "Israeli-Palestinian Conflict and Ethnic Violence",
+    "new": "Israeli-Palestinian Conflict and Middle East Violence",
+    "cos_old": 0.656553154456262,
+    "cos_new": 0.6427562326014891,
+    "dcent": -0.013796921854772881,
+    "old_new": 0.9073572158813477,
+    "contrast": [
+      "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Critical Analysis of BATF FBI Tactics and Government Accountability in Waco Siege",
+      "Waco siege federal raid accountability Clinton Reno BATF FBI investigation",
+      "Waco siege 1993 David Koresh FBI BATF compound standoff controversy"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 5,
+    "old": "Clipper Chip Encryption Key Escrow Debate",
+    "new": "Clipper Chip Key Escrow Encryption Debate",
+    "cos_old": 0.5856981357452048,
+    "cos_new": 0.5909717365056435,
+    "dcent": 0.005273600760438701,
+    "old_new": 0.9930648803710938,
+    "contrast": [
+      "Software Piracy, Copy Protection Schemes, and Hacker Ethics Debate",
+      "Waco siege federal raid accountability Clinton Reno BATF FBI investigation",
+      "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+      "Critical Analysis of BATF FBI Tactics and Government Accountability in Waco Siege",
+      "Modem Sales, Specifications, and Technical Features Discussion"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 8,
+    "old": "Libertarian Critique of Government Coercion",
+    "new": "Libertarian Philosophy Government Regulation Debate",
+    "cos_old": 0.5553369748032881,
+    "cos_new": 0.4947812010798608,
+    "dcent": -0.06055577372342735,
+    "old_new": 0.6981216669082642,
+    "contrast": [
+      "Waco siege federal raid accountability Clinton Reno BATF FBI investigation",
+      "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+      "Clinton Administration Press Briefings and Policy Announcements April 1993",
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations",
+      "Clipper Chip Encryption Technology and Government Key Escrow Policy Debate"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 9,
+    "old": "Waco Siege Federal Government Accountability Debate",
+    "new": "Waco Siege Government Accountability Controversy",
+    "cos_old": 0.5206805377995981,
+    "cos_new": 0.5197648278244614,
+    "dcent": -0.0009157099751366804,
+    "old_new": 0.9220744967460632,
+    "contrast": [
+      "Waco siege fire investigation: FBI tear gas tactics and compound burning controversy",
+      "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+      "Clinton Administration Press Briefings and Policy Announcements April 1993",
+      "Clinton Administration Tax Policy and Government Spending Debates Early 1990s",
+      "Heated Usenet Debates on Racial Issues with Personal Attacks and Misquotations"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 14,
+    "old": "Used Cars and Automobile Performance Discussion",
+    "new": "Used Cars Sales and Performance Specifications",
+    "cos_old": 0.5435423294905363,
+    "cos_new": 0.6545453161056904,
+    "dcent": 0.11100298661515418,
+    "old_new": 0.797148585319519,
+    "contrast": [
+      "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+      "Usenet Classifieds: Used Electronics and Computer Equipment For Sale and Wanted",
+      "Usenet Classified Advertisements for Collectible Comics, Music, and Media Sales",
+      "Vintage Computer Hardware and Components For Sale Classifieds",
+      "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, Speakers"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 16,
+    "old": "Christian Scripture Authority and Esoteric Traditions",
+    "new": "Christian History, Canon Formation, and Secret Rituals",
+    "cos_old": 0.6611304308417851,
+    "cos_new": 0.7037967449638695,
+    "dcent": 0.042666314122084326,
+    "old_new": 0.6210536360740662,
+    "contrast": [
+      "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+      "Gilligan's Island Moral Allegory and Religious Symbolism Discussion",
+      "Philosophical Debate on Atheism, Theism, and Definitions of Belief and Faith",
+      "Biblical Interpretation of Homosexuality and Christian Theology Debate",
+      "Heated Debates on Israel, Anti-Semitism, and Jewish Identity in Usenet"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 18,
+    "old": "Used Electronics and Equipment Classifieds",
+    "new": "Used Electronics and Audio Equipment Sales",
+    "cos_old": 0.4458355161655774,
+    "cos_new": 0.5784194341323857,
+    "dcent": 0.13258391796680835,
+    "old_new": 0.7154691219329834,
+    "contrast": [
+      "Vintage Computer Hardware and Software Sales from 1980s-1990s Era",
+      "Used Car Sales Listings with Specifications and Pricing Information",
+      "Vintage Computer Hardware and Components For Sale Classifieds",
+      "Modem Sales, Specifications, and Technical Features Discussion",
+      "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 21,
+    "old": "X11 Programming and Build Issues",
+    "new": "X11 Programming and Build Configuration",
+    "cos_old": 0.6116289817497382,
+    "cos_new": 0.5908309482525442,
+    "dcent": -0.020798033497194002,
+    "old_new": 0.9126619696617126,
+    "contrast": [
+      "X Window System Colormap Management and Visual Configuration Techniques",
+      "Windows 3.x Utilities and Tools: File Managers, Compression, and System Configuration",
+      "Image File Format Conversion and Viewer Software for Graphics Files",
+      "TrueType Font Printing Issues and Configuration in Windows Systems",
+      "DOS and Windows 3.1 Compatibility Issues, System Configuration, and Troubleshooting"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 22,
+    "old": "Vintage Graphics Card Driver Issues",
+    "new": "Windows 3.1 VLB Video Card Drivers",
+    "cos_old": 0.5186408565352563,
+    "cos_new": 0.5847867457126783,
+    "dcent": 0.06614588917742203,
+    "old_new": 0.4861634373664856,
+    "contrast": [
+      "Vintage Computer Monitor Selection and Compatibility for PC and Mac Systems",
+      "Macintosh Memory Upgrades and Expansion Cards for Classic Mac Models",
+      "Vintage Computer Hardware and Components For Sale Classifieds",
+      "Centris Macintosh Hardware Configuration, Performance, and Compatibility Issues",
+      "Modem Sales, Specifications, and Technical Features Discussion"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 23,
+    "old": "Vintage Computer Hardware Sales Classifieds",
+    "new": "Vintage Computer Hardware Components Sales",
+    "cos_old": 0.5965499604068256,
+    "cos_new": 0.5861009267081693,
+    "dcent": -0.010449033698656351,
+    "old_new": 0.898106038570404,
+    "contrast": [
+      "Modem Sales, Specifications, and Technical Features Discussion",
+      "Usenet Classifieds: Used Electronics and Computer Equipment For Sale and Wanted",
+      "Vintage Computer Monitor Selection and Compatibility for PC and Mac Systems",
+      "Windows 3.1 VLB Video Card Performance Benchmarking and Driver Compatibility",
+      "IDE and SCSI Hard Drive Installation Configuration Troubleshooting"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "haiku",
+    "L": 2,
+    "i": 8,
+    "old": "Computer Classifieds",
+    "new": "Computer Hardware",
+    "cos_old": 0.41579221745966594,
+    "cos_new": 0.5075001021727669,
+    "dcent": 0.09170788471310093,
+    "old_new": 0.563117265701294,
+    "contrast": [
+      "DOS and Windows 3.1 Compatibility Issues, System Configuration, and Troubleshooting",
+      "Image File Format Conversion and Viewer Software for Graphics Files",
+      "Used Cars Sales and Performance Specifications",
+      "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+      "Space Exploration Missions and Spacecraft"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 0,
+    "old": "NHL Hockey Playoffs and Standings",
+    "new": "NHL 1993 Season Playoffs Discussions",
+    "cos_old": 0.6563717745923521,
+    "cos_new": 0.6411815212752763,
+    "dcent": -0.015190253317075797,
+    "old_new": 0.7305403351783752,
+    "contrast": [
+      "NHL Playoff Television Coverage Disputes on ESPN ABC and CBC",
+      "MLB Player Career Evaluation and Hall of Fame Worthiness Debates",
+      "MLB Baseball Season Standings Scores Predictions and Team Discussions 1992-1993",
+      "Baseball Sabermetrics Batting Patience Power Hitters Defensive Evaluation Analysis",
+      "Clinton White House Press Briefings and Presidential Speeches April 1993"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 1,
+    "old": "Alternative vs Conventional Medical Treatments",
+    "new": "Alternative vs Conventional Medical Treatment Debates",
+    "cos_old": 0.5073524987288547,
+    "cos_new": 0.4786102752602597,
+    "dcent": -0.028742223468595007,
+    "old_new": 0.8910210728645325,
+    "contrast": [
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "Waco Branch Davidian Siege FBI BATF Tear Gas Fire Controversy",
+      "Debates on homosexual prevalence statistics promiscuity and sexual behavior surveys",
+      "Philosophy of Science Theory Facts and Physical Universe Debates",
+      "Automotive Cleaning Products Solvents and Surface Treatment Chemicals Discussion"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 4,
+    "old": "Middle East Conflict and Ethnic Violence Debates",
+    "new": "Middle East Conflict Human Rights Debates",
+    "cos_old": 0.5925212683613581,
+    "cos_new": 0.5556130004973037,
+    "dcent": -0.036908267864054434,
+    "old_new": 0.8383488059043884,
+    "contrast": [
+      "Serdar Argic Turkish-Armenian genocide denial and historical revisionism debate",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "BATF FBI Waco Branch Davidian Siege Raid Controversy and Investigation",
+      "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF FBI Controversy",
+      "Waco Branch Davidian Siege FBI BATF Koresh Compound Controversy"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 6,
+    "old": "Space Exploration Missions and Spacecraft",
+    "new": "Space Exploration Missions and Spaceflight",
+    "cos_old": 0.5179985194860112,
+    "cos_new": 0.5339731818543829,
+    "dcent": 0.01597466236837175,
+    "old_new": 0.931576669216156,
+    "contrast": [
+      "Clinton White House Press Briefings and Presidential Speeches April 1993",
+      "Consumer Electronics For Sale and Wanted Listings Including AV Equipment",
+      "Used Passenger Cars For Sale Private Seller Classified Advertisements",
+      "X Window System software resources, toolkits, and window manager implementations",
+      "Usenet Classified Ads for Comics, CDs, and Collectibles For Sale"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 8,
+    "old": "Libertarian Politics Clinton Era Debates",
+    "new": "Libertarian Politics Clinton Tax Policy",
+    "cos_old": 0.424525274618379,
+    "cos_new": 0.49808469169031044,
+    "dcent": 0.07355941707193142,
+    "old_new": 0.5718573331832886,
+    "contrast": [
+      "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF FBI Controversy",
+      "Second Amendment Rights Gun Control Legislation Debate NRA Advocacy",
+      "Clinton White House Press Briefings and Presidential Speeches April 1993",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "Clipper Chip Key Escrow Encryption Government Wiretap Policy Debate"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 9,
+    "old": "Waco Branch Davidian Siege Controversy",
+    "new": "Waco BATF FBI Raid Accountability Debate",
+    "cos_old": 0.4618355777725263,
+    "cos_new": 0.6493810715855151,
+    "dcent": 0.18754549381298874,
+    "old_new": 0.49078845977783203,
+    "contrast": [
+      "Waco Branch Davidian Siege FBI BATF Tear Gas Fire Controversy",
+      "Second Amendment Rights Gun Control Legislation Debate NRA Advocacy",
+      "Clinton White House Press Briefings and Presidential Speeches April 1993",
+      "Early Clinton Administration Tax Policy and Deficit Spending Political Debates",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 10,
+    "old": "Gun Control Second Amendment Debate",
+    "new": "Gun Control Second Amendment Rights Debate",
+    "cos_old": 0.727051987440691,
+    "cos_new": 0.677813985323008,
+    "dcent": -0.04923800211768303,
+    "old_new": 0.9706769585609436,
+    "contrast": [
+      "BATF FBI Waco Branch Davidian Siege Raid Controversy and Investigation",
+      "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF FBI Controversy",
+      "Waco Branch Davidian Siege FBI BATF Tear Gas Fire Controversy",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "Early Clinton Administration Tax Policy and Deficit Spending Political Debates"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 14,
+    "old": "Automotive Cars Discussion and Classifieds",
+    "new": "Cars Discussion and Classifieds",
+    "cos_old": 0.6655292652874483,
+    "cos_new": 0.6354147347739366,
+    "dcent": -0.03011453051351165,
+    "old_new": 0.9373762607574463,
+    "contrast": [
+      "Motorcycle buying selling advice used bikes models specifications",
+      "Consumer Electronics For Sale and Wanted Listings Including AV Equipment",
+      "Usenet Classified Ads for Comics, CDs, and Collectibles For Sale",
+      "Vintage Personal Computer Hardware Components and Systems For Sale",
+      "Used Home and Car Audio Equipment For Sale Classifieds"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 16,
+    "old": "Christian Scripture Canon and Mysteries",
+    "new": "Christian Denominations Canon Esoteric Rites",
+    "cos_old": 0.6473758021415958,
+    "cos_new": 0.6442937590559421,
+    "dcent": -0.0030820430856537406,
+    "old_new": 0.6439645290374756,
+    "contrast": [
+      "Christian theology debates on Bible interpretation salvation and eternal life",
+      "Religion Books and Pop Culture Seven Deadly Sins Discussion",
+      "Atheism versus theism debates on belief faith and God's existence",
+      "Biblical Interpretation Debates on Homosexuality Among Christian Newsgroup Participants",
+      "Usenet Debates on Jewish Identity, Israel, Anti-Semitism, and Nazi Comparisons"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 18,
+    "old": "Classified Ads Electronics and Collectibles",
+    "new": "Electronics Comics Collectibles For Sale",
+    "cos_old": 0.4388748125649814,
+    "cos_new": 0.5549850328394415,
+    "dcent": 0.11611022027446005,
+    "old_new": 0.5410104393959045,
+    "contrast": [
+      "Used PC Hardware Software and Games For Sale Classifieds",
+      "Used Passenger Cars For Sale Private Seller Classified Advertisements",
+      "Vintage Personal Computer Hardware Components and Systems For Sale",
+      "Used Modem Sales and High-Speed Fax Modem Technical Specifications",
+      "Buying and Selling Travel Tickets, Hotel Vouchers, and Vacation Packages"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 21,
+    "old": "X11 Window System Programming",
+    "new": "X11 Window System Programming and Toolkits",
+    "cos_old": 0.7339507050696285,
+    "cos_new": 0.714788132730827,
+    "dcent": -0.019162572338801476,
+    "old_new": 0.9212373495101929,
+    "contrast": [
+      "X Window System colormap management and visual depth programming",
+      "Windows 3.x File Management Utilities DOS Integration and INI Configuration",
+      "Graphics Image File Format Conversion and Viewing Software Tools",
+      "Windows TrueType and PostScript Font Printing Configuration Issues",
+      "MS-DOS and Windows 3.x Configuration Troubleshooting Disk Errors Memory Management"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 22,
+    "old": "PC Video Card Drivers Benchmarks",
+    "new": "Windows Video Card Drivers Benchmarks",
+    "cos_old": 0.6018361243340105,
+    "cos_new": 0.629184790915067,
+    "dcent": 0.027348666581056502,
+    "old_new": 0.9422173500061035,
+    "contrast": [
+      "High-Resolution VGA and Multisync Monitor Specifications Compatibility and Purchasing Advice",
+      "Macintosh and PC Memory Upgrades SIMM Compatibility Bus Architecture",
+      "Vintage Personal Computer Hardware Components and Systems For Sale",
+      "Apple Macintosh Centris 610 650 68040 FPU Hardware Configurations",
+      "Used Modem Sales and High-Speed Fax Modem Technical Specifications"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 23,
+    "old": "Vintage Computer Hardware For Sale",
+    "new": "Vintage Mac PC Hardware Sales Upgrades",
+    "cos_old": 0.6292476646724161,
+    "cos_new": 0.6510685701893368,
+    "dcent": 0.02182090551692073,
+    "old_new": 0.680804967880249,
+    "contrast": [
+      "Used Modem Sales and High-Speed Fax Modem Technical Specifications",
+      "Consumer Electronics For Sale and Wanted Listings Including AV Equipment",
+      "High-Resolution VGA and Multisync Monitor Specifications Compatibility and Purchasing Advice",
+      "PC and Mac video card benchmarks VESA drivers VLB performance comparisons",
+      "PC Hard Drive Installation Configuration IDE SCSI MFM Controller Troubleshooting"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 2,
+    "i": 6,
+    "old": "Waco Controversy",
+    "new": "Waco Gun Rights",
+    "cos_old": 0.36313035727970483,
+    "cos_new": 0.46592917597846173,
+    "dcent": 0.1027988186987569,
+    "old_new": 0.6606265902519226,
+    "contrast": [
+      "Middle East Conflict Human Rights Debates",
+      "Clipper Chip Key Escrow Debate",
+      "Atheism versus theism debates on belief faith and God's existence",
+      "Christian Denominations Canon Esoteric Rites",
+      "Space Exploration Missions and Spaceflight"
+    ]
+  },
+  {
+    "ds": "20ng",
+    "mdl": "sonnet",
+    "L": 2,
+    "i": 8,
+    "old": "PC Hardware Classifieds",
+    "new": "PC Hardware Sales",
+    "cos_old": 0.532784564025291,
+    "cos_new": 0.5492018170465103,
+    "dcent": 0.016417253021219325,
+    "old_new": 0.6931347846984863,
+    "contrast": [
+      "MS-DOS and Windows 3.x Configuration Troubleshooting Disk Errors Memory Management",
+      "Graphics Image File Format Conversion and Viewing Software Tools",
+      "Cars Discussion and Classifieds",
+      "Motorcycle buying selling advice used bikes models specifications",
+      "Space Exploration Missions and Spaceflight"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 1,
+    "old": "Advanced AI Techniques for 3D Data Analysis",
+    "new": "Robustness and Fairness in AI Systems",
+    "cos_old": 0.2345469698349827,
+    "cos_new": 0.3312088645426626,
+    "dcent": 0.09666189470767989,
+    "old_new": 0.21232986450195312,
+    "contrast": [
+      "AI Techniques for Image Generation, Bias Detection, and Domain Adaptation",
+      "Advanced Techniques in Machine Learning for Real-Time Decision Making",
+      "AI Techniques for Educational Support and Neurological Disorder Diagnosis",
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "Reinforcement Learning and Knowledge Integration in AI Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 7,
+    "old": "Innovations in Multi-Agent Learning and Causality",
+    "new": "Innovations in Multi-Agent Learning and Causal Inference",
+    "cos_old": 0.37107745633358225,
+    "cos_new": 0.38230445863574336,
+    "dcent": 0.011227002302161115,
+    "old_new": 0.962479829788208,
+    "contrast": [
+      "Advanced Techniques in Language Processing and Robust Machine Learning",
+      "Advanced Techniques in Machine Learning for User-Centric Applications and Robustness",
+      "Advanced AI Techniques for User Representation and Causal Reasoning",
+      "AI in Healthcare, Fairness, and Multi-Agent Learning Dynamics",
+      "Advanced Machine Learning Techniques for Causal Inference and Reinforcement Learning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 14,
+    "old": "Advanced Machine Learning Techniques for Task Optimization",
+    "new": "Advanced Machine Learning for Autonomous Systems",
+    "cos_old": 0.2365722420841462,
+    "cos_new": 0.2697706549899049,
+    "dcent": 0.03319841290575867,
+    "old_new": 0.6495139598846436,
+    "contrast": [
+      "AI-Driven Communication, Knowledge Graphs, and Autonomous Systems Research",
+      "Advanced Techniques in Multi-Agent Learning and Object Recognition",
+      "Robustness and Adaptability in Machine Learning and Automation Techniques",
+      "Advanced Techniques in Low-Resource NLP and Multi-Agent Learning",
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 15,
+    "old": "Advanced Machine Learning Techniques and Applications",
+    "new": "Innovative Machine Learning Techniques for Healthcare",
+    "cos_old": 0.29460971195158525,
+    "cos_new": 0.288617571407257,
+    "dcent": -0.005992140544328228,
+    "old_new": 0.6160781383514404,
+    "contrast": [
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "Exploration, Fairness, and Sequential Learning in AI Systems",
+      "Advanced Techniques in Machine Learning for Decision-Making and Safety Evaluation",
+      "Advanced Techniques in Machine Learning for Structured Data and Tokenization",
+      "Advanced AI Techniques for Deception Detection and Medical Diagnosis"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 17,
+    "old": "Multi-Modal Learning in AI Applications",
+    "new": "Multi-Modal Learning for Industrial Applications",
+    "cos_old": 0.34425666093514984,
+    "cos_new": 0.28536424449157716,
+    "dcent": -0.05889241644357268,
+    "old_new": 0.7967411279678345,
+    "contrast": [
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving",
+      "Advanced Techniques in Multi-Agent Learning and Object Recognition",
+      "Advanced Techniques in AI for Explainability, Acceleration, and Domain-Specific Applications",
+      "Multi-Modal Learning and Ethical AI in Data-Driven Applications",
+      "Reinforcement Learning and Novel Class Detection in AI Applications"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 24,
+    "old": "Advanced Machine Learning Techniques for Diverse Applications",
+    "new": "Advanced Machine Learning for Misinformation and Decision-Making",
+    "cos_old": 0.41007632237041836,
+    "cos_new": 0.29819896825847014,
+    "dcent": -0.11187735411194821,
+    "old_new": 0.47693976759910583,
+    "contrast": [
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "Advanced AI Techniques for Deception Detection and Medical Diagnosis",
+      "Advanced AI Techniques for User Representation and Causal Reasoning",
+      "AI Applications in Language Processing and Human Coordination",
+      "Exploration, Fairness, and Sequential Learning in AI Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 25,
+    "old": "Advanced Techniques in Low-Resource Learning",
+    "new": "Advanced Techniques in Low-Resource NLP",
+    "cos_old": 0.3609212298066525,
+    "cos_new": 0.3476864949014572,
+    "dcent": -0.013234734905195278,
+    "old_new": 0.713599443435669,
+    "contrast": [
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving",
+      "Advanced Techniques in Machine Learning for Data Representation and Analysis",
+      "Reinforcement Learning and Novel Class Detection in AI Applications",
+      "Advanced Techniques in Multi-Agent Learning and Object Recognition",
+      "Multi-Modal Learning, Fairness, and Efficient Neural Network Architectures"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 26,
+    "old": "Graph-Based Learning and Multi-Objective Optimization",
+    "new": "Graph Representation and Multi-Objective Learning",
+    "cos_old": 0.38989592045351185,
+    "cos_new": 0.3468776539926185,
+    "dcent": -0.04301826646089335,
+    "old_new": 0.8314431309700012,
+    "contrast": [
+      "Algorithmic Approaches in Healthcare, 3D Modeling, and Adversarial Learning",
+      "Innovative Techniques in Deep Learning and Federated Learning Applications",
+      "AI Techniques for Image Generation, Bias Detection, and Domain Adaptation",
+      "Adaptive Learning and Predictive Modeling in Complex Environments",
+      "Collaborative Learning and Coordination in Multi-Agent Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 27,
+    "old": "AI in Healthcare, Communication, and Ontology",
+    "new": "AI Applications in Healthcare and Communication",
+    "cos_old": 0.19967013948546694,
+    "cos_new": 0.2404877884849274,
+    "dcent": 0.04081764899946047,
+    "old_new": 0.8233014345169067,
+    "contrast": [
+      "Advanced Techniques in Machine Learning for Event Prediction and Image Analysis",
+      "Adversarial Learning and Coordination in AI Systems",
+      "Advanced Techniques in Federated Learning and Medical Data Analysis",
+      "Advanced AI Techniques for User Representation and Causal Reasoning",
+      "Advanced Machine Learning Techniques for Reasoning and Safety Monitoring"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 28,
+    "old": "Advanced Techniques in Sequential Data Modeling",
+    "new": "Sequential Data Modeling and Personalized Recommendations",
+    "cos_old": 0.2755486835445258,
+    "cos_new": 0.2694905736694764,
+    "dcent": -0.0060581098750494,
+    "old_new": 0.7323123216629028,
+    "contrast": [
+      "Adversarial Attacks and Defenses in Machine Learning Systems",
+      "Advanced Techniques in Data Analysis, Change Detection, and Multimodal Learning",
+      "Innovative Techniques in Deep Learning and Federated Learning Applications",
+      "Deep Learning Applications in Traffic Management and Data Optimization",
+      "Advanced Techniques in Biomedical Data Analysis and Model Robustness"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 30,
+    "old": "Machine Learning for Healthcare and Security",
+    "new": "Machine Learning for Healthcare and Security Applications",
+    "cos_old": 0.467410779582911,
+    "cos_new": 0.4372981063028524,
+    "dcent": -0.03011267328005862,
+    "old_new": 0.9524170160293579,
+    "contrast": [
+      "Advanced Machine Learning Techniques for Causal Inference and Reinforcement Learning",
+      "AI in Healthcare, Fairness, and Multi-Agent Learning Dynamics",
+      "Advanced AI Techniques for User Representation and Causal Reasoning",
+      "Advanced Techniques in Machine Learning for Real-Time Decision Making",
+      "Advanced Techniques in Language Processing and Robust Machine Learning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 31,
+    "old": "AI Optimization in Biology and Decision-Making",
+    "new": "Deep Learning and Optimization in AI Applications",
+    "cos_old": 0.2798051179446353,
+    "cos_new": 0.22864502586570962,
+    "dcent": -0.05116009207892569,
+    "old_new": 0.5439976453781128,
+    "contrast": [
+      "Reinforcement Learning and Knowledge Integration in AI Systems",
+      "Adversarial Techniques and Class Imbalance in Machine Learning Models",
+      "Advanced Techniques in Time-Series Analysis and Anomaly Detection",
+      "Neurosymbolic Approaches and Knowledge Transfer in AI Applications",
+      "Collaborative Learning and Coordination in Multi-Agent Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 33,
+    "old": "AI and Machine Learning in Healthcare Applications",
+    "new": "AI and Machine Learning for Healthcare Applications",
+    "cos_old": 0.5004390738998246,
+    "cos_new": 0.49764789106533014,
+    "dcent": -0.002791182834494421,
+    "old_new": 0.9881141781806946,
+    "contrast": [
+      "Exploration, Fairness, and Sequential Learning in AI Systems",
+      "Generative AI Techniques for Data Augmentation and Model Interpretability",
+      "AI Techniques for Educational Support and Neurological Disorder Diagnosis",
+      "Multimodal AI Systems for Task Guidance and Causal Reasoning",
+      "Advanced Techniques in Graph Representation and Multi-Objective Optimization"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 35,
+    "old": "Adversarial Learning and Multi-Modal Systems",
+    "new": "Adversarial Attacks and Multi-Modal Learning",
+    "cos_old": 0.34590203655886986,
+    "cos_new": 0.2658539639040138,
+    "dcent": -0.08004807265485608,
+    "old_new": 0.8912361264228821,
+    "contrast": [
+      "Advanced Techniques in Machine Learning for Complex Systems and Applications",
+      "Deep Learning Applications in Traffic Management and Data Optimization",
+      "Advanced Techniques in Machine Learning for Privacy, Optimization, and Causality",
+      "Adaptive Learning and Predictive Modeling in Complex Environments",
+      "Multimodal AI Systems for Task Guidance and Causal Reasoning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 36,
+    "old": "AI Techniques for Robust Decision Making",
+    "new": "AI Techniques for Robustness and Decision Making",
+    "cos_old": 0.4774837194271755,
+    "cos_new": 0.45725611266512495,
+    "dcent": -0.020227606762050543,
+    "old_new": 0.9352519512176514,
+    "contrast": [
+      "Advanced Techniques in Action Recognition and Model Explanation for AI Systems",
+      "Advanced Techniques in Machine Learning for Privacy, Optimization, and Causality",
+      "Adversarial Learning and Data Efficiency in Machine Learning Models",
+      "Adaptive Machine Learning Techniques for Federated Learning and Uncertainty Quantification",
+      "Multimodal Learning and Privacy in AI Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 37,
+    "old": "Multimodal AI Techniques for Data Generation",
+    "new": "Innovative AI Techniques for Multimodal Applications",
+    "cos_old": 0.2317259193901408,
+    "cos_new": 0.290679784609881,
+    "dcent": 0.058953865219740165,
+    "old_new": 0.6859003305435181,
+    "contrast": [
+      "Advanced Techniques in AI for Visual Processing and Decision Making",
+      "Advanced Techniques in Machine Learning for Privacy, Optimization, and Causality",
+      "Adversarial Learning and Data Efficiency in Machine Learning Models",
+      "Advanced Techniques in Data Analysis, Change Detection, and Multimodal Learning",
+      "Innovative Approaches in AI for Recommendation and Multimodal Learning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 1,
+    "i": 38,
+    "old": "Advanced Techniques in Machine Learning Applications",
+    "new": "Advanced Techniques in AI for System Optimization",
+    "cos_old": 0.23193330418973465,
+    "cos_new": 0.3595878029283879,
+    "dcent": 0.12765449873865323,
+    "old_new": 0.5346076488494873,
+    "contrast": [
+      "Deep Learning Applications in Traffic Management and Data Optimization",
+      "Adaptive Machine Learning Techniques for Federated Learning and Uncertainty Quantification",
+      "Advanced Techniques in AI for Visual Processing and Decision Making",
+      "Knowledge Transferability, Adversarial Learning, and Argumentation in AI",
+      "Innovative Approaches in AI for Recommendation and Multimodal Learning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 2,
+    "i": 1,
+    "old": "Robust AI and Automation",
+    "new": "Robust AI Communication Systems",
+    "cos_old": 0.33381536893516656,
+    "cos_new": 0.3787420244331219,
+    "dcent": 0.044926655497955326,
+    "old_new": 0.6465511322021484,
+    "contrast": [
+      "Advanced Machine Learning for Autonomous Systems",
+      "Advanced Techniques in Machine Learning for Time-Series and Game Solving",
+      "Advanced Techniques in Low-Resource NLP",
+      "Multi-Modal Learning for Industrial Applications",
+      "Advanced AI Techniques for Model Optimization"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 2,
+    "i": 2,
+    "old": "Multi-Modal Machine Learning",
+    "new": "Multi-Modal Machine Learning Techniques",
+    "cos_old": 0.3746166943905705,
+    "cos_new": 0.33911718622707177,
+    "dcent": -0.03549950816349873,
+    "old_new": 0.9250414371490479,
+    "contrast": [
+      "Advanced Techniques in Multi-Agent Learning and Object Recognition",
+      "Advanced AI Techniques for Model Optimization",
+      "Advanced Techniques in Low-Resource NLP",
+      "Advanced Machine Learning for Autonomous Systems",
+      "Multi-Modal Learning and Ethical AI in Data-Driven Applications"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 2,
+    "i": 3,
+    "old": "AI Techniques for Decision-Making",
+    "new": "Green AI and Federated Learning",
+    "cos_old": 0.4460973888133195,
+    "cos_new": 0.3444891200965159,
+    "dcent": -0.10160826871680362,
+    "old_new": 0.3642599582672119,
+    "contrast": [
+      "Graph Representation and Multi-Objective Learning",
+      "Dynamic Systems and Graph Representation Learning",
+      "AI and Machine Learning for Healthcare Applications",
+      "Machine Learning for Healthcare and Security Applications",
+      "Multi-Modal Learning for Industrial Applications"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 2,
+    "i": 4,
+    "old": "AI in Healthcare and Learning",
+    "new": "AI in Healthcare and Dialogue",
+    "cos_old": 0.2922432986240676,
+    "cos_new": 0.23519709840126077,
+    "dcent": -0.05704620022280685,
+    "old_new": 0.7582011222839355,
+    "contrast": [
+      "Adversarial Attacks and Multi-Modal Learning",
+      "Advanced Machine Learning for Image and Event Analysis",
+      "Advanced Techniques in Natural Language Processing and Reinforcement Learning",
+      "Advanced Techniques in AI for System Optimization",
+      "Innovative Machine Learning Techniques for Healthcare"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 3,
+    "i": 0,
+    "old": "Robust Multi-Modal Learning",
+    "new": "Robust AI Techniques",
+    "cos_old": 0.4332514906348769,
+    "cos_new": 0.38244317671459366,
+    "dcent": -0.05080831392028323,
+    "old_new": 0.49297454953193665,
+    "contrast": [
+      "AI in Healthcare and Dialogue",
+      "Machine Learning for Healthcare and Security Applications",
+      "Advanced Machine Learning for Misinformation and Decision-Making",
+      "Graph Representation and Multi-Objective Learning",
+      "Green AI and Federated Learning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "gpt4omini",
+    "L": 3,
+    "i": 1,
+    "old": "Multimodal Learning",
+    "new": "Multimodal AI Techniques",
+    "cos_old": 0.42803891337335775,
+    "cos_new": 0.40349073751970777,
+    "dcent": -0.02454817585364999,
+    "old_new": 0.6823748350143433,
+    "contrast": [
+      "AI in Healthcare and Dialogue",
+      "Innovative Machine Learning Techniques for Healthcare",
+      "Robust AI Communication Systems",
+      "Green AI and Federated Learning",
+      "Multi-Modal Machine Learning Techniques"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 1,
+    "old": "Deep Learning Methods with Custom Loss Functions",
+    "new": "Deep Learning Architectures and Causal Inference Methods",
+    "cos_old": 0.2864278094434111,
+    "cos_new": 0.3639625016578658,
+    "dcent": 0.07753469221445469,
+    "old_new": 0.36233001947402954,
+    "contrast": [
+      "Machine Learning Applications Across Diverse Domains with Focus on Data Augmentation and Domain Adaptation",
+      "Diverse Machine Learning Applications Spanning Computer Vision, NLP, and Autonomous Systems",
+      "Diverse Machine Learning Applications and Algorithmic Analysis Across Multiple Domains",
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Machine Learning Methods for Data Augmentation, Reinforcement Learning, and Knowledge Integration"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 5,
+    "old": "Machine Learning Model Robustness Evaluation and Editing Methods",
+    "new": "Model Robustness, Editing, and Geometric Representation Learning",
+    "cos_old": 0.2632747409109474,
+    "cos_new": 0.3120555037230054,
+    "dcent": 0.04878076281205801,
+    "old_new": 0.6451684236526489,
+    "contrast": [
+      "Diverse Machine Learning Applications and Methodologies Across NLP, Computer Vision, and Federated Systems",
+      "Diverse Machine Learning Applications in Computer Vision, NLP, and Robotics",
+      "Diverse Machine Learning Applications and Neural Network Optimization Techniques",
+      "Interpretability, Explainability, and Trustworthiness in Machine Learning Models",
+      "Deep Learning Model Optimization, Benchmarking, and Efficient Inference Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 6,
+    "old": "Practical Deep Learning Systems and Optimization Methods",
+    "new": "Practical Deep Learning Systems with Optimization and Explainability",
+    "cos_old": 0.23463285086388203,
+    "cos_new": 0.34869996650240287,
+    "dcent": 0.11406711563852084,
+    "old_new": 0.6729857921600342,
+    "contrast": [
+      "Advanced Machine Learning Methods for Complex Structured Data and Multi-Agent Systems",
+      "Diverse Machine Learning Applications and Robustness Analysis Across Multiple Domains",
+      "AI Safety, Bias Detection, and Robustness in Machine Learning Systems",
+      "Machine Learning Methods for Geometric Reconstruction, Combinatorial Optimization, and Representation Learning",
+      "Diverse Machine Learning Applications with Interpretability and Robustness Considerations"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 10,
+    "old": "Deep Learning Optimization and Diverse Application Systems",
+    "new": "Deep Learning Optimization and Practical Application Systems",
+    "cos_old": 0.3110657517256573,
+    "cos_new": 0.33842201448385395,
+    "dcent": 0.027356262758196637,
+    "old_new": 0.7946380972862244,
+    "contrast": [
+      "Machine Learning Methods for Geometric Reconstruction, Combinatorial Optimization, and Representation Learning",
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+      "Machine Learning Applications in Industrial Systems and Multi-Agent Control",
+      "Advanced Neural Network Architectures and Optimization Techniques for Diverse Machine Learning Applications",
+      "Diverse Machine Learning Applications and Robustness Analysis Across Multiple Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 14,
+    "old": "Deep Learning Methods for Safety-Critical Applications",
+    "new": "Deep Learning Safety, Efficiency, and Specialized Applications",
+    "cos_old": 0.33562980913652246,
+    "cos_new": 0.3183771090229149,
+    "dcent": -0.017252700113607577,
+    "old_new": 0.6800119876861572,
+    "contrast": [
+      "Large Language Models Applications Across Diverse Domains and Evaluation Methods",
+      "Diverse Machine Learning Methods and Benchmarks for Complex Learning Problems",
+      "Robust Machine Learning Methods with Weak Supervision and Representation Learning",
+      "Machine Learning Methods for Low-Resource Languages and Robust Model Training",
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 15,
+    "old": "Machine Learning Applications Across Diverse Domains",
+    "new": "Machine Learning Applications Across Diverse Domains and Methods",
+    "cos_old": 0.40220815720810976,
+    "cos_new": 0.4057819759152906,
+    "dcent": 0.0035738187071808203,
+    "old_new": 0.9505330920219421,
+    "contrast": [
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making",
+      "Diverse Machine Learning Applications Spanning Code Search, Evolutionary Algorithms, and Safety Evaluation",
+      "Diverse Machine Learning Methods for Structured Data, Embeddings, and Sequential Processing",
+      "Diverse Machine Learning Applications in Computer Vision, NLP, and Robotics"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 17,
+    "old": "Machine Learning Applications Across Diverse Domains",
+    "new": "Machine Learning Applications Multimodal Data Symbolic Reasoning",
+    "cos_old": 0.3304312976213737,
+    "cos_new": 0.35044000495858196,
+    "dcent": 0.020008707337208276,
+    "old_new": 0.4951173663139343,
+    "contrast": [
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+      "Diverse Machine Learning Methods and Benchmarks for Complex Learning Problems",
+      "Diverse Machine Learning Applications and Neural Network Optimization Techniques",
+      "Diverse Machine Learning Applications and Methodologies Across NLP, Computer Vision, and Federated Systems",
+      "Machine Learning Applications in Game Production, AI Safety, and Incremental Learning Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 22,
+    "old": "Machine Learning Robustness, Fairness, and Health Prediction",
+    "new": "Machine Learning Robustness, Fairness, and Interpretability Methods",
+    "cos_old": 0.32521535933704737,
+    "cos_new": 0.27594969724940854,
+    "dcent": -0.04926566208763883,
+    "old_new": 0.7828305959701538,
+    "contrast": [
+      "Diverse Machine Learning Applications and Generalization Challenges Across Domains",
+      "Diverse Machine Learning Applications and Optimization Techniques Across Multiple Domains",
+      "Deep Learning for Signal Processing, Brain-Computer Interfaces, and Reinforcement Learning Exploration",
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Diverse Machine Learning Methods for Specialized Domain Applications and Model Optimization"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 24,
+    "old": "Machine Learning Methods for Diverse Domain Applications",
+    "new": "Machine Learning Methods for Domain-Specific Information Processing",
+    "cos_old": 0.41540187836091225,
+    "cos_new": 0.3055706051742066,
+    "dcent": -0.10983127318670566,
+    "old_new": 0.7490859627723694,
+    "contrast": [
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Diverse Machine Learning Applications in Computer Vision, NLP, and Robotics",
+      "Diverse AI Methods for Policy Learning, Reasoning, and System Design Challenges",
+      "Diverse Machine Learning Applications Across NLP, Reinforcement Learning, and Educational Systems",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 25,
+    "old": "Robust Machine Learning for Low-Resource Settings",
+    "new": "Robust Machine Learning for Low-Resource and Heterogeneous Settings",
+    "cos_old": 0.32508906883408323,
+    "cos_new": 0.34771078602857824,
+    "dcent": 0.022621717194495017,
+    "old_new": 0.9405220746994019,
+    "contrast": [
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+      "Diverse Machine Learning Methods Across NLP, Vision, Planning, and Reinforcement Learning",
+      "Machine Learning Applications in Game Production, AI Safety, and Incremental Learning Systems",
+      "Diverse Machine Learning Methods and Benchmarks for Complex Learning Problems",
+      "Advanced Neural Network Architectures and Optimization Techniques for Diverse Machine Learning Applications"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 26,
+    "old": "Machine Learning Methods Across Diverse Computational Domains",
+    "new": "Machine Learning Optimization Methods for Structured Data",
+    "cos_old": 0.5328587948831138,
+    "cos_new": 0.4175373506240856,
+    "dcent": -0.11532144425902824,
+    "old_new": 0.4607480764389038,
+    "contrast": [
+      "AI Safety, Bias Detection, and Robustness in Machine Learning Systems",
+      "Diverse Machine Learning Applications and Neural Network Optimization Techniques",
+      "Machine Learning Applications Across Diverse Domains with Focus on Data Augmentation and Domain Adaptation",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Computer Vision",
+      "Multi-Agent Collaborative Learning and Coordination in Distributed Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 27,
+    "old": "Machine Learning Applications Across Diverse Domains",
+    "new": "Machine Learning Applications Across Healthcare and Domain Adaptation",
+    "cos_old": 0.35890299889059557,
+    "cos_new": 0.3041427318158636,
+    "dcent": -0.05476026707473197,
+    "old_new": 0.6831796169281006,
+    "contrast": [
+      "Diverse Machine Learning Methods for Specialized Domain Applications and Model Optimization",
+      "Advanced Neural Network Methods for Language Generation, Reasoning, and Adversarial Robustness",
+      "Diverse Machine Learning Methods and Applications Across Healthcare, Optimization, and Reliability",
+      "Diverse AI Methods for Policy Learning, Reasoning, and System Design Challenges",
+      "Diverse Machine Learning Applications and Architectures Across Multiple Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 28,
+    "old": "Sequential Learning and Specialized Neural Architectures",
+    "new": "Sequential Learning, Reinforcement Learning, and Architecture Search",
+    "cos_old": 0.35118016526856954,
+    "cos_new": 0.4086344214818663,
+    "dcent": 0.05745425621329675,
+    "old_new": 0.7090689539909363,
+    "contrast": [
+      "Adversarial Robustness, Neural Network Security, and Machine Learning Trustworthiness",
+      "Machine Learning Tools, Platforms, and Methods for Data Analysis and Fairness",
+      "Diverse Machine Learning Applications and Neural Network Optimization Techniques",
+      "Diverse Deep Learning Applications in Computer Vision, Optimization, and Domain-Specific Tasks",
+      "Diverse Machine Learning Methods Across Medical Imaging, Robustness, Privacy, and Neural Networks"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 29,
+    "old": "Machine Learning Methods Across Diverse Application Domains",
+    "new": "Deep Learning Methods Across Signal Processing and Reinforcement Learning",
+    "cos_old": 0.22970117872342005,
+    "cos_new": 0.34461800666923736,
+    "dcent": 0.11491682794581731,
+    "old_new": 0.43943172693252563,
+    "contrast": [
+      "Robustness, Fairness, and Adversarial Analysis in Deep Learning Models",
+      "Diverse Machine Learning Methods for Specialized Domain Applications and Model Optimization",
+      "Adversarial Robustness, Neural Network Security, and Machine Learning Trustworthiness",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making",
+      "Diverse Machine Learning Applications Across Medical Imaging, NLP, and Domain Adaptation"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 30,
+    "old": "Machine Learning Applications Across Diverse Domains",
+    "new": "Machine Learning Applications Healthcare Security Optimization",
+    "cos_old": 0.5139764297748202,
+    "cos_new": 0.4058348224015975,
+    "dcent": -0.10814160737322265,
+    "old_new": 0.4955008625984192,
+    "contrast": [
+      "Advanced Machine Learning Methods for Complex Structured Data and Multi-Agent Systems",
+      "Diverse Machine Learning Applications Spanning Medical Imaging, Knowledge Representation, and Fairness",
+      "Diverse AI Methods for Policy Learning, Reasoning, and System Design Challenges",
+      "Diverse Machine Learning Applications Spanning Computer Vision, NLP, and Autonomous Systems",
+      "Diverse Machine Learning Applications and Robustness Analysis Across Multiple Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 31,
+    "old": "Advanced Search and Optimization for Complex Systems",
+    "new": "Advanced Search Algorithms and Deep Learning Applications",
+    "cos_old": 0.17328705850777754,
+    "cos_new": 0.2507242093544103,
+    "dcent": 0.07743715084663277,
+    "old_new": 0.5504509210586548,
+    "contrast": [
+      "Machine Learning Methods for Data Augmentation, Reinforcement Learning, and Knowledge Integration",
+      "Adversarial Robustness, Security, and Bias Mitigation in Machine Learning Systems",
+      "Neural Network Applications for Temporal, Sequential, and Complex System Modeling",
+      "Deep Learning Methods for Interpretable Detection, Prediction and Inference Tasks",
+      "Multi-Agent Collaborative Learning and Coordination in Distributed Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 32,
+    "old": "Adversarial Robustness and Machine Learning Data Enhancement",
+    "new": "Adversarial Robustness and Data Augmentation in Machine Learning",
+    "cos_old": 0.2546882882109466,
+    "cos_new": 0.27270222819377565,
+    "dcent": 0.018013939982829075,
+    "old_new": 0.8997362852096558,
+    "contrast": [
+      "Advanced Search and Optimization Algorithms for Complex Decision-Making and Planning Problems",
+      "Deep Learning Applications in Scientific Computing, Biology, and Natural Language Processing",
+      "Neural Network Applications for Temporal, Sequential, and Complex System Modeling",
+      "Advanced Neural Network Architectures and Optimization Methods for Complex Data Representations",
+      "AI Safety, Bias Detection, and Robustness in Machine Learning Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 33,
+    "old": "Machine Learning Applications with Domain Adaptation and Robustness",
+    "new": "Machine Learning Applications with Domain Adaptation and Transfer Learning",
+    "cos_old": 0.44297546556475187,
+    "cos_new": 0.4141962114646225,
+    "dcent": -0.02877925410012938,
+    "old_new": 0.8712857961654663,
+    "contrast": [
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making",
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Diverse Machine Learning Applications and Algorithmic Analysis Across Multiple Domains",
+      "Diverse AI Applications Spanning Multimodal Learning, Causal Reasoning, and Agent-Based Systems",
+      "Diverse Machine Learning and Optimization Methods Across Multiple Computational Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 35,
+    "old": "Adversarial Robustness and Backdoor Attacks in Neural Networks",
+    "new": "Adversarial Robustness and Instruction-Based Model Security",
+    "cos_old": 0.21853285519701562,
+    "cos_new": 0.26139862586204077,
+    "dcent": 0.042865770665025144,
+    "old_new": 0.6860111951828003,
+    "contrast": [
+      "Diverse Machine Learning Applications Across Multiple Domains and Problem Spaces",
+      "Diverse Deep Learning Applications in Computer Vision, Optimization, and Domain-Specific Tasks",
+      "Diverse Machine Learning Applications Spanning Privacy, Optimization, and Robustness",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Computer Vision",
+      "Diverse AI Applications Spanning Multimodal Learning, Causal Reasoning, and Agent-Based Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 36,
+    "old": "Diverse Machine Learning Applications and Robustness Evaluation",
+    "new": "Machine Learning Applications Across Vision, Audio, and Data Domains",
+    "cos_old": 0.33069649102911214,
+    "cos_new": 0.3134634930804663,
+    "dcent": -0.017232997948645856,
+    "old_new": 0.5635760426521301,
+    "contrast": [
+      "Multimodal Learning and Evaluation Frameworks for Complex AI Systems",
+      "Diverse Machine Learning Applications Spanning Privacy, Optimization, and Robustness",
+      "Advanced Machine Learning Optimization and Robustness Techniques for Efficient Model Training",
+      "Machine Learning Applications and Robustness Across Diverse Domains and Architectures",
+      "Multimodal Learning, Privacy-Preserving AI, and Sequential Processing in Neural Networks"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 37,
+    "old": "Multimodal AI Systems with Diverse Applications",
+    "new": "Multimodal Generative Models and Cross-Domain AI Applications",
+    "cos_old": 0.31695184344582417,
+    "cos_new": 0.2996776289089772,
+    "dcent": -0.017274214536846966,
+    "old_new": 0.6543444991111755,
+    "contrast": [
+      "Diverse Machine Learning Applications Spanning Vision, Optimization, and Neural Network Efficiency",
+      "Diverse Machine Learning Applications Spanning Privacy, Optimization, and Robustness",
+      "Advanced Machine Learning Optimization and Robustness Techniques for Efficient Model Training",
+      "Machine Learning Tools, Platforms, and Methods for Data Analysis and Fairness",
+      "Diverse Machine Learning Applications Spanning Recommendation Systems, Multimodal Learning, and Generative Models"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 1,
+    "i": 38,
+    "old": "Machine Learning Systems Design and Optimization Methods",
+    "new": "Machine Learning Systems, Frameworks, and Practical Applications",
+    "cos_old": 0.2667337363629768,
+    "cos_new": 0.26552356117346587,
+    "dcent": -0.0012101751895109425,
+    "old_new": 0.669934868812561,
+    "contrast": [
+      "Diverse Deep Learning Applications in Computer Vision, Optimization, and Domain-Specific Tasks",
+      "Machine Learning Applications and Robustness Across Diverse Domains and Architectures",
+      "Diverse Machine Learning Applications Spanning Vision, Optimization, and Neural Network Efficiency",
+      "Diverse Machine Learning Methods: Transfer Learning, Argumentation, Knowledge Graphs, and Applications",
+      "Diverse Machine Learning Applications Spanning Recommendation Systems, Multimodal Learning, and Generative Models"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 2,
+    "i": 1,
+    "old": "Machine Learning Methods and Applications",
+    "new": "Robust Learning with Weak Supervision",
+    "cos_old": 0.285389671109079,
+    "cos_new": 0.2884920247756382,
+    "dcent": 0.003102353666559199,
+    "old_new": 0.3351728618144989,
+    "contrast": [
+      "Deep Learning Safety, Efficiency, and Specialized Applications",
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+      "Robust Machine Learning for Low-Resource and Heterogeneous Settings",
+      "Machine Learning Applications Multimodal Data Symbolic Reasoning",
+      "Deep Learning Optimization and Practical Application Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 2,
+    "i": 2,
+    "old": "Diverse Machine Learning Applications",
+    "new": "Multimodal Machine Learning Applications",
+    "cos_old": 0.2913268226067385,
+    "cos_new": 0.2787164092974802,
+    "dcent": -0.012610413309258273,
+    "old_new": 0.6530367136001587,
+    "contrast": [
+      "Diverse Machine Learning Methods and Benchmarks for Complex Learning Problems",
+      "Deep Learning Optimization and Practical Application Systems",
+      "Robust Machine Learning for Low-Resource and Heterogeneous Settings",
+      "Deep Learning Safety, Efficiency, and Specialized Applications",
+      "Diverse Machine Learning Applications and Methodologies Across NLP, Computer Vision, and Federated Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 2,
+    "i": 3,
+    "old": "Robust Learning and Optimization Systems",
+    "new": "Deep Learning Robustness and Augmentation",
+    "cos_old": 0.3055010230171989,
+    "cos_new": 0.2976632285958658,
+    "dcent": -0.007837794421333089,
+    "old_new": 0.5245454907417297,
+    "contrast": [
+      "Machine Learning Optimization Methods for Structured Data",
+      "Model Robustness, Editing, and Geometric Representation Learning",
+      "Machine Learning Applications with Domain Adaptation and Transfer Learning",
+      "Machine Learning Applications Healthcare Security Optimization",
+      "Machine Learning Applications Multimodal Data Symbolic Reasoning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 2,
+    "i": 4,
+    "old": "Machine Learning Applications Across Domains",
+    "new": "Deep Learning Applications and Methods",
+    "cos_old": 0.3394568663569064,
+    "cos_new": 0.5095036292446856,
+    "dcent": 0.1700467628877792,
+    "old_new": 0.43093085289001465,
+    "contrast": [
+      "Adversarial Robustness and Instruction-Based Model Security",
+      "Neural Networks Optimization and Specialized Domain Applications",
+      "Advanced NLP, Safety, and Structured Data Processing with Machine Learning",
+      "Machine Learning Systems, Frameworks, and Practical Applications",
+      "Machine Learning Applications Across Diverse Domains and Methods"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "haiku",
+    "L": 3,
+    "i": 0,
+    "old": "Machine Learning Applications",
+    "new": "Multimodal Robustness",
+    "cos_old": 0.3883341004591394,
+    "cos_new": 0.2785816147007392,
+    "dcent": -0.10975248575840019,
+    "old_new": 0.2484109252691269,
+    "contrast": [
+      "Deep Learning Applications and Methods",
+      "Machine Learning Applications Healthcare Security Optimization",
+      "Machine Learning Methods for Domain-Specific Information Processing",
+      "Machine Learning Optimization Methods for Structured Data",
+      "Deep Learning Robustness and Augmentation"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 1,
+    "old": "Diverse Machine Learning and AI Methods",
+    "new": "Diverse AI Methods with Causal and Adversarial Approaches",
+    "cos_old": 0.238209890337806,
+    "cos_new": 0.3945389660665229,
+    "dcent": 0.15632907572871688,
+    "old_new": 0.7110552787780762,
+    "contrast": [
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Social Domains",
+      "Diverse Machine Learning Applications Spanning Vision Language Safety and Information Retrieval",
+      "Diverse Machine Learning Applications Spanning Classification, Optimization, and Neural Architectures",
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Methods Spanning NLP, Reinforcement Learning, and Computer Vision"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 5,
+    "old": "Diverse Machine Learning Methods and Applications",
+    "new": "Diverse ML Methods Across Representation and Autonomous Systems",
+    "cos_old": 0.41371351003886725,
+    "cos_new": 0.3891510459603737,
+    "dcent": -0.02456246407849355,
+    "old_new": 0.646854043006897,
+    "contrast": [
+      "Diverse Machine Learning Applications Spanning NLP, Federated Learning, and AI Ethics",
+      "Diverse Machine Learning Applications Spanning Healthcare Robotics and Representation Learning",
+      "Miscellaneous AI and Machine Learning Research Across Diverse Specialized Topics",
+      "Diverse Machine Learning Methods Spanning Interpretability, Optimization, and Applied AI Systems",
+      "Diverse Machine Learning Applications Across Systems Optimization and Intelligent Reasoning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 6,
+    "old": "Diverse Machine Learning Methods and Applications",
+    "new": "Diverse AI Methods Spanning Diffusion, RL, and Edge Systems",
+    "cos_old": 0.42182677258447565,
+    "cos_new": 0.21605946973722312,
+    "dcent": -0.20576730284725253,
+    "old_new": 0.44364625215530396,
+    "contrast": [
+      "Diverse Machine Learning Methods Across Unrelated Application Domains",
+      "Diverse Machine Learning Methods Spanning Bandits, Robustness, and Miscellaneous Applications",
+      "Diverse Machine Learning Applications Spanning Healthcare, Security, and Generative AI Systems",
+      "Diverse Machine Learning Methods Across Representation Learning and Combinatorial Optimization",
+      "Diverse Machine Learning Applications Spanning Optimization, Perception, and Uncertainty Quantification"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 7,
+    "old": "Diverse Machine Learning Applications Across NLP and Multi-Agent Systems",
+    "new": "Diverse ML Applications Spanning Federated NLP and Multi-Agent Systems",
+    "cos_old": 0.4155994271046274,
+    "cos_new": 0.35940932175155416,
+    "dcent": -0.05619010535307323,
+    "old_new": 0.7876583337783813,
+    "contrast": [
+      "Diverse Machine Learning Methods Spanning Bandits, Robustness, and Miscellaneous Applications",
+      "Diverse Machine Learning Applications Spanning Optimization, Perception, and Uncertainty Quantification",
+      "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems",
+      "Miscellaneous AI and Machine Learning Research Across Diverse Application Domains",
+      "Diverse Machine Learning Methods Across Unrelated Application Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 10,
+    "old": "Diverse Miscellaneous AI and Machine Learning Applications",
+    "new": "Diverse AI Applications Across Specialized Domains and Systems",
+    "cos_old": 0.4133971435931292,
+    "cos_new": 0.40187884321005735,
+    "dcent": -0.011518300383071833,
+    "old_new": 0.7553617358207703,
+    "contrast": [
+      "Diverse Machine Learning Methods Across Representation Learning and Combinatorial Optimization",
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks",
+      "Diverse Machine Learning Applications Across Industrial and Multi-Agent Systems",
+      "Diverse Machine Learning Applications Spanning NLP Vision and Optimization Tasks",
+      "Diverse Machine Learning Methods Spanning Bandits, Robustness, and Miscellaneous Applications"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 14,
+    "old": "Diverse Machine Learning Methods and Applications",
+    "new": "Diverse Machine Learning Methods Across Neural Architectures and Applications",
+    "cos_old": 0.288552441574793,
+    "cos_new": 0.4915963434244782,
+    "dcent": 0.20304390184968524,
+    "old_new": 0.7651420831680298,
+    "contrast": [
+      "Miscellaneous AI and NLP Research Papers Across Diverse Unrelated Domains",
+      "Diverse Machine Learning Methods Across Reinforcement Learning Benchmarks and Operator Frameworks",
+      "Miscellaneous Machine Learning Methods Across Diverse Unrelated Application Domains",
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 15,
+    "old": "Diverse Unrelated Machine Learning Research Applications",
+    "new": "Miscellaneous Machine Learning Applications Across Heterogeneous Domains",
+    "cos_old": 0.33642367852893723,
+    "cos_new": 0.36337214857403916,
+    "dcent": 0.026948470045101924,
+    "old_new": 0.8233853578567505,
+    "contrast": [
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications",
+      "Diverse Machine Learning Applications Across Safety, Healthcare, and Optimization Domains",
+      "Diverse Machine Learning Methods Spanning Tokenization, Embeddings, and Inference Techniques",
+      "Diverse Machine Learning Applications Spanning Healthcare Robotics and Representation Learning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 17,
+    "old": "Diverse Machine Learning Applications Across Heterogeneous Domains",
+    "new": "Diverse ML Applications Across Heterogeneous Industrial Domains",
+    "cos_old": 0.3100621089538069,
+    "cos_new": 0.22933774992672495,
+    "dcent": -0.08072435902708197,
+    "old_new": 0.807797372341156,
+    "contrast": [
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks",
+      "Diverse Machine Learning Methods Across Reinforcement Learning Benchmarks and Operator Frameworks",
+      "Miscellaneous AI and Machine Learning Research Across Diverse Specialized Topics",
+      "Diverse Machine Learning Applications Spanning NLP, Federated Learning, and AI Ethics",
+      "Diverse Machine Learning Applications Spanning NLP, Continual Learning, and AI Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 21,
+    "old": "Diverse Deep Learning Methods Across Multiple Domains",
+    "new": "Diverse Deep Learning Methods Across Vision Graphs NLP",
+    "cos_old": 0.45817184991767285,
+    "cos_new": 0.5060140522168795,
+    "dcent": 0.047842202299206604,
+    "old_new": 0.6035482883453369,
+    "contrast": [
+      "Diverse AI Applications Spanning Healthcare Explainability Accessibility and Decision Making",
+      "Diverse Machine Learning Applications Across Healthcare, Autonomous Systems, and Knowledge Representation",
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications",
+      "Diverse Machine Learning Applications Across Healthcare, NLP, and Reinforcement Learning",
+      "Diverse Machine Learning Applications Spanning Generalization Federated Learning and Adaptive Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 22,
+    "old": "Diverse Machine Learning Applications and Methods",
+    "new": "Diverse ML Applications Spanning Vision, Health, and Generative AI",
+    "cos_old": 0.3550340815627957,
+    "cos_new": 0.5109337269981666,
+    "dcent": 0.15589964543537094,
+    "old_new": 0.5850781202316284,
+    "contrast": [
+      "Diverse Machine Learning Applications Spanning Generalization Federated Learning and Adaptive Systems",
+      "Diverse Machine Learning Methods Across Robotics Vision and Inference Applications",
+      "Diverse Machine Learning Applications Spanning EEG Decoding, Reinforcement Learning, and Code Analysis",
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Methods Spanning NLP, Vision, and Sequence Modeling"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 24,
+    "old": "Diverse Machine Learning Applications Across Multiple Domains",
+    "new": "Diverse Machine Learning Research Across Unrelated Specialized Domains",
+    "cos_old": 0.4207854637159497,
+    "cos_new": 0.43606341836143536,
+    "dcent": 0.015277954645485647,
+    "old_new": 0.8210558891296387,
+    "contrast": [
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Applications Spanning Healthcare Robotics and Representation Learning",
+      "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems",
+      "Diverse AI and Machine Learning Research Across Multiple Domains and Applications",
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 25,
+    "old": "Diverse Machine Learning Methods Across Multiple Domains",
+    "new": "Heterogeneous Ensemble and Representation Learning Methods",
+    "cos_old": 0.36079947062294626,
+    "cos_new": 0.3198874661226158,
+    "dcent": -0.040912004500330446,
+    "old_new": 0.6030634045600891,
+    "contrast": [
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks",
+      "Diverse Machine Learning Applications Spanning NLP Vision and Reinforcement Learning",
+      "Diverse Machine Learning Applications Spanning NLP, Continual Learning, and AI Systems",
+      "Diverse Machine Learning Methods Across Reinforcement Learning Benchmarks and Operator Frameworks",
+      "Diverse Machine Learning Applications Spanning NLP Vision and Optimization Tasks"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 26,
+    "old": "Diverse Miscellaneous Machine Learning Research Papers",
+    "new": "Diverse Miscellaneous Machine Learning and Computer Science Research",
+    "cos_old": 0.49330379745248987,
+    "cos_new": 0.531176824063674,
+    "dcent": 0.03787302661118408,
+    "old_new": 0.780959963798523,
+    "contrast": [
+      "Diverse Machine Learning Applications Spanning Healthcare, Security, and Generative AI Systems",
+      "Diverse Machine Learning Applications Across Multiple Unrelated Research Domains",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Social Domains",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Temporal Data",
+      "Diverse Machine Learning Research Spanning Federated Learning, Reinforcement Learning, and Multi-Agent Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 27,
+    "old": "Diverse Applied AI Across Multiple Domains",
+    "new": "Diverse AI Applications Across Autonomous Systems Healthcare and Knowledge",
+    "cos_old": 0.4082216210908602,
+    "cos_new": 0.2577009778630459,
+    "dcent": -0.15052064322781428,
+    "old_new": 0.5577678084373474,
+    "contrast": [
+      "Diverse Machine Learning Methods Spanning NLP, Vision, and Sequence Modeling",
+      "Diverse Machine Learning Methods Spanning NLP, Graphs, Adversarial Robustness, and Planning",
+      "Diverse Machine Learning Applications Across Healthcare, NLP, and Reinforcement Learning",
+      "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems",
+      "Diverse Machine Learning Applications Spanning Knowledge Graphs, Safety Monitoring, and Reasoning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 28,
+    "old": "Diverse Machine Learning Methods Across Domains",
+    "new": "Diverse ML Applications Across Vision Language Personalization Multimodal",
+    "cos_old": 0.27774425807034353,
+    "cos_new": 0.28150260142280714,
+    "dcent": 0.003758343352463611,
+    "old_new": 0.4725239872932434,
+    "contrast": [
+      "Diverse Machine Learning Applications Security Fairness and System Optimization Research",
+      "Diverse Machine Learning Tools, Methods, and Applications Across Multiple Domains",
+      "Diverse Machine Learning Applications Across Multiple Unrelated Research Domains",
+      "Diverse Machine Learning Applications Across Vision, NLP, and Systems",
+      "Diverse Machine Learning Methods Across Medical Imaging Security and Optimization Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 29,
+    "old": "Diverse Machine Learning Methods and Applications",
+    "new": "Diverse ML Methods Reinforcement Learning Generative EEG Applications",
+    "cos_old": 0.2576597119646463,
+    "cos_new": 0.12701969484111714,
+    "dcent": -0.13064001712352918,
+    "old_new": 0.5761990547180176,
+    "contrast": [
+      "Diverse Machine Learning Methods Spanning Vision, Audio, and Representation Learning",
+      "Diverse Machine Learning Methods Spanning NLP, Vision, and Sequence Modeling",
+      "Diverse Machine Learning Applications Security Fairness and System Optimization Research",
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications",
+      "Diverse Machine Learning Applications Across Healthcare, Autonomous Systems, and Knowledge Representation"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 30,
+    "old": "Diverse Machine Learning Applications Across Heterogeneous Domains",
+    "new": "Diverse ML Applications Across Security Healthcare and RL",
+    "cos_old": 0.5103177677943934,
+    "cos_new": 0.40135422158160905,
+    "dcent": -0.10896354621278437,
+    "old_new": 0.5530858039855957,
+    "contrast": [
+      "Diverse Machine Learning Methods Across Unrelated Application Domains",
+      "Miscellaneous AI and Machine Learning Research Across Diverse Application Domains",
+      "Diverse Machine Learning Applications Across NLP, Planning, and AI Systems",
+      "Diverse Machine Learning Applications Spanning Vision Language Safety and Information Retrieval",
+      "Diverse Machine Learning Methods Spanning Bandits, Robustness, and Miscellaneous Applications"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 31,
+    "old": "Diverse Machine Learning Applications Across Unrelated Domains",
+    "new": "Diverse ML Applications Across Unrelated Niche Domains",
+    "cos_old": 0.2880892913335329,
+    "cos_new": 0.2276140505067775,
+    "dcent": -0.0604752408267554,
+    "old_new": 0.8694287538528442,
+    "contrast": [
+      "Diverse Machine Learning Methods Spanning NLP, Reinforcement Learning, and Computer Vision",
+      "Adversarial Robustness and Security Challenges in Diverse Machine Learning Contexts",
+      "Diverse Machine Learning Applications Across Scientific and Engineering Domains",
+      "Diverse Machine Learning Applications Spanning Temporal Reasoning Detection and Multimodal Analysis",
+      "Diverse Machine Learning Research Spanning Federated Learning, Reinforcement Learning, and Multi-Agent Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 32,
+    "old": "Diverse Machine Learning Methods and Adversarial Robustness",
+    "new": "Adversarial Robustness and Diverse ML Methods Survey",
+    "cos_old": 0.28523680330067686,
+    "cos_new": 0.2818836866238463,
+    "dcent": -0.003353116676830581,
+    "old_new": 0.8701914548873901,
+    "contrast": [
+      "Diverse AI and Optimization Methods Across Unrelated Application Domains",
+      "Diverse Machine Learning Applications Spanning NLP Biology Optimization and Forecasting",
+      "Diverse Machine Learning Applications Across Scientific and Engineering Domains",
+      "Diverse Machine Learning Methods Spanning Neural Networks, Generative Models, and Sustainability",
+      "Diverse Machine Learning Applications Spanning Healthcare, Security, and Generative AI Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 33,
+    "old": "Diverse Machine Learning Applications Across Multiple Domains",
+    "new": "Diverse Deep Learning Applications Across Healthcare Safety and Society",
+    "cos_old": 0.433677384674319,
+    "cos_new": 0.42634853450733723,
+    "dcent": -0.00732885016698176,
+    "old_new": 0.5115874409675598,
+    "contrast": [
+      "Diverse Machine Learning Research Spanning Reinforcement Learning Games and NLP Applications",
+      "Diverse Machine Learning Methods Spanning Explainability, Generation, and Model Efficiency",
+      "Diverse Machine Learning Applications Spanning Classification, Optimization, and Neural Architectures",
+      "Diverse AI Research Papers Spanning Reasoning, Planning, and Human-AI Interaction",
+      "Diverse Miscellaneous Machine Learning and Computer Science Research Papers"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 34,
+    "old": "Diverse AI and Machine Learning Research Collection",
+    "new": "Diverse AI Methods Spanning Graphs Reasoning and Human Interaction",
+    "cos_old": 0.39390895186894076,
+    "cos_new": 0.48096991825319424,
+    "dcent": 0.08706096638425348,
+    "old_new": 0.45977064967155457,
+    "contrast": [
+      "Diverse Machine Learning Applications Security Fairness and System Optimization Research",
+      "Diverse Machine Learning Methods Across Vision Language and Reasoning Tasks",
+      "Diverse Applied Machine Learning Methods Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications Spanning Neural Networks, Reinforcement Learning, and AI Systems",
+      "Diverse Machine Learning Applications Across Vision, NLP, and Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 35,
+    "old": "Diverse Machine Learning Security and Applications Research",
+    "new": "Diverse ML Security Fairness and System Optimization",
+    "cos_old": 0.24718576691095956,
+    "cos_new": 0.13483309767963686,
+    "dcent": -0.1123526692313227,
+    "old_new": 0.6659016609191895,
+    "contrast": [
+      "Diverse Machine Learning Applications Spanning Classification Detection and Optimization Tasks",
+      "Diverse Machine Learning Applications Across Vision, NLP, and Systems",
+      "Diverse Applied Machine Learning Methods Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Temporal Data",
+      "Diverse AI Research Papers Spanning Reasoning, Planning, and Human-AI Interaction"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 36,
+    "old": "Diverse Machine Learning Methods and Applications Research",
+    "new": "Diverse ML Applications Spanning Generative Models and RL",
+    "cos_old": 0.28759114430433663,
+    "cos_new": 0.3844984705314186,
+    "dcent": 0.09690732622708198,
+    "old_new": 0.5908918380737305,
+    "contrast": [
+      "Diverse Machine Learning Methods Across Vision Language and Reasoning Tasks",
+      "Diverse Applied Machine Learning Methods Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications Spanning Computer Vision Transfer Learning and Optimization",
+      "Miscellaneous Machine Learning Applications Across Diverse Domains and Tasks",
+      "Diverse Machine Learning Applications Spanning Vision Language Privacy and Sequential Learning"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 37,
+    "old": "Diverse Machine Learning Applications Across Multiple Domains",
+    "new": "Diverse ML Applications Spanning Vision Language and Sequential Data",
+    "cos_old": 0.3305397175179217,
+    "cos_new": 0.3178440762902613,
+    "dcent": -0.012695641227660426,
+    "old_new": 0.5196309089660645,
+    "contrast": [
+      "Diverse Machine Learning Applications Spanning Neural Networks, Reinforcement Learning, and AI Systems",
+      "Diverse Applied Machine Learning Methods Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications Spanning Computer Vision Transfer Learning and Optimization",
+      "Diverse Machine Learning Tools, Methods, and Applications Across Multiple Domains",
+      "Diverse Machine Learning Applications Spanning Recommendations, Reasoning, and Optimization"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 1,
+    "i": 38,
+    "old": "Diverse Machine Learning Methods and Applications Research",
+    "new": "Diverse ML Methods Across Vision Planning and Optimization",
+    "cos_old": 0.2796568069945745,
+    "cos_new": 0.47794850902824443,
+    "dcent": 0.19829170203366991,
+    "old_new": 0.43161651492118835,
+    "contrast": [
+      "Diverse Machine Learning Applications Across Vision, NLP, and Systems",
+      "Miscellaneous Machine Learning Applications Across Diverse Domains and Tasks",
+      "Diverse Machine Learning Applications Spanning Neural Networks, Reinforcement Learning, and AI Systems",
+      "Diverse Machine Learning Methods Across Knowledge Transfer and Argumentation Frameworks",
+      "Diverse Machine Learning Applications Spanning Recommendations, Reasoning, and Optimization"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 2,
+    "i": 1,
+    "old": "Diverse Miscellaneous ML Research",
+    "new": "Miscellaneous AI Research Papers",
+    "cos_old": 0.28827342596403815,
+    "cos_new": 0.35255438832401936,
+    "dcent": 0.06428096235998121,
+    "old_new": 0.6022936701774597,
+    "contrast": [
+      "Diverse Machine Learning Methods Across Neural Architectures and Applications",
+      "Diverse Machine Learning Methods Across Forecasting, Optimization, and Recognition Tasks",
+      "Heterogeneous Ensemble and Representation Learning Methods",
+      "Diverse ML Applications Across Heterogeneous Industrial Domains",
+      "Diverse AI Applications Across Specialized Domains and Systems"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 2,
+    "i": 2,
+    "old": "Diverse Machine Learning Applications",
+    "new": "Diverse ML Industrial Applications",
+    "cos_old": 0.2913268226067385,
+    "cos_new": 0.2278961666817166,
+    "dcent": -0.06343065592502187,
+    "old_new": 0.6802057027816772,
+    "contrast": [
+      "Diverse Machine Learning Methods Across Reinforcement Learning Benchmarks and Operator Frameworks",
+      "Diverse AI Applications Across Specialized Domains and Systems",
+      "Heterogeneous Ensemble and Representation Learning Methods",
+      "Diverse Machine Learning Methods Across Neural Architectures and Applications",
+      "Diverse Machine Learning Applications Spanning NLP, Federated Learning, and AI Ethics"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 2,
+    "i": 3,
+    "old": "Diverse Machine Learning Applications",
+    "new": "Diverse Niche ML Applications",
+    "cos_old": 0.3996519094590108,
+    "cos_new": 0.37062320155689316,
+    "dcent": -0.029028707902117645,
+    "old_new": 0.7704138159751892,
+    "contrast": [
+      "Diverse Miscellaneous Machine Learning and Computer Science Research",
+      "Diverse ML Methods Across Representation and Autonomous Systems",
+      "Diverse Deep Learning Applications Across Healthcare Safety and Society",
+      "Diverse ML Applications Across Security Healthcare and RL",
+      "Diverse ML Applications Across Heterogeneous Industrial Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 2,
+    "i": 4,
+    "old": "Diverse Machine Learning Applications",
+    "new": "Diverse AI Applications Across Domains",
+    "cos_old": 0.3834787838465455,
+    "cos_new": 0.3784870182609952,
+    "dcent": -0.004991765585550312,
+    "old_new": 0.7418118715286255,
+    "contrast": [
+      "Diverse ML Security Fairness and System Optimization",
+      "Diverse Deep Learning Methods Across Vision Graphs NLP",
+      "Diverse Machine Learning and NLP Methods Across Heterogeneous Application Domains",
+      "Diverse ML Methods Across Vision Planning and Optimization",
+      "Miscellaneous Machine Learning Applications Across Heterogeneous Domains"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 3,
+    "i": 0,
+    "old": "Miscellaneous ML",
+    "new": "Diverse ML Applications",
+    "cos_old": 0.25096535023506017,
+    "cos_new": 0.40578071200989,
+    "dcent": 0.15481536177482985,
+    "old_new": 0.4305557608604431,
+    "contrast": [
+      "Diverse AI Applications Across Domains",
+      "Diverse ML Applications Across Security Healthcare and RL",
+      "Diverse Machine Learning Research Across Unrelated Specialized Domains",
+      "Diverse Miscellaneous Machine Learning and Computer Science Research",
+      "Diverse Niche ML Applications"
+    ]
+  },
+  {
+    "ds": "arxiv",
+    "mdl": "sonnet",
+    "L": 3,
+    "i": 1,
+    "old": "Miscellaneous ML",
+    "new": "Miscellaneous ML Research",
+    "cos_old": 0.23847350833763262,
+    "cos_new": 0.41531411740281243,
+    "dcent": 0.17684060906517982,
+    "old_new": 0.6295026540756226,
+    "contrast": [
+      "Diverse AI Applications Across Domains",
+      "Miscellaneous Machine Learning Applications Across Heterogeneous Domains",
+      "Miscellaneous AI Research Papers",
+      "Diverse Niche ML Applications",
+      "Diverse ML Industrial Applications"
+    ]
+  }
+]

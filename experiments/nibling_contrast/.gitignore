@@ -1,0 +1,10 @@
+# Regenerable embedding caches and dataset artifacts (rebuild via prep_20ng.py /
+# the scripts themselves). The small result/analysis JSONs ARE kept.
+data/*.npy
+data/*.npz
+data/ng_texts.json
+data/ng_target_names.json
+
+# Python
+__pycache__/
+*.pyc

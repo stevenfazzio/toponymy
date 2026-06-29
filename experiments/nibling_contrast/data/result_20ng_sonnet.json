@@ -1,0 +1,798 @@
+{
+  "dataset": "20ng",
+  "model": "sonnet",
+  "k": 5,
+  "max_dist": null,
+  "disambig": false,
+  "base_min_cluster_size": 25,
+  "min_clusters": 4,
+  "subsample": null,
+  "counts": [
+    74,
+    24,
+    9
+  ],
+  "floor_rows": [
+    {
+      "layer": 0,
+      "n": 74,
+      "changed": 36,
+      "rate": 0.4864864864864865,
+      "uniq_base": 74,
+      "uniq_contrast": 74,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Buying and Selling Travel Tickets, Hotel Vouchers, and Vacation Packages",
+          "Buying and Selling Travel Tickets, Vacation Packages, and Hotel Accommodations"
+        ],
+        [
+          2,
+          "NHL Franchise Relocation Debates and Minor League Hockey News",
+          "NHL franchise relocation debates and minor league hockey team movements"
+        ],
+        [
+          3,
+          "Serdar Argic Turkish-Armenian genocide denial and historical revisionism debates",
+          "Serdar Argic Turkish nationalist denial of Armenian genocide Usenet propaganda"
+        ],
+        [
+          4,
+          "NHL Stanley Cup Playoff Game Recaps and Series Discussions Early 1990s",
+          "NHL Stanley Cup Playoff Game Recaps and Series Discussions 1993"
+        ],
+        [
+          6,
+          "NHL Hockey Teams Players Coaches and Playoff Season Discussions",
+          "NHL Hockey Season Player Performance Trades Coaching and Playoff Discussions"
+        ],
+        [
+          8,
+          "MLB Player Career Evaluation Statistics Hall of Fame Debates 1990s",
+          "MLB Baseball Player Career Statistics and Hall of Fame Worthiness Debates"
+        ],
+        [
+          13,
+          "Israeli-Palestinian Conflict Occupied Territories Arab-Israeli Peace Negotiations Debate",
+          "Israeli-Palestinian Conflict Occupation West Bank Settlements Arab Relations"
+        ],
+        [
+          16,
+          "Medical Conditions Treatment Allergies Chronic Disease Symptoms and Remedies",
+          "Medical Conditions Treatment Allergies Chronic Disease Patient Discussions"
+        ],
+        [
+          17,
+          "Religion Books and Pop Culture References in Usenet Discussions",
+          "Religion Books and Pop Culture Seven Deadly Sins Discussion"
+        ],
+        [
+          19,
+          "Telephone Line Electrical Characteristics DTMF Signaling and Phone Hardware Interfacing",
+          "Telephone Line Interfacing DTMF Signaling and On-Hook Off-Hook Detection Circuits"
+        ],
+        [
+          24,
+          "Clinton White House Press Briefings and Presidential Speeches Early 1993",
+          "Clinton White House Press Briefings and Presidential Speeches April 1993"
+        ],
+        [
+          25,
+          "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+          "Usenet Flame Wars Personal Attacks and Newsgroup Conduct Disputes"
+        ],
+        [
+          28,
+          "Commercial Moon Base Proposals and Long-Duration Human Spaceflight Feasibility Debates",
+          "Commercial Moon Base Proposals and Long-Duration Human Spaceflight Discussions"
+        ],
+        [
+          30,
+          "HST Servicing Mission Planning EVA Constraints Orbital Reboost Strategies",
+          "HST Servicing Mission EVA Planning Orbital Mechanics and Space Station Redesign"
+        ],
+        [
+          32,
+          "Libertarian Philosophy Government Coercion Regulation and Political Theory Debates",
+          "Libertarian Philosophy Government Coercion Regulation and Individual Freedom Debate"
+        ],
+        [
+          35,
+          "Biblical Interpretation Debates on Homosexuality Sin Christianity and Scripture",
+          "Biblical Interpretation Debates on Homosexuality Among Christians in Usenet"
+        ],
+        [
+          39,
+          "Gun Control Debate: Self-Defense Rights Versus Firearm Violence Statistics",
+          "Gun Control Debate: Self-Defense Rights Versus Firearms Regulation and Crime Statistics"
+        ],
+        [
+          43,
+          "Atheism versus theism debates on belief existence of God and faith",
+          "Atheism versus theism debates on belief faith and God's existence"
+        ],
+        [
+          44,
+          "Motorcycle Buying Selling Advice Models Comparisons and Technical Discussions",
+          "Motorcycle buying selling advice used bikes models discussion"
+        ],
+        [
+          47,
+          "Comparative Religious Rites Mysteries Esotericism Mormon Masonic Orthodox Christianity",
+          "Comparative Religious Rites Secret Ceremonies Mormonism Freemasonry Orthodox Christianity"
+        ],
+        [
+          48,
+          "Used Car Classified Advertisements with Mileage and Feature Listings",
+          "Used Car Classified Advertisements with Pricing and Vehicle Specifications"
+        ],
+        [
+          49,
+          "Automotive enthusiast discussions covering engine types, classic and modern cars",
+          "Automotive Enthusiast Discussions on Car Models Engines and Performance"
+        ],
+        [
+          50,
+          "Windows 3.x File Management Utilities DOS Integration and FTP Resources",
+          "Windows 3.x File Management Utilities DOS Integration and INI Configuration"
+        ],
+        [
+          51,
+          "X Window System colormap management and visual depth programming",
+          "X Window System colormap management and visual depth configuration"
+        ],
+        [
+          53,
+          "For Sale High Speed Fax Modems with V.42bis Error Correction",
+          "Used Modem Sales and High-Speed Fax Modem Technical Specifications"
+        ],
+        [
+          54,
+          "486DX2 CPU Overclocking Upgrades Bus Speed Cooling Heatsink Performance",
+          "486 CPU Upgrading Clock Speed Overclocking Cooling and Bus Compatibility"
+        ],
+        [
+          55,
+          "Consumer Electronics For Sale and Wanted Listings Including AV Equipment",
+          "Used Consumer Electronics For Sale Camcorders TVs Stereos VCRs"
+        ],
+        [
+          56,
+          "Usenet Classified Ads for Comics, CDs, and Collectibles For Sale",
+          "Usenet Classified Ads for Comics Music and Adult Media Sales"
+        ],
+        [
+          58,
+          "Computational Geometry Algorithms for 3D Points Polygons and Triangulations",
+          "Computational Geometry Algorithms for 3D Point and Polygon Operations"
+        ],
+        [
+          60,
+          "HP Inkjet and Laser Printer Consumables Comparison and Technical Discussion",
+          "HP Inkjet and Laser Printer Consumables Comparison and Usage Discussion"
+        ],
+        [
+          65,
+          "X Window System software resources, toolkits, and window manager implementations",
+          "X Window System software resources toolkits and window managers discussion"
+        ],
+        [
+          67,
+          "X11 Window Manager Interaction Positioning Events and Focus Programming",
+          "X11 Window Manager Interaction: Positioning, Event Handling, and Popup Behavior"
+        ],
+        [
+          68,
+          "Apple Macintosh Centris 610 650 68040 FPU Hardware Configurations",
+          "Apple Macintosh Centris 610 650 Hardware FPU 68040 Processor Configurations"
+        ],
+        [
+          69,
+          "Macintosh and PC Memory Upgrades SIMM Compatibility and Expansion Cards",
+          "Macintosh and PC Memory Upgrades SIMM Compatibility Bus Architecture"
+        ],
+        [
+          70,
+          "PC and Mac Video Card Benchmarks VESA Drivers VLB Performance Comparisons",
+          "PC and Mac video card benchmarks VESA drivers VLB performance comparisons"
+        ],
+        [
+          72,
+          "Used PC Hardware Software and Peripherals For Sale Classifieds",
+          "Used PC Hardware Software and Games For Sale Classifieds"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 24,
+      "changed": 16,
+      "rate": 0.6666666666666666,
+      "uniq_base": 24,
+      "uniq_contrast": 24,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "NHL Hockey Playoffs and Standings",
+          "NHL Hockey Playoffs 1993 Discussions"
+        ],
+        [
+          1,
+          "Alternative vs Conventional Medical Treatments",
+          "Alternative vs Conventional Medicine Debates"
+        ],
+        [
+          2,
+          "MLB Baseball Analysis and Predictions",
+          "MLB Baseball Analysis and Discussions"
+        ],
+        [
+          3,
+          "MLB Player Career Evaluation Statistics Hall of Fame Debates 1990s",
+          "MLB Baseball Player Career Statistics and Hall of Fame Worthiness Debates"
+        ],
+        [
+          4,
+          "Middle East Conflict and Ethnic Violence Debates",
+          "Middle East Conflict Ethnic Violence Debates"
+        ],
+        [
+          6,
+          "Space Exploration Missions and Spacecraft",
+          "Space Exploration Missions and Discussions"
+        ],
+        [
+          7,
+          "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+          "Usenet Flame Wars Personal Attacks and Newsgroup Conduct Disputes"
+        ],
+        [
+          8,
+          "Libertarian Politics Clinton Era Debates",
+          "Libertarianism vs Clinton Government Policy"
+        ],
+        [
+          13,
+          "Atheism versus theism debates on belief existence of God and faith",
+          "Atheism versus theism debates on belief faith and God's existence"
+        ],
+        [
+          14,
+          "Automotive Cars Discussion and Classifieds",
+          "Car Models Performance and Sales"
+        ],
+        [
+          15,
+          "Motorcycle Buying Selling Advice Models Comparisons and Technical Discussions",
+          "Motorcycle buying selling advice used bikes models discussion"
+        ],
+        [
+          16,
+          "Christian Scripture Canon and Mysteries",
+          "Christian Scripture and Secret Rites"
+        ],
+        [
+          18,
+          "Classified Ads Electronics and Collectibles",
+          "Classified Ads Electronics and Media"
+        ],
+        [
+          21,
+          "X11 Window System Programming",
+          "X11 Window System Programming Discussion"
+        ],
+        [
+          22,
+          "PC Video Card Drivers Benchmarks",
+          "PC Video Card Drivers Troubleshooting"
+        ],
+        [
+          23,
+          "Vintage Computer Hardware For Sale",
+          "Vintage PC Mac Hardware Sales"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 9,
+      "changed": 2,
+      "rate": 0.2222222222222222,
+      "uniq_base": 9,
+      "uniq_contrast": 9,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Alternative vs Conventional Medical Treatments",
+          "Alternative vs Conventional Medicine Debates"
+        ],
+        [
+          3,
+          "Space Exploration Missions and Spacecraft",
+          "Space Exploration Missions and Discussions"
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "layer": 0,
+      "n": 74,
+      "changed": 33,
+      "rate": 0.44594594594594594,
+      "uniq_base": 74,
+      "uniq_contrast": 74,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          3,
+          "Serdar Argic Turkish-Armenian genocide denial and historical revisionism debates",
+          "Serdar Argic Turkish-Armenian genocide denial and historical revisionism debate"
+        ],
+        [
+          4,
+          "NHL Stanley Cup Playoff Game Recaps and Series Discussions Early 1990s",
+          "NHL Stanley Cup Playoff Game Recaps and Series Discussions 1993"
+        ],
+        [
+          6,
+          "NHL Hockey Teams Players Coaches and Playoff Season Discussions",
+          "NHL Hockey Season Player Performance Trades Coaching and Playoff Discussions"
+        ],
+        [
+          8,
+          "MLB Player Career Evaluation Statistics Hall of Fame Debates 1990s",
+          "MLB Player Career Evaluation and Hall of Fame Worthiness Debates"
+        ],
+        [
+          16,
+          "Medical Conditions Treatment Allergies Chronic Disease Symptoms and Remedies",
+          "Medical Conditions Treatment Allergies Chronic Symptoms and OTC Remedies Discussion"
+        ],
+        [
+          17,
+          "Religion Books and Pop Culture References in Usenet Discussions",
+          "Religion Books and Pop Culture Seven Deadly Sins Discussion"
+        ],
+        [
+          19,
+          "Telephone Line Electrical Characteristics DTMF Signaling and Phone Hardware Interfacing",
+          "Telephone Line Electrical Characteristics DTMF Signaling and On-Hook Monitoring"
+        ],
+        [
+          20,
+          "Clipper Chip Key Escrow Encryption Policy and Government Wiretapping Debate",
+          "Clipper Chip Key Escrow Encryption Government Wiretap Policy Debate"
+        ],
+        [
+          24,
+          "Clinton White House Press Briefings and Presidential Speeches Early 1993",
+          "Clinton White House Press Briefings and Presidential Speeches April 1993"
+        ],
+        [
+          26,
+          "Automotive Cleaning Products Chemicals and Surface Treatment Techniques",
+          "Automotive Cleaning Products Solvents and Surface Treatment Chemicals Discussion"
+        ],
+        [
+          29,
+          "Historical and Current Planetary Spacecraft Missions Flybys and Exploration",
+          "Historical and Current Planetary Spacecraft Missions Flybys and Probe Exploration"
+        ],
+        [
+          32,
+          "Libertarian Philosophy Government Coercion Regulation and Political Theory Debates",
+          "Libertarian Philosophy Debate on Government Coercion and Regulation"
+        ],
+        [
+          34,
+          "Waco Branch Davidian Siege Fire Controversy FBI BATF Actions",
+          "Waco Branch Davidian Siege FBI BATF Tear Gas Fire Controversy"
+        ],
+        [
+          35,
+          "Biblical Interpretation Debates on Homosexuality Sin Christianity and Scripture",
+          "Biblical Interpretation Debates on Homosexuality Among Christian Newsgroup Participants"
+        ],
+        [
+          36,
+          "Motorcycle Riding Techniques Safety Tips and Passenger Management Advice",
+          "Motorcycle Riding Techniques Safety Passengers and Road Experience Discussion"
+        ],
+        [
+          37,
+          "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF Controversy",
+          "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF FBI Controversy"
+        ],
+        [
+          38,
+          "Second Amendment Rights Gun Control Legislation Debate and NRA Advocacy",
+          "Second Amendment Rights Gun Control Legislation Debate NRA Advocacy"
+        ],
+        [
+          39,
+          "Gun Control Debate: Self-Defense Rights Versus Firearm Violence Statistics",
+          "Gun Control Debate: Self-Defense Rights Versus Firearms Regulation and Crime Statistics"
+        ],
+        [
+          42,
+          "MS-DOS and Windows 3.1 compatibility issues disk errors memory management",
+          "MS-DOS and Windows 3.x Configuration Troubleshooting Disk Errors Memory Management"
+        ],
+        [
+          43,
+          "Atheism versus theism debates on belief existence of God and faith",
+          "Atheism versus theism debates on belief faith and God's existence"
+        ],
+        [
+          44,
+          "Motorcycle Buying Selling Advice Models Comparisons and Technical Discussions",
+          "Motorcycle buying selling advice used bikes models specifications"
+        ],
+        [
+          46,
+          "Biblical Canon Debates: Deuterocanonical Books, Apocrypha, and Christian Scripture Authority",
+          "Biblical Canon Debates: Deuterocanonical Books, Apocrypha, and Protestant Catholic Disputes"
+        ],
+        [
+          48,
+          "Used Car Classified Advertisements with Mileage and Feature Listings",
+          "Used Passenger Cars For Sale Private Seller Classified Advertisements"
+        ],
+        [
+          50,
+          "Windows 3.x File Management Utilities DOS Integration and FTP Resources",
+          "Windows 3.x File Management Utilities DOS Integration and INI Configuration"
+        ],
+        [
+          53,
+          "For Sale High Speed Fax Modems with V.42bis Error Correction",
+          "Used Modem Sales and High-Speed Fax Modem Technical Specifications"
+        ],
+        [
+          54,
+          "486DX2 CPU Overclocking Upgrades Bus Speed Cooling Heatsink Performance",
+          "486 CPU Upgrading Clock Speed Overclocking Cooling and Bus Compatibility"
+        ],
+        [
+          58,
+          "Computational Geometry Algorithms for 3D Points Polygons and Triangulations",
+          "Computational Geometry Algorithms for 3D Point and Polygon Operations"
+        ],
+        [
+          61,
+          "High-Resolution CRT Monitor Specifications Compatibility and Purchasing Advice",
+          "High-Resolution VGA and Multisync Monitor Specifications Compatibility and Purchasing Advice"
+        ],
+        [
+          66,
+          "X11R5 compilation linking errors xterm xdm configuration Unix systems",
+          "X11R5 Build Errors Linking Libraries and Configuring XDM Xterm"
+        ],
+        [
+          67,
+          "X11 Window Manager Interaction Positioning Events and Focus Programming",
+          "X11 Window Manager Interaction: Positioning, Events, and Focus Handling"
+        ],
+        [
+          69,
+          "Macintosh and PC Memory Upgrades SIMM Compatibility and Expansion Cards",
+          "Macintosh and PC Memory Upgrades SIMM Compatibility Bus Architecture"
+        ],
+        [
+          70,
+          "PC and Mac Video Card Benchmarks VESA Drivers VLB Performance Comparisons",
+          "PC and Mac video card benchmarks VESA drivers VLB performance comparisons"
+        ],
+        [
+          72,
+          "Used PC Hardware Software and Peripherals For Sale Classifieds",
+          "Used PC Hardware Software and Games For Sale Classifieds"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 24,
+      "changed": 18,
+      "rate": 0.75,
+      "uniq_base": 24,
+      "uniq_contrast": 24,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "NHL Hockey Playoffs and Standings",
+          "NHL 1993 Season Playoffs Discussions"
+        ],
+        [
+          1,
+          "Alternative vs Conventional Medical Treatments",
+          "Alternative vs Conventional Medical Treatment Debates"
+        ],
+        [
+          3,
+          "MLB Player Career Evaluation Statistics Hall of Fame Debates 1990s",
+          "MLB Player Career Evaluation and Hall of Fame Worthiness Debates"
+        ],
+        [
+          4,
+          "Middle East Conflict and Ethnic Violence Debates",
+          "Middle East Conflict Human Rights Debates"
+        ],
+        [
+          6,
+          "Space Exploration Missions and Spacecraft",
+          "Space Exploration Missions and Spaceflight"
+        ],
+        [
+          8,
+          "Libertarian Politics Clinton Era Debates",
+          "Libertarian Politics Clinton Tax Policy"
+        ],
+        [
+          9,
+          "Waco Branch Davidian Siege Controversy",
+          "Waco BATF FBI Raid Accountability Debate"
+        ],
+        [
+          10,
+          "Gun Control Second Amendment Debate",
+          "Gun Control Second Amendment Rights Debate"
+        ],
+        [
+          11,
+          "Motorcycle Riding Techniques Safety Tips and Passenger Management Advice",
+          "Motorcycle Riding Techniques Safety Passengers and Road Experience Discussion"
+        ],
+        [
+          12,
+          "MS-DOS and Windows 3.1 compatibility issues disk errors memory management",
+          "MS-DOS and Windows 3.x Configuration Troubleshooting Disk Errors Memory Management"
+        ],
+        [
+          13,
+          "Atheism versus theism debates on belief existence of God and faith",
+          "Atheism versus theism debates on belief faith and God's existence"
+        ],
+        [
+          14,
+          "Automotive Cars Discussion and Classifieds",
+          "Cars Discussion and Classifieds"
+        ],
+        [
+          15,
+          "Motorcycle Buying Selling Advice Models Comparisons and Technical Discussions",
+          "Motorcycle buying selling advice used bikes models specifications"
+        ],
+        [
+          16,
+          "Christian Scripture Canon and Mysteries",
+          "Christian Denominations Canon Esoteric Rites"
+        ],
+        [
+          18,
+          "Classified Ads Electronics and Collectibles",
+          "Electronics Comics Collectibles For Sale"
+        ],
+        [
+          21,
+          "X11 Window System Programming",
+          "X11 Window System Programming and Toolkits"
+        ],
+        [
+          22,
+          "PC Video Card Drivers Benchmarks",
+          "Windows Video Card Drivers Benchmarks"
+        ],
+        [
+          23,
+          "Vintage Computer Hardware For Sale",
+          "Vintage Mac PC Hardware Sales Upgrades"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 9,
+      "changed": 4,
+      "rate": 0.4444444444444444,
+      "uniq_base": 9,
+      "uniq_contrast": 9,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Alternative vs Conventional Medical Treatments",
+          "Alternative vs Conventional Medical Treatment Debates"
+        ],
+        [
+          3,
+          "Space Exploration Missions and Spacecraft",
+          "Space Exploration Missions and Spaceflight"
+        ],
+        [
+          6,
+          "Waco Controversy",
+          "Waco Gun Rights"
+        ],
+        [
+          8,
+          "PC Hardware Classifieds",
+          "PC Hardware Sales"
+        ]
+      ]
+    }
+  ],
+  "injection": {
+    "injected": 21,
+    "calls": 21,
+    "skip": 12,
+    "nocand": 0,
+    "filtered": 0,
+    "nearest_dist": {
+      "min": 0.09806742451538031,
+      "med": 0.39022900765964286,
+      "max": 0.7817844324985807
+    }
+  },
+  "injected_names": {
+    "1,0": [
+      "NHL Playoff Television Coverage Disputes on ESPN ABC and CBC",
+      "MLB Player Career Evaluation and Hall of Fame Worthiness Debates",
+      "MLB Baseball Season Standings Scores Predictions and Team Discussions 1992-1993",
+      "Baseball Sabermetrics Batting Patience Power Hitters Defensive Evaluation Analysis",
+      "Clinton White House Press Briefings and Presidential Speeches April 1993"
+    ],
+    "1,1": [
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "Waco Branch Davidian Siege FBI BATF Tear Gas Fire Controversy",
+      "Debates on homosexual prevalence statistics promiscuity and sexual behavior surveys",
+      "Philosophy of Science Theory Facts and Physical Universe Debates",
+      "Automotive Cleaning Products Solvents and Surface Treatment Chemicals Discussion"
+    ],
+    "1,2": [
+      "MLB Player Career Evaluation and Hall of Fame Worthiness Debates",
+      "NHL Hockey Season Player Performance Trades Coaching and Playoff Discussions",
+      "NHL Hockey Playoff Results Standings and Fantasy Draft Scoring",
+      "NHL Stanley Cup Playoff Game Recaps and Series Discussions 1993",
+      "NHL Franchise Relocation Debates and Minor League Hockey News"
+    ],
+    "1,4": [
+      "Serdar Argic Turkish-Armenian genocide denial and historical revisionism debate",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "BATF FBI Waco Branch Davidian Siege Raid Controversy and Investigation",
+      "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF FBI Controversy",
+      "Waco Branch Davidian Siege FBI BATF Koresh Compound Controversy"
+    ],
+    "1,5": [
+      "Software Piracy, Copy Protection Schemes, and Hacker Ethics Debate",
+      "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF FBI Controversy",
+      "Second Amendment Rights Gun Control Legislation Debate NRA Advocacy",
+      "BATF FBI Waco Branch Davidian Siege Raid Controversy and Investigation",
+      "Used Modem Sales and High-Speed Fax Modem Technical Specifications"
+    ],
+    "1,6": [
+      "Clinton White House Press Briefings and Presidential Speeches April 1993",
+      "Consumer Electronics For Sale and Wanted Listings Including AV Equipment",
+      "Used Passenger Cars For Sale Private Seller Classified Advertisements",
+      "X Window System software resources, toolkits, and window manager implementations",
+      "Usenet Classified Ads for Comics, CDs, and Collectibles For Sale"
+    ],
+    "1,8": [
+      "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF FBI Controversy",
+      "Second Amendment Rights Gun Control Legislation Debate NRA Advocacy",
+      "Clinton White House Press Briefings and Presidential Speeches April 1993",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "Clipper Chip Key Escrow Encryption Government Wiretap Policy Debate"
+    ],
+    "1,9": [
+      "Waco Branch Davidian Siege FBI BATF Tear Gas Fire Controversy",
+      "Second Amendment Rights Gun Control Legislation Debate NRA Advocacy",
+      "Clinton White House Press Briefings and Presidential Speeches April 1993",
+      "Early Clinton Administration Tax Policy and Deficit Spending Political Debates",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes"
+    ],
+    "1,10": [
+      "BATF FBI Waco Branch Davidian Siege Raid Controversy and Investigation",
+      "Waco Branch Davidian Siege Government Accountability Clinton Reno BATF FBI Controversy",
+      "Waco Branch Davidian Siege FBI BATF Tear Gas Fire Controversy",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "Early Clinton Administration Tax Policy and Deficit Spending Political Debates"
+    ],
+    "1,14": [
+      "Motorcycle buying selling advice used bikes models specifications",
+      "Consumer Electronics For Sale and Wanted Listings Including AV Equipment",
+      "Usenet Classified Ads for Comics, CDs, and Collectibles For Sale",
+      "Vintage Personal Computer Hardware Components and Systems For Sale",
+      "Used Home and Car Audio Equipment For Sale Classifieds"
+    ],
+    "1,16": [
+      "Christian theology debates on Bible interpretation salvation and eternal life",
+      "Religion Books and Pop Culture Seven Deadly Sins Discussion",
+      "Atheism versus theism debates on belief faith and God's existence",
+      "Biblical Interpretation Debates on Homosexuality Among Christian Newsgroup Participants",
+      "Usenet Debates on Jewish Identity, Israel, Anti-Semitism, and Nazi Comparisons"
+    ],
+    "1,18": [
+      "Used PC Hardware Software and Games For Sale Classifieds",
+      "Used Passenger Cars For Sale Private Seller Classified Advertisements",
+      "Vintage Personal Computer Hardware Components and Systems For Sale",
+      "Used Modem Sales and High-Speed Fax Modem Technical Specifications",
+      "Buying and Selling Travel Tickets, Hotel Vouchers, and Vacation Packages"
+    ],
+    "1,21": [
+      "X Window System colormap management and visual depth programming",
+      "Windows 3.x File Management Utilities DOS Integration and INI Configuration",
+      "Graphics Image File Format Conversion and Viewing Software Tools",
+      "Windows TrueType and PostScript Font Printing Configuration Issues",
+      "MS-DOS and Windows 3.x Configuration Troubleshooting Disk Errors Memory Management"
+    ],
+    "1,22": [
+      "High-Resolution VGA and Multisync Monitor Specifications Compatibility and Purchasing Advice",
+      "Macintosh and PC Memory Upgrades SIMM Compatibility Bus Architecture",
+      "Vintage Personal Computer Hardware Components and Systems For Sale",
+      "Apple Macintosh Centris 610 650 68040 FPU Hardware Configurations",
+      "Used Modem Sales and High-Speed Fax Modem Technical Specifications"
+    ],
+    "1,23": [
+      "Used Modem Sales and High-Speed Fax Modem Technical Specifications",
+      "Consumer Electronics For Sale and Wanted Listings Including AV Equipment",
+      "High-Resolution VGA and Multisync Monitor Specifications Compatibility and Purchasing Advice",
+      "PC and Mac video card benchmarks VESA drivers VLB performance comparisons",
+      "PC Hard Drive Installation Configuration IDE SCSI MFM Controller Troubleshooting"
+    ],
+    "2,0": [
+      "Waco BATF FBI Raid Accountability Debate",
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "Motorcycle Riding Techniques Safety Passengers and Road Experience Discussion",
+      "Space Exploration Missions and Spaceflight",
+      "Libertarian Politics Clinton Tax Policy"
+    ],
+    "2,4": [
+      "Electronics Comics Collectibles For Sale",
+      "Space Exploration Missions and Spaceflight",
+      "Vintage Mac PC Hardware Sales Upgrades",
+      "Gun Control Second Amendment Rights Debate",
+      "Windows Video Card Drivers Benchmarks"
+    ],
+    "2,5": [
+      "Usenet Flame Wars Personal Attacks and Argumentative Conduct Disputes",
+      "Middle East Conflict Human Rights Debates",
+      "Libertarian Politics Clinton Tax Policy",
+      "Waco BATF FBI Raid Accountability Debate",
+      "Gun Control Second Amendment Rights Debate"
+    ],
+    "2,6": [
+      "Middle East Conflict Human Rights Debates",
+      "Clipper Chip Key Escrow Debate",
+      "Atheism versus theism debates on belief faith and God's existence",
+      "Christian Denominations Canon Esoteric Rites",
+      "Space Exploration Missions and Spaceflight"
+    ],
+    "2,7": [
+      "Windows Video Card Drivers Benchmarks",
+      "MS-DOS and Windows 3.x Configuration Troubleshooting Disk Errors Memory Management",
+      "Vintage Mac PC Hardware Sales Upgrades",
+      "Space Exploration Missions and Spaceflight",
+      "Electronics Comics Collectibles For Sale"
+    ],
+    "2,8": [
+      "MS-DOS and Windows 3.x Configuration Troubleshooting Disk Errors Memory Management",
+      "Graphics Image File Format Conversion and Viewing Software Tools",
+      "Cars Discussion and Classifieds",
+      "Motorcycle buying selling advice used bikes models specifications",
+      "Space Exploration Missions and Spaceflight"
+    ]
+  },
+  "seconds": 669.1
+}

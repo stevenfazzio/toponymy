@@ -1,0 +1,843 @@
+{
+  "dataset": "arxiv",
+  "model": "haiku",
+  "k": 5,
+  "max_dist": null,
+  "disambig": false,
+  "base_min_cluster_size": 25,
+  "min_clusters": 4,
+  "subsample": null,
+  "counts": [
+    118,
+    39,
+    11,
+    4
+  ],
+  "floor_rows": [
+    {
+      "layer": 0,
+      "n": 118,
+      "changed": 18,
+      "rate": 0.15254237288135594,
+      "uniq_base": 114,
+      "uniq_contrast": 114,
+      "dup_base": 4,
+      "dup_contrast": 4,
+      "renames": [
+        [
+          14,
+          "Diverse Machine Learning Methods Spanning Clustering, Reinforcement Learning, and NLP Applications",
+          "Multi-view Learning, Reinforcement Learning, and Transfer Learning Methods"
+        ],
+        [
+          33,
+          "Multi-Agent Reinforcement Learning, Federated Learning, and Distributed Machine Learning Systems",
+          "Multi-Agent Reinforcement Learning, Federated Learning, and Adaptive Optimization Methods"
+        ],
+        [
+          42,
+          "Diverse Machine Learning Applications Across Time Series, Physics, Vision, and Reinforcement Learning",
+          "Diverse Machine Learning Applications Across Physics, Finance, Vision, and Education Domains"
+        ],
+        [
+          43,
+          "Machine Learning Model Testing, Compression, and Neuromorphic Implementation Techniques",
+          "Machine Learning Model Testing, Compression, and Neural Network Optimization Techniques"
+        ],
+        [
+          44,
+          "Diverse Machine Learning Methods Across Multiple Domains and Applications",
+          "Diverse Machine Learning Methods and Applications Across Multiple Domains"
+        ],
+        [
+          47,
+          "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+          "Robust Machine Learning Methods with Weak Supervision and Optimization Techniques"
+        ],
+        [
+          49,
+          "Diverse Machine Learning Applications and Specialized Training Mechanisms",
+          "Diverse Machine Learning Methods and Applications Across NLP, Computer Vision, and Systems"
+        ],
+        [
+          57,
+          "Advanced Neural Network Methods for Language Generation, Reasoning, and Structured Learning Tasks",
+          "Advanced Neural Network Methods for Language Generation, Reasoning, and Adversarial Robustness"
+        ],
+        [
+          70,
+          "Machine Learning Applications in Recommendation Systems, Misinformation Detection, and Domain-Specific Classification",
+          "Machine Learning Applications in Information Systems and Domain-Specific Classification Tasks"
+        ],
+        [
+          77,
+          "Generalization and Efficiency in Machine Learning: Zero-Shot Learning, Model Compression, and Specialized Applications",
+          "Generalization and Robustness in Machine Learning: Zero-Shot Learning, Model Compression, and Domain Adaptation"
+        ],
+        [
+          79,
+          "Personalized and Sequential Machine Learning with Specialized Neural Network Architectures",
+          "Personalized Sequential and Multimodal Learning with Neural Architectures and Representation Alignment"
+        ],
+        [
+          85,
+          "Deep Learning Methods for Multimodal Analysis, Detection, and Sequential Prediction Tasks",
+          "Deep Learning Methods for Interpretable Multimodal Analysis and Sequential Prediction Tasks"
+        ],
+        [
+          87,
+          "Deep Learning Applications Across Security, Optimization, and Data Representation Tasks",
+          "Deep Learning Applications Across Security, Optimization, and Data Understanding Tasks"
+        ],
+        [
+          95,
+          "Diverse Machine Learning Applications Spanning Recommendation Systems, Multimodal Learning, and Creative AI",
+          "Diverse Machine Learning Applications Spanning Recommendation Systems, Multimodal Learning, and Generative Models"
+        ],
+        [
+          97,
+          "Machine Learning Methods for Robustness, Detection, and Optimization in Specialized Domains",
+          "Diverse Machine Learning Applications with Focus on Data Quality and Model Robustness"
+        ],
+        [
+          104,
+          "Adversarial Machine Learning Security, Neural Network Robustness, and Backdoor Attack Defense",
+          "Adversarial Machine Learning Security, Neural Network Robustness, and Defense Mechanisms"
+        ],
+        [
+          113,
+          "Multimodal Learning, Adversarial Robustness, and Sequential Processing in Neural Systems",
+          "Multimodal Learning, Privacy-Preserving AI, and Sequential Processing in Neural Networks"
+        ],
+        [
+          117,
+          "Advanced Machine Learning Optimization and Robustness Techniques for Complex Systems",
+          "Advanced Machine Learning Optimization and Robustness Techniques for Efficient Model Training"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 39,
+      "changed": 9,
+      "rate": 0.23076923076923078,
+      "uniq_base": 35,
+      "uniq_contrast": 37,
+      "dup_base": 4,
+      "dup_contrast": 2,
+      "renames": [
+        [
+          7,
+          "Multi-Agent Learning and Distributed Machine Learning Applications",
+          "Multi-Agent Learning and Domain-Adaptive Machine Learning Systems"
+        ],
+        [
+          15,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications and Methods Across Diverse Domains"
+        ],
+        [
+          18,
+          "Diverse Machine Learning Methods Across Multiple Domains and Applications",
+          "Diverse Machine Learning Methods and Applications Across Multiple Domains"
+        ],
+        [
+          19,
+          "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+          "Robust Machine Learning Methods with Weak Supervision and Optimization Techniques"
+        ],
+        [
+          25,
+          "Robust Machine Learning for Low-Resource Settings",
+          "Robust Machine Learning for Low-Resource Scenarios"
+        ],
+        [
+          28,
+          "Sequential Learning and Specialized Neural Architectures",
+          "Sequential Learning and Multimodal Neural Architecture Design"
+        ],
+        [
+          30,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications with Safety and Robustness Focus"
+        ],
+        [
+          35,
+          "Adversarial Robustness and Backdoor Attacks in Neural Networks",
+          "Adversarial Robustness and Neural Network Security Attacks"
+        ],
+        [
+          38,
+          "Machine Learning Systems Design and Optimization Methods",
+          "Machine Learning Frameworks and Optimization for Diverse Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 11,
+      "changed": 5,
+      "rate": 0.45454545454545453,
+      "uniq_base": 10,
+      "uniq_contrast": 11,
+      "dup_base": 1,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications and Methods Across Diverse Domains"
+        ],
+        [
+          1,
+          "Machine Learning Methods and Applications",
+          "Machine Learning Methods and Evaluation"
+        ],
+        [
+          3,
+          "Robust Learning and Optimization Systems",
+          "Robust Learning and Optimization"
+        ],
+        [
+          7,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications with Safety and Robustness Focus"
+        ],
+        [
+          10,
+          "Machine Learning Systems Design and Optimization Methods",
+          "Machine Learning Frameworks and Optimization for Diverse Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 3,
+      "n": 4,
+      "changed": 2,
+      "rate": 0.5,
+      "uniq_base": 4,
+      "uniq_contrast": 4,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Applied Machine Learning",
+          "Robust Learning"
+        ],
+        [
+          2,
+          "Robust Learning and Optimization Systems",
+          "Robust Learning and Optimization"
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "layer": 0,
+      "n": 118,
+      "changed": 26,
+      "rate": 0.22033898305084745,
+      "uniq_base": 114,
+      "uniq_contrast": 114,
+      "dup_base": 4,
+      "dup_contrast": 4,
+      "renames": [
+        [
+          2,
+          "Diverse Machine Learning Applications and Methodologies Across Multiple Domains",
+          "Diverse Machine Learning Applications and Methodologies Across NLP, Computer Vision, and Federated Systems"
+        ],
+        [
+          6,
+          "Diverse Machine Learning Applications Spanning Medical Imaging, Fairness, Robotics, and Information Retrieval",
+          "Diverse Machine Learning Applications Spanning Medical Imaging, Knowledge Representation, and Fairness"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Applications and Generalization Challenges Across Multiple Domains",
+          "Diverse Machine Learning Applications and Generalization Challenges Across Domains"
+        ],
+        [
+          14,
+          "Diverse Machine Learning Methods Spanning Clustering, Reinforcement Learning, and NLP Applications",
+          "Multi-view Learning, Reinforcement Learning, and Transfer Learning Methods"
+        ],
+        [
+          32,
+          "Diverse Machine Learning Applications Spanning NLP, Vision, and Domain-Specific Systems",
+          "Diverse Machine Learning Applications Spanning NLP, Vision, and Domain-Specific Tasks"
+        ],
+        [
+          41,
+          "Diverse Machine Learning Applications Across Vision, Reinforcement Learning, and Data Processing",
+          "Diverse Machine Learning Applications Across Vision, Reinforcement Learning, and Data Optimization"
+        ],
+        [
+          43,
+          "Machine Learning Model Testing, Compression, and Neuromorphic Implementation Techniques",
+          "Machine Learning Model Testing, Compression, and Neural Network Optimization Techniques"
+        ],
+        [
+          44,
+          "Diverse Machine Learning Methods Across Multiple Domains and Applications",
+          "Diverse Machine Learning Methods and Applications Across Multiple Domains"
+        ],
+        [
+          47,
+          "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+          "Robust Machine Learning Methods with Weak Supervision and Representation Learning"
+        ],
+        [
+          49,
+          "Diverse Machine Learning Applications and Specialized Training Mechanisms",
+          "Diverse Machine Learning Methods and Applications Across NLP, Computer Vision, and Systems"
+        ],
+        [
+          57,
+          "Advanced Neural Network Methods for Language Generation, Reasoning, and Structured Learning Tasks",
+          "Advanced Neural Network Methods for Language Generation, Reasoning, and Adversarial Robustness"
+        ],
+        [
+          60,
+          "Data-Centric Machine Learning and Anomaly Detection with Applications to Domain-Specific Tasks",
+          "Data-Centric Machine Learning and Practical AI Applications Across Diverse Domains"
+        ],
+        [
+          61,
+          "Machine Learning Methods for Personalized Health Prediction and Causal Inference",
+          "Machine Learning Methods for Interpretability, Optimization, and Causal Inference Applications"
+        ],
+        [
+          62,
+          "Robustness, Fairness, and Adversarial Attacks in Deep Learning Models",
+          "Robustness, Fairness, and Adversarial Analysis in Deep Learning Models"
+        ],
+        [
+          70,
+          "Machine Learning Applications in Recommendation Systems, Misinformation Detection, and Domain-Specific Classification",
+          "Machine Learning Applications in Information Systems and Domain-Specific Classification Tasks"
+        ],
+        [
+          79,
+          "Personalized and Sequential Machine Learning with Specialized Neural Network Architectures",
+          "Personalized Sequential and Multimodal Learning with Neural Architectures and Federated Approaches"
+        ],
+        [
+          85,
+          "Deep Learning Methods for Multimodal Analysis, Detection, and Sequential Prediction Tasks",
+          "Deep Learning Methods for Interpretable Detection, Prediction and Inference Tasks"
+        ],
+        [
+          87,
+          "Deep Learning Applications Across Security, Optimization, and Data Representation Tasks",
+          "Deep Learning Applications Across Security, Optimization, and Data Understanding Tasks"
+        ],
+        [
+          92,
+          "Advanced Optimization and Search Algorithms for Complex Decision-Making Problems",
+          "Advanced Search and Optimization Algorithms for Complex Decision-Making and Planning Problems"
+        ],
+        [
+          95,
+          "Diverse Machine Learning Applications Spanning Recommendation Systems, Multimodal Learning, and Creative AI",
+          "Diverse Machine Learning Applications Spanning Recommendation Systems, Multimodal Learning, and Generative Models"
+        ],
+        [
+          97,
+          "Machine Learning Methods for Robustness, Detection, and Optimization in Specialized Domains",
+          "Machine Learning Applications in Healthcare, NLP, and Reinforcement Learning Systems"
+        ],
+        [
+          104,
+          "Adversarial Machine Learning Security, Neural Network Robustness, and Backdoor Attack Defense",
+          "Adversarial Robustness, Neural Network Security, and Machine Learning Trustworthiness"
+        ],
+        [
+          107,
+          "Diverse Machine Learning Applications Across Computer Vision, Control Systems, and Cybersecurity",
+          "Diverse Machine Learning Applications Across Multiple Domains and Problem Spaces"
+        ],
+        [
+          113,
+          "Multimodal Learning, Adversarial Robustness, and Sequential Processing in Neural Systems",
+          "Multimodal Learning, Privacy-Preserving AI, and Sequential Processing in Neural Networks"
+        ],
+        [
+          114,
+          "Machine Learning Applications and Robustness Across Diverse Domains and Systems",
+          "Machine Learning Applications and Robustness Across Diverse Domains and Architectures"
+        ],
+        [
+          117,
+          "Advanced Machine Learning Optimization and Robustness Techniques for Complex Systems",
+          "Advanced Machine Learning Optimization and Robustness Techniques for Efficient Model Training"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 39,
+      "changed": 25,
+      "rate": 0.6410256410256411,
+      "uniq_base": 35,
+      "uniq_contrast": 38,
+      "dup_base": 4,
+      "dup_contrast": 1,
+      "renames": [
+        [
+          0,
+          "Diverse Machine Learning Applications and Methodologies Across Multiple Domains",
+          "Diverse Machine Learning Applications and Methodologies Across NLP, Computer Vision, and Federated Systems"
+        ],
+        [
+          1,
+          "Deep Learning Methods with Custom Loss Functions",
+          "Deep Learning Architectures and Causal Inference Methods"
+        ],
+        [
+          5,
+          "Machine Learning Model Robustness Evaluation and Editing Methods",
+          "Model Robustness, Editing, and Geometric Representation Learning"
+        ],
+        [
+          6,
+          "Practical Deep Learning Systems and Optimization Methods",
+          "Practical Deep Learning Systems with Optimization and Explainability"
+        ],
+        [
+          10,
+          "Deep Learning Optimization and Diverse Application Systems",
+          "Deep Learning Optimization and Practical Application Systems"
+        ],
+        [
+          14,
+          "Deep Learning Methods for Safety-Critical Applications",
+          "Deep Learning Safety, Efficiency, and Specialized Applications"
+        ],
+        [
+          15,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications Across Diverse Domains and Methods"
+        ],
+        [
+          17,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications Multimodal Data Symbolic Reasoning"
+        ],
+        [
+          18,
+          "Diverse Machine Learning Methods Across Multiple Domains and Applications",
+          "Diverse Machine Learning Methods and Applications Across Multiple Domains"
+        ],
+        [
+          19,
+          "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+          "Robust Machine Learning Methods with Weak Supervision and Representation Learning"
+        ],
+        [
+          22,
+          "Machine Learning Robustness, Fairness, and Health Prediction",
+          "Machine Learning Robustness, Fairness, and Interpretability Methods"
+        ],
+        [
+          24,
+          "Machine Learning Methods for Diverse Domain Applications",
+          "Machine Learning Methods for Domain-Specific Information Processing"
+        ],
+        [
+          25,
+          "Robust Machine Learning for Low-Resource Settings",
+          "Robust Machine Learning for Low-Resource and Heterogeneous Settings"
+        ],
+        [
+          26,
+          "Machine Learning Methods Across Diverse Computational Domains",
+          "Machine Learning Optimization Methods for Structured Data"
+        ],
+        [
+          27,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications Across Healthcare and Domain Adaptation"
+        ],
+        [
+          28,
+          "Sequential Learning and Specialized Neural Architectures",
+          "Sequential Learning, Reinforcement Learning, and Architecture Search"
+        ],
+        [
+          29,
+          "Machine Learning Methods Across Diverse Application Domains",
+          "Deep Learning Methods Across Signal Processing and Reinforcement Learning"
+        ],
+        [
+          30,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications Healthcare Security Optimization"
+        ],
+        [
+          31,
+          "Advanced Search and Optimization for Complex Systems",
+          "Advanced Search Algorithms and Deep Learning Applications"
+        ],
+        [
+          32,
+          "Adversarial Robustness and Machine Learning Data Enhancement",
+          "Adversarial Robustness and Data Augmentation in Machine Learning"
+        ],
+        [
+          33,
+          "Machine Learning Applications with Domain Adaptation and Robustness",
+          "Machine Learning Applications with Domain Adaptation and Transfer Learning"
+        ],
+        [
+          35,
+          "Adversarial Robustness and Backdoor Attacks in Neural Networks",
+          "Adversarial Robustness and Instruction-Based Model Security"
+        ],
+        [
+          36,
+          "Diverse Machine Learning Applications and Robustness Evaluation",
+          "Machine Learning Applications Across Vision, Audio, and Data Domains"
+        ],
+        [
+          37,
+          "Multimodal AI Systems with Diverse Applications",
+          "Multimodal Generative Models and Cross-Domain AI Applications"
+        ],
+        [
+          38,
+          "Machine Learning Systems Design and Optimization Methods",
+          "Machine Learning Systems, Frameworks, and Practical Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 11,
+      "changed": 11,
+      "rate": 1.0,
+      "uniq_base": 10,
+      "uniq_contrast": 11,
+      "dup_base": 1,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications Across Diverse Domains and Methods"
+        ],
+        [
+          1,
+          "Machine Learning Methods and Applications",
+          "Robust Learning with Weak Supervision"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Applications",
+          "Multimodal Machine Learning Applications"
+        ],
+        [
+          3,
+          "Robust Learning and Optimization Systems",
+          "Deep Learning Robustness and Augmentation"
+        ],
+        [
+          4,
+          "Machine Learning Applications Across Domains",
+          "Deep Learning Applications and Methods"
+        ],
+        [
+          5,
+          "Machine Learning Methods for Diverse Domain Applications",
+          "Machine Learning Methods for Domain-Specific Information Processing"
+        ],
+        [
+          6,
+          "Machine Learning Methods Across Diverse Computational Domains",
+          "Machine Learning Optimization Methods for Structured Data"
+        ],
+        [
+          7,
+          "Machine Learning Applications Across Diverse Domains",
+          "Machine Learning Applications Healthcare Security Optimization"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Applications and Robustness Evaluation",
+          "Machine Learning Applications Across Vision, Audio, and Data Domains"
+        ],
+        [
+          9,
+          "Multimodal AI Systems with Diverse Applications",
+          "Multimodal Generative Models and Cross-Domain AI Applications"
+        ],
+        [
+          10,
+          "Machine Learning Systems Design and Optimization Methods",
+          "Machine Learning Systems, Frameworks, and Practical Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 3,
+      "n": 4,
+      "changed": 3,
+      "rate": 0.75,
+      "uniq_base": 4,
+      "uniq_contrast": 4,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Machine Learning Applications",
+          "Multimodal Robustness"
+        ],
+        [
+          2,
+          "Robust Learning and Optimization Systems",
+          "Deep Learning Robustness and Augmentation"
+        ],
+        [
+          3,
+          "Machine Learning Applications Across Domains",
+          "Deep Learning Applications and Methods"
+        ]
+      ]
+    }
+  ],
+  "injection": {
+    "injected": 31,
+    "calls": 31,
+    "skip": 23,
+    "nocand": 0,
+    "filtered": 0,
+    "nearest_dist": {
+      "min": 0.045579196615790796,
+      "med": 0.18097863146094495,
+      "max": 0.4147295174879895
+    }
+  },
+  "injected_names": {
+    "1,1": [
+      "Machine Learning Applications Across Diverse Domains with Focus on Data Augmentation and Domain Adaptation",
+      "Diverse Machine Learning Applications Spanning Computer Vision, NLP, and Autonomous Systems",
+      "Diverse Machine Learning Applications and Algorithmic Analysis Across Multiple Domains",
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Machine Learning Methods for Data Augmentation, Reinforcement Learning, and Knowledge Integration"
+    ],
+    "1,5": [
+      "Diverse Machine Learning Applications and Methodologies Across NLP, Computer Vision, and Federated Systems",
+      "Diverse Machine Learning Applications in Computer Vision, NLP, and Robotics",
+      "Diverse Machine Learning Applications and Neural Network Optimization Techniques",
+      "Interpretability, Explainability, and Trustworthiness in Machine Learning Models",
+      "Deep Learning Model Optimization, Benchmarking, and Efficient Inference Systems"
+    ],
+    "1,6": [
+      "Advanced Machine Learning Methods for Complex Structured Data and Multi-Agent Systems",
+      "Diverse Machine Learning Applications and Robustness Analysis Across Multiple Domains",
+      "AI Safety, Bias Detection, and Robustness in Machine Learning Systems",
+      "Machine Learning Methods for Geometric Reconstruction, Combinatorial Optimization, and Representation Learning",
+      "Diverse Machine Learning Applications with Interpretability and Robustness Considerations"
+    ],
+    "1,7": [
+      "Diverse Machine Learning Applications and Robustness Analysis Across Multiple Domains",
+      "Diverse Machine Learning Applications with Interpretability and Robustness Considerations",
+      "Diverse AI Methods for Policy Learning, Reasoning, and System Design Challenges",
+      "Diverse Machine Learning Applications Spanning Medical Imaging, Knowledge Representation, and Fairness",
+      "Advanced Machine Learning Methods for Complex Structured Data and Multi-Agent Systems"
+    ],
+    "1,10": [
+      "Machine Learning Methods for Geometric Reconstruction, Combinatorial Optimization, and Representation Learning",
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+      "Machine Learning Applications in Industrial Systems and Multi-Agent Control",
+      "Advanced Neural Network Architectures and Optimization Techniques for Diverse Machine Learning Applications",
+      "Diverse Machine Learning Applications and Robustness Analysis Across Multiple Domains"
+    ],
+    "1,14": [
+      "Large Language Models Applications Across Diverse Domains and Evaluation Methods",
+      "Diverse Machine Learning Methods and Benchmarks for Complex Learning Problems",
+      "Robust Machine Learning Methods with Weak Supervision and Representation Learning",
+      "Machine Learning Methods for Low-Resource Languages and Robust Model Training",
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains"
+    ],
+    "1,15": [
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making",
+      "Diverse Machine Learning Applications Spanning Code Search, Evolutionary Algorithms, and Safety Evaluation",
+      "Diverse Machine Learning Methods for Structured Data, Embeddings, and Sequential Processing",
+      "Diverse Machine Learning Applications in Computer Vision, NLP, and Robotics"
+    ],
+    "1,17": [
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+      "Diverse Machine Learning Methods and Benchmarks for Complex Learning Problems",
+      "Diverse Machine Learning Applications and Neural Network Optimization Techniques",
+      "Diverse Machine Learning Applications and Methodologies Across NLP, Computer Vision, and Federated Systems",
+      "Machine Learning Applications in Game Production, AI Safety, and Incremental Learning Systems"
+    ],
+    "1,21": [
+      "Diverse Machine Learning Applications Across Healthcare, Accessibility, and Explainability Domains",
+      "Diverse Machine Learning Applications Across Medical Imaging, NLP, and Domain Adaptation",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making",
+      "Diverse Machine Learning Methods and Applications Across Healthcare, Optimization, and Reliability",
+      "Diverse Machine Learning Applications and Generalization Challenges Across Domains"
+    ],
+    "1,22": [
+      "Diverse Machine Learning Applications and Generalization Challenges Across Domains",
+      "Diverse Machine Learning Applications and Optimization Techniques Across Multiple Domains",
+      "Deep Learning for Signal Processing, Brain-Computer Interfaces, and Reinforcement Learning Exploration",
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Diverse Machine Learning Methods for Specialized Domain Applications and Model Optimization"
+    ],
+    "1,24": [
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Diverse Machine Learning Applications in Computer Vision, NLP, and Robotics",
+      "Diverse AI Methods for Policy Learning, Reasoning, and System Design Challenges",
+      "Diverse Machine Learning Applications Across NLP, Reinforcement Learning, and Educational Systems",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making"
+    ],
+    "1,25": [
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+      "Diverse Machine Learning Methods Across NLP, Vision, Planning, and Reinforcement Learning",
+      "Machine Learning Applications in Game Production, AI Safety, and Incremental Learning Systems",
+      "Diverse Machine Learning Methods and Benchmarks for Complex Learning Problems",
+      "Advanced Neural Network Architectures and Optimization Techniques for Diverse Machine Learning Applications"
+    ],
+    "1,26": [
+      "AI Safety, Bias Detection, and Robustness in Machine Learning Systems",
+      "Diverse Machine Learning Applications and Neural Network Optimization Techniques",
+      "Machine Learning Applications Across Diverse Domains with Focus on Data Augmentation and Domain Adaptation",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Computer Vision",
+      "Multi-Agent Collaborative Learning and Coordination in Distributed Systems"
+    ],
+    "1,27": [
+      "Diverse Machine Learning Methods for Specialized Domain Applications and Model Optimization",
+      "Advanced Neural Network Methods for Language Generation, Reasoning, and Adversarial Robustness",
+      "Diverse Machine Learning Methods and Applications Across Healthcare, Optimization, and Reliability",
+      "Diverse AI Methods for Policy Learning, Reasoning, and System Design Challenges",
+      "Diverse Machine Learning Applications and Architectures Across Multiple Domains"
+    ],
+    "1,28": [
+      "Adversarial Robustness, Neural Network Security, and Machine Learning Trustworthiness",
+      "Machine Learning Tools, Platforms, and Methods for Data Analysis and Fairness",
+      "Diverse Machine Learning Applications and Neural Network Optimization Techniques",
+      "Diverse Deep Learning Applications in Computer Vision, Optimization, and Domain-Specific Tasks",
+      "Diverse Machine Learning Methods Across Medical Imaging, Robustness, Privacy, and Neural Networks"
+    ],
+    "1,29": [
+      "Robustness, Fairness, and Adversarial Analysis in Deep Learning Models",
+      "Diverse Machine Learning Methods for Specialized Domain Applications and Model Optimization",
+      "Adversarial Robustness, Neural Network Security, and Machine Learning Trustworthiness",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making",
+      "Diverse Machine Learning Applications Across Medical Imaging, NLP, and Domain Adaptation"
+    ],
+    "1,30": [
+      "Advanced Machine Learning Methods for Complex Structured Data and Multi-Agent Systems",
+      "Diverse Machine Learning Applications Spanning Medical Imaging, Knowledge Representation, and Fairness",
+      "Diverse AI Methods for Policy Learning, Reasoning, and System Design Challenges",
+      "Diverse Machine Learning Applications Spanning Computer Vision, NLP, and Autonomous Systems",
+      "Diverse Machine Learning Applications and Robustness Analysis Across Multiple Domains"
+    ],
+    "1,31": [
+      "Machine Learning Methods for Data Augmentation, Reinforcement Learning, and Knowledge Integration",
+      "Adversarial Robustness, Security, and Bias Mitigation in Machine Learning Systems",
+      "Neural Network Applications for Temporal, Sequential, and Complex System Modeling",
+      "Deep Learning Methods for Interpretable Detection, Prediction and Inference Tasks",
+      "Multi-Agent Collaborative Learning and Coordination in Distributed Systems"
+    ],
+    "1,32": [
+      "Advanced Search and Optimization Algorithms for Complex Decision-Making and Planning Problems",
+      "Deep Learning Applications in Scientific Computing, Biology, and Natural Language Processing",
+      "Neural Network Applications for Temporal, Sequential, and Complex System Modeling",
+      "Advanced Neural Network Architectures and Optimization Methods for Complex Data Representations",
+      "AI Safety, Bias Detection, and Robustness in Machine Learning Systems"
+    ],
+    "1,33": [
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Sequential Decision Making",
+      "Generative Models and Structured Learning for Robust AI Systems with Post-Processing",
+      "Diverse Machine Learning Applications and Algorithmic Analysis Across Multiple Domains",
+      "Diverse AI Applications Spanning Multimodal Learning, Causal Reasoning, and Agent-Based Systems",
+      "Diverse Machine Learning and Optimization Methods Across Multiple Computational Domains"
+    ],
+    "1,34": [
+      "Adversarial Robustness, Neural Network Security, and Machine Learning Trustworthiness",
+      "Multimodal Learning and Evaluation Frameworks for Complex AI Systems",
+      "Diverse Machine Learning Applications Spanning Privacy, Optimization, and Robustness",
+      "Diverse Machine Learning Applications Spanning Vision, Optimization, and Neural Network Efficiency",
+      "Diverse Deep Learning Applications in Computer Vision, Optimization, and Domain-Specific Tasks"
+    ],
+    "1,35": [
+      "Diverse Machine Learning Applications Across Multiple Domains and Problem Spaces",
+      "Diverse Deep Learning Applications in Computer Vision, Optimization, and Domain-Specific Tasks",
+      "Diverse Machine Learning Applications Spanning Privacy, Optimization, and Robustness",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Computer Vision",
+      "Diverse AI Applications Spanning Multimodal Learning, Causal Reasoning, and Agent-Based Systems"
+    ],
+    "1,36": [
+      "Multimodal Learning and Evaluation Frameworks for Complex AI Systems",
+      "Diverse Machine Learning Applications Spanning Privacy, Optimization, and Robustness",
+      "Advanced Machine Learning Optimization and Robustness Techniques for Efficient Model Training",
+      "Machine Learning Applications and Robustness Across Diverse Domains and Architectures",
+      "Multimodal Learning, Privacy-Preserving AI, and Sequential Processing in Neural Networks"
+    ],
+    "1,37": [
+      "Diverse Machine Learning Applications Spanning Vision, Optimization, and Neural Network Efficiency",
+      "Diverse Machine Learning Applications Spanning Privacy, Optimization, and Robustness",
+      "Advanced Machine Learning Optimization and Robustness Techniques for Efficient Model Training",
+      "Machine Learning Tools, Platforms, and Methods for Data Analysis and Fairness",
+      "Diverse Machine Learning Applications Spanning Recommendation Systems, Multimodal Learning, and Generative Models"
+    ],
+    "1,38": [
+      "Diverse Deep Learning Applications in Computer Vision, Optimization, and Domain-Specific Tasks",
+      "Machine Learning Applications and Robustness Across Diverse Domains and Architectures",
+      "Diverse Machine Learning Applications Spanning Vision, Optimization, and Neural Network Efficiency",
+      "Diverse Machine Learning Methods: Transfer Learning, Argumentation, Knowledge Graphs, and Applications",
+      "Diverse Machine Learning Applications Spanning Recommendation Systems, Multimodal Learning, and Generative Models"
+    ],
+    "2,1": [
+      "Deep Learning Safety, Efficiency, and Specialized Applications",
+      "Diverse Machine Learning Methods and Applications Across Multiple Domains",
+      "Robust Machine Learning for Low-Resource and Heterogeneous Settings",
+      "Machine Learning Applications Multimodal Data Symbolic Reasoning",
+      "Deep Learning Optimization and Practical Application Systems"
+    ],
+    "2,2": [
+      "Diverse Machine Learning Methods and Benchmarks for Complex Learning Problems",
+      "Deep Learning Optimization and Practical Application Systems",
+      "Robust Machine Learning for Low-Resource and Heterogeneous Settings",
+      "Deep Learning Safety, Efficiency, and Specialized Applications",
+      "Diverse Machine Learning Applications and Methodologies Across NLP, Computer Vision, and Federated Systems"
+    ],
+    "2,3": [
+      "Machine Learning Optimization Methods for Structured Data",
+      "Model Robustness, Editing, and Geometric Representation Learning",
+      "Machine Learning Applications with Domain Adaptation and Transfer Learning",
+      "Machine Learning Applications Healthcare Security Optimization",
+      "Machine Learning Applications Multimodal Data Symbolic Reasoning"
+    ],
+    "2,4": [
+      "Adversarial Robustness and Instruction-Based Model Security",
+      "Neural Networks Optimization and Specialized Domain Applications",
+      "Advanced NLP, Safety, and Structured Data Processing with Machine Learning",
+      "Machine Learning Systems, Frameworks, and Practical Applications",
+      "Machine Learning Applications Across Diverse Domains and Methods"
+    ],
+    "3,0": [
+      "Deep Learning Applications and Methods",
+      "Machine Learning Applications Healthcare Security Optimization",
+      "Machine Learning Methods for Domain-Specific Information Processing",
+      "Machine Learning Optimization Methods for Structured Data",
+      "Deep Learning Robustness and Augmentation"
+    ],
+    "3,1": [
+      "Deep Learning Applications and Methods",
+      "Machine Learning Applications Across Diverse Domains and Methods",
+      "Robust Learning with Weak Supervision",
+      "Deep Learning Robustness and Augmentation",
+      "Multimodal Machine Learning Applications"
+    ]
+  },
+  "seconds": 829.0
+}

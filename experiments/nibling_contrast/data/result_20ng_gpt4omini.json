@@ -1,0 +1,448 @@
+{
+  "dataset": "20ng",
+  "model": "gpt4omini",
+  "k": 5,
+  "max_dist": null,
+  "disambig": false,
+  "base_min_cluster_size": 25,
+  "min_clusters": 4,
+  "subsample": null,
+  "counts": [
+    74,
+    24,
+    9
+  ],
+  "floor_rows": [
+    {
+      "layer": 0,
+      "n": 74,
+      "changed": 6,
+      "rate": 0.08108108108108109,
+      "uniq_base": 74,
+      "uniq_contrast": 74,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          2,
+          "AHL Franchise Movements and Team Issues in North America",
+          "AHL Franchise Movements and Team Dynamics in Hockey"
+        ],
+        [
+          16,
+          "Chronic Health Conditions and Dietary Treatments Discussion",
+          "Chronic Health Issues and Dietary Treatments for Allergies and Migraines"
+        ],
+        [
+          29,
+          "Exploration of Solar System via Space Probes and Missions",
+          "Exploration of Solar System via Spacecraft Missions and Probes"
+        ],
+        [
+          43,
+          "Atheism, Belief Systems, and Philosophical Arguments Against Theism",
+          "Atheism, Belief Systems, and Philosophical Arguments Against God"
+        ],
+        [
+          44,
+          "Motorcycle Buying, Selling, and Maintenance Discussions",
+          "Motorcycle Buying, Selling, and Performance Discussions"
+        ],
+        [
+          72,
+          "Used Computer Hardware and Software for Sale with Manuals",
+          "Used Computer Hardware and Software Sales with Manuals"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 24,
+      "changed": 2,
+      "rate": 0.08333333333333333,
+      "uniq_base": 24,
+      "uniq_contrast": 24,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          13,
+          "Atheism, Belief Systems, and Philosophical Arguments Against Theism",
+          "Atheism, Belief Systems, and Philosophical Arguments Against God"
+        ],
+        [
+          15,
+          "Motorcycle Buying, Selling, and Maintenance Discussions",
+          "Motorcycle Buying, Selling, and Performance Discussions"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 9,
+      "changed": 1,
+      "rate": 0.1111111111111111,
+      "uniq_base": 9,
+      "uniq_contrast": 9,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          5,
+          "Christian Debates",
+          "Christianity Debates"
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "layer": 0,
+      "n": 74,
+      "changed": 15,
+      "rate": 0.20270270270270271,
+      "uniq_base": 74,
+      "uniq_contrast": 74,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Travel Tickets and Vacation Package Offers for Sale",
+          "Travel Tickets and Vacation Packages for Sale or Exchange"
+        ],
+        [
+          2,
+          "AHL Franchise Movements and Team Issues in North America",
+          "AHL Franchise Movements and Team Dynamics in Hockey"
+        ],
+        [
+          3,
+          "Turkish-Armenian Historical Disputes and Genocide Claims",
+          "Turkish-Armenian Historical Disputes and Genocide Denial Discussions"
+        ],
+        [
+          13,
+          "Israeli-Palestinian Conflict and Arab-Israeli Relations Discussions",
+          "Israeli-Palestinian Conflict and Perspectives on Occupation"
+        ],
+        [
+          16,
+          "Chronic Health Conditions and Dietary Treatments Discussion",
+          "Chronic Health Issues and Dietary Treatments for Allergies and Migraines"
+        ],
+        [
+          19,
+          "Telecommunication Equipment and Dialing Systems in Europe",
+          "Telecommunication Equipment and Dialing Techniques in Europe"
+        ],
+        [
+          29,
+          "Exploration of Solar System via Space Probes and Missions",
+          "Exploration of Solar System via Spacecraft Missions and Probes"
+        ],
+        [
+          30,
+          "Space Shuttle HST Servicing Missions and Reboost Strategies",
+          "Space Shuttle Missions and Hubble Space Telescope Servicing Discussions"
+        ],
+        [
+          31,
+          "Political Discussions on Taxation and Government Spending in the 1990s",
+          "Political Discussions on Taxation and Government Spending Policies"
+        ],
+        [
+          38,
+          "Gun Control Legislation and Second Amendment Rights Discussions",
+          "Gun Control Legislation and Second Amendment Advocacy Discussions"
+        ],
+        [
+          44,
+          "Motorcycle Buying, Selling, and Maintenance Discussions",
+          "Motorcycle Buying, Selling, and Performance Discussions"
+        ],
+        [
+          45,
+          "Christian Theology: Salvation, Faith, and Biblical Interpretation Discussions",
+          "Christian Theology: Salvation, Sin, and the Nature of God"
+        ],
+        [
+          53,
+          "Discussion on Fax and Data Modems with Compression Features",
+          "Discussion on Fax Modems and Data Communication Technologies"
+        ],
+        [
+          56,
+          "Comic Book Sales and Collectibles Discussion Forum",
+          "Comic Book Sales and Collectibles Discussion"
+        ],
+        [
+          72,
+          "Used Computer Hardware and Software for Sale with Manuals",
+          "Used Computer Hardware and Software Sales with Manuals"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 24,
+      "changed": 10,
+      "rate": 0.4166666666666667,
+      "uniq_base": 24,
+      "uniq_contrast": 24,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          2,
+          "Baseball Performance and Strategy Analysis",
+          "MLB Team Performance and Strategy"
+        ],
+        [
+          5,
+          "Clipper Chip and Encryption Debate",
+          "Clipper Chip and Encryption Policy"
+        ],
+        [
+          8,
+          "Libertarian Views on Government and Taxation",
+          "Libertarian Views on Taxation and Governance"
+        ],
+        [
+          9,
+          "Waco Siege Government Accountability",
+          "Waco Siege: Government Accountability Issues"
+        ],
+        [
+          15,
+          "Motorcycle Buying, Selling, and Maintenance Discussions",
+          "Motorcycle Buying, Selling, and Performance Discussions"
+        ],
+        [
+          16,
+          "Christianity and Early Church Debates",
+          "Christianity, Canon, and Mysticism"
+        ],
+        [
+          17,
+          "Christian Theology: Salvation, Faith, and Biblical Interpretation Discussions",
+          "Christian Theology: Salvation, Sin, and the Nature of God"
+        ],
+        [
+          18,
+          "Audio and Comic Sales",
+          "Comics and Audio Equipment Sales"
+        ],
+        [
+          21,
+          "X Window System Development Issues",
+          "X11R5 and Xterm Development"
+        ],
+        [
+          22,
+          "Legacy Video Card Support Issues",
+          "Legacy Video Card Driver Support"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 9,
+      "changed": 5,
+      "rate": 0.5555555555555556,
+      "uniq_base": 9,
+      "uniq_contrast": 9,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          2,
+          "Clipper Chip and Encryption Debate",
+          "Clipper Chip and Encryption Policy"
+        ],
+        [
+          5,
+          "Christian Debates",
+          "Christian Theology"
+        ],
+        [
+          6,
+          "Waco Controversy",
+          "Waco and Gun Control"
+        ],
+        [
+          7,
+          "X Graphics Development",
+          "X11 Graphics"
+        ],
+        [
+          8,
+          "Vintage Computer Sales",
+          "Vintage Computer Hardware"
+        ]
+      ]
+    }
+  ],
+  "injection": {
+    "injected": 21,
+    "calls": 21,
+    "skip": 12,
+    "nocand": 0,
+    "filtered": 0,
+    "nearest_dist": {
+      "min": 0.09806742451538031,
+      "med": 0.39022900765964286,
+      "max": 0.7817844324985807
+    }
+  },
+  "injected_names": {
+    "1,0": [
+      "ESPN and ABC Coverage of Hockey and Baseball Events",
+      "Analysis of Major League Baseball Players and Performance Metrics",
+      "Major League Baseball Team Performance Predictions and Game Analysis",
+      "Baseball Hitting Strategies and Pitching Dynamics Analysis",
+      "Clinton Administration's Youth Employment and Economic Policy Initiatives"
+    ],
+    "1,1": [
+      "Racial Discourse and Online Argumentation Dynamics",
+      "Waco Siege: Government Actions and Cult Response Analysis",
+      "Homosexuality, Sexual Behavior Studies, and Controversial Morality Discussions",
+      "Debates on Unified Theories and Observations in Physics",
+      "Diesel Emissions Cleanup and Solvent Use in Electronics"
+    ],
+    "1,2": [
+      "Analysis of Major League Baseball Players and Performance Metrics",
+      "NHL Coaching Strategies and Player Performance Analysis",
+      "NHL Playoff Standings and Team Performance Analysis",
+      "NHL Playoff Discussions: Teams, Scores, and Player Performances",
+      "AHL Franchise Movements and Team Dynamics in Hockey"
+    ],
+    "1,4": [
+      "Turkish-Armenian Historical Disputes and Genocide Denial Discussions",
+      "Racial Discourse and Online Argumentation Dynamics",
+      "Waco Siege: Government Tactics and Civil Rights Controversies",
+      "Waco Siege Controversy: Government Accountability and Civil Rights Violations",
+      "Waco Siege and David Koresh Controversies"
+    ],
+    "1,5": [
+      "Software Piracy, Copy Protection, and Hacker Ethics Discussions",
+      "Waco Siege Controversy: Government Accountability and Civil Rights Violations",
+      "Gun Control Legislation and Second Amendment Advocacy Discussions",
+      "Waco Siege: Government Tactics and Civil Rights Controversies",
+      "Discussion on Fax Modems and Data Communication Technologies"
+    ],
+    "1,6": [
+      "Clinton Administration's Youth Employment and Economic Policy Initiatives",
+      "Used Electronics and Equipment for Sale or Wanted Listings",
+      "Used Car Sales and Listings for Various Models",
+      "X Window System Software and Toolkit Discussions",
+      "Comic Book Sales and Collectibles Discussion"
+    ],
+    "1,8": [
+      "Waco Siege Controversy: Government Accountability and Civil Rights Violations",
+      "Gun Control Legislation and Second Amendment Advocacy Discussions",
+      "Clinton Administration's Youth Employment and Economic Policy Initiatives",
+      "Racial Discourse and Online Argumentation Dynamics",
+      "Government Surveillance and Encryption Policy Debates Surrounding Clipper Chip"
+    ],
+    "1,9": [
+      "Waco Siege: Government Actions and Cult Response Analysis",
+      "Gun Control Legislation and Second Amendment Advocacy Discussions",
+      "Clinton Administration's Youth Employment and Economic Policy Initiatives",
+      "Political Discussions on Taxation and Government Spending Policies",
+      "Racial Discourse and Online Argumentation Dynamics"
+    ],
+    "1,10": [
+      "Waco Siege: Government Tactics and Civil Rights Controversies",
+      "Waco Siege Controversy: Government Accountability and Civil Rights Violations",
+      "Waco Siege: Government Actions and Cult Response Analysis",
+      "Racial Discourse and Online Argumentation Dynamics",
+      "Political Discussions on Taxation and Government Spending Policies"
+    ],
+    "1,14": [
+      "Motorcycle Buying, Selling, and Performance Discussions",
+      "Used Electronics and Equipment for Sale or Wanted Listings",
+      "Comic Book Sales and Collectibles Discussion",
+      "Vintage Computer Hardware Sales and Upgrades Discussions",
+      "Home Audio Equipment Sales and Specifications Discussions"
+    ],
+    "1,16": [
+      "Christian Theology: Salvation, Sin, and the Nature of God",
+      "Discussion on Literature, Cults, and Moral Themes in Society",
+      "Atheism, Belief Systems, and Philosophical Arguments Against Theism",
+      "Christian Perspectives on Homosexuality and Biblical Interpretation",
+      "Anti-Semitism, Holocaust Denial, and Jewish Identity Debates"
+    ],
+    "1,18": [
+      "Used Computer Hardware and Software Sales with Manuals",
+      "Used Car Sales and Listings for Various Models",
+      "Vintage Computer Hardware Sales and Upgrades Discussions",
+      "Discussion on Fax Modems and Data Communication Technologies",
+      "Travel Tickets and Vacation Packages for Sale or Exchange"
+    ],
+    "1,21": [
+      "X Windows Colormap Management and Graphics Programming Issues",
+      "Windows Utilities and File Management Tools Discussion",
+      "Image File Formats and Viewer Software Discussions",
+      "TrueType Fonts and Printing Issues in Windows Environments",
+      "Issues and Solutions Running DOS Applications in Windows Environments"
+    ],
+    "1,22": [
+      "VGA Monitors and Compatibility for Vintage Computers",
+      "Macintosh Memory Upgrades and Peripheral Compatibility Issues",
+      "Vintage Computer Hardware Sales and Upgrades Discussions",
+      "Technical Discussions on Apple Centris 610 and 650 Hardware Issues",
+      "Discussion on Fax Modems and Data Communication Technologies"
+    ],
+    "1,23": [
+      "Discussion on Fax Modems and Data Communication Technologies",
+      "Used Electronics and Equipment for Sale or Wanted Listings",
+      "VGA Monitors and Compatibility for Vintage Computers",
+      "Benchmarking and Drivers for Legacy Graphics Cards and Systems",
+      "IDE and SCSI Drive Installation and Configuration Issues"
+    ],
+    "2,0": [
+      "Waco Siege: Government Accountability Issues",
+      "Racial Discourse and Online Argumentation Dynamics",
+      "Motorcycle Riding Techniques and Pillion Passenger Safety Tips",
+      "Space Exploration and Missions",
+      "Libertarian Views on Taxation and Governance"
+    ],
+    "2,4": [
+      "Comics and Audio Equipment Sales",
+      "Space Exploration and Missions",
+      "Vintage Macintosh Hardware Sales",
+      "Gun Control and Self-Defense Debate",
+      "Legacy Video Card Driver Support"
+    ],
+    "2,5": [
+      "Racial Discourse and Online Argumentation Dynamics",
+      "Middle East Conflict and Human Rights",
+      "Libertarian Views on Taxation and Governance",
+      "Waco Siege: Government Accountability Issues",
+      "Gun Control and Self-Defense Debate"
+    ],
+    "2,6": [
+      "Middle East Conflict and Human Rights",
+      "Clipper Chip and Encryption Policy",
+      "Atheism, Belief Systems, and Philosophical Arguments Against Theism",
+      "Christianity, Canon, and Mysticism",
+      "Space Exploration and Missions"
+    ],
+    "2,7": [
+      "Legacy Video Card Driver Support",
+      "Issues and Solutions Running DOS Applications in Windows Environments",
+      "Vintage Macintosh Hardware Sales",
+      "Space Exploration and Missions",
+      "Comics and Audio Equipment Sales"
+    ],
+    "2,8": [
+      "Issues and Solutions Running DOS Applications in Windows Environments",
+      "Image File Formats and Viewer Software Discussions",
+      "Classic American Cars and Engines",
+      "Motorcycle Buying, Selling, and Performance Discussions",
+      "Space Exploration and Missions"
+    ]
+  },
+  "seconds": 318.1
+}
