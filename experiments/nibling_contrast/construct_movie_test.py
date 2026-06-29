@@ -85,8 +85,9 @@ def main():
     fake = types.SimpleNamespace(cluster_layers_=[L0, L1], cluster_tree_=tree)
 
     namer = make_namer(args.namer)
+    temp = 1.0 if args.namer == "opus" else 0.0  # Opus 4.8 rejects temperature=0
     common = dict(objects=texts, emb=emb, coords=emb, clusterer=fake,
-                  namer=namer, embedder=enc, meta=META, k=5, disambig=False)
+                  namer=namer, embedder=enc, meta=META, k=5, disambig=False, temperature=temp)
     print("naming baseline ...", flush=True)
     base, _ = name_once(use_contrast=False, max_dist=None, **common)
     print("naming v1-contrast ...", flush=True)

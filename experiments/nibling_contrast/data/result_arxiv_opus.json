@@ -1,0 +1,1853 @@
+{
+  "dataset": "arxiv",
+  "model": "opus",
+  "k": 5,
+  "max_dist": null,
+  "disambig": false,
+  "base_min_cluster_size": 25,
+  "min_clusters": 4,
+  "subsample": null,
+  "counts": [
+    118,
+    39,
+    11,
+    4
+  ],
+  "floor_rows": [
+    {
+      "layer": 0,
+      "n": 118,
+      "changed": 112,
+      "rate": 0.9491525423728814,
+      "uniq_base": 118,
+      "uniq_contrast": 118,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Embeddings, and AI Systems",
+          "Diverse Machine Learning Applications: Representation Learning, Reasoning, and AI System Design"
+        ],
+        [
+          1,
+          "Diverse Machine Learning Topics: Adversarial Robustness, Reinforcement Learning, Security, and Language Grounding",
+          "Diverse Machine Learning Topics: Adversarial Robustness, Reinforcement Learning, and Security Applications"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Applications: NLP Transfer, Federated Learning, Video Editing, and AI Ethics",
+          "Diverse Machine Learning Topics: Federated Learning, NLP Transfer, Bandits, and AI Ethics"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications: Neural Models, Density Estimation, Reinforcement Learning, and Medical AI",
+          "Diverse Machine Learning Applications: Language Models, Medical Imaging, Reinforcement Learning, and Density Estimation"
+        ],
+        [
+          4,
+          "Diverse Machine Learning Topics: Fairness, Robustness, Decision Models, and Combinatorial Optimization",
+          "Diverse Machine Learning Methods: Fairness, Robustness, Optimization, Decision Models, and Transfer Learning"
+        ],
+        [
+          5,
+          "Diverse Machine Learning Methods: Active Learning, Interpretability, Federated Learning, and Domain Adaptation",
+          "Diverse Machine Learning Methods: Interpretability, Active Learning, Domain Adaptation, and Federated Privacy"
+        ],
+        [
+          6,
+          "Diverse Machine Learning Applications: Fairness, Medical AI, Reasoning, and Information Retrieval",
+          "Diverse Machine Learning Applications: Fairness, Retrieval, Game Theory, and Medical AI"
+        ],
+        [
+          7,
+          "Diverse Machine Learning Applications: Reinforcement Learning, Generative Models, and Explainable AI",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Explainability, and Generative Modeling Methods"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Applications: Neural Networks, Recommendation Systems, and Domain-Specific Methods",
+          "Diverse Machine Learning Applications: Neural Networks, Recommendation Systems, and Optimization Methods"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Methods: Transfer Learning, Knowledge Graphs, Argumentation, and Predictive Modeling",
+          "Diverse Machine Learning Methods for Transfer Learning, Argumentation, and Prediction Tasks"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Methods: Generalization, Clustering, Reinforcement Learning, and Domain Adaptation",
+          "Generalization, Representation Learning, and Applied Deep Learning Across Diverse Domains"
+        ],
+        [
+          11,
+          "Diverse Machine Learning Applications: Multimodal Classification, Neural Architectures, Fairness, and Representation Learning",
+          "Diverse Machine Learning Applications: Neural Architectures, Classification, Fairness, and Representation Learning"
+        ],
+        [
+          12,
+          "Diverse Machine Learning Methods: Representation Learning, NLP, Reinforcement Learning, and Generative Modeling",
+          "Diverse Machine Learning Methods: Representation Learning, NLP, Off-Policy Evaluation, and Generative Modeling"
+        ],
+        [
+          13,
+          "Diverse Machine Learning Topics: Explainability, Federated Learning, Security, and Graph Algorithms",
+          "Diverse Machine Learning Applications: Explainability, Federated Learning, Security, and Graph Processing"
+        ],
+        [
+          14,
+          "General Machine Learning Methods Across Diverse Application Domains and Tasks",
+          "Diverse Machine Learning Methods for Clustering, Reinforcement Learning, and Neural Network Optimization"
+        ],
+        [
+          16,
+          "Diverse Machine Learning Applications: NLP, Reinforcement Learning, Event Detection, and Data Mining",
+          "Diverse Machine Learning and NLP Methods Including LLMs, Reinforcement Learning, and Data Mining"
+        ],
+        [
+          17,
+          "Diverse Machine Learning Methods for Optimization, Robotics, and Autonomous Systems",
+          "Reinforcement Learning and Optimization for Autonomous Systems and Robotic Coordination"
+        ],
+        [
+          18,
+          "Diverse Machine Learning Methods: Ensembling, Reinforcement Learning, GANs, and Fairness Applications",
+          "Diverse Machine Learning Applications: Ensembling, Reinforcement Learning, Adversarial Attacks, and Fairness"
+        ],
+        [
+          19,
+          "Heterogeneous Machine Learning Methods: Causal Inference, Reinforcement Learning, and AI Governance",
+          "Diverse Machine Learning Applications: Causal Inference, Reinforcement Learning, and AI Governance"
+        ],
+        [
+          21,
+          "Diverse Machine Learning Methods for Representation Learning, Optimization, and Real-World Applications",
+          "Diverse Machine Learning Methods for Representation Learning, Reinforcement Learning, and Applied AI Systems"
+        ],
+        [
+          22,
+          "Diverse Machine Learning Methods: Deep Learning, Reinforcement Learning, and Model Interpretability",
+          "Diverse Machine Learning Applications: Generative Models, Reinforcement Learning, and Explainability"
+        ],
+        [
+          23,
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Explainable AI, and Optimization",
+          "Diverse Applied Machine Learning: Reinforcement Learning, NLP, Recommendation, and Human-Robot Interaction"
+        ],
+        [
+          24,
+          "Diverse Machine Learning Applications: Neural Networks, Reinforcement Learning, and Brain-Inspired Models",
+          "Diverse Machine Learning Methods: Neural Robustness, Reinforcement Learning, and Brain-Inspired Models"
+        ],
+        [
+          25,
+          "Diverse Machine Learning Methods: Optimization, Reinforcement Learning, Graph Neural Networks, and Trustworthy AI",
+          "Diverse Machine Learning Methods: Optimization, Causal Inference, Reinforcement Learning, and Neural Networks"
+        ],
+        [
+          26,
+          "On-Device AI Systems, Imitation Learning, and Applied Machine Learning Methods",
+          "Applied Machine Learning Systems: On-Device AI, Malware Detection, and Domain-Specific Planning"
+        ],
+        [
+          27,
+          "Diverse Machine Learning Methods: Fairness, Counterfactuals, Generative Models, and Applied AI",
+          "Diverse Machine Learning Methods: Fairness, Explainability, Generative Models, and Reinforcement Learning Applications"
+        ],
+        [
+          28,
+          "Diverse Machine Learning Methods: Generative Models, Reinforcement Learning, Explainability, and AI Governance",
+          "Diverse Machine Learning Applications: Generative Models, Reinforcement Learning, Explainability, and AI Governance"
+        ],
+        [
+          30,
+          "Heterogeneous Machine Learning Methods Across Reinforcement Learning, Robotics, and Adversarial Attacks",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Adversarial Attacks, and Multimodal Reasoning"
+        ],
+        [
+          31,
+          "Interpretability, Explainability, and Calibration in Diverse Machine Learning Applications",
+          "Diverse Machine Learning Topics: Interpretability, Reinforcement Learning, Optimization, and Clinical Applications"
+        ],
+        [
+          32,
+          "Diverse Applications of Large Language Models and Deep Learning Across Multiple Domains",
+          "Diverse Applications of Large Language Models and Deep Learning Across Domains"
+        ],
+        [
+          33,
+          "Federated Learning, Reinforcement Learning, and Applied Machine Learning Across Diverse Domains",
+          "Diverse Machine Learning Applications: Federated Learning, Reinforcement Learning, AutoML, and AI Education"
+        ],
+        [
+          34,
+          "Diverse Machine Learning Methods Across Hardware, Graphs, Reinforcement Learning, and Neural Decoding",
+          "Heterogeneous Applied Machine Learning: Hardware Benchmarking, Recommender Systems, and Neural Decoding"
+        ],
+        [
+          35,
+          "Diverse Applications of Deep Learning, LLMs, and Explainable AI Systems",
+          "Diverse Machine Learning Applications: LLMs, Explainability, Hardware Acceleration, and Neural Network Theory"
+        ],
+        [
+          36,
+          "Diverse Machine Learning Applications: Robotics, NLP, Explainable AI, and Network Optimization",
+          "Diverse Machine Learning Applications: Robotics, NLP, Knowledge Graphs, and Explainable AI"
+        ],
+        [
+          37,
+          "Diverse Machine Learning Applications Across Autonomous Systems, Drug Design, and Security",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Bayesian Methods, and Domain-Specific Deep Learning"
+        ],
+        [
+          38,
+          "Diverse Machine Learning Methods: Representation Learning, Imitation Learning, and Clustering Techniques",
+          "Diverse Machine Learning Methods: Representation Learning, Imitation Learning, and Neural Network Modeling"
+        ],
+        [
+          39,
+          "Diverse Machine Learning Applications: Continual Learning, Explainability, and Reinforcement Learning Systems",
+          "Diverse Machine Learning Applications: Continual Learning, Explainability, and AI Production Systems"
+        ],
+        [
+          40,
+          "Diverse Applications of Large Language Models and Graph Neural Networks in AI Research",
+          "Large Language Models for Multi-Agent Collaboration, Simulation, and Domain-Specific Applications"
+        ],
+        [
+          41,
+          "Diverse Machine Learning Applications: Dataset Distillation, Healthcare Prediction, Reinforcement Learning, and Vision",
+          "Diverse Machine Learning Applications: Dataset Distillation, Clinical Prediction, Reinforcement Learning, and Vision"
+        ],
+        [
+          42,
+          "Diverse Deep Learning Applications across Domains: Forecasting, Vision, Reinforcement Learning, and Biomechanics",
+          "Diverse Deep Learning Applications Spanning Forecasting, Biomechanics, Vision Transformers, and Reinforcement Learning"
+        ],
+        [
+          43,
+          "Diverse Machine Learning Methods: Neural Computation, Model Testing, and Hardware Acceleration",
+          "Diverse Machine Learning Methods: Neural Computing, Model Testing, and Hardware Acceleration"
+        ],
+        [
+          44,
+          "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Applications",
+          "Diverse Machine Learning Methods Spanning Optimization, Forecasting, Reinforcement Learning, and Multimodal Tasks"
+        ],
+        [
+          45,
+          "Diverse Machine Learning Applications in Reinforcement Learning, Graph Embedding, and Industrial Systems",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Graph Embedding, and Industrial Anomaly Detection"
+        ],
+        [
+          46,
+          "Diverse Machine Learning Applications: Multi-Modal Learning, Neural Network Theory, and Program Synthesis",
+          "Diverse Machine Learning Applications Spanning Neural Networks, Program Synthesis, and Decision Systems"
+        ],
+        [
+          47,
+          "Diverse Machine Learning Methods: Robust Optimization, Representation Learning, and Reinforcement Learning Applications",
+          "Robust Machine Learning, Reinforcement Learning, and Representation Learning Methods and Applications"
+        ],
+        [
+          48,
+          "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methodologies and Benchmarks",
+          "Diverse Machine Learning: Reinforcement Learning, Operator Learning, Pose Estimation, and Evaluation Methods"
+        ],
+        [
+          49,
+          "Diverse Deep Learning Methods for NLP, Recognition, Uncertainty, and AutoML Applications",
+          "Diverse Deep Learning Methods Across NLP, Vision, AutoML, and Uncertainty Estimation"
+        ],
+        [
+          50,
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Knowledge Tracing, and AI Creativity",
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, and Educational Knowledge Tracing"
+        ],
+        [
+          51,
+          "Diverse Applications of Machine Learning Across Heterogeneous Domains and Data Types",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Quantum Computing, Time Series, and Neural Networks"
+        ],
+        [
+          52,
+          "Diverse Machine Learning Applications: Clinical NLP, Optimization, Causal Inference, and Testing",
+          "Diverse Applied Machine Learning Methods Across Healthcare, Robotics, Optimization, and Testing"
+        ],
+        [
+          53,
+          "Diverse Deep Learning Applications Spanning NLP, Computer Vision, and Federated Systems",
+          "Diverse Deep Learning Applications Across Vision, NLP, Networking, and Federated Systems"
+        ],
+        [
+          54,
+          "Diverse Deep Learning Applications Across Vision, Language, and Multi-Agent Systems",
+          "Diverse Deep Learning Applications: Multi-Agent Systems, Image Recognition, and Domain-Specific Modeling"
+        ],
+        [
+          55,
+          "Miscellaneous Deep Learning Applications Across Diverse Domains and Architectures",
+          "Diverse Deep Learning Applications: Neural Architecture Search, Multimodal Learning, and Generative AI"
+        ],
+        [
+          56,
+          "Diverse Machine Learning Methods: Federated Learning, Multi-Agent Coordination, and Reinforcement Learning",
+          "Diverse Machine Learning Applications: Federated Learning, Multi-Agent Systems, and Reinforcement Learning"
+        ],
+        [
+          57,
+          "Diverse Machine Learning Methods for Generation, Optimization, and Adversarial Robustness",
+          "Diverse Machine Learning Methods for Language Generation, Graphs, and Adversarial Robustness"
+        ],
+        [
+          58,
+          "Diverse Machine Learning Methods for Vision, Language, and Sequence Prediction Tasks",
+          "Diverse Machine Learning Methods for Quantization, Zero-Shot Learning, and Sequence Prediction Tasks"
+        ],
+        [
+          59,
+          "Diverse Machine Learning Methods for Robustness, Interpretability, Graph Learning, and Edge Deployment",
+          "Diverse Machine Learning Methods for Edge Deployment, Interpretability, Robustness, and Graph Learning"
+        ],
+        [
+          60,
+          "Diverse Applied Machine Learning: Anomaly Detection, NLP Classification, and Domain-Specific Deep Learning Applications",
+          "Diverse Applied Machine Learning: Anomaly Detection, NLP Classification, and Domain-Specific Deep Learning"
+        ],
+        [
+          61,
+          "Diverse Machine Learning Methods for Healthcare, Robotics, Causal Inference, and Model Optimization",
+          "Heterogeneous Machine Learning Methods for Prediction, Causal Inference, and Robust Model Design"
+        ],
+        [
+          62,
+          "Robustness, Representation Learning, and Fairness in Deep Neural Network Models",
+          "Diverse Machine Learning Topics: Robustness, Representation Learning, and Multimodal Applications"
+        ],
+        [
+          63,
+          "Diverse Machine Learning Methods: Multi-Task Learning, Reinforcement Learning, and Argumentation Frameworks",
+          "Diverse Machine Learning Topics: Multi-Task Learning, Reinforcement Learning, Argumentation, and Game Theory"
+        ],
+        [
+          64,
+          "Diverse Machine Learning Methods: Bayesian Inference, Semi-Supervised Learning, NLP, and Reinforcement Learning",
+          "Diverse Machine Learning Methods: Bayesian Inference, Semi-Supervised Learning, and NLP Applications"
+        ],
+        [
+          65,
+          "Diverse Machine Learning Methods for Representation, Inference, Tokenization, and Reinforcement Learning Tasks",
+          "Diverse Machine Learning Methods: Knowledge Graphs, Tokenization, Variational Inference, and Reinforcement Learning"
+        ],
+        [
+          66,
+          "Diverse Machine Learning Applications: Deep Learning, Reinforcement Learning, and Representation Learning Methods",
+          "Diverse Deep Learning Applications: Representation Learning, Reinforcement Learning, and Multimodal Detection Tasks"
+        ],
+        [
+          67,
+          "Diverse Machine Learning Methods for Classification, Security, Optimization, and Interpretability Across Domains",
+          "Diverse Machine Learning Methods for Classification, Adversarial Robustness, and Domain Applications"
+        ],
+        [
+          68,
+          "Deep Reinforcement Learning, Representation Learning, and Neural Network Applications Across Domains",
+          "Deep Reinforcement Learning, Representation Learning, and Neural Generative Models for Diverse Applications"
+        ],
+        [
+          69,
+          "Diverse Machine Learning Methods: NLP, Reasoning, Meta-Learning, and Multi-Agent Systems",
+          "Diverse Machine Learning Methods: NLP, Reasoning, Meta-Learning, Quantum, and Neural Differential Equations"
+        ],
+        [
+          71,
+          "Diverse Machine Learning Methods: Gaussian Processes, Reinforcement Learning, Recommendation, and Model Efficiency",
+          "Diverse Machine Learning Methods: Gaussian Processes, Reinforcement Learning, Recommendation, and Model Optimization"
+        ],
+        [
+          72,
+          "Diverse Machine Learning Applications: Code Search, Evolvability, Safety Evaluation, and Clinical Prediction",
+          "Diverse Applied Machine Learning: Code Search, LLM Safety, Clinical Prediction, and Evolutionary Algorithms"
+        ],
+        [
+          73,
+          "Diverse Deep Learning Applications Across Healthcare, Gaming, Communications, and Ontology Engineering",
+          "Applied Deep Learning Across Diverse Domains: Healthcare, Gaming, Communications, and Ontologies"
+        ],
+        [
+          74,
+          "Diverse Applied Machine Learning: Explainability, Healthcare, NLP, and Quantum Computing Applications",
+          "Diverse Applied Machine Learning Across Healthcare, NLP, Quantum, and Ethics Domains"
+        ],
+        [
+          75,
+          "Diverse Machine Learning Applications: EEG Decoding, Reinforcement Learning, and LLM Tool Use",
+          "Diverse Machine Learning Applications: EEG Decoding, Reinforcement Learning, and LLM Tool-Use"
+        ],
+        [
+          76,
+          "Reinforcement Learning, Generative Models, and Neural Architecture Search Methodologies",
+          "Reinforcement Learning, Generative Models, and Neural Architecture Search Methods"
+        ],
+        [
+          77,
+          "Diverse Machine Learning Applications: Zero-Shot Learning, Reinforcement Learning, Federated Learning, and Network Compression",
+          "Diverse Machine Learning Methods: Neural Compression, Reinforcement Learning, Federated Learning, and Classification"
+        ],
+        [
+          78,
+          "Generative Models, Explainable AI, and Robust Deep Learning Techniques",
+          "Diverse Deep Learning Methods: Explainability, Generative Models, and Neural Architectures"
+        ],
+        [
+          79,
+          "Diverse Machine Learning Applications: Personalized Prediction, Multi-Agent Learning, and Representation Modeling",
+          "Diverse Machine Learning Methods Spanning Representation Learning, Multi-Agent RL, and Personalization"
+        ],
+        [
+          80,
+          "General Machine Learning and Deep Learning Methods Across Diverse Application Domains",
+          "Diverse Machine Learning Applications: Multimodal Models, Causal Inference, and Neural Network Optimization"
+        ],
+        [
+          81,
+          "Diverse Machine Learning Applications: Graph Representation Learning, Neural Networks, and Optimization Methods",
+          "Diverse Machine Learning Methods: Graph Learning, Neural Networks, and Optimization Applications"
+        ],
+        [
+          82,
+          "Diverse Machine Learning Methods: Model Selection, Reinforcement Learning, and Neural Architectures",
+          "Diverse Machine Learning Methods: Model Selection, Reinforcement Learning, Semantic Segmentation, and Causal Discovery"
+        ],
+        [
+          83,
+          "Diverse Machine Learning Methods: Density Estimation, Graph Networks, Federated Learning, and Sustainable AI",
+          "Diverse Machine Learning Methods: Density Estimation, Graph Networks, Federated Learning, and Sustainability"
+        ],
+        [
+          84,
+          "Diverse Deep Learning Applications Across Scientific, Security, and Time-Series Domains",
+          "Deep Learning Applications Across Diverse Domains: Time-Series, Security, Vision, and Aerospace"
+        ],
+        [
+          85,
+          "Diverse Machine Learning Methods for Detection, Inference, Recommendation, and Interpretable Modeling",
+          "Diverse Machine Learning Methods for Classification, Inference, and Reinforcement Learning Applications"
+        ],
+        [
+          86,
+          "Diverse Applied Machine Learning: Fairness, Federated Learning, Adversarial Robustness, and Healthcare Applications",
+          "Diverse Applied Machine Learning: Bias, Federated Learning, Security, and Healthcare Applications"
+        ],
+        [
+          87,
+          "Diverse Deep Learning Applications: Reinforcement Learning, Uncertainty, Optimization, and Security",
+          "Diverse Deep Learning Methods for Optimization, Security, and Representation Learning"
+        ],
+        [
+          88,
+          "Diverse Applications of Machine Learning and Deep Learning Across Multiple Domains",
+          "Diverse Applications of Deep Learning and NLP Across Multiple Heterogeneous Domains"
+        ],
+        [
+          89,
+          "Reinforcement Learning, Imitation Learning, and Knowledge-Enhanced Language Model Methods",
+          "Reinforcement Learning, Imitation Learning, and Knowledge-Infused Language Model Techniques"
+        ],
+        [
+          90,
+          "Adversarial Robustness, Reinforcement Learning, and Security in Machine Learning Models",
+          "Adversarial Robustness, Reinforcement Learning, and Security in Diverse Machine Learning Models"
+        ],
+        [
+          91,
+          "Diverse Deep Learning Applications: Generalization, Forecasting, NLP, and Computational Biology",
+          "Diverse Machine Learning Applications: Forecasting, NLP, Computational Biology, and Model Generalization"
+        ],
+        [
+          92,
+          "Diverse Applications of AI: Search, Optimization, Reasoning, and Representation Learning",
+          "Diverse AI Methods: Optimization, Tree Search, Representation Learning, and Decision-Making Applications"
+        ],
+        [
+          93,
+          "Diverse Machine Learning Applications: Reinforcement Learning, Interpretability, IoT, and Optimization Methods",
+          "Diverse Applied Machine Learning, Reinforcement Learning Security, and IoT System Optimization"
+        ],
+        [
+          94,
+          "Reinforcement Learning Benchmarks, Exploration, and Multi-Agent Game-Theoretic Algorithms",
+          "Reinforcement Learning Exploration, Benchmarks, and Multi-Agent Game Theory Methods"
+        ],
+        [
+          95,
+          "Diverse Machine Learning Applications: LLM Recommendation, Continual Learning, Multimodal Reasoning, and Optimization",
+          "Diverse Machine Learning Applications: Recommendation, Multimodal Reasoning, Generative Models, and Optimization"
+        ],
+        [
+          96,
+          "Diverse Applications of Deep Learning, Neural Networks, and Reinforcement Learning Methods",
+          "Diverse Applications of Deep Learning and Neural Networks Across Scientific Domains"
+        ],
+        [
+          97,
+          "Diverse Machine Learning Applications Spanning Healthcare, NLP, Reinforcement Learning, and Trustworthiness",
+          "Diverse Machine Learning Applications in Healthcare, NLP, and Reinforcement Learning Systems"
+        ],
+        [
+          98,
+          "Diverse Applied Machine Learning: Domain Adaptation, Imbalanced Data, and Multimodal Robotics Applications",
+          "Diverse Machine Learning Applications: Robotics, Medical Imaging, Generative Models, and Classification"
+        ],
+        [
+          99,
+          "Diverse Deep Learning Applications: Re-ID, Autonomous Driving, NLP, and Reinforcement Learning",
+          "Diverse Machine Learning Applications: Representation Learning, Safety, Interpretability, and Domain-Specific Systems"
+        ],
+        [
+          100,
+          "Diverse Applied Machine Learning Methods Across Healthcare, Robotics, and Computer Vision Domains",
+          "Applied Machine Learning Across Diverse Domains: Robotics, Healthcare, Graphs, and Computer Vision"
+        ],
+        [
+          101,
+          "Diverse Machine Learning Methods for Graphs, Language Models, and Generative Tasks",
+          "Diverse Machine Learning Methods: Graph Learning, Language Models, and Generative Systems"
+        ],
+        [
+          102,
+          "Diverse AI Research: Reinforcement Learning, Explainability, Reasoning, and Agent-Based Modeling",
+          "Diverse AI Methods: Reinforcement Learning, Explainable AI, Reasoning, and Agent-Based Modeling"
+        ],
+        [
+          103,
+          "Diverse Applied Machine Learning and Deep Learning Methods Across Heterogeneous Domains",
+          "Diverse Deep Learning Applications Spanning Vision, NLP, and Domain-Specific Predictive Systems"
+        ],
+        [
+          104,
+          "Diverse Machine Learning Applications: Adversarial Attacks, Neural Networks, and Domain-Specific Modeling",
+          "Diverse Applied Machine Learning: Adversarial Attacks, Neural Networks, and Domain-Specific Applications"
+        ],
+        [
+          105,
+          "Diverse Machine Learning Topics: Multimodal LLMs, Continual Learning, and Wireless Localization",
+          "Diverse Machine Learning Methods: Multimodal Learning, Continual Learning, and Edge AI Applications"
+        ],
+        [
+          107,
+          "General Machine Learning and Deep Learning Applications Across Diverse Problem Domains",
+          "Diverse Machine Learning Applications: Detection, Classification, Captioning, and Controller Synthesis"
+        ],
+        [
+          108,
+          "Diverse Machine Learning Applications: Generative Models, Security Attacks, and Federated Learning",
+          "Diverse Machine Learning Applications: Generative Models, Adversarial Attacks, Federated Learning, and NLP"
+        ],
+        [
+          109,
+          "Diverse Machine Learning Applications: Representation Learning, Interpretability, and Domain-Specific Deep Learning",
+          "Diverse Deep Learning Applications: Interpretability, Embeddings, Segmentation, and Generative Design"
+        ],
+        [
+          110,
+          "Heterogeneous Machine Learning Topics: NLU Evaluation, Explainability, LLM Agents, and Verification",
+          "Diverse Machine Learning Topics: Language Understanding, Explainability, Agents, and Quantum Computing"
+        ],
+        [
+          111,
+          "Diverse Machine Learning Methods: Neural Reasoning, NLP, Reinforcement Learning, and AI Security",
+          "Diverse Machine Learning Methods Spanning NLP, Reinforcement Learning, and Neural Architectures"
+        ],
+        [
+          112,
+          "Diverse Machine Learning Applications: Robustness, Reinforcement Learning, Generative Models, and Medical AI",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Generative AI, Robustness, and Medical Diagnostics"
+        ],
+        [
+          113,
+          "Diverse Machine Learning Applications: Vision-Language, Speech, Privacy, AutoML, and Quantum Computing",
+          "Diverse Machine Learning Applications: Vision-Language, Speech Recognition, AutoML, and Adversarial Privacy"
+        ],
+        [
+          114,
+          "Diverse Machine Learning Applications: Robustness, Federated Learning, Embodied AI, and Optimization",
+          "Diverse Machine Learning Applications: Federated Learning, Robustness, Embodied AI, and Optimization"
+        ],
+        [
+          116,
+          "Diverse Applied Machine Learning Methods Across Security, Vision, and Multi-Agent Systems",
+          "Diverse Machine Learning Applications: Security, Optimization, Causal Inference, and Physics-Informed Networks"
+        ],
+        [
+          117,
+          "Diverse Machine Learning: Transfer Learning, Adversarial Robustness, and Data-Efficient Training Methods",
+          "Diverse Machine Learning Methods for Transfer Learning, Adversarial Robustness, and Forecasting"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 39,
+      "changed": 28,
+      "rate": 0.717948717948718,
+      "uniq_base": 30,
+      "uniq_contrast": 29,
+      "dup_base": 9,
+      "dup_contrast": 10,
+      "renames": [
+        [
+          0,
+          "Diverse Machine Learning Applications: NLP Transfer, Federated Learning, Video Editing, and AI Ethics",
+          "Diverse Machine Learning Topics: Federated Learning, NLP Transfer, Bandits, and AI Ethics"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Topics: Explainability, Federated Learning, Security, and Graph Algorithms",
+          "Diverse Machine Learning Applications: Explainability, Federated Learning, Security, and Graph Processing"
+        ],
+        [
+          4,
+          "Diverse Machine Learning Applications: NLP, Reinforcement Learning, Event Detection, and Data Mining",
+          "Diverse Machine Learning and NLP Methods Including LLMs, Reinforcement Learning, and Data Mining"
+        ],
+        [
+          5,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse Machine Learning Methods and Applied AI Systems"
+        ],
+        [
+          6,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse Applied Machine Learning Methods and Systems"
+        ],
+        [
+          7,
+          "Applied Machine Learning and LLMs Across Domains",
+          "Diverse Machine Learning and LLM Applications Across Domains"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Methods: Optimization, Reinforcement Learning, Graph Neural Networks, and Trustworthy AI",
+          "Diverse Machine Learning Methods: Optimization, Causal Inference, Reinforcement Learning, and Neural Networks"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Methods: Generative Models, Reinforcement Learning, Explainability, and AI Governance",
+          "Diverse Machine Learning Applications: Generative Models, Reinforcement Learning, Explainability, and AI Governance"
+        ],
+        [
+          10,
+          "Diverse Deep Learning Applications and Methods",
+          "Diverse Applied Machine Learning and Hardware Benchmarking"
+        ],
+        [
+          12,
+          "Heterogeneous Machine Learning Methods Across Reinforcement Learning, Robotics, and Adversarial Attacks",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Adversarial Attacks, and Multimodal Reasoning"
+        ],
+        [
+          13,
+          "Interpretability, Explainability, and Calibration in Diverse Machine Learning Applications",
+          "Diverse Machine Learning Topics: Interpretability, Reinforcement Learning, Optimization, and Clinical Applications"
+        ],
+        [
+          15,
+          "Diverse Machine Learning Methods and Cross-Domain Applications",
+          "Diverse Deep Learning and Reinforcement Learning Applications"
+        ],
+        [
+          16,
+          "Diverse Applications of Large Language Models and Graph Neural Networks in AI Research",
+          "Large Language Models for Multi-Agent Collaboration, Simulation, and Domain-Specific Applications"
+        ],
+        [
+          17,
+          "Diverse Machine Learning Applications and Theory",
+          "Diverse Machine Learning Applications and Methods"
+        ],
+        [
+          18,
+          "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Applications",
+          "Diverse Machine Learning Methods Spanning Optimization, Forecasting, Reinforcement Learning, and Multimodal Tasks"
+        ],
+        [
+          19,
+          "Diverse Machine Learning Methods: Robust Optimization, Representation Learning, and Reinforcement Learning Applications",
+          "Robust Machine Learning, Reinforcement Learning, and Representation Learning Methods and Applications"
+        ],
+        [
+          20,
+          "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methodologies and Benchmarks",
+          "Diverse Machine Learning: Reinforcement Learning, Operator Learning, Pose Estimation, and Evaluation Methods"
+        ],
+        [
+          22,
+          "Robustness, Fairness, and Applied Machine Learning Methods",
+          "Diverse Machine Learning: Robustness, Prediction, and Generative Models"
+        ],
+        [
+          23,
+          "Diverse Machine Learning Methods for Robustness, Interpretability, Graph Learning, and Edge Deployment",
+          "Diverse Machine Learning Methods for Edge Deployment, Interpretability, Robustness, and Graph Learning"
+        ],
+        [
+          25,
+          "Diverse Machine Learning, Reinforcement Learning, and NLP Methods",
+          "Diverse Machine Learning Methods and Applications"
+        ],
+        [
+          26,
+          "Diverse Machine Learning: Graph Representation and Reinforcement Learning",
+          "Diverse Machine Learning Methods and Applications"
+        ],
+        [
+          27,
+          "Diverse Applied Deep Learning Across Domains",
+          "Applied Deep Learning Across Diverse Domains"
+        ],
+        [
+          31,
+          "Diverse Machine Learning Applications and Search Methods",
+          "Diverse AI Methods and Machine Learning Applications"
+        ],
+        [
+          32,
+          "Adversarial Robustness and Knowledge-Enhanced Reinforcement Learning Methods",
+          "Adversarial Robustness, Reinforcement Learning, and Knowledge-Infused Models"
+        ],
+        [
+          33,
+          "Diverse Applied Deep Learning and Reinforcement Learning Applications",
+          "Diverse Domain-Specific Deep Learning Applications"
+        ],
+        [
+          34,
+          "Diverse Machine Learning Methods Across Multiple Domains",
+          "Diverse Machine Learning Methods and Applications"
+        ],
+        [
+          35,
+          "Diverse Machine Learning: Adversarial Attacks, Neural Networks, and Applications",
+          "Adversarial Attacks, Continual Learning, and Domain-Specific Neural Networks"
+        ],
+        [
+          38,
+          "Diverse Machine Learning Methods and Cross-Domain Applications",
+          "Diverse Machine Learning Methods and Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 11,
+      "changed": 6,
+      "rate": 0.5454545454545454,
+      "uniq_base": 6,
+      "uniq_contrast": 8,
+      "dup_base": 5,
+      "dup_contrast": 3,
+      "renames": [
+        [
+          0,
+          "Diverse Machine Learning Methods and Cross-Domain Applications",
+          "Diverse Deep Learning and Reinforcement Learning Applications"
+        ],
+        [
+          1,
+          "Diverse Machine Learning Methods and Applications",
+          "Robust and Multi-Agent Machine Learning"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications",
+          "Diverse Applied Machine Learning Methods"
+        ],
+        [
+          4,
+          "Diverse Machine Learning Applications",
+          "Diverse Applied Machine Learning"
+        ],
+        [
+          6,
+          "Diverse Machine Learning: Graph Representation and Reinforcement Learning",
+          "Diverse Machine Learning Methods and Applications"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Methods and Cross-Domain Applications",
+          "Diverse Machine Learning Methods and Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 3,
+      "n": 4,
+      "changed": 3,
+      "rate": 0.75,
+      "uniq_base": 3,
+      "uniq_contrast": 3,
+      "dup_base": 1,
+      "dup_contrast": 1,
+      "renames": [
+        [
+          0,
+          "Machine Learning",
+          "Applied Machine Learning"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Applications",
+          "Diverse Applied Machine Learning Methods"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications",
+          "Diverse Applied Machine Learning"
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "layer": 0,
+      "n": 118,
+      "changed": 105,
+      "rate": 0.8898305084745762,
+      "uniq_base": 118,
+      "uniq_contrast": 118,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Embeddings, and AI Systems",
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Generative AI, and Interpretability"
+        ],
+        [
+          1,
+          "Diverse Machine Learning Topics: Adversarial Robustness, Reinforcement Learning, Security, and Language Grounding",
+          "Diverse Machine Learning Methods: Adversarial Robustness, Reinforcement Learning, and Language Grounding"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Applications: NLP Transfer, Federated Learning, Video Editing, and AI Ethics",
+          "Diverse Machine Learning Topics: Federated Learning, NLP, Vision, and AI Ethics"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications: Neural Models, Density Estimation, Reinforcement Learning, and Medical AI",
+          "Diverse Machine Learning Applications: Density Estimation, Reinforcement Learning, Medical Imaging, and Federated Learning"
+        ],
+        [
+          4,
+          "Diverse Machine Learning Topics: Fairness, Robustness, Decision Models, and Combinatorial Optimization",
+          "Robustness, Generalization, and Optimization in Diverse Machine Learning Decision-Making Systems"
+        ],
+        [
+          5,
+          "Diverse Machine Learning Methods: Active Learning, Interpretability, Federated Learning, and Domain Adaptation",
+          "Diverse Machine Learning Methods: Active Learning, Interpretability, Domain Adaptation, and Federated Learning"
+        ],
+        [
+          6,
+          "Diverse Machine Learning Applications: Fairness, Medical AI, Reasoning, and Information Retrieval",
+          "Diverse Machine Learning Applications: Fairness, Retrieval, Logic, and Medical AI Systems"
+        ],
+        [
+          7,
+          "Diverse Machine Learning Applications: Reinforcement Learning, Generative Models, and Explainable AI",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Explainability, and Generative Methods"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Applications: Neural Networks, Recommendation Systems, and Domain-Specific Methods",
+          "Diverse Machine Learning Applications: Neural Network Methods, Optimization, and Domain-Specific Systems"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Methods: Transfer Learning, Knowledge Graphs, Argumentation, and Predictive Modeling",
+          "Diverse Machine Learning Methods: Transfer Learning, Graph Embeddings, Argumentation, and Predictive Modeling"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Methods: Generalization, Clustering, Reinforcement Learning, and Domain Adaptation",
+          "Generalization Challenges in Deep Learning, Reinforcement Learning, and Federated Clustering Methods"
+        ],
+        [
+          11,
+          "Diverse Machine Learning Applications: Multimodal Classification, Neural Architectures, Fairness, and Representation Learning",
+          "Diverse Machine Learning Applications: Neural Architecture, Fairness, NLP, and Representation Learning"
+        ],
+        [
+          12,
+          "Diverse Machine Learning Methods: Representation Learning, NLP, Reinforcement Learning, and Generative Modeling",
+          "Diverse Machine Learning Methods Across NLP, Vision, Reinforcement Learning, and Healthcare Applications"
+        ],
+        [
+          14,
+          "General Machine Learning Methods Across Diverse Application Domains and Tasks",
+          "Diverse Machine Learning Methods: Clustering, Reinforcement Learning, Pruning, and NLP Applications"
+        ],
+        [
+          17,
+          "Diverse Machine Learning Methods for Optimization, Robotics, and Autonomous Systems",
+          "Reinforcement Learning, Autonomous Systems, and Constrained Optimization for Robotics and Scientific Discovery"
+        ],
+        [
+          19,
+          "Heterogeneous Machine Learning Methods: Causal Inference, Reinforcement Learning, and AI Governance",
+          "Diverse Machine Learning Applications: Causal Inference, Reinforcement Learning, and AI Governance"
+        ],
+        [
+          22,
+          "Diverse Machine Learning Methods: Deep Learning, Reinforcement Learning, and Model Interpretability",
+          "Diverse Machine Learning Methods: Generative Models, Reinforcement Learning, and Interpretability"
+        ],
+        [
+          23,
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Explainable AI, and Optimization",
+          "Diverse Applied Machine Learning: Reinforcement Learning, NLP, Explainable AI, and Robotics"
+        ],
+        [
+          24,
+          "Diverse Machine Learning Applications: Neural Networks, Reinforcement Learning, and Brain-Inspired Models",
+          "Diverse Machine Learning Methods Including Robustness, Continual Learning, and Reinforcement Learning Applications"
+        ],
+        [
+          25,
+          "Diverse Machine Learning Methods: Optimization, Reinforcement Learning, Graph Neural Networks, and Trustworthy AI",
+          "Diverse Machine Learning Methods: Optimization, Trustworthy Models, Reinforcement Learning, and Causal Inference"
+        ],
+        [
+          26,
+          "On-Device AI Systems, Imitation Learning, and Applied Machine Learning Methods",
+          "On-Device AI Systems, Imitation Learning, and Applied Machine Learning Engineering"
+        ],
+        [
+          27,
+          "Diverse Machine Learning Methods: Fairness, Counterfactuals, Generative Models, and Applied AI",
+          "Diverse Machine Learning Methods: Fairness, Explainability, Generative Models, and Reinforcement Learning Applications"
+        ],
+        [
+          28,
+          "Diverse Machine Learning Methods: Generative Models, Reinforcement Learning, Explainability, and AI Governance",
+          "Diverse Machine Learning Topics: Generative Models, Reinforcement Learning, AI Governance, and Interpretability"
+        ],
+        [
+          30,
+          "Heterogeneous Machine Learning Methods Across Reinforcement Learning, Robotics, and Adversarial Attacks",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Robotics, Speaker Recognition, and Adversarial Attacks"
+        ],
+        [
+          31,
+          "Interpretability, Explainability, and Calibration in Diverse Machine Learning Applications",
+          "Diverse Machine Learning Methods: Interpretability, Reinforcement Learning, Optimization, and Clinical Applications"
+        ],
+        [
+          32,
+          "Diverse Applications of Large Language Models and Deep Learning Across Multiple Domains",
+          "Diverse Applications of Large Language Models and Deep Learning Across Domains"
+        ],
+        [
+          33,
+          "Federated Learning, Reinforcement Learning, and Applied Machine Learning Across Diverse Domains",
+          "Federated Learning, Reinforcement Learning, and Diverse Applied Machine Learning Methods"
+        ],
+        [
+          34,
+          "Diverse Machine Learning Methods Across Hardware, Graphs, Reinforcement Learning, and Neural Decoding",
+          "Diverse Machine Learning Applications: Hardware Benchmarking, Recommender Systems, Controller Synthesis, and Neural Decoding"
+        ],
+        [
+          35,
+          "Diverse Applications of Deep Learning, LLMs, and Explainable AI Systems",
+          "Diverse Applied Machine Learning: LLMs, Hardware Acceleration, Explainability, and Neural Network Theory"
+        ],
+        [
+          36,
+          "Diverse Machine Learning Applications: Robotics, NLP, Explainable AI, and Network Optimization",
+          "Diverse Machine Learning Applications: Generative Models, Explainable AI, and Graph Learning"
+        ],
+        [
+          37,
+          "Diverse Machine Learning Applications Across Autonomous Systems, Drug Design, and Security",
+          "Diverse Machine Learning Applications Spanning Autonomous Driving, Drug Design, and Neural Modeling"
+        ],
+        [
+          38,
+          "Diverse Machine Learning Methods: Representation Learning, Imitation Learning, and Clustering Techniques",
+          "Diverse Machine Learning Methods: Subspace Clustering, Imitation Learning, and Multimodal Representations"
+        ],
+        [
+          39,
+          "Diverse Machine Learning Applications: Continual Learning, Explainability, and Reinforcement Learning Systems",
+          "Diverse Machine Learning Applications: Continual Learning, Explainability, NLP, and Game Testing"
+        ],
+        [
+          40,
+          "Diverse Applications of Large Language Models and Graph Neural Networks in AI Research",
+          "Large Language Model Applications, Multi-Agent Systems, and Graph-Based Machine Learning"
+        ],
+        [
+          41,
+          "Diverse Machine Learning Applications: Dataset Distillation, Healthcare Prediction, Reinforcement Learning, and Vision",
+          "Diverse Machine Learning Applications: Dataset Distillation, Reinforcement Learning, Medical Prediction, and Vision"
+        ],
+        [
+          42,
+          "Diverse Deep Learning Applications across Domains: Forecasting, Vision, Reinforcement Learning, and Biomechanics",
+          "Diverse Deep Learning Applications Across Forecasting, Vision, Biomechanics, and Reinforcement Learning"
+        ],
+        [
+          43,
+          "Diverse Machine Learning Methods: Neural Computation, Model Testing, and Hardware Acceleration",
+          "Heterogeneous Machine Learning Methods: Neuromorphic Computing, Model Testing, and AI Hardware Acceleration"
+        ],
+        [
+          44,
+          "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Applications",
+          "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Recognition"
+        ],
+        [
+          45,
+          "Diverse Machine Learning Applications in Reinforcement Learning, Graph Embedding, and Industrial Systems",
+          "Machine Learning Applications in Robotics, Time-Series Analysis, and Graph-Based Learning Systems"
+        ],
+        [
+          46,
+          "Diverse Machine Learning Applications: Multi-Modal Learning, Neural Network Theory, and Program Synthesis",
+          "Diverse Machine Learning Applications: Multimodal Learning, Neural Network Theory, and Program Synthesis"
+        ],
+        [
+          48,
+          "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methodologies and Benchmarks",
+          "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methods Benchmarking"
+        ],
+        [
+          49,
+          "Diverse Deep Learning Methods for NLP, Recognition, Uncertainty, and AutoML Applications",
+          "Diverse Deep Learning Applications: NLP, Face Recognition, AutoML, and Model Verification"
+        ],
+        [
+          50,
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Knowledge Tracing, and AI Creativity",
+          "Diverse Machine Learning Topics: Reinforcement Learning, NLP, Knowledge Tracing, and AI Creativity"
+        ],
+        [
+          51,
+          "Diverse Applications of Machine Learning Across Heterogeneous Domains and Data Types",
+          "Heterogeneous Machine Learning Applications Spanning Reinforcement Learning, Quantum Computing, and Spatiotemporal Data Analysis"
+        ],
+        [
+          52,
+          "Diverse Machine Learning Applications: Clinical NLP, Optimization, Causal Inference, and Testing",
+          "Diverse Machine Learning Methods, Applications, and Theoretical Foundations Across Multiple Domains"
+        ],
+        [
+          53,
+          "Diverse Deep Learning Applications Spanning NLP, Computer Vision, and Federated Systems",
+          "Diverse Deep Learning Applications across NLP, Vision, Federated Learning, and Wireless Systems"
+        ],
+        [
+          54,
+          "Diverse Deep Learning Applications Across Vision, Language, and Multi-Agent Systems",
+          "Diverse Deep Learning Applications: Multi-Agent Systems, Forecasting, Data Selection, and Domain-Specific Tasks"
+        ],
+        [
+          55,
+          "Miscellaneous Deep Learning Applications Across Diverse Domains and Architectures",
+          "Diverse Deep Learning Applications: Multimodal Learning, Neural Architecture Search, and AI Systems"
+        ],
+        [
+          56,
+          "Diverse Machine Learning Methods: Federated Learning, Multi-Agent Coordination, and Reinforcement Learning",
+          "Heterogeneous Machine Learning Methods: Federated Learning, Multi-Agent Coordination, and Reinforcement Learning"
+        ],
+        [
+          57,
+          "Diverse Machine Learning Methods for Generation, Optimization, and Adversarial Robustness",
+          "Diverse Machine Learning Methods for Generation, Optimization, and Adversarial Robustness Tasks"
+        ],
+        [
+          58,
+          "Diverse Machine Learning Methods for Vision, Language, and Sequence Prediction Tasks",
+          "Diverse Deep Learning Methods for Representation, Quantization, Prediction, and Language Modeling"
+        ],
+        [
+          59,
+          "Diverse Machine Learning Methods for Robustness, Interpretability, Graph Learning, and Edge Deployment",
+          "Diverse Machine Learning Methods for Edge Computing, Interpretability, and Graph Learning"
+        ],
+        [
+          60,
+          "Diverse Applied Machine Learning: Anomaly Detection, NLP Classification, and Domain-Specific Deep Learning Applications",
+          "Diverse Applied Machine Learning Methods Across Multiple Heterogeneous Domains and Tasks"
+        ],
+        [
+          61,
+          "Diverse Machine Learning Methods for Healthcare, Robotics, Causal Inference, and Model Optimization",
+          "Diverse Machine Learning Methods for Healthcare, Robotics, Causal Inference, and Neural Networks"
+        ],
+        [
+          62,
+          "Robustness, Representation Learning, and Fairness in Deep Neural Network Models",
+          "Diverse Machine Learning Methods: Robustness, Representation Learning, Adversarial Attacks, and Generative Models"
+        ],
+        [
+          64,
+          "Diverse Machine Learning Methods: Bayesian Inference, Semi-Supervised Learning, NLP, and Reinforcement Learning",
+          "Diverse Machine Learning Methods: Reinforcement Learning, Semi-Supervised Learning, Bayesian Inference, and NLP Applications"
+        ],
+        [
+          65,
+          "Diverse Machine Learning Methods for Representation, Inference, Tokenization, and Reinforcement Learning Tasks",
+          "Diverse Machine Learning Methods: Embeddings, Tokenization, Inference, and Reinforcement Learning Applications"
+        ],
+        [
+          66,
+          "Diverse Machine Learning Applications: Deep Learning, Reinforcement Learning, and Representation Learning Methods",
+          "Diverse Deep Learning Applications: Multimodal Detection, Reinforcement Learning, and Representation Learning"
+        ],
+        [
+          67,
+          "Diverse Machine Learning Methods for Classification, Security, Optimization, and Interpretability Across Domains",
+          "Diverse Machine Learning Methods Spanning Medical Imaging, Adversarial Robustness, and Neural Architectures"
+        ],
+        [
+          68,
+          "Deep Reinforcement Learning, Representation Learning, and Neural Network Applications Across Domains",
+          "Sample-Efficient Reinforcement Learning, Representation Learning, and Robotic Policy Pre-Training Methods"
+        ],
+        [
+          69,
+          "Diverse Machine Learning Methods: NLP, Reasoning, Meta-Learning, and Multi-Agent Systems",
+          "Diverse Machine Learning Methods: Language Models, Meta-Learning, Neural ODEs, and Multi-Agent Systems"
+        ],
+        [
+          70,
+          "Diverse Machine Learning Applications: Recommendation, NLP, Reinforcement Learning, and Signal Classification",
+          "Diverse Machine Learning Applications: Recommendation, Misinformation Detection, Navigation, and Signal Classification"
+        ],
+        [
+          73,
+          "Diverse Deep Learning Applications Across Healthcare, Gaming, Communications, and Ontology Engineering",
+          "Diverse Deep Learning Applications Across Healthcare, Gaming, Communications, and Computer Vision"
+        ],
+        [
+          74,
+          "Diverse Applied Machine Learning: Explainability, Healthcare, NLP, and Quantum Computing Applications",
+          "Diverse Applied Machine Learning Across Healthcare, Quantum Computing, and Social Domains"
+        ],
+        [
+          75,
+          "Diverse Machine Learning Applications: EEG Decoding, Reinforcement Learning, and LLM Tool Use",
+          "Diverse Machine Learning Applications: EEG Decoding, Reinforcement Learning, and Code Recommendation"
+        ],
+        [
+          76,
+          "Reinforcement Learning, Generative Models, and Neural Architecture Search Methodologies",
+          "General Machine Learning: Reinforcement Learning, Generative Models, Neural Architecture Search, and Causal Inference"
+        ],
+        [
+          77,
+          "Diverse Machine Learning Applications: Zero-Shot Learning, Reinforcement Learning, Federated Learning, and Network Compression",
+          "Diverse Machine Learning Methods: Neuroevolution, Federated Learning, Reinforcement Learning, and Robotics Applications"
+        ],
+        [
+          78,
+          "Generative Models, Explainable AI, and Robust Deep Learning Techniques",
+          "Explainable AI, Generative Models, and Robust Deep Learning Architectures"
+        ],
+        [
+          79,
+          "Diverse Machine Learning Applications: Personalized Prediction, Multi-Agent Learning, and Representation Modeling",
+          "Diverse Neural Network Applications: Multi-Agent Learning, Sequential Data, and Personalized Prediction"
+        ],
+        [
+          80,
+          "General Machine Learning and Deep Learning Methods Across Diverse Application Domains",
+          "Diverse Machine Learning Applications: Multimodal LLMs, Causal Learning, Model Compression, and Recognition"
+        ],
+        [
+          81,
+          "Diverse Machine Learning Applications: Graph Representation Learning, Neural Networks, and Optimization Methods",
+          "Diverse Machine Learning Applications: Graph Learning, Neural Networks, and Optimization Methods"
+        ],
+        [
+          82,
+          "Diverse Machine Learning Methods: Model Selection, Reinforcement Learning, and Neural Architectures",
+          "Diverse Machine Learning Methods: Statistical Modeling, Reinforcement Learning, and Neural Architectures"
+        ],
+        [
+          83,
+          "Diverse Machine Learning Methods: Density Estimation, Graph Networks, Federated Learning, and Sustainable AI",
+          "Diverse Machine Learning Methods: Density Estimation, Graph Learning, and Sustainable AI"
+        ],
+        [
+          85,
+          "Diverse Machine Learning Methods for Detection, Inference, Recommendation, and Interpretable Modeling",
+          "Diverse Machine Learning Methods for Classification, Inference, Reinforcement Learning, and Multimodal Tasks"
+        ],
+        [
+          86,
+          "Diverse Applied Machine Learning: Fairness, Federated Learning, Adversarial Robustness, and Healthcare Applications",
+          "Diverse Applied Machine Learning: Fairness, Federated Learning, Adversarial Robustness, and Healthcare AI"
+        ],
+        [
+          87,
+          "Diverse Deep Learning Applications: Reinforcement Learning, Uncertainty, Optimization, and Security",
+          "Diverse Deep Learning Applications: Reinforcement Learning, Vulnerability Detection, Optimization, and Uncertainty Quantification"
+        ],
+        [
+          88,
+          "Diverse Applications of Machine Learning and Deep Learning Across Multiple Domains",
+          "Diverse Applications of Deep Learning Across Healthcare, Finance, Security, and NLP"
+        ],
+        [
+          89,
+          "Reinforcement Learning, Imitation Learning, and Knowledge-Enhanced Language Model Methods",
+          "Diverse Machine Learning: Reinforcement Learning, Language Models, Imitation Learning, and Knowledge Integration"
+        ],
+        [
+          91,
+          "Diverse Deep Learning Applications: Generalization, Forecasting, NLP, and Computational Biology",
+          "Diverse Machine Learning Applications: Deep Learning, NLP, Forecasting, and Generalization"
+        ],
+        [
+          92,
+          "Diverse Applications of AI: Search, Optimization, Reasoning, and Representation Learning",
+          "Heterogeneous Applied AI: Optimization, Search Heuristics, Representation Learning, and Decision-Making Systems"
+        ],
+        [
+          93,
+          "Diverse Machine Learning Applications: Reinforcement Learning, Interpretability, IoT, and Optimization Methods",
+          "Machine Learning Applications: Reinforcement Learning, Interpretability, Optimization, and Secure IoT Systems"
+        ],
+        [
+          94,
+          "Reinforcement Learning Benchmarks, Exploration, and Multi-Agent Game-Theoretic Algorithms",
+          "Reinforcement Learning Methods, Benchmarks, and Applied NLP for Diverse Tasks"
+        ],
+        [
+          95,
+          "Diverse Machine Learning Applications: LLM Recommendation, Continual Learning, Multimodal Reasoning, and Optimization",
+          "Diverse Machine Learning Applications: Recommendation Systems, Multimodal Reasoning, and Generative Models"
+        ],
+        [
+          96,
+          "Diverse Applications of Deep Learning, Neural Networks, and Reinforcement Learning Methods",
+          "Diverse Deep Learning Applications: Neural Architectures, Interpretability, and Domain-Specific Problem Solving"
+        ],
+        [
+          97,
+          "Diverse Machine Learning Applications Spanning Healthcare, NLP, Reinforcement Learning, and Trustworthiness",
+          "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Healthcare AI, and Novelty Detection"
+        ],
+        [
+          98,
+          "Diverse Applied Machine Learning: Domain Adaptation, Imbalanced Data, and Multimodal Robotics Applications",
+          "Diverse Applied Machine Learning: Robotics, Imbalanced Data, Domain Adaptation, and Generative Models"
+        ],
+        [
+          99,
+          "Diverse Deep Learning Applications: Re-ID, Autonomous Driving, NLP, and Reinforcement Learning",
+          "Diverse Machine Learning Applications: Skeleton Re-ID, Autonomous Driving, Dataset Distillation, and Safe RL"
+        ],
+        [
+          100,
+          "Diverse Applied Machine Learning Methods Across Healthcare, Robotics, and Computer Vision Domains",
+          "Diverse Machine Learning Applications Across Healthcare, Robotics, and Computer Vision Domains"
+        ],
+        [
+          101,
+          "Diverse Machine Learning Methods for Graphs, Language Models, and Generative Tasks",
+          "Diverse Machine Learning Methods: Graph Learning, Language Models, and Generative Models"
+        ],
+        [
+          102,
+          "Diverse AI Research: Reinforcement Learning, Explainability, Reasoning, and Agent-Based Modeling",
+          "Diverse Artificial Intelligence Methods: Reinforcement Learning, Reasoning, Explainability, and Agent-Based Modeling"
+        ],
+        [
+          103,
+          "Diverse Applied Machine Learning and Deep Learning Methods Across Heterogeneous Domains",
+          "Diverse Applied Deep Learning Methods Across Vision, Forecasting, and Relational Learning"
+        ],
+        [
+          104,
+          "Diverse Machine Learning Applications: Adversarial Attacks, Neural Networks, and Domain-Specific Modeling",
+          "Miscellaneous AI Topics: Adversarial Attacks, Fairness, Graph Neural Networks, and Applications"
+        ],
+        [
+          105,
+          "Diverse Machine Learning Topics: Multimodal LLMs, Continual Learning, and Wireless Localization",
+          "Diverse Machine Learning: Multimodal Models, Continual Learning, and Distributed Edge Intelligence"
+        ],
+        [
+          106,
+          "Diverse Machine Learning Applications: Neural Rendering, Reinforcement Learning, IoT, and AI Economics",
+          "Diverse Applications of Deep Learning across Vision, Forecasting, Finance, and Multiagent Systems"
+        ],
+        [
+          107,
+          "General Machine Learning and Deep Learning Applications Across Diverse Problem Domains",
+          "Diverse Machine Learning and Deep Learning Methods Across Heterogeneous Application Domains"
+        ],
+        [
+          108,
+          "Diverse Machine Learning Applications: Generative Models, Security Attacks, and Federated Learning",
+          "Diverse Machine Learning Applications: Generative Models, Security Attacks, and Explainability"
+        ],
+        [
+          109,
+          "Diverse Machine Learning Applications: Representation Learning, Interpretability, and Domain-Specific Deep Learning",
+          "Diverse Deep Learning Applications: Interpretability, Embeddings, Detection, and Generative Design"
+        ],
+        [
+          110,
+          "Heterogeneous Machine Learning Topics: NLU Evaluation, Explainability, LLM Agents, and Verification",
+          "Diverse Machine Learning Topics: NLU Evaluation, Explainability, Agents, and Quantum Computing"
+        ],
+        [
+          111,
+          "Diverse Machine Learning Methods: Neural Reasoning, NLP, Reinforcement Learning, and AI Security",
+          "Diverse Machine Learning Methods: Neural Architectures, NLP, Reinforcement Learning, and Probabilistic Models"
+        ],
+        [
+          112,
+          "Diverse Machine Learning Applications: Robustness, Reinforcement Learning, Generative Models, and Medical AI",
+          "Diverse Machine Learning Applications: Generative AI, Reinforcement Learning, and Robustness"
+        ],
+        [
+          113,
+          "Diverse Machine Learning Applications: Vision-Language, Speech, Privacy, AutoML, and Quantum Computing",
+          "Diverse Machine Learning Applications: Multimodal Learning, Speech Recognition, Privacy, and Quantum Computing"
+        ],
+        [
+          114,
+          "Diverse Machine Learning Applications: Robustness, Federated Learning, Embodied AI, and Optimization",
+          "Diverse Machine Learning Applications: Robustness, Federated Learning, Game AI, and Wireless Systems"
+        ],
+        [
+          115,
+          "Diverse Machine Learning Methods, Tools, and Applications Across Multiple Domains",
+          "Diverse Machine Learning Applications, Tools, and Methodologies Across Heterogeneous Problem Domains"
+        ],
+        [
+          116,
+          "Diverse Applied Machine Learning Methods Across Security, Vision, and Multi-Agent Systems",
+          "Diverse Machine Learning Applications: Privacy, Causal Inference, OCR, and Adversarial Robustness"
+        ],
+        [
+          117,
+          "Diverse Machine Learning: Transfer Learning, Adversarial Robustness, and Data-Efficient Training Methods",
+          "Diverse Machine Learning Methods for Transfer Learning, Robustness, and Real-World Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 39,
+      "changed": 33,
+      "rate": 0.8461538461538461,
+      "uniq_base": 30,
+      "uniq_contrast": 39,
+      "dup_base": 9,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Diverse Machine Learning Applications: NLP Transfer, Federated Learning, Video Editing, and AI Ethics",
+          "Diverse Machine Learning Topics: Federated Learning, NLP, Vision, and AI Ethics"
+        ],
+        [
+          1,
+          "Diverse Deep Learning Methods and Applications",
+          "Diverse ML: Fairness, RL Regularization, and Embodied AI"
+        ],
+        [
+          5,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse ML Methods: Model Editing, Domain Adaptation, Graph Networks, Semantic Parsing"
+        ],
+        [
+          6,
+          "Diverse Machine Learning Methods and Applications",
+          "Generative Models, RL, Explainability, and On-Device AI"
+        ],
+        [
+          7,
+          "Applied Machine Learning and LLMs Across Domains",
+          "Applied Deep Learning, LLMs, and Reinforcement Learning Across Domains"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Methods: Optimization, Reinforcement Learning, Graph Neural Networks, and Trustworthy AI",
+          "Diverse Machine Learning Methods: Optimization, Trustworthy Models, Reinforcement Learning, and Causal Inference"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Methods: Generative Models, Reinforcement Learning, Explainability, and AI Governance",
+          "Diverse Machine Learning Topics: Generative Models, Reinforcement Learning, AI Governance, and Interpretability"
+        ],
+        [
+          10,
+          "Diverse Deep Learning Applications and Methods",
+          "Diverse ML Applications: Hardware Benchmarking, LLMs, Controller Synthesis, Neural Decoding"
+        ],
+        [
+          12,
+          "Heterogeneous Machine Learning Methods Across Reinforcement Learning, Robotics, and Adversarial Attacks",
+          "Diverse Machine Learning Applications: Reinforcement Learning, Robotics, Speaker Recognition, and Adversarial Attacks"
+        ],
+        [
+          13,
+          "Interpretability, Explainability, and Calibration in Diverse Machine Learning Applications",
+          "Diverse Machine Learning Methods: Interpretability, Reinforcement Learning, Optimization, and Clinical Applications"
+        ],
+        [
+          14,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse Machine Learning: Bayesian Inference, Autonomous Driving, and Neural Modeling"
+        ],
+        [
+          15,
+          "Diverse Machine Learning Methods and Cross-Domain Applications",
+          "Diverse Deep Learning and Reinforcement Learning Applications Across Domains"
+        ],
+        [
+          16,
+          "Diverse Applications of Large Language Models and Graph Neural Networks in AI Research",
+          "Large Language Model Applications, Multi-Agent Systems, and Graph-Based Machine Learning"
+        ],
+        [
+          17,
+          "Diverse Machine Learning Applications and Theory",
+          "Multimodal Learning, Program Synthesis, Robotics, and Neural Network Theory"
+        ],
+        [
+          18,
+          "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Applications",
+          "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Recognition"
+        ],
+        [
+          20,
+          "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methodologies and Benchmarks",
+          "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methods Benchmarking"
+        ],
+        [
+          21,
+          "Diverse Deep Learning Methods and Applications",
+          "Diverse Deep Learning Methods for Representation, Quantization, and Generation"
+        ],
+        [
+          22,
+          "Robustness, Fairness, and Applied Machine Learning Methods",
+          "Diverse ML: Healthcare, Robustness, Adversarial Attacks, Generative Models"
+        ],
+        [
+          23,
+          "Diverse Machine Learning Methods for Robustness, Interpretability, Graph Learning, and Edge Deployment",
+          "Diverse Machine Learning Methods for Edge Computing, Interpretability, and Graph Learning"
+        ],
+        [
+          25,
+          "Diverse Machine Learning, Reinforcement Learning, and NLP Methods",
+          "Diverse ML Methods: Graph Learning, Low-Resource NLP, and Multi-Agent Optimization"
+        ],
+        [
+          26,
+          "Diverse Machine Learning: Graph Representation and Reinforcement Learning",
+          "Diverse Machine Learning: Graph Learning, Reinforcement Learning, and Optimization Methods"
+        ],
+        [
+          27,
+          "Diverse Applied Deep Learning Across Domains",
+          "Applied Deep Learning Across Healthcare, Communications, and Perception"
+        ],
+        [
+          28,
+          "Diverse Machine Learning Methods and Applications",
+          "Reinforcement Learning, Bandits, and Diverse ML Applications"
+        ],
+        [
+          29,
+          "Diverse Machine Learning Methods and Applications",
+          "Diverse Machine Learning Methods and Domain Applications"
+        ],
+        [
+          30,
+          "Diverse Deep Learning Applications and Methods",
+          "Diverse Deep Learning Applications Across Domains"
+        ],
+        [
+          31,
+          "Diverse Machine Learning Applications and Search Methods",
+          "Heterogeneous Applied AI: Search Heuristics, Forecasting, and Representation Learning"
+        ],
+        [
+          32,
+          "Adversarial Robustness and Knowledge-Enhanced Reinforcement Learning Methods",
+          "Adversarial Robustness, Reinforcement Learning, and Knowledge-Infused Models"
+        ],
+        [
+          33,
+          "Diverse Applied Deep Learning and Reinforcement Learning Applications",
+          "Diverse Applied Deep Learning Across Domains"
+        ],
+        [
+          34,
+          "Diverse Machine Learning Methods Across Multiple Domains",
+          "Diverse AI: Graph Learning, RL, Explainability, and Applications"
+        ],
+        [
+          35,
+          "Diverse Machine Learning: Adversarial Attacks, Neural Networks, and Applications",
+          "Adversarial Attacks, Backdoors, Continual Learning, and Graph Neural Networks"
+        ],
+        [
+          36,
+          "Diverse Machine Learning Applications and Methods",
+          "Diverse Deep Learning: Generative Models, RL, and Domain Applications"
+        ],
+        [
+          37,
+          "Diverse Machine Learning Applications and Methods",
+          "Heterogeneous Machine Learning Applications: Generative Models, Multimodal Learning, and Game AI"
+        ],
+        [
+          38,
+          "Diverse Machine Learning Methods and Cross-Domain Applications",
+          "Diverse Machine Learning Methods, Theory, and Heterogeneous Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 11,
+      "changed": 10,
+      "rate": 0.9090909090909091,
+      "uniq_base": 6,
+      "uniq_contrast": 11,
+      "dup_base": 5,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Diverse Machine Learning Methods and Cross-Domain Applications",
+          "Diverse Deep Learning and Reinforcement Learning Applications Across Domains"
+        ],
+        [
+          1,
+          "Diverse Machine Learning Methods and Applications",
+          "Reinforcement Learning, Representation Learning, and Robust Optimization"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Applications",
+          "Multimodal Learning and Diverse ML Applications"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications",
+          "Heterogeneous Applied AI Methods"
+        ],
+        [
+          4,
+          "Diverse Machine Learning Applications",
+          "Diverse ML Methods and Applications"
+        ],
+        [
+          6,
+          "Diverse Machine Learning: Graph Representation and Reinforcement Learning",
+          "Diverse Machine Learning: Graph Learning, Reinforcement Learning, and Optimization Methods"
+        ],
+        [
+          7,
+          "Diverse Deep Learning Applications and Methods",
+          "Diverse Deep Learning Applications Across Domains"
+        ],
+        [
+          8,
+          "Diverse Machine Learning Applications and Methods",
+          "Diverse Deep Learning: Generative Models, RL, and Domain Applications"
+        ],
+        [
+          9,
+          "Diverse Machine Learning Applications and Methods",
+          "Heterogeneous Machine Learning Applications: Generative Models, Multimodal Learning, and Game AI"
+        ],
+        [
+          10,
+          "Diverse Machine Learning Methods and Cross-Domain Applications",
+          "Diverse Machine Learning Methods, Theory, and Heterogeneous Applications"
+        ]
+      ]
+    },
+    {
+      "layer": 3,
+      "n": 4,
+      "changed": 4,
+      "rate": 1.0,
+      "uniq_base": 3,
+      "uniq_contrast": 4,
+      "dup_base": 1,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "Machine Learning",
+          "Applied ML Diversity"
+        ],
+        [
+          1,
+          "Applied Machine Learning",
+          "Heterogeneous ML Applications"
+        ],
+        [
+          2,
+          "Diverse Machine Learning Applications",
+          "Heterogeneous Applied AI Methods"
+        ],
+        [
+          3,
+          "Diverse Machine Learning Applications",
+          "Diverse ML Methods and Applications"
+        ]
+      ]
+    }
+  ],
+  "injection": {
+    "injected": 31,
+    "calls": 31,
+    "skip": 23,
+    "nocand": 0,
+    "filtered": 0,
+    "nearest_dist": {
+      "min": 0.045579196615790796,
+      "med": 0.18097863146094495,
+      "max": 0.4147295174879895
+    }
+  },
+  "injected_names": {
+    "1,1": [
+      "Diverse Applied Machine Learning: Robotics, Imbalanced Data, Domain Adaptation, and Generative Models",
+      "Diverse Machine Learning Applications: Skeleton Re-ID, Autonomous Driving, Dataset Distillation, and Safe RL",
+      "Diverse Machine Learning Applications: Neural Network Methods, Optimization, and Domain-Specific Systems",
+      "Explainable AI, Generative Models, and Robust Deep Learning Architectures",
+      "Diverse Machine Learning: Reinforcement Learning, Language Models, Imitation Learning, and Knowledge Integration"
+    ],
+    "1,5": [
+      "Diverse Machine Learning Topics: Federated Learning, NLP, Vision, and AI Ethics",
+      "Diverse Deep Learning Applications: Multimodal Detection, Reinforcement Learning, and Representation Learning",
+      "Diverse Applied Machine Learning: LLMs, Hardware Acceleration, Explainability, and Neural Network Theory",
+      "Diverse Machine Learning Methods: Interpretability, Reinforcement Learning, Optimization, and Clinical Applications",
+      "Diverse Machine Learning Applications: Hardware Benchmarking, Recommender Systems, Controller Synthesis, and Neural Decoding"
+    ],
+    "1,6": [
+      "Diverse Machine Learning Methods: Statistical Modeling, Reinforcement Learning, and Neural Architectures",
+      "Diverse Machine Learning Methods: Adversarial Robustness, Reinforcement Learning, and Language Grounding",
+      "Diverse Applied Machine Learning: Fairness, Federated Learning, Adversarial Robustness, and Healthcare AI",
+      "Diverse Machine Learning Methods for Representation Learning, Optimization, and Real-World Applications",
+      "Diverse Machine Learning Applications: Reinforcement Learning, Explainability, and Generative Methods"
+    ],
+    "1,7": [
+      "Diverse Machine Learning Methods: Adversarial Robustness, Reinforcement Learning, and Language Grounding",
+      "Diverse Machine Learning Applications: Reinforcement Learning, Explainability, and Generative Methods",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Generative AI, and Interpretability",
+      "Diverse Machine Learning Applications: Fairness, Retrieval, Logic, and Medical AI Systems",
+      "Diverse Machine Learning Methods: Statistical Modeling, Reinforcement Learning, and Neural Architectures"
+    ],
+    "1,10": [
+      "Diverse Machine Learning Methods for Representation Learning, Optimization, and Real-World Applications",
+      "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Recognition",
+      "Machine Learning Applications in Robotics, Time-Series Analysis, and Graph-Based Learning Systems",
+      "Diverse Machine Learning Applications: Neural Architecture, Fairness, NLP, and Representation Learning",
+      "Diverse Machine Learning Methods: Adversarial Robustness, Reinforcement Learning, and Language Grounding"
+    ],
+    "1,14": [
+      "Large Language Model Applications, Multi-Agent Systems, and Graph-Based Machine Learning",
+      "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methods Benchmarking",
+      "Diverse Machine Learning Methods: Robust Optimization, Representation Learning, and Reinforcement Learning Applications",
+      "Diverse Machine Learning Methods: Language Models, Meta-Learning, Neural ODEs, and Multi-Agent Systems",
+      "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Recognition"
+    ],
+    "1,15": [
+      "Explainable AI, Generative Models, and Robust Deep Learning Architectures",
+      "Reinforcement Learning Methods, Benchmarks, and Applied NLP for Diverse Tasks",
+      "Diverse Machine Learning Applications: Code Search, Evolvability, Safety Evaluation, and Clinical Prediction",
+      "Diverse Machine Learning Methods: Embeddings, Tokenization, Inference, and Reinforcement Learning Applications",
+      "Diverse Deep Learning Applications: Multimodal Detection, Reinforcement Learning, and Representation Learning"
+    ],
+    "1,17": [
+      "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Recognition",
+      "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methods Benchmarking",
+      "Diverse Applied Machine Learning: LLMs, Hardware Acceleration, Explainability, and Neural Network Theory",
+      "Diverse Machine Learning Topics: Federated Learning, NLP, Vision, and AI Ethics",
+      "Diverse Machine Learning Applications: Continual Learning, Explainability, NLP, and Game Testing"
+    ],
+    "1,21": [
+      "Diverse Applied Machine Learning Across Healthcare, Quantum Computing, and Social Domains",
+      "Diverse Deep Learning Applications Across Healthcare, Gaming, Communications, and Computer Vision",
+      "Reinforcement Learning Methods, Benchmarks, and Applied NLP for Diverse Tasks",
+      "Diverse Machine Learning Applications: Density Estimation, Reinforcement Learning, Medical Imaging, and Federated Learning",
+      "Generalization Challenges in Deep Learning, Reinforcement Learning, and Federated Clustering Methods"
+    ],
+    "1,22": [
+      "Generalization Challenges in Deep Learning, Reinforcement Learning, and Federated Clustering Methods",
+      "Diverse Machine Learning Methods for Edge Computing, Interpretability, and Graph Learning",
+      "Diverse Machine Learning Applications: EEG Decoding, Reinforcement Learning, and Code Recommendation",
+      "Explainable AI, Generative Models, and Robust Deep Learning Architectures",
+      "Diverse Deep Learning Methods for Representation, Quantization, Prediction, and Language Modeling"
+    ],
+    "1,24": [
+      "Explainable AI, Generative Models, and Robust Deep Learning Architectures",
+      "Diverse Deep Learning Applications: Multimodal Detection, Reinforcement Learning, and Representation Learning",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Generative AI, and Interpretability",
+      "Diverse Machine Learning Topics: Reinforcement Learning, NLP, Knowledge Tracing, and AI Creativity",
+      "Reinforcement Learning Methods, Benchmarks, and Applied NLP for Diverse Tasks"
+    ],
+    "1,25": [
+      "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Recognition",
+      "Diverse Machine Learning Methods Across NLP, Vision, Reinforcement Learning, and Healthcare Applications",
+      "Diverse Machine Learning Applications: Continual Learning, Explainability, NLP, and Game Testing",
+      "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methods Benchmarking",
+      "Diverse Machine Learning Applications: Neural Architecture, Fairness, NLP, and Representation Learning"
+    ],
+    "1,26": [
+      "Diverse Applied Machine Learning: Fairness, Federated Learning, Adversarial Robustness, and Healthcare AI",
+      "Diverse Deep Learning Applications across NLP, Vision, Federated Learning, and Wireless Systems",
+      "Diverse Applied Machine Learning: Robotics, Imbalanced Data, Domain Adaptation, and Generative Models",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Computer Vision Domains",
+      "Heterogeneous Machine Learning Methods: Federated Learning, Multi-Agent Coordination, and Reinforcement Learning"
+    ],
+    "1,27": [
+      "Diverse Deep Learning Methods for Representation, Quantization, Prediction, and Language Modeling",
+      "Diverse Machine Learning Methods for Generation, Optimization, and Adversarial Robustness Tasks",
+      "Diverse Machine Learning Applications: Density Estimation, Reinforcement Learning, Medical Imaging, and Federated Learning",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Generative AI, and Interpretability",
+      "Diverse Machine Learning Applications: Reasoning, Knowledge Graphs, Scheduling, and Safety Monitoring"
+    ],
+    "1,28": [
+      "Miscellaneous AI Topics: Adversarial Attacks, Fairness, Graph Neural Networks, and Applications",
+      "Diverse Machine Learning Applications, Tools, and Methodologies Across Heterogeneous Problem Domains",
+      "Diverse Deep Learning Applications across NLP, Vision, Federated Learning, and Wireless Systems",
+      "Diverse Applied Deep Learning Methods Across Vision, Forecasting, and Relational Learning",
+      "Diverse Machine Learning Methods Spanning Medical Imaging, Adversarial Robustness, and Neural Architectures"
+    ],
+    "1,29": [
+      "Diverse Machine Learning Methods: Robustness, Representation Learning, Adversarial Attacks, and Generative Models",
+      "Diverse Deep Learning Methods for Representation, Quantization, Prediction, and Language Modeling",
+      "Miscellaneous AI Topics: Adversarial Attacks, Fairness, Graph Neural Networks, and Applications",
+      "Reinforcement Learning Methods, Benchmarks, and Applied NLP for Diverse Tasks",
+      "Diverse Deep Learning Applications Across Healthcare, Gaming, Communications, and Computer Vision"
+    ],
+    "1,30": [
+      "Diverse Machine Learning Methods: Statistical Modeling, Reinforcement Learning, and Neural Architectures",
+      "Diverse Machine Learning Applications: Fairness, Retrieval, Logic, and Medical AI Systems",
+      "Diverse Machine Learning Applications: Reinforcement Learning, NLP, Generative AI, and Interpretability",
+      "Diverse Machine Learning Applications: Skeleton Re-ID, Autonomous Driving, Dataset Distillation, and Safe RL",
+      "Diverse Machine Learning Methods: Adversarial Robustness, Reinforcement Learning, and Language Grounding"
+    ],
+    "1,31": [
+      "Diverse Machine Learning: Reinforcement Learning, Language Models, Imitation Learning, and Knowledge Integration",
+      "Adversarial Robustness, Reinforcement Learning, and Security in Machine Learning Models",
+      "Diverse Deep Learning Applications Across Scientific, Security, and Time-Series Domains",
+      "Diverse Machine Learning Methods for Classification, Inference, Reinforcement Learning, and Multimodal Tasks",
+      "Heterogeneous Machine Learning Methods: Federated Learning, Multi-Agent Coordination, and Reinforcement Learning"
+    ],
+    "1,32": [
+      "Heterogeneous Applied AI: Optimization, Search Heuristics, Representation Learning, and Decision-Making Systems",
+      "Diverse Machine Learning Applications: Deep Learning, NLP, Forecasting, and Generalization",
+      "Diverse Deep Learning Applications Across Scientific, Security, and Time-Series Domains",
+      "Diverse Machine Learning Methods: Density Estimation, Graph Learning, and Sustainable AI",
+      "Diverse Applied Machine Learning: Fairness, Federated Learning, Adversarial Robustness, and Healthcare AI"
+    ],
+    "1,33": [
+      "Reinforcement Learning Methods, Benchmarks, and Applied NLP for Diverse Tasks",
+      "Explainable AI, Generative Models, and Robust Deep Learning Architectures",
+      "Diverse Machine Learning Applications: Neural Network Methods, Optimization, and Domain-Specific Systems",
+      "Diverse Artificial Intelligence Methods: Reinforcement Learning, Reasoning, Explainability, and Agent-Based Modeling",
+      "Diverse Machine Learning Applications: Graph Learning, Neural Networks, and Optimization Methods"
+    ],
+    "1,34": [
+      "Miscellaneous AI Topics: Adversarial Attacks, Fairness, Graph Neural Networks, and Applications",
+      "Diverse Machine Learning Topics: NLU Evaluation, Explainability, Agents, and Quantum Computing",
+      "Diverse Machine Learning Applications: Privacy, Causal Inference, OCR, and Adversarial Robustness",
+      "Diverse Applications of Deep Learning across Vision, Forecasting, Finance, and Multiagent Systems",
+      "Diverse Applied Deep Learning Methods Across Vision, Forecasting, and Relational Learning"
+    ],
+    "1,35": [
+      "Diverse Machine Learning and Deep Learning Methods Across Heterogeneous Application Domains",
+      "Diverse Applied Deep Learning Methods Across Vision, Forecasting, and Relational Learning",
+      "Diverse Machine Learning Applications: Privacy, Causal Inference, OCR, and Adversarial Robustness",
+      "Diverse Machine Learning Applications Across Healthcare, Robotics, and Computer Vision Domains",
+      "Diverse Artificial Intelligence Methods: Reinforcement Learning, Reasoning, Explainability, and Agent-Based Modeling"
+    ],
+    "1,36": [
+      "Diverse Machine Learning Topics: NLU Evaluation, Explainability, Agents, and Quantum Computing",
+      "Diverse Machine Learning Applications: Privacy, Causal Inference, OCR, and Adversarial Robustness",
+      "Diverse Machine Learning Methods for Transfer Learning, Robustness, and Real-World Applications",
+      "Diverse Machine Learning Applications: Robustness, Federated Learning, Game AI, and Wireless Systems",
+      "Diverse Machine Learning Applications: Multimodal Learning, Speech Recognition, Privacy, and Quantum Computing"
+    ],
+    "1,37": [
+      "Diverse Applications of Deep Learning across Vision, Forecasting, Finance, and Multiagent Systems",
+      "Diverse Machine Learning Applications: Privacy, Causal Inference, OCR, and Adversarial Robustness",
+      "Diverse Machine Learning Methods for Transfer Learning, Robustness, and Real-World Applications",
+      "Diverse Machine Learning Applications, Tools, and Methodologies Across Heterogeneous Problem Domains",
+      "Diverse Machine Learning Applications: Recommendation Systems, Multimodal Reasoning, and Generative Models"
+    ],
+    "1,38": [
+      "Diverse Applied Deep Learning Methods Across Vision, Forecasting, and Relational Learning",
+      "Diverse Machine Learning Applications: Robustness, Federated Learning, Game AI, and Wireless Systems",
+      "Diverse Applications of Deep Learning across Vision, Forecasting, Finance, and Multiagent Systems",
+      "Diverse Machine Learning Methods: Transfer Learning, Graph Embeddings, Argumentation, and Predictive Modeling",
+      "Diverse Machine Learning Applications: Recommendation Systems, Multimodal Reasoning, and Generative Models"
+    ],
+    "2,1": [
+      "Diverse Machine Learning: Bayesian Inference, Autonomous Driving, and Neural Modeling",
+      "Diverse Machine Learning Methods for Forecasting, Reinforcement Learning, and Multimodal Recognition",
+      "Diverse ML Methods: Graph Learning, Low-Resource NLP, and Multi-Agent Optimization",
+      "Multimodal Learning, Program Synthesis, Robotics, and Neural Network Theory",
+      "Diverse ML Applications: Hardware Benchmarking, LLMs, Controller Synthesis, Neural Decoding"
+    ],
+    "2,2": [
+      "Reinforcement Learning, Operator Learning, and Diverse Machine Learning Methods Benchmarking",
+      "Diverse ML Applications: Hardware Benchmarking, LLMs, Controller Synthesis, Neural Decoding",
+      "Diverse ML Methods: Graph Learning, Low-Resource NLP, and Multi-Agent Optimization",
+      "Diverse Machine Learning: Bayesian Inference, Autonomous Driving, and Neural Modeling",
+      "Diverse Machine Learning Topics: Federated Learning, NLP, Vision, and AI Ethics"
+    ],
+    "2,3": [
+      "Diverse Machine Learning: Graph Learning, Reinforcement Learning, and Optimization Methods",
+      "Diverse ML Methods: Model Editing, Domain Adaptation, Graph Networks, Semantic Parsing",
+      "Diverse Applied Deep Learning Across Domains",
+      "Diverse Deep Learning Applications Across Domains",
+      "Multimodal Learning, Program Synthesis, Robotics, and Neural Network Theory"
+    ],
+    "2,4": [
+      "Adversarial Attacks, Backdoors, Continual Learning, and Graph Neural Networks",
+      "Diverse Deep Learning Methods for Representation, Quantization, and Generation",
+      "Diverse Machine Learning Applications: NLP, Reinforcement Learning, Event Detection, and Data Mining",
+      "Diverse Machine Learning Methods, Theory, and Heterogeneous Applications",
+      "Diverse Deep Learning and Reinforcement Learning Applications Across Domains"
+    ],
+    "3,0": [
+      "Diverse ML Methods and Applications",
+      "Diverse Deep Learning Applications Across Domains",
+      "Diverse Machine Learning Methods and Applications",
+      "Diverse Machine Learning: Graph Learning, Reinforcement Learning, and Optimization Methods",
+      "Heterogeneous Applied AI Methods"
+    ],
+    "3,1": [
+      "Diverse ML Methods and Applications",
+      "Diverse Deep Learning and Reinforcement Learning Applications Across Domains",
+      "Reinforcement Learning, Representation Learning, and Robust Optimization",
+      "Heterogeneous Applied AI Methods",
+      "Multimodal Learning and Diverse ML Applications"
+    ]
+  },
+  "seconds": 1566.2
+}

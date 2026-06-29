@@ -1,0 +1,52 @@
+{
+  "fine": [
+    "Live Concert Films and Music Documentaries Featuring Iconic Musicians and Stand-Up Comedians",
+    "Slasher and Supernatural Horror Films Featuring Killers, Monsters, and Haunted Settings",
+    "Romantic Comedies Exploring Friendship, Dating, and Sexual Relationships with LGBTQ Themes",
+    "Sci-Fi Films Featuring Alien Invasions, Giant Monsters, and Earth-Threatening Cosmic Catastrophes",
+    "Classic European and Hollywood Romantic Melodramas of Aristocratic Love Affairs and Courtesans",
+    "Coming-of-Age Dramas: Young Men Confronting Troubled Pasts and Father Relationships",
+    "Intimate Family Dramas Exploring Parent-Child Bonds, Loss, and Domestic Relationships",
+    "Family-Friendly Animated Cartoon Characters in Holiday and Pet-Themed Children's Adventures",
+    "Asian Martial Arts Films Featuring Samurai, Ninja, Shaolin Warriors and Sword Combat",
+    "Crime Thrillers Featuring Heists, Mobsters, Corrupt Cops, and Criminal Underworld Pursuits",
+    "War Films Depicting World War II and 20th-Century Military Combat Operations",
+    "Documentary Films Exploring Cinema History, Influential Filmmakers, Artists, and Social Issues",
+    "Police Procedural and Detective Crime Investigation Television Series Across Multiple Seasons",
+    "Sci-Fi Space Exploration TV Franchises: Star Trek, Stargate, and Interstellar Crew Adventures",
+    "Classic American and British Television Series Box Sets by Season on DVD",
+    "Japanese Anime Series and OVAs Spanning Action, Fantasy, and Magical Girl Genres",
+    "Multi-Season Sitcom and Reality TV Series Released as Season-by-Season Disc Collections",
+    "Serialized TV Drama Seasons: Teen, Family, and Supernatural Ensemble Series"
+  ],
+  "coarse": {
+    "baseline": [
+      "Film Anthology",
+      "TV Series Seasons"
+    ],
+    "v1": [
+      "Diverse Films",
+      "TV Seasons"
+    ],
+    "v2": [
+      "Feature Films",
+      "TV Series Box Sets"
+    ]
+  },
+  "contrast": {
+    "1,0": [
+      "Japanese Anime Series and OVAs: Shonen Action, Magical Girls, and Supernatural Adventures",
+      "Episodic Television Sitcoms and Comedy-Drama Series Released by Complete Season Discs",
+      "Crime Procedural and Detective Investigation TV Series Box Sets and Seasons",
+      "Classic American and British Television Sitcoms and Series Released as Complete Season DVD Sets",
+      "Serialized Drama Television Series Spanning Teen, Family, and Supernatural Genres by Season"
+    ],
+    "1,1": [
+      "Family-Friendly Animated Cartoon Characters in Holiday and Mystery-Themed Children's Adventures",
+      "Intimate Family Dramas Exploring Parent-Child Bonds, Loss, and Domestic Relationship Crises",
+      "Live Concert Films and Music Documentaries Featuring Iconic Rock, Pop, and Hip-Hop Artists",
+      "Asian Martial Arts Films Featuring Samurai, Ninja, Shaolin Warriors, and Yakuza Battles",
+      "Romantic Comedies Exploring Love, Friendship, Marriage, and Sexual Relationships with LGBTQ Themes"
+    ]
+  }
+}

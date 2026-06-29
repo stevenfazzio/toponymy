@@ -1,0 +1,1223 @@
+{
+  "dataset": "20ng",
+  "model": "opus",
+  "k": 5,
+  "max_dist": null,
+  "disambig": false,
+  "base_min_cluster_size": 25,
+  "min_clusters": 4,
+  "subsample": null,
+  "counts": [
+    74,
+    24,
+    9
+  ],
+  "floor_rows": [
+    {
+      "layer": 0,
+      "n": 74,
+      "changed": 71,
+      "rate": 0.9594594594594594,
+      "uniq_base": 74,
+      "uniq_contrast": 74,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Classified ads for reselling airfare, vacation packages, and event tickets",
+          "Buying and selling transferable tickets, vacation packages, and airfare vouchers"
+        ],
+        [
+          2,
+          "NHL and AHL hockey franchise relocations, ownership, arena disputes, and team affiliations",
+          "NHL and AHL professional hockey franchise relocations, ownership, and league realignment discussions"
+        ],
+        [
+          3,
+          "Serdar Argic's revisionist Armenian-Turkish genocide denial and counter-accusation Usenet flame wars",
+          "Serdar Argic's polemical denial of Armenian Genocide claiming Turkish-Kurdish Muslim victimhood"
+        ],
+        [
+          4,
+          "NHL Stanley Cup playoff game recaps, scores, and team performance analysis",
+          "NHL Stanley Cup playoff game results, recaps, and team rivalries discussion"
+        ],
+        [
+          5,
+          "Software Piracy, Copy Protection Schemes, and the Hacker Ethic Debate",
+          "Software piracy, copy protection schemes, and the hacker ethic debate"
+        ],
+        [
+          6,
+          "NHL hockey team performance, player trades, coaching, and playoff analysis discussions",
+          "NHL hockey discussions on players, coaches, trades, playoff prospects, and team performance"
+        ],
+        [
+          7,
+          "NHL playoff results, box scores, and Usenet fantasy hockey draft pool standings",
+          "NHL playoff game results, scores, and fantasy hockey draft pool standings"
+        ],
+        [
+          8,
+          "Major League Baseball player evaluation, statistics, fielding metrics, and Hall of Fame debates",
+          "Major League Baseball player performance analysis, statistics, and Hall of Fame debates"
+        ],
+        [
+          9,
+          "Sabermetric analysis of baseball hitting patience, power hitters, and defensive measurement debates",
+          "Baseball sabermetrics: hitting patience, power, on-base percentage, and defensive fielding evaluation"
+        ],
+        [
+          10,
+          "Major League Baseball 1993 season standings, predictions, scores, and team discussions",
+          "Major League Baseball season predictions, standings, scores, and team performance discussions"
+        ],
+        [
+          11,
+          "Bosnian War: Serbian Ethnic Cleansing of Muslims, Arms Embargo, and Intervention Debates",
+          "Bosnian War debates on ethnic cleansing, arms embargo, and Western military intervention"
+        ],
+        [
+          12,
+          "Debating homosexuality prevalence statistics, promiscuity claims, and alleged links to child molestation",
+          "Debates on homosexuality statistics, promiscuity, and alleged links to child molestation"
+        ],
+        [
+          13,
+          "Israeli-Palestinian Conflict: Occupation, Arab-Israeli Wars, and Middle East Peace Debates",
+          "Israeli-Arab conflict debates: occupation, Palestinian intifada, PLO, and historical massacres"
+        ],
+        [
+          14,
+          "Heated debates on anti-Semitism, Israel-Nazi comparisons, Holocaust denial, and self-hating Jews",
+          "Heated debates on anti-Semitism, the Holocaust, Israel, Nazis, and Jewish identity"
+        ],
+        [
+          15,
+          "Skepticism of alternative medicine, quackery, and candida/yeast hypothesis in clinical practice",
+          "Debates on alternative medicine, quackery, and HIV/candida treatments in clinical medicine"
+        ],
+        [
+          16,
+          "Clinical Management of Chronic Conditions, Allergies, and Symptomatic Drug Treatments in Medicine",
+          "Medical treatment discussions on allergies, chronic conditions, medications, and symptom management remedies"
+        ],
+        [
+          17,
+          "Religious and literary book discussions with humorous Gilligan's Island sin allegory",
+          "Christian apologetics debates and book recommendations on religion, mysteries, and literature"
+        ],
+        [
+          18,
+          "X Window System FAQs, toolkits, window managers, and Usenet newsgroup subscription queries",
+          "X Window System FAQ, toolkits, window managers, and Usenet newsgroup subscription queries"
+        ],
+        [
+          20,
+          "Clipper Chip key-escrow encryption debate over government wiretapping and crypto privacy",
+          "Clipper Chip key-escrow encryption debate: government wiretapping, privacy, and cryptographic policy"
+        ],
+        [
+          21,
+          "Cryptographic analysis of Skipjack/Clipper key escrow and DES brute-force attacks",
+          "Cryptographic analysis of Clipper chip Skipjack key escrow and DES brute-force attacks"
+        ],
+        [
+          22,
+          "Clipper Chip key escrow encryption policy, Skipjack algorithm security, and government wiretap debates",
+          "Clipper Chip key escrow encryption controversy and government wiretapping policy debate"
+        ],
+        [
+          23,
+          "Philosophical debate on objective versus subjective/relative morality and ethical systems",
+          "Philosophical debates on objective versus subjective morality, ethics, and moral relativism"
+        ],
+        [
+          24,
+          "Clinton White House press briefings and presidential statements on jobs, Waco, and policy",
+          "Clinton White House press briefings and presidential statements on domestic policy and crises"
+        ],
+        [
+          25,
+          "Usenet flame wars: personal insults, accusations of dishonesty, and meta-discussions on posting etiquette",
+          "Usenet flame wars: personal attacks, ad hominem insults, and accusations of misrepresentation"
+        ],
+        [
+          26,
+          "Automotive solvents, cleaners, and waxes for engine emissions and surface detailing",
+          "Automotive maintenance: cleaning solvents, waxing, fuel injector cleaners, and diesel emissions"
+        ],
+        [
+          27,
+          "Residential electrical wiring, grounding codes, GFCI safety, and power electronics theory",
+          "Residential electrical wiring, NEC code compliance, grounding, GFCI, and electrical engineering theory"
+        ],
+        [
+          28,
+          "Commercial spaceflight economics, lunar base proposals, and long-duration human space exploration",
+          "Space program economics, lunar base feasibility, and long-duration human spaceflight technical analysis"
+        ],
+        [
+          29,
+          "Planetary Space Probes and Spacecraft Missions to Solar System Bodies",
+          "Planetary Space Probe Missions and Spacecraft Exploration of the Solar System"
+        ],
+        [
+          30,
+          "Hubble Space Telescope servicing missions, shuttle reboost strategies, and space station redesign",
+          "Hubble Space Telescope servicing, shuttle reboost missions, and space launch architecture strategies"
+        ],
+        [
+          31,
+          "Partisan debates on Clinton-era tax policy, federal deficit, government spending, and political accountability",
+          "Partisan debates on Clinton-era tax policy, federal deficit spending, and budget politics"
+        ],
+        [
+          32,
+          "Libertarian Political Philosophy: Government Coercion, Regulation, and Individual Freedom Debates",
+          "Libertarian Philosophy Debates on Government Coercion, Regulation, and Individual Freedom"
+        ],
+        [
+          33,
+          "Philosophy of science: theory versus fact, scientific method, and reality in physics",
+          "Philosophy of science: theories, models, and rationality in physics and creationism debates"
+        ],
+        [
+          34,
+          "Waco Branch Davidian siege: FBI/ATF tear gas assault and fire controversy",
+          "Waco Branch Davidian siege fire: FBI/ATF tear gas and government accountability debate"
+        ],
+        [
+          35,
+          "Biblical interpretation debates on homosexuality, sin, and Christian acceptance of gay relationships",
+          "Biblical interpretation debates on homosexuality, sin, and Christian acceptance of gay believers"
+        ],
+        [
+          36,
+          "Motorcycle riding techniques: countersteering, carrying passengers, and defensive lane positioning",
+          "Motorcycle riding techniques, countersteering, passenger safety, and defensive road strategies"
+        ],
+        [
+          37,
+          "Waco Branch Davidian siege: blaming Clinton, Reno, FBI, and BATF tactics",
+          "Waco Branch Davidian siege blame: BATF/FBI raid, Clinton and Reno accountability"
+        ],
+        [
+          38,
+          "Second Amendment rights debate and NRA gun control legislation advocacy",
+          "Second Amendment gun control debates, NRA legislative tracking, and right-to-bear-arms advocacy"
+        ],
+        [
+          39,
+          "Gun control debate: firearms self-defense, crime statistics, and Second Amendment rights",
+          "Gun control debate: firearms self-defense statistics, accidental deaths, and Second Amendment rights"
+        ],
+        [
+          40,
+          "Debate over BATF/FBI handling of 1993 Waco Branch Davidian raid and siege",
+          "Debating BATF/FBI conduct and accountability in the 1993 Waco Branch Davidian siege"
+        ],
+        [
+          41,
+          "FBI/BATF siege of David Koresh's Branch Davidian compound at Waco",
+          "Waco siege debate: FBI/BATF actions, Koresh's responsibility, and government accountability"
+        ],
+        [
+          42,
+          "Troubleshooting DOS application execution and memory configuration issues under Microsoft Windows 3.x",
+          "Troubleshooting DOS applications and memory management under Microsoft Windows 3.x"
+        ],
+        [
+          43,
+          "Atheism debates on God's existence, faith definitions, and arguments against theism",
+          "Atheism debates on God's existence, belief definitions, and faith versus theism arguments"
+        ],
+        [
+          44,
+          "Motorcycle buying, selling, and modification advice for sport bikes and cruisers",
+          "Used motorcycle buying, selling, and performance discussions for sport and touring bikes"
+        ],
+        [
+          45,
+          "Christian theological debates on salvation, biblical authority, hell, prophecy, and God's sovereignty",
+          "Christian theological debates on salvation, scripture authority, prophecy, and the problem of evil"
+        ],
+        [
+          46,
+          "Biblical Canon Debates: Apocrypha, Deuterocanon, and Scripture Authority in Christianity",
+          "Biblical Canon Debates: Apocrypha, Deuterocanon, Scripture Authority, and Christian Church History"
+        ],
+        [
+          47,
+          "Comparative Christian theology debates on Mormonism, Orthodoxy, Freemasonry, and esoteric religious practices",
+          "Comparative debates on Mormon temple rites, Freemasonry origins, and Orthodox-Catholic Christology"
+        ],
+        [
+          48,
+          "Used Car Sales Listings: Japanese and Compact Vehicles with Features and Pricing",
+          "Used car classified ads listing vehicle specifications, mileage, and asking prices"
+        ],
+        [
+          49,
+          "Automobile enthusiast discussions on engine configurations, classic muscle cars, and convertibles",
+          "Automobile enthusiast discussions on engine configurations, classic models, and performance cars"
+        ],
+        [
+          50,
+          "Windows 3.1 file management utilities, archivers, and INI configuration tools from FTP archives",
+          "Windows 3.1 file management utilities, INI configuration tools, and FTP shareware archives"
+        ],
+        [
+          51,
+          "X11 Xlib programming: colormap allocation, visuals, and window attributes for color displays",
+          "X Window System Xlib programming: colormap allocation, visuals, and window attributes"
+        ],
+        [
+          52,
+          "TrueType and PostScript font management, rendering, and printing issues in Windows",
+          "TrueType and PostScript font rendering, printing, and management issues in Windows 3.1"
+        ],
+        [
+          53,
+          "Fax modem hardware specifications, sales, and data compression/error correction protocols (V.42bis, MNP)",
+          "Fax/data modem hardware: specifications, V.32bis/V.42bis standards, and for-sale listings"
+        ],
+        [
+          54,
+          "Upgrading and overclocking 386/486 CPUs: clock speeds, bus rates, and heatsink cooling",
+          "Intel/AMD 386 and 486 CPU upgrades, overclocking, bus speeds, and cooling"
+        ],
+        [
+          55,
+          "For-sale ads for consumer electronics: TVs, camcorders, stereos, and computer equipment",
+          "For-sale classified ads for used consumer electronics: TVs, camcorders, stereos, and computer equipment"
+        ],
+        [
+          56,
+          "For-Sale Listings of Collectible Comic Books, Music CDs, and Playboy Magazines",
+          "For-sale ads for collectible comic books, music CDs, and Playboy memorabilia"
+        ],
+        [
+          57,
+          "Used home and car audio equipment for sale: receivers, amplifiers, tape decks, speakers",
+          "For-sale listings of home and car audio components: receivers, amplifiers, tape decks, speakers"
+        ],
+        [
+          59,
+          "Connecting and configuring printers and drivers for Macintosh and AppleTalk networks",
+          "Printer driver and connectivity troubleshooting for Macintosh, AppleTalk, and Windows systems"
+        ],
+        [
+          60,
+          "Comparing inkjet versus laser printers: consumables, print quality, and HP DeskJet models",
+          "Inkjet versus laser printer technology, consumables, and printing quality comparisons"
+        ],
+        [
+          61,
+          "Computer monitor selection, specifications, and compatibility for PC, Mac, and Atari systems",
+          "Computer Monitors and Video Cards: Resolutions, Frequencies, and Mac/PC Compatibility"
+        ],
+        [
+          62,
+          "3D graphics rendering, modeling, animation software and image processing tools and resources",
+          "3D graphics rendering, modeling libraries, ray tracing, and image processing software resources"
+        ],
+        [
+          63,
+          "Installing and Configuring IDE, SCSI, and MFM/RLL Hard Drives and Controllers on PCs",
+          "Installing and configuring IDE, MFM, RLL, and SCSI hard drives and controllers"
+        ],
+        [
+          64,
+          "Image File Format Conversion and Viewer Software for GIF, BMP, and Other Graphics",
+          "Image file format conversion, viewers, and graphics utilities across operating systems"
+        ],
+        [
+          65,
+          "X Window System programming, servers, and toolkits (Motif, XView) on Unix/PC",
+          "X Window System programming, servers, and toolkits (Motif, XView) across Unix and PC platforms"
+        ],
+        [
+          66,
+          "Compiling and configuring X11R5/Xterm with library linking errors on UNIX systems",
+          "Compiling and Configuring X11R5/Xterm/XDM on Various UNIX Systems with Linker Errors"
+        ],
+        [
+          67,
+          "X11 window management programming: window creation, positioning, focus, and Xt intrinsics issues",
+          "X Window System programming: window creation, positioning, events, and window manager interactions"
+        ],
+        [
+          68,
+          "Apple Macintosh Centris/Quadra hardware: FPU, processor upgrades, SCSI drives, and configurations",
+          "Apple Macintosh Centris/Quadra hardware: FPU options, processor upgrades, and SCSI drive configurations"
+        ],
+        [
+          69,
+          "Macintosh memory upgrades, SIMMs, and expansion cards for NuBus/PDS systems",
+          "Macintosh hardware upgrades: SIMM memory, NuBus/PDS expansion cards, and bus architectures"
+        ],
+        [
+          70,
+          "PC video card benchmarks, VESA drivers, and Windows graphics accelerator performance comparisons",
+          "PC graphics card benchmarks and VESA drivers for Windows/DOS video performance"
+        ],
+        [
+          71,
+          "Windows 3.1 video card driver issues for SVGA accelerators like ATI Ultra Pro",
+          "Windows 3.1 video card drivers and display issues for SVGA accelerator cards"
+        ],
+        [
+          72,
+          "Used computer hardware, software, and games for sale via classified ads",
+          "Used computer hardware and software classified ads with prices and shipping offers"
+        ],
+        [
+          73,
+          "Used computer hardware sales: motherboards, drives, Apple/Amiga systems, and peripherals for sale",
+          "For-sale listings of personal computer hardware: motherboards, drives, RAM, and Amiga/Apple systems"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 24,
+      "changed": 20,
+      "rate": 0.8333333333333334,
+      "uniq_base": 24,
+      "uniq_contrast": 24,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "NHL Hockey Scores and Playoff Discussions",
+          "NHL Hockey Scores and Playoffs"
+        ],
+        [
+          1,
+          "Medical Treatment and Alternative Medicine Debates",
+          "Medical Treatments and Alternative Medicine"
+        ],
+        [
+          2,
+          "Major League Baseball Analysis and Standings",
+          "MLB Team Performance and Sabermetrics"
+        ],
+        [
+          3,
+          "Major League Baseball player evaluation, statistics, fielding metrics, and Hall of Fame debates",
+          "Major League Baseball player performance analysis, statistics, and Hall of Fame debates"
+        ],
+        [
+          4,
+          "Middle East and Bosnian Conflict Debates",
+          "Middle East and Bosnia Conflicts"
+        ],
+        [
+          5,
+          "Clipper Chip Key Escrow Debate",
+          "Clipper Chip Key Escrow Encryption Debate"
+        ],
+        [
+          6,
+          "Space Exploration and Spacecraft Missions",
+          "Space Exploration and Spaceflight Missions"
+        ],
+        [
+          7,
+          "Usenet flame wars: personal insults, accusations of dishonesty, and meta-discussions on posting etiquette",
+          "Usenet flame wars: personal attacks, ad hominem insults, and accusations of misrepresentation"
+        ],
+        [
+          8,
+          "Libertarian Philosophy and Partisan Tax Debates",
+          "Libertarian and Partisan Political Debates"
+        ],
+        [
+          9,
+          "Waco Branch Davidian Siege Debate",
+          "Waco Branch Davidian Siege Blame Debate"
+        ],
+        [
+          11,
+          "Motorcycle riding techniques: countersteering, carrying passengers, and defensive lane positioning",
+          "Motorcycle riding techniques, countersteering, passenger safety, and defensive road strategies"
+        ],
+        [
+          12,
+          "Troubleshooting DOS application execution and memory configuration issues under Microsoft Windows 3.x",
+          "Troubleshooting DOS applications and memory management under Microsoft Windows 3.x"
+        ],
+        [
+          13,
+          "Atheism debates on God's existence, faith definitions, and arguments against theism",
+          "Atheism debates on God's existence, belief definitions, and faith versus theism arguments"
+        ],
+        [
+          15,
+          "Motorcycle buying, selling, and modification advice for sport bikes and cruisers",
+          "Used motorcycle buying, selling, and performance discussions for sport and touring bikes"
+        ],
+        [
+          16,
+          "Christian Theology and Denominational Debates",
+          "Christian Church History and Doctrine Debates"
+        ],
+        [
+          17,
+          "Christian theological debates on salvation, biblical authority, hell, prophecy, and God's sovereignty",
+          "Christian theological debates on salvation, scripture authority, prophecy, and the problem of evil"
+        ],
+        [
+          18,
+          "For-Sale: Electronics, Audio, Comics",
+          "For-Sale Electronics and Comics Listings"
+        ],
+        [
+          19,
+          "Installing and Configuring IDE, SCSI, and MFM/RLL Hard Drives and Controllers on PCs",
+          "Installing and configuring IDE, MFM, RLL, and SCSI hard drives and controllers"
+        ],
+        [
+          20,
+          "Image File Format Conversion and Viewer Software for GIF, BMP, and Other Graphics",
+          "Image file format conversion, viewers, and graphics utilities across operating systems"
+        ],
+        [
+          23,
+          "Used Computer Hardware For Sale",
+          "Computer Hardware For-Sale Listings"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 9,
+      "changed": 4,
+      "rate": 0.4444444444444444,
+      "uniq_base": 9,
+      "uniq_contrast": 9,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Medical Treatment and Alternative Medicine Debates",
+          "Medical Treatments and Alternative Medicine"
+        ],
+        [
+          2,
+          "Clipper Chip Key Escrow Debate",
+          "Clipper Chip Key Escrow Encryption Debate"
+        ],
+        [
+          3,
+          "Space Exploration and Spacecraft Missions",
+          "Space Exploration and Spaceflight Missions"
+        ],
+        [
+          5,
+          "Christian Theology",
+          "Christianity Debates"
+        ]
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "layer": 0,
+      "n": 74,
+      "changed": 69,
+      "rate": 0.9324324324324325,
+      "uniq_base": 74,
+      "uniq_contrast": 74,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "NHL playoff hockey television coverage and scheduling on ESPN, ABC, and CBC",
+          "NHL playoff hockey television coverage on ESPN, ABC, and CBC networks"
+        ],
+        [
+          1,
+          "Classified ads for reselling airfare, vacation packages, and event tickets",
+          "Buying and selling tickets, airfare vouchers, and vacation packages in classifieds"
+        ],
+        [
+          2,
+          "NHL and AHL hockey franchise relocations, ownership, arena disputes, and team affiliations",
+          "NHL and AHL professional hockey franchise relocations, team affiliations, and league operations"
+        ],
+        [
+          3,
+          "Serdar Argic's revisionist Armenian-Turkish genocide denial and counter-accusation Usenet flame wars",
+          "Serdar Argic's denialist propaganda reframing Armenian Genocide as Turkish/Muslim genocide by Armenians"
+        ],
+        [
+          4,
+          "NHL Stanley Cup playoff game recaps, scores, and team performance analysis",
+          "NHL Stanley Cup playoff game recaps, scores, and team discussions among hockey fans"
+        ],
+        [
+          5,
+          "Software Piracy, Copy Protection Schemes, and the Hacker Ethic Debate",
+          "Software copy protection schemes, piracy ethics, and the hacker ethic debate"
+        ],
+        [
+          6,
+          "NHL hockey team performance, player trades, coaching, and playoff analysis discussions",
+          "NHL hockey discussions on players, coaching, trades, captains, and playoff team performance"
+        ],
+        [
+          7,
+          "NHL playoff results, box scores, and Usenet fantasy hockey draft pool standings",
+          "NHL playoff results, standings, and USENET fantasy hockey draft pool standings"
+        ],
+        [
+          8,
+          "Major League Baseball player evaluation, statistics, fielding metrics, and Hall of Fame debates",
+          "Major League Baseball player evaluation, statistics, and Hall of Fame debates"
+        ],
+        [
+          9,
+          "Sabermetric analysis of baseball hitting patience, power hitters, and defensive measurement debates",
+          "Sabermetric analysis of baseball hitting patience, power, pitching strategy, and defensive evaluation"
+        ],
+        [
+          10,
+          "Major League Baseball 1993 season standings, predictions, scores, and team discussions",
+          "Major League Baseball team standings, scores, predictions, and game discussions"
+        ],
+        [
+          11,
+          "Bosnian War: Serbian Ethnic Cleansing of Muslims, Arms Embargo, and Intervention Debates",
+          "Bosnian War: ethnic cleansing of Muslims, arms embargo debate, and Serb-Muslim-Jewish relations"
+        ],
+        [
+          12,
+          "Debating homosexuality prevalence statistics, promiscuity claims, and alleged links to child molestation",
+          "Debating homosexuality prevalence statistics, promiscuity, and alleged links to child molestation"
+        ],
+        [
+          13,
+          "Israeli-Palestinian Conflict: Occupation, Arab-Israeli Wars, and Middle East Peace Debates",
+          "Israeli-Palestinian and Arab-Israeli conflict: occupation, terrorism, civilian casualties, and historical disputes"
+        ],
+        [
+          14,
+          "Heated debates on anti-Semitism, Israel-Nazi comparisons, Holocaust denial, and self-hating Jews",
+          "Heated debates on anti-Semitism, Israel, Nazi comparisons, and Jewish identity politics"
+        ],
+        [
+          15,
+          "Skepticism of alternative medicine, quackery, and candida/yeast hypothesis in clinical practice",
+          "Skeptical debates on alternative medicine, candida yeast hypothesis, and quackery in healthcare"
+        ],
+        [
+          16,
+          "Clinical Management of Chronic Conditions, Allergies, and Symptomatic Drug Treatments in Medicine",
+          "Treatment of chronic conditions, allergies, nasal disorders, and medication side effects in clinical medicine"
+        ],
+        [
+          17,
+          "Religious and literary book discussions with humorous Gilligan's Island sin allegory",
+          "Book recommendations and religious debates including Christianity, mythology, and literary discussions"
+        ],
+        [
+          18,
+          "X Window System FAQs, toolkits, window managers, and Usenet newsgroup subscription queries",
+          "X Window System programming, FAQs, toolkits, window managers, and Usenet newsgroup administration"
+        ],
+        [
+          20,
+          "Clipper Chip key-escrow encryption debate over government wiretapping and crypto privacy",
+          "Clipper Chip key-escrow encryption debate: government wiretapping, privacy, and cryptographic policy"
+        ],
+        [
+          21,
+          "Cryptographic analysis of Skipjack/Clipper key escrow and DES brute-force attacks",
+          "Cryptanalysis of Skipjack/DES key escrow, brute-force attacks, and Clipper chip security"
+        ],
+        [
+          22,
+          "Clipper Chip key escrow encryption policy, Skipjack algorithm security, and government wiretap debates",
+          "Clipper Chip key escrow encryption policy, Skipjack algorithm, and government wiretap debates"
+        ],
+        [
+          23,
+          "Philosophical debate on objective versus subjective/relative morality and ethical systems",
+          "Philosophical debates on objective versus subjective/relative morality and ethical systems"
+        ],
+        [
+          24,
+          "Clinton White House press briefings and presidential statements on jobs, Waco, and policy",
+          "Clinton White House press briefings on jobs stimulus, Waco, Bosnia, and policy"
+        ],
+        [
+          25,
+          "Usenet flame wars: personal insults, accusations of dishonesty, and meta-discussions on posting etiquette",
+          "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette"
+        ],
+        [
+          26,
+          "Automotive solvents, cleaners, and waxes for engine emissions and surface detailing",
+          "Automotive maintenance: cleaning solvents, paint care, fuel injector cleaners, and diesel emissions"
+        ],
+        [
+          27,
+          "Residential electrical wiring, grounding codes, GFCI safety, and power electronics theory",
+          "Residential electrical wiring codes, grounding, GFCI safety, and Tesla coil electronics"
+        ],
+        [
+          28,
+          "Commercial spaceflight economics, lunar base proposals, and long-duration human space exploration",
+          "Space exploration economics: lunar bases, commercial spaceflight prizes, and NASA program funding"
+        ],
+        [
+          29,
+          "Planetary Space Probes and Spacecraft Missions to Solar System Bodies",
+          "Planetary space probe missions, spacecraft flybys, and solar system exploration history"
+        ],
+        [
+          30,
+          "Hubble Space Telescope servicing missions, shuttle reboost strategies, and space station redesign",
+          "Space Shuttle missions for Hubble servicing, reboost strategies, and space station design alternatives"
+        ],
+        [
+          31,
+          "Partisan debates on Clinton-era tax policy, federal deficit, government spending, and political accountability",
+          "Partisan debates on Clinton-era fiscal policy, taxation, deficit spending, and government waste"
+        ],
+        [
+          32,
+          "Libertarian Political Philosophy: Government Coercion, Regulation, and Individual Freedom Debates",
+          "Libertarian Political Philosophy Debates on Government Coercion, Regulation, and Individual Freedom"
+        ],
+        [
+          33,
+          "Philosophy of science: theory versus fact, scientific method, and reality in physics",
+          "Philosophy of Science: Theory versus Fact, Rationality, and Reality in Scientific Knowledge"
+        ],
+        [
+          35,
+          "Biblical interpretation debates on homosexuality, sin, and Christian acceptance of gay relationships",
+          "Biblical and theological debates over homosexuality's morality and scriptural interpretation in Christianity"
+        ],
+        [
+          36,
+          "Motorcycle riding techniques: countersteering, carrying passengers, and defensive lane positioning",
+          "Motorcycle riding techniques: countersteering, carrying passengers, safety, and defensive road positioning"
+        ],
+        [
+          37,
+          "Waco Branch Davidian siege: blaming Clinton, Reno, FBI, and BATF tactics",
+          "Political blame and impeachment debate over Waco BATF/FBI raid on Branch Davidians"
+        ],
+        [
+          38,
+          "Second Amendment rights debate and NRA gun control legislation advocacy",
+          "Second Amendment gun control debates, NRA legislative tracking, and right-to-bear-arms advocacy"
+        ],
+        [
+          39,
+          "Gun control debate: firearms self-defense, crime statistics, and Second Amendment rights",
+          "Gun control debate: firearm self-defense efficacy, accident statistics, and Second Amendment rights"
+        ],
+        [
+          41,
+          "FBI/BATF siege of David Koresh's Branch Davidian compound at Waco",
+          "Debate over FBI/BATF siege of David Koresh's Branch Davidian Waco compound"
+        ],
+        [
+          42,
+          "Troubleshooting DOS application execution and memory configuration issues under Microsoft Windows 3.x",
+          "Troubleshooting DOS applications and memory management under Windows 3.x"
+        ],
+        [
+          43,
+          "Atheism debates on God's existence, faith definitions, and arguments against theism",
+          "Atheism debates on God's existence, faith, and weak versus strong atheist positions"
+        ],
+        [
+          44,
+          "Motorcycle buying, selling, and modification advice for sport bikes and cruisers",
+          "Buying, selling, and evaluating used motorcycles: models, pricing, and performance reviews"
+        ],
+        [
+          45,
+          "Christian theological debates on salvation, biblical authority, hell, prophecy, and God's sovereignty",
+          "Christian theology debates on salvation, scripture authority, hell, and prophecy interpretation"
+        ],
+        [
+          46,
+          "Biblical Canon Debates: Apocrypha, Deuterocanon, and Scripture Authority in Christianity",
+          "Biblical canon debates: deuterocanon/apocrypha legitimacy among Catholic, Orthodox, and Protestant traditions"
+        ],
+        [
+          47,
+          "Comparative Christian theology debates on Mormonism, Orthodoxy, Freemasonry, and esoteric religious practices",
+          "Comparative Christian Theology: Mormon Temple Rites, Orthodox Christology, Freemasonry, and Esoteric Origins"
+        ],
+        [
+          48,
+          "Used Car Sales Listings: Japanese and Compact Vehicles with Features and Pricing",
+          "Used Car Sales Listings with Mileage, Condition, and Pricing Details"
+        ],
+        [
+          49,
+          "Automobile enthusiast discussions on engine configurations, classic muscle cars, and convertibles",
+          "Automotive enthusiast discussions on car models, engine configurations, and performance vehicles"
+        ],
+        [
+          50,
+          "Windows 3.1 file management utilities, archivers, and INI configuration tools from FTP archives",
+          "Windows 3.1 file management, INI configuration utilities, and ZIP tools from FTP archives"
+        ],
+        [
+          52,
+          "TrueType and PostScript font management, rendering, and printing issues in Windows",
+          "TrueType and PostScript font management, printing, and rendering issues in Windows 3.1"
+        ],
+        [
+          53,
+          "Fax modem hardware specifications, sales, and data compression/error correction protocols (V.42bis, MNP)",
+          "Fax modem hardware specifications, sales, and data compression/error-correction standards (V.42bis, MNP)"
+        ],
+        [
+          54,
+          "Upgrading and overclocking 386/486 CPUs: clock speeds, bus rates, and heatsink cooling",
+          "Intel 486/386 CPU upgrades, overclocking, cooling, and bus speed performance benchmarks"
+        ],
+        [
+          55,
+          "For-sale ads for consumer electronics: TVs, camcorders, stereos, and computer equipment",
+          "For-sale ads for used consumer electronics: stereos, TVs, camcorders, and computer hardware"
+        ],
+        [
+          57,
+          "Used home and car audio equipment for sale: receivers, amplifiers, tape decks, speakers",
+          "For-sale listings of home and car audio equipment: receivers, amplifiers, speakers, tape decks"
+        ],
+        [
+          58,
+          "Computational geometry algorithms for 3D curves, polygons, triangulation, and intersection testing",
+          "Computational geometry algorithms for 3D polygons, curves, triangulation, and point-in-polygon tests"
+        ],
+        [
+          59,
+          "Connecting and configuring printers and drivers for Macintosh and AppleTalk networks",
+          "Connecting and configuring printers with Mac AppleTalk networks and Windows drivers"
+        ],
+        [
+          60,
+          "Comparing inkjet versus laser printers: consumables, print quality, and HP DeskJet models",
+          "Inkjet versus laser printer technology, consumables, and HP DeskJet print quality comparisons"
+        ],
+        [
+          61,
+          "Computer monitor selection, specifications, and compatibility for PC, Mac, and Atari systems",
+          "Selecting and connecting computer monitors and video cards for PCs and Macs"
+        ],
+        [
+          62,
+          "3D graphics rendering, modeling, animation software and image processing tools and resources",
+          "3D graphics rendering, modeling software, ray-tracing, and image processing tools and data sources"
+        ],
+        [
+          63,
+          "Installing and Configuring IDE, SCSI, and MFM/RLL Hard Drives and Controllers on PCs",
+          "Installing and configuring IDE, MFM/RLL, and SCSI hard drives and controllers in PCs"
+        ],
+        [
+          64,
+          "Image File Format Conversion and Viewer Software for GIF, BMP, and Other Graphics",
+          "Image file format conversion and viewing tools across DOS, Windows, and Linux platforms"
+        ],
+        [
+          65,
+          "X Window System programming, servers, and toolkits (Motif, XView) on Unix/PC",
+          "X Window System programming, toolkits, servers, and software distribution on Unix/PC platforms"
+        ],
+        [
+          66,
+          "Compiling and configuring X11R5/Xterm with library linking errors on UNIX systems",
+          "Compiling and configuring X11R5/Motif clients (xterm, xdm) on various UNIX platforms"
+        ],
+        [
+          67,
+          "X11 window management programming: window creation, positioning, focus, and Xt intrinsics issues",
+          "X Window System programming: Xlib/Xt window creation, positioning, and window manager interaction"
+        ],
+        [
+          68,
+          "Apple Macintosh Centris/Quadra hardware: FPU, processor upgrades, SCSI drives, and configurations",
+          "Apple Macintosh Centris/Quadra hardware: CPU upgrades, FPUs, SCSI drives, and performance"
+        ],
+        [
+          69,
+          "Macintosh memory upgrades, SIMMs, and expansion cards for NuBus/PDS systems",
+          "Macintosh memory upgrades, SIMMs, and NuBus/PDS expansion cards for older Macs"
+        ],
+        [
+          70,
+          "PC video card benchmarks, VESA drivers, and Windows graphics accelerator performance comparisons",
+          "PC graphics card benchmarking, VESA drivers, and Windows video performance comparisons"
+        ],
+        [
+          71,
+          "Windows 3.1 video card driver issues for SVGA accelerators like ATI Ultra Pro",
+          "Windows 3.1 video card driver issues for SVGA accelerator cards like ATI Ultra Pro"
+        ],
+        [
+          72,
+          "Used computer hardware, software, and games for sale via classified ads",
+          "Used computer hardware, software, and games for sale via Usenet marketplace listings"
+        ],
+        [
+          73,
+          "Used computer hardware sales: motherboards, drives, Apple/Amiga systems, and peripherals for sale",
+          "Used computer hardware sales: motherboards, RAM, drives, and Amiga/Apple systems for sale"
+        ]
+      ]
+    },
+    {
+      "layer": 1,
+      "n": 24,
+      "changed": 24,
+      "rate": 1.0,
+      "uniq_base": 24,
+      "uniq_contrast": 24,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          0,
+          "NHL Hockey Scores and Playoff Discussions",
+          "NHL hockey games, playoffs, and pools"
+        ],
+        [
+          1,
+          "Medical Treatment and Alternative Medicine Debates",
+          "Clinical medicine and alternative health debates"
+        ],
+        [
+          2,
+          "Major League Baseball Analysis and Standings",
+          "MLB team standings and sabermetric analysis"
+        ],
+        [
+          3,
+          "Major League Baseball player evaluation, statistics, fielding metrics, and Hall of Fame debates",
+          "Major League Baseball player evaluation, statistics, and Hall of Fame debates"
+        ],
+        [
+          4,
+          "Middle East and Bosnian Conflict Debates",
+          "Israeli-Palestinian and Bosnian Conflicts"
+        ],
+        [
+          5,
+          "Clipper Chip Key Escrow Debate",
+          "Clipper Chip key escrow encryption debate"
+        ],
+        [
+          6,
+          "Space Exploration and Spacecraft Missions",
+          "Space Exploration Missions and Economics"
+        ],
+        [
+          7,
+          "Usenet flame wars: personal insults, accusations of dishonesty, and meta-discussions on posting etiquette",
+          "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette"
+        ],
+        [
+          8,
+          "Libertarian Philosophy and Partisan Tax Debates",
+          "Libertarian Philosophy and Partisan Fiscal Policy Debates"
+        ],
+        [
+          9,
+          "Waco Branch Davidian Siege Debate",
+          "Waco BATF/FBI raid responsibility debate"
+        ],
+        [
+          10,
+          "Gun Control and Second Amendment Debate",
+          "Gun control and Second Amendment debate"
+        ],
+        [
+          11,
+          "Motorcycle riding techniques: countersteering, carrying passengers, and defensive lane positioning",
+          "Motorcycle riding techniques: countersteering, carrying passengers, safety, and defensive road positioning"
+        ],
+        [
+          12,
+          "Troubleshooting DOS application execution and memory configuration issues under Microsoft Windows 3.x",
+          "Troubleshooting DOS applications and memory management under Windows 3.x"
+        ],
+        [
+          13,
+          "Atheism debates on God's existence, faith definitions, and arguments against theism",
+          "Atheism debates on God's existence, faith, and weak versus strong atheist positions"
+        ],
+        [
+          14,
+          "Car Enthusiast and Sales Discussions",
+          "Car Models, Performance, and Sales"
+        ],
+        [
+          15,
+          "Motorcycle buying, selling, and modification advice for sport bikes and cruisers",
+          "Buying, selling, and evaluating used motorcycles: models, pricing, and performance reviews"
+        ],
+        [
+          16,
+          "Christian Theology and Denominational Debates",
+          "Biblical canon and comparative Christian theology"
+        ],
+        [
+          17,
+          "Christian theological debates on salvation, biblical authority, hell, prophecy, and God's sovereignty",
+          "Christian theology debates on salvation, scripture authority, hell, and prophecy interpretation"
+        ],
+        [
+          18,
+          "For-Sale: Electronics, Audio, Comics",
+          "For-Sale: Audio Gear, Comics, Electronics"
+        ],
+        [
+          19,
+          "Installing and Configuring IDE, SCSI, and MFM/RLL Hard Drives and Controllers on PCs",
+          "Installing and configuring IDE, MFM/RLL, and SCSI hard drives and controllers in PCs"
+        ],
+        [
+          20,
+          "Image File Format Conversion and Viewer Software for GIF, BMP, and Other Graphics",
+          "Image file format conversion and viewing tools across DOS, Windows, and Linux platforms"
+        ],
+        [
+          21,
+          "X Window System Programming and Configuration",
+          "X11/Motif Programming and Configuration"
+        ],
+        [
+          22,
+          "PC Video Card Drivers and Benchmarks",
+          "Windows video card drivers and benchmarking"
+        ],
+        [
+          23,
+          "Used Computer Hardware For Sale",
+          "Used computer hardware sales: Mac, Amiga, PC components"
+        ]
+      ]
+    },
+    {
+      "layer": 2,
+      "n": 9,
+      "changed": 6,
+      "rate": 0.6666666666666666,
+      "uniq_base": 9,
+      "uniq_contrast": 9,
+      "dup_base": 0,
+      "dup_contrast": 0,
+      "renames": [
+        [
+          1,
+          "Medical Treatment and Alternative Medicine Debates",
+          "Clinical medicine and alternative health debates"
+        ],
+        [
+          2,
+          "Clipper Chip Key Escrow Debate",
+          "Clipper Chip key escrow encryption debate"
+        ],
+        [
+          3,
+          "Space Exploration and Spacecraft Missions",
+          "Space Exploration Missions and Economics"
+        ],
+        [
+          4,
+          "Motorcycles & Cars",
+          "Cars & Motorcycles"
+        ],
+        [
+          7,
+          "X Graphics",
+          "X11 Graphics"
+        ],
+        [
+          8,
+          "Computer Hardware",
+          "Computer Hardware Sales"
+        ]
+      ]
+    }
+  ],
+  "injection": {
+    "injected": 21,
+    "calls": 21,
+    "skip": 12,
+    "nocand": 0,
+    "filtered": 0,
+    "nearest_dist": {
+      "min": 0.09806742451538031,
+      "med": 0.39022900765964286,
+      "max": 0.7817844324985807
+    }
+  },
+  "injected_names": {
+    "1,0": [
+      "NHL playoff hockey television coverage on ESPN, ABC, and CBC networks",
+      "Major League Baseball player evaluation, statistics, and Hall of Fame debates",
+      "Major League Baseball team standings, scores, predictions, and game discussions",
+      "Sabermetric analysis of baseball hitting patience, power, pitching strategy, and defensive evaluation",
+      "Clinton White House press briefings on jobs stimulus, Waco, Bosnia, and policy"
+    ],
+    "1,1": [
+      "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette",
+      "Waco Branch Davidian siege: FBI/ATF tear gas assault and fire controversy",
+      "Debating homosexuality prevalence statistics, promiscuity, and alleged links to child molestation",
+      "Philosophy of Science: Theory versus Fact, Rationality, and Reality in Scientific Knowledge",
+      "Automotive maintenance: cleaning solvents, paint care, fuel injector cleaners, and diesel emissions"
+    ],
+    "1,2": [
+      "Major League Baseball player evaluation, statistics, and Hall of Fame debates",
+      "NHL hockey discussions on players, coaching, trades, captains, and playoff team performance",
+      "NHL playoff results, standings, and USENET fantasy hockey draft pool standings",
+      "NHL Stanley Cup playoff game recaps, scores, and team discussions among hockey fans",
+      "NHL and AHL professional hockey franchise relocations, team affiliations, and league operations"
+    ],
+    "1,4": [
+      "Serdar Argic's denialist propaganda reframing Armenian Genocide as Turkish/Muslim genocide by Armenians",
+      "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette",
+      "Debate over BATF/FBI handling of 1993 Waco Branch Davidian raid and siege",
+      "Political blame and impeachment debate over Waco BATF/FBI raid on Branch Davidians",
+      "Debate over FBI/BATF siege of David Koresh's Branch Davidian Waco compound"
+    ],
+    "1,5": [
+      "Software copy protection schemes, piracy ethics, and the hacker ethic debate",
+      "Political blame and impeachment debate over Waco BATF/FBI raid on Branch Davidians",
+      "Second Amendment gun control debates, NRA legislative tracking, and right-to-bear-arms advocacy",
+      "Debate over BATF/FBI handling of 1993 Waco Branch Davidian raid and siege",
+      "Fax modem hardware specifications, sales, and data compression/error-correction standards (V.42bis, MNP)"
+    ],
+    "1,6": [
+      "Clinton White House press briefings on jobs stimulus, Waco, Bosnia, and policy",
+      "For-sale ads for used consumer electronics: stereos, TVs, camcorders, and computer hardware",
+      "Used Car Sales Listings with Mileage, Condition, and Pricing Details",
+      "X Window System programming, toolkits, servers, and software distribution on Unix/PC platforms",
+      "For-Sale Listings of Collectible Comic Books, Music CDs, and Playboy Magazines"
+    ],
+    "1,8": [
+      "Political blame and impeachment debate over Waco BATF/FBI raid on Branch Davidians",
+      "Second Amendment gun control debates, NRA legislative tracking, and right-to-bear-arms advocacy",
+      "Clinton White House press briefings on jobs stimulus, Waco, Bosnia, and policy",
+      "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette",
+      "Clipper Chip key-escrow encryption debate: government wiretapping, privacy, and cryptographic policy"
+    ],
+    "1,9": [
+      "Waco Branch Davidian siege: FBI/ATF tear gas assault and fire controversy",
+      "Second Amendment gun control debates, NRA legislative tracking, and right-to-bear-arms advocacy",
+      "Clinton White House press briefings on jobs stimulus, Waco, Bosnia, and policy",
+      "Partisan debates on Clinton-era fiscal policy, taxation, deficit spending, and government waste",
+      "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette"
+    ],
+    "1,10": [
+      "Debate over BATF/FBI handling of 1993 Waco Branch Davidian raid and siege",
+      "Political blame and impeachment debate over Waco BATF/FBI raid on Branch Davidians",
+      "Waco Branch Davidian siege: FBI/ATF tear gas assault and fire controversy",
+      "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette",
+      "Partisan debates on Clinton-era fiscal policy, taxation, deficit spending, and government waste"
+    ],
+    "1,14": [
+      "Buying, selling, and evaluating used motorcycles: models, pricing, and performance reviews",
+      "For-sale ads for used consumer electronics: stereos, TVs, camcorders, and computer hardware",
+      "For-Sale Listings of Collectible Comic Books, Music CDs, and Playboy Magazines",
+      "Used computer hardware sales: motherboards, RAM, drives, and Amiga/Apple systems for sale",
+      "For-sale listings of home and car audio equipment: receivers, amplifiers, speakers, tape decks"
+    ],
+    "1,16": [
+      "Christian theology debates on salvation, scripture authority, hell, and prophecy interpretation",
+      "Book recommendations and religious debates including Christianity, mythology, and literary discussions",
+      "Atheism debates on God's existence, faith, and weak versus strong atheist positions",
+      "Biblical and theological debates over homosexuality's morality and scriptural interpretation in Christianity",
+      "Heated debates on anti-Semitism, Israel, Nazi comparisons, and Jewish identity politics"
+    ],
+    "1,18": [
+      "Used computer hardware, software, and games for sale via Usenet marketplace listings",
+      "Used Car Sales Listings with Mileage, Condition, and Pricing Details",
+      "Used computer hardware sales: motherboards, RAM, drives, and Amiga/Apple systems for sale",
+      "Fax modem hardware specifications, sales, and data compression/error-correction standards (V.42bis, MNP)",
+      "Buying and selling tickets, airfare vouchers, and vacation packages in classifieds"
+    ],
+    "1,21": [
+      "X11 Xlib programming: colormap allocation, visuals, and window attributes for color displays",
+      "Windows 3.1 file management, INI configuration utilities, and ZIP tools from FTP archives",
+      "Image file format conversion and viewing tools across DOS, Windows, and Linux platforms",
+      "TrueType and PostScript font management, printing, and rendering issues in Windows 3.1",
+      "Troubleshooting DOS applications and memory management under Windows 3.x"
+    ],
+    "1,22": [
+      "Selecting and connecting computer monitors and video cards for PCs and Macs",
+      "Macintosh memory upgrades, SIMMs, and NuBus/PDS expansion cards for older Macs",
+      "Used computer hardware sales: motherboards, RAM, drives, and Amiga/Apple systems for sale",
+      "Apple Macintosh Centris/Quadra hardware: CPU upgrades, FPUs, SCSI drives, and performance",
+      "Fax modem hardware specifications, sales, and data compression/error-correction standards (V.42bis, MNP)"
+    ],
+    "1,23": [
+      "Fax modem hardware specifications, sales, and data compression/error-correction standards (V.42bis, MNP)",
+      "For-sale ads for used consumer electronics: stereos, TVs, camcorders, and computer hardware",
+      "Selecting and connecting computer monitors and video cards for PCs and Macs",
+      "PC graphics card benchmarking, VESA drivers, and Windows video performance comparisons",
+      "Installing and configuring IDE, MFM/RLL, and SCSI hard drives and controllers in PCs"
+    ],
+    "2,0": [
+      "Waco BATF/FBI raid responsibility debate",
+      "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette",
+      "Motorcycle riding techniques: countersteering, carrying passengers, safety, and defensive road positioning",
+      "Space Exploration Missions and Economics",
+      "Libertarian Philosophy and Partisan Fiscal Policy Debates"
+    ],
+    "2,4": [
+      "For-Sale: Audio Gear, Comics, Electronics",
+      "Space Exploration Missions and Economics",
+      "Used computer hardware sales: Mac, Amiga, PC components",
+      "Gun control and Second Amendment debate",
+      "Windows video card drivers and benchmarking"
+    ],
+    "2,5": [
+      "Usenet flame wars: personal attacks, accusations of dishonesty, and meta-debate etiquette",
+      "Israeli-Palestinian and Bosnian Conflicts",
+      "Libertarian Philosophy and Partisan Fiscal Policy Debates",
+      "Waco BATF/FBI raid responsibility debate",
+      "Gun control and Second Amendment debate"
+    ],
+    "2,6": [
+      "Israeli-Palestinian and Bosnian Conflicts",
+      "Clipper Chip key escrow encryption debate",
+      "Atheism debates on God's existence, faith, and weak versus strong atheist positions",
+      "Biblical canon and comparative Christian theology",
+      "Space Exploration Missions and Economics"
+    ],
+    "2,7": [
+      "Windows video card drivers and benchmarking",
+      "Troubleshooting DOS applications and memory management under Windows 3.x",
+      "Used computer hardware sales: Mac, Amiga, PC components",
+      "Space Exploration Missions and Economics",
+      "For-Sale: Audio Gear, Comics, Electronics"
+    ],
+    "2,8": [
+      "Troubleshooting DOS applications and memory management under Windows 3.x",
+      "Image file format conversion and viewing tools across DOS, Windows, and Linux platforms",
+      "Car Models, Performance, and Sales",
+      "Buying, selling, and evaluating used motorcycles: models, pricing, and performance reviews",
+      "Space Exploration Missions and Economics"
+    ]
+  },
+  "seconds": 861.4
+}

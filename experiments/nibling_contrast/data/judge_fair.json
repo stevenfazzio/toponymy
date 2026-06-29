@@ -1,0 +1,41 @@
+{
+  "by_model": {
+    "gpt4omini": {
+      "contrast": 5,
+      "baseline": 13,
+      "tie": 17
+    },
+    "haiku": {
+      "contrast": 6,
+      "baseline": 15,
+      "tie": 20
+    },
+    "opus": {
+      "contrast": 10,
+      "baseline": 18,
+      "tie": 20
+    },
+    "sonnet": {
+      "contrast": 8,
+      "baseline": 20,
+      "tie": 18
+    }
+  },
+  "by_ds": {
+    "20ng": {
+      "contrast": 14,
+      "baseline": 15,
+      "tie": 30
+    },
+    "arxiv": {
+      "contrast": 15,
+      "baseline": 51,
+      "tie": 45
+    }
+  },
+  "total": {
+    "contrast": 29,
+    "baseline": 66,
+    "tie": 75
+  }
+}

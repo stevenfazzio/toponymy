@@ -105,7 +105,9 @@ def contrast_patch(cluster_layers, k: int, max_dist: Optional[float], block_vers
 
 
 @contextmanager
-def force_temperature_zero(namer):
+def force_temperature(namer, temp=0.0):
+    # Opus 4.8 rejects temperature=0 ("temperature is deprecated for this model");
+    # it only accepts temperature=1 or unset. So callers pass temp=1.0 for Opus.
     saved = {}
     for attr in ("generate_topic_name", "generate_topic_cluster_names"):
         if hasattr(namer, attr):
@@ -113,7 +115,7 @@ def force_temperature_zero(namer):
 
             def make(orig):
                 def wrapped(*a, **kw):
-                    kw["temperature"] = 0.0
+                    kw["temperature"] = temp
                     return orig(*a, **kw)
                 return wrapped
 
@@ -180,6 +182,7 @@ def make_namer(model_key: str):
     return {
         "haiku": lambda: AnthropicNamer(model="claude-haiku-4-5-20251001"),
         "sonnet": lambda: AnthropicNamer(model="claude-sonnet-4-6"),
+        "opus": lambda: AnthropicNamer(model="claude-opus-4-8"),
         "gpt4omini": lambda: OpenAINamer(model="openai/gpt-4o-mini"),
     }[model_key]()
 
@@ -195,12 +198,12 @@ def make_embedder(name: str):
 # --------------------------------------------------------------------------- #
 def name_once(objects, emb, coords, clusterer, namer, embedder, meta,
               *, use_contrast: bool, k: int, max_dist: Optional[float], disambig: bool,
-              block_version: str = "v1"):
+              block_version: str = "v1", temperature: float = 0.0):
     model = Toponymy(namer, embedder, clusterer=clusterer,
                      object_description=meta["obj"], corpus_description=meta["corpus"], verbose=False)
     stats = None
     disambig_ctx = nullcontext() if disambig else disable_disambiguation()
-    with force_temperature_zero(namer), disambig_ctx:
+    with force_temperature(namer, temperature), disambig_ctx:
         if use_contrast:
             with contrast_patch(clusterer.cluster_layers_, k, max_dist, block_version) as stats:
                 model.fit(objects, emb, coords)
@@ -231,7 +234,7 @@ def compare(baseline: List[List[str]], contrast: List[List[str]]):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dataset", choices=["arxiv", "20ng"], required=True)
-    ap.add_argument("--model", choices=["mock", "haiku", "sonnet", "gpt4omini"], required=True)
+    ap.add_argument("--model", choices=["mock", "haiku", "sonnet", "opus", "gpt4omini"], required=True)
     ap.add_argument("--subsample", type=int, default=None)
     ap.add_argument("--k", type=int, default=5)
     ap.add_argument("--max-dist", type=float, default=None)
@@ -256,7 +259,10 @@ def main():
     if not isinstance(namer, LLMWrapper):
         raise SystemExit(f"Harness v1 assumes sync LLMWrapper; got {type(namer).__name__}")
 
-    common = dict(k=args.k, max_dist=args.max_dist, disambig=args.disambig)
+    temp = 1.0 if args.model == "opus" else 0.0  # Opus 4.8 rejects temperature=0
+    if temp:
+        print(f"(using temperature={temp} for {args.model})")
+    common = dict(k=args.k, max_dist=args.max_dist, disambig=args.disambig, temperature=temp)
     print("naming baseline arm A ...")
     baseline, _ = name_once(objects, emb, coords, clusterer, namer, embedder, meta,
                             use_contrast=False, **common)
