@@ -163,6 +163,24 @@ lacks). Reasonable stop point for the practical goal.
 - Su et al. 2021 (whitening); Mu & Viswanath 2018 (all-but-the-top); Ethayarajh 2019
   (anisotropy); Gao & Metaxas 2026 (dispersion, not length, drives degradation).
 
+## Embedder + dataset robustness study (IN PROGRESS — findings not yet in WRITEUP)
+
+Two near-posts were caught as artifacts (under-generalization; whitening/blindness), so before posting
+we're checking embedder + dataset robustness. A quick recompute with Cohere **embed-v4**
+(`embedder_robustness.py`, scoring on fixed MiniLM clusters) already PARTIALLY REVERSED two findings:
+the *raw centroid* metric DETECTS the exemplars/subtopics ablation (ρ +0.41 / +0.26) where MiniLM was
+blind, and whitening HURTS in embed-v4's less-anisotropic space (gate-b 0.66 vs 0.74). So metric claims
+are **embedder-dependent**.
+
+Confound caught in review: scoring labels against clusters defined by a *different* (inferior) embedder
+is a home/away mismatch. Fix = each embedder plays AT HOME (cluster + name + score with its own
+geometry): `home_pipeline.py` (+ `async_judge.py`, ~20× faster concurrent judging). Study =
+weak (MiniLM) vs strong (embed-v4) × 2 datasets (20NG + arXiv @7k), trimmed to **gate-b +
+exemplars/keyphrases ablation** (fine-disc + secondary findings cited as robust negatives, not re-run).
+20ng-minilm = the existing cell (already at-home); 3 new cells (`home_*.json`) running in background.
+Update WRITEUP §2 (whitening → weak-embedder patch), the ablation §ablation (blindness is
+MiniLM-specific), TL;DR, and the teaser once the 2×2 lands.
+
 ## Files (experiments/label_quality/)
 
 - `PLAN.md` — this plan + running findings/status.
@@ -218,8 +236,10 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   embedding generality axis FAILS to transfer to Toponymy phrase labels: **50.0% direction accuracy
   (= chance)**. But **LENGTH works (86%)** — coarse labels are shorter (partly an artifact of haiku's
   verbose-fine/terse-coarse style); frequency is anti-correlated (27%, coarse labels use rarer words).
-  Quantified defect: **14% name-propagation** (parent==child label) + visible mis-altitudes ("Waco
-  Siege" as a coarse parent, cos=0.13). Practical altitude check = (parent shorter) + (cosine high).
+  **CORRECTION — NOT a defect:** the 14% parent==child edges are ALL single-child regions = Toponymy's
+  deliberate `[!SKIP!]` inheritance (a coarse region with one named child takes its name; correct).
+  Disambiguation is within-layer and rightly leaves them alone. No genuine hierarchy defect found; the
+  earlier "under-generalization" framing is retracted (caught in review before posting).
 - [x] **Feature-ablation characterization** — `ablation.py`. Re-name 20NG (haiku) dropping each naming
   feature; judge (grounded sonnet) + whitened-metric the ablated labels vs full. **Metric verdict: NOT a
   useful regression guard** — blind across all 3 features (metric-Δ≈0, Spearman −0.07…+0.03, sign-agree
@@ -267,9 +287,9 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
 - **Phase 2b: idea D is DEAD for Toponymy phrase labels.** The HyperLex-learned axis gives chance
   (50%) direction accuracy on real parent→child label pairs — single-word hypernymy geometry does not
   transfer to phrase-label generality. The working proxy is dead-simple **LENGTH** (86%: coarse labels
-  are shorter, partly because haiku names fine verbosely). Cheap hierarchy-altitude diagnostic =
-  (parent shorter than child) + (parent–child cosine high); flag violations. Real defect: **14% of
-  edges are name-propagation** (coarse region inherited a child's exact name) + mis-altitudes.
+  are shorter, partly because haiku names fine verbosely). **NO hierarchy defect** — the 14%
+  parent==child edges are all single-child regions = deliberate `[!SKIP!]` inheritance (correct), not
+  under-generalization (earlier framing retracted in review).
 - **Whitening is a trade-off, not a free win.** It fixes the verbose blind spot (the motivating
   failure) but compresses the anisotropic over-separation that helps track big good-vs-bad gaps
   (lower global Spearman). Pick whitened for robustness-to-padding; raw centroid for raw graded
