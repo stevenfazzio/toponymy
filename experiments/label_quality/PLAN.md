@@ -220,6 +220,14 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   verbose-fine/terse-coarse style); frequency is anti-correlated (27%, coarse labels use rarer words).
   Quantified defect: **14% name-propagation** (parent==child label) + visible mis-altitudes ("Waco
   Siege" as a coarse parent, cos=0.13). Practical altitude check = (parent shorter) + (cosine high).
+- [x] **Feature-ablation characterization** — `ablation.py`. Re-name 20NG (haiku) dropping each naming
+  feature; judge (grounded sonnet) + whitened-metric the ablated labels vs full. **Metric verdict: NOT a
+  useful regression guard** — blind across all 3 features (metric-Δ≈0, Spearman −0.07…+0.03, sign-agree
+  48–56% = chance) even where the judge sees a large drop. Confirms: "beats a weak baseline" ≠ useful;
+  the metric only catches gross/off-topic failures, not realistic (on-topic) naming regressions. **Bonus
+  feature-contribution finding (judge-measured):** exemplars +0.49 (clear help) ≫ keyphrases −0.17 (no
+  help, maybe slight harm — suggestive) ≈ subtopics −0.03 (neutral, coarse-only). Single-draw / 20NG /
+  haiku caveats on the small effects.
 - [ ] **Phase 0 · leg 2** — gold-category alignment.
 - [x] **Phase 1 · fine discrimination (DONE, rigorous)** — `fine_discrimination_grounded.py`: 104
   haiku-vs-gpt4o-mini pairs judged by grounded sonnet, 54 decided (judge TIED on 48% — the two good
