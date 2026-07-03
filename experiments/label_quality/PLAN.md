@@ -119,6 +119,88 @@ lacks). Reasonable stop point for the practical goal.
 
 ---
 
+## Phase 4 — The wayfinding lineup *(the candidate fine instrument; discriminative label eval)*
+
+**Why.** Fine discrimination is the program's open cell: geometry is chance on good-vs-good and even
+the grounded judge TIES ~half the time. Both existing instruments measure *fit* (is this label
+true/well-formed for this cluster). A map label's deployment function is different: **a reader must
+find the right region among its neighbours given only the name** — wayfinding, the cartographic frame
+made operational. That's a *grounded* task (verifiable answer; accuracy, not preference), and the
+plausible fine ranker: two labels that both "fit" (judge tie) can differ sharply in how *identifying*
+they are. Ports the police-lineup metric from atlantic-mirror (`scripts/lineup_eval.py` there), where
+the nn-hardened version separated systems the preference judge had scored as a tie — the same
+tie-shape we're stuck on. Lineage: REG comprehension (Krahmer & van Deemter 2012), self-retrieval /
+frozen-listener captioning (Liu et al. 2018; Ou et al. 2023). Relation to the Phase-0 battery: the
+battery plants *bad labels on the true cluster* (detection); wayfinding tests the *real label against
+real neighbours* (discrimination). Complementary — and its confusion structure is a behavioral map of
+label overlap between regions: the cluster-edges question (#173, Leland) approached from behavior
+rather than geometry.
+
+**Unit.** One lineup per (layer, cluster, label-candidate): listener sees label L + k candidate
+clusters = true cluster + its k−1 nearest same-layer clusters (centroid distance in the at-home
+high-D embedding space — the geometry naming actually used; low-D clusterable-space distance is the
+noted alternative), identities hidden (A…E). Listener picks which candidate L names. Per-layer only;
+`Unlabelled` never appears; a layer with < k clusters uses the whole layer. Run all layers, report
+per-layer (fine = the hard/interesting regime; coarse lineups are few and near-whole-layer).
+
+**Candidate representation — the leads-only analog (load-bearing).** Each candidate = N **held-out**
+member docs, sampled EXCLUDING the exemplars the namer saw (truncated as in judge grounding).
+Otherwise a label that parrots exemplar phrasing wins trivially and we test prompt-memorization, not
+generalization to the region. Defaults: k=5, N=5, ~500-char truncation; sweep k∈{3,5,7} once (chance
+floor moves with k — always report top-1 against 1/k).
+
+**Pairing discipline (what makes deltas interpretable).** Per cluster, the distractor set + held-out
+doc sample are seeded/frozen ONCE and reused across every label variant → comparisons are paired,
+lineups identical except the label. Candidate order reshuffles per self-consistency sample (k=3
+samples → majority top-1 + prob-mass), so position bias is marginalized rather than frozen in.
+Listener = sonnet (∉ {haiku, gpt-4o-mini} namers, per the fine-disc no-self-preference rule); haiku
+for sweeps/floors.
+
+**Metrics.** Per label: top-1, prob-mass on true, below-chance flag. Per layer/system: top-1 rate vs
+1/k, mean prob-mass, below-chance fraction, and the **cluster×cluster confusion matrix** (where lost
+mass went) — per-pair confusability as a deliverable, not a nuisance (sibling-swap's "2/5 genuinely
+fit" becomes measured ambiguity instead of annotation noise).
+
+**Floors & catch trials (instrument checks before use).**
+- *Shuffled-label floor:* labels permuted within layer → expect ≈ chance (the noise-floor rung).
+- *Gimme trials:* distractors = distant clusters → expect ≈ ceiling (listener sanity; the battery
+  says distant is easy).
+- *Repeat floor:* identical lineups re-run → listener nondeterminism band (the temp-0 finding);
+  every claimed delta must clear it.
+
+**Gates.**
+- **(a) Battery ordering — sharp, falsifiable signatures.** Gold must beat the shuffled floor and
+  every variant on prob-mass. Predicted signatures: `sibling` label → mass shifts to the sibling
+  (BELOW chance on true — sharper than the judge's soft 0.62); `generic` → ~uniform; `ancestor` →
+  diffuse over the parent's children; `distant` → off-true. `verbose` is the **predicted
+  divergence**: judge/human punish padding hard, the lineup may not (padding can *aid*
+  identification) — if confirmed, fit and identifiability are genuinely different axes and the
+  combined instrument is (judge ∧ lineup): the two-graders result in a second domain.
+- **(b) Judge relation on the battery set:** expect moderate positive ρ, NOT ~1 (≈1 ⇒ redundant with
+  the judge; ≈0 while also failing gate (a) ⇒ broken instrument). The interesting zone: passes (a),
+  moderate ρ, and —
+- **(c) The payoff — the 104 fine pairs.** (1) Does the lineup *decide* judge-tied pairs (per-pair
+  prob-mass gap clearing the repeat floor)? (2) Agreement with the judge on its 54 decided pairs?
+  (3) Small blinded human seed (~20 lineup-decided-judge-tied pairs; reuse the calibration
+  machinery): does human preference track the lineup's pick? — the calibration bar Phase 0 set,
+  applied to the new axis.
+
+**Outcomes (all keepers).** (i) Lineup ranks good-vs-good → the fine ranker exists; judge stays the
+fit guard. (ii) Lineup ties too → judge-tie + lineup-tie ⇒ the pairs are *functionally equivalent*
+and "fine ranking" was ill-posed — a strong close-out, not a failure. (iii) Lineup decides but
+disagrees with the judge on decided pairs → two axes (fit vs identifiability); report both.
+Downstream (separate experiment, only on (i)/(iii)): **lineup-as-selector** — propose k names
+WITHOUT contrast context (nibling says the speaker shouldn't see neighbours), listener picks the
+most identifying candidate that passes the judge; generalizes the disambiguation pass from exact
+duplicates to confusables. Goodhart guard before believing any gain: a held-out lineup config
+(different listener model + fresh distractor/doc draw), per Gao et al. 2023.
+
+**Cost (20NG, order of magnitude).** Battery: 595 lineups (107 gold + 488 variants) × 3 samples ≈
+1.8k listener calls at ~25 short docs each (~3.5k tokens in, tiny out) ≈ 6–7M input tokens. Fine
+pairs: 104 × 2 × 3 ≈ 0.6k more; floors/sweeps on haiku. Same async_judge plumbing.
+
+---
+
 ## Kill criteria (so we don't fool ourselves)
 
 - **Phase 0:** if grounded judge–human κ stays low, fix the instrument before trusting any
@@ -127,6 +209,10 @@ lacks). Reasonable stop point for the practical goal.
   dead in raw space → Phase 3 becomes necessary, not optional.
 - **Phase 2a:** if nothing beats the cosine floor on HyperLex, there is no usable generality
   axis in our embedder → fall back to structural IC (region size) and say so.
+- **Phase 4:** if gold can't clear the shuffled-label floor at the fine layer, the
+  listener/grounding is broken — fix the instrument before interpreting anything. If gold sits at
+  ceiling even at k=7 nn-hardening, the layer is saturated: wayfinding can't rank good-vs-good
+  either — report saturation, don't torture the design until it confesses.
 
 ---
 
@@ -162,6 +248,13 @@ lacks). Reasonable stop point for the practical goal.
   offset); Huang et al. 2024, *LANCER*, EMNLP (text-space erasure-to-align).
 - Su et al. 2021 (whitening); Mu & Viswanath 2018 (all-but-the-top); Ethayarajh 2019
   (anisotropy); Gao & Metaxas 2026 (dispersion, not length, drives degradation).
+- Krahmer & van Deemter 2012, *Computational Generation of Referring Expressions: A Survey*,
+  Computational Linguistics. (Phase 4: the lineup = REG comprehension used as a metric)
+- Liu et al. 2018, *Show, Tell and Discriminate*, ECCV; Ou, Krojer & Fried 2023, *Pragmatic
+  Inference with a CLIP Listener for Contrastive Captioning*, ACL Findings. (Phase 4:
+  self-retrieval / frozen-listener lineage)
+- Gao, Schulman & Hilton 2023, *Scaling Laws for Reward Model Overoptimization*, ICML. (Phase 4:
+  Goodhart guard if the lineup ever becomes a selector)
 
 ## Embedder + dataset robustness study (2×2 COMPLETE — in WRITEUP)
 
@@ -232,6 +325,11 @@ Discussion #173.
 - `judge_quality.py` — leg 3: grounded, self-consistent Preiss-rubric judge → `data/judge_ratings_*.json`.
 - `validate_gate_b.py` — gate (b): Spearman + pairwise agreement of each metric vs the judge.
 - `make_calibration.py` / `score_calibration.py` — human-calibration HTML form + judge–human κ.
+- `wayfinding.py` — Phase 4: lineup construction (nn distractors, held-out non-exemplar docs,
+  frozen per-cluster seeds), async listener (sonnet k=3, order reshuffled per sample), floors
+  (shuffled / gimme / repeat), metrics + confusion matrix → `data/wayfinding_<ds>.json`.
+- `wayfinding_pairs.py` — Phase 4 gate (c): the 104 fine pairs through frozen lineups + the
+  human-seed export for lineup-decided-judge-tied pairs.
 
 Reuses the nibling harness (`../nibling_contrast/`): `ab_harness.{load_dataset,make_namer,make_embedder}`
 and `judge_fair.sample_docs`. All fits use `ToponymyClusterer(min_clusters=4, base_min_cluster_size=25)`
@@ -300,8 +398,14 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   the gate PASSES. BUT erasing it does **NOTHING** (coarse ρ 0.737 vs 0.740 raw; verbose 74.8% vs
   77.6%) — the offset is class-uniform, hence irrelevant to scoring. **Idea A is dead: the gap is
   erasable but irrelevant; the real fix was anisotropy (whitening), a broader property than the offset.**
-
-### Findings to carry forward
+- [ ] **Phase 4 · instrument** — `wayfinding.py` on 20NG/minilm: build frozen lineups; run floors
+  (shuffled / gimme / repeat) + gate (a) battery signatures + gate (b) judge relation. Decision
+  point: proceed only if gold clears the shuffled floor and the repeat floor is tight.
+- [ ] **Phase 4 · gate (c)** — `wayfinding_pairs.py`: do lineups decide the judge-tied half of the
+  104 fine pairs? agreement on the 54 decided? ~20-item blinded human seed on the new axis.
+- [ ] **Phase 4 · (conditional) robustness spot-check** — if gates pass, one away cell
+  (arxiv/cohere, the cleanest space) through the same lineups to check the instrument isn't a
+  20NG/minilm artifact.
 - **Named tree has skip-level edges** (matters for Phase 2's parent⊇child pairs): a fine cluster's
   nearest *named* ancestor can sit 1–2 layers up or at the synthetic root (L0 parents on 20NG/haiku:
   50@L1, 14@L2, 10@root). The parent⊇child scorer must accept variable layer gaps, not assume L+1.
