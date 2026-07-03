@@ -1,0 +1,142 @@
+{
+  "arxiv_minilm_0_65_sibling": {
+    "type": "sibling",
+    "judge_overall": 0.0,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 65
+  },
+  "arxiv_cohere_0_55_verbose": {
+    "type": "verbose",
+    "judge_overall": 1.6666666666666667,
+    "cell": "arxiv_cohere",
+    "layer": 0,
+    "idx": 55
+  },
+  "arxiv_cohere_0_15_gold": {
+    "type": "gold",
+    "judge_overall": 2.3333333333333335,
+    "cell": "arxiv_cohere",
+    "layer": 0,
+    "idx": 15
+  },
+  "arxiv_cohere_3_1_sibling": {
+    "type": "sibling",
+    "judge_overall": 0.0,
+    "cell": "arxiv_cohere",
+    "layer": 3,
+    "idx": 1
+  },
+  "arxiv_cohere_0_44_gold": {
+    "type": "gold",
+    "judge_overall": 3.0,
+    "cell": "arxiv_cohere",
+    "layer": 0,
+    "idx": 44
+  },
+  "arxiv_cohere_0_75_ancestor": {
+    "type": "ancestor",
+    "judge_overall": 1.6666666666666667,
+    "cell": "arxiv_cohere",
+    "layer": 0,
+    "idx": 75
+  },
+  "arxiv_cohere_0_18_gold": {
+    "type": "gold",
+    "judge_overall": 2.3333333333333335,
+    "cell": "arxiv_cohere",
+    "layer": 0,
+    "idx": 18
+  },
+  "arxiv_cohere_0_62_gold": {
+    "type": "gold",
+    "judge_overall": 3.0,
+    "cell": "arxiv_cohere",
+    "layer": 0,
+    "idx": 62
+  },
+  "arxiv_minilm_0_27_gold": {
+    "type": "gold",
+    "judge_overall": 2.0,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 27
+  },
+  "arxiv_cohere_0_35_sibling": {
+    "type": "sibling",
+    "judge_overall": 0.0,
+    "cell": "arxiv_cohere",
+    "layer": 0,
+    "idx": 35
+  },
+  "arxiv_minilm_0_78_generic": {
+    "type": "generic",
+    "judge_overall": 0.0,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 78
+  },
+  "arxiv_minilm_0_78_ancestor": {
+    "type": "ancestor",
+    "judge_overall": 1.0,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 78
+  },
+  "arxiv_cohere_0_62_generic": {
+    "type": "generic",
+    "judge_overall": 0.0,
+    "cell": "arxiv_cohere",
+    "layer": 0,
+    "idx": 62
+  },
+  "arxiv_minilm_0_41_ancestor": {
+    "type": "ancestor",
+    "judge_overall": 2.0,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 41
+  },
+  "arxiv_minilm_2_1_gold": {
+    "type": "gold",
+    "judge_overall": 2.0,
+    "cell": "arxiv_minilm",
+    "layer": 2,
+    "idx": 1
+  },
+  "arxiv_cohere_1_23_verbose": {
+    "type": "verbose",
+    "judge_overall": 2.0,
+    "cell": "arxiv_cohere",
+    "layer": 1,
+    "idx": 23
+  },
+  "arxiv_minilm_0_28_verbose": {
+    "type": "verbose",
+    "judge_overall": 2.0,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 28
+  },
+  "arxiv_minilm_0_6_gold": {
+    "type": "gold",
+    "judge_overall": 2.6666666666666665,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 6
+  },
+  "arxiv_minilm_0_56_generic": {
+    "type": "generic",
+    "judge_overall": 0.0,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 56
+  },
+  "arxiv_minilm_0_28_gold": {
+    "type": "gold",
+    "judge_overall": 2.0,
+    "cell": "arxiv_minilm",
+    "layer": 0,
+    "idx": 28
+  }
+}

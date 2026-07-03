@@ -9,6 +9,7 @@ Confirms whether the sonnet judge -- which gate (b) trusts as ground truth -- ag
 """
 from __future__ import annotations
 
+import argparse
 import json
 from collections import defaultdict
 from pathlib import Path
@@ -19,8 +20,13 @@ HERE = Path("/Users/stevenfazzio/repos/toponymy/experiments/label_quality")
 
 
 def main():
-    key = json.loads((HERE / "data" / "calibration_key.json").read_text())
-    H = {str(k): float(v) for k, v in json.loads((HERE / "data" / "calibration_human.json").read_text()).items()}
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--key", default="calibration_key.json", help="filename under data/")
+    ap.add_argument("--human", default="calibration_human.json", help="filename under data/ ({id: rating})")
+    args = ap.parse_args()
+
+    key = json.loads((HERE / "data" / args.key).read_text())
+    H = {str(k): float(v) for k, v in json.loads((HERE / "data" / args.human).read_text()).items()}
     ids = [i for i in key if i in H]
     if not ids:
         raise SystemExit("no overlap between human ratings and key ids -- check the pasted JSON")

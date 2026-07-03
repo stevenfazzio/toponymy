@@ -163,23 +163,63 @@ lacks). Reasonable stop point for the practical goal.
 - Su et al. 2021 (whitening); Mu & Viswanath 2018 (all-but-the-top); Ethayarajh 2019
   (anisotropy); Gao & Metaxas 2026 (dispersion, not length, drives degradation).
 
-## Embedder + dataset robustness study (IN PROGRESS — findings not yet in WRITEUP)
+## Embedder + dataset robustness study (2×2 COMPLETE — in WRITEUP)
 
 Two near-posts were caught as artifacts (under-generalization; whitening/blindness), so before posting
-we're checking embedder + dataset robustness. A quick recompute with Cohere **embed-v4**
-(`embedder_robustness.py`, scoring on fixed MiniLM clusters) already PARTIALLY REVERSED two findings:
-the *raw centroid* metric DETECTS the exemplars/subtopics ablation (ρ +0.41 / +0.26) where MiniLM was
-blind, and whitening HURTS in embed-v4's less-anisotropic space (gate-b 0.66 vs 0.74). So metric claims
-are **embedder-dependent**.
-
-Confound caught in review: scoring labels against clusters defined by a *different* (inferior) embedder
-is a home/away mismatch. Fix = each embedder plays AT HOME (cluster + name + score with its own
-geometry): `home_pipeline.py` (+ `async_judge.py`, ~20× faster concurrent judging). Study =
-weak (MiniLM) vs strong (embed-v4) × 2 datasets (20NG + arXiv @7k), trimmed to **gate-b +
+we checked embedder + dataset robustness. Design (after a home/away confound was caught: scoring labels
+against a *different* embedder's clusters is a mismatch): each embedder plays AT HOME — cluster + name +
+score with its OWN geometry (`home_pipeline.py` + `async_judge.py`, ~20× faster). The 2×2 =
+weak (MiniLM) vs strong (Cohere embed-v4) × 2 datasets (20NG + arXiv @7k), trimmed to **gate-b +
 exemplars/keyphrases ablation** (fine-disc + secondary findings cited as robust negatives, not re-run).
-20ng-minilm = the existing cell (already at-home); 3 new cells (`home_*.json`) running in background.
-Update WRITEUP §2 (whitening → weak-embedder patch), the ablation §ablation (blindness is
-MiniLM-specific), TL;DR, and the teaser once the 2×2 lands.
+Synthesis: `cross_cell.py` → `data/cross_cell_summary.json`.
+
+**The earlier confounded quick-check (`embedder_robustness.py`, cohere labels on MiniLM clusters) was
+MISLEADING — the at-home 2×2 supersedes it.** Note especially: the at-home 20ng/minilm corner
+**replicates the canonical numbers** (fresh UMAP → [72,22,8] clusters; verbose-intrusion 79%→94% vs
+canonical 78→92; exemplars judge-Δ +0.50 vs +0.49), which validates the at-home recipe and makes the
+other three cells trustworthy.
+
+### 2×2 results (`cross_cell.py`)
+
+| cell | gate-b ρ cen / wht | verbose-intrusion cen→wht | exemplars jΔ | keyphrases jΔ |
+|---|---|---|---|---|
+| 20ng/minilm | 0.81 / 0.75 | 79% → 94% (+15pp) | +0.50 | −0.09 |
+| 20ng/cohere | 0.80 / 0.76 | 68% → 88% (+20pp) | +0.40 | −0.10 |
+| arxiv/minilm| 0.82 / 0.78 | 53% → 84% (+31pp) | +0.48 | −0.07 |
+| arxiv/cohere| 0.84 / 0.79 | **99% → 92% (−7pp)** | +0.39 | −0.00 |
+
+**Robust across all 4 cells (strengthen WRITEUP):**
+1. **Coarse guardrail** — gate-b ρ 0.80–0.84 (centroid), and **raw centroid > whitened on graded
+   correlation in EVERY cell** (~0.04 gap, the canonical pattern). Generalizes across embedder×dataset.
+2. **exemplars ≫ keyphrases** — exemplars worth ~+0.4 judge-pts everywhere; keyphrases ~0 or slightly
+   negative everywhere. The shakiest "bonus" finding (1 draw) is now the **most** robust thing here.
+   Promote from hedged aside to a real finding.
+
+**Nuanced / reframe needed (don't just patch):**
+3. **Whitening's verbose fix is an (embedder × corpus) thing, NOT a "weak-embedder patch."** Helps in
+   3/4 cells (incl. 20ng/cohere, a *strong* embedder — so not embedder-only); only arxiv/cohere has raw
+   centroid already solving verbose (99%), where whitening costs 7pp. Honest rule: **whiten as cheap
+   insurance for the verbose/padding blind spot** (gains up to +31pp where the space is anisotropic;
+   costs ≤7pp + ~0.05 gate-b where it isn't). It's a genuine trade-off: raw centroid = better graded
+   ranker; whitened = padding-robust.
+4. **Ablation guard — split by reference point (the canonical "blind" was the *whitened* metric).**
+   **Raw centroid weakly but consistently tracks the LARGE exemplars regression** (sign-agree 62/73/68/72%
+   = above chance in all 4; ρ +0.15…+0.47) yet is **blind to the ~0 keyphrases change** (correct — nothing
+   to see). Whitened is blind/erratic on both (exemplars 54/69/32/45%). So: raw centroid wins again; the
+   metric catches gross regressions weakly, subtle ones not at all. Still "not a precise regression guard."
+
+**Net reframe for the WRITEUP:** raw centroid is the better default on *every* axis except verbose
+robustness; whitening is a targeted padding patch, not a blanket "whiten first." Two desiderata (graded
+correlation / ablation sensitivity vs verbose robustness) trade off.
+
+arXiv judge-calibration spot-check DONE (20 blinded items, Steven rated 2026-07-03): **Spearman
+ρ = 0.79, quadratic κ = 0.54** vs 20NG's 0.82/0.64 — same rank agreement, same ~1-pt judge-harsher
+offset (stable judge property; costs κ, not ranking), same per-type ordering (gold > verbose >
+ancestor > generic ≈ sibling). Caveat: Steven is less at home in these arXiv subfields, so some gaps
+(a sibling rated human-3/judge-0) may be human error. Judge is trusted on arXiv; WRITEUP κ slot filled.
+
+NEXT: Steven reviews/approves WRITEUP framing → push branch + (on explicit go) short teaser to
+Discussion #173.
 
 ## Files (experiments/label_quality/)
 

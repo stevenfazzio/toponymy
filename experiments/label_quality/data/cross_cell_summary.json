@@ -1,0 +1,292 @@
+[
+  {
+    "dataset": "20ng",
+    "embedder": "minilm",
+    "counts": [
+      72,
+      22,
+      8
+    ],
+    "n_clusters": 102,
+    "n_judged": 775,
+    "n_battery": 571,
+    "gate_b": {
+      "centroid": {
+        "spearman": 0.8050949428736734,
+        "n": 571
+      },
+      "whitened": {
+        "spearman": 0.7505533320253618,
+        "n": 571
+      }
+    },
+    "intrusion": {
+      "centroid": {
+        "ancestor": 0.9054054054054054,
+        "sibling": 0.9666666666666667,
+        "distant": 1.0,
+        "generic": 1.0,
+        "verbose": 0.7941176470588235,
+        "strict_top1": 0.7745098039215687,
+        "_n": 102
+      },
+      "whitened": {
+        "ancestor": 0.9324324324324325,
+        "sibling": 0.9777777777777777,
+        "distant": 1.0,
+        "generic": 0.9901960784313726,
+        "verbose": 0.9411764705882353,
+        "strict_top1": 0.9019607843137255,
+        "_n": 102
+      }
+    },
+    "ablation": {
+      "exemplars": {
+        "judge_delta_mean": 0.4983333333333333,
+        "n": 100,
+        "centroid": {
+          "metric_delta_mean": 0.014392280445394832,
+          "spearman_vs_judge": 0.28859196628447364,
+          "sign_agree": 0.625
+        },
+        "whitened": {
+          "metric_delta_mean": 0.011412471894440262,
+          "spearman_vs_judge": 0.14827842242475175,
+          "sign_agree": 0.5416666666666666
+        }
+      },
+      "keyphrases": {
+        "judge_delta_mean": -0.08934707903780068,
+        "n": 97,
+        "centroid": {
+          "metric_delta_mean": 0.010062662363742057,
+          "spearman_vs_judge": 0.16648692253914416,
+          "sign_agree": 0.5454545454545454
+        },
+        "whitened": {
+          "metric_delta_mean": 0.012408566642747873,
+          "spearman_vs_judge": 0.09063459706064915,
+          "sign_agree": 0.45454545454545453
+        }
+      }
+    }
+  },
+  {
+    "dataset": "20ng",
+    "embedder": "cohere",
+    "counts": [
+      70,
+      26,
+      11,
+      4
+    ],
+    "n_clusters": 111,
+    "n_judged": 845,
+    "n_battery": 627,
+    "gate_b": {
+      "centroid": {
+        "spearman": 0.7952499720608446,
+        "n": 627
+      },
+      "whitened": {
+        "spearman": 0.7609396737285398,
+        "n": 627
+      }
+    },
+    "intrusion": {
+      "centroid": {
+        "distant": 1.0,
+        "generic": 0.972972972972973,
+        "verbose": 0.6818181818181818,
+        "ancestor": 0.7777777777777778,
+        "sibling": 0.9473684210526315,
+        "strict_top1": 0.5855855855855856,
+        "_n": 111
+      },
+      "whitened": {
+        "distant": 1.0,
+        "generic": 0.990990990990991,
+        "verbose": 0.8818181818181818,
+        "ancestor": 0.9222222222222223,
+        "sibling": 0.9789473684210527,
+        "strict_top1": 0.8198198198198198,
+        "_n": 111
+      }
+    },
+    "ablation": {
+      "exemplars": {
+        "judge_delta_mean": 0.39779874213836475,
+        "n": 106,
+        "centroid": {
+          "metric_delta_mean": 0.035148601724137384,
+          "spearman_vs_judge": 0.4663961454504158,
+          "sign_agree": 0.7307692307692307
+        },
+        "whitened": {
+          "metric_delta_mean": 0.016562766367832913,
+          "spearman_vs_judge": 0.2926239537764393,
+          "sign_agree": 0.6923076923076923
+        }
+      },
+      "keyphrases": {
+        "judge_delta_mean": -0.09870550161812298,
+        "n": 103,
+        "centroid": {
+          "metric_delta_mean": 0.00468660380622814,
+          "spearman_vs_judge": 0.1673016881539071,
+          "sign_agree": 0.5666666666666667
+        },
+        "whitened": {
+          "metric_delta_mean": 0.00744497736251872,
+          "spearman_vs_judge": 0.08391806264649507,
+          "sign_agree": 0.5333333333333333
+        }
+      }
+    }
+  },
+  {
+    "dataset": "arxiv",
+    "embedder": "minilm",
+    "counts": [
+      82,
+      27,
+      7
+    ],
+    "n_clusters": 116,
+    "n_judged": 863,
+    "n_battery": 637,
+    "gate_b": {
+      "centroid": {
+        "spearman": 0.8208895910797742,
+        "n": 637
+      },
+      "whitened": {
+        "spearman": 0.7798455557697844,
+        "n": 637
+      }
+    },
+    "intrusion": {
+      "centroid": {
+        "sibling": 0.9805825242718447,
+        "distant": 0.9913793103448276,
+        "generic": 0.9913793103448276,
+        "verbose": 0.5258620689655172,
+        "ancestor": 0.922077922077922,
+        "strict_top1": 0.5172413793103449,
+        "_n": 116
+      },
+      "whitened": {
+        "sibling": 0.9805825242718447,
+        "distant": 1.0,
+        "generic": 0.9827586206896551,
+        "verbose": 0.8362068965517241,
+        "ancestor": 0.948051948051948,
+        "strict_top1": 0.8362068965517241,
+        "_n": 116
+      }
+    },
+    "ablation": {
+      "exemplars": {
+        "judge_delta_mean": 0.47756410256410253,
+        "n": 104,
+        "centroid": {
+          "metric_delta_mean": 0.01469131508682033,
+          "spearman_vs_judge": 0.15456954979152263,
+          "sign_agree": 0.6785714285714286
+        },
+        "whitened": {
+          "metric_delta_mean": -0.01012562894366556,
+          "spearman_vs_judge": -0.18920627226836503,
+          "sign_agree": 0.32142857142857145
+        }
+      },
+      "keyphrases": {
+        "judge_delta_mean": -0.07352941176470588,
+        "n": 102,
+        "centroid": {
+          "metric_delta_mean": 0.0031927962458582226,
+          "spearman_vs_judge": 0.062039447488017145,
+          "sign_agree": 0.5660377358490566
+        },
+        "whitened": {
+          "metric_delta_mean": 0.020441744855017686,
+          "spearman_vs_judge": 0.09415843719739239,
+          "sign_agree": 0.5283018867924528
+        }
+      }
+    }
+  },
+  {
+    "dataset": "arxiv",
+    "embedder": "cohere",
+    "counts": [
+      76,
+      24,
+      8,
+      4
+    ],
+    "n_clusters": 112,
+    "n_judged": 831,
+    "n_battery": 619,
+    "gate_b": {
+      "centroid": {
+        "spearman": 0.8394375335347608,
+        "n": 619
+      },
+      "whitened": {
+        "spearman": 0.791070867200918,
+        "n": 619
+      }
+    },
+    "intrusion": {
+      "centroid": {
+        "sibling": 0.979381443298969,
+        "distant": 1.0,
+        "generic": 1.0,
+        "verbose": 0.990990990990991,
+        "ancestor": 0.8928571428571429,
+        "strict_top1": 0.9196428571428571,
+        "_n": 112
+      },
+      "whitened": {
+        "sibling": 1.0,
+        "distant": 1.0,
+        "generic": 1.0,
+        "verbose": 0.918918918918919,
+        "ancestor": 0.9761904761904762,
+        "strict_top1": 0.9107142857142857,
+        "_n": 112
+      }
+    },
+    "ablation": {
+      "exemplars": {
+        "judge_delta_mean": 0.3860544217687075,
+        "n": 98,
+        "centroid": {
+          "metric_delta_mean": 0.01943308932198832,
+          "spearman_vs_judge": 0.26785511253578287,
+          "sign_agree": 0.7241379310344828
+        },
+        "whitened": {
+          "metric_delta_mean": 0.0029055060351633583,
+          "spearman_vs_judge": -0.11344845929600977,
+          "sign_agree": 0.4482758620689655
+        }
+      },
+      "keyphrases": {
+        "judge_delta_mean": -0.0019157088122605296,
+        "n": 87,
+        "centroid": {
+          "metric_delta_mean": 0.0066730398332238644,
+          "spearman_vs_judge": 0.2995019944263064,
+          "sign_agree": 0.6666666666666666
+        },
+        "whitened": {
+          "metric_delta_mean": 0.0221158945411322,
+          "spearman_vs_judge": 0.030093640951837464,
+          "sign_agree": 0.5555555555555556
+        }
+      }
+    }
+  }
+]
