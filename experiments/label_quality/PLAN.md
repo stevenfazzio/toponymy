@@ -311,8 +311,54 @@ offset (stable judge property; costs κ, not ranking), same per-type ordering (g
 ancestor > generic ≈ sibling). Caveat: Steven is less at home in these arXiv subfields, so some gaps
 (a sibling rated human-3/judge-0) may be human error. Judge is trusted on arXiv; WRITEUP κ slot filled.
 
-NEXT: Steven reviews/approves WRITEUP framing → push branch + (on explicit go) short teaser to
-Discussion #173.
+SHIPPED 2026-07-03: teaser posted to Discussion #173
+(https://github.com/TutteInstitute/toponymy/discussions/173#discussioncomment-17526704);
+`experiment/label-quality` frozen at the posted tip. Phase 4 proceeds on
+`experiment/wayfinding-lineup`.
+
+## Phase 4 results (gates a–c run 2026-07-03; sonnet listener, structured output)
+
+**Instrument checks PASS** (both kill criteria clear). Same-listener sonnet floors: gold pm 0.545
+vs shuffled 0.038 vs gimme ceiling 0.936 (k=5, chance 0.20). Haiku k-sweep: gold pm 0.62/0.50/0.43
+at k=3/5/7 — above chance, below ceiling, no saturation. Repeat bands: haiku p90 |Δpm| 0.185;
+sonnet p90 |Δdelta| 0.107 (measured on the pair lineups themselves, n=30 re-run).
+*Protocol note:* sonnet deliberates in prose and truncates before emitting scores (silent
+kind-correlated parse failures — verbose 1/107 valid!); claude-sonnet-4-6 rejects prefill; fix =
+litellm `response_format` json_schema. First battery run (~$20) discarded as
+`*.proto1.bak.json`; all v2 stages 100% parse-valid. Top-1 inflates on garbage labels
+(all-zero ties count as rank 1) — prob-mass is the primary metric, as planned.
+
+**Gate (a) PASS — every predicted signature confirmed** (n=107 clusters, paired on identical
+lineups): gold pm 0.545; verbose 0.444; ancestor 0.262; generic 0.195 (entropy 0.97 ≈ uniform ✓);
+sibling 0.154 (below chance ✓, and where the sibling cluster is in the lineup its candidate takes
+0.513 vs true 0.213 — the mass-shift signature, sharper than the judge's soft 0.62); distant 0.004
+(outright rejection). Paired gold-beats-variant: shuffled 100%, distant 99%, generic 95%,
+sibling 89%, ancestor 88%, **verbose 79% (weakest — the predicted divergence CONFIRMED: the judge
+punishes padding hard (1.89 vs gold 2.42), the lineup barely does; padding doesn't hurt
+identification ⇒ fit and identifiability are different axes ⇒ combined instrument = judge ∧ lineup)**.
+
+**Gate (b) PASS — the interesting zone**: Spearman(lineup pm, judge overall) = **+0.647** (n=487):
+correlated with fit, not redundant with it (embedding metric's own gate-b vs judge is 0.80–0.84).
+
+**Gate (c) — the payoff, mostly outcome (ii) with an (iii) tail:**
+1. Judge-TIED pairs (n=50): mean |Δpm| 0.073 < band 0.107 — the lineup ties on the bulk too.
+   It decides **11/50 (22%)** vs ~10% expected under the null band ⇒ a real but thin tail of
+   genuinely-more-identifying labels. The decided list is face-valid: the lineup consistently
+   prefers the distinguishing specific ("Larson's Reciprocal System Theory" d=0.44 over "Debates
+   on Unified Theories in Physics") — rewarding exactly the qualifier centroid-cosine penalized.
+2. Judge-DECIDED pairs (n=54): sign agreement **37%**, Spearman(Δlineup, Δjudge) = −0.21 — where
+   the two instruments decide, they disagree ⇒ two axes again, now on realistic pairs.
+3. No base/alt bias (mean pm 0.537 vs 0.531, Wilcoxon p=0.81). Fine-layer gradient: mean tied
+   |Δ| 0.088 (L0) / 0.044 (L1) / 0.014 (L2) — identifiability differences live at the fine layer.
+4. Human seed EXPORTED, awaiting Steven: 20 blinded A/B items (11 band-clearing + 9 sub-band
+   controls), `wayfinding_pairs.py --export-human` → `data/wayfinding_pair_calibration.html`
+   (serve :8765). Does human identification-preference track the lineup's pick?
+
+**Reading:** the wayfinding lineup is a valid, discriminating instrument (a+b), and it settles the
+fine-discrimination question rather than winning it: most judge-tied good-vs-good pairs are
+functionally equivalent on the identification axis too (outcome ii), a thin tail is genuinely more
+identifying (outcome iii tail), and fit ≠ identifiability throughout (verbose divergence; −0.21 on
+decided pairs). Venue call (new thread vs #173 append) after the human seed.
 
 ## Files (experiments/label_quality/)
 
