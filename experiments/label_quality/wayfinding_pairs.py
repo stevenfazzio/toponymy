@@ -165,13 +165,42 @@ def export_human(cell, rows, band):
           f"--directory experiments/label_quality/data")
 
 
+def score_human():
+    """Gate (c)(3): human blinded A/B picks vs the lineup's picks, split by band status."""
+    key = json.loads((HERE / "data" / "wayfinding_pair_calibration_key.json").read_text())
+    H = json.loads((HERE / "data" / "wayfinding_pair_calibration_human.json").read_text())
+    print("\n================ HUMAN SEED (gate c-3) ================")
+    for grp, name in [(True, "band-clearing (test)"), (False, "sub-band (controls)")]:
+        ids = [i for i in key if i in H and key[i]["clears_band"] == grp]
+        ties = [i for i in ids if H[i] == "tie"]
+        dec = [i for i in ids if H[i] in ("A", "B")]
+        agree = [i for i in dec if key[i][H[i]] == key[i]["lineup_pick"]]
+        print(f"{name:<22} n={len(ids)}  human ties {len(ties)} ({len(ties)/max(len(ids),1):.0%})"
+              f"  |  of {len(dec)} decided: agree with lineup {len(agree)}"
+              f" ({len(agree)/max(len(dec),1):.0%})")
+    print("\nper item (sorted by |lineup delta|):")
+    for i in sorted(key, key=lambda i: -abs(key[i]["delta"])):
+        if i not in H:
+            continue
+        k = key[i]
+        hp = "tie" if H[i] == "tie" else k[H[i]]
+        mark = "=" if hp == "tie" else ("Y" if hp == k["lineup_pick"] else "n")
+        print(f"  {i:<12} d={k['delta']:+.3f} {'BAND' if k['clears_band'] else '    '} "
+              f"lineup={k['lineup_pick']:<4} human={hp:<4} {mark}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--listener", default="sonnet")
     ap.add_argument("--concurrency", type=int, default=24)
     ap.add_argument("--report-only", action="store_true")
     ap.add_argument("--export-human", action="store_true")
+    ap.add_argument("--score-human", action="store_true")
     args = ap.parse_args()
+
+    if args.score_human:
+        score_human()
+        return
 
     cell = Cell("20ng")
     pairs = load_pairs()

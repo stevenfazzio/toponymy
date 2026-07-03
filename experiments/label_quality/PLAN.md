@@ -350,9 +350,17 @@ correlated with fit, not redundant with it (embedding metric's own gate-b vs jud
    the two instruments decide, they disagree ⇒ two axes again, now on realistic pairs.
 3. No base/alt bias (mean pm 0.537 vs 0.531, Wilcoxon p=0.81). Fine-layer gradient: mean tied
    |Δ| 0.088 (L0) / 0.044 (L1) / 0.014 (L2) — identifiability differences live at the fine layer.
-4. Human seed EXPORTED, awaiting Steven: 20 blinded A/B items (11 band-clearing + 9 sub-band
-   controls), `wayfinding_pairs.py --export-human` → `data/wayfinding_pair_calibration.html`
-   (serve :8765). Does human identification-preference track the lineup's pick?
+4. Human seed DONE (Steven, 2026-07-03; 20 blinded A/B items = 11 band-clearing + 9 sub-band
+   controls): **when the human decided, agreement with the lineup was 10/12 overall and 5/5 on
+   band-clearing items** (coin-flip null p≈0.03). Human ties concentrated on the LARGEST deltas
+   (4 of top 5, incl. Larson d=0.44) — explained by a form asymmetry Steven independently
+   flagged: the form showed only the true cluster's docs (fit-style presentation), while the
+   lineup's conviction comes from contrast with neighbors it can see and the human couldn't.
+   So c-3 validates the lineup's picks where the human could see the difference, and under-tests
+   the discrimination component; the airtight version would make the human BE the listener
+   (label + k candidate doc-groups, pick the group). Controls tied *less* than tests (22% vs
+   55%, n tiny) — the p90 band is not validated by human tie-rates, though band-clearing picks
+   were the more reliable ones (5/5 vs 5/7).
 
 **Reading:** the wayfinding lineup is a valid, discriminating instrument (a+b), and it settles the
 fine-discrimination question rather than winning it: most judge-tied good-vs-good pairs are
