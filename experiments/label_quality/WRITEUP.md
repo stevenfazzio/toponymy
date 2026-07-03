@@ -1,7 +1,8 @@
 # Can you judge Toponymy label quality from embedding geometry?
 
-> **DRAFT.** All experiments complete and voice-passed. To share: a short teaser comment on
-> TutteInstitute/toponymy Discussion #173 that links here (not the full text), pending sign-off.
+> Shared as a short teaser comment on
+> [TutteInstitute/toponymy Discussion #173](https://github.com/TutteInstitute/toponymy/discussions/173)
+> (July 2026); this is the full write-up it links to.
 
 ## TL;DR
 
