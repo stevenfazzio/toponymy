@@ -47,15 +47,30 @@ NIBLING = REPO / "experiments" / "nibling_contrast"
 sys.path.insert(0, str(NIBLING))
 sys.path.insert(0, str(HERE))
 
-from wayfinding import Cell, K_DEFAULT, MODELS, make_unit, md5i, run_all  # noqa: E402
+from wayfinding import (Cell, K_DEFAULT, MODELS, make_unit, md5i, run_all,  # noqa: E402
+                        unit_rows)
 
 N_RUNGS = 7
-LADDER = HERE / "data" / "ladder_names_20ng.json"
-LINEUPS = HERE / "data" / "wayfinding_20ng_ladder.json"
-HELDOUT = HERE / "data" / "wayfinding_20ng_heldout.json"
-SUMMARY = HERE / "data" / "length_controller_20ng.json"
 N_REPEAT = 30
-STOCK_RUNG = {0: 0, 1: 3, 2: 6}  # linspace(0,1,3) * 6, per layer
+DS = "20ng"
+LADDER = LINEUPS = HELDOUT = SUMMARY = None
+
+
+def set_dataset(ds: str):
+    global DS, LADDER, LINEUPS, HELDOUT, SUMMARY
+    DS = ds
+    LADDER = HERE / "data" / f"ladder_names_{ds}.json"
+    LINEUPS = HERE / "data" / f"wayfinding_{ds}_ladder.json"
+    HELDOUT = HERE / "data" / f"wayfinding_{ds}_heldout.json"
+    SUMMARY = HERE / "data" / f"length_controller_{ds}.json"
+
+
+set_dataset(DS)
+
+
+def stock_rungs(n_layers: int) -> dict:
+    """Toponymy's linspace dial: detail_levels = linspace(0,1,n_layers) -> SUMMARY_KINDS index."""
+    return {L: int(round(L / (n_layers - 1) * (N_RUNGS - 1))) for L in range(n_layers)}
 
 
 def words(s: str) -> int:
@@ -66,22 +81,22 @@ def words(s: str) -> int:
 
 def stage_ladder():
     from ab_harness import make_embedder, make_namer
-    from perturbations import load_fit
     from toponymy.toponymy import Toponymy
 
     done = json.loads(LADDER.read_text()) if LADDER.exists() else {}
-    cl, objects, emb, coords, meta = load_fit("20ng", None, 25, 4)
-    embedder = make_embedder(meta["emb_model"])
+    cell = Cell(DS)
+    embedder = make_embedder(cell.meta["emb_model"])
     for r in range(N_RUNGS):
         if str(r) in done:
             print(f"rung {r}: cached")
             continue
         t0 = time.time()
-        model = Toponymy(make_namer("haiku"), embedder, clusterer=cl,
-                         object_description=meta["obj"], corpus_description=meta["corpus"],
+        model = Toponymy(make_namer("haiku"), embedder, clusterer=cell.clusterer,
+                         object_description=cell.meta["obj"],
+                         corpus_description=cell.meta["corpus"],
                          lowest_detail_level=r / (N_RUNGS - 1),
                          highest_detail_level=r / (N_RUNGS - 1), verbose=False)
-        model.fit(objects, emb, coords)
+        model.fit(cell.objects, cell.emb, cell.coords)
         done[str(r)] = [list(layer) for layer in model.topic_names_]
         LADDER.write_text(json.dumps(done, indent=2))
         ex = done[str(r)][0][0]
@@ -109,7 +124,7 @@ def distinct_candidates(names):
 
 
 def stage_lineups(concurrency):
-    cell = Cell("20ng")
+    cell = Cell(DS)
     cands = distinct_candidates(ladder_names())
     units = []
     for (L, i), labs in cands.items():
@@ -151,6 +166,7 @@ def stage_select():
     band, n_rep = band_from(units)
     print(f"band: p90 |d pm| = {band:.3f} (repeat n={n_rep})")
 
+    stock = stock_rungs(len(names["0"]))
     rows = []
     for (L, i), labs in sorted(cands.items()):
         scored = [(lab, pm.get((L, i, lab)), min(rungs)) for lab, rungs in labs.items()]
@@ -160,7 +176,7 @@ def stage_select():
         best = max(p for _, p, _ in scored)
         ok = [(lab, p, r) for lab, p, r in scored if p >= best - band]
         lab_c, pm_c, rung_c = min(ok, key=lambda t: (words(t[0]), -t[2]))
-        lab_s = names[str(STOCK_RUNG[L])][L][i]
+        lab_s = names[str(stock[L])][L][i]
         rows.append(dict(L=L, i=i, chosen=lab_c, chosen_pm=pm_c, chosen_rung=rung_c,
                          chosen_words=words(lab_c), stock=lab_s,
                          stock_pm=pm.get((L, i, lab_s)), stock_words=words(lab_s),
@@ -178,7 +194,7 @@ def stage_select():
                     if r in rungs and (LL, i, lab) in pm:
                         ps.append(pm[(LL, i, lab)])
                         ws.append(words(lab))
-            mark = "*" if r == STOCK_RUNG[L] else " "
+            mark = "*" if r == stock[L] else " "
             cells.append(f"r{r}{mark} {np.mean(ps):.2f}/{np.mean(ws):.0f}w" if ps else f"r{r}  -")
         print(f"  L{L}: " + "  ".join(cells) + "   (* = stock rung)")
 
@@ -201,6 +217,18 @@ def stage_select():
 
 # ------------------------------------------------------------------ held-out eval (Goodhart guard)
 
+def judge_docs(cell, L, i, n_near=10, n_rand=5, maxlen=280):
+    """Grounding docs by the judge convention (near + random, rng 1000+i), from the cell."""
+    members = np.where(cell.layers[L].cluster_labels == i)[0]
+    sims = unit_rows(cell.emb[members]) @ cell.cent[L][i]
+    near = members[np.argsort(-sims)[:n_near]]
+    rest = np.array([m for m in members if m not in set(near.tolist())])
+    rng = np.random.default_rng(1000 + i)
+    rand = rng.choice(rest, size=min(n_rand, rest.size), replace=False) if rest.size \
+        else np.array([], int)
+    return [" ".join(str(cell.objects[j]).split())[:maxlen] for j in list(near) + list(rand)]
+
+
 def stage_heldout(concurrency):
     rows = json.loads(SUMMARY.read_text())["rows"]
     diff = [r for r in rows if r["differs"]]
@@ -208,7 +236,7 @@ def stage_heldout(concurrency):
     listener = "openai/gpt-4o-mini" if os.environ.get("OPENAI_API_KEY") else MODELS["haiku"]
     if "gpt" not in listener:
         print("  (OPENAI_API_KEY absent -- falling back to haiku as held-out listener)")
-    cell = Cell("20ng")
+    cell = Cell(DS)
     cell._docs = {}
     _orig = Cell.held_out
 
@@ -251,15 +279,15 @@ def stage_heldout(concurrency):
     print(f"  words: chosen {np.mean([words(r['chosen']) for _,_,r in pairs]):.1f} "
           f"vs stock {np.mean([words(r['stock']) for _,_,r in pairs]):.1f} (d {np.mean(dw):+.1f})")
 
-    # judge-fit non-regression (grounded sonnet judge, judge_fair doc convention)
+    # judge-fit non-regression (grounded sonnet judge; docs from the cell itself --
+    # judge_fair.sample_docs would route arxiv through the misaligned examples loader)
     from async_judge import rate_many
-    from judge_fair import sample_docs
     tasks, meta = [], []
     for _, _, r in pairs:
-        docs = sample_docs("20ng", r["L"], r["i"], n_near=10, n_rand=5)
+        docs = judge_docs(cell, r["L"], r["i"])
         tasks += [(r["chosen"], docs), (r["stock"], docs)]
         meta.append(r)
-    ratings = rate_many(tasks, "newsgroup posts", MODELS["sonnet"], k=3, concurrency=24)
+    ratings = rate_many(tasks, cell.meta["obj"], MODELS["sonnet"], k=3, concurrency=24)
     jd = [(ratings[2 * n]["overall"], ratings[2 * n + 1]["overall"]) for n in range(len(meta))]
     jd = [(c, s) for c, s in jd if c is not None and s is not None]
     dj = [c - s for c, s in jd]
@@ -271,8 +299,10 @@ def stage_heldout(concurrency):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--stage", required=True, choices=["ladder", "lineups", "select", "heldout"])
+    ap.add_argument("--dataset", default="20ng")
     ap.add_argument("--concurrency", type=int, default=24)
     args = ap.parse_args()
+    set_dataset(args.dataset)
     if args.stage == "ladder":
         stage_ladder()
     elif args.stage == "lineups":

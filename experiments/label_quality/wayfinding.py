@@ -97,7 +97,9 @@ class Cell:
             tag = HOME_TAGS[dataset]
             emb = np.load(HERE / "data" / f"home_{tag}_emb.npy")
             coords = np.load(HERE / "data" / f"home_{tag}_coords.npy")
-            objects, _, _, _ = load_dataset(tag.split("_")[0], emb.shape[0])
+            objects, _, _, meta = load_dataset(tag.split("_")[0], emb.shape[0])
+            # the home cell re-embedded with its own model; override the examples-substrate model
+            meta = dict(meta, emb_model={"minilm": "all-MiniLM-L6-v2"}[tag.split("_")[1]])
             cl = ToponymyClusterer(min_clusters=4, base_min_cluster_size=25, verbose=False)
             cl.fit_predict(coords, emb, ClusterLayerText)
         else:
@@ -109,6 +111,7 @@ class Cell:
         for layer in cl.cluster_layers_:
             layer.make_exemplar_texts(objects, emb)  # deterministic; what the namer saw
         self.dataset, self.objects, self.tree = dataset, objects, cl.cluster_tree_
+        self.clusterer, self.coords, self.meta = cl, coords, meta
         self.emb = emb.astype(np.float64)
         self.layers = cl.cluster_layers_
         self.counts = [int(l.centroid_vectors.shape[0]) for l in cl.cluster_layers_]

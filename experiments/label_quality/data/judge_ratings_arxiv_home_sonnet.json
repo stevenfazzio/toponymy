@@ -1,0 +1,4461 @@
+[
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "gold",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "sibling",
+    "label": "Deep Learning for Molecular Design and Property Prediction in Drug Discovery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "distant",
+    "label": "Knowledge Graph Construction and Reasoning: Entity Alignment, Relation Extraction, and Multi-hop Question Answering",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "verbose",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing, including various related discussions of Deep Learning for Molecular Design and Property Prediction in Drug Discovery, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "gold",
+    "label": "Deep Learning for Molecular Design and Property Prediction in Drug Discovery",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "verbose",
+    "label": "Deep Learning for Molecular Design and Property Prediction in Drug Discovery, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "gold",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "ancestor",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "verbose",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, Algorithmic Fairness in Machine Learning: Metrics, Methods, and Interdisciplinary Perspectives, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "gold",
+    "label": "Algorithmic Fairness in Machine Learning: Metrics, Methods, and Interdisciplinary Perspectives",
+    "overall": 4.0
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "ancestor",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "sibling",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "verbose",
+    "label": "Algorithmic Fairness in Machine Learning: Metrics, Methods, and Interdisciplinary Perspectives, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, Fair Division and Allocation of Indivisible Goods with Fairness Guarantees, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "gold",
+    "label": "Knowledge Graph Embedding Methods for Link Prediction and Completion",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "ancestor",
+    "label": "Knowledge Graph Embedding and Completion",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "sibling",
+    "label": "Knowledge Graph Construction and Reasoning: Entity Alignment, Relation Extraction, and Multi-hop Question Answering",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "verbose",
+    "label": "Knowledge Graph Embedding Methods for Link Prediction and Completion, including various related discussions of Knowledge Graph Embedding and Completion, Knowledge Graph Construction and Reasoning: Entity Alignment, Relation Extraction, and Multi-hop Question Answering, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "gold",
+    "label": "Knowledge Graph Construction and Reasoning: Entity Alignment, Relation Extraction, and Multi-hop Question Answering",
+    "overall": 3.6666666666666665
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "ancestor",
+    "label": "Knowledge Graph Embedding and Completion",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "sibling",
+    "label": "Knowledge Graph Embedding Methods for Link Prediction and Completion",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "distant",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "verbose",
+    "label": "Knowledge Graph Construction and Reasoning: Entity Alignment, Relation Extraction, and Multi-hop Question Answering, including various related discussions of Knowledge Graph Embedding and Completion, Knowledge Graph Embedding Methods for Link Prediction and Completion, among other assorted and loosely connected topics",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "gold",
+    "label": "Physics-Informed Neural Networks for Solving Partial Differential Equations",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "verbose",
+    "label": "Physics-Informed Neural Networks for Solving Partial Differential Equations, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "gold",
+    "label": "Large Language Models for Code Understanding, Generation, and Security Vulnerability Detection",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "verbose",
+    "label": "Large Language Models for Code Understanding, Generation, and Security Vulnerability Detection, including various related discussions of Large Language Models for Code Understanding, Generation, and Security Vulnerability Detection, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "type": "gold",
+    "label": "Graph Neural Networks and Deep Learning Methods for Graph-Structured Data Analysis",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "type": "distant",
+    "label": "Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "type": "verbose",
+    "label": "Graph Neural Networks and Deep Learning Methods for Graph-Structured Data Analysis, including various related discussions of Graph Neural Networks and Deep Learning Methods for Graph-Structured Data Analysis, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "gold",
+    "label": "Energy-Efficient Spiking Neural Networks: Hardware Accelerators and Neuromorphic Computing Systems",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "verbose",
+    "label": "Energy-Efficient Spiking Neural Networks: Hardware Accelerators and Neuromorphic Computing Systems, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "gold",
+    "label": "Edge AI and Computation Offloading in Cloud-Edge-Device Computing Continuum",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "distant",
+    "label": "Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "verbose",
+    "label": "Edge AI and Computation Offloading in Cloud-Edge-Device Computing Continuum, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "gold",
+    "label": "Surrogate-Assisted and Nature-Inspired Metaheuristic Algorithms for Multi-Objective Optimization",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "verbose",
+    "label": "Surrogate-Assisted and Nature-Inspired Metaheuristic Algorithms for Multi-Objective Optimization, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "gold",
+    "label": "Deep Reinforcement Learning for Autonomous Driving in Complex Interactive Scenarios",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "ancestor",
+    "label": "Deep Reinforcement Learning for Autonomous Driving",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "sibling",
+    "label": "Trajectory Prediction and Motion Forecasting for Autonomous Vehicle Safety",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "distant",
+    "label": "Knowledge Graph Construction and Reasoning: Entity Alignment, Relation Extraction, and Multi-hop Question Answering",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "verbose",
+    "label": "Deep Reinforcement Learning for Autonomous Driving in Complex Interactive Scenarios, including various related discussions of Deep Reinforcement Learning for Autonomous Driving, Trajectory Prediction and Motion Forecasting for Autonomous Vehicle Safety, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "gold",
+    "label": "Trajectory Prediction and Motion Forecasting for Autonomous Vehicle Safety",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "ancestor",
+    "label": "Deep Reinforcement Learning for Autonomous Driving",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "sibling",
+    "label": "Deep Reinforcement Learning for Autonomous Driving in Complex Interactive Scenarios",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "verbose",
+    "label": "Trajectory Prediction and Motion Forecasting for Autonomous Vehicle Safety, including various related discussions of Deep Reinforcement Learning for Autonomous Driving, Deep Reinforcement Learning for Autonomous Driving in Complex Interactive Scenarios, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "gold",
+    "label": "Automated Planning and Scheduling: Classical Planning, Domain Modeling, and Symbolic Search Methods",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "sibling",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "verbose",
+    "label": "Automated Planning and Scheduling: Classical Planning, Domain Modeling, and Symbolic Search Methods, including various related discussions of Reinforcement Learning, Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "gold",
+    "label": "Language-Grounded Embodied Agents and Interactive Text-Based Game Environments",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "sibling",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "distant",
+    "label": "Low-Bit Quantization and Model Compression for Efficient Deep Neural Network Inference",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "verbose",
+    "label": "Language-Grounded Embodied Agents and Interactive Text-Based Game Environments, including various related discussions of Reinforcement Learning, Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "gold",
+    "label": "Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "verbose",
+    "label": "Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation, including various related discussions of Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "gold",
+    "label": "Regret Analysis and Algorithms for Multi-Armed and Contextual Bandit Problems",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "sibling",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "verbose",
+    "label": "Regret Analysis and Algorithms for Multi-Armed and Contextual Bandit Problems, including various related discussions of Reinforcement Learning, Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "gold",
+    "label": "Speaker Recognition and End-to-End Speech Recognition Systems with Neural Architectures",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "ancestor",
+    "label": "Speech and Audio Processing with Deep Learning",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "sibling",
+    "label": "Audio and Music Generation, Analysis, and Source Separation with Deep Learning",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "verbose",
+    "label": "Speaker Recognition and End-to-End Speech Recognition Systems with Neural Architectures, including various related discussions of Speech and Audio Processing with Deep Learning, Audio and Music Generation, Analysis, and Source Separation with Deep Learning, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "gold",
+    "label": "Audio and Music Generation, Analysis, and Source Separation with Deep Learning",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "ancestor",
+    "label": "Speech and Audio Processing with Deep Learning",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "sibling",
+    "label": "Speaker Recognition and End-to-End Speech Recognition Systems with Neural Architectures",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "verbose",
+    "label": "Audio and Music Generation, Analysis, and Source Separation with Deep Learning, including various related discussions of Speech and Audio Processing with Deep Learning, Speaker Recognition and End-to-End Speech Recognition Systems with Neural Architectures, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "gold",
+    "label": "Heuristic and Machine Learning Methods for Vehicle Routing and Combinatorial Optimization Problems",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "sibling",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "verbose",
+    "label": "Heuristic and Machine Learning Methods for Vehicle Routing and Combinatorial Optimization Problems, including various related discussions of Reinforcement Learning, Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "gold",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "sibling",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "distant",
+    "label": "Aspect-Based Sentiment Analysis and Opinion Mining from Customer Reviews",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "verbose",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments, including various related discussions of Reinforcement Learning, Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "gold",
+    "label": "Regret Bounds and Sample Complexity in Reinforcement Learning with Function Approximation",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "sibling",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "verbose",
+    "label": "Regret Bounds and Sample Complexity in Reinforcement Learning with Function Approximation, including various related discussions of Reinforcement Learning, Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "gold",
+    "label": "Spatial-Temporal Graph Neural Networks for Urban Traffic and Mobility Prediction",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "verbose",
+    "label": "Spatial-Temporal Graph Neural Networks for Urban Traffic and Mobility Prediction, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "gold",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "sibling",
+    "label": "Heuristic and Machine Learning Methods for Vehicle Routing and Combinatorial Optimization Problems",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "verbose",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, including various related discussions of Reinforcement Learning, Heuristic and Machine Learning Methods for Vehicle Routing and Combinatorial Optimization Problems, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "gold",
+    "label": "Continual Learning Methods for Mitigating Catastrophic Forgetting in Neural Networks",
+    "overall": 4.0
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "verbose",
+    "label": "Continual Learning Methods for Mitigating Catastrophic Forgetting in Neural Networks, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "gold",
+    "label": "Deep Learning for Smart Grid Energy Forecasting, Load Monitoring, and Renewable Integration",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "verbose",
+    "label": "Deep Learning for Smart Grid Energy Forecasting, Load Monitoring, and Renewable Integration, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "gold",
+    "label": "Multi-Agent Game Playing and Learning with Strategic Decision-Making and Cooperation",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "sibling",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "distant",
+    "label": "Low-Bit Quantization and Model Compression for Efficient Deep Neural Network Inference",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "verbose",
+    "label": "Multi-Agent Game Playing and Learning with Strategic Decision-Making and Cooperation, including various related discussions of Reinforcement Learning, Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "gold",
+    "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "verbose",
+    "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling, including various related discussions of Sequential and Cold-Start Recommendation Systems with User Behavior Modeling, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "gold",
+    "label": "Safe Reinforcement Learning Algorithms with Formal Safety Guarantees and Constraint Satisfaction",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "sibling",
+    "label": "Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "verbose",
+    "label": "Safe Reinforcement Learning Algorithms with Formal Safety Guarantees and Constraint Satisfaction, including various related discussions of Reinforcement Learning, Offline Reinforcement Learning: Policy Optimization, Evaluation, and Offline-to-Online Transitions, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "gold",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.6666666666666666
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "verbose",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution, including various related discussions of Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution, among other assorted and loosely connected topics",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "gold",
+    "label": "Causal Discovery and Inference from Observational Data with Latent Confounders",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "distant",
+    "label": "Low-Bit Quantization and Model Compression for Efficient Deep Neural Network Inference",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "verbose",
+    "label": "Causal Discovery and Inference from Observational Data with Latent Confounders, including various related discussions of Causal Discovery and Inference from Observational Data with Latent Confounders, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "gold",
+    "label": "Text-Guided Video and Image Generation with Diffusion Models and Style Transfer",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.6666666666666666
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "verbose",
+    "label": "Text-Guided Video and Image Generation with Diffusion Models and Style Transfer, including various related discussions of Text-Guided Video and Image Generation with Diffusion Models and Style Transfer, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "gold",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "verbose",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions, including various related discussions of Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions, among other assorted and loosely connected topics",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "gold",
+    "label": "Learning Dexterous Robotic Manipulation from Demonstrations and Multimodal Sensing",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "ancestor",
+    "label": "Robot Manipulation Learning with Multimodal Sensing",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "sibling",
+    "label": "Reinforcement Learning for Robot Manipulation and Locomotion with Motion Planning Integration",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "verbose",
+    "label": "Learning Dexterous Robotic Manipulation from Demonstrations and Multimodal Sensing, including various related discussions of Robot Manipulation Learning with Multimodal Sensing, Reinforcement Learning for Robot Manipulation and Locomotion with Motion Planning Integration, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "gold",
+    "label": "Reinforcement Learning for Robot Manipulation and Locomotion with Motion Planning Integration",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "ancestor",
+    "label": "Robot Manipulation Learning with Multimodal Sensing",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "sibling",
+    "label": "Learning Dexterous Robotic Manipulation from Demonstrations and Multimodal Sensing",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "distant",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "verbose",
+    "label": "Reinforcement Learning for Robot Manipulation and Locomotion with Motion Planning Integration, including various related discussions of Robot Manipulation Learning with Multimodal Sensing, Learning Dexterous Robotic Manipulation from Demonstrations and Multimodal Sensing, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "gold",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "sibling",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "verbose",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications, including various related discussions of Quantum Neural Networks and Machine Learning Applications in Quantum Computing, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "gold",
+    "label": "Hardware-Aware Neural Architecture Search and Accelerator Co-Design for Edge Devices",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "ancestor",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "sibling",
+    "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "verbose",
+    "label": "Hardware-Aware Neural Architecture Search and Accelerator Co-Design for Edge Devices, including various related discussions of Efficient Neural Network Compression and Optimization, Neural Network Compression via Structured Pruning and Tensor Decomposition Methods, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "gold",
+    "label": "Task-Oriented Dialogue Systems with Large Language Models and Response Generation",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "ancestor",
+    "label": "LLM Evaluation",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "sibling",
+    "label": "Aspect-Based Sentiment Analysis and Opinion Mining from Customer Reviews",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "verbose",
+    "label": "Task-Oriented Dialogue Systems with Large Language Models and Response Generation, including various related discussions of LLM Evaluation, Aspect-Based Sentiment Analysis and Opinion Mining from Customer Reviews, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "gold",
+    "label": "Differential Privacy and Membership Inference Attacks in Machine Learning Models",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "ancestor",
+    "label": "Privacy-Preserving Federated Learning Systems",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "sibling",
+    "label": "Federated Learning Optimization with Heterogeneous Data and Decentralized Model Aggregation",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "distant",
+    "label": "Learning Dexterous Robotic Manipulation from Demonstrations and Multimodal Sensing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "verbose",
+    "label": "Differential Privacy and Membership Inference Attacks in Machine Learning Models, including various related discussions of Privacy-Preserving Federated Learning Systems, Federated Learning Optimization with Heterogeneous Data and Decentralized Model Aggregation, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "gold",
+    "label": "Low-Bit Quantization and Model Compression for Efficient Deep Neural Network Inference",
+    "overall": 3.6666666666666665
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "ancestor",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "sibling",
+    "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+    "overall": 0.6666666666666666
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "distant",
+    "label": "Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "verbose",
+    "label": "Low-Bit Quantization and Model Compression for Efficient Deep Neural Network Inference, including various related discussions of Efficient Neural Network Compression and Optimization, Neural Network Compression via Structured Pruning and Tensor Decomposition Methods, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "gold",
+    "label": "Hierarchical and Abstraction-Based Reinforcement Learning with Temporal and State Representations",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "ancestor",
+    "label": "Deep Reinforcement Learning Exploration and Control",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "sibling",
+    "label": "Deep Reinforcement Learning: Actor-Critic Methods and Value Function Approximation for Control",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "distant",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "verbose",
+    "label": "Hierarchical and Abstraction-Based Reinforcement Learning with Temporal and State Representations, including various related discussions of Deep Reinforcement Learning Exploration and Control, Deep Reinforcement Learning: Actor-Critic Methods and Value Function Approximation for Control, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "gold",
+    "label": "Trustworthy AI in Healthcare: Clinical Decision Support, Equity, and COVID-19 Applications",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "ancestor",
+    "label": "Explainable AI and Trustworthy Systems",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "sibling",
+    "label": "Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "distant",
+    "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "verbose",
+    "label": "Trustworthy AI in Healthcare: Clinical Decision Support, Equity, and COVID-19 Applications, including various related discussions of Explainable AI and Trustworthy Systems, Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "gold",
+    "label": "AI-Assisted Collaborative Design and Project Management in Software Engineering",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "ancestor",
+    "label": "Explainable AI and Trustworthy Systems",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "sibling",
+    "label": "Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "verbose",
+    "label": "AI-Assisted Collaborative Design and Project Management in Software Engineering, including various related discussions of Explainable AI and Trustworthy Systems, Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "gold",
+    "label": "Explainable AI: Shapley Values, Feature Attribution, and Interpretable Model Explanations",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "ancestor",
+    "label": "Explainable AI and Trustworthy Systems",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "sibling",
+    "label": "Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "verbose",
+    "label": "Explainable AI: Shapley Values, Feature Attribution, and Interpretable Model Explanations, including various related discussions of Explainable AI and Trustworthy Systems, Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models, among other assorted and loosely connected topics",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "gold",
+    "label": "Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models",
+    "overall": 3.6666666666666665
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "ancestor",
+    "label": "Explainable AI and Trustworthy Systems",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "sibling",
+    "label": "Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "verbose",
+    "label": "Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models, including various related discussions of Explainable AI and Trustworthy Systems, Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "gold",
+    "label": "Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "ancestor",
+    "label": "Explainable AI and Trustworthy Systems",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "sibling",
+    "label": "Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "distant",
+    "label": "Low-Bit Quantization and Model Compression for Efficient Deep Neural Network Inference",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "verbose",
+    "label": "Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems, including various related discussions of Explainable AI and Trustworthy Systems, Explainable Artificial Intelligence Methods and Post-hoc Interpretability Techniques for Black-box Models, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "gold",
+    "label": "Exploration strategies for sparse reward reinforcement learning in hard exploration domains",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "ancestor",
+    "label": "Deep Reinforcement Learning Exploration and Control",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "sibling",
+    "label": "Hierarchical and Abstraction-Based Reinforcement Learning with Temporal and State Representations",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "verbose",
+    "label": "Exploration strategies for sparse reward reinforcement learning in hard exploration domains, including various related discussions of Deep Reinforcement Learning Exploration and Control, Hierarchical and Abstraction-Based Reinforcement Learning with Temporal and State Representations, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "gold",
+    "label": "Deep Reinforcement Learning: Actor-Critic Methods and Value Function Approximation for Control",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "ancestor",
+    "label": "Deep Reinforcement Learning Exploration and Control",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "sibling",
+    "label": "Hierarchical and Abstraction-Based Reinforcement Learning with Temporal and State Representations",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "distant",
+    "label": "Knowledge Graph Construction and Reasoning: Entity Alignment, Relation Extraction, and Multi-hop Question Answering",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "verbose",
+    "label": "Deep Reinforcement Learning: Actor-Critic Methods and Value Function Approximation for Control, including various related discussions of Deep Reinforcement Learning Exploration and Control, Hierarchical and Abstraction-Based Reinforcement Learning with Temporal and State Representations, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "gold",
+    "label": "Stochastic Gradient Descent Variants and Adaptive Learning Rate Methods for Nonconvex Optimization",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "ancestor",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "sibling",
+    "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "distant",
+    "label": "Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "verbose",
+    "label": "Stochastic Gradient Descent Variants and Adaptive Learning Rate Methods for Nonconvex Optimization, including various related discussions of Efficient Neural Network Compression and Optimization, Neural Network Compression via Structured Pruning and Tensor Decomposition Methods, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "gold",
+    "label": "Security, Privacy, and Robustness in Federated Learning Systems",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "ancestor",
+    "label": "Privacy-Preserving Federated Learning Systems",
+    "overall": 4.0
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "sibling",
+    "label": "Federated Learning Optimization with Heterogeneous Data and Decentralized Model Aggregation",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "verbose",
+    "label": "Security, Privacy, and Robustness in Federated Learning Systems, including various related discussions of Privacy-Preserving Federated Learning Systems, Federated Learning Optimization with Heterogeneous Data and Decentralized Model Aggregation, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "gold",
+    "label": "Federated Learning Optimization with Heterogeneous Data and Decentralized Model Aggregation",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "ancestor",
+    "label": "Privacy-Preserving Federated Learning Systems",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "sibling",
+    "label": "Security, Privacy, and Robustness in Federated Learning Systems",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "verbose",
+    "label": "Federated Learning Optimization with Heterogeneous Data and Decentralized Model Aggregation, including various related discussions of Privacy-Preserving Federated Learning Systems, Security, Privacy, and Robustness in Federated Learning Systems, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "gold",
+    "label": "Uncertainty Quantification and Out-of-Distribution Detection in Deep Neural Networks",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "ancestor",
+    "label": "Uncertainty Quantification and Anomaly Detection",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "sibling",
+    "label": "Class Imbalance Learning and Data Resampling Methods for Imbalanced Classification",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "verbose",
+    "label": "Uncertainty Quantification and Out-of-Distribution Detection in Deep Neural Networks, including various related discussions of Uncertainty Quantification and Anomaly Detection, Class Imbalance Learning and Data Resampling Methods for Imbalanced Classification, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "gold",
+    "label": "Class Imbalance Learning and Data Resampling Methods for Imbalanced Classification",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "ancestor",
+    "label": "Uncertainty Quantification and Anomaly Detection",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "sibling",
+    "label": "Uncertainty Quantification and Out-of-Distribution Detection in Deep Neural Networks",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "distant",
+    "label": "Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "verbose",
+    "label": "Class Imbalance Learning and Data Resampling Methods for Imbalanced Classification, including various related discussions of Uncertainty Quantification and Anomaly Detection, Uncertainty Quantification and Out-of-Distribution Detection in Deep Neural Networks, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "gold",
+    "label": "Theoretical Analysis of ReLU Networks: Optimization, Generalization, and Geometric Structure",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "ancestor",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "sibling",
+    "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "distant",
+    "label": "AI-Assisted Collaborative Design and Project Management in Software Engineering",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "verbose",
+    "label": "Theoretical Analysis of ReLU Networks: Optimization, Generalization, and Geometric Structure, including various related discussions of Efficient Neural Network Compression and Optimization, Neural Network Compression via Structured Pruning and Tensor Decomposition Methods, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "gold",
+    "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "ancestor",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "sibling",
+    "label": "Low-Bit Quantization and Model Compression for Efficient Deep Neural Network Inference",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "distant",
+    "label": "Responsible AI Development, Governance, and Human-Centered Trustworthiness in Autonomous Systems",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "verbose",
+    "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods, including various related discussions of Efficient Neural Network Compression and Optimization, Low-Bit Quantization and Model Compression for Efficient Deep Neural Network Inference, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "gold",
+    "label": "Domain Adaptation and Generalization: Transfer Learning Across Heterogeneous Source and Target Domains",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "ancestor",
+    "label": "Medical Vision",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "verbose",
+    "label": "Domain Adaptation and Generalization: Transfer Learning Across Heterogeneous Source and Target Domains, including various related discussions of Medical Vision, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "gold",
+    "label": "Unsupervised and Semi-supervised Anomaly Detection in Time Series and Multivariate Data",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "ancestor",
+    "label": "Time Series Forecasting and Anomaly Detection",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "sibling",
+    "label": "Predictive Maintenance and Fault Diagnosis in Industrial Rotating Machinery Using Data-Driven Approaches",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "verbose",
+    "label": "Unsupervised and Semi-supervised Anomaly Detection in Time Series and Multivariate Data, including various related discussions of Time Series Forecasting and Anomaly Detection, Predictive Maintenance and Fault Diagnosis in Industrial Rotating Machinery Using Data-Driven Approaches, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "gold",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "verbose",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP, including various related discussions of Automated Detection and Mitigation of Harmful Content in Social Media Using NLP, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "gold",
+    "label": "Deep Learning and Ensemble Methods for Long-Term Time Series Forecasting",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "ancestor",
+    "label": "Time Series Forecasting and Anomaly Detection",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "sibling",
+    "label": "Unsupervised and Semi-supervised Anomaly Detection in Time Series and Multivariate Data",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "verbose",
+    "label": "Deep Learning and Ensemble Methods for Long-Term Time Series Forecasting, including various related discussions of Time Series Forecasting and Anomaly Detection, Unsupervised and Semi-supervised Anomaly Detection in Time Series and Multivariate Data, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "gold",
+    "label": "Predictive Maintenance and Fault Diagnosis in Industrial Rotating Machinery Using Data-Driven Approaches",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "ancestor",
+    "label": "Time Series Forecasting and Anomaly Detection",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "sibling",
+    "label": "Unsupervised and Semi-supervised Anomaly Detection in Time Series and Multivariate Data",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.6666666666666666
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "verbose",
+    "label": "Predictive Maintenance and Fault Diagnosis in Industrial Rotating Machinery Using Data-Driven Approaches, including various related discussions of Time Series Forecasting and Anomaly Detection, Unsupervised and Semi-supervised Anomaly Detection in Time Series and Multivariate Data, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "gold",
+    "label": "Machine Learning and Graph Neural Networks for Network Intrusion Detection and Cyber Defense",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "ancestor",
+    "label": "Adversarial Attacks and Defense Mechanisms",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "sibling",
+    "label": "Adversarial Robustness and Defense Mechanisms for Deep Learning Models",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "verbose",
+    "label": "Machine Learning and Graph Neural Networks for Network Intrusion Detection and Cyber Defense, including various related discussions of Adversarial Attacks and Defense Mechanisms, Adversarial Robustness and Defense Mechanisms for Deep Learning Models, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "gold",
+    "label": "Adversarial Robustness and Defense Mechanisms for Deep Learning Models",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "ancestor",
+    "label": "Adversarial Attacks and Defense Mechanisms",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "sibling",
+    "label": "Machine Learning and Graph Neural Networks for Network Intrusion Detection and Cyber Defense",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "verbose",
+    "label": "Adversarial Robustness and Defense Mechanisms for Deep Learning Models, including various related discussions of Adversarial Attacks and Defense Mechanisms, Machine Learning and Graph Neural Networks for Network Intrusion Detection and Cyber Defense, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "gold",
+    "label": "Aspect-Based Sentiment Analysis and Opinion Mining from Customer Reviews",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "ancestor",
+    "label": "LLM Evaluation",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "sibling",
+    "label": "Task-Oriented Dialogue Systems with Large Language Models and Response Generation",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "verbose",
+    "label": "Aspect-Based Sentiment Analysis and Opinion Mining from Customer Reviews, including various related discussions of LLM Evaluation, Task-Oriented Dialogue Systems with Large Language Models and Response Generation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "gold",
+    "label": "Deep Learning for Clinical Medical Imaging Diagnosis and Pathology Detection",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "ancestor",
+    "label": "Deep Learning Clinical Outcome Prediction Systems",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "sibling",
+    "label": "Deep Learning for Clinical Outcome Prediction from Longitudinal Electronic Health Records",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "verbose",
+    "label": "Deep Learning for Clinical Medical Imaging Diagnosis and Pathology Detection, including various related discussions of Deep Learning Clinical Outcome Prediction Systems, Deep Learning for Clinical Outcome Prediction from Longitudinal Electronic Health Records, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "gold",
+    "label": "Deep Learning for Clinical Outcome Prediction from Longitudinal Electronic Health Records",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "ancestor",
+    "label": "Deep Learning Clinical Outcome Prediction Systems",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "sibling",
+    "label": "Deep Learning for Clinical Medical Imaging Diagnosis and Pathology Detection",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "verbose",
+    "label": "Deep Learning for Clinical Outcome Prediction from Longitudinal Electronic Health Records, including various related discussions of Deep Learning Clinical Outcome Prediction Systems, Deep Learning for Clinical Medical Imaging Diagnosis and Pathology Detection, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "gold",
+    "label": "Knowledge Distillation and Self-Supervised Learning for Efficient Neural Network Training",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "ancestor",
+    "label": "Medical Image Segmentation with Knowledge Distillation",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "sibling",
+    "label": "Deep Learning for Medical Image Segmentation and Disease Detection Across Modalities",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "verbose",
+    "label": "Knowledge Distillation and Self-Supervised Learning for Efficient Neural Network Training, including various related discussions of Medical Image Segmentation with Knowledge Distillation, Deep Learning for Medical Image Segmentation and Disease Detection Across Modalities, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "gold",
+    "label": "Deep Learning for Medical Image Segmentation and Disease Detection Across Modalities",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "ancestor",
+    "label": "Medical Image Segmentation with Knowledge Distillation",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "sibling",
+    "label": "Knowledge Distillation and Self-Supervised Learning for Efficient Neural Network Training",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "verbose",
+    "label": "Deep Learning for Medical Image Segmentation and Disease Detection Across Modalities, including various related discussions of Medical Image Segmentation with Knowledge Distillation, Knowledge Distillation and Self-Supervised Learning for Efficient Neural Network Training, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "gold",
+    "label": "Cross-lingual Transfer Learning and Low-resource Language NLP Tasks",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "verbose",
+    "label": "Cross-lingual Transfer Learning and Low-resource Language NLP Tasks, including various related discussions of Cross-lingual Transfer Learning and Low-resource Language NLP Tasks, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "gold",
+    "label": "Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "ancestor",
+    "label": "LLM Evaluation and Benchmarking Methods",
+    "overall": 0.6666666666666666
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "sibling",
+    "label": "Domain-Specific Language Model Benchmarks and Evaluation Frameworks for NLP",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "distant",
+    "label": "Edge AI and Computation Offloading in Cloud-Edge-Device Computing Continuum",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "verbose",
+    "label": "Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods, including various related discussions of LLM Evaluation and Benchmarking Methods, Domain-Specific Language Model Benchmarks and Evaluation Frameworks for NLP, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "gold",
+    "label": "Neuro-Symbolic Integration for Abstract Reasoning and Mathematical Logic",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "ancestor",
+    "label": "Structured Reasoning in Large Language Models",
+    "overall": 0.6666666666666666
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "sibling",
+    "label": "Chain-of-Thought Prompting and Reasoning Verification in Large Language Models",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "verbose",
+    "label": "Neuro-Symbolic Integration for Abstract Reasoning and Mathematical Logic, including various related discussions of Structured Reasoning in Large Language Models, Chain-of-Thought Prompting and Reasoning Verification in Large Language Models, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "gold",
+    "label": "Chain-of-Thought Prompting and Reasoning Verification in Large Language Models",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "ancestor",
+    "label": "Structured Reasoning in Large Language Models",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "sibling",
+    "label": "Neuro-Symbolic Integration for Abstract Reasoning and Mathematical Logic",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "distant",
+    "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Rehabilitation Applications",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "verbose",
+    "label": "Chain-of-Thought Prompting and Reasoning Verification in Large Language Models, including various related discussions of Structured Reasoning in Large Language Models, Neuro-Symbolic Integration for Abstract Reasoning and Mathematical Logic, among other assorted and loosely connected topics",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "gold",
+    "label": "Generative Adversarial Networks: Training Stability, Mode Collapse, and Theoretical Analysis",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "ancestor",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "sibling",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "verbose",
+    "label": "Generative Adversarial Networks: Training Stability, Mode Collapse, and Theoretical Analysis, including various related discussions of 3D Vision and Autonomous Driving Perception, 3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "gold",
+    "label": "Generative Adversarial Networks and Deep Learning for Image Synthesis and Reconstruction",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "ancestor",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "sibling",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "verbose",
+    "label": "Generative Adversarial Networks and Deep Learning for Image Synthesis and Reconstruction, including various related discussions of 3D Vision and Autonomous Driving Perception, 3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 74,
+    "type": "ancestor",
+    "label": "LLM Evaluation and Benchmarking Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 74,
+    "type": "sibling",
+    "label": "Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 74,
+    "type": "distant",
+    "label": "Multi-Agent Path Finding and Conflict Resolution in Dynamic Environments",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 74,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 75,
+    "type": "gold",
+    "label": "Evaluation Benchmarks and Prompt Optimization Methods for Large Language Models",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 75,
+    "type": "ancestor",
+    "label": "LLM Evaluation and Benchmarking Methods",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 75,
+    "type": "sibling",
+    "label": "Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 75,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 75,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 75,
+    "type": "verbose",
+    "label": "Evaluation Benchmarks and Prompt Optimization Methods for Large Language Models, including various related discussions of LLM Evaluation and Benchmarking Methods, Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 0,
+    "idx": 76,
+    "type": "gold",
+    "label": "Deep Learning Methods for Object Detection in Images and Scenes",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 76,
+    "type": "ancestor",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 0.6666666666666666
+  },
+  {
+    "layer": 0,
+    "idx": 76,
+    "type": "sibling",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 76,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 76,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 76,
+    "type": "verbose",
+    "label": "Deep Learning Methods for Object Detection in Images and Scenes, including various related discussions of 3D Vision and Autonomous Driving Perception, 3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 77,
+    "type": "gold",
+    "label": "Domain-Specific Language Model Benchmarks and Evaluation Frameworks for NLP",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 77,
+    "type": "ancestor",
+    "label": "LLM Evaluation and Benchmarking Methods",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 77,
+    "type": "sibling",
+    "label": "Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 77,
+    "type": "distant",
+    "label": "Quantum Neural Networks and Machine Learning Applications in Quantum Computing",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 77,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 77,
+    "type": "verbose",
+    "label": "Domain-Specific Language Model Benchmarks and Evaluation Frameworks for NLP, including various related discussions of LLM Evaluation and Benchmarking Methods, Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 78,
+    "type": "ancestor",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 78,
+    "type": "sibling",
+    "label": "Generative Adversarial Networks: Training Stability, Mode Collapse, and Theoretical Analysis",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 78,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 78,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 79,
+    "type": "gold",
+    "label": "3D Object Detection and Semantic Segmentation for Autonomous Driving using Multi-Modal Sensor Fusion",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 79,
+    "type": "ancestor",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 3.3333333333333335
+  },
+  {
+    "layer": 0,
+    "idx": 79,
+    "type": "sibling",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 79,
+    "type": "distant",
+    "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 79,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 0,
+    "idx": 79,
+    "type": "verbose",
+    "label": "3D Object Detection and Semantic Segmentation for Autonomous Driving using Multi-Modal Sensor Fusion, including various related discussions of 3D Vision and Autonomous Driving Perception, 3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 80,
+    "type": "gold",
+    "label": "Machine Reading Comprehension, Question Generation, and Language Model Evaluation",
+    "overall": 3.0
+  },
+  {
+    "layer": 0,
+    "idx": 80,
+    "type": "ancestor",
+    "label": "LLM Evaluation and Benchmarking Methods",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 80,
+    "type": "sibling",
+    "label": "Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 80,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 80,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 80,
+    "type": "verbose",
+    "label": "Machine Reading Comprehension, Question Generation, and Language Model Evaluation, including various related discussions of LLM Evaluation and Benchmarking Methods, Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 81,
+    "type": "gold",
+    "label": "Open-Domain Question Answering with Knowledge Integration and Retrieval Reranking",
+    "overall": 2.0
+  },
+  {
+    "layer": 0,
+    "idx": 81,
+    "type": "ancestor",
+    "label": "LLM Evaluation and Benchmarking Methods",
+    "overall": 1.0
+  },
+  {
+    "layer": 0,
+    "idx": 81,
+    "type": "sibling",
+    "label": "Abstractive and Extractive Document Summarization with Neural Models and Evaluation Methods",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 81,
+    "type": "distant",
+    "label": "3D Human Pose and Scene Understanding from Monocular Video and RGB-D Imagery",
+    "overall": 0.0
+  },
+  {
+    "layer": 0,
+    "idx": 81,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "gold",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "sibling",
+    "label": "Knowledge Graph Embedding and Completion",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "distant",
+    "label": "Text-Guided Video and Image Generation with Diffusion Models and Style Transfer",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "verbose",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation, including various related discussions of Knowledge Graph Embedding and Completion, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "gold",
+    "label": "Knowledge Graph Embedding and Completion",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "distant",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "verbose",
+    "label": "Knowledge Graph Embedding and Completion, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "gold",
+    "label": "Large Language Models for Code Understanding, Generation, and Security Vulnerability Detection",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "distant",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "verbose",
+    "label": "Large Language Models for Code Understanding, Generation, and Security Vulnerability Detection, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "gold",
+    "label": "Graph Neural Networks and Deep Learning Methods for Graph-Structured Data Analysis",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "verbose",
+    "label": "Graph Neural Networks and Deep Learning Methods for Graph-Structured Data Analysis, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "gold",
+    "label": "Deep Reinforcement Learning for Autonomous Driving",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "sibling",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "distant",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "verbose",
+    "label": "Deep Reinforcement Learning for Autonomous Driving, including various related discussions of Reinforcement Learning, Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "gold",
+    "label": "Speech and Audio Processing with Deep Learning",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "verbose",
+    "label": "Speech and Audio Processing with Deep Learning, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "gold",
+    "label": "Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "distant",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "verbose",
+    "label": "Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "gold",
+    "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "verbose",
+    "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "gold",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 2.5
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "sibling",
+    "label": "Deep Reinforcement Learning for Autonomous Driving",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "distant",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "verbose",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution, including various related discussions of Reinforcement Learning, Deep Reinforcement Learning for Autonomous Driving, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "gold",
+    "label": "Causal Discovery and Inference from Observational Data with Latent Confounders",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "distant",
+    "label": "Speech and Audio Processing with Deep Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "verbose",
+    "label": "Causal Discovery and Inference from Observational Data with Latent Confounders, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "gold",
+    "label": "Text-Guided Video and Image Generation with Diffusion Models and Style Transfer",
+    "overall": 1.5
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "verbose",
+    "label": "Text-Guided Video and Image Generation with Diffusion Models and Style Transfer, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "gold",
+    "label": "Robot Manipulation Learning with Multimodal Sensing",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "sibling",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "distant",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "verbose",
+    "label": "Robot Manipulation Learning with Multimodal Sensing, including various related discussions of Reinforcement Learning, Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "gold",
+    "label": "Deep Reinforcement Learning Exploration and Control",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "ancestor",
+    "label": "Reinforcement Learning",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "sibling",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "distant",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "verbose",
+    "label": "Deep Reinforcement Learning Exploration and Control, including various related discussions of Reinforcement Learning, Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "gold",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "sibling",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "distant",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "verbose",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions, including various related discussions of Algorithmic Fairness Metrics and Fair Allocation, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "gold",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "verbose",
+    "label": "Efficient Neural Network Compression and Optimization, including various related discussions of Efficient Neural Network Compression and Optimization, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "gold",
+    "label": "Explainable AI and Trustworthy Systems",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "distant",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.6666666666666666
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "verbose",
+    "label": "Explainable AI and Trustworthy Systems, including various related discussions of Explainable AI and Trustworthy Systems, among other assorted and loosely connected topics",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "gold",
+    "label": "Adversarial Attacks and Defense Mechanisms",
+    "overall": 4.0
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "ancestor",
+    "label": "Federated Security",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "sibling",
+    "label": "Privacy-Preserving Federated Learning Systems",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "verbose",
+    "label": "Adversarial Attacks and Defense Mechanisms, including various related discussions of Federated Security, Privacy-Preserving Federated Learning Systems, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "gold",
+    "label": "Privacy-Preserving Federated Learning Systems",
+    "overall": 3.3333333333333335
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "ancestor",
+    "label": "Federated Security",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "sibling",
+    "label": "Adversarial Attacks and Defense Mechanisms",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "distant",
+    "label": "Text-Guided Video and Image Generation with Diffusion Models and Style Transfer",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.3333333333333333
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "verbose",
+    "label": "Privacy-Preserving Federated Learning Systems, including various related discussions of Federated Security, Adversarial Attacks and Defense Mechanisms, among other assorted and loosely connected topics",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "gold",
+    "label": "Uncertainty Quantification and Anomaly Detection",
+    "overall": 3.6666666666666665
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "ancestor",
+    "label": "Temporal Anomaly Detection",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "sibling",
+    "label": "Time Series Forecasting and Anomaly Detection",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "verbose",
+    "label": "Uncertainty Quantification and Anomaly Detection, including various related discussions of Temporal Anomaly Detection, Time Series Forecasting and Anomaly Detection, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "gold",
+    "label": "Time Series Forecasting and Anomaly Detection",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "ancestor",
+    "label": "Temporal Anomaly Detection",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "sibling",
+    "label": "Uncertainty Quantification and Anomaly Detection",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "verbose",
+    "label": "Time Series Forecasting and Anomaly Detection, including various related discussions of Temporal Anomaly Detection, Uncertainty Quantification and Anomaly Detection, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "gold",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "ancestor",
+    "label": "LLM Evaluation",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "sibling",
+    "label": "Structured Reasoning in Large Language Models",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "distant",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "verbose",
+    "label": "Automated Detection and Mitigation of Harmful Content in Social Media Using NLP, including various related discussions of LLM Evaluation, Structured Reasoning in Large Language Models, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "gold",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "ancestor",
+    "label": "Medical Vision",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "sibling",
+    "label": "Medical Image Segmentation with Knowledge Distillation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "gold",
+    "label": "Deep Learning Clinical Outcome Prediction Systems",
+    "overall": 2.3333333333333335
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "ancestor",
+    "label": "Medical Vision",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "sibling",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "verbose",
+    "label": "Deep Learning Clinical Outcome Prediction Systems, including various related discussions of Medical Vision, 3D Vision and Autonomous Driving Perception, among other assorted and loosely connected topics",
+    "overall": 1.3333333333333333
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "gold",
+    "label": "Medical Image Segmentation with Knowledge Distillation",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "ancestor",
+    "label": "Medical Vision",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "sibling",
+    "label": "3D Vision and Autonomous Driving Perception",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "distant",
+    "label": "Logic Programming, Argumentation, and Non-Monotonic Reasoning with Probabilistic Extensions",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "verbose",
+    "label": "Medical Image Segmentation with Knowledge Distillation, including various related discussions of Medical Vision, 3D Vision and Autonomous Driving Perception, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 24,
+    "type": "gold",
+    "label": "Structured Reasoning in Large Language Models",
+    "overall": 3.0
+  },
+  {
+    "layer": 1,
+    "idx": 24,
+    "type": "ancestor",
+    "label": "LLM Evaluation",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 24,
+    "type": "sibling",
+    "label": "Cross-lingual Transfer Learning and Low-resource Language NLP Tasks",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 24,
+    "type": "distant",
+    "label": "Algorithmic Fairness Metrics and Fair Allocation",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 24,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 24,
+    "type": "verbose",
+    "label": "Structured Reasoning in Large Language Models, including various related discussions of LLM Evaluation, Cross-lingual Transfer Learning and Low-resource Language NLP Tasks, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 25,
+    "type": "gold",
+    "label": "Cross-lingual Transfer Learning and Low-resource Language NLP Tasks",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 25,
+    "type": "ancestor",
+    "label": "LLM Evaluation",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 25,
+    "type": "sibling",
+    "label": "Structured Reasoning in Large Language Models",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 25,
+    "type": "distant",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 25,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 25,
+    "type": "verbose",
+    "label": "Cross-lingual Transfer Learning and Low-resource Language NLP Tasks, including various related discussions of LLM Evaluation, Structured Reasoning in Large Language Models, among other assorted and loosely connected topics",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 26,
+    "type": "gold",
+    "label": "LLM Evaluation and Benchmarking Methods",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 26,
+    "type": "ancestor",
+    "label": "LLM Evaluation",
+    "overall": 2.0
+  },
+  {
+    "layer": 1,
+    "idx": 26,
+    "type": "sibling",
+    "label": "Structured Reasoning in Large Language Models",
+    "overall": 1.0
+  },
+  {
+    "layer": 1,
+    "idx": 26,
+    "type": "distant",
+    "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 26,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 1,
+    "idx": 26,
+    "type": "verbose",
+    "label": "LLM Evaluation and Benchmarking Methods, including various related discussions of LLM Evaluation, Structured Reasoning in Large Language Models, among other assorted and loosely connected topics",
+    "overall": 1.6666666666666667
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "gold",
+    "label": "Reinforcement Learning",
+    "overall": 2.6666666666666665
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "sibling",
+    "label": "Federated Security",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "distant",
+    "label": "Federated Security",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "verbose",
+    "label": "Reinforcement Learning, including various related discussions of Federated Security, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "gold",
+    "label": "Federated Security",
+    "overall": 2.0
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "sibling",
+    "label": "Reinforcement Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "distant",
+    "label": "LLM Evaluation",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "verbose",
+    "label": "Federated Security, including various related discussions of Reinforcement Learning, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "gold",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 2.0
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "sibling",
+    "label": "Reinforcement Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "distant",
+    "label": "LLM Evaluation",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "generic",
+    "label": "Various topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "verbose",
+    "label": "Efficient Neural Network Compression and Optimization, including various related discussions of Reinforcement Learning, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "gold",
+    "label": "LLM Evaluation",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "sibling",
+    "label": "Reinforcement Learning",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "distant",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "verbose",
+    "label": "LLM Evaluation, including various related discussions of Reinforcement Learning, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "gold",
+    "label": "Explainable AI and Trustworthy Systems",
+    "overall": 3.3333333333333335
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "sibling",
+    "label": "Reinforcement Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "distant",
+    "label": "Efficient Neural Network Compression and Optimization",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "generic",
+    "label": "General content",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "verbose",
+    "label": "Explainable AI and Trustworthy Systems, including various related discussions of Reinforcement Learning, among other assorted and loosely connected topics",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "gold",
+    "label": "Temporal Anomaly Detection",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "sibling",
+    "label": "Reinforcement Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "distant",
+    "label": "Reinforcement Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "generic",
+    "label": "Assorted posts",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "verbose",
+    "label": "Temporal Anomaly Detection, including various related discussions of Reinforcement Learning, among other assorted and loosely connected topics",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "gold",
+    "label": "Medical Vision",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "sibling",
+    "label": "Reinforcement Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "distant",
+    "label": "Reinforcement Learning",
+    "overall": 0.0
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "generic",
+    "label": "A range of subjects",
+    "overall": 1.0
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "verbose",
+    "label": "Medical Vision, including various related discussions of Reinforcement Learning, among other assorted and loosely connected topics",
+    "overall": 0.0
+  }
+]
