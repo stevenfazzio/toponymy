@@ -452,9 +452,11 @@ clusters, judge-calibrated cell):
   3.2 vs 8.8 words (−64%); judge fit 2.49 vs 2.45 (p=0.68).** Same identification, same fit,
   64% shorter (20NG: 55%).
 
-**The batch-by-story gate is satisfied. NEXT: assemble the new-thread post** (Phase 4 instrument
-+ fit-vs-identifiability + #176 catch + 5a/5b controller, both corpora), voice pass, Steven
-reviews → post on explicit go. 5a-on-arXiv remains optional.
+**SHIPPED 2026-07-04 (Steven's explicit go):** posted as
+https://github.com/TutteInstitute/toponymy/discussions/177 ("A wayfinding eval for topic labels:
+identification is not fit (+ measuring the detail_levels dial)"), linking `WAYFINDING.md` at this
+branch's tip — **branch frozen at the posted state; future work goes on a child branch.**
+Post body preserved in `post_wayfinding_draft.md`. 5a-on-arXiv remains optional/unrun.
 
 ### ⚠ 2026-07-04: the examples arXiv substrate is MISALIGNED (kill criterion fired, correctly)
 

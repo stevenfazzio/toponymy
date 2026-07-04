@@ -1,8 +1,7 @@
 # Draft — NEW discussion thread (Ideas) for TutteInstitute/toponymy
 
-Status: DRAFT for Steven's review 2026-07-04; post only on explicit go, after the WAYFINDING.md
-write-up exists on the branch and the branch is pushed.
-Link target: https://github.com/stevenfazzio/toponymy/blob/experiment/wayfinding-lineup/experiments/label_quality/WAYFINDING.md
+Status: POSTED 2026-07-04 → https://github.com/TutteInstitute/toponymy/discussions/177
+(This file is the record of the posted body; the thread is canonical.)
 
 Proposed title: A wayfinding eval for topic labels: identification is not fit (+ measuring the
 detail_levels dial)
