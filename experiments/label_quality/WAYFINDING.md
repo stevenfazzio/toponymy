@@ -1,8 +1,8 @@
 # Wayfinding lineups: measuring whether topic labels identify their regions
 
-> **DRAFT.** To share: a new discussion thread on TutteInstitute/toponymy that links here,
-> pending sign-off. This is the companion to [WRITEUP.md](WRITEUP.md) (the fit-metric study,
-> shared on Discussion #173); it covers the discrimination instrument and what it led to.
+> Shared as a discussion thread on TutteInstitute/toponymy (July 2026); this is the full
+> write-up that thread links to. Companion to [WRITEUP.md](WRITEUP.md) (the fit-metric study,
+> Discussion #173); this one covers the discrimination instrument and what it led to.
 
 ## TL;DR
 
