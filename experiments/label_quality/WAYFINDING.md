@@ -31,13 +31,15 @@ Five results, in decreasing order of confidence:
 4. **The eval doubles as a pipeline integrity check.** Its easy-lineup floor caught the
    misaligned bundled example data (toponymy#176) in one run, after several fit-judged
    experiments had run on the same data without complaint.
-5. **`detail_levels` can be replaced with a measurement.** Naming every cluster at every
+5. **The `detail_levels` dial doesn't survive measurement.** Naming every cluster at every
    `SUMMARY_KINDS` rung and selecting the shortest name whose identification is within the noise
    band of the best rung produces names that match stock on identification *and* on judge-rated
    fit at **55% (20NG) / 64% (arXiv) shorter**, evaluated on a held-out lineup configuration as a
    Goodhart guard. The dial is wrong in both directions: fine layers get far more words than
    identification needs, and at the arXiv coarse layer the stock rung ("simple (1 or 2 word)")
-   is the *worst* rung on the ladder.
+   is the *worst* rung on the ladder. The measurement is not free (roughly 25 to 30 times the
+   LLM traffic of stock naming, quantified below), so it is a calibration tool and an option,
+   not a proposed default.
 
 ## Why identification
 
@@ -215,7 +217,7 @@ stage is p90 = 0.095.
   all ≈ 0 mean marginal value): padding is semantic, not structural, so no truncation heuristic
   recovers this; you need the measurement.
 
-## Replacing the dial: the length controller
+## Measuring the dial: the length controller
 
 Toponymy sets label specificity open-loop. `detail_levels = linspace(lowest, highest, n_layers)`
 indexes a seven-rung `SUMMARY_KINDS` ladder of word-count phrases, from "domain expert level
@@ -231,6 +233,14 @@ Run every distinct name through the cluster's frozen lineup. Select per cluster 
 name whose pm is within the repeat band of the best rung**: minimize length subject to no
 measurable identification loss, with the band measured in-run (p90 = 0.047 on 20NG, 0.079 on
 arXiv). No absolute threshold, so the criterion adapts per cluster.
+
+**Cost, quantified, before the results.** Stock naming is one LLM call per cluster (plus the
+disambiguation pass's occasional renaming calls). The controller replaces that with seven naming
+calls plus the lineup evaluations: on these corpora, 6.8 and 6.3 distinct ladder names per
+cluster (adjacent rungs often produce the same name, and duplicates run once) × 3 listener
+samples = 20.3 and 18.8 listener calls per cluster at 3,751 input tokens each. Roughly 25 to 30
+times the LLM traffic of stock naming, so everything below should be read as "what the
+measurement buys", not as a proposed default.
 
 **The identification-vs-length curve is nearly flat.** Mean pm / mean words per rung:
 
@@ -282,8 +292,13 @@ savings back in disambiguation.
    fit or identification. The principled one: per-cluster specificity is measurable, and "the
    shortest name that still identifies the region among its neighbours" is a defensible
    definition of the right label length (REG's minimal distinguishing description, applied to
-   regions). The full controller costs about seven namings and seven lineup calls per cluster,
-   so it's an option, not a default.
+   regions). At 25 to 30 times the LLM traffic of stock naming, the controller is not a
+   default; its natural uses are (a) **calibration**: run it once on a representative corpus to
+   choose better static defaults, then ship the static result (the rate-distortion tables above
+   are exactly that run for these two corpora); (b) **targeted use**: coarse layers only, where
+   the clusters are few, the labels are most visible, and the dial is provably worst; (c)
+   **high-value maps** that are fit once and read many times, where naming cost amortizes over
+   readers.
 2. **For naming-quality evaluation, fit alone is not enough.** The grounded judge and the lineup
    disagree exactly where labels get realistic (padding; good-vs-good pairs). A change that
    improves fit can leave identification untouched and vice versa; measure both.
