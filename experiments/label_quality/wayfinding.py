@@ -83,10 +83,12 @@ def unit_rows(v: np.ndarray) -> np.ndarray:
 class Cell:
     """Replayed canonical fit (same recipe as metrics.py) + frozen lineup ingredients."""
 
-    def __init__(self, dataset: str = "20ng"):
+    def __init__(self, dataset: str = "20ng", subsample: int | None = None):
         from perturbations import load_fit
 
-        cl, objects, emb, coords, meta = load_fit(dataset, None, 25, 4)
+        if subsample is None and dataset == "arxiv":
+            subsample = 7000  # match the naming/battery runs (20ng's cache is already 7000)
+        cl, objects, emb, coords, meta = load_fit(dataset, subsample, 25, 4)
         for layer in cl.cluster_layers_:
             layer.make_exemplar_texts(objects, emb)  # deterministic; what the namer saw
         self.dataset, self.objects, self.tree = dataset, objects, cl.cluster_tree_
@@ -236,8 +238,8 @@ def derangement(n: int, seed: int) -> list[int]:
             return [int(x) for x in p]
 
 
-def load_battery():
-    return json.loads((HERE / "data" / "battery_20ng.json").read_text())
+def load_battery(dataset: str = "20ng"):
+    return json.loads((HERE / "data" / f"battery_{dataset}.json").read_text())
 
 
 def gold_by_cluster(battery):
@@ -377,7 +379,11 @@ def report_battery(units, cell, battery):
         print(f"\nsibling signature ({in_lineup} lineups contain the sibling): "
               f"mass on true {np.mean(sib_pm):.3f} vs mass on sibling {np.mean(sib_mass):.3f}")
     # gate (b): correlation with the grounded judge over judged battery candidates
-    jr = json.loads((HERE / "data" / "judge_ratings_20ng_sonnet.json").read_text())
+    jpath = HERE / "data" / f"judge_ratings_{getattr(cell, 'dataset', '20ng')}_sonnet.json"
+    if not jpath.exists():
+        print("\ngate (b): no judge ratings file for this dataset -- skipped")
+        return
+    jr = json.loads(jpath.read_text())
     jmap = {(r["layer"], r["idx"], r["type"]): r["overall"] for r in jr if r["overall"] is not None}
     pairs = [(u["pm"], jmap[(u["L"], u["i"], u["kind"])]) for u in _sel(units, mode="nn")
              if (u["L"], u["i"], u["kind"]) in jmap]
@@ -401,10 +407,13 @@ def main():
     args = ap.parse_args()
 
     cell = Cell(args.dataset)
-    battery = load_battery()
+    battery = load_battery(args.dataset)
     print(f"[{args.dataset}] replayed fit: clusters/layer {cell.counts} "
           f"(battery expects {dict(Counter(it['layer'] for it in battery))})")
-    assert cell.counts == [74, 24, 9], "canonical replay mismatch -- do not proceed"
+    if args.dataset == "20ng":
+        assert cell.counts == [74, 24, 9], "canonical replay mismatch -- do not proceed"
+    assert [len([x for x in battery if x['layer'] == L]) for L in range(len(cell.counts))] \
+        == cell.counts, "battery/replay cluster mismatch -- do not proceed"
 
     if args.stage == "check":
         gold = gold_by_cluster(battery)

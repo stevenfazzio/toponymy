@@ -436,8 +436,39 @@ clusterer; 754 distinct names through frozen lineups; band p90 0.047):
   per-cluster corrections (anti-conjuncts; coarse clusters needing more words).
 
 **Remaining before any post (the batch-by-story rule): one arXiv cell** — floors + battery
-(gate-a signatures incl. verbose divergence) + ladder/controller + held-out on the ab_harness
-arXiv substrate (@7000, base 25, min 4), namer haiku. 5a-on-arXiv is optional (nice-to-have).
+(gate-a signatures incl. verbose divergence) + ladder/controller + held-out, namer haiku.
+5a-on-arXiv is optional (nice-to-have).
+
+### ⚠ 2026-07-04: the examples arXiv substrate is MISALIGNED (kill criterion fired, correctly)
+
+First arXiv attempt used the `ab_harness` loader (examples/ai_arxiv_{vectors,coordinates,papers}
+paired row-wise, @7000). The haiku floors FAILED the gimme trial (gold 0.219 ≈ shuffled 0.196 ≈
+**gimme 0.217** ≈ chance 0.20 — on 20NG gimme is 0.87–0.93): the listener can't find the true
+cluster even with distant distractors, i.e. broken grounding, not bad labels. Diagnosis:
+**`examples/ai_arxiv_papers.zip` row order ≠ `ai_arxiv_vectors.npy` row order** (10,000 rows
+each, which invites row-pairing). Evidence: cosine(stored emb[j], mpnet(csv row j)) ≈ 0.12–0.34;
+model-agnostic check: stored-space nearest neighbours have near-random text similarity (0.27 vs
+0.15 random baseline) and sit at ADJACENT indices with unrelated texts (8496↔8497). Cluster
+labels on this substrate are the tell: every L0 name is "Diverse Machine Learning Applications
+Spanning …" (vs the at-home cell's specific names on the SAME 7000 docs, re-embedded).
+
+**Blast radius:** (a) this chain's labels/battery/floors → quarantined as
+`*.misaligned.bak.json`; (b) **the nibling-contrast arXiv arm (POSTED in #173) used this
+loader** — both A/B arms equally scrambled so the comparison was internally consistent, but the
+arXiv-arm numbers (e.g. "clear loss ~23% on the flatter arXiv set") were measured on
+incoherent doc-groups; the headline negative still rests on clean 20NG + Leland's independent
+confirmation; (c) **UNAFFECTED:** all 20NG work, the at-home 2×2 (re-embedded CSV text directly),
+the arXiv judge calibration, yesterday's #173 comment. Files are TRACKED UPSTREAM
+(TutteInstitute examples/) — possible upstream issue, Steven's call.
+
+**Instrument note for the writeup:** the grounded fit judge ran on this scrambled substrate
+without complaint (vague labels fit vague doc-sets); the gimme floor caught it in one run.
+Identifiability testing doubles as substrate-integrity testing — fit testing does not.
+
+**Path forward:** replicate on the **at-home arXiv substrate** (judge-calibrated, aligned by
+construction: `home_arxiv_minilm_{emb,coords}.npy` + deterministic clusterer replay à la
+`make_calibration_home.build_docs_for`, gold labels in `home_arxiv_minilm.json`) — needs a
+`Cell` variant + battery build on that fit.
 
 ## Files (experiments/label_quality/)
 
