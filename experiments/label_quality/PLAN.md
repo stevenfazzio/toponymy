@@ -435,9 +435,26 @@ clusterer; 754 distinct names through frozen lineups; band p90 0.047):
   defaults at fine layers) that captures much of the win, with the measurement reserved for the
   per-cluster corrections (anti-conjuncts; coarse clusters needing more words).
 
-**Remaining before any post (the batch-by-story rule): one arXiv cell** — floors + battery
-(gate-a signatures incl. verbose divergence) + ladder/controller + held-out, namer haiku.
-5a-on-arXiv is optional (nice-to-have).
+### arXiv replication COMPLETE (arxiv_home = the at-home 2×2 cell, 2026-07-04) — story confirmed
+
+Everything replicates on the aligned at-home arXiv substrate ([82, 27, 7] clusters, 116 battery
+clusters, judge-calibrated cell):
+- **Floors:** gold 0.489–0.545, shuffled 0.121–0.182, gimme 0.68–0.75 (top1 98–100%) — the gimme
+  ceiling returning (vs 0.217 misaligned) is the positive control for issue #176. No saturation.
+- **Battery (gate a):** gold 0.574 / verbose 0.476 / ancestor 0.270 / generic 0.182 (H 0.98) /
+  sibling 0.163 (mass→sibling 0.592 vs true 0.161) / distant 0.062 / shuffled 0.121 / gimme
+  0.814. Paired gold-beats: 83–100%, **verbose again weakest (83%) — the fit≠identifiability
+  divergence is now a two-corpus claim.** Gate (b) ρ = +0.741 (n=637).
+- **Controller:** rate–distortion flat again (L0 0.58→0.55 over 10→2 words), and L2 sharpens
+  "wrong in both directions": **the stock rung (simple 1–2 word) is the WORST rung at the coarse
+  layer** (0.48 vs 0.66 at 4 words); controller lengthens 4/7 L2 labels. **Held-out Goodhart
+  check (fresh docs + gpt-4o-mini, n=111 differing): chosen pm 0.448 vs stock 0.436 (p=0.99) at
+  3.2 vs 8.8 words (−64%); judge fit 2.49 vs 2.45 (p=0.68).** Same identification, same fit,
+  64% shorter (20NG: 55%).
+
+**The batch-by-story gate is satisfied. NEXT: assemble the new-thread post** (Phase 4 instrument
++ fit-vs-identifiability + #176 catch + 5a/5b controller, both corpora), voice pass, Steven
+reviews → post on explicit go. 5a-on-arXiv remains optional.
 
 ### ⚠ 2026-07-04: the examples arXiv substrate is MISALIGNED (kill criterion fired, correctly)
 
