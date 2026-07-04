@@ -1,0 +1,454 @@
+{
+  "0.0": [
+    "NHL Hockey Playoff Coverage Scheduling",
+    "NHL Hockey Playoff Coverage Broadcast Rights Disputes"
+  ],
+  "0.1": [
+    "Classified Advertisements for Travel Tickets",
+    "Classified Advertisements for Vacation Packages",
+    "Classified Advertisements for Event Reservations"
+  ],
+  "0.2": [
+    "AHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+    "NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes"
+  ],
+  "0.3": [
+    "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims",
+    "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Responsibility"
+  ],
+  "0.4": [
+    "NHL Stanley Cup Playoff Games Discussion",
+    "NHL Stanley Cup Playoff Games Live Game Commentary"
+  ],
+  "0.5": [
+    "Software Piracy",
+    "Copy Protection Schemes",
+    "Hacker Ethics Debate"
+  ],
+  "0.6": [
+    "Early 1990s NHL Season Analysis: Player Performance",
+    "Early 1990s NHL Season Analysis: Coaching Decisions",
+    "Early 1990s NHL Season Analysis: Playoff Contention"
+  ],
+  "0.7": [
+    "NHL Hockey Playoff Fantasy League Standings Discussion",
+    "NHL Hockey Playoff Fantasy League Game Results Discussion"
+  ],
+  "0.8": [
+    "Major League Baseball Player Statistics",
+    "Major League Baseball Player Career Comparisons",
+    "Major League Baseball Player Hall of Fame Eligibility Debates"
+  ],
+  "0.9": [
+    "Baseball Player Performance Analysis: Batting Patience",
+    "Baseball Player Performance Analysis: Batting Power",
+    "Baseball Player Performance Analysis: Defensive Evaluation"
+  ],
+  "0.10": [
+    "Major League Baseball Season Predictions",
+    "Major League Baseball Season Standings",
+    "Major League Baseball Game Recaps"
+  ],
+  "0.11": [
+    "Bosnian War Ethnic Cleansing Conflict Debates",
+    "Bosnian War International Military Intervention"
+  ],
+  "0.12": [
+    "Debate on Male Homosexuality Prevalence",
+    "Debate on Sexual Behavior Survey Data"
+  ],
+  "0.13": [
+    "Israeli-Palestinian Conflict: Occupation",
+    "Israeli-Palestinian Conflict: Violence",
+    "Israeli-Palestinian Conflict: Political Dispute"
+  ],
+  "0.14": [
+    "Heated Usenet Debates on Israel",
+    "Heated Usenet Debates on Anti-Semitism",
+    "Heated Usenet Debates on Jewish Identity Politics"
+  ],
+  "0.15": [
+    "Medical Skepticism in Clinical Practice",
+    "Alternative Therapies Debate in Clinical Practice"
+  ],
+  "0.16": [
+    "Alternative Treatments for Chronic Conditions and Allergies",
+    "Over-the-Counter Treatments for Chronic Conditions and Allergies"
+  ],
+  "0.17": [
+    "Gilligan's Island Character Sins Allegory",
+    "Literary Book Recommendations Discussion"
+  ],
+  "0.18": [
+    "X Window System Frequently Asked Questions",
+    "X Window System Technical Documentation"
+  ],
+  "0.19": [
+    "Telephone Line Electronics for Amateur Experimentation",
+    "DTMF Signaling Circuits for Amateur Experimentation"
+  ],
+  "0.20": [
+    "Government-Mandated Clipper Chip Initiative",
+    "Public Policy Debate on Law Enforcement Access"
+  ],
+  "0.21": [
+    "Skipjack Encryption Algorithm Security Analysis",
+    "Skipjack Encryption Algorithm Key Escrow Vulnerabilities"
+  ],
+  "0.22": [
+    "Technical Weaknesses in Skipjack Algorithm",
+    "Technical Weaknesses in Key Escrow System Implementation Security"
+  ],
+  "0.23": [
+    "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations"
+  ],
+  "0.24": [
+    "Clinton Administration Press Briefings April 1993",
+    "Clinton Administration Official Statements April 1993"
+  ],
+  "0.25": [
+    "Usenet Flame Wars",
+    "Personal Attacks on Racial and Intellectual Grounds"
+  ],
+  "0.26": [
+    "Automotive Cleaning Products for Paint Plastic and Components",
+    "Automotive Cleaning Techniques for Paint Plastic and Components"
+  ],
+  "0.27": [
+    "Residential Electrical Wiring",
+    "Residential Safety Codes",
+    "Residential Power Distribution Systems"
+  ],
+  "0.28": [
+    "Commercial lunar base development",
+    "long-duration human spaceflight technical analysis"
+  ],
+  "0.29": [
+    "Historical Planetary Space Probe Missions and Spacecraft Exploration",
+    "Current Planetary Space Probe Missions and Spacecraft Exploration"
+  ],
+  "0.30": [
+    "Hubble Space Telescope Servicing Mission Planning",
+    "Hubble Space Telescope Servicing Mission Orbital Mechanics Constraints"
+  ],
+  "0.31": [
+    "Clinton Administration Tax Policy Early 1990s",
+    "Clinton Administration Federal Spending Debates Early 1990s"
+  ],
+  "0.32": [
+    "Libertarian Philosophy Debate: Government Coercion",
+    "Libertarian Philosophy Debate: Limited State",
+    "Libertarian Philosophy Debate: Social Implementation"
+  ],
+  "0.33": [
+    "Larson's Reciprocal System Theory",
+    "Challenges to Orthodox Physics"
+  ],
+  "0.34": [
+    "FBI BATF Waco Siege Fire Cause Debate",
+    "FBI BATF Waco Siege Government Accountability"
+  ],
+  "0.35": [
+    "Biblical Interpretation of Homosexuality",
+    "Christian Theology Debate"
+  ],
+  "0.36": [
+    "Motorcycle Riding Techniques",
+    "Motorcycle Safety",
+    "Motorcycle Passenger Handling Advice"
+  ],
+  "0.37": [
+    "Waco Siege Controversy: Federal Agents",
+    "Waco Siege Controversy: Clinton Administration Accountability Debate"
+  ],
+  "0.38": [
+    "Second Amendment Rights Advocacy",
+    "Legislative Gun Control Debate"
+  ],
+  "0.39": [
+    "Firearms self-defense effectiveness",
+    "gun control policy debate"
+  ],
+  "0.40": [
+    "Critical Analysis of BATF FBI Tactics in Waco Siege",
+    "Critical Analysis of Government Actions in Waco Siege"
+  ],
+  "0.41": [
+    "Waco Siege: FBI BATF Raid on Branch Davidian Compound",
+    "Waco Siege: FBI BATF Raid on Koresh"
+  ],
+  "0.42": [
+    "DOS and Windows 3.1 System Configuration",
+    "DOS and Windows 3.1 Compatibility Issues",
+    "DOS and Windows 3.1 Troubleshooting"
+  ],
+  "0.43": [
+    "Philosophical Debate on Atheism",
+    "Philosophical Debate on Theism",
+    "Philosophical Debate on Belief",
+    "Philosophical Debate on Religious Faith"
+  ],
+  "0.44": [
+    "Used Motorcycle Sales Discussions",
+    "Used Motorcycle Pricing Discussions",
+    "Used Motorcycle Purchase Advice Discussions"
+  ],
+  "0.45": [
+    "Christian theology debates on salvation",
+    "Christian theology debates on scripture interpretation",
+    "Christian theology debates on biblical doctrine"
+  ],
+  "0.46": [
+    "Biblical Canon Formation",
+    "Deuterocanonical Books",
+    "Scripture Authority Debates"
+  ],
+  "0.47": [
+    "Comparative Analysis of Secret Religious Rituals Across Faiths",
+    "Comparative Analysis of Esoteric Traditions Across Faiths"
+  ],
+  "0.48": [
+    "Used Car Sales Listings with Detailed Vehicle Specifications",
+    "Used Car Sales Listings with Pricing Information"
+  ],
+  "0.49": [
+    "Classic Automotive Engine Types",
+    "Modern Automotive Engine Types",
+    "Performance Cars",
+    "Convertible Options"
+  ],
+  "0.50": [
+    "Windows 3.x Utility Software Recommendations",
+    "Windows 3.x File Management Tools Discussion"
+  ],
+  "0.51": [
+    "X Window System Colormap Management Techniques",
+    "X Window System Visual Configuration Techniques"
+  ],
+  "0.52": [
+    "TrueType Font Printing Issues in Windows 3.1",
+    "TrueType Font Configuration in Windows 3.1"
+  ],
+  "0.53": [
+    "Modem Sales Discussion",
+    "Modem Specifications Discussion",
+    "Modem Technical Features Discussion"
+  ],
+  "0.54": [
+    "Intel 486DX2 CPU Overclocking Performance Testing",
+    "Intel 486DX2 CPU Overclocking Thermal Management"
+  ],
+  "0.55": [
+    "Used Electronics For Sale and Wanted Classifieds",
+    "Used Computer Equipment For Sale and Wanted Classifieds"
+  ],
+  "0.56": [
+    "Usenet Classified Advertisements for Collectibles",
+    "Usenet Classified Advertisements for Comics",
+    "Usenet Classified Advertisements for Music Videos",
+    "Usenet Classified Advertisements for Media"
+  ],
+  "0.57": [
+    "Used Home Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+    "Used Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components"
+  ],
+  "0.58": [
+    "Computational Geometry Algorithms for 3D Point Location",
+    "Computational Geometry Algorithms for Polygon Analysis"
+  ],
+  "0.59": [
+    "Macintosh Printer Connectivity for Non-Apple Printers",
+    "Macintosh Driver Configuration for Non-Apple Printers"
+  ],
+  "0.60": [
+    "HP Inkjet Printer Consumables",
+    "HP Laser Printer Consumables",
+    "HP Inkjet Printer Cartridges",
+    "HP Laser Printer Cartridges",
+    "HP Inkjet and Laser Printer Performance Comparison"
+  ],
+  "0.61": [
+    "Vintage Computer Monitor Selection and Compatibility Across PC Systems",
+    "Vintage Computer Monitor Selection and Compatibility Across Mac Systems",
+    "Vintage Computer Monitor Selection and Compatibility Across Atari Systems"
+  ],
+  "0.62": [
+    "3D Graphics Software Libraries Discussion",
+    "3D Graphics Rendering Techniques Discussion",
+    "3D Graphics Animation Tools Discussion"
+  ],
+  "0.63": [
+    "IDE Hard Drive Installation Configuration and Troubleshooting",
+    "SCSI Hard Drive Installation Configuration and Troubleshooting"
+  ],
+  "0.64": [
+    "Image File Format Conversion Software for Graphics Files",
+    "Image File Format Viewer Software for Graphics Files"
+  ],
+  "0.65": [
+    "X11 Window System Software Distribution Sources",
+    "X11 Window System Toolkit Implementation Questions"
+  ],
+  "0.66": [
+    "X11R5 Build Issues",
+    "X11R5 Library Linking Errors",
+    "X11R5 Configuration Problems"
+  ],
+  "0.67": [
+    "X Window System Programming: Window Creation",
+    "X Window System Programming: Window Positioning",
+    "X Window System Programming: Window Events",
+    "X Window System Programming: Window Manager Interactions"
+  ],
+  "0.68": [
+    "Apple Centris Macintosh Hardware Configuration Performance Specifications",
+    "Apple Quadra Macintosh Hardware Configuration Performance Specifications"
+  ],
+  "0.69": [
+    "Macintosh Computer Memory Upgrades",
+    "Macintosh Computer Expansion Card Compatibility Issues"
+  ],
+  "0.70": [
+    "Vintage Windows Graphics Card Benchmarking",
+    "Vintage Windows Graphics Card VESA Driver Performance Evaluation"
+  ],
+  "0.71": [
+    "Windows 3.1 Video Card Drivers",
+    "Windows 3.1 Graphics Hardware Compatibility Issues"
+  ],
+  "0.72": [
+    "Vintage Computer Hardware Sales from 1980s-1990s Era",
+    "Vintage Computer Software Sales from 1980s-1990s Era"
+  ],
+  "0.73": [
+    "Vintage Computer Hardware For Sale Classifieds",
+    "Vintage Computer Peripherals For Sale Classifieds"
+  ],
+  "1.0": [
+    "Early 1990s NHL Playoff Fantasy League"
+  ],
+  "1.1": [
+    "Nutritional Medicine Debate",
+    "Alternative Medicine Debate"
+  ],
+  "1.2": [
+    "MLB Season Predictions",
+    "MLB Player Analysis"
+  ],
+  "1.3": [
+    "Major League Baseball Player Statistics",
+    "Major League Baseball Player Career Comparisons",
+    "Major League Baseball Player Hall of Fame Eligibility Debates"
+  ],
+  "1.4": [
+    "Israeli-Palestinian Conflict",
+    "Ethnic Violence"
+  ],
+  "1.5": [
+    "Clipper Chip Encryption Policy Debate"
+  ],
+  "1.6": [
+    "Space exploration missions",
+    "Space exploration spacecraft"
+  ],
+  "1.7": [
+    "Usenet Flame Wars",
+    "Personal Attacks on Racial and Intellectual Grounds"
+  ],
+  "1.8": [
+    "Libertarian Philosophy",
+    "Clinton-Era Politics"
+  ],
+  "1.9": [
+    "Waco Siege Federal Government Accountability"
+  ],
+  "1.10": [
+    "Second Amendment Rights",
+    "Gun Control"
+  ],
+  "1.11": [
+    "Motorcycle Riding Techniques",
+    "Motorcycle Safety",
+    "Motorcycle Passenger Handling Advice"
+  ],
+  "1.12": [
+    "DOS and Windows 3.1 System Configuration",
+    "DOS and Windows 3.1 Compatibility Issues",
+    "DOS and Windows 3.1 Troubleshooting"
+  ],
+  "1.13": [
+    "Philosophical Debate on Atheism",
+    "Philosophical Debate on Theism",
+    "Philosophical Debate on Belief",
+    "Philosophical Debate on Religious Faith"
+  ],
+  "1.14": [
+    "Used Cars",
+    "Performance Vehicles"
+  ],
+  "1.15": [
+    "Used Motorcycle Sales Discussions",
+    "Used Motorcycle Pricing Discussions",
+    "Used Motorcycle Purchase Advice Discussions"
+  ],
+  "1.16": [
+    "Religious History",
+    "Scripture Authority Debates"
+  ],
+  "1.17": [
+    "Christian theology debates on salvation",
+    "Christian theology debates on scripture interpretation",
+    "Christian theology debates on biblical doctrine"
+  ],
+  "1.18": [
+    "Used Electronics Classifieds",
+    "Used Equipment Classifieds"
+  ],
+  "1.19": [
+    "IDE Hard Drive Installation Configuration and Troubleshooting",
+    "SCSI Hard Drive Installation Configuration and Troubleshooting"
+  ],
+  "1.20": [
+    "Image File Format Conversion Software for Graphics Files",
+    "Image File Format Viewer Software for Graphics Files"
+  ],
+  "1.21": [
+    "X11 Programming Issues",
+    "X11 Build Issues"
+  ],
+  "1.22": [
+    "Vintage Windows Graphics Card Driver Issues"
+  ],
+  "1.23": [
+    "Vintage Computer Hardware Sales Classifieds"
+  ],
+  "2.0": [
+    "Sports Fantasy"
+  ],
+  "2.1": [
+    "Nutritional Medicine Debate",
+    "Alternative Medicine Debate"
+  ],
+  "2.2": [
+    "Clipper Chip Encryption Policy Debate"
+  ],
+  "2.3": [
+    "Space exploration missions",
+    "Space exploration spacecraft"
+  ],
+  "2.4": [
+    "Vehicle Sales"
+  ],
+  "2.5": [
+    "Christian Theology"
+  ],
+  "2.6": [
+    "Waco Siege"
+  ],
+  "2.7": [
+    "X11 Graphics"
+  ],
+  "2.8": [
+    "Computer Classifieds"
+  ]
+}

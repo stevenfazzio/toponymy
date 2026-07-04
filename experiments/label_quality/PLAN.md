@@ -201,6 +201,39 @@ pairs: 104 × 2 × 3 ≈ 0.6k more; floors/sweeps on haiku. Same async_judge plu
 
 ---
 
+## Phase 5 — from measuring to controlling *(the constructive turn; conjunct ablation + length controller)*
+
+**Why.** Phase 4 established identifiability as a second axis and left one library-shaped opening:
+Toponymy sets label specificity with an open-loop dial (`detail_levels` → a `SUMMARY_KINDS` ladder of
+word-count phrases indexed by layer altitude; the templates *ask* for distinguishability but nothing
+checks it). The lineup is the checker. Framing (from the 2026-07-03 debrief): a label is a lossy code
+for its region; the lineup ≈ an InfoNCE-style estimate of I(label; region) against the layer's
+neighbours; label quality = rate (length) vs distortion (identification error). Post NOTHING until the
+story completes (batch-by-story decision); 20NG first, ≥1 arXiv cell before any post.
+
+**5a — conjunct ablation** *(cheap; validates 5b's core assumption)*. Split each compound gold label
+into top-level conjuncts (haiku splitter, structured output, light distribution of shared modifiers so
+conjuncts stand alone; splits cached + eyeballed). Two variants per conjunct through the cluster's
+FROZEN lineup (paired with the already-run battery gold): `drop:i` (label minus that conjunct) and
+`only:i` (that conjunct alone). Δpm(drop) = marginal identification value (free-rider if below the
+repeat band); pm(only) vs pm(full) = could the label just *be* that conjunct (MDL question directly).
+Report: free-rider fraction, position effects, % of labels with a single sufficient conjunct,
+face-valid examples. ~1.2k sonnet calls ≈ $13.
+
+**5b — the length controller** *(the payoff; possible library contribution)*. Per cluster: name at
+every `SUMMARY_KINDS` rung with Toponymy's own templates (haiku namer, stock features), run each rung
+through the frozen lineup (sonnet), select the **shortest rung whose pm is within the repeat band of
+the best rung** (MDL: minimize length s.t. no measurable identification loss — adaptive per cluster,
+no absolute threshold). Compare controller picks vs stock linspace names on judge fit, lineup pm, and
+length. Byproduct figure: pm vs label length across rungs per layer = the empirical rate–distortion
+curve of topic naming. **Goodhart guard (non-negotiable, Gao et al. 2023): all headline evaluation on
+a HELD-OUT lineup config** — fresh doc/distractor draws + a different listener (gpt-4o-mini; haiku
+names, sonnet selects, so no self-preference) + judge-fit non-regression. ~107×7×3 ≈ 2.2k sonnet
+calls ≈ $25 + held-out eval.
+
+**5c (optional, at post-assembly time)** — human-as-listener form (~20 lineups: label + k candidate
+doc-groups, pick the group) to close c-3's fit-style-presentation gap.
+
 ## Kill criteria (so we don't fool ourselves)
 
 - **Phase 0:** if grounded judge–human κ stays low, fix the instrument before trusting any
@@ -213,6 +246,13 @@ pairs: 104 × 2 × 3 ≈ 0.6k more; floors/sweeps on haiku. Same async_judge plu
   listener/grounding is broken — fix the instrument before interpreting anything. If gold sits at
   ceiling even at k=7 nn-hardening, the layer is saturated: wayfinding can't rank good-vs-good
   either — report saturation, don't torture the design until it confesses.
+- **Phase 5a:** if the splitter's conjuncts are junk on inspection, fix the splitter before
+  interpreting; if every |Δpm| sits inside the repeat band, conjuncts are behaviorally
+  indistinguishable — report that and drop conjunct-level reasoning from 5b.
+- **Phase 5b:** any claimed gain must survive the held-out lineup (fresh draws + gpt-4o-mini
+  listener) AND not regress judge fit. If shortest-within-band collapses to always-longest (band too
+  tight) or always-shortest (lineups saturated), the selection rule is broken — fix or report, don't
+  tune τ until it flatters.
 
 ---
 
@@ -384,6 +424,9 @@ decided pairs). Venue call (new thread vs #173 append) after the human seed.
   (shuffled / gimme / repeat), metrics + confusion matrix → `data/wayfinding_<ds>.json`.
 - `wayfinding_pairs.py` — Phase 4 gate (c): the 104 fine pairs through frozen lineups + the
   human-seed export for lineup-decided-judge-tied pairs.
+- `conjunct_ablation.py` — Phase 5a: split compound gold labels into standalone conjuncts (cached
+  LLM splits), run drop:i / only:i variants through frozen lineups, marginal identification value
+  per conjunct → `data/wayfinding_20ng_conjuncts.json`.
 
 Reuses the nibling harness (`../nibling_contrast/`): `ab_harness.{load_dataset,make_namer,make_embedder}`
 and `judge_fair.sample_docs`. All fits use `ToponymyClusterer(min_clusters=4, base_min_cluster_size=25)`
