@@ -305,8 +305,13 @@ the lineup as a *selector* (rather than an evaluator) invites Goodhart pressure 
 held-out configuration checks; anything stronger than the controller's shortest-within-band rule
 should re-verify against a fresh listener and fresh draws, per Gao et al. 2023.
 
-End-to-end this cost roughly $150 of API spend, dominated by sonnet lineup calls (about 3.5k
-input tokens per call, three calls per lineup).
+On cost, the precise accounting rather than a dollar figure: the committed result files record
+**17,055 successful listener calls** across the floors, batteries, fine pairs, conjunct
+ablation, ladder lineups, and held-out evaluations on both corpora (each unit stores its raw
+samples, so this is counted, not estimated). A representative k=5 lineup prompt is **3,751 input
+tokens** for claude-sonnet-4-6 (token-counting endpoint, 2026-07-04), with a small JSON object
+back; three calls per lineup. The two seven-rung naming ladders and the grounded-judge calls
+come on top of that. Multiply by your own prices.
 
 ## Reproduce
 
