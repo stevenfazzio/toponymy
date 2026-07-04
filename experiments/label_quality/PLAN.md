@@ -408,6 +408,37 @@ functionally equivalent on the identification axis too (outcome ii), a thin tail
 identifying (outcome iii tail), and fit ≠ identifiability throughout (verbose divergence; −0.21 on
 decided pairs). Venue call (new thread vs #173 append) after the human seed.
 
+## Phase 5 results (run 2026-07-04, 20NG canonical cell)
+
+**5a — conjunct ablation** (94 compound labels, 225 conjuncts; band p90 0.095): **87% of
+conjuncts are free-riders** (mean marginal identification value +0.004 ≈ 0); **12% are
+anti-conjuncts** (dropping HELPS — they pull mass toward a neighbour that owns that content: the
+sub-label version of the Canada/US point); 13% load-bearing, and those are the distinguishing
+specifics ("Larson's Reciprocal System Theory" +0.45 — independently reconfirms the Phase-4
+fine-pair finding). **96% of compound labels have one conjunct within band of the full label**
+(mean −40% length). No position effect (padding is semantic, not structural).
+
+**5b — length controller** (7-rung ladder × 107 clusters, stock Toponymy machinery, shared
+clusterer; 754 distinct names through frozen lineups; band p90 0.047):
+- **The rate–distortion curve is nearly flat**: L0 mean pm 0.50→0.47 from 10-word to 2-word
+  names; L1 0.63→0.59; L2 0.82→0.80. Words 3–10 buy ~no identification on average.
+- **Controller vs stock (in-sample)**: differs on 91/107 clusters; L0 −5.7 words (70/74 differ),
+  L1 −1.0, **L2 +1.4 (moves BOTH directions — "simple (1 or 2 word)" is sometimes too little)**.
+  Selection did not collapse (L0 chosen rungs spread 0→6). In-sample +pm not quoted (winner's
+  curse by construction).
+- **Held-out Goodhart check (fresh doc draws + gpt-4o-mini listener, n=91 differing clusters):
+  chosen pm 0.516 vs stock 0.524 (Δ −0.008, Wilcoxon p=1.0) at 3.8 vs 8.5 words; grounded judge
+  fit 2.79 vs 2.75 (p=0.57).** The claim that survives: **same identification, same fit, 55%
+  shorter labels.** detail_levels' open-loop word-count dial spends rate that buys no distortion.
+- Deployment note for any library conversation: the full controller costs ~7 namings + ~7
+  lineups per cluster; the flat curve also supports a cheap static fix (terser SUMMARY_KINDS
+  defaults at fine layers) that captures much of the win, with the measurement reserved for the
+  per-cluster corrections (anti-conjuncts; coarse clusters needing more words).
+
+**Remaining before any post (the batch-by-story rule): one arXiv cell** — floors + battery
+(gate-a signatures incl. verbose divergence) + ladder/controller + held-out on the ab_harness
+arXiv substrate (@7000, base 25, min 4), namer haiku. 5a-on-arXiv is optional (nice-to-have).
+
 ## Files (experiments/label_quality/)
 
 - `PLAN.md` — this plan + running findings/status.
