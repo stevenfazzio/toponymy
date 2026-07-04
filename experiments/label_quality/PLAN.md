@@ -465,10 +465,16 @@ the arXiv judge calibration, yesterday's #173 comment. Files are TRACKED UPSTREA
 without complaint (vague labels fit vague doc-sets); the gimme floor caught it in one run.
 Identifiability testing doubles as substrate-integrity testing — fit testing does not.
 
+**Reported (2026-07-04, Steven's go):** upstream issue
+https://github.com/TutteInstitute/toponymy/issues/176 (body: `issue_arxiv_alignment.md`);
+correction comment on the original post:
+https://github.com/TutteInstitute/toponymy/discussions/173#discussioncomment-17532133
+(body: `post_173_correction.md`).
+
 **Path forward:** replicate on the **at-home arXiv substrate** (judge-calibrated, aligned by
 construction: `home_arxiv_minilm_{emb,coords}.npy` + deterministic clusterer replay à la
-`make_calibration_home.build_docs_for`, gold labels in `home_arxiv_minilm.json`) — needs a
-`Cell` variant + battery build on that fit.
+`make_calibration_home.build_docs_for`, gold labels in `home_arxiv_minilm.json`) — implemented
+as `Cell("arxiv_home")` (HOME_TAGS alias) + `make_home_battery.py` → `battery_arxiv_home.json`.
 
 ## Files (experiments/label_quality/)
 

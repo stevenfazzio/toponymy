@@ -49,6 +49,10 @@ MODELS = {"haiku": "anthropic/claude-haiku-4-5-20251001", "sonnet": "anthropic/c
 K_DEFAULT, N_DOCS, MAXLEN, K_SAMPLES, TEMP = 5, 5, 500, 3, 0.7
 LETTERS = "ABCDEFG"
 
+# at-home substrates: dataset alias -> cached 2x2 cell (re-embedded from text, so document/vector
+# alignment holds by construction -- the examples arXiv files are row-misaligned, see issue #176)
+HOME_TAGS = {"arxiv_home": "arxiv_minilm"}
+
 PROMPT = """You will identify which group of documents a LABEL names.
 
 LABEL: "{label}"
@@ -84,11 +88,24 @@ class Cell:
     """Replayed canonical fit (same recipe as metrics.py) + frozen lineup ingredients."""
 
     def __init__(self, dataset: str = "20ng", subsample: int | None = None):
-        from perturbations import load_fit
+        if dataset in HOME_TAGS:
+            # replay an at-home 2x2 cell exactly (same recipe as make_calibration_home)
+            from ab_harness import load_dataset
+            from toponymy.cluster_layer import ClusterLayerText
+            from toponymy.clustering import ToponymyClusterer
 
-        if subsample is None and dataset == "arxiv":
-            subsample = 7000  # match the naming/battery runs (20ng's cache is already 7000)
-        cl, objects, emb, coords, meta = load_fit(dataset, subsample, 25, 4)
+            tag = HOME_TAGS[dataset]
+            emb = np.load(HERE / "data" / f"home_{tag}_emb.npy")
+            coords = np.load(HERE / "data" / f"home_{tag}_coords.npy")
+            objects, _, _, _ = load_dataset(tag.split("_")[0], emb.shape[0])
+            cl = ToponymyClusterer(min_clusters=4, base_min_cluster_size=25, verbose=False)
+            cl.fit_predict(coords, emb, ClusterLayerText)
+        else:
+            from perturbations import load_fit
+
+            if subsample is None and dataset == "arxiv":
+                subsample = 7000  # match the naming/battery runs (20ng's cache is already 7000)
+            cl, objects, emb, coords, meta = load_fit(dataset, subsample, 25, 4)
         for layer in cl.cluster_layers_:
             layer.make_exemplar_texts(objects, emb)  # deterministic; what the namer saw
         self.dataset, self.objects, self.tree = dataset, objects, cl.cluster_tree_
@@ -417,7 +434,7 @@ def main():
 
     if args.stage == "check":
         gold = gold_by_cluster(battery)
-        for (L, i) in [(0, 0), (1, 3), (2, 5)]:
+        for (L, i) in [(0, 0), (1, min(3, cell.counts[1] - 1)), (2, min(5, cell.counts[2] - 1))]:
             lu = cell.lineup(L, i, K_DEFAULT, "nn")
             docs = cell.held_out(L, i)
             ex = set(map(int, cell.layers[L].exemplar_indices[i]))
