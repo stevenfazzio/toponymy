@@ -1,9 +1,12 @@
 # What are Toponymy's three naming-prompt features actually worth?
 
-> Companion write-up for the naming-feature work (phase 6), continuing
-> [WRITEUP.md](WRITEUP.md) (the fit-metric study, Discussion #173) and
-> [WAYFINDING.md](WAYFINDING.md) (the identification instrument, Discussion #177).
-> **Not yet shared** — flip this banner when posted.
+> Shared (August 2026) as comments on
+> [TutteInstitute/toponymy Discussion #173](https://github.com/TutteInstitute/toponymy/discussions/173#discussioncomment-17874315)
+> (the substance) and
+> [Discussion #177](https://github.com/TutteInstitute/toponymy/discussions/177#discussioncomment-17874317)
+> (a pointer, since the exemplars result sharpens that thread's central claim); this is the full
+> write-up both link to. Companion to [WRITEUP.md](WRITEUP.md) (the fit-metric study, #173) and
+> [WAYFINDING.md](WAYFINDING.md) (the identification instrument, #177).
 
 ## TL;DR
 
