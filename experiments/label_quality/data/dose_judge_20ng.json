@@ -1,0 +1,1722 @@
+{
+  "1": {
+    "1.10": {
+      "label": "Second Amendment Rights and Gun Control",
+      "overall": 4.0
+    },
+    "2.0": {
+      "label": "Sports Fantasy",
+      "overall": 1.0
+    },
+    "2.5": {
+      "label": "Christian Theology",
+      "overall": 2.0
+    },
+    "2.6": {
+      "label": "Waco Siege",
+      "overall": 3.0
+    },
+    "2.7": {
+      "label": "X11 Graphics",
+      "overall": 2.6666666666666665
+    },
+    "0.0": {
+      "label": "Sports Broadcasting Coverage and Television Rights for Hockey and Professional Sports",
+      "overall": 3.6666666666666665
+    },
+    "0.1": {
+      "label": "Travel Vouchers and Vacation Package Certificates for Discounted Airfare and Hotel Accommodation",
+      "overall": 1.6666666666666667
+    },
+    "0.2": {
+      "label": "American Hockey League franchise relocations and organizational changes in Atlantic Canada",
+      "overall": 0.3333333333333333
+    },
+    "0.3": {
+      "label": "Armenian-Turkish Historical Disputes and Genocide Denial Debates in Caucasus",
+      "overall": 3.6666666666666665
+    },
+    "0.4": {
+      "label": "National Hockey League Playoff Game Results and Series Updates",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Software Piracy, Copy Protection Schemes, and Hacker Ethics in Computing",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "NHL Hockey Teams, Players, Coaching Changes and International Competition Analysis",
+      "overall": 3.0
+    },
+    "0.7": {
+      "label": "Usenet Hockey Playoff Fantasy Draft League Standings and Team Rankings",
+      "overall": 2.6666666666666665
+    },
+    "0.8": {
+      "label": "Major League Baseball Defensive Fielding Statistics and Player Performance Analysis",
+      "overall": 1.0
+    },
+    "0.9": {
+      "label": "Baseball Batting Strategy: Plate Discipline, Power Hitting, and Pitcher-Batter Dynamics",
+      "overall": 2.0
+    },
+    "0.10": {
+      "label": "Baseball Season Predictions and Retrospective Analysis of 1991-1992 MLB Performance",
+      "overall": 1.0
+    },
+    "0.11": {
+      "label": "Bosnian War Ethnic Cleansing Conflict Arms Embargo Religious Tensions Balkans",
+      "overall": 4.0
+    },
+    "0.12": {
+      "label": "Comparative Analysis of Sexual Behavior Statistics and Homosexuality Prevalence Studies",
+      "overall": 3.0
+    },
+    "0.13": {
+      "label": "Israeli-Palestinian Conflict and Middle East Political Dynamics",
+      "overall": 4.0
+    },
+    "0.14": {
+      "label": "Controversial debates on antisemitism, Nazi history, and Israeli policy criticism",
+      "overall": 4.0
+    },
+    "0.15": {
+      "label": "HIV/AIDS Medical Treatment, Alternative Medicine Debates, and Patient Care Discussion",
+      "overall": 2.0
+    },
+    "0.16": {
+      "label": "Alternative and Nutritional Approaches to Chronic Disease and Symptom Management",
+      "overall": 1.0
+    },
+    "0.17": {
+      "label": "Religious Critique and Apologetics Discussion with References to Specific Christian Authors",
+      "overall": 1.0
+    },
+    "0.18": {
+      "label": "X Window System Graphics Programming and Window Manager Technical Discussion",
+      "overall": 1.0
+    },
+    "0.19": {
+      "label": "International Telephone Compatibility and DTMF Dialing System Standards",
+      "overall": 1.0
+    },
+    "0.20": {
+      "label": "Government Mandated Key Escrow Policy and Law Enforcement Access to Encrypted Communications",
+      "overall": 3.6666666666666665
+    },
+    "0.21": {
+      "label": "Skipjack Algorithm Vulnerabilities and Deterministic Key Generation Cryptographic Flaws",
+      "overall": 2.0
+    },
+    "0.22": {
+      "label": "Clipper Chip Encryption Backdoor Controversy and Government Wiretap Policy Debate",
+      "overall": 4.0
+    },
+    "0.23": {
+      "label": "Objective versus Subjective Morality and Ethics Philosophical Debate",
+      "overall": 4.0
+    },
+    "0.24": {
+      "label": "Clinton Administration Summer Jobs Program Speech and White House Press Briefing Materials",
+      "overall": 1.0
+    },
+    "0.25": {
+      "label": "Debate on Racial Discrimination and Argumentative Discourse Quality Standards",
+      "overall": 1.3333333333333333
+    },
+    "0.26": {
+      "label": "Diesel Engine Emissions Control Technologies and Environmental Impact Comparison",
+      "overall": 1.0
+    },
+    "0.27": {
+      "label": "Electrical Wiring Standards, Grounding Systems, and National Electrical Code Compliance",
+      "overall": 2.0
+    },
+    "0.28": {
+      "label": "Technical Analysis of Long-Duration Human Spaceflight and Advanced Space Exploration",
+      "overall": 2.0
+    },
+    "0.29": {
+      "label": "Space Exploration Missions: Spacecraft Probes, Planetary Flybys, and NASA Operations",
+      "overall": 2.0
+    },
+    "0.30": {
+      "label": "Space Shuttle Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics",
+      "overall": 2.0
+    },
+    "0.31": {
+      "label": "Political debate on Clinton administration tax policy and economic proposals",
+      "overall": 2.0
+    },
+    "0.32": {
+      "label": "Libertarian Philosophy and Critique of State Coercion in Governance",
+      "overall": 3.0
+    },
+    "0.33": {
+      "label": "Larson's Reciprocal System Theory and Alternative Physics Unified Framework",
+      "overall": 1.0
+    },
+    "0.34": {
+      "label": "FBI Tear Gas Use and Fire Safety Concerns at Waco Siege",
+      "overall": 3.0
+    },
+    "0.35": {
+      "label": "Biblical Interpretation of Homosexuality and Christian Theology Debates",
+      "overall": 4.0
+    },
+    "0.36": {
+      "label": "Motorcycle Riding Techniques Countersteering Lean Handling and Safety Discussion",
+      "overall": 2.6666666666666665
+    },
+    "0.37": {
+      "label": "Waco Siege Accountability and Clinton Administration Legal Liability Debate",
+      "overall": 3.0
+    },
+    "0.38": {
+      "label": "Second Amendment Legislative Advocacy and Gun Control Bill Tracking by State",
+      "overall": 2.0
+    },
+    "0.39": {
+      "label": "Firearm Self-Defense Rights and Gun Control Policy Debate",
+      "overall": 4.0
+    },
+    "0.40": {
+      "label": "Critical Analysis of BATF and FBI Actions During the 1993 Waco Siege",
+      "overall": 4.0
+    },
+    "0.41": {
+      "label": "Waco Siege Controversy: FBI BATF Operations and Koresh Compound Standoff",
+      "overall": 4.0
+    },
+    "0.42": {
+      "label": "DOS and Windows System Configuration Memory Management and Hardware Optimization",
+      "overall": 2.3333333333333335
+    },
+    "0.43": {
+      "label": "Philosophical Debate on Atheism, Theism, and Existence of God",
+      "overall": 3.0
+    },
+    "0.44": {
+      "label": "Motorcycle Purchase, Maintenance, and Performance Discussion",
+      "overall": 3.3333333333333335
+    },
+    "0.45": {
+      "label": "Christian theology, faith, salvation, and biblical interpretation discussions",
+      "overall": 3.6666666666666665
+    },
+    "0.46": {
+      "label": "Christian Bible Study, Canon Formation, and Theological Resources for New Believers",
+      "overall": 2.0
+    },
+    "0.47": {
+      "label": "Secret Religious Rituals and Temple Ceremonies in Christian and Esoteric Traditions",
+      "overall": 2.3333333333333335
+    },
+    "0.48": {
+      "label": "Used Car Sales and Specifications Discussion for Compact Sedans and Hatchbacks",
+      "overall": 2.0
+    },
+    "0.49": {
+      "label": "Automotive Engine Types and Vehicle Models Discussion Forum",
+      "overall": 2.5
+    },
+    "0.50": {
+      "label": "Windows 3.x Utilities, File Management Tools, and Software Distribution via FTP",
+      "overall": 3.3333333333333335
+    },
+    "0.51": {
+      "label": "X Window System Colormap Allocation and Display Management Techniques",
+      "overall": 3.0
+    },
+    "0.52": {
+      "label": "TrueType Font Rendering and Printing Issues in Windows Systems",
+      "overall": 2.0
+    },
+    "0.53": {
+      "label": "High-speed modem hardware specifications, protocols, and data compression technologies",
+      "overall": 2.0
+    },
+    "0.54": {
+      "label": "Intel 486DX2 and AMD386 CPU Overclocking Performance Testing with Bus Speed Optimization",
+      "overall": 1.6666666666666667
+    },
+    "0.55": {
+      "label": "Used Electronics and Audio Equipment For Sale with Shipping and Contact Information",
+      "overall": 2.6666666666666665
+    },
+    "0.56": {
+      "label": "Comic Books and Collectibles For Sale with Shipping Information",
+      "overall": 1.0
+    },
+    "0.57": {
+      "label": "Home Audio Equipment Sales and Specifications Discussion",
+      "overall": 2.0
+    },
+    "0.58": {
+      "label": "Computational Geometry and Parametric Curve Analysis Algorithms",
+      "overall": 2.0
+    },
+    "0.59": {
+      "label": "Macintosh Printer Connectivity Issues and Non-AppleTalk LaserWriter Configuration",
+      "overall": 2.0
+    },
+    "0.60": {
+      "label": "Laser Printer versus Ink Jet Technology Comparison and Consumable Costs Analysis",
+      "overall": 2.0
+    },
+    "0.61": {
+      "label": "Computer Monitor Selection and Compatibility for Multiple Computer Platforms",
+      "overall": 4.0
+    },
+    "0.62": {
+      "label": "3D Graphics Software Libraries and Rendering Techniques for Computer Applications",
+      "overall": 3.0
+    },
+    "0.63": {
+      "label": "Installing and Configuring Multiple Hard Drives IDE SCSI Controllers",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Image File Format Conversion and Graphics Viewer Software for Windows Systems",
+      "overall": 2.3333333333333335
+    },
+    "0.65": {
+      "label": "X11R5 Window Managers, Toolkits, and Widgets from MIT Export Server",
+      "overall": 1.0
+    },
+    "0.66": {
+      "label": "X11 Terminal Emulator Build Issues and Library Linking Problems on Solaris",
+      "overall": 1.6666666666666667
+    },
+    "0.67": {
+      "label": "X Window System Event Handling and Window Creation Issues",
+      "overall": 2.0
+    },
+    "0.68": {
+      "label": "Macintosh Centris and Classic Computer Hardware Performance Benchmarking Discussions",
+      "overall": 2.0
+    },
+    "0.69": {
+      "label": "Vintage Apple Macintosh Computer Hardware Expansion Cards and Bus Interfaces",
+      "overall": 2.0
+    },
+    "0.70": {
+      "label": "Video Graphics Card Performance Benchmarking and Comparative Testing Methods",
+      "overall": 2.3333333333333335
+    },
+    "0.71": {
+      "label": "Vintage Graphics Card Drivers and Display Configuration Issues for Windows 3.1",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Software Titles and Peripherals for Sale with Negotiable Pricing and Shipping Terms",
+      "overall": 2.0
+    },
+    "0.73": {
+      "label": "CPU Motherboards RAM and Portable Systems Market Pricing Comparisons and Dealer Quotes",
+      "overall": 2.0
+    },
+    "1.0": {
+      "label": "NHL Playoff Fantasy Draft League",
+      "overall": 3.0
+    },
+    "1.1": {
+      "label": "Chronic Disease Alternative Treatment Approaches",
+      "overall": 2.0
+    },
+    "1.2": {
+      "label": "MLB Batting Strategy and Performance Analysis",
+      "overall": 2.0
+    },
+    "1.3": {
+      "label": "Major League Baseball Defensive Fielding Statistics and Player Performance Analysis",
+      "overall": 1.0
+    },
+    "1.4": {
+      "label": "Middle East Conflict and Ethnic Violence",
+      "overall": 3.0
+    },
+    "1.5": {
+      "label": "Clipper Chip Government Encryption Backdoor Debate",
+      "overall": 4.0
+    },
+    "1.6": {
+      "label": "Space Exploration and NASA Missions",
+      "overall": 2.6666666666666665
+    },
+    "1.7": {
+      "label": "Debate on Racial Discrimination and Argumentative Discourse Quality Standards",
+      "overall": 1.0
+    },
+    "1.8": {
+      "label": "Libertarian Critique of Government Coercion",
+      "overall": 2.6666666666666665
+    },
+    "1.9": {
+      "label": "Waco Siege Federal Agent Accountability",
+      "overall": 3.3333333333333335
+    },
+    "1.11": {
+      "label": "Motorcycle Riding Techniques Countersteering Lean Handling and Safety Discussion",
+      "overall": 2.0
+    },
+    "1.12": {
+      "label": "DOS and Windows System Configuration Memory Management and Hardware Optimization",
+      "overall": 2.0
+    },
+    "1.13": {
+      "label": "Philosophical Debate on Atheism, Theism, and Existence of God",
+      "overall": 3.0
+    },
+    "1.14": {
+      "label": "Automotive Engines and Vehicle Models",
+      "overall": 2.0
+    },
+    "1.15": {
+      "label": "Motorcycle Purchase, Maintenance, and Performance Discussion",
+      "overall": 3.0
+    },
+    "1.16": {
+      "label": "Christian Origins and Religious Mysteries",
+      "overall": 2.0
+    },
+    "1.17": {
+      "label": "Christian theology, faith, salvation, and biblical interpretation discussions",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Used Electronics and Comics For Sale",
+      "overall": 1.3333333333333333
+    },
+    "1.19": {
+      "label": "Installing and Configuring Multiple Hard Drives IDE SCSI Controllers",
+      "overall": 3.0
+    },
+    "1.20": {
+      "label": "Image File Format Conversion and Graphics Viewer Software for Windows Systems",
+      "overall": 2.0
+    },
+    "1.21": {
+      "label": "X11 Window System Programming Issues",
+      "overall": 3.0
+    },
+    "1.22": {
+      "label": "Vintage Graphics Card Benchmarking and Drivers",
+      "overall": 2.0
+    },
+    "1.23": {
+      "label": "Vintage Computer Hardware Sales and Pricing",
+      "overall": 3.0
+    },
+    "2.1": {
+      "label": "Chronic Disease Alternative Treatment Approaches",
+      "overall": 2.0
+    },
+    "2.2": {
+      "label": "Clipper Chip Government Encryption Backdoor Debate",
+      "overall": 4.0
+    },
+    "2.3": {
+      "label": "Space Exploration and NASA Missions",
+      "overall": 3.0
+    },
+    "2.4": {
+      "label": "Motorcycle Discussion",
+      "overall": 2.0
+    },
+    "2.8": {
+      "label": "Vintage Hardware",
+      "overall": 2.0
+    }
+  },
+  "2": {
+    "0.35": {
+      "label": "Biblical Interpretation of Homosexuality and Christian Theology Debate",
+      "overall": 4.0
+    },
+    "1.9": {
+      "label": "Waco Siege Federal Government Accountability",
+      "overall": 4.0
+    },
+    "1.10": {
+      "label": "Second Amendment Rights and Gun Control",
+      "overall": 4.0
+    },
+    "2.0": {
+      "label": "Sports Fantasy",
+      "overall": 1.0
+    },
+    "2.6": {
+      "label": "Waco Siege",
+      "overall": 3.0
+    },
+    "2.7": {
+      "label": "X11 Graphics",
+      "overall": 2.6666666666666665
+    },
+    "0.0": {
+      "label": "ESPN Hockey Coverage Limitations and Contractual Obligations with Baseball Broadcasting",
+      "overall": 2.6666666666666665
+    },
+    "0.1": {
+      "label": "Classified Advertisements for Travel Packages, Event Tickets, and Vacation Vouchers",
+      "overall": 3.0
+    },
+    "0.2": {
+      "label": "American Hockey League franchise movements, affiliations, and organizational changes",
+      "overall": 1.0
+    },
+    "0.3": {
+      "label": "Armenian-Turkish Historical Disputes and Genocide Claims Debate",
+      "overall": 3.6666666666666665
+    },
+    "0.4": {
+      "label": "NHL Ice Hockey Playoff Games Scores Results and Match Discussions",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Software Piracy Ethics, Copy Protection Mechanisms, and Casual User Copying Behavior",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "NHL Hockey Team Performance Analysis and Coaching Decisions During Regular Season",
+      "overall": 2.0
+    },
+    "0.7": {
+      "label": "NHL Hockey Playoff Fantasy Draft League Standings and Game Results",
+      "overall": 3.3333333333333335
+    },
+    "0.8": {
+      "label": "Defensive Performance Evaluation and Historical Player Comparison Across Positions and Eras",
+      "overall": 1.0
+    },
+    "0.9": {
+      "label": "Offensive Strategy, Plate Discipline, and First Base Defensive Measurement Challenges",
+      "overall": 3.0
+    },
+    "0.10": {
+      "label": "Major League Baseball Season Predictions and Game Outcome Discussions",
+      "overall": 4.0
+    },
+    "0.11": {
+      "label": "Bosnian Conflict Ethnic Cleansing Arms Embargo Religious Tensions Balkans",
+      "overall": 3.3333333333333335
+    },
+    "0.12": {
+      "label": "Debate on homosexual prevalence rates and sexual behavior statistics from epidemiological studies",
+      "overall": 3.0
+    },
+    "0.13": {
+      "label": "Israeli-Palestinian Conflict: Occupation, Peace Negotiations, and Regional Politics",
+      "overall": 3.0
+    },
+    "0.14": {
+      "label": "Holocaust Denial and Anti-Semitic Rhetoric in Political Discourse",
+      "overall": 2.0
+    },
+    "0.15": {
+      "label": "HIV/AIDS Medical Information and Alternative Medicine Criticism in Healthcare",
+      "overall": 2.0
+    },
+    "0.16": {
+      "label": "Chronic Disease Management, Allergies, Medications and Nutritional Treatment Approaches",
+      "overall": 2.0
+    },
+    "0.17": {
+      "label": "Religious Critique and Cult Awareness Discussion with Skeptical Analysis",
+      "overall": 2.0
+    },
+    "0.18": {
+      "label": "X Window System Graphics Programming FAQs and Technical Documentation Resources",
+      "overall": 1.0
+    },
+    "0.19": {
+      "label": "International Telephone Compatibility and DTMF Dialing System Technical Issues",
+      "overall": 2.0
+    },
+    "0.20": {
+      "label": "White House Clipper Chip Initiative: Government-Mandated Key Escrow Encryption for Law Enforcement Access",
+      "overall": 4.0
+    },
+    "0.21": {
+      "label": "Clipper Chip Encryption Key Escrow System Security Analysis and Cryptographic Vulnerabilities",
+      "overall": 3.3333333333333335
+    },
+    "0.22": {
+      "label": "Technical Vulnerabilities and Criminal Exploitation Risks in Clipper Chip Key Escrow Architecture",
+      "overall": 2.0
+    },
+    "0.23": {
+      "label": "Objective versus Subjective Morality: Philosophical Debate on Ethics and Society",
+      "overall": 4.0
+    },
+    "0.24": {
+      "label": "Clinton Administration Summer Jobs and Youth Employment Programs 1993",
+      "overall": 1.0
+    },
+    "0.25": {
+      "label": "Debate on Misquotation, Personal Attacks, and Substantive Discourse in Online Discussions",
+      "overall": 2.0
+    },
+    "0.26": {
+      "label": "Diesel Emissions Control and Environmental Cleanup Technologies Discussion",
+      "overall": 1.0
+    },
+    "0.27": {
+      "label": "Electrical Wiring Safety Standards, Grounding Systems, and National Electrical Code Compliance",
+      "overall": 2.3333333333333335
+    },
+    "0.28": {
+      "label": "Technical Analysis of Long-Duration Human Spaceflight and Advanced Space Programs",
+      "overall": 2.0
+    },
+    "0.29": {
+      "label": "Space Missions, Spacecraft Probes, and Planetary Exploration Programs",
+      "overall": 2.3333333333333335
+    },
+    "0.30": {
+      "label": "Hubble Space Telescope Servicing Mission Planning and Orbital Reboost Operations",
+      "overall": 3.0
+    },
+    "0.31": {
+      "label": "Clinton Administration Tax Policy Criticism and Political Economic Debate",
+      "overall": 2.0
+    },
+    "0.32": {
+      "label": "Libertarian Philosophy and Critique of Government Coercion in Complex Societies",
+      "overall": 3.0
+    },
+    "0.33": {
+      "label": "Larson's Reciprocal System Theory and Alternative Physics Unified Framework Discussions",
+      "overall": 1.0
+    },
+    "0.34": {
+      "label": "Waco siege tear gas deployment and fire investigation at Branch Davidian compound",
+      "overall": 4.0
+    },
+    "0.36": {
+      "label": "Motorcycle riding techniques, safety, and passenger handling advice",
+      "overall": 3.0
+    },
+    "0.37": {
+      "label": "Waco Siege Government Accountability and Impeachment Debate Clinton Reno",
+      "overall": 3.0
+    },
+    "0.38": {
+      "label": "Second Amendment Rights and Gun Control Legislative Advocacy Debates",
+      "overall": 4.0
+    },
+    "0.39": {
+      "label": "Firearms Self-Defense Effectiveness and Gun Control Policy Debate",
+      "overall": 3.0
+    },
+    "0.40": {
+      "label": "Critical Analysis of Federal Handling and Tactics During Waco Branch Davidian Siege",
+      "overall": 4.0
+    },
+    "0.41": {
+      "label": "Waco Siege: FBI BATF Operations Against Branch Davidian Compound Controversy",
+      "overall": 4.0
+    },
+    "0.42": {
+      "label": "DOS and Windows 3.1 System Configuration, Memory Management, and Troubleshooting",
+      "overall": 3.0
+    },
+    "0.43": {
+      "label": "Atheism Definitions and Philosophical Debate on Belief in God's Existence",
+      "overall": 3.3333333333333335
+    },
+    "0.44": {
+      "label": "Motorcycle Purchase, Depreciation, and Technical Maintenance Discussion",
+      "overall": 2.3333333333333335
+    },
+    "0.45": {
+      "label": "Christian theology and biblical faith debates with apologetic arguments",
+      "overall": 3.3333333333333335
+    },
+    "0.46": {
+      "label": "Christian Scripture Interpretation and Biblical Canon Authority for New Believers",
+      "overall": 2.0
+    },
+    "0.47": {
+      "label": "Comparative Religious Rituals and Doctrinal Debates Across Christian Traditions",
+      "overall": 2.0
+    },
+    "0.48": {
+      "label": "Used Car Sales Listings and Vehicle Specifications for Private Sellers",
+      "overall": 3.0
+    },
+    "0.49": {
+      "label": "Classic and Contemporary Automobile Engine Types, Models, and Performance Specifications",
+      "overall": null
+    },
+    "0.50": {
+      "label": "Windows 3.x Utilities and Software Distribution via FTP CICA Indiana",
+      "overall": 2.6666666666666665
+    },
+    "0.51": {
+      "label": "X Window System Colormap Allocation and Display Programming Techniques",
+      "overall": 3.0
+    },
+    "0.52": {
+      "label": "TrueType Font Rendering, Printing Issues, and Windows Configuration Solutions",
+      "overall": 2.0
+    },
+    "0.53": {
+      "label": "Modem Hardware Sales and Technical Specifications for Data Compression Error Correction",
+      "overall": 3.0
+    },
+    "0.54": {
+      "label": "Intel 486 CPU Overclocking Performance Testing and Upgrade Compatibility",
+      "overall": 1.6666666666666667
+    },
+    "0.55": {
+      "label": "Classified Advertisements for Used Electronics and Audio Equipment Sales",
+      "overall": 3.0
+    },
+    "0.56": {
+      "label": "Usenet Classifieds for Comic Books and Collectibles Sales Listings",
+      "overall": 2.0
+    },
+    "0.57": {
+      "label": "Home Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+      "overall": 2.0
+    },
+    "0.58": {
+      "label": "Computational Geometry Algorithms for 3D Curve Analysis and Triangulation",
+      "overall": null
+    },
+    "0.59": {
+      "label": "Macintosh Printer Connectivity and AppleTalk Network Printing Solutions",
+      "overall": 2.0
+    },
+    "0.60": {
+      "label": "Printer Technology Comparison: Laser versus Inkjet Cartridge Costs and Performance",
+      "overall": 2.0
+    },
+    "0.61": {
+      "label": "Vintage Computer Monitor Selection and Video Card Compatibility for Retro Systems",
+      "overall": 2.0
+    },
+    "0.62": {
+      "label": "3D Graphics Libraries and Software Tools for Computer-Aided Design Applications",
+      "overall": 2.0
+    },
+    "0.63": {
+      "label": "IDE and SCSI Hard Drive Installation Configuration and Controller Setup",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Image File Format Conversion Tools and Graphics File Utilities",
+      "overall": 3.0
+    },
+    "0.65": {
+      "label": "X11 Window Systems, Toolkits, and Server Software Distribution and Implementation",
+      "overall": 4.0
+    },
+    "0.66": {
+      "label": "X11 Terminal Emulator and Display Server Configuration Issues and Troubleshooting",
+      "overall": 3.0
+    },
+    "0.67": {
+      "label": "X11 Window Creation and Event Handling Issues with Multiple Windows",
+      "overall": 2.0
+    },
+    "0.68": {
+      "label": "Macintosh Centris 610 Hardware Configuration Performance Benchmarks and FPU Upgrades",
+      "overall": 2.6666666666666665
+    },
+    "0.69": {
+      "label": "Macintosh Computer Hardware Upgrades and Bus Architecture Specifications",
+      "overall": 2.6666666666666665
+    },
+    "0.70": {
+      "label": "Vintage PC Graphics Cards Benchmarking and VESA Driver Compatibility Issues",
+      "overall": 3.3333333333333335
+    },
+    "0.71": {
+      "label": "Windows Graphics Card Drivers and Video Display Issues for Legacy Systems",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Complete Computer Systems and Software Bundles with Detailed Specifications and Negotiable Pricing",
+      "overall": 2.0
+    },
+    "0.73": {
+      "label": "Individual Computer Components and Motherboards with Processor Configurations for Retro Enthusiasts",
+      "overall": 1.6666666666666667
+    },
+    "1.0": {
+      "label": "NHL Hockey Playoff Fantasy Draft League",
+      "overall": 2.6666666666666665
+    },
+    "1.1": {
+      "label": "Nutritional Treatment Chronic Disease Management",
+      "overall": 1.0
+    },
+    "1.2": {
+      "label": "Baseball Offensive Strategy and Pitching Analysis",
+      "overall": 2.0
+    },
+    "1.3": {
+      "label": "Defensive Performance Evaluation and Historical Player Comparison Across Positions and Eras",
+      "overall": 1.3333333333333333
+    },
+    "1.4": {
+      "label": "Middle East Conflict Religious Tensions Discourse",
+      "overall": 2.3333333333333335
+    },
+    "1.5": {
+      "label": "Clipper Chip Key Escrow Encryption Debate",
+      "overall": 4.0
+    },
+    "1.6": {
+      "label": "Space Missions and Orbital Operations",
+      "overall": 2.0
+    },
+    "1.7": {
+      "label": "Debate on Misquotation, Personal Attacks, and Substantive Discourse in Online Discussions",
+      "overall": 3.0
+    },
+    "1.8": {
+      "label": "Libertarian Critique of Government Coercion",
+      "overall": 3.0
+    },
+    "1.11": {
+      "label": "Motorcycle riding techniques, safety, and passenger handling advice",
+      "overall": 3.6666666666666665
+    },
+    "1.12": {
+      "label": "DOS and Windows 3.1 System Configuration, Memory Management, and Troubleshooting",
+      "overall": 3.0
+    },
+    "1.13": {
+      "label": "Atheism Definitions and Philosophical Debate on Belief in God's Existence",
+      "overall": 3.0
+    },
+    "1.14": {
+      "label": "Used Cars and Engine Specifications",
+      "overall": 2.0
+    },
+    "1.15": {
+      "label": "Motorcycle Purchase, Depreciation, and Technical Maintenance Discussion",
+      "overall": 2.0
+    },
+    "1.16": {
+      "label": "Christian Doctrine and Religious Tradition Comparison",
+      "overall": 3.0
+    },
+    "1.17": {
+      "label": "Christian theology and biblical faith debates with apologetic arguments",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Used Electronics and Audio Equipment Sales",
+      "overall": 4.0
+    },
+    "1.19": {
+      "label": "IDE and SCSI Hard Drive Installation Configuration and Controller Setup",
+      "overall": 3.0
+    },
+    "1.20": {
+      "label": "Image File Format Conversion Tools and Graphics File Utilities",
+      "overall": 3.0
+    },
+    "1.21": {
+      "label": "X11 Window Systems and Configuration",
+      "overall": 3.0
+    },
+    "1.22": {
+      "label": "Legacy PC Graphics Card Driver Issues",
+      "overall": 3.0
+    },
+    "1.23": {
+      "label": "Retro Computer Hardware Sales Listings",
+      "overall": 3.0
+    },
+    "2.1": {
+      "label": "Nutritional Treatment Chronic Disease Management",
+      "overall": 1.0
+    },
+    "2.2": {
+      "label": "Clipper Chip Key Escrow Encryption Debate",
+      "overall": 4.0
+    },
+    "2.3": {
+      "label": "Space Missions and Orbital Operations",
+      "overall": 1.6666666666666667
+    },
+    "2.4": {
+      "label": "Vehicles Discussion",
+      "overall": 3.0
+    },
+    "2.5": {
+      "label": "Christian Apologetics",
+      "overall": 2.3333333333333335
+    },
+    "2.8": {
+      "label": "Computer Hardware",
+      "overall": 3.3333333333333335
+    }
+  },
+  "4": {
+    "0.24": {
+      "label": "Clinton Administration Press Briefings and Official Statements April 1993",
+      "overall": 3.0
+    },
+    "0.30": {
+      "label": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+      "overall": 2.6666666666666665
+    },
+    "0.35": {
+      "label": "Biblical Interpretation of Homosexuality and Christian Theology Debate",
+      "overall": 4.0
+    },
+    "2.0": {
+      "label": "Sports Fantasy",
+      "overall": 1.0
+    },
+    "2.5": {
+      "label": "Christian Theology",
+      "overall": 2.0
+    },
+    "2.6": {
+      "label": "Waco Siege",
+      "overall": 3.0
+    },
+    "2.7": {
+      "label": "X11 Graphics",
+      "overall": 2.6666666666666665
+    },
+    "0.0": {
+      "label": "ESPN Hockey Coverage Scheduling and Contractual Conflicts with Baseball Programming",
+      "overall": 2.3333333333333335
+    },
+    "0.1": {
+      "label": "Classified Advertisements for Travel Packages, Event Tickets, and Vacation Vouchers",
+      "overall": 3.0
+    },
+    "0.2": {
+      "label": "American Hockey League franchise relocations and NHL affiliate team movements",
+      "overall": 1.0
+    },
+    "0.3": {
+      "label": "Armenian-Turkish Historical Disputes and Genocide Denial Debates",
+      "overall": 4.0
+    },
+    "0.4": {
+      "label": "NHL Playoff Game Results and Discussions from 1993 Stanley Cup Playoffs",
+      "overall": 3.3333333333333335
+    },
+    "0.5": {
+      "label": "Software Piracy, Copy Protection Schemes, and Ethical Debates in Computing",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "NHL Player Trades, Coaching Changes, and Team Performance Analysis",
+      "overall": 2.0
+    },
+    "0.7": {
+      "label": "USENET Hockey Fantasy League Playoff Standings and Game Results",
+      "overall": 3.0
+    },
+    "0.8": {
+      "label": "Major League Baseball Player Statistics and Career Performance Analysis",
+      "overall": 3.0
+    },
+    "0.9": {
+      "label": "Baseball Batting Strategy: Patience, Power, and Plate Discipline Analysis",
+      "overall": 2.0
+    },
+    "0.10": {
+      "label": "Major League Baseball Season Predictions, Standings, and Game Recaps Analysis",
+      "overall": 3.6666666666666665
+    },
+    "0.11": {
+      "label": "Bosnian Conflict Ethnic Cleansing Debate Arms Embargo Military Intervention Discussion",
+      "overall": 3.3333333333333335
+    },
+    "0.12": {
+      "label": "Homosexuality prevalence statistics, sexual behavior surveys, and demographic debates",
+      "overall": 3.0
+    },
+    "0.13": {
+      "label": "Israeli-Palestinian Conflict: Occupation, Violence, and Peace Negotiations",
+      "overall": 3.0
+    },
+    "0.14": {
+      "label": "Antisemitic Holocaust Denial and Israel Criticism Debates in Usenet",
+      "overall": 3.0
+    },
+    "0.15": {
+      "label": "HIV/AIDS Medical Information and Alternative Medicine Skepticism in Healthcare",
+      "overall": 2.0
+    },
+    "0.16": {
+      "label": "Medical Treatment and Management of Chronic Diseases, Allergies, and Symptoms",
+      "overall": 3.0
+    },
+    "0.17": {
+      "label": "Book Recommendations and Literary Discussions in Usenet Newsgroups",
+      "overall": 1.3333333333333333
+    },
+    "0.18": {
+      "label": "X Window System Frequently Asked Questions and Technical Reference Documentation",
+      "overall": 1.0
+    },
+    "0.19": {
+      "label": "International telephone compatibility, DTMF dialing systems, and phone line technical requirements",
+      "overall": 2.6666666666666665
+    },
+    "0.20": {
+      "label": "White House Clipper Chip Initiative and Government Key Escrow Policy for Law Enforcement Access",
+      "overall": 3.6666666666666665
+    },
+    "0.21": {
+      "label": "Clipper Chip Encryption Key Escrow System Security Analysis and Cryptographic Vulnerabilities",
+      "overall": 3.6666666666666665
+    },
+    "0.22": {
+      "label": "Technical Vulnerabilities and Cryptographic Weaknesses in Clipper Chip Key Escrow Architecture",
+      "overall": 3.0
+    },
+    "0.23": {
+      "label": "Objective versus Subjective Morality and Ethics Philosophical Debate",
+      "overall": 4.0
+    },
+    "0.25": {
+      "label": "Heated Debate on Racial Issues with Accusations of Misquotation and Personal Attacks",
+      "overall": 2.0
+    },
+    "0.26": {
+      "label": "Automotive Cleaning, Maintenance, and Emissions Control Solutions",
+      "overall": 3.0
+    },
+    "0.27": {
+      "label": "Residential Electrical Wiring Safety, Grounding, and Code Compliance",
+      "overall": 2.0
+    },
+    "0.28": {
+      "label": "Technical Analysis of Long-Duration Human Spaceflight and Lunar Base Development",
+      "overall": 2.0
+    },
+    "0.29": {
+      "label": "Space Missions, Planetary Probes, and Astronomical Observations of Solar System Bodies",
+      "overall": 3.0
+    },
+    "0.31": {
+      "label": "Political debate on Clinton administration tax policy and economic predictions",
+      "overall": 2.0
+    },
+    "0.32": {
+      "label": "Libertarian Philosophy and Critique of Government Coercion in Society",
+      "overall": 3.0
+    },
+    "0.33": {
+      "label": "Larson's Reciprocal System Theory and Alternative Physics Unified Framework",
+      "overall": 1.0
+    },
+    "0.34": {
+      "label": "FBI BATF Siege Waco Branch Davidians Tear Gas Fire Controversy",
+      "overall": 4.0
+    },
+    "0.36": {
+      "label": "Motorcycle Riding Techniques and Passenger Safety Guidelines for Pillion Riders",
+      "overall": 2.0
+    },
+    "0.37": {
+      "label": "Waco Siege Accountability: Clinton, Reno, and Federal Law Enforcement Culpability",
+      "overall": 4.0
+    },
+    "0.38": {
+      "label": "Second Amendment Rights and Gun Control Legislative Advocacy Debates",
+      "overall": 4.0
+    },
+    "0.39": {
+      "label": "Second Amendment Rights and Defensive Gun Use Statistics in Firearms Debate",
+      "overall": 3.0
+    },
+    "0.40": {
+      "label": "Critical Analysis of BATF and FBI Conduct During the 1993 Waco Siege",
+      "overall": 3.6666666666666665
+    },
+    "0.41": {
+      "label": "Waco Siege: FBI BATF Koresh Compound Standoff Controversy and Criticism",
+      "overall": 4.0
+    },
+    "0.42": {
+      "label": "DOS and Windows 3.1 Integration Issues, Compatibility Problems, and System Configuration",
+      "overall": 3.0
+    },
+    "0.43": {
+      "label": "Philosophical Debate on Atheism, Theism, and Existence of God",
+      "overall": 3.3333333333333335
+    },
+    "0.44": {
+      "label": "Motorcycle buying, selling, and ownership discussions including models and depreciation",
+      "overall": 3.0
+    },
+    "0.45": {
+      "label": "Christian theology debates on salvation, faith, biblical interpretation and eternal judgment",
+      "overall": 3.0
+    },
+    "0.46": {
+      "label": "Biblical Canon, Deuterocanon, and Christian Scripture Authenticity Debates",
+      "overall": 2.0
+    },
+    "0.47": {
+      "label": "Comparative Religious Rituals and Secret Ceremonies in Christian and Esoteric Traditions",
+      "overall": 2.6666666666666665
+    },
+    "0.48": {
+      "label": "Used Car Sales Listings with Specifications and Pricing Information",
+      "overall": 3.6666666666666665
+    },
+    "0.49": {
+      "label": "Automotive Engine Types and Convertible Car Models Discussion",
+      "overall": 2.0
+    },
+    "0.50": {
+      "label": "Windows and DOS Utilities Distribution via FTP Archives and File Management Tools",
+      "overall": 2.0
+    },
+    "0.51": {
+      "label": "X Window System Colormap Allocation and Visual Configuration Programming",
+      "overall": 3.0
+    },
+    "0.52": {
+      "label": "TrueType Font Printing Issues and Windows PostScript Configuration Problems",
+      "overall": 1.6666666666666667
+    },
+    "0.53": {
+      "label": "Used Modem Sales and Specifications with Compression and Error Correction Features",
+      "overall": 3.0
+    },
+    "0.54": {
+      "label": "Intel 486 CPU Overclocking Performance Testing and Motherboard Compatibility",
+      "overall": 2.0
+    },
+    "0.55": {
+      "label": "Used Electronics and Consumer Goods For Sale Classified Advertisements",
+      "overall": 3.0
+    },
+    "0.56": {
+      "label": "Collectible Comic Books and Vintage Media Sales Listings",
+      "overall": 2.0
+    },
+    "0.57": {
+      "label": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Accessories",
+      "overall": 3.0
+    },
+    "0.58": {
+      "label": "3D Geometric Algorithms and Computational Geometry Methods for Graphics",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Macintosh Printer Connectivity and Network Printing Solutions for Non-AppleTalk Devices",
+      "overall": 2.0
+    },
+    "0.60": {
+      "label": "Inkjet and Laser Printer Comparison: Technology, Consumables, and Performance",
+      "overall": 3.0
+    },
+    "0.61": {
+      "label": "Vintage Computer Monitor Selection and Compatibility for Macintosh and PC Systems",
+      "overall": 2.3333333333333335
+    },
+    "0.62": {
+      "label": "3D Graphics Libraries, Software Tools, and Resources for Computer-Aided Design",
+      "overall": 2.3333333333333335
+    },
+    "0.63": {
+      "label": "Hard Drive Installation Configuration IDE SCSI MFM Controllers Troubleshooting",
+      "overall": 3.6666666666666665
+    },
+    "0.64": {
+      "label": "Image File Format Conversion Tools and Graphics Viewers for Multiple Platforms",
+      "overall": 3.6666666666666665
+    },
+    "0.65": {
+      "label": "X Window System Toolkits, Servers, and GUI Development Tools Discussion",
+      "overall": 3.0
+    },
+    "0.66": {
+      "label": "X11R5 Build Issues, Linking Errors, and XDM Configuration Problems",
+      "overall": 2.0
+    },
+    "0.67": {
+      "label": "X Window System Programming: Window Creation, Properties, Events, and Manager Interactions",
+      "overall": 4.0
+    },
+    "0.68": {
+      "label": "Macintosh Centris 610/650 Processor Architecture and FPU Upgrade Capabilities",
+      "overall": 3.0
+    },
+    "0.69": {
+      "label": "Macintosh and PC Hardware Upgrades: Memory SIMMs, Expansion Cards, and Bus Architecture",
+      "overall": 3.6666666666666665
+    },
+    "0.70": {
+      "label": "Windows Video Card Performance Benchmarking and VESA Driver Compatibility",
+      "overall": 3.0
+    },
+    "0.71": {
+      "label": "Windows 3.1 Video Card Driver Issues and Compatibility Problems",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Complete System and Software Bundle Sales with Original Manuals and Documentation",
+      "overall": 2.0
+    },
+    "0.73": {
+      "label": "Individual Component Specifications and Motherboard Upgrades for Legacy Computer Systems",
+      "overall": 1.6666666666666667
+    },
+    "1.0": {
+      "label": "1993 NHL Playoffs Fantasy League",
+      "overall": 3.0
+    },
+    "1.1": {
+      "label": "Nutrition and Alternative Medicine Healthcare",
+      "overall": 2.0
+    },
+    "1.2": {
+      "label": "MLB Strategy and Statistical Analysis",
+      "overall": 3.0
+    },
+    "1.3": {
+      "label": "Major League Baseball Player Statistics and Career Performance Analysis",
+      "overall": 4.0
+    },
+    "1.4": {
+      "label": "Israeli-Palestinian Conflict and Antisemitism Debates",
+      "overall": 3.0
+    },
+    "1.5": {
+      "label": "Clipper Chip Government Key Escrow",
+      "overall": 4.0
+    },
+    "1.6": {
+      "label": "Space Missions and Astronomical Observations",
+      "overall": 2.0
+    },
+    "1.7": {
+      "label": "Heated Debate on Racial Issues with Accusations of Misquotation and Personal Attacks",
+      "overall": 1.3333333333333333
+    },
+    "1.8": {
+      "label": "Libertarian Critique of Government Coercion",
+      "overall": 2.3333333333333335
+    },
+    "1.9": {
+      "label": "Waco Siege Federal Law Enforcement Accountability",
+      "overall": 4.0
+    },
+    "1.10": {
+      "label": "Second Amendment Rights and Gun Control Debate",
+      "overall": 4.0
+    },
+    "1.11": {
+      "label": "Motorcycle Riding Techniques and Passenger Safety Guidelines for Pillion Riders",
+      "overall": 3.0
+    },
+    "1.12": {
+      "label": "DOS and Windows 3.1 Integration Issues, Compatibility Problems, and System Configuration",
+      "overall": 3.0
+    },
+    "1.13": {
+      "label": "Philosophical Debate on Atheism, Theism, and Existence of God",
+      "overall": 3.0
+    },
+    "1.14": {
+      "label": "Used Cars and Performance Models Discussion",
+      "overall": 3.0
+    },
+    "1.15": {
+      "label": "Motorcycle buying, selling, and ownership discussions including models and depreciation",
+      "overall": 3.0
+    },
+    "1.16": {
+      "label": "Christian Scripture and Esoteric Tradition Debates",
+      "overall": 2.0
+    },
+    "1.17": {
+      "label": "Christian theology debates on salvation, faith, biblical interpretation and eternal judgment",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Used Electronics and Audio Equipment Sales",
+      "overall": 4.0
+    },
+    "1.19": {
+      "label": "Hard Drive Installation Configuration IDE SCSI MFM Controllers Troubleshooting",
+      "overall": 4.0
+    },
+    "1.20": {
+      "label": "Image File Format Conversion Tools and Graphics Viewers for Multiple Platforms",
+      "overall": 3.0
+    },
+    "1.21": {
+      "label": "X11 GUI Development and Programming",
+      "overall": 3.0
+    },
+    "1.22": {
+      "label": "Windows 3.1 Video Card Driver Issues",
+      "overall": 3.0
+    },
+    "1.23": {
+      "label": "Vintage Computer Hardware Sales Listings",
+      "overall": 3.0
+    },
+    "2.1": {
+      "label": "Nutrition and Alternative Medicine Healthcare",
+      "overall": 2.0
+    },
+    "2.2": {
+      "label": "Clipper Chip Government Key Escrow",
+      "overall": 4.0
+    },
+    "2.3": {
+      "label": "Space Missions and Astronomical Observations",
+      "overall": 2.0
+    },
+    "2.4": {
+      "label": "Vehicles Discussion",
+      "overall": 3.0
+    },
+    "2.8": {
+      "label": "Computer Hardware",
+      "overall": 3.0
+    }
+  },
+  "4_nokp": {
+    "0.18": {
+      "label": "X Window System Frequently Asked Questions and Technical Documentation",
+      "overall": 1.0
+    },
+    "2.0": {
+      "label": "Sports Fantasy",
+      "overall": 1.0
+    },
+    "2.4": {
+      "label": "Vehicle Sales",
+      "overall": 1.0
+    },
+    "2.7": {
+      "label": "X11 Graphics",
+      "overall": 2.6666666666666665
+    },
+    "0.0": {
+      "label": "ESPN Hockey Coverage Complaints and Schedule Criticisms During NHL Playoffs",
+      "overall": 3.0
+    },
+    "0.1": {
+      "label": "Classified Advertisements for Travel Packages, Event Tickets, and Vacation Deals",
+      "overall": 3.0
+    },
+    "0.2": {
+      "label": "American Hockey League franchise relocations and NHL affiliate changes",
+      "overall": 1.0
+    },
+    "0.3": {
+      "label": "Turkish-Armenian Historical Dispute Regarding Early Twentieth Century Genocide Claims",
+      "overall": 3.0
+    },
+    "0.4": {
+      "label": "National Hockey League Playoff Games Discussion and Live Game Commentary",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Software Copy Protection Methods and Piracy Prevention Strategies Discussion",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "NHL Hockey Team Rosters, Player Trades, and Coaching Changes Discussion",
+      "overall": 3.0
+    },
+    "0.7": {
+      "label": "USENET Hockey Fantasy League Playoff Standings and Draft Results Discussion",
+      "overall": 3.0
+    },
+    "0.8": {
+      "label": "Defensive Metrics and Fielding Performance Analysis Across Multiple Seasons and Positions",
+      "overall": 0.0
+    },
+    "0.9": {
+      "label": "Batting Discipline, Power Hitting Styles, and Offensive Strategy in Player Performance Evaluation",
+      "overall": 2.0
+    },
+    "0.10": {
+      "label": "Major League Baseball Season Predictions and Game Analysis Discussion",
+      "overall": 4.0
+    },
+    "0.11": {
+      "label": "Bosnian War Conflict Religious Tensions and International Military Intervention Debate",
+      "overall": 4.0
+    },
+    "0.12": {
+      "label": "Debate on Sexual Orientation Prevalence and Survey Methodology in Male Populations",
+      "overall": 3.0
+    },
+    "0.13": {
+      "label": "Israeli-Palestinian Conflict and Middle East Politics Debate",
+      "overall": 4.0
+    },
+    "0.14": {
+      "label": "Heated debates about anti-semitism, Israel criticism, and Holocaust denial accusations",
+      "overall": 4.0
+    },
+    "0.15": {
+      "label": "Medical Practice Skepticism and Criticism of Alternative and Questionable Healthcare Methods",
+      "overall": 3.0
+    },
+    "0.16": {
+      "label": "Allergies, Antihistamines, and Medical Treatment of Allergic Reactions",
+      "overall": 1.0
+    },
+    "0.17": {
+      "label": "Book Recommendations and Literary Discussions in Usenet Newsgroups",
+      "overall": 2.0
+    },
+    "0.19": {
+      "label": "Telephone system compatibility, networking over phone lines, and international phone usage",
+      "overall": 2.0
+    },
+    "0.20": {
+      "label": "White House Clipper Chip Initiative Law Enforcement Access and Key Escrow Architecture",
+      "overall": 3.6666666666666665
+    },
+    "0.21": {
+      "label": "Cryptographic Algorithm Security Analysis and Key Escrow System Vulnerabilities",
+      "overall": 3.6666666666666665
+    },
+    "0.22": {
+      "label": "Technical Vulnerabilities Pin-Compatible Alternatives and Skipjack Algorithm Security Weaknesses",
+      "overall": 1.0
+    },
+    "0.23": {
+      "label": "Philosophical debate on objective versus relative morality and ethics systems",
+      "overall": 4.0
+    },
+    "0.24": {
+      "label": "Clinton Administration Press Briefings and Presidential Remarks on Economic Policy",
+      "overall": 2.0
+    },
+    "0.25": {
+      "label": "Usenet Discourse Etiquette and Flame Wars: Debates on Respectful Argumentation",
+      "overall": 3.0
+    },
+    "0.26": {
+      "label": "Automotive Cleaning, Maintenance, and Chemical Treatment Methods",
+      "overall": 2.3333333333333335
+    },
+    "0.27": {
+      "label": "Electrical Wiring Code Compliance and Home Safety Installation Practices",
+      "overall": 2.0
+    },
+    "0.28": {
+      "label": "Commercial Space Development and Lunar Settlement Economics Feasibility",
+      "overall": 3.0
+    },
+    "0.29": {
+      "label": "Astronomical observations, orbital mechanics, and space telescope data sharing",
+      "overall": 2.0
+    },
+    "0.30": {
+      "label": "Hubble Space Telescope Servicing Mission Planning and Space Station Architecture Discussions",
+      "overall": 3.0
+    },
+    "0.31": {
+      "label": "Clinton Administration Criticism and Political Debate from Early 1990s",
+      "overall": 3.0
+    },
+    "0.32": {
+      "label": "Libertarian Philosophy and Critique of Government Coercion in Complex Societies",
+      "overall": 3.0
+    },
+    "0.33": {
+      "label": "Scientific Theory, Evidence, and the Nature of Scientific Explanation",
+      "overall": 3.3333333333333335
+    },
+    "0.34": {
+      "label": "Waco siege federal government accountability tear gas and fire investigation",
+      "overall": 4.0
+    },
+    "0.35": {
+      "label": "Biblical Interpretation of Homosexuality and Christian Theological Debate",
+      "overall": 4.0
+    },
+    "0.36": {
+      "label": "Motorcycle Passenger Safety Tips and Pillion Riding Techniques",
+      "overall": 1.6666666666666667
+    },
+    "0.37": {
+      "label": "Waco siege government accountability Clinton Reno impeachment federal crimes investigation",
+      "overall": 3.0
+    },
+    "0.38": {
+      "label": "State Legislative Scorecard Tracking Pro-Gun and Anti-Gun Bill Outcomes Nationwide",
+      "overall": 0.6666666666666666
+    },
+    "0.39": {
+      "label": "Self-Defense Firearm Effectiveness and Individual Rights Against Crime Statistics",
+      "overall": 2.0
+    },
+    "0.40": {
+      "label": "Critical Analysis of Federal Government Actions and Civil Rights Violations at Waco",
+      "overall": 3.0
+    },
+    "0.41": {
+      "label": "Waco siege government accountability and conspiracy theories debate",
+      "overall": 4.0
+    },
+    "0.42": {
+      "label": "Windows 3.1 and DOS Integration Issues: Crashes, Corruption, and Compatibility Problems",
+      "overall": 3.0
+    },
+    "0.43": {
+      "label": "Philosophical definitions and logical arguments about atheism and religious belief",
+      "overall": 3.0
+    },
+    "0.44": {
+      "label": "Motorcycle buying, selling, pricing, depreciation and market value discussions",
+      "overall": 2.0
+    },
+    "0.45": {
+      "label": "Christian theology debates on faith, salvation, biblical interpretation and eternal judgment",
+      "overall": 3.0
+    },
+    "0.46": {
+      "label": "Christian theology, biblical scholarship, and religious education for new believers",
+      "overall": 2.0
+    },
+    "0.47": {
+      "label": "Mormon Temple Ceremonies, Freemasonry Connections, and Early Christian Ritual Practices",
+      "overall": 3.0
+    },
+    "0.48": {
+      "label": "Used Car Sales Listings and Private Vehicle For Sale Advertisements",
+      "overall": 3.6666666666666665
+    },
+    "0.49": {
+      "label": "Automotive Engine Types, Vehicle Models, and Convertible Car Discussions",
+      "overall": 2.0
+    },
+    "0.50": {
+      "label": "DOS and Windows Utility Software Recommendations and File Management Tools",
+      "overall": 3.0
+    },
+    "0.51": {
+      "label": "X Window System Programming: Colormap Allocation and Graphics Display Issues",
+      "overall": 3.0
+    },
+    "0.52": {
+      "label": "Windows 3.1 Font Rendering, PostScript Printing, and TrueType Configuration Issues",
+      "overall": 2.0
+    },
+    "0.53": {
+      "label": "Used Computer Modems For Sale and Trade in Usenet Classifieds",
+      "overall": 3.0
+    },
+    "0.54": {
+      "label": "Intel 486 and AMD 386 CPU Upgrades Performance Benchmarking and Specifications",
+      "overall": 3.0
+    },
+    "0.55": {
+      "label": "Used Consumer Electronics and Equipment For Sale Classifieds",
+      "overall": 3.0
+    },
+    "0.56": {
+      "label": "Collectible items for sale: comics, music records, and entertainment merchandise",
+      "overall": 3.0
+    },
+    "0.57": {
+      "label": "Used Home and Car Audio Equipment Sales and Classified Advertisements",
+      "overall": 3.0
+    },
+    "0.58": {
+      "label": "Computational Geometry Algorithms and Techniques for 3D Graphics Processing",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Macintosh printer connectivity solutions including AppleTalk networking and hardware interfaces",
+      "overall": 2.0
+    },
+    "0.60": {
+      "label": "Inkjet versus Laser Printer Technology Comparison and Cost Analysis",
+      "overall": 2.0
+    },
+    "0.61": {
+      "label": "Computer Monitor Selection and Specifications for Macintosh and PC Systems",
+      "overall": 3.0
+    },
+    "0.62": {
+      "label": "3D Graphics Libraries and Software Tools for Computer Graphics Applications",
+      "overall": 3.0
+    },
+    "0.63": {
+      "label": "Hard Drive Installation Configuration for Legacy PC Systems IDE SCSI",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Image File Format Conversion Tools and Graphics Viewers for Linux Systems",
+      "overall": 2.0
+    },
+    "0.65": {
+      "label": "X Windows Systems Software Resources Recommendations and Implementation Discussions",
+      "overall": 3.6666666666666665
+    },
+    "0.66": {
+      "label": "X11 and X Window System Build Errors, Configuration Issues, and Troubleshooting",
+      "overall": 3.0
+    },
+    "0.67": {
+      "label": "X11 Window Management and Event Handling Issues in Graphical Applications",
+      "overall": 4.0
+    },
+    "0.68": {
+      "label": "Macintosh Centris processor specifications and floating-point coprocessor capabilities",
+      "overall": 2.3333333333333335
+    },
+    "0.69": {
+      "label": "Computer Hardware Memory Upgrades and Bus Architecture Specifications",
+      "overall": 3.0
+    },
+    "0.70": {
+      "label": "Windows 3.1 Video Card Drivers, Benchmarks, and Performance Optimization",
+      "overall": 3.0
+    },
+    "0.71": {
+      "label": "Windows 3.1 Graphics Card Driver Issues and Compatibility Problems",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Classified Advertisements for Vintage Computer Hardware, Software, and Games Sales",
+      "overall": 3.0
+    },
+    "0.73": {
+      "label": "Buying and selling used 386 and 486 personal computers and components",
+      "overall": 2.0
+    },
+    "1.0": {
+      "label": "USENET Hockey Fantasy League Playoffs",
+      "overall": 1.6666666666666667
+    },
+    "1.1": {
+      "label": "Allergies, Nutrition, and Medical Skepticism",
+      "overall": null
+    },
+    "1.2": {
+      "label": "Baseball Player Performance and Statistics Analysis",
+      "overall": 3.0
+    },
+    "1.3": {
+      "label": "Defensive Metrics and Fielding Performance Analysis Across Multiple Seasons and Positions",
+      "overall": 1.0
+    },
+    "1.4": {
+      "label": "Middle East Conflict Heated Political Debate",
+      "overall": 3.0
+    },
+    "1.5": {
+      "label": "Clipper Chip Encryption Key Escrow",
+      "overall": 4.0
+    },
+    "1.6": {
+      "label": "Space Exploration and Astronomy Discussion",
+      "overall": 3.0
+    },
+    "1.7": {
+      "label": "Usenet Discourse Etiquette and Flame Wars: Debates on Respectful Argumentation",
+      "overall": 3.0
+    },
+    "1.8": {
+      "label": "Libertarianism and Clinton Administration Critique",
+      "overall": 2.6666666666666665
+    },
+    "1.9": {
+      "label": "Waco Siege Government Accountability Debate",
+      "overall": 4.0
+    },
+    "1.10": {
+      "label": "Gun Rights and Self-Defense Advocacy",
+      "overall": 3.6666666666666665
+    },
+    "1.11": {
+      "label": "Motorcycle Passenger Safety Tips and Pillion Riding Techniques",
+      "overall": 2.0
+    },
+    "1.12": {
+      "label": "Windows 3.1 and DOS Integration Issues: Crashes, Corruption, and Compatibility Problems",
+      "overall": 3.0
+    },
+    "1.13": {
+      "label": "Philosophical definitions and logical arguments about atheism and religious belief",
+      "overall": 3.0
+    },
+    "1.14": {
+      "label": "Used Cars and Vehicle Sales Discussions",
+      "overall": 1.0
+    },
+    "1.15": {
+      "label": "Motorcycle buying, selling, pricing, depreciation and market value discussions",
+      "overall": 2.0
+    },
+    "1.16": {
+      "label": "Christian Theology and Religious Origins",
+      "overall": 3.0
+    },
+    "1.17": {
+      "label": "Christian theology debates on faith, salvation, biblical interpretation and eternal judgment",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Used Consumer Electronics and Audio Equipment Sales",
+      "overall": 4.0
+    },
+    "1.19": {
+      "label": "Hard Drive Installation Configuration for Legacy PC Systems IDE SCSI",
+      "overall": 3.0
+    },
+    "1.20": {
+      "label": "Image File Format Conversion Tools and Graphics Viewers for Linux Systems",
+      "overall": 2.0
+    },
+    "1.21": {
+      "label": "X11 Programming Development and Troubleshooting",
+      "overall": 3.3333333333333335
+    },
+    "1.22": {
+      "label": "Windows 3.1 Video Driver Support",
+      "overall": 3.0
+    },
+    "1.23": {
+      "label": "Vintage Computer Hardware Classified Sales",
+      "overall": 2.6666666666666665
+    },
+    "2.1": {
+      "label": "Allergies, Nutrition, and Medical Skepticism",
+      "overall": null
+    },
+    "2.2": {
+      "label": "Clipper Chip Encryption Key Escrow",
+      "overall": 4.0
+    },
+    "2.3": {
+      "label": "Space Exploration and Astronomy Discussion",
+      "overall": 3.0
+    },
+    "2.5": {
+      "label": "Religious Debate",
+      "overall": 3.0
+    },
+    "2.6": {
+      "label": "Waco Controversy",
+      "overall": 3.0
+    },
+    "2.8": {
+      "label": "Vintage Classifieds",
+      "overall": 2.6666666666666665
+    }
+  }
+}
