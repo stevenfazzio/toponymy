@@ -1,0 +1,3208 @@
+{
+  "abl_exemplars": {
+    "0.23": {
+      "label": "Spatial-Temporal Graph Neural Networks for Urban Traffic and Mobility Prediction",
+      "overall": 2.6666666666666665
+    },
+    "2.0": {
+      "label": "Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "2.1": {
+      "label": "Federated Security",
+      "overall": 2.0
+    },
+    "2.6": {
+      "label": "Medical Vision",
+      "overall": 1.0
+    },
+    "0.0": {
+      "label": "Quantum Neural Networks and Variational Algorithms for Quantum Machine Learning Applications",
+      "overall": 2.0
+    },
+    "0.1": {
+      "label": "Deep Learning for Molecular Structure Prediction and Drug Discovery Applications",
+      "overall": 2.6666666666666665
+    },
+    "0.2": {
+      "label": "Fair Allocation and Social Choice in Auctions with Indivisible Goods and Envy-Freeness",
+      "overall": null
+    },
+    "0.3": {
+      "label": "Algorithmic Fairness and Bias Mitigation in Machine Learning Decision Systems",
+      "overall": 4.0
+    },
+    "0.4": {
+      "label": "Knowledge Graph Embedding Models and Link Prediction Techniques",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Knowledge Graph Completion and Entity Alignment with Few-Shot Relation Extraction Methods",
+      "overall": 2.0
+    },
+    "0.6": {
+      "label": "Physics-Informed Neural Networks for Fluid Dynamics and Underwater Vehicle Design Optimization",
+      "overall": 0.0
+    },
+    "0.7": {
+      "label": "Large Language Models for Automated Software Vulnerability Detection and Repair",
+      "overall": 1.0
+    },
+    "0.8": {
+      "label": "Graph Neural Networks: Architectures, Learning Mechanisms, and Applications on Structured Data",
+      "overall": 3.0
+    },
+    "0.9": {
+      "label": "Neuromorphic Computing and Spiking Neural Networks: Hardware Acceleration and Learning Mechanisms",
+      "overall": 3.6666666666666665
+    },
+    "0.10": {
+      "label": "Edge-Cloud Collaborative Computing: Orchestration, Offloading, and Serverless Resource Management",
+      "overall": 2.0
+    },
+    "0.11": {
+      "label": "Bayesian Optimization and Metaheuristic Algorithms for Multi-Objective Optimization Problems",
+      "overall": 2.0
+    },
+    "0.12": {
+      "label": "Interactive Learning and Planning for Autonomous Driving in Dense Traffic Scenarios",
+      "overall": 2.0
+    },
+    "0.13": {
+      "label": "Autonomous Vehicle Safety and Trajectory Prediction in Complex Traffic Scenarios",
+      "overall": 3.0
+    },
+    "0.14": {
+      "label": "Classical AI Planning with PDDL: Action Models, Planning Domains, and Generalized Plan Generation",
+      "overall": 2.0
+    },
+    "0.15": {
+      "label": "Language-Based Embodied Agents and Interactive Text Game Navigation Systems",
+      "overall": 3.0
+    },
+    "0.16": {
+      "label": "Multimodal Large Language Models for Cross-Modal Vision-Language Understanding and Reasoning",
+      "overall": 2.0
+    },
+    "0.17": {
+      "label": "Regret Analysis and Posterior Sampling Methods in Linear Contextual Bandits",
+      "overall": 1.0
+    },
+    "0.18": {
+      "label": "End-to-End Automatic Speech Recognition with Advanced Acoustic Modeling and Speaker Analysis",
+      "overall": 2.0
+    },
+    "0.19": {
+      "label": "Audio and Music Generation with Speech Synthesis and Acoustic Scene Analysis",
+      "overall": 1.0
+    },
+    "0.20": {
+      "label": "Vehicle Routing and Scheduling Optimization with Heuristic and Combinatorial Approaches",
+      "overall": 1.5
+    },
+    "0.21": {
+      "label": "Multi-Agent Path Finding and Adaptive Traffic Signal Control with Conflict Resolution",
+      "overall": 2.3333333333333335
+    },
+    "0.22": {
+      "label": "Regret Bounds and Policy Learning in Linear MDPs with Bandit Feedback",
+      "overall": 1.0
+    },
+    "0.24": {
+      "label": "Offline Reinforcement Learning Algorithms and Policy Optimization from Batch Data",
+      "overall": 3.0
+    },
+    "0.25": {
+      "label": "Continual Learning and Catastrophic Forgetting Mitigation in Neural Networks",
+      "overall": 4.0
+    },
+    "0.26": {
+      "label": "Smart Grid Load Forecasting and Non-Intrusive Monitoring with Renewable Energy Integration",
+      "overall": 3.0
+    },
+    "0.27": {
+      "label": "AI Agents and Multi-Agent Behavior in Competitive Games and Sports Domains",
+      "overall": 3.0
+    },
+    "0.28": {
+      "label": "Sequential Recommendation Systems for Cold-Start Problems and New Items in E-Commerce",
+      "overall": 1.0
+    },
+    "0.29": {
+      "label": "Safe Reinforcement Learning Algorithms with Formal Safety Guarantees and Control Synthesis",
+      "overall": 3.0
+    },
+    "0.30": {
+      "label": "Multi-Agent Reinforcement Learning in Imperfect Information Games with Centralized Training and Decentralized Execution",
+      "overall": 1.0
+    },
+    "0.31": {
+      "label": "Bayesian Causal Inference and Discovery from Observational Data with Latent Confounders",
+      "overall": null
+    },
+    "0.32": {
+      "label": "Generative Models for Artistic Video and Image Synthesis with Text-Driven Style Control",
+      "overall": 1.0
+    },
+    "0.33": {
+      "label": "Probabilistic Logic Programming and Answer Set Programming with Model Counting and Belief Revision",
+      "overall": 2.0
+    },
+    "0.34": {
+      "label": "Robot Manipulation Learning from Human Demonstrations and Haptic Feedback",
+      "overall": null
+    },
+    "0.35": {
+      "label": "Quality-Diversity Algorithms for Robot Manipulation and Locomotion Policy Learning",
+      "overall": 1.0
+    },
+    "0.36": {
+      "label": "Brain-Computer Interfaces for Motor Imagery and Rehabilitation Using EEG Signal Processing",
+      "overall": 2.3333333333333335
+    },
+    "0.37": {
+      "label": "Neural Architecture Search Optimization for Hardware-Aware Accelerator Design and Edge Deployment",
+      "overall": 3.0
+    },
+    "0.38": {
+      "label": "Task-Oriented Dialogue Systems with Goal-Driven Response Generation and Knowledge Grounding",
+      "overall": 2.0
+    },
+    "0.39": {
+      "label": "Differential Privacy, Machine Unlearning, and Membership Inference in Federated Learning Systems",
+      "overall": 1.0
+    },
+    "0.40": {
+      "label": "Low-Bit Quantization and Compression for Efficient Distributed Deep Neural Network Training",
+      "overall": 1.3333333333333333
+    },
+    "0.41": {
+      "label": "Hierarchical Reinforcement Learning with Temporal Abstraction and Equivariant Representations",
+      "overall": 1.0
+    },
+    "0.42": {
+      "label": "AI-Driven Epidemic Modeling and Vaccine Allocation for COVID-19 Population Health",
+      "overall": 2.0
+    },
+    "0.43": {
+      "label": "AI-Assisted Software Project Management and Collaborative Design Methodologies",
+      "overall": 2.0
+    },
+    "0.44": {
+      "label": "Interpretable Machine Learning and Explainable AI with Shapley Values and Symbolic Methods",
+      "overall": 2.6666666666666665
+    },
+    "0.45": {
+      "label": "Explainable AI and Post-hoc Model Interpretability Through Feature Attribution Methods",
+      "overall": 2.0
+    },
+    "0.46": {
+      "label": "Responsible AI Development: Trust, Ethics, and Human-AI Collaboration Across Lifecycle",
+      "overall": 3.0
+    },
+    "0.47": {
+      "label": "Intrinsic Motivation and Exploration Strategies in Sparse Reward Reinforcement Learning",
+      "overall": 3.0
+    },
+    "0.48": {
+      "label": "Deep Reinforcement Learning with Actor-Critic Methods and Off-Policy Value Function Optimization",
+      "overall": 1.5
+    },
+    "0.49": {
+      "label": "Optimization Algorithms and Activation Functions for Stochastic Gradient Descent Methods",
+      "overall": 2.0
+    },
+    "0.50": {
+      "label": "Federated Learning Security, Privacy, and Byzantine-Robust Distributed Model Training",
+      "overall": 2.0
+    },
+    "0.51": {
+      "label": "Federated Learning with Heterogeneous Data and Privacy-Preserving Model Aggregation",
+      "overall": 2.0
+    },
+    "0.52": {
+      "label": "Uncertainty Quantification and Out-of-Distribution Detection in Neural Networks",
+      "overall": 3.0
+    },
+    "0.53": {
+      "label": "Imbalanced Learning and Positive-Unlabeled Data Classification with Advanced Sampling Techniques",
+      "overall": null
+    },
+    "0.54": {
+      "label": "ReLU Networks: Universal Approximation, Optimization Dynamics, and Theoretical Analysis",
+      "overall": 2.0
+    },
+    "0.55": {
+      "label": "Structured Pruning and Tensor Decomposition Methods for Neural Network Compression",
+      "overall": 3.0
+    },
+    "0.56": {
+      "label": "Domain Adaptation and Generalization for Cross-Domain Learning and Face Recognition",
+      "overall": 3.0
+    },
+    "0.57": {
+      "label": "Anomaly Detection with Test-Time Adaptation and Dynamic Ensemble Methods",
+      "overall": 2.0
+    },
+    "0.58": {
+      "label": "Misinformation and Toxic Content Detection on Social Media Platforms",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Long-term Time Series Forecasting with Complex Temporal Dynamics and Seasonality Modeling",
+      "overall": null
+    },
+    "0.60": {
+      "label": "Predictive Maintenance and Fault Diagnosis with Concept Drift Handling in Industrial Systems",
+      "overall": 2.0
+    },
+    "0.61": {
+      "label": "Network Intrusion Detection and Cyber Threat Analysis Using Machine Learning",
+      "overall": 3.0
+    },
+    "0.62": {
+      "label": "Adversarial Robustness and Security Defense Mechanisms for Machine Learning Models",
+      "overall": 3.0
+    },
+    "0.63": {
+      "label": "Aspect-Based Sentiment Analysis and Opinion Mining with Structured Extraction Methods",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Clinical Diagnostic Imaging and Biomarker Analysis for Disease Detection and Patient Outcomes",
+      "overall": 2.0
+    },
+    "0.65": {
+      "label": "Deep Learning for Clinical Time Series Prediction in ICU Patient Outcomes",
+      "overall": 2.0
+    },
+    "0.66": {
+      "label": "Self-Supervised Learning and Knowledge Distillation for Medical Image Reconstruction and Classification",
+      "overall": 1.0
+    },
+    "0.67": {
+      "label": "Medical and Agricultural Image Segmentation with Deep Learning and Loss Functions",
+      "overall": 2.0
+    },
+    "0.68": {
+      "label": "Cross-lingual NLP and Low-resource Language Processing with Neural Machine Translation",
+      "overall": 2.0
+    },
+    "0.69": {
+      "label": "Query-Based Document Summarization and Text Generation with Discourse Relations",
+      "overall": 1.0
+    },
+    "0.70": {
+      "label": "Neuro-Symbolic Approaches for Mathematical and Logical Reasoning with Neural Networks",
+      "overall": 2.0
+    },
+    "0.71": {
+      "label": "Chain-of-Thought Prompting and Reasoning Capabilities in Large Language Models",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Generative Adversarial Networks Training Dynamics and Mode Collapse Solutions",
+      "overall": 3.0
+    },
+    "0.73": {
+      "label": "Generative Models and Specialized Image Processing for Diverse Domain Applications",
+      "overall": 3.0
+    },
+    "0.75": {
+      "label": "Instruction-Tuned Large Language Models Evaluation and Prompt-Based Learning Frameworks",
+      "overall": 3.0
+    },
+    "0.76": {
+      "label": "Object Detection and Image Enhancement in Challenging Visual Conditions and Remote Sensing",
+      "overall": null
+    },
+    "0.77": {
+      "label": "Natural Language Processing Methods for Multilingual Text Understanding and Semantic Analysis",
+      "overall": 2.0
+    },
+    "0.79": {
+      "label": "3D Object Detection and Scene Understanding for Autonomous Driving using Multi-Modal Sensor Fusion",
+      "overall": 2.0
+    },
+    "0.80": {
+      "label": "Machine Reading Comprehension with Multi-Passage Reasoning and Question Generation",
+      "overall": 2.0
+    },
+    "0.81": {
+      "label": "Question Answering Systems with Knowledge Integration and Ranking Optimization",
+      "overall": 2.6666666666666665
+    },
+    "1.0": {
+      "label": "Fairness in Algorithmic Allocation and Decision Systems",
+      "overall": 3.0
+    },
+    "1.1": {
+      "label": "Knowledge Graph Embedding and Completion Methods",
+      "overall": 3.0
+    },
+    "1.2": {
+      "label": "Large Language Models for Automated Software Vulnerability Detection and Repair",
+      "overall": 1.0
+    },
+    "1.3": {
+      "label": "Graph Neural Networks: Architectures, Learning Mechanisms, and Applications on Structured Data",
+      "overall": 3.0
+    },
+    "1.4": {
+      "label": "Autonomous Driving in Complex Traffic",
+      "overall": 3.0
+    },
+    "1.5": {
+      "label": "Speech Audio Processing and Generation",
+      "overall": 2.0
+    },
+    "1.6": {
+      "label": "Multimodal Large Language Models for Cross-Modal Vision-Language Understanding and Reasoning",
+      "overall": 2.0
+    },
+    "1.7": {
+      "label": "Sequential Recommendation Systems for Cold-Start Problems and New Items in E-Commerce",
+      "overall": 1.0
+    },
+    "1.8": {
+      "label": "Multi-Agent Reinforcement Learning in Imperfect Information Games with Centralized Training and Decentralized Execution",
+      "overall": 2.0
+    },
+    "1.9": {
+      "label": "Bayesian Causal Inference and Discovery from Observational Data with Latent Confounders",
+      "overall": 2.0
+    },
+    "1.10": {
+      "label": "Generative Models for Artistic Video and Image Synthesis with Text-Driven Style Control",
+      "overall": null
+    },
+    "1.11": {
+      "label": "Robot Learning via Demonstrations and Diversity",
+      "overall": 1.3333333333333333
+    },
+    "1.12": {
+      "label": "Deep Reinforcement Learning Methods and Exploration",
+      "overall": 3.0
+    },
+    "1.13": {
+      "label": "Probabilistic Logic Programming and Answer Set Programming with Model Counting and Belief Revision",
+      "overall": 2.0
+    },
+    "1.14": {
+      "label": "Neural Network Compression and Optimization",
+      "overall": 3.0
+    },
+    "1.15": {
+      "label": "Explainable AI and Model Interpretability",
+      "overall": 3.0
+    },
+    "1.16": {
+      "label": "Adversarial Attacks and ML Security Defense",
+      "overall": 3.3333333333333335
+    },
+    "1.17": {
+      "label": "Federated Learning Privacy and Security",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Uncertainty Quantification and Imbalanced Data Detection",
+      "overall": 0.3333333333333333
+    },
+    "1.19": {
+      "label": "Industrial Time Series Forecasting and Anomaly Detection",
+      "overall": 0.0
+    },
+    "1.20": {
+      "label": "Misinformation and Toxic Content Detection on Social Media Platforms",
+      "overall": 3.0
+    },
+    "1.21": {
+      "label": "Multi-Modal Vision and Generative Models",
+      "overall": null
+    },
+    "1.22": {
+      "label": "Deep Learning Clinical Biomarker Prediction",
+      "overall": 2.0
+    },
+    "1.23": {
+      "label": "Medical Image Analysis with Knowledge Distillation",
+      "overall": 1.0
+    },
+    "1.24": {
+      "label": "LLM Reasoning via Chain-of-Thought Prompting",
+      "overall": 2.3333333333333335
+    },
+    "1.25": {
+      "label": "Cross-lingual NLP and Low-resource Language Processing with Neural Machine Translation",
+      "overall": 2.0
+    },
+    "1.26": {
+      "label": "Large Language Models for Question Answering",
+      "overall": 1.0
+    },
+    "2.2": {
+      "label": "Neural Network Compression and Optimization",
+      "overall": 2.0
+    },
+    "2.3": {
+      "label": "LLM Applications",
+      "overall": 2.0
+    },
+    "2.4": {
+      "label": "Explainable AI and Model Interpretability",
+      "overall": 4.0
+    },
+    "2.5": {
+      "label": "Industrial Time Series",
+      "overall": 2.0
+    }
+  },
+  "abl_keyphrases": {
+    "0.3": {
+      "label": "Algorithmic Fairness in Machine Learning: Metrics, Methods, and Interdisciplinary Perspectives",
+      "overall": 4.0
+    },
+    "0.4": {
+      "label": "Knowledge Graph Embedding Methods for Link Prediction and Completion",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "Physics-Informed Neural Networks for Solving Partial Differential Equations",
+      "overall": 2.6666666666666665
+    },
+    "0.13": {
+      "label": "Trajectory Prediction and Motion Forecasting for Autonomous Vehicle Safety",
+      "overall": 3.0
+    },
+    "0.25": {
+      "label": "Continual Learning Methods for Mitigating Catastrophic Forgetting in Neural Networks",
+      "overall": 4.0
+    },
+    "0.63": {
+      "label": "Aspect-Based Sentiment Analysis and Opinion Mining from Customer Reviews",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Generative Adversarial Networks: Training Stability, Mode Collapse, and Theoretical Analysis",
+      "overall": 3.0
+    },
+    "1.17": {
+      "label": "Privacy-Preserving Federated Learning Systems",
+      "overall": 3.3333333333333335
+    },
+    "2.0": {
+      "label": "Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "2.1": {
+      "label": "Federated Security",
+      "overall": 2.0
+    },
+    "2.3": {
+      "label": "LLM Evaluation",
+      "overall": 1.0
+    },
+    "0.0": {
+      "label": "Quantum Neural Networks and Machine Learning Applications with Hybrid Classical-Quantum Integration",
+      "overall": 2.6666666666666665
+    },
+    "0.1": {
+      "label": "Deep Learning for Molecular Design and Property Prediction with Generative Models",
+      "overall": 3.0
+    },
+    "0.2": {
+      "label": "Fair Division and Allocation of Indivisible Items with Fairness Constraints",
+      "overall": 2.0
+    },
+    "0.5": {
+      "label": "Knowledge Graph Construction and Relation Extraction from Unstructured Text",
+      "overall": 2.3333333333333335
+    },
+    "0.7": {
+      "label": "Large Language Models for Code Understanding, Generation, and Security Analysis",
+      "overall": 3.0
+    },
+    "0.8": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Graph Representation Learning",
+      "overall": 3.0
+    },
+    "0.9": {
+      "label": "Spiking Neural Networks: Hardware Acceleration, Optimization, and Neuromorphic Computing Implementation",
+      "overall": 3.0
+    },
+    "0.10": {
+      "label": "Edge Computing and Artificial Intelligence for Resource Optimization in Distributed Systems",
+      "overall": 3.0
+    },
+    "0.11": {
+      "label": "Metaheuristic and Bayesian Optimization Algorithms for Single and Multi-Objective Problems",
+      "overall": 3.0
+    },
+    "0.12": {
+      "label": "Deep Reinforcement Learning for Autonomous Vehicle Control and Decision Making",
+      "overall": 3.0
+    },
+    "0.14": {
+      "label": "Automated Planning and Scheduling: Symbolic Methods, Extensions, and Integration Approaches",
+      "overall": 2.6666666666666665
+    },
+    "0.15": {
+      "label": "Language-Grounded Embodied Agents in Interactive Simulated Environments",
+      "overall": 3.0
+    },
+    "0.16": {
+      "label": "Vision-Language Multimodal Learning and Cross-Modal Representation Alignment",
+      "overall": 3.0
+    },
+    "0.17": {
+      "label": "Advanced Bandit Algorithms: Thompson Sampling, Contextual Learning, and Regret Analysis",
+      "overall": 2.0
+    },
+    "0.18": {
+      "label": "Speaker Recognition, Verification, and Diarization with Deep Learning Embeddings",
+      "overall": 2.0
+    },
+    "0.19": {
+      "label": "Deep Learning Methods for Music Audio Generation, Understanding, and Source Separation",
+      "overall": 2.0
+    },
+    "0.20": {
+      "label": "Machine Learning and Metaheuristic Optimization for Vehicle Routing and Combinatorial Problems",
+      "overall": 2.0
+    },
+    "0.21": {
+      "label": "Multi-Agent Path Finding and Coordination with Reinforcement Learning and Optimization",
+      "overall": 2.3333333333333335
+    },
+    "0.22": {
+      "label": "Regret Bounds and Sample Complexity Analysis in Episodic Reinforcement Learning",
+      "overall": 3.0
+    },
+    "0.23": {
+      "label": "Spatio-Temporal Deep Learning for Urban Traffic and Mobility Prediction",
+      "overall": 3.0
+    },
+    "0.24": {
+      "label": "Offline and Offline-to-Online Reinforcement Learning with Representation Learning and Policy Optimization",
+      "overall": 2.0
+    },
+    "0.26": {
+      "label": "Deep Learning for Smart Grid Energy Forecasting and Load Monitoring",
+      "overall": 2.3333333333333335
+    },
+    "0.27": {
+      "label": "Multi-Agent Reinforcement Learning and Game Playing AI Systems",
+      "overall": 2.0
+    },
+    "0.28": {
+      "label": "Sequential and Personalized Recommendation Systems with User Behavior Modeling",
+      "overall": 3.0
+    },
+    "0.29": {
+      "label": "Safe Reinforcement Learning with Formal Safety Guarantees and Constraint Satisfaction",
+      "overall": 3.0
+    },
+    "0.30": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Coordination and Communication",
+      "overall": null
+    },
+    "0.31": {
+      "label": "Causal Discovery and Inference Methods with Latent Confounders and Structural Identification",
+      "overall": 2.0
+    },
+    "0.32": {
+      "label": "Conditional Generative Models for Text-Guided Visual Content Creation and Synthesis",
+      "overall": null
+    },
+    "0.33": {
+      "label": "Non-monotonic reasoning, logic programming, and knowledge representation with formal semantics",
+      "overall": 3.0
+    },
+    "0.34": {
+      "label": "Learning Dexterous Multi-Fingered Robotic Manipulation with Multimodal Sensing and Imitation",
+      "overall": null
+    },
+    "0.35": {
+      "label": "Reinforcement Learning for Robotic Manipulation and Control with Visual Perception",
+      "overall": 2.3333333333333335
+    },
+    "0.36": {
+      "label": "EEG Signal Processing and Classification for Brain-Computer Interface Applications",
+      "overall": 3.0
+    },
+    "0.37": {
+      "label": "Hardware-Aware Neural Architecture Search and Efficient Deep Learning Acceleration",
+      "overall": 3.0
+    },
+    "0.38": {
+      "label": "Deep Learning Methods for Multi-turn Dialogue Systems and Conversational AI",
+      "overall": 3.0
+    },
+    "0.39": {
+      "label": "Differential Privacy in Machine Learning: Training, Generation, and Defense Against Inference Attacks",
+      "overall": 3.0
+    },
+    "0.40": {
+      "label": "Neural Network Quantization and Compression for Efficient Edge Device Deployment",
+      "overall": 4.0
+    },
+    "0.41": {
+      "label": "Reinforcement Learning with Curriculum Learning, Abstraction, and Human Feedback Integration",
+      "overall": 1.5
+    },
+    "0.42": {
+      "label": "Trustworthy AI in Healthcare: Equity, Interpretability, and Clinical Integration",
+      "overall": 2.0
+    },
+    "0.43": {
+      "label": "Artificial Intelligence Applications in Software Engineering and Domain-Specific Design Processes",
+      "overall": 2.3333333333333335
+    },
+    "0.44": {
+      "label": "Explainability and Interpretability of Machine Learning Models: Shapley Values and Feature Attribution",
+      "overall": 3.0
+    },
+    "0.45": {
+      "label": "Explainable Artificial Intelligence Methods, Evaluation Frameworks, and User-Centric Interpretability",
+      "overall": 3.3333333333333335
+    },
+    "0.46": {
+      "label": "Ethical AI Development, Governance, and Trustworthy System Implementation Frameworks",
+      "overall": 3.0
+    },
+    "0.47": {
+      "label": "Hard Exploration in Reinforcement Learning with Sparse Rewards and Atari Games",
+      "overall": 3.0
+    },
+    "0.48": {
+      "label": "Actor-Critic Methods and Policy Gradient Algorithms for Deep Reinforcement Learning",
+      "overall": 2.3333333333333335
+    },
+    "0.49": {
+      "label": "Convergence Analysis and Optimization Methods for Stochastic Gradient Descent in Deep Learning",
+      "overall": 2.0
+    },
+    "0.50": {
+      "label": "Privacy and Security in Federated Learning: Attacks, Defenses, and Regulatory Compliance",
+      "overall": 3.0
+    },
+    "0.51": {
+      "label": "Federated Learning Optimization: Handling Data Heterogeneity and Client Sampling",
+      "overall": 2.0
+    },
+    "0.52": {
+      "label": "Uncertainty Estimation and Out-of-Distribution Detection in Deep Neural Networks",
+      "overall": 3.0
+    },
+    "0.53": {
+      "label": "Class Imbalance Learning and Data Preprocessing Techniques for Improved Classification",
+      "overall": 1.0
+    },
+    "0.54": {
+      "label": "Optimization and Generalization Theory of Deep ReLU Neural Networks",
+      "overall": 3.0
+    },
+    "0.55": {
+      "label": "Neural Network Compression via Pruning, Low-Rank Decomposition, and Tensor Factorization",
+      "overall": 3.6666666666666665
+    },
+    "0.56": {
+      "label": "Unsupervised Domain Adaptation and Generalization with Distribution Alignment",
+      "overall": 2.3333333333333335
+    },
+    "0.57": {
+      "label": "Anomaly Detection in Time Series and Multivariate Data using Deep Learning",
+      "overall": 2.0
+    },
+    "0.58": {
+      "label": "Detection and Mitigation of Harmful Online Content: Fake News, Hate Speech, and Misinformation",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Deep Learning and Neural Network Methods for Time Series Forecasting and Prediction",
+      "overall": 3.0
+    },
+    "0.60": {
+      "label": "Data-Driven Fault Diagnosis and Remaining Useful Life Prediction in Industrial Rotating Machinery",
+      "overall": 2.0
+    },
+    "0.61": {
+      "label": "Machine Learning and Deep Learning for Network Intrusion Detection Systems",
+      "overall": 3.0
+    },
+    "0.62": {
+      "label": "Adversarial Robustness and Defense Mechanisms for Deep Neural Networks",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Deep Learning for Medical Image Analysis and Clinical Diagnosis with Interpretability",
+      "overall": 3.0
+    },
+    "0.65": {
+      "label": "Deep Learning and Machine Learning for Clinical Outcome Prediction from Electronic Health Records",
+      "overall": 3.0
+    },
+    "0.66": {
+      "label": "Knowledge Distillation and Self-Supervised Learning for Efficient Visual Representation",
+      "overall": 3.0
+    },
+    "0.67": {
+      "label": "Deep Learning Methods for Medical Image Segmentation with Limited Annotated Data",
+      "overall": 3.0
+    },
+    "0.68": {
+      "label": "Cross-lingual NLP and Machine Translation for Low-resource Languages",
+      "overall": 2.0
+    },
+    "0.69": {
+      "label": "Document and Text Summarization: Methods, Evaluation, and Applications",
+      "overall": 3.0
+    },
+    "0.70": {
+      "label": "Neuro-Symbolic Integration for Abstract Reasoning and Logic Programming",
+      "overall": 3.3333333333333335
+    },
+    "0.71": {
+      "label": "Chain-of-Thought Reasoning Verification and Structured Prompting Methods for Large Language Models",
+      "overall": 2.6666666666666665
+    },
+    "0.73": {
+      "label": "Generative Models for Image Synthesis and Reconstruction Using Deep Learning",
+      "overall": 3.0
+    },
+    "0.75": {
+      "label": "Evaluation Benchmarks and Assessment Methods for Large Language Models",
+      "overall": 2.0
+    },
+    "0.76": {
+      "label": "Object Detection Methods: Architectures, Feature Fusion, and Training Strategies",
+      "overall": 1.0
+    },
+    "0.77": {
+      "label": "Domain-Specific Benchmarks and Language Models for Specialized NLP Tasks",
+      "overall": 2.0
+    },
+    "0.79": {
+      "label": "3D Point Cloud Processing for Autonomous Driving Perception and Scene Understanding",
+      "overall": null
+    },
+    "0.80": {
+      "label": "Question Generation, Answering, and Evaluation in Natural Language Processing",
+      "overall": 3.0
+    },
+    "0.81": {
+      "label": "Large Language Models and Retrieval-Augmented Approaches for Open-Domain Question Answering",
+      "overall": 2.0
+    },
+    "1.0": {
+      "label": "Algorithmic Fairness Metrics and Methods",
+      "overall": 3.0
+    },
+    "1.1": {
+      "label": "Knowledge Graph Embedding and Link Prediction",
+      "overall": 3.0
+    },
+    "1.2": {
+      "label": "Large Language Models for Code Understanding, Generation, and Security Analysis",
+      "overall": 2.0
+    },
+    "1.3": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Graph Representation Learning",
+      "overall": 3.0
+    },
+    "1.4": {
+      "label": "Autonomous Vehicle Planning and Control",
+      "overall": 3.0
+    },
+    "1.5": {
+      "label": "Speech and Audio Deep Learning Applications",
+      "overall": 3.0
+    },
+    "1.6": {
+      "label": "Vision-Language Multimodal Learning and Cross-Modal Representation Alignment",
+      "overall": 3.0
+    },
+    "1.7": {
+      "label": "Sequential and Personalized Recommendation Systems with User Behavior Modeling",
+      "overall": 3.0
+    },
+    "1.8": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Coordination and Communication",
+      "overall": 2.6666666666666665
+    },
+    "1.9": {
+      "label": "Causal Discovery and Inference Methods with Latent Confounders and Structural Identification",
+      "overall": 2.0
+    },
+    "1.10": {
+      "label": "Conditional Generative Models for Text-Guided Visual Content Creation and Synthesis",
+      "overall": 1.0
+    },
+    "1.11": {
+      "label": "Robotic Manipulation with Multimodal Learning",
+      "overall": 3.0
+    },
+    "1.12": {
+      "label": "Deep Reinforcement Learning Exploration Strategies",
+      "overall": 2.0
+    },
+    "1.13": {
+      "label": "Non-monotonic reasoning, logic programming, and knowledge representation with formal semantics",
+      "overall": 2.6666666666666665
+    },
+    "1.14": {
+      "label": "Efficient Neural Network Compression Techniques",
+      "overall": 2.0
+    },
+    "1.15": {
+      "label": "Explainable AI Trustworthiness and Implementation",
+      "overall": 3.0
+    },
+    "1.16": {
+      "label": "Adversarial Robustness and Defense Mechanisms",
+      "overall": 3.6666666666666665
+    },
+    "1.18": {
+      "label": "Deep Learning Time Series Forecasting Anomaly Detection",
+      "overall": 3.0
+    },
+    "1.19": {
+      "label": "Uncertainty Estimation and Robustness in Deep Learning",
+      "overall": 3.0
+    },
+    "1.20": {
+      "label": "Detection and Mitigation of Harmful Online Content: Fake News, Hate Speech, and Misinformation",
+      "overall": 3.0
+    },
+    "1.21": {
+      "label": "3D Vision and Generative Deep Learning",
+      "overall": null
+    },
+    "1.22": {
+      "label": "Deep Learning for Clinical Prediction and Interpretability",
+      "overall": 4.0
+    },
+    "1.23": {
+      "label": "Self-Supervised Learning for Medical Image Segmentation",
+      "overall": 2.0
+    },
+    "1.24": {
+      "label": "Structured Reasoning and Verification in LLMs",
+      "overall": 2.0
+    },
+    "1.25": {
+      "label": "Cross-lingual NLP and Machine Translation for Low-resource Languages",
+      "overall": 2.0
+    },
+    "1.26": {
+      "label": "LLM Evaluation Benchmarks and Assessment Methods",
+      "overall": 2.0
+    },
+    "2.2": {
+      "label": "Efficient Neural Network Compression Techniques",
+      "overall": 1.0
+    },
+    "2.4": {
+      "label": "Explainable AI Trustworthiness and Implementation",
+      "overall": 3.0
+    },
+    "2.5": {
+      "label": "Time Series Anomaly",
+      "overall": 1.0
+    },
+    "2.6": {
+      "label": "Medical Imaging",
+      "overall": 1.0
+    }
+  },
+  "1": {
+    "0.30": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+      "overall": 3.0
+    },
+    "0.52": {
+      "label": "Uncertainty Quantification and Out-of-Distribution Detection in Deep Neural Networks",
+      "overall": 3.0
+    },
+    "0.55": {
+      "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+      "overall": 3.0
+    },
+    "0.62": {
+      "label": "Adversarial Robustness and Defense Mechanisms for Deep Learning Models",
+      "overall": 3.0
+    },
+    "1.4": {
+      "label": "Deep Reinforcement Learning for Autonomous Driving",
+      "overall": 2.0
+    },
+    "1.8": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+      "overall": 2.5
+    },
+    "1.18": {
+      "label": "Uncertainty Quantification and Anomaly Detection",
+      "overall": 3.6666666666666665
+    },
+    "2.0": {
+      "label": "Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "2.1": {
+      "label": "Federated Security",
+      "overall": 2.0
+    },
+    "2.3": {
+      "label": "LLM Evaluation",
+      "overall": 1.0
+    },
+    "2.6": {
+      "label": "Medical Vision",
+      "overall": 1.0
+    },
+    "0.0": {
+      "label": "Quantum Neural Networks and Variational Quantum Algorithms for Machine Learning",
+      "overall": 2.0
+    },
+    "0.1": {
+      "label": "3D Molecular Design and Structure Prediction for Drug Discovery Applications",
+      "overall": 1.3333333333333333
+    },
+    "0.2": {
+      "label": "Fair Division of Indivisible Items with Envy-Freeness and Social Welfare Optimization",
+      "overall": 1.0
+    },
+    "0.3": {
+      "label": "Fairness Criteria and Bias Mitigation in Algorithmic Decision-Making Systems",
+      "overall": 3.0
+    },
+    "0.4": {
+      "label": "Knowledge Graph Embedding Models for Link Prediction and Completion Tasks",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Knowledge Graph-Enhanced Relation Extraction and Entity Alignment Methods",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "Physics-Informed Neural Networks for Solving Partial Differential Equations and Computational Fluid Dynamics",
+      "overall": 2.0
+    },
+    "0.7": {
+      "label": "Large Language Models for Code Generation, Security Vulnerabilities, and Software Bug Detection",
+      "overall": 2.0
+    },
+    "0.8": {
+      "label": "Graph Neural Networks Architecture Design and Optimization for Node Classification Tasks",
+      "overall": 1.0
+    },
+    "0.9": {
+      "label": "Energy-Efficient Spiking Neural Networks: Algorithms, Hardware, and Neuromorphic Computing Systems",
+      "overall": 3.0
+    },
+    "0.10": {
+      "label": "Computational Intelligence for Edge-Cloud Resource Optimization and Task Offloading",
+      "overall": 2.0
+    },
+    "0.11": {
+      "label": "Multi-Objective Bayesian Optimization with Surrogate Models and Acquisition Functions",
+      "overall": 1.3333333333333333
+    },
+    "0.12": {
+      "label": "Deep Reinforcement Learning for Autonomous Driving in Dense Urban Traffic",
+      "overall": 2.0
+    },
+    "0.13": {
+      "label": "Uncertainty-Aware Trajectory Prediction for Autonomous Driving Safety Systems",
+      "overall": 2.0
+    },
+    "0.14": {
+      "label": "Classical Planning with Expressive Extensions and Symbolic Search Methods",
+      "overall": 1.0
+    },
+    "0.15": {
+      "label": "Grounded Language Understanding and Dialogue in Interactive Text-Based Game Environments",
+      "overall": 2.0
+    },
+    "0.16": {
+      "label": "Multimodal Large Language Models with Cross-Modal Vision-Language Integration",
+      "overall": 2.0
+    },
+    "0.17": {
+      "label": "Bayesian and Thompson Sampling Bandits with Model Misspecification and Regret Analysis",
+      "overall": null
+    },
+    "0.18": {
+      "label": "Speaker Recognition and Verification Systems with Deep Neural Network Architectures",
+      "overall": 2.0
+    },
+    "0.19": {
+      "label": "Audio Representation Learning and Music Understanding through Supervised and Unsupervised Pre-training",
+      "overall": 1.0
+    },
+    "0.20": {
+      "label": "Metaheuristic and Hyper-heuristic Approaches for Capacitated Vehicle Routing Optimization Problems",
+      "overall": null
+    },
+    "0.21": {
+      "label": "Multi-Agent Path Planning and Adaptive Traffic Control with Deep Reinforcement Learning",
+      "overall": 3.0
+    },
+    "0.22": {
+      "label": "Problem-Dependent Regret Bounds and Linear Function Approximation in Reinforcement Learning",
+      "overall": 2.0
+    },
+    "0.23": {
+      "label": "Spatial-Temporal Graph Neural Networks for Urban Traffic Flow and Mobility Prediction",
+      "overall": 3.0
+    },
+    "0.24": {
+      "label": "Offline Reinforcement Learning with Representation Learning and Policy Optimization",
+      "overall": 2.0
+    },
+    "0.25": {
+      "label": "Continual Learning and Catastrophic Forgetting Mitigation in Neural Networks",
+      "overall": 4.0
+    },
+    "0.26": {
+      "label": "Deep Learning for Short-Term Energy Demand Forecasting with Renewable Energy Integration",
+      "overall": 1.3333333333333333
+    },
+    "0.27": {
+      "label": "Multi-Agent Reinforcement Learning and Cooperative Game Playing in Complex Environments",
+      "overall": 2.0
+    },
+    "0.28": {
+      "label": "Cold-Start Recommendation Systems for Sparse Data and New Items",
+      "overall": 1.0
+    },
+    "0.29": {
+      "label": "Safe Reinforcement Learning with Constraint Satisfaction and Safety Guarantees",
+      "overall": 3.0
+    },
+    "0.31": {
+      "label": "Causal Discovery from Observational Data with Latent Variables and Graphical Models",
+      "overall": 2.6666666666666665
+    },
+    "0.32": {
+      "label": "Text-Driven Video and Image Generation with Neural Style Transfer and Editing",
+      "overall": 2.0
+    },
+    "0.33": {
+      "label": "Epistemic Logic Programs and Answer Set Programming with Probabilistic Reasoning",
+      "overall": 2.0
+    },
+    "0.34": {
+      "label": "Learning Dexterous Robot Manipulation from Human Demonstrations and Imitation",
+      "overall": 2.0
+    },
+    "0.35": {
+      "label": "Quality-Diversity Algorithms and Reinforcement Learning for Robot Manipulation and Locomotion",
+      "overall": 1.0
+    },
+    "0.36": {
+      "label": "EEG-Based Brain-Computer Interfaces for Motor Imagery Rehabilitation and Assistive Applications",
+      "overall": 2.0
+    },
+    "0.37": {
+      "label": "Hardware-Aware Neural Architecture Search with Accuracy Prediction and Design Space Exploration",
+      "overall": 2.0
+    },
+    "0.38": {
+      "label": "Long-term Memory and Context Management in Task-Oriented Dialogue Systems",
+      "overall": 1.6666666666666667
+    },
+    "0.39": {
+      "label": "Privacy Risks in Machine Learning: Membership Inference Attacks and Differential Privacy Mitigation",
+      "overall": 3.0
+    },
+    "0.40": {
+      "label": "Low-Bit Quantization and Compression for Efficient Deep Neural Network Inference",
+      "overall": 3.0
+    },
+    "0.41": {
+      "label": "Reinforcement Learning with Temporal Abstraction, Action Space Curriculum, and Equivariant Representations",
+      "overall": null
+    },
+    "0.42": {
+      "label": "Artificial Intelligence and Automated Decision Systems in Public Health Equity and Epidemic Response",
+      "overall": 2.0
+    },
+    "0.43": {
+      "label": "Artificial Intelligence Applications in Software Engineering Lifecycle and Project Management",
+      "overall": 2.3333333333333335
+    },
+    "0.44": {
+      "label": "Explainable AI: Shapley Values, Feature Attribution, and Interpretability Methods",
+      "overall": 3.0
+    },
+    "0.45": {
+      "label": "Explainable Artificial Intelligence Methods and User-Centric Model Interpretability",
+      "overall": 3.3333333333333335
+    },
+    "0.46": {
+      "label": "Trustworthy AI Development: Ethical Principles, Standards, and Human-Centered Governance",
+      "overall": 3.0
+    },
+    "0.47": {
+      "label": "Exploration and Reward Shaping in Sparse Reward Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "0.48": {
+      "label": "Deep Reinforcement Learning: Policy Optimization and Value Function Approximation Methods",
+      "overall": 3.0
+    },
+    "0.49": {
+      "label": "Convergence Analysis of Stochastic Gradient Descent Variants in Nonsmooth Nonconvex Optimization",
+      "overall": 1.3333333333333333
+    },
+    "0.50": {
+      "label": "Security and Privacy in Federated Learning Systems: Byzantine Attacks and Differential Privacy",
+      "overall": 2.0
+    },
+    "0.51": {
+      "label": "Federated Learning Optimization with Non-IID Data and Client Sampling Strategies",
+      "overall": 2.0
+    },
+    "0.53": {
+      "label": "Class Imbalance Learning with Feature Selection and Data Resampling Methods",
+      "overall": 1.0
+    },
+    "0.54": {
+      "label": "Geometric Structure and Global Optimization of ReLU Neural Networks",
+      "overall": 2.0
+    },
+    "0.56": {
+      "label": "Multi-Source Unsupervised Domain Adaptation with Domain-Invariant Representations and Classifier Alignment",
+      "overall": 1.0
+    },
+    "0.57": {
+      "label": "Multivariate Time Series Anomaly Detection with Deep Learning and Ensemble Methods",
+      "overall": 2.0
+    },
+    "0.58": {
+      "label": "Fake News and Toxic Content Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Long-term Time Series Forecasting with Ensemble Neural Networks and Classical Methods",
+      "overall": null
+    },
+    "0.60": {
+      "label": "Data-Driven Predictive Maintenance and Fault Diagnosis in Industrial Rotating Machinery",
+      "overall": null
+    },
+    "0.61": {
+      "label": "Graph Neural Networks for Network Intrusion Detection and Cyber Threat Analysis",
+      "overall": 2.0
+    },
+    "0.63": {
+      "label": "Aspect-Based Sentiment Analysis and Fine-Grained Opinion Mining from Text",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Deep Learning for Clinical Diagnostic Imaging and Cardiac Abnormality Detection",
+      "overall": 2.0
+    },
+    "0.65": {
+      "label": "Clinical Time Series Analysis for Patient Mortality Prediction in ICU Settings",
+      "overall": 1.5
+    },
+    "0.66": {
+      "label": "Self-Supervised Learning with Knowledge Distillation for Efficient Model Training",
+      "overall": 3.0
+    },
+    "0.67": {
+      "label": "Deep Learning for Medical and Agricultural Image Segmentation with Limited Annotations",
+      "overall": 2.0
+    },
+    "0.68": {
+      "label": "Cross-lingual Transfer Learning and Low-resource Language Processing with Pre-trained Models",
+      "overall": 2.0
+    },
+    "0.69": {
+      "label": "Interpretable Abstractive Summarization with Modular Neural Architectures and Program Synthesis",
+      "overall": 1.0
+    },
+    "0.70": {
+      "label": "Neuro-Symbolic Learning for Abstract Visual Reasoning and Logical Program Induction",
+      "overall": 2.6666666666666665
+    },
+    "0.71": {
+      "label": "Chain-of-Thought Reasoning Verification and Error Detection in Large Language Models",
+      "overall": 2.0
+    },
+    "0.72": {
+      "label": "Generative Adversarial Networks: Mode Collapse Prevention and Distribution Fitting Methods",
+      "overall": 1.6666666666666667
+    },
+    "0.73": {
+      "label": "Generative Models for Image Synthesis, Restoration, and Spatial Content Generation",
+      "overall": 3.0
+    },
+    "0.75": {
+      "label": "Evaluation Frameworks and Benchmarks for Instruction-Tuned Large Language Models",
+      "overall": 2.0
+    },
+    "0.76": {
+      "label": "Synthetic Image Generation and Object Detection in Diverse Visual Domains",
+      "overall": 1.0
+    },
+    "0.77": {
+      "label": "Natural Language Processing Benchmarks and Long Document Understanding Tasks",
+      "overall": 2.0
+    },
+    "0.79": {
+      "label": "3D Object Detection and Semantic Segmentation for Autonomous Driving Perception",
+      "overall": 2.6666666666666665
+    },
+    "0.80": {
+      "label": "Machine Reading Comprehension with Question Generation and Difficulty Control",
+      "overall": 2.0
+    },
+    "0.81": {
+      "label": "Open-Domain Question Answering with Knowledge Integration and Retrieval-Generation Fusion",
+      "overall": 2.0
+    },
+    "1.0": {
+      "label": "Algorithmic Fairness and Fair Resource Allocation",
+      "overall": 2.0
+    },
+    "1.1": {
+      "label": "Knowledge Graph Embedding and Link Prediction",
+      "overall": 3.0
+    },
+    "1.2": {
+      "label": "Large Language Models for Code Generation, Security Vulnerabilities, and Software Bug Detection",
+      "overall": 2.0
+    },
+    "1.3": {
+      "label": "Graph Neural Networks Architecture Design and Optimization for Node Classification Tasks",
+      "overall": 1.3333333333333333
+    },
+    "1.5": {
+      "label": "Audio Processing and Speaker Recognition Systems",
+      "overall": 2.0
+    },
+    "1.6": {
+      "label": "Multimodal Large Language Models with Cross-Modal Vision-Language Integration",
+      "overall": 2.0
+    },
+    "1.7": {
+      "label": "Cold-Start Recommendation Systems for Sparse Data and New Items",
+      "overall": 1.0
+    },
+    "1.9": {
+      "label": "Causal Discovery from Observational Data with Latent Variables and Graphical Models",
+      "overall": 2.3333333333333335
+    },
+    "1.10": {
+      "label": "Text-Driven Video and Image Generation with Neural Style Transfer and Editing",
+      "overall": 1.0
+    },
+    "1.11": {
+      "label": "Robot Manipulation Learning and Control",
+      "overall": 3.0
+    },
+    "1.12": {
+      "label": "Deep Reinforcement Learning Methods and Optimization",
+      "overall": 3.0
+    },
+    "1.13": {
+      "label": "Epistemic Logic Programs and Answer Set Programming with Probabilistic Reasoning",
+      "overall": 2.0
+    },
+    "1.14": {
+      "label": "Neural Network Compression and Efficient Optimization",
+      "overall": 3.0
+    },
+    "1.15": {
+      "label": "Explainable AI and Trustworthy Decision Systems",
+      "overall": 3.0
+    },
+    "1.16": {
+      "label": "Adversarial Robustness and Cyber Defense",
+      "overall": 3.0
+    },
+    "1.17": {
+      "label": "Federated Learning Security and Privacy",
+      "overall": 3.6666666666666665
+    },
+    "1.19": {
+      "label": "Time Series Anomaly Detection and Predictive Maintenance",
+      "overall": 0.0
+    },
+    "1.20": {
+      "label": "Fake News and Toxic Content Detection in Social Media Using NLP",
+      "overall": 2.6666666666666665
+    },
+    "1.21": {
+      "label": "3D Vision and Synthetic Image Generation",
+      "overall": null
+    },
+    "1.22": {
+      "label": "Deep Learning for Clinical Patient Prognosis",
+      "overall": 2.6666666666666665
+    },
+    "1.23": {
+      "label": "Medical Image Segmentation with Self-Supervised Learning",
+      "overall": 1.6666666666666667
+    },
+    "1.24": {
+      "label": "Reasoning Verification in Large Language Models",
+      "overall": 1.3333333333333333
+    },
+    "1.25": {
+      "label": "Cross-lingual Transfer Learning and Low-resource Language Processing with Pre-trained Models",
+      "overall": 2.0
+    },
+    "1.26": {
+      "label": "LLM Evaluation and NLP Benchmarks",
+      "overall": 2.6666666666666665
+    },
+    "2.2": {
+      "label": "Neural Network Compression and Efficient Optimization",
+      "overall": 2.0
+    },
+    "2.4": {
+      "label": "Explainable AI and Trustworthy Decision Systems",
+      "overall": 4.0
+    },
+    "2.5": {
+      "label": "Time Series Anomaly",
+      "overall": 1.0
+    }
+  },
+  "2": {
+    "0.8": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Graph-Structured Data Analysis",
+      "overall": 3.0
+    },
+    "0.28": {
+      "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling",
+      "overall": 2.0
+    },
+    "0.30": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+      "overall": 3.0
+    },
+    "0.52": {
+      "label": "Uncertainty Quantification and Out-of-Distribution Detection in Deep Neural Networks",
+      "overall": 3.0
+    },
+    "0.71": {
+      "label": "Chain-of-Thought Prompting and Reasoning Verification in Large Language Models",
+      "overall": 3.0
+    },
+    "1.3": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Graph-Structured Data Analysis",
+      "overall": 3.0
+    },
+    "1.5": {
+      "label": "Speech and Audio Processing with Deep Learning",
+      "overall": 2.6666666666666665
+    },
+    "1.7": {
+      "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling",
+      "overall": 3.0
+    },
+    "1.8": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+      "overall": 2.5
+    },
+    "2.0": {
+      "label": "Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "2.1": {
+      "label": "Federated Security",
+      "overall": 2.0
+    },
+    "2.3": {
+      "label": "LLM Evaluation",
+      "overall": 1.0
+    },
+    "2.5": {
+      "label": "Temporal Anomaly Detection",
+      "overall": 1.0
+    },
+    "2.6": {
+      "label": "Medical Vision",
+      "overall": 1.0
+    },
+    "0.0": {
+      "label": "Quantum Neural Networks: Architectures, Expressivity, and Machine Learning Applications",
+      "overall": 2.3333333333333335
+    },
+    "0.1": {
+      "label": "Deep Learning for De Novo Molecular Design and 3D Structure Generation",
+      "overall": 2.0
+    },
+    "0.2": {
+      "label": "Fair Division and Allocation of Indivisible Goods with Envy-Freeness and Maximin Share Guarantees",
+      "overall": 2.0
+    },
+    "0.3": {
+      "label": "Fairness in Machine Learning: Algorithmic Bias Mitigation and Demographic Parity",
+      "overall": 3.0
+    },
+    "0.4": {
+      "label": "Knowledge Graph Embedding Methods for Link Prediction and Completion Tasks",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Knowledge Graph-Enhanced Relation Extraction and Entity Alignment Using Neural Networks",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "Physics-Informed Neural Networks for Solving Partial Differential Equations and Scientific Computing",
+      "overall": 3.0
+    },
+    "0.7": {
+      "label": "Large Language Models for Code Understanding, Generation, and Software Engineering Tasks",
+      "overall": 3.0
+    },
+    "0.9": {
+      "label": "Neuromorphic Hardware Acceleration and Energy-Efficient Spiking Neural Network Implementation",
+      "overall": 3.0
+    },
+    "0.10": {
+      "label": "Edge-Cloud Collaborative Computing: Resource Orchestration and Intelligent Task Offloading",
+      "overall": 3.0
+    },
+    "0.11": {
+      "label": "Surrogate-Assisted and Evolutionary Algorithms for Multi-Objective Optimization Problems",
+      "overall": 2.0
+    },
+    "0.12": {
+      "label": "Deep Reinforcement Learning for Autonomous Driving in Dense Traffic Scenarios",
+      "overall": 2.0
+    },
+    "0.13": {
+      "label": "Uncertainty-Aware Trajectory and Intention Prediction for Autonomous Driving Systems",
+      "overall": 2.0
+    },
+    "0.14": {
+      "label": "Classical Planning Formalisms, Symbolic Search Methods, and Neuro-Symbolic Integration",
+      "overall": 2.0
+    },
+    "0.15": {
+      "label": "Language-Grounded Embodied Agents in Interactive Text and Visual Environments",
+      "overall": 2.6666666666666665
+    },
+    "0.16": {
+      "label": "Multimodal Vision-Language Models for Cross-Modal Understanding and Generation Tasks",
+      "overall": 2.0
+    },
+    "0.17": {
+      "label": "Regret Analysis and Thompson Sampling in Contextual and Graphical Bandit Problems",
+      "overall": 2.0
+    },
+    "0.18": {
+      "label": "Speaker Recognition and Dysarthric Speech Recognition with Deep Neural Network Architectures",
+      "overall": 1.0
+    },
+    "0.19": {
+      "label": "Audio Representation Learning and Controllable Music Generation with Diffusion Models",
+      "overall": 2.0
+    },
+    "0.20": {
+      "label": "Vehicle Routing and Scheduling Optimization for Last-Mile Logistics and Urban Delivery",
+      "overall": 1.0
+    },
+    "0.21": {
+      "label": "Multi-Agent Path Finding and Adaptive Traffic Signal Control with Conflict Resolution",
+      "overall": 2.0
+    },
+    "0.22": {
+      "label": "Sample-Efficient Reinforcement Learning with Regret Bounds and Function Approximation",
+      "overall": 2.0
+    },
+    "0.23": {
+      "label": "Spatial-Temporal Graph Neural Networks for Urban Traffic Flow Forecasting and Prediction",
+      "overall": 3.0
+    },
+    "0.24": {
+      "label": "Offline Reinforcement Learning: Policy Optimization from Fixed Datasets",
+      "overall": 3.0
+    },
+    "0.25": {
+      "label": "Continual Learning and Catastrophic Forgetting Mitigation in Neural Networks",
+      "overall": 4.0
+    },
+    "0.26": {
+      "label": "Deep Learning for Short-Term Energy Demand Forecasting in Smart Grids with Renewable Integration",
+      "overall": 2.0
+    },
+    "0.27": {
+      "label": "Multi-Agent Reinforcement Learning and AI Game Playing Across Diverse Game Domains",
+      "overall": null
+    },
+    "0.29": {
+      "label": "Safe Reinforcement Learning with Formal Safety Guarantees and Constraint Satisfaction",
+      "overall": 3.0
+    },
+    "0.31": {
+      "label": "Bayesian Causal Discovery and Structural Causal Model Inference from Observational Data",
+      "overall": 2.0
+    },
+    "0.32": {
+      "label": "Text-Driven Video Generation and Customization with Diffusion Models",
+      "overall": 1.0
+    },
+    "0.33": {
+      "label": "Probabilistic Logic Programming and Knowledge Representation with Epistemic Operators",
+      "overall": 2.0
+    },
+    "0.34": {
+      "label": "Learning Dexterous Robot Manipulation from Human Demonstrations and Multimodal Sensory Feedback",
+      "overall": 2.0
+    },
+    "0.35": {
+      "label": "Model-Based Reinforcement Learning for Robot Manipulation and Locomotion Tasks",
+      "overall": 2.0
+    },
+    "0.36": {
+      "label": "Low-Channel EEG Motor Imagery Classification for Brain-Computer Interface Rehabilitation",
+      "overall": null
+    },
+    "0.37": {
+      "label": "Hardware-Aware Neural Architecture Search with Accelerator Co-Design and Optimization",
+      "overall": 2.6666666666666665
+    },
+    "0.38": {
+      "label": "Large Language Models for Task-Oriented and Multi-Turn Dialogue Systems with Memory",
+      "overall": 2.3333333333333335
+    },
+    "0.39": {
+      "label": "Privacy-Preserving Machine Learning: Differential Privacy, Membership Inference, and Unlearning",
+      "overall": 3.0
+    },
+    "0.40": {
+      "label": "Post-training Quantization and Low-bit Neural Network Compression for Edge Devices",
+      "overall": 2.0
+    },
+    "0.41": {
+      "label": "Hierarchical and Abstract Representation Learning in Reinforcement Learning Agents",
+      "overall": 1.6666666666666667
+    },
+    "0.42": {
+      "label": "AI-Driven Public Health Interventions: Equity, Epidemiology, and Clinical Decision Support",
+      "overall": null
+    },
+    "0.43": {
+      "label": "AI-Assisted Software Engineering and Architecture with Human-Bot Collaboration",
+      "overall": 2.0
+    },
+    "0.44": {
+      "label": "Shapley Values and Game-Theoretic Feature Attribution for Explainable AI",
+      "overall": 2.3333333333333335
+    },
+    "0.45": {
+      "label": "Explainable Artificial Intelligence Methods and Post-hoc Model Interpretability Techniques",
+      "overall": 3.3333333333333335
+    },
+    "0.46": {
+      "label": "Responsible AI Development, Governance, and Human-Centered Trust in Autonomous Systems",
+      "overall": 3.0
+    },
+    "0.47": {
+      "label": "Exploration Strategies and Intrinsic Motivation in Sparse Reward Reinforcement Learning",
+      "overall": 3.0
+    },
+    "0.48": {
+      "label": "Deep Reinforcement Learning: Actor-Critic Methods and Value Function Approximation",
+      "overall": 2.3333333333333335
+    },
+    "0.49": {
+      "label": "Stochastic Gradient Descent Variants and Nonsmooth Nonconvex Optimization Convergence Analysis",
+      "overall": 2.0
+    },
+    "0.50": {
+      "label": "Security and Privacy in Federated Learning Systems: Byzantine Attacks and Differential Privacy",
+      "overall": 2.0
+    },
+    "0.51": {
+      "label": "Federated Learning Optimization: Client Heterogeneity, Data Privacy, and Model Aggregation",
+      "overall": 3.0
+    },
+    "0.53": {
+      "label": "Class Imbalance Learning through Data Resampling and Feature Selection Techniques",
+      "overall": 0.3333333333333333
+    },
+    "0.54": {
+      "label": "Geometric Structure and Training Dynamics of Deep ReLU Neural Networks",
+      "overall": 3.0
+    },
+    "0.55": {
+      "label": "Structured Pruning and Tensor Decomposition for Neural Network Compression",
+      "overall": 3.0
+    },
+    "0.56": {
+      "label": "Domain Adaptation and Generalization for Cross-Domain Feature Alignment and Transfer Learning",
+      "overall": 3.0
+    },
+    "0.57": {
+      "label": "Anomaly Detection in Multivariate Time Series Using Deep Learning and Ensemble Methods",
+      "overall": 2.0
+    },
+    "0.58": {
+      "label": "Toxic Content and Misinformation Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Long-term Time Series Forecasting with Deep Learning and Ensemble Methods",
+      "overall": 1.0
+    },
+    "0.60": {
+      "label": "Data-Driven Predictive Maintenance and Fault Diagnosis for Industrial Rotating Machinery",
+      "overall": null
+    },
+    "0.61": {
+      "label": "Graph Neural Networks and Machine Learning for Network Intrusion Detection Systems",
+      "overall": 3.0
+    },
+    "0.62": {
+      "label": "Adversarial Robustness Defense Mechanisms for Deep Learning Models and Applications",
+      "overall": 3.0
+    },
+    "0.63": {
+      "label": "Aspect-Based Sentiment Analysis and Opinion Mining with Advanced Language Models",
+      "overall": 2.3333333333333335
+    },
+    "0.64": {
+      "label": "Deep Learning for Cardiac and Medical Imaging Diagnosis with Clinical Applications",
+      "overall": 2.0
+    },
+    "0.65": {
+      "label": "Deep Learning for Clinical Mortality Prediction from Longitudinal Electronic Health Records",
+      "overall": 2.0
+    },
+    "0.66": {
+      "label": "Self-Supervised Learning and Knowledge Distillation for Efficient Neural Network Compression",
+      "overall": 2.3333333333333335
+    },
+    "0.67": {
+      "label": "Deep Learning Methods for Medical Image Segmentation with Limited Annotated Data",
+      "overall": 3.0
+    },
+    "0.68": {
+      "label": "Cross-lingual Transfer Learning and Low-resource Language Processing with Pre-trained Models",
+      "overall": 2.0
+    },
+    "0.69": {
+      "label": "Abstractive and Cross-lingual Document Summarization with Interpretability and Modular Approaches",
+      "overall": null
+    },
+    "0.70": {
+      "label": "Neuro-Symbolic Learning for Abstract Visual Reasoning and Logical Inference",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Generative Adversarial Networks Training Stability and Mode Collapse Solutions",
+      "overall": 2.3333333333333335
+    },
+    "0.73": {
+      "label": "Generative Models for Image Synthesis and Reconstruction with Structural Guidance",
+      "overall": null
+    },
+    "0.75": {
+      "label": "Comprehensive Evaluation Benchmarks and Suites for Instruction-Tuned Large Language Models",
+      "overall": 1.6666666666666667
+    },
+    "0.76": {
+      "label": "Synthetic Image Generation and Unsupervised Learning for Object Detection",
+      "overall": null
+    },
+    "0.77": {
+      "label": "Multilingual NLP Benchmarks and Evaluation Frameworks for Language Models",
+      "overall": null
+    },
+    "0.79": {
+      "label": "3D LiDAR Semantic Segmentation and Object Detection for Autonomous Driving",
+      "overall": 3.0
+    },
+    "0.80": {
+      "label": "Machine Reading Comprehension, Question Generation, and Large Language Model Evaluation",
+      "overall": 3.0
+    },
+    "0.81": {
+      "label": "Open-Domain Question Answering with Knowledge Merging and Retrieval-Generation Integration",
+      "overall": 1.6666666666666667
+    },
+    "1.0": {
+      "label": "Fairness Metrics and Algorithmic Allocation",
+      "overall": 2.0
+    },
+    "1.1": {
+      "label": "Knowledge Graph Embedding and Link Prediction",
+      "overall": 3.0
+    },
+    "1.2": {
+      "label": "Large Language Models for Code Understanding, Generation, and Software Engineering Tasks",
+      "overall": 3.0
+    },
+    "1.4": {
+      "label": "Reinforcement Learning for Autonomous Driving",
+      "overall": 2.3333333333333335
+    },
+    "1.6": {
+      "label": "Multimodal Vision-Language Models for Cross-Modal Understanding and Generation Tasks",
+      "overall": 3.0
+    },
+    "1.9": {
+      "label": "Bayesian Causal Discovery and Structural Causal Model Inference from Observational Data",
+      "overall": 2.0
+    },
+    "1.10": {
+      "label": "Text-Driven Video Generation and Customization with Diffusion Models",
+      "overall": 2.0
+    },
+    "1.11": {
+      "label": "Robot Manipulation Learning from Demonstrations",
+      "overall": 2.0
+    },
+    "1.12": {
+      "label": "Deep Reinforcement Learning Methods and Exploration",
+      "overall": 3.0
+    },
+    "1.13": {
+      "label": "Probabilistic Logic Programming and Knowledge Representation with Epistemic Operators",
+      "overall": 2.0
+    },
+    "1.14": {
+      "label": "Neural Network Compression and Hardware Optimization",
+      "overall": 2.0
+    },
+    "1.15": {
+      "label": "Explainable AI Methods and Trustworthy Systems",
+      "overall": 3.0
+    },
+    "1.16": {
+      "label": "Adversarial Attacks and Defense Security",
+      "overall": 3.6666666666666665
+    },
+    "1.17": {
+      "label": "Federated Learning Privacy Security",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Time Series Forecasting and Anomaly Detection",
+      "overall": 3.0
+    },
+    "1.19": {
+      "label": "Uncertainty Quantification and Out-of-Distribution Detection",
+      "overall": 3.0
+    },
+    "1.20": {
+      "label": "Toxic Content and Misinformation Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "1.21": {
+      "label": "3D Vision and Synthetic Data Generation",
+      "overall": 2.0
+    },
+    "1.22": {
+      "label": "Deep Learning Clinical Mortality Prediction Systems",
+      "overall": 2.0
+    },
+    "1.23": {
+      "label": "Self-Supervised Medical Image Segmentation Methods",
+      "overall": 1.3333333333333333
+    },
+    "1.24": {
+      "label": "Reasoning in Large Language Models",
+      "overall": 3.3333333333333335
+    },
+    "1.25": {
+      "label": "Cross-lingual Transfer Learning and Low-resource Language Processing with Pre-trained Models",
+      "overall": 2.0
+    },
+    "1.26": {
+      "label": "LLM Evaluation and Question Answering",
+      "overall": 1.3333333333333333
+    },
+    "2.2": {
+      "label": "Neural Network Compression and Hardware Optimization",
+      "overall": 1.6666666666666667
+    },
+    "2.4": {
+      "label": "Explainable AI Methods and Trustworthy Systems",
+      "overall": 3.0
+    }
+  },
+  "4": {
+    "0.15": {
+      "label": "Language-Grounded Embodied Agents and Interactive Text-Based Game Environments",
+      "overall": 3.0
+    },
+    "0.16": {
+      "label": "Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation",
+      "overall": 3.0
+    },
+    "0.22": {
+      "label": "Regret Bounds and Sample Complexity in Reinforcement Learning with Function Approximation",
+      "overall": 2.0
+    },
+    "0.25": {
+      "label": "Continual Learning Methods for Mitigating Catastrophic Forgetting in Neural Networks",
+      "overall": 4.0
+    },
+    "0.28": {
+      "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling",
+      "overall": 2.0
+    },
+    "0.30": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+      "overall": 3.0
+    },
+    "0.31": {
+      "label": "Causal Discovery and Inference from Observational Data with Latent Confounders",
+      "overall": 2.0
+    },
+    "0.53": {
+      "label": "Class Imbalance Learning and Data Resampling Methods for Imbalanced Classification",
+      "overall": 0.3333333333333333
+    },
+    "0.54": {
+      "label": "Theoretical Analysis of ReLU Networks: Optimization, Generalization, and Geometric Structure",
+      "overall": 3.0
+    },
+    "0.55": {
+      "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+      "overall": 3.0
+    },
+    "0.66": {
+      "label": "Knowledge Distillation and Self-Supervised Learning for Efficient Neural Network Training",
+      "overall": 3.0
+    },
+    "0.71": {
+      "label": "Chain-of-Thought Prompting and Reasoning Verification in Large Language Models",
+      "overall": 3.0
+    },
+    "1.6": {
+      "label": "Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation",
+      "overall": 3.0
+    },
+    "1.7": {
+      "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling",
+      "overall": 3.0
+    },
+    "1.8": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+      "overall": 2.5
+    },
+    "1.9": {
+      "label": "Causal Discovery and Inference from Observational Data with Latent Confounders",
+      "overall": 2.0
+    },
+    "1.15": {
+      "label": "Explainable AI and Trustworthy Systems",
+      "overall": 3.0
+    },
+    "1.17": {
+      "label": "Privacy-Preserving Federated Learning Systems",
+      "overall": 3.3333333333333335
+    },
+    "2.0": {
+      "label": "Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "2.1": {
+      "label": "Federated Security",
+      "overall": 2.0
+    },
+    "2.3": {
+      "label": "LLM Evaluation",
+      "overall": 1.0
+    },
+    "2.4": {
+      "label": "Explainable AI and Trustworthy Systems",
+      "overall": 3.3333333333333335
+    },
+    "2.5": {
+      "label": "Temporal Anomaly Detection",
+      "overall": 1.0
+    },
+    "0.0": {
+      "label": "Quantum Neural Networks: Architectures, Learning Algorithms, and Expressivity Analysis",
+      "overall": 2.0
+    },
+    "0.1": {
+      "label": "Deep Learning for Molecular Design, Structure Prediction, and Drug Discovery Applications",
+      "overall": 3.0
+    },
+    "0.2": {
+      "label": "Fair Division and Allocation of Indivisible Goods with Envy-Freeness and Welfare Guarantees",
+      "overall": 2.0
+    },
+    "0.3": {
+      "label": "Fairness in Machine Learning: Algorithmic Bias, Causal Methods, and Ethical Decision-Making",
+      "overall": 3.0
+    },
+    "0.4": {
+      "label": "Knowledge Graph Embedding Models for Link Prediction and Knowledge Graph Completion",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Knowledge Graph-based Relation Extraction and Entity Alignment with Neural Methods",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "Physics-Informed Neural Networks for Solving Partial Differential Equations and Computational Simulations",
+      "overall": 3.0
+    },
+    "0.7": {
+      "label": "Large Language Models for Code Understanding, Security Vulnerability Detection, and Software Engineering",
+      "overall": 3.0
+    },
+    "0.8": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Node and Graph-Level Representation Learning",
+      "overall": null
+    },
+    "0.9": {
+      "label": "Energy-Efficient Spiking Neural Networks: Hardware Acceleration and Neuromorphic Computing",
+      "overall": 3.0
+    },
+    "0.10": {
+      "label": "Edge AI and Cloud-Edge Collaborative Computing: Orchestration, Resource Allocation, and Optimization",
+      "overall": 3.0
+    },
+    "0.11": {
+      "label": "Surrogate-Assisted and Metaheuristic Optimization with Multi-Objective and Constrained Problem Solving",
+      "overall": 3.0
+    },
+    "0.12": {
+      "label": "Deep Reinforcement Learning for End-to-End Autonomous Driving and Racing Control",
+      "overall": 2.0
+    },
+    "0.13": {
+      "label": "Uncertainty-Aware Trajectory and Intention Prediction for Autonomous Vehicle Safety",
+      "overall": 2.0
+    },
+    "0.14": {
+      "label": "Classical Automated Planning with Symbolic Methods and Expressive Extensions",
+      "overall": 2.0
+    },
+    "0.17": {
+      "label": "Regret Analysis and Algorithmic Design in Multi-Armed and Contextual Bandit Problems",
+      "overall": 3.0
+    },
+    "0.18": {
+      "label": "Speaker Recognition and Speech Processing with Deep Learning Architectures",
+      "overall": 2.3333333333333335
+    },
+    "0.19": {
+      "label": "Audio Signal Processing and Music Generation with Deep Learning Models",
+      "overall": 2.0
+    },
+    "0.20": {
+      "label": "Metaheuristic and Reinforcement Learning Approaches for Vehicle Routing and Logistics Optimization",
+      "overall": 1.0
+    },
+    "0.21": {
+      "label": "Multi-Agent Path Finding and Adaptive Traffic Signal Control Systems",
+      "overall": 3.0
+    },
+    "0.23": {
+      "label": "Spatial-Temporal Graph Neural Networks for Traffic Flow Forecasting and Prediction",
+      "overall": 3.0
+    },
+    "0.24": {
+      "label": "Offline Reinforcement Learning: Policy Optimization from Batch Data without Environment Interaction",
+      "overall": 3.0
+    },
+    "0.26": {
+      "label": "Deep Learning and AI Methods for Smart Grid Energy Demand Forecasting and Load Monitoring",
+      "overall": 3.0
+    },
+    "0.27": {
+      "label": "Multi-Agent Learning and AI in Strategic and Team-Based Games",
+      "overall": 2.0
+    },
+    "0.29": {
+      "label": "Safe Reinforcement Learning with Formal Safety Guarantees and Constraint Satisfaction",
+      "overall": null
+    },
+    "0.32": {
+      "label": "Text-Driven Video and Motion Generation using Diffusion and Neural Models",
+      "overall": 2.0
+    },
+    "0.33": {
+      "label": "Non-monotonic Reasoning in Logic Programming and Description Logics with Uncertainty",
+      "overall": 2.0
+    },
+    "0.34": {
+      "label": "Learning Dexterous Robot Manipulation from Demonstrations and Multimodal Sensory Feedback",
+      "overall": 2.0
+    },
+    "0.35": {
+      "label": "Model-Based and Quality-Diversity Reinforcement Learning for Robot Manipulation and Locomotion",
+      "overall": 1.6666666666666667
+    },
+    "0.36": {
+      "label": "EEG Signal Processing and Classification for Brain-Computer Interface Applications",
+      "overall": 3.0
+    },
+    "0.37": {
+      "label": "Hardware-Aware Neural Architecture Search and Accelerator Co-Design",
+      "overall": 3.0
+    },
+    "0.38": {
+      "label": "Large Language Models for Task-Oriented and Multi-Turn Dialogue Systems",
+      "overall": 3.0
+    },
+    "0.39": {
+      "label": "Privacy-Preserving Machine Learning: Differential Privacy, Membership Inference, and Federated Learning",
+      "overall": 2.6666666666666665
+    },
+    "0.40": {
+      "label": "Post-Training Quantization and Low-Bit Neural Network Compression for Edge Devices",
+      "overall": 2.3333333333333335
+    },
+    "0.41": {
+      "label": "Representation Learning and Curriculum Design in Reinforcement Learning Agents",
+      "overall": 2.0
+    },
+    "0.42": {
+      "label": "Trustworthy AI in Healthcare: Equity, Interpretability, and Clinical Deployment",
+      "overall": 2.3333333333333335
+    },
+    "0.43": {
+      "label": "Human-AI Collaboration in Software Engineering and Design Processes",
+      "overall": 2.0
+    },
+    "0.44": {
+      "label": "Explainable AI: Shapley Values, Feature Attribution, and Model Interpretability Methods",
+      "overall": 3.0
+    },
+    "0.45": {
+      "label": "Explainable Artificial Intelligence Methods and Post-hoc Model Interpretation Techniques",
+      "overall": 4.0
+    },
+    "0.46": {
+      "label": "Trustworthy AI Development, Governance, and Lifecycle Management with Ethical Principles",
+      "overall": 2.0
+    },
+    "0.47": {
+      "label": "Exploration Strategies in Sparse Reward Reinforcement Learning with Intrinsic Motivation",
+      "overall": 3.0
+    },
+    "0.48": {
+      "label": "Deep Reinforcement Learning Policy Optimization and Value Function Approximation Methods",
+      "overall": 3.0
+    },
+    "0.49": {
+      "label": "Stochastic Gradient Descent Variants and Adaptive Optimization Methods for Nonconvex Neural Network Training",
+      "overall": 3.0
+    },
+    "0.50": {
+      "label": "Security and Privacy in Federated Learning Systems with Byzantine Robustness",
+      "overall": 2.0
+    },
+    "0.51": {
+      "label": "Federated Learning Optimization: Client Heterogeneity, Privacy, and Model Aggregation",
+      "overall": 3.0
+    },
+    "0.52": {
+      "label": "Uncertainty Quantification and Out-of-Distribution Detection in Deep Learning",
+      "overall": 3.0
+    },
+    "0.56": {
+      "label": "Unsupervised Domain Adaptation with Domain-Invariant Representations and Multi-Source Learning",
+      "overall": 2.0
+    },
+    "0.57": {
+      "label": "Unsupervised and Semi-supervised Anomaly Detection in Time Series Data",
+      "overall": 2.0
+    },
+    "0.58": {
+      "label": "Misinformation and Toxic Content Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Deep Learning and Ensemble Methods for Long-Term Multivariate Time Series Forecasting",
+      "overall": 1.0
+    },
+    "0.60": {
+      "label": "Data-Driven Predictive Maintenance and Fault Diagnosis in Industrial Rotating Machinery",
+      "overall": 3.0
+    },
+    "0.61": {
+      "label": "Graph Neural Networks for Network Intrusion Detection and Cyber Threat Defense",
+      "overall": 2.0
+    },
+    "0.62": {
+      "label": "Adversarial Attack Defense Mechanisms and Robustness Evaluation for Deep Learning Models",
+      "overall": 3.0
+    },
+    "0.63": {
+      "label": "Aspect-Based Sentiment Analysis and Opinion Mining with Neural Language Models",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Deep Learning for Clinical Medical Imaging Diagnosis and Biomarker Discovery",
+      "overall": 2.0
+    },
+    "0.65": {
+      "label": "Deep Learning for Clinical Mortality Prediction from Longitudinal Electronic Health Records",
+      "overall": 2.0
+    },
+    "0.67": {
+      "label": "Deep Learning for Medical and Plant Image Segmentation with Limited Annotated Data",
+      "overall": 2.3333333333333335
+    },
+    "0.68": {
+      "label": "Cross-lingual Transfer Learning and Low-resource Language NLP with Multilingual Models",
+      "overall": 2.0
+    },
+    "0.69": {
+      "label": "Abstractive and Extractive Summarization of Long Documents with Neural Models",
+      "overall": 2.0
+    },
+    "0.70": {
+      "label": "Neuro-Symbolic Integration for Abstract Visual Reasoning and Logic Inference",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Generative Adversarial Networks Training Stability and Mode Collapse Solutions",
+      "overall": 2.0
+    },
+    "0.73": {
+      "label": "Generative Models and Deep Learning for Image Synthesis, Reconstruction, and Domain Generalization",
+      "overall": 3.0
+    },
+    "0.75": {
+      "label": "Comprehensive Evaluation Benchmarks and Suites for Instruction-Tuned Large Language Models",
+      "overall": 1.6666666666666667
+    },
+    "0.76": {
+      "label": "Deep Learning Methods for Object Detection and Localization in Images",
+      "overall": 2.0
+    },
+    "0.77": {
+      "label": "Multilingual NLP Benchmarks and Evaluation Datasets for Language Understanding Tasks",
+      "overall": null
+    },
+    "0.79": {
+      "label": "Multi-modal 3D Object Detection and Semantic Segmentation for Autonomous Driving",
+      "overall": 3.0
+    },
+    "0.80": {
+      "label": "Machine Reading Comprehension, Question Generation, and Evaluation of Language Models",
+      "overall": 3.0
+    },
+    "0.81": {
+      "label": "Open-Domain Question Answering with Knowledge Integration and Retrieval-Augmented Generation",
+      "overall": 1.5
+    },
+    "1.0": {
+      "label": "Fairness in Algorithmic Decision-Making Systems",
+      "overall": 3.0
+    },
+    "1.1": {
+      "label": "Knowledge Graph Embedding and Entity Alignment",
+      "overall": 2.0
+    },
+    "1.2": {
+      "label": "Large Language Models for Code Understanding, Security Vulnerability Detection, and Software Engineering",
+      "overall": 2.3333333333333335
+    },
+    "1.3": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Node and Graph-Level Representation Learning",
+      "overall": 3.0
+    },
+    "1.4": {
+      "label": "Reinforcement Learning for Autonomous Driving",
+      "overall": 2.0
+    },
+    "1.5": {
+      "label": "Speech and Audio Deep Learning Processing",
+      "overall": 3.0
+    },
+    "1.10": {
+      "label": "Text-Driven Video and Motion Generation using Diffusion and Neural Models",
+      "overall": 2.0
+    },
+    "1.11": {
+      "label": "Robot Manipulation Learning with Multimodal Feedback",
+      "overall": 2.0
+    },
+    "1.12": {
+      "label": "Deep Reinforcement Learning Policy Optimization",
+      "overall": 2.0
+    },
+    "1.13": {
+      "label": "Non-monotonic Reasoning in Logic Programming and Description Logics with Uncertainty",
+      "overall": 2.0
+    },
+    "1.14": {
+      "label": "Neural Network Compression and Hardware Optimization",
+      "overall": 2.0
+    },
+    "1.16": {
+      "label": "Adversarial Robustness and Cyber Defense",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Time Series Forecasting and Anomaly Detection",
+      "overall": 3.0
+    },
+    "1.19": {
+      "label": "Uncertainty Quantification and Anomaly Detection",
+      "overall": 3.0
+    },
+    "1.20": {
+      "label": "Misinformation and Toxic Content Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "1.21": {
+      "label": "3D Detection and Semantic Segmentation Methods",
+      "overall": 1.0
+    },
+    "1.22": {
+      "label": "Deep Learning Clinical Diagnosis and Prognosis",
+      "overall": 3.0
+    },
+    "1.23": {
+      "label": "Medical Image Segmentation with Limited Data",
+      "overall": 1.0
+    },
+    "1.24": {
+      "label": "Reasoning in Large Language Models",
+      "overall": 3.0
+    },
+    "1.25": {
+      "label": "Cross-lingual Transfer Learning and Low-resource Language NLP with Multilingual Models",
+      "overall": 2.0
+    },
+    "1.26": {
+      "label": "Large Language Models Evaluation and Benchmarking",
+      "overall": 2.0
+    },
+    "2.2": {
+      "label": "Neural Network Compression and Hardware Optimization",
+      "overall": 2.0
+    },
+    "2.6": {
+      "label": "Medical Segmentation",
+      "overall": 0.3333333333333333
+    }
+  },
+  "4_nokp": {
+    "0.6": {
+      "label": "Physics-Informed Neural Networks for Solving Partial Differential Equations",
+      "overall": 2.6666666666666665
+    },
+    "0.47": {
+      "label": "Exploration strategies for sparse reward reinforcement learning in hard exploration domains",
+      "overall": 3.0
+    },
+    "1.4": {
+      "label": "Deep Reinforcement Learning for Autonomous Driving",
+      "overall": 2.0
+    },
+    "1.14": {
+      "label": "Efficient Neural Network Compression and Optimization",
+      "overall": 3.0
+    },
+    "1.15": {
+      "label": "Explainable AI and Trustworthy Systems",
+      "overall": 3.0
+    },
+    "2.0": {
+      "label": "Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "2.2": {
+      "label": "Efficient Neural Network Compression and Optimization",
+      "overall": 2.0
+    },
+    "2.3": {
+      "label": "LLM Evaluation",
+      "overall": 1.0
+    },
+    "2.4": {
+      "label": "Explainable AI and Trustworthy Systems",
+      "overall": 3.3333333333333335
+    },
+    "0.0": {
+      "label": "Quantum Neural Networks: Architecture, Theory, and Classical-Quantum Integration Methods",
+      "overall": 2.0
+    },
+    "0.1": {
+      "label": "Deep Learning for Molecular Design and Property Prediction with Generative Models",
+      "overall": 3.0
+    },
+    "0.2": {
+      "label": "Fair Division and Allocation of Indivisible Items with Equity Constraints",
+      "overall": 2.0
+    },
+    "0.3": {
+      "label": "Fairness in Machine Learning: Philosophical, Causal, and Social Perspectives on Algorithmic Decision-Making",
+      "overall": 2.6666666666666665
+    },
+    "0.4": {
+      "label": "Knowledge Graph Embedding Methods for Link Prediction and Entity Representation Learning",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Knowledge Graph-Based Relation Extraction and Entity Alignment Using Graph Neural Networks",
+      "overall": 3.0
+    },
+    "0.7": {
+      "label": "Large Language Models for Code Understanding, Representation Learning, and Security Analysis",
+      "overall": 3.0
+    },
+    "0.8": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Graph Representation Learning",
+      "overall": 3.0
+    },
+    "0.9": {
+      "label": "Energy-Efficient Spiking Neural Networks: Hardware Acceleration and Neuromorphic Computing Systems",
+      "overall": 3.0
+    },
+    "0.10": {
+      "label": "Edge Computing and AI Optimization: Resource Orchestration and Intelligent Task Scheduling",
+      "overall": 2.3333333333333335
+    },
+    "0.11": {
+      "label": "Metaheuristic and Evolutionary Algorithms for Global Constrained Optimization Problems",
+      "overall": 2.0
+    },
+    "0.12": {
+      "label": "Deep Reinforcement Learning for Autonomous Vehicle Control and Planning",
+      "overall": 3.0
+    },
+    "0.13": {
+      "label": "Uncertainty-Aware Prediction and Risk Assessment for Autonomous Vehicle Decision Making",
+      "overall": 2.0
+    },
+    "0.14": {
+      "label": "Symbolic Planning Methods and Knowledge Representation for Automated Reasoning Systems",
+      "overall": 3.0
+    },
+    "0.15": {
+      "label": "Language-Grounded Interactive Agents in Text-Based and Embodied Environments",
+      "overall": 3.0
+    },
+    "0.16": {
+      "label": "Multimodal Vision-Language Learning with Image-Text Alignment and Pretraining",
+      "overall": 2.0
+    },
+    "0.17": {
+      "label": "Thompson Sampling and Advanced Bandit Algorithms for Complex Reward Structures",
+      "overall": 2.0
+    },
+    "0.18": {
+      "label": "Speaker Verification and Speech Recognition with Deep Learning Embeddings and Adaptation",
+      "overall": 3.0
+    },
+    "0.19": {
+      "label": "Deep Learning for Music Audio Understanding, Generation, and Performance Analysis",
+      "overall": 2.5
+    },
+    "0.20": {
+      "label": "Metaheuristic and Reinforcement Learning Optimization for Constrained Routing and Logistics Problems",
+      "overall": null
+    },
+    "0.21": {
+      "label": "Multi-Agent Path Planning and Routing Using Deep Reinforcement Learning and Optimization",
+      "overall": 2.6666666666666665
+    },
+    "0.22": {
+      "label": "Regret Bounds and Sample Complexity in Episodic Reinforcement Learning with Partial Observability",
+      "overall": 2.0
+    },
+    "0.23": {
+      "label": "Spatial-Temporal Graph Neural Networks for Traffic Flow Prediction and Forecasting",
+      "overall": 3.0
+    },
+    "0.24": {
+      "label": "Offline Reinforcement Learning: Policy Optimization and Representation Learning from Batch Data",
+      "overall": 3.0
+    },
+    "0.25": {
+      "label": "Continual Learning and Catastrophic Forgetting in Neural Networks",
+      "overall": 4.0
+    },
+    "0.26": {
+      "label": "Deep Learning and Machine Learning for Smart Grid Energy Demand Forecasting and Load Prediction",
+      "overall": 3.0
+    },
+    "0.27": {
+      "label": "Multi-Agent Reinforcement Learning for General Game Playing and Strategy Games",
+      "overall": 2.0
+    },
+    "0.28": {
+      "label": "Advanced User Preference Modeling and Cold-Start Recommendation Systems",
+      "overall": 2.0
+    },
+    "0.29": {
+      "label": "Safe Reinforcement Learning with Constraint Satisfaction and Safety Guarantees",
+      "overall": 3.0
+    },
+    "0.30": {
+      "label": "Multi-Agent Reinforcement Learning Coordination and Communication Strategies",
+      "overall": 2.0
+    },
+    "0.31": {
+      "label": "Causal Discovery and Identification with Latent Variables and Confounders",
+      "overall": 2.0
+    },
+    "0.32": {
+      "label": "Conditional Video and Motion Generation using Diffusion and Transformer Models",
+      "overall": 2.0
+    },
+    "0.33": {
+      "label": "Non-monotonic Reasoning and Knowledge Representation in Logic Programming and Description Logics",
+      "overall": 2.3333333333333335
+    },
+    "0.34": {
+      "label": "Learning-Based Dexterous Robotic Manipulation with Multimodal Perception and Imitation",
+      "overall": null
+    },
+    "0.35": {
+      "label": "Model-Based and Vision-Based Reinforcement Learning for Robot Manipulation and Control",
+      "overall": 2.0
+    },
+    "0.36": {
+      "label": "EEG Signal Processing and Classification for Brain-Computer Interface Applications",
+      "overall": 3.0
+    },
+    "0.37": {
+      "label": "Hardware-Aware Neural Architecture Search and Accelerator Co-Design Methodologies",
+      "overall": 3.0
+    },
+    "0.38": {
+      "label": "Deep Learning Methods for Multi-turn Dialogue Systems and Conversational AI",
+      "overall": 2.6666666666666665
+    },
+    "0.39": {
+      "label": "Differential Privacy and Security in Deep Learning Model Training",
+      "overall": 3.0
+    },
+    "0.40": {
+      "label": "Neural Network Quantization for Efficient Edge Device Inference and Deployment",
+      "overall": 3.0
+    },
+    "0.41": {
+      "label": "Reinforcement Learning with Curriculum Learning, Demonstrations, and Prior Knowledge Integration",
+      "overall": 1.0
+    },
+    "0.42": {
+      "label": "Trustworthiness, Equity and Interpretability of Artificial Intelligence in Healthcare Systems",
+      "overall": 3.0
+    },
+    "0.43": {
+      "label": "Artificial Intelligence Integration in Software Engineering and Collaborative Design Systems",
+      "overall": 2.6666666666666665
+    },
+    "0.44": {
+      "label": "Shapley Values, Feature Attribution, and Explainability in Machine Learning Models",
+      "overall": 2.6666666666666665
+    },
+    "0.45": {
+      "label": "Explainable Artificial Intelligence Methods Evaluation and User-Centric Explanation Design",
+      "overall": 3.0
+    },
+    "0.46": {
+      "label": "Ethical AI Development, Governance, and Trustworthy Autonomous Systems Implementation",
+      "overall": 3.0
+    },
+    "0.48": {
+      "label": "Actor-Critic Methods and Policy Gradient Optimization in Deep Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "0.49": {
+      "label": "First-order optimization methods and adaptive learning rate algorithms for deep neural networks",
+      "overall": 3.0
+    },
+    "0.50": {
+      "label": "Security and Privacy Preservation in Federated Learning Systems and Attacks",
+      "overall": 4.0
+    },
+    "0.51": {
+      "label": "Federated Learning Optimization: Client Heterogeneity, Personalization, and Resource Constraints",
+      "overall": 2.6666666666666665
+    },
+    "0.52": {
+      "label": "Uncertainty Quantification and Out-of-Distribution Detection in Deep Learning Models",
+      "overall": 3.0
+    },
+    "0.53": {
+      "label": "Imbalanced Learning and Data Resampling Techniques for Classification Tasks",
+      "overall": 1.0
+    },
+    "0.54": {
+      "label": "Theoretical Analysis of Deep Neural Network Optimization and Generalization Dynamics",
+      "overall": 3.0
+    },
+    "0.55": {
+      "label": "Neural Network Compression via Pruning, Tensor Decomposition, and Low-Rank Factorization",
+      "overall": 3.5
+    },
+    "0.56": {
+      "label": "Unsupervised Domain Adaptation with Multiple Sources and Limited Labels",
+      "overall": 2.0
+    },
+    "0.57": {
+      "label": "Deep Learning Methods for Unsupervised and Semi-Supervised Time Series Anomaly Detection",
+      "overall": 1.0
+    },
+    "0.58": {
+      "label": "Misinformation and Toxic Content Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Deep Learning and Neural Network Methods for Multivariate Time Series Forecasting",
+      "overall": 2.0
+    },
+    "0.60": {
+      "label": "Data-Driven Machine Learning for Predictive Maintenance and Fault Diagnosis in Industrial Rotating Machinery",
+      "overall": 2.0
+    },
+    "0.61": {
+      "label": "Graph Neural Networks and Machine Learning for Network Intrusion Detection and Cyber Defense",
+      "overall": 3.0
+    },
+    "0.62": {
+      "label": "Defense Mechanisms Against Adversarial Attacks on Deep Neural Networks",
+      "overall": 2.3333333333333335
+    },
+    "0.63": {
+      "label": "Sentiment Analysis and Opinion Mining with Neural Language Models and Embeddings",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Deep Learning Applications in Clinical Medical Imaging and Diagnostic Analysis",
+      "overall": 2.6666666666666665
+    },
+    "0.65": {
+      "label": "Deep Learning for Clinical Mortality Prediction and Patient Risk Stratification from EHR Data",
+      "overall": 2.0
+    },
+    "0.66": {
+      "label": "Knowledge Distillation and Self-Supervised Learning for Efficient Neural Network Compression",
+      "overall": 2.3333333333333335
+    },
+    "0.67": {
+      "label": "Deep Learning for Medical and Agricultural Image Segmentation with Limited Annotated Data",
+      "overall": 2.3333333333333335
+    },
+    "0.68": {
+      "label": "Multilingual NLP: Cross-lingual Transfer Learning and Low-resource Language Processing",
+      "overall": 2.0
+    },
+    "0.69": {
+      "label": "Long-Document and Book-Length Abstractive Summarization with Neural Models",
+      "overall": null
+    },
+    "0.70": {
+      "label": "Neuro-Symbolic Integration for Abstract Visual Reasoning and Logic Programming",
+      "overall": 2.5
+    },
+    "0.71": {
+      "label": "Structured Reasoning and Verification Methods for Large Language Model Outputs",
+      "overall": 2.0
+    },
+    "0.72": {
+      "label": "Mode Collapse and Training Stability in Generative Adversarial Networks",
+      "overall": 2.0
+    },
+    "0.73": {
+      "label": "Generative Models for Image Synthesis, Augmentation, and Domain Generalization",
+      "overall": 3.0
+    },
+    "0.75": {
+      "label": "Holistic Instruction-Tuned LLM Evaluation Suites: Problem-Solving, Writing, and Human Value Alignment",
+      "overall": 1.0
+    },
+    "0.76": {
+      "label": "Object Detection and Localization Using Synthetic Data and Self-Supervised Learning",
+      "overall": null
+    },
+    "0.77": {
+      "label": "Long-Document and Cross-Lingual NLP Benchmarks for Domain-Specific Language Model Assessment",
+      "overall": null
+    },
+    "0.79": {
+      "label": "3D Perception and Object Detection for Autonomous Driving using Multi-Modal Sensor Fusion",
+      "overall": 2.0
+    },
+    "0.80": {
+      "label": "Question Answering and Reading Comprehension with Controlled Generation and Multi-hop Reasoning",
+      "overall": 2.0
+    },
+    "0.81": {
+      "label": "Large Language Models and Knowledge Integration for Open-Domain Question Answering Systems",
+      "overall": 2.0
+    },
+    "1.0": {
+      "label": "Fairness Metrics and Algorithmic Decision-Making",
+      "overall": 3.0
+    },
+    "1.1": {
+      "label": "Knowledge Graph Embedding and Link Prediction",
+      "overall": 3.0
+    },
+    "1.2": {
+      "label": "Large Language Models for Code Understanding, Representation Learning, and Security Analysis",
+      "overall": 2.6666666666666665
+    },
+    "1.3": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Graph Representation Learning",
+      "overall": 3.0
+    },
+    "1.5": {
+      "label": "Deep Learning Audio Embeddings and Analysis",
+      "overall": 2.0
+    },
+    "1.6": {
+      "label": "Multimodal Vision-Language Learning with Image-Text Alignment and Pretraining",
+      "overall": 2.0
+    },
+    "1.7": {
+      "label": "Advanced User Preference Modeling and Cold-Start Recommendation Systems",
+      "overall": 2.0
+    },
+    "1.8": {
+      "label": "Multi-Agent Reinforcement Learning Coordination and Communication Strategies",
+      "overall": 3.0
+    },
+    "1.9": {
+      "label": "Causal Discovery and Identification with Latent Variables and Confounders",
+      "overall": 2.0
+    },
+    "1.10": {
+      "label": "Conditional Video and Motion Generation using Diffusion and Transformer Models",
+      "overall": 1.0
+    },
+    "1.11": {
+      "label": "Learning Dexterous Robot Manipulation with Multimodal Perception",
+      "overall": null
+    },
+    "1.12": {
+      "label": "Deep Reinforcement Learning with Demonstrations and Exploration",
+      "overall": 2.3333333333333335
+    },
+    "1.13": {
+      "label": "Non-monotonic Reasoning and Knowledge Representation in Logic Programming and Description Logics",
+      "overall": 2.0
+    },
+    "1.16": {
+      "label": "Adversarial Robustness and Neural Network Defense",
+      "overall": 4.0
+    },
+    "1.17": {
+      "label": "Federated Learning Privacy and Security",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Deep Learning for Time Series Analysis",
+      "overall": 3.0
+    },
+    "1.19": {
+      "label": "Uncertainty Quantification and Robustness in Deep Learning",
+      "overall": 3.0
+    },
+    "1.20": {
+      "label": "Misinformation and Toxic Content Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "1.21": {
+      "label": "3D Perception and Synthetic Data Generation",
+      "overall": null
+    },
+    "1.22": {
+      "label": "Deep Learning for Clinical Healthcare Prediction",
+      "overall": 3.0
+    },
+    "1.23": {
+      "label": "Self-Supervised Learning for Medical Image Segmentation",
+      "overall": 1.6666666666666667
+    },
+    "1.24": {
+      "label": "Symbolic Reasoning and Verification for Language Models",
+      "overall": 2.0
+    },
+    "1.25": {
+      "label": "Multilingual NLP: Cross-lingual Transfer Learning and Low-resource Language Processing",
+      "overall": 2.0
+    },
+    "1.26": {
+      "label": "LLM Evaluation and Retrieval-Augmented Generation",
+      "overall": 2.0
+    },
+    "2.1": {
+      "label": "Federated Robustness",
+      "overall": 2.0
+    },
+    "2.5": {
+      "label": "Time Series Robustness",
+      "overall": 1.0
+    },
+    "2.6": {
+      "label": "Medical Imaging",
+      "overall": 1.0
+    }
+  },
+  "4_draw2": {
+    "0.2": {
+      "label": "Fair Division and Allocation of Indivisible Goods with Fairness Guarantees",
+      "overall": 2.0
+    },
+    "0.4": {
+      "label": "Knowledge Graph Embedding Methods for Link Prediction and Completion",
+      "overall": 3.0
+    },
+    "0.15": {
+      "label": "Language-Grounded Embodied Agents and Interactive Text-Based Game Environments",
+      "overall": 3.0
+    },
+    "0.16": {
+      "label": "Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation",
+      "overall": 3.0
+    },
+    "0.22": {
+      "label": "Regret Bounds and Sample Complexity in Reinforcement Learning with Function Approximation",
+      "overall": 2.0
+    },
+    "0.28": {
+      "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling",
+      "overall": 2.0
+    },
+    "0.30": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+      "overall": 3.0
+    },
+    "0.54": {
+      "label": "Theoretical Analysis of ReLU Networks: Optimization, Generalization, and Geometric Structure",
+      "overall": 3.0
+    },
+    "0.55": {
+      "label": "Neural Network Compression via Structured Pruning and Tensor Decomposition Methods",
+      "overall": 3.0
+    },
+    "0.66": {
+      "label": "Knowledge Distillation and Self-Supervised Learning for Efficient Neural Network Training",
+      "overall": 3.0
+    },
+    "0.71": {
+      "label": "Chain-of-Thought Prompting and Reasoning Verification in Large Language Models",
+      "overall": 3.0
+    },
+    "1.5": {
+      "label": "Speech and Audio Processing with Deep Learning",
+      "overall": 2.6666666666666665
+    },
+    "1.6": {
+      "label": "Multimodal Learning: Vision-Language Models for Cross-Modal Understanding and Generation",
+      "overall": 3.0
+    },
+    "1.7": {
+      "label": "Sequential and Cold-Start Recommendation Systems with User Behavior Modeling",
+      "overall": 3.0
+    },
+    "1.8": {
+      "label": "Cooperative Multi-Agent Reinforcement Learning with Centralized Training and Decentralized Execution",
+      "overall": 2.5
+    },
+    "1.15": {
+      "label": "Explainable AI and Trustworthy Systems",
+      "overall": 3.0
+    },
+    "1.17": {
+      "label": "Privacy-Preserving Federated Learning Systems",
+      "overall": 3.3333333333333335
+    },
+    "2.0": {
+      "label": "Reinforcement Learning",
+      "overall": 2.6666666666666665
+    },
+    "2.1": {
+      "label": "Federated Security",
+      "overall": 2.0
+    },
+    "2.3": {
+      "label": "LLM Evaluation",
+      "overall": 1.0
+    },
+    "2.4": {
+      "label": "Explainable AI and Trustworthy Systems",
+      "overall": 3.3333333333333335
+    },
+    "0.0": {
+      "label": "Quantum Neural Networks: Architectures, Expressivity, and Machine Learning Applications",
+      "overall": 2.0
+    },
+    "0.1": {
+      "label": "Deep Learning for Molecular Design, Structure Prediction, and Drug Discovery",
+      "overall": 3.0
+    },
+    "0.3": {
+      "label": "Fairness in Machine Learning: Algorithmic Bias, Discrimination, and Causal Approaches",
+      "overall": 3.0
+    },
+    "0.5": {
+      "label": "Knowledge Graph-Enhanced Relation Extraction and Entity Alignment Methods",
+      "overall": 3.0
+    },
+    "0.6": {
+      "label": "Physics-Informed Neural Networks for Solving Partial Differential Equations and Computational Simulations",
+      "overall": 3.0
+    },
+    "0.7": {
+      "label": "Large Language Models for Code Understanding, Security Vulnerability Detection, and Software Engineering Tasks",
+      "overall": 3.0
+    },
+    "0.8": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Node and Graph-Level Tasks",
+      "overall": 3.0
+    },
+    "0.9": {
+      "label": "Energy-Efficient Spiking Neural Networks: Hardware Acceleration and Neuromorphic Computing",
+      "overall": 3.0
+    },
+    "0.10": {
+      "label": "Edge AI and Cloud-Edge Computing Orchestration for Resource Optimization",
+      "overall": 3.0
+    },
+    "0.11": {
+      "label": "Surrogate-Assisted and Metaheuristic Optimization Algorithms for Multi-Objective and Constrained Problems",
+      "overall": 3.0
+    },
+    "0.12": {
+      "label": "Deep Reinforcement Learning for Autonomous Driving and Racing Control",
+      "overall": 3.0
+    },
+    "0.13": {
+      "label": "Uncertainty-Aware Trajectory and Intention Prediction for Autonomous Vehicle Safety",
+      "overall": 2.0
+    },
+    "0.14": {
+      "label": "Classical Automated Planning with Symbolic Search, PDDL Formalism, and Expressive Extensions",
+      "overall": 1.0
+    },
+    "0.17": {
+      "label": "Regret Analysis and Exploration Strategies in Multi-Armed and Contextual Bandit Problems",
+      "overall": 2.3333333333333335
+    },
+    "0.18": {
+      "label": "Speaker Recognition and Speech Processing with Deep Learning Acoustic Models",
+      "overall": 2.0
+    },
+    "0.19": {
+      "label": "Audio Signal Processing and Music Generation with Deep Learning Models",
+      "overall": 2.0
+    },
+    "0.20": {
+      "label": "Metaheuristic and Reinforcement Learning Approaches for Vehicle Routing and Logistics Optimization",
+      "overall": 1.0
+    },
+    "0.21": {
+      "label": "Multi-Agent Path Finding and Adaptive Traffic Signal Control Systems",
+      "overall": 3.0
+    },
+    "0.23": {
+      "label": "Spatial-Temporal Graph Neural Networks for Traffic Flow Forecasting and Prediction",
+      "overall": 3.0
+    },
+    "0.24": {
+      "label": "Offline Reinforcement Learning: Policy Optimization and Evaluation from Batch Data",
+      "overall": 3.0
+    },
+    "0.25": {
+      "label": "Continual Learning and Catastrophic Forgetting Mitigation in Neural Networks",
+      "overall": 4.0
+    },
+    "0.26": {
+      "label": "Deep Learning for Short-Term Energy Load Forecasting and Non-Intrusive Load Monitoring",
+      "overall": null
+    },
+    "0.27": {
+      "label": "Multi-Agent Reinforcement Learning and Game Playing in Complex Strategic Environments",
+      "overall": 2.0
+    },
+    "0.29": {
+      "label": "Safe Reinforcement Learning with Formal Safety Guarantees and Constraint Satisfaction",
+      "overall": 3.0
+    },
+    "0.31": {
+      "label": "Causal Discovery and Identification from Observational Data with Latent Confounders",
+      "overall": 2.0
+    },
+    "0.32": {
+      "label": "Text-Driven Video and Motion Generation using Diffusion and Neural Models",
+      "overall": 1.5
+    },
+    "0.33": {
+      "label": "Non-Monotonic Reasoning and Logic Programming with Probabilistic and Argumentation Frameworks",
+      "overall": 3.0
+    },
+    "0.34": {
+      "label": "Learning Dexterous Robot Manipulation from Demonstrations and Multimodal Sensory Feedback",
+      "overall": 2.0
+    },
+    "0.35": {
+      "label": "Reinforcement Learning for Robot Manipulation and Locomotion with Quality-Diversity Algorithms",
+      "overall": 1.3333333333333333
+    },
+    "0.36": {
+      "label": "EEG-based Brain-Computer Interfaces for Motor Imagery and Clinical Applications",
+      "overall": 2.6666666666666665
+    },
+    "0.37": {
+      "label": "Hardware-Aware Neural Architecture Search and Accelerator Co-Design",
+      "overall": 3.0
+    },
+    "0.38": {
+      "label": "Large Language Models for Task-Oriented and Multi-Turn Dialogue Systems",
+      "overall": 2.6666666666666665
+    },
+    "0.39": {
+      "label": "Privacy-Preserving Machine Learning: Differential Privacy, Membership Inference, and Federated Learning",
+      "overall": 3.0
+    },
+    "0.40": {
+      "label": "Post-Training Quantization and Low-Bit Neural Network Compression for Edge Devices",
+      "overall": 2.5
+    },
+    "0.41": {
+      "label": "Hierarchical and Abstracted Reinforcement Learning with Curriculum and Prior Knowledge Integration",
+      "overall": 2.0
+    },
+    "0.42": {
+      "label": "Trustworthy AI in Healthcare: Equity, Interpretability, and Clinical Deployment",
+      "overall": 2.5
+    },
+    "0.43": {
+      "label": "Human-AI Collaboration in Software Engineering and Design Processes",
+      "overall": 2.3333333333333335
+    },
+    "0.44": {
+      "label": "Explainable AI and Feature Attribution Methods: Shapley Values, Complexity Analysis, and Interpretability",
+      "overall": 3.0
+    },
+    "0.45": {
+      "label": "Explainable Artificial Intelligence Methods and Post-hoc Model Interpretability Techniques",
+      "overall": 3.6666666666666665
+    },
+    "0.46": {
+      "label": "Trustworthy AI Development, Governance, and Ethical Implementation in Autonomous Systems",
+      "overall": 3.0
+    },
+    "0.47": {
+      "label": "Exploration in Reinforcement Learning with Sparse Rewards and Intrinsic Motivation",
+      "overall": 3.0
+    },
+    "0.48": {
+      "label": "Deep Reinforcement Learning: Actor-Critic Methods for Policy Improvement and Control",
+      "overall": 2.0
+    },
+    "0.49": {
+      "label": "Stochastic Gradient Descent Variants and Adaptive Optimization Methods for Nonconvex Learning",
+      "overall": 3.0
+    },
+    "0.50": {
+      "label": "Security and Privacy in Federated Learning Systems: Byzantine Attacks and Differential Privacy",
+      "overall": 2.0
+    },
+    "0.51": {
+      "label": "Federated Learning Optimization: Client Heterogeneity, Privacy, and Model Aggregation",
+      "overall": 3.0
+    },
+    "0.52": {
+      "label": "Uncertainty Quantification and Out-of-Distribution Detection in Deep Learning",
+      "overall": 3.0
+    },
+    "0.53": {
+      "label": "Class Imbalance Learning and Data Resampling Techniques for Imbalanced Classification",
+      "overall": 0.6666666666666666
+    },
+    "0.56": {
+      "label": "Unsupervised Domain Adaptation and Domain Generalization with Domain-Invariant Representations",
+      "overall": 2.3333333333333335
+    },
+    "0.57": {
+      "label": "Time Series Anomaly Detection with Test-Time Adaptation and Ensemble Methods",
+      "overall": 2.0
+    },
+    "0.58": {
+      "label": "Misinformation and Toxic Content Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "0.59": {
+      "label": "Deep Learning and Ensemble Methods for Long-Term Multivariate Time Series Forecasting",
+      "overall": 1.3333333333333333
+    },
+    "0.60": {
+      "label": "Data-Driven Predictive Maintenance and Fault Diagnosis in Industrial Rotating Machinery",
+      "overall": 3.0
+    },
+    "0.61": {
+      "label": "Graph Neural Networks for Network Intrusion Detection and Cyber Threat Defense",
+      "overall": 2.0
+    },
+    "0.62": {
+      "label": "Adversarial Attack Defense Mechanisms and Robustness Evaluation for Deep Learning Models",
+      "overall": 3.0
+    },
+    "0.63": {
+      "label": "Aspect-Based Sentiment Analysis and Opinion Mining with Advanced Language Models",
+      "overall": 3.0
+    },
+    "0.64": {
+      "label": "Deep Learning for Clinical Medical Image Analysis and Diagnostic Biomarker Discovery",
+      "overall": 2.0
+    },
+    "0.65": {
+      "label": "Deep Learning for Clinical Mortality Prediction from Longitudinal Electronic Health Records",
+      "overall": 2.0
+    },
+    "0.67": {
+      "label": "Deep Learning for Medical and Plant Image Segmentation with Limited Annotated Data",
+      "overall": 2.3333333333333335
+    },
+    "0.68": {
+      "label": "Cross-lingual Transfer Learning and Low-resource Language NLP with Multilingual Models",
+      "overall": 2.0
+    },
+    "0.69": {
+      "label": "Abstractive and Extractive Document Summarization with Neural Methods and Long-Form Text Processing",
+      "overall": 2.0
+    },
+    "0.70": {
+      "label": "Neuro-Symbolic Integration for Abstract Visual Reasoning and Logic Programming",
+      "overall": 3.0
+    },
+    "0.72": {
+      "label": "Generative Adversarial Networks: Training Stability, Mode Collapse, and Conditional Generation",
+      "overall": 3.3333333333333335
+    },
+    "0.73": {
+      "label": "Generative Models and Image Synthesis with Adversarial Networks and Diffusion Methods",
+      "overall": 2.0
+    },
+    "0.75": {
+      "label": "Comprehensive Evaluation Benchmarks and Suites for Instruction-Tuned Large Language Models",
+      "overall": 2.0
+    },
+    "0.76": {
+      "label": "Deep Learning Methods for Object Detection and Localization in Images",
+      "overall": 2.0
+    },
+    "0.77": {
+      "label": "Multilingual NLP Benchmarks and Evaluation Resources for Domain-Specific Language Understanding",
+      "overall": null
+    },
+    "0.79": {
+      "label": "Multi-modal 3D Object Detection and Semantic Segmentation for Autonomous Driving",
+      "overall": 3.0
+    },
+    "0.80": {
+      "label": "Machine Reading Comprehension, Question Generation, and Large Language Model Evaluation",
+      "overall": 3.0
+    },
+    "0.81": {
+      "label": "Open-Domain Question Answering with Knowledge Integration and Passage Reranking",
+      "overall": 2.0
+    },
+    "1.0": {
+      "label": "Algorithmic Fairness and Fair Allocation",
+      "overall": 2.0
+    },
+    "1.1": {
+      "label": "Knowledge Graph Embedding and Entity Alignment",
+      "overall": 2.0
+    },
+    "1.2": {
+      "label": "Large Language Models for Code Understanding, Security Vulnerability Detection, and Software Engineering Tasks",
+      "overall": 2.0
+    },
+    "1.3": {
+      "label": "Graph Neural Networks and Deep Learning Methods for Node and Graph-Level Tasks",
+      "overall": 3.0
+    },
+    "1.4": {
+      "label": "Reinforcement Learning for Autonomous Driving",
+      "overall": 2.0
+    },
+    "1.9": {
+      "label": "Causal Discovery and Identification from Observational Data with Latent Confounders",
+      "overall": 2.0
+    },
+    "1.10": {
+      "label": "Text-Driven Video and Motion Generation using Diffusion and Neural Models",
+      "overall": 1.6666666666666667
+    },
+    "1.11": {
+      "label": "Robot Manipulation Learning with Multimodal Feedback",
+      "overall": 2.0
+    },
+    "1.12": {
+      "label": "Deep Reinforcement Learning with Exploration",
+      "overall": 2.3333333333333335
+    },
+    "1.13": {
+      "label": "Non-Monotonic Reasoning and Logic Programming with Probabilistic and Argumentation Frameworks",
+      "overall": 3.0
+    },
+    "1.14": {
+      "label": "Neural Network Compression and Hardware Optimization",
+      "overall": 2.0
+    },
+    "1.16": {
+      "label": "Adversarial Attacks Defense and Cyber Security",
+      "overall": 3.0
+    },
+    "1.18": {
+      "label": "Time Series Forecasting and Anomaly Detection",
+      "overall": 3.0
+    },
+    "1.19": {
+      "label": "Uncertainty Quantification and Anomaly Detection Methods",
+      "overall": 3.0
+    },
+    "1.20": {
+      "label": "Misinformation and Toxic Content Detection in Social Media Using NLP",
+      "overall": 3.0
+    },
+    "1.21": {
+      "label": "3D Detection and Semantic Segmentation Methods",
+      "overall": 1.0
+    },
+    "1.22": {
+      "label": "Deep Learning Clinical Prediction and Diagnostics",
+      "overall": 3.0
+    },
+    "1.23": {
+      "label": "Medical Image Segmentation with Limited Data",
+      "overall": 1.0
+    },
+    "1.24": {
+      "label": "Reasoning Enhancement in Large Language Models",
+      "overall": 3.0
+    },
+    "1.25": {
+      "label": "Cross-lingual Transfer Learning and Low-resource Language NLP with Multilingual Models",
+      "overall": 2.0
+    },
+    "1.26": {
+      "label": "Large Language Models Evaluation and Question Answering",
+      "overall": 2.0
+    },
+    "2.2": {
+      "label": "Neural Network Compression and Hardware Optimization",
+      "overall": 2.0
+    },
+    "2.5": {
+      "label": "Time Series Anomaly Detection",
+      "overall": 1.0
+    },
+    "2.6": {
+      "label": "Medical Segmentation",
+      "overall": 1.0
+    }
+  }
+}
