@@ -1,0 +1,138 @@
+{
+  "1.16": {
+    "label": "Adversarial Attacks and Defense Mechanisms",
+    "overall": 4.0
+  },
+  "1.17": {
+    "label": "Privacy-Preserving Federated Learning Systems",
+    "overall": 3.3333333333333335
+  },
+  "2.0": {
+    "label": "Reinforcement Learning",
+    "overall": 2.6666666666666665
+  },
+  "2.1": {
+    "label": "Federated Security",
+    "overall": 2.0
+  },
+  "2.3": {
+    "label": "LLM Evaluation",
+    "overall": 1.0
+  },
+  "2.5": {
+    "label": "Temporal Anomaly Detection",
+    "overall": 1.0
+  },
+  "1.0": {
+    "label": "Algorithmic Fairness Metrics and Criteria",
+    "overall": 3.0
+  },
+  "1.1": {
+    "label": "Knowledge Graph Embedding and Link Prediction",
+    "overall": 3.0
+  },
+  "1.2": {
+    "label": "LLMs for Code Understanding and Security",
+    "overall": 2.0
+  },
+  "1.3": {
+    "label": "Graph Neural Networks and Representation Learning",
+    "overall": 3.0
+  },
+  "1.4": {
+    "label": "Reinforcement Learning Autonomous Driving",
+    "overall": 3.0
+  },
+  "1.5": {
+    "label": "Speech and Audio Processing Systems",
+    "overall": 2.3333333333333335
+  },
+  "1.6": {
+    "label": "Vision-Language Models and Multimodal Learning",
+    "overall": 3.0
+  },
+  "1.7": {
+    "label": "Sequential User Behavior Recommendation Systems",
+    "overall": 2.6666666666666665
+  },
+  "1.8": {
+    "label": "Cooperative Multi-Agent Reinforcement Learning",
+    "overall": 3.0
+  },
+  "1.9": {
+    "label": "Causal Discovery from Observational Data",
+    "overall": 2.0
+  },
+  "1.10": {
+    "label": "Text-Driven Video and Image Generation",
+    "overall": 2.0
+  },
+  "1.11": {
+    "label": "Robot Manipulation Learning with Reinforcement Learning",
+    "overall": 2.0
+  },
+  "1.12": {
+    "label": "Deep Reinforcement Learning Methods and Algorithms",
+    "overall": 3.0
+  },
+  "1.13": {
+    "label": "Logic Programming and Argumentation Frameworks",
+    "overall": 2.0
+  },
+  "1.14": {
+    "label": "Neural Network Compression and Efficiency",
+    "overall": 2.3333333333333335
+  },
+  "1.15": {
+    "label": "Explainable AI Methods and Interpretability",
+    "overall": 3.0
+  },
+  "1.18": {
+    "label": "Time Series Forecasting and Anomaly Detection",
+    "overall": 3.0
+  },
+  "1.19": {
+    "label": "Out-of-Distribution Detection and Uncertainty",
+    "overall": 3.0
+  },
+  "1.20": {
+    "label": "Harmful Content Detection in Social Media",
+    "overall": 2.0
+  },
+  "1.21": {
+    "label": "3D Vision for Autonomous Driving",
+    "overall": 1.0
+  },
+  "1.22": {
+    "label": "Deep Learning Clinical Outcome Prediction",
+    "overall": 2.3333333333333335
+  },
+  "1.23": {
+    "label": "Self-Supervised Medical Image Segmentation",
+    "overall": 2.0
+  },
+  "1.24": {
+    "label": "Reasoning Methods for Large Language Models",
+    "overall": 3.0
+  },
+  "1.25": {
+    "label": "Cross-lingual NLP and Low-resource Languages",
+    "overall": 2.0
+  },
+  "1.26": {
+    "label": "Large Language Models Evaluation and Generation",
+    "overall": 2.6666666666666665
+  },
+  "2.2": {
+    "label": "Model Compression",
+    "overall": 1.3333333333333333
+  },
+  "2.4": {
+    "label": "Explainable AI",
+    "overall": 4.0
+  },
+  "2.6": {
+    "label": "Medical Imaging",
+    "overall": 1.0
+  }
+}
