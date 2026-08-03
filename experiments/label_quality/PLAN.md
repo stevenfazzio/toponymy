@@ -1169,6 +1169,9 @@ until something flatters.
   renaming calls); fit (`--stage judge`) + identification through the frozen lineups
   (`--stage lineup`) + the shared-vocabulary mechanism (`--stage report`) →
   `data/disamb_value_{judge,lineup}.json`.
+- `issue_disambiguation_cost.md` — DRAFT issue body for the tranche 3/3b/3c finding. **Held until
+  the eval framework lands upstream** (it asks for a design decision, which needs the instruments
+  in-tree to evaluate); the keyphrase repricing inside it is separable and goes to #173 first.
 - `constrained_repair.py` — Phase 7 tranche 3c: appends a two-sentence counterweight to the stock
   disambiguation instruction (`--stage rename`), re-measures fit / identification / de-duplication
   three-way paired against the pre and stock arms (`--stage judge|arbiter|report`) →
@@ -1345,9 +1348,21 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   unchanged. Rules out the first fix anyone would try. Points at a design change, not wording.
 - [ ] **Design-level alternatives, untested:** rename only one member of a colliding pair; make the
   edit additive by construction rather than by instruction; or disambiguate for display only.
-- [ ] **Write-up + venue call.** Nothing posted yet. The story completes as blind spot → free
-  detector → held-out confirmation → *the obvious fix makes it worse*, which is a better and more
-  honest arc than the one tranche 2 alone implied.
+- [x] **Issue drafted** (`issue_disambiguation_cost.md`), deliberately **not posted**: it asks for a
+  design decision, which a maintainer can't evaluate while every number in it rests on instruments
+  living in `experiments/` on a fork. Sequencing decided — eval-framework PR first, issue second,
+  pointing at in-tree calls.
+- [ ] **#173 comment: the keyphrase repricing.** Separable from the issue, no dependency on the PR,
+  and it has a clock on it — jc-healy was leaning toward defaulting keyphrases off, and this is a
+  correction to my own posted analysis. Send before the default flips.
+- [ ] **Eval-framework PR.** Scope decision to make first: the findings rest on *both* instruments
+  (lineup for identification, judge for the −1.05), so a lineup-only PR won't carry the issue.
+  Suggested surface: score a labeling, not a framework — battery / calibration / human-seed
+  machinery stays on the fork.
+- [ ] **Write-up + venue call** for Phase 7 as a whole, if it warrants one. The arc completes as
+  blind spot → free detector → held-out confirmation → the obvious fix makes it worse → the
+  wording-level repair fails. Current read: the disambiguation finding is issue-shaped rather than
+  discussion-shaped, and tranche 1/2 are program-internal.
 
 **Phase 7 spend to date: 2,184 LLM calls** (660 tranche-2 arbiter + 120 judge repeat + 570 tranche
 3 + 444 tranche 3b + 390 tranche 3c), against the ~1,500 discussed — the 3b overrun bought both axes rather than
