@@ -495,6 +495,79 @@ construction: `home_arxiv_minilm_{emb,coords}.npy` + deterministic clusterer rep
 `make_calibration_home.build_docs_for`, gold labels in `home_arxiv_minilm.json`) — implemented
 as `Cell("arxiv_home")` (HOME_TAGS alias) + `make_home_battery.py` → `battery_arxiv_home.json`.
 
+## Phase 6 results — what are the three naming-prompt features worth? (2026-08-02/03)
+
+Branch `experiment/naming-features` (off the frozen `a49257c`). **Full write-up = `FEATURES.md`**;
+this section is the log entry. Triggered by jc-healy's reply on #173 (2026-07-30) saying the
+ablation made him lean toward defaulting keyphrase extraction OFF: the ablation behind that was one
+corpus, one instrument, one draw, and the lineup did not exist when it ran.
+
+Design: all three features × three axes (grounded judge / wayfinding lineup / the disambiguation
+pass's own workload) × two corpora (20NG canonical, arxiv_home). **Headline: only exemplars
+measurably contribute, and only to fit, not to findability** — the sharpest form of the Phase-4
+fit≠identification split, and it replicates.
+
+| feature | fit | identification | disambiguation load |
+|---|---|---|---|
+| exemplars | **−0.49 at k=0**, both corpora | inert (+0.011 / −0.006) | none |
+| keyphrases | none (−0.17 / +0.16 by corpus) | ≤ +0.016 (negligible) | **3× on 20NG**, none on arXiv |
+| subtopics | none (−0.132 pooled, p=0.081) | inert (tight null) | ~none |
+
+- **Leakage control (`clean_docs_rejudge.py`) — the fit instrument had a real confound, and it did
+  not bite.** `judge_fair.sample_docs` does NOT exclude the namer's exemplars, and the overlap grows
+  with the swept variable (7/11/16/24/38/67% of the judge's 15 docs at k=1/2/4/8/16/32) — so the
+  posted #173 headline had an alternative reading, since the k=0 arm has 0% overlap and stock has
+  24%. Re-judging on documents excluding every rung's exemplars (13.8% pool shrinkage, all 107
+  clusters keep 15 docs): effect moves **+0.008, p=0.93 → 2% was leakage, the claim STANDS**. Every
+  condition drops ~0.07 absolute (clean docs are harder) but every *contrast* survives.
+- **Dose-response, and a withdrawal.** Downward sweep (selection is nested, verified 74/74): 20NG
+  has a clean knee at k=4 (+0.015, p=0.98) holding at every layer; **arXiv does not** (k=4 = −0.187,
+  p=0.002, confirmed across two independent draws that differ by +0.037, p=0.37). A "halve
+  `n_exemplars`" recommendation would have been wrong on the second corpus. **Withdrawn.**
+- **Upward sweep (`upward_sweep.py`) — the curve does not turn over.** k=16 +0.131 (p=0.035), k=32
+  +0.063 (n.s., and *deliberately advantaged* since full control would starve 39 clusters). So the
+  only cost of over-provisioning is tokens, and the useful statement is a **floor, not a target**:
+  don't go below 8, above is safe, no per-corpus tuning warranted. (This arm exists because Steven
+  pointed out that a token-only downside makes "measure to save tokens" a weak recommendation.)
+- **Keyphrase × exemplar interaction — the second withdrawal.** 20NG paired 2×2 contrast
+  `D = both − k4 − kp_off + stock` = **−0.269** (SE 0.095, p=0.008): each change free alone,
+  cancelling together. arXiv: **+0.019** (p=0.99). The 20NG effect was driven by keyphrases-off
+  *helping* there (+0.162, p=0.012), which itself doesn't replicate (arXiv −0.009, p=0.82).
+  **Withdrawn**, and a caution against generalising any combinatorial result from one corpus.
+- **Disambiguation load (`disambiguation_load.py`, 4 conditions × 2 corpora × 3 draws,
+  instrumented during `fit()`).** Final name sets are clean for every condition, so the absorbed
+  pressure is only visible during the run. 20NG L0 renaming groups: stock 1,1,1 → **keyphrases
+  ablated 3,4,3** (non-overlapping); exemplars 0,1,2; subtopics 1.3. arXiv produces **zero load for
+  every condition**. Reading: keyphrases buy *distinctiveness* (corpus-contrastive vocabulary is
+  what separates neighbours) rather than quality → defaulting them off is **quality-neutral but
+  cost-ambiguous**, not a free win.
+- **Subtopics, properly scoped (`subtopics_value.py`).** The −0.03 in WRITEUP.md averages over all
+  layers, but layer 0 has no children: 73 of 106 rows are structurally null, and not quiet ones (54
+  of 73 layer-0 labels still "changed" = temperature-0.4 redraw noise). Scoped to L≥1: 20NG n=33,
+  −0.131, CI [−0.369, +0.106] — an absence of measurement, not a null. Measured properly (both
+  corpora, both axes, single-child `[!SKIP!]` split out): identification-inert with a tight
+  interval, nothing positive on fit. **Subtopics also manufacture cross-layer duplicates** — 12/12
+  single-child parents inherit the child's name, 0/12 without, and the per-layer trigger never sees
+  them. Power ceiling is structural (~67 coarse clusters pooled; resolves ~0.3, not ~0.1).
+- **Two stock-pipeline observations.** (1) Naming runs at **temperature 0.4** by default, not 0:
+  two identical runs share only 16–19 of 74 layer-0 labels on 20NG (~76% churn), 52% on arXiv. Read
+  aggregates only; bears on #154. *Aggregate* quantities are much stabler (group count 1,1,1 across
+  three stock runs). (2) 1 of 24 runs hit `All retries exhausted for generate_topic_cluster_names:
+  IndexError ... Returning old names.` — this is #57's root cause, still live; arcrystal's
+  `except IndexError: continue` did land in `cluster_layer._update_topic_names` and is **silent**,
+  while the `llm_wrappers` tenacity callback at least warns.
+
+**#176 does not touch any of this** (verified, not assumed): the arXiv-home cell re-embeds document
+text, and re-encoding sampled documents against the cached matrix gives cosine = 1.000 on every
+probe, both corpora. All arXiv judging uses home-geometry doc sampling (`home_docs`), never
+`judge_fair.sample_docs`, which would replay the canonical 20NG fit.
+
+**SHIPPED (2026-08-02, Steven's explicit go):** substance →
+[#173 comment](https://github.com/TutteInstitute/toponymy/discussions/173#discussioncomment-17874315);
+pointer → [#177 comment](https://github.com/TutteInstitute/toponymy/discussions/177#discussioncomment-17874317);
+data point → [#57 comment](https://github.com/TutteInstitute/toponymy/issues/57#issuecomment-5161568456).
+Branch pushed and FROZEN at the posted tip. Post drafts deliberately left untracked.
+
 ## Files (experiments/label_quality/)
 
 - `PLAN.md` — this plan + running findings/status.
@@ -514,6 +587,27 @@ as `Cell("arxiv_home")` (HOME_TAGS alias) + `make_home_battery.py` → `battery_
 - `conjunct_ablation.py` — Phase 5a: split compound gold labels into standalone conjuncts (cached
   LLM splits), run drop:i / only:i variants through frozen lineups, marginal identification value
   per conjunct → `data/wayfinding_20ng_conjuncts.json`.
+- `FEATURES.md` — Phase 6 write-up (the one both discussion comments link to).
+- `feature_ablation_lineup.py` — Phase 6: the #173 exemplars/keyphrases ablation re-scored on the
+  frozen 20NG lineups, with a power check against the battery's known-bad variants →
+  `data/wayfinding_20ng_features.json`.
+- `exemplar_dose_response.py` — Phase 6: name 20NG at k ∈ {1,2,4} plus the `4_nokp` interaction cell
+  (all layers, stock machinery), judge against the gold doc sample →
+  `data/dose_{names,judge}_20ng.json` (+ `.draw1.json`, an independent naming draw kept as a
+  replication rather than a discard).
+- `arxiv_naming_features.py` — Phase 6: the whole thing replicated on arxiv_home (naming, judging,
+  lineups). ⚠ judge docs are sampled in the home cell's OWN geometry, matching `home_pipeline.py`;
+  `judge_fair.sample_docs` would replay the canonical 20NG fit.
+- `clean_docs_rejudge.py` — Phase 6: is the exemplar fit effect a parroting artifact? Re-judge on
+  documents excluding every rung's exemplars → `data/clean_docs_20ng.json`.
+- `upward_sweep.py` — Phase 6: does the curve turn over ABOVE the default? k ∈ {4,8,16} fully
+  leakage-controlled, k=32 knowingly advantaged → `data/upward_{names,judge}_20ng.json`.
+- `subtopics_value.py` — Phase 6: subtopics scoped to coarse layers, single- vs multi-child, both
+  axes, both corpora → `data/subtopics_*_arxiv.json`, `data/wayfinding_*_subtopics.json`.
+- `disambiguation_load.py` — Phase 6: instruments `ClusterLayer.disambiguate_topics` during `fit()`
+  to capture pre-pass names + the groups the renaming trigger formed → `data/disamb_load.json`.
+- `price_dose_response.py` — Phase 6: exact call/token accounting via `count_tokens` on the real
+  prompts (no generation), in the #177 house style of costing arms before running them.
 
 Reuses the nibling harness (`../nibling_contrast/`): `ab_harness.{load_dataset,make_namer,make_embedder}`
 and `judge_fair.sample_docs`. All fits use `ToponymyClusterer(min_clusters=4, base_min_cluster_size=25)`
@@ -623,3 +717,21 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   (lower global Spearman). Pick whitened for robustness-to-padding; raw centroid for raw graded
   correlation — both usable. A combined metric (raw centroid + verbosity correction) is the obvious
   refinement.
+
+## Phase 6 status (naming features) — COMPLETE, SHIPPED
+
+- [x] **Lineup re-scoring** of the #173 exemplars/keyphrases ablation (20NG) — both inert; power
+  check makes the nulls meaningful.
+- [x] **Exemplar dose-response**, all layers, plus the keyphrase × exemplar interaction cell.
+- [x] **arXiv replication** of all three claims — two of them died here (the k=4 knee, the
+  interaction), which is the 2-corpus standard working as intended for the third time.
+- [x] **Leakage control** of the fit instrument — confound was real, effect was 2%, #173 stands.
+- [x] **Upward sweep** through k=32 — no turnover; `n_exemplars` is a floor, not a target.
+- [x] **Subtopics scoped properly** (coarse layers, single- vs multi-child, both axes/corpora).
+- [x] **Disambiguation load per feature** — the keyphrase cost nobody had priced.
+- [x] **Posted** to #173 / #177 / #57; branch frozen at the posted tip.
+- [ ] **Keyphrase × subtopic interaction** — untested. The keyphrase × exemplar one was 20NG-only,
+  so assume nothing about combinations.
+- [ ] **Terser-namer probe** — everything here is one namer (haiku), the caveat most likely to matter.
+- [ ] **Is the mild negative direction of keyphrases/subtopics real?** Needs more coarse clusters
+  than this substrate has.
