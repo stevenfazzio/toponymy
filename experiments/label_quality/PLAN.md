@@ -999,6 +999,69 @@ the confirmation that experiment never had.
    of its own region**" is the obvious next prompt to test, and 5a's load-bearing/free-rider split
    is the tool for deciding which terms those are.
 
+## Phase 7 results — tranche 3b: what the pass does on its OWN groups (2026-08-03, 444 LLM calls)
+
+**Headline: the disambiguation pass succeeds at its stated goal, and the goal is expensive.** On the
+groups its own trigger forms, it costs **−1.05 judge-points of fit** (p = 3e-07) and buys **+0.028
+pm of identification** (p = 0.071, inside the repeat band). It de-duplicates effectively; that is
+the only thing it demonstrably achieves.
+
+**No renaming calls were needed.** `disambiguation_load.py` had already instrumented
+`ClusterLayer.disambiguate_topics` across 24 real `fit()` runs and captured, per layer, the pre-pass
+names, the post-pass names, and the groups the trigger formed — paired by construction. This
+measures both axes on the 42 renamed topic instances (74 distinct labels). **Structurally 20NG-only:
+arXiv produces zero renaming load under every condition**, so the two-corpus standard cannot be met
+here and this is reported as single-corpus.
+
+| axis | pre-pass | post-pass | Δ | p |
+|---|---|---|---|---|
+| fit (grounded judge 0–4, n=41) | 3.797 | 2.744 | **−1.053** | **3.4e-07** |
+| identification (frozen k=5 lineup, n=42) | 0.333 | 0.361 | +0.028 | 0.071 (band 0.107) |
+
+The pass improved fit on **0 of 41** instances and hurt 33. Per condition, all negative:
+keyphrases-ablated −1.235, exemplars −1.167, subtopics −0.958, **stock −0.611**.
+
+**Ceiling control, because 25/33 pre-pass names sit at the judge's 4.0 ceiling** — "improved 0/41"
+is partly forced. Restricting to the 8 instances with ≥0.5 of headroom (pre ≤ 3.5, mean 3.000):
+post 2.208, **Δ −0.792, improved 0/8**. The direction is not a ceiling artifact.
+
+**These really are the confusable clusters**, which is the pass working as designed: their pre-pass
+lineup pm is 0.333 against 0.545 for typical gold labels. But post-pass they sit at 0.361 — still
+far below typical. The pass does not repair the identification problem it fires on.
+
+**Same mechanism as tranche 3, one difference.** Within the trigger's own groups, token Jaccard
+0.163 → 0.025 and **41% of shared vocabulary is dropped from both names** — identical to tranche 3's
+41%, from a completely different selection rule. Here, though, labels get *longer* (9.1 → 10.6
+words) rather than staying flat: the pass replaces shared head-nouns with additional distinguishing
+detail, so it pays on both the truthfulness and the terseness axes at once.
+
+### What this does to FEATURES.md's keyphrase recommendation
+
+FEATURES.md priced the 3× fine-layer renaming load from dropping keyphrases as a **token** cost, and
+concluded "quality-neutral, cost-ambiguous". The first half of that needs qualifying. Dropping
+keyphrases fires the pass on ~6 layer-0 topics per draw instead of ~2, and each renamed topic loses
+~1.24 judge-points. Spread over 74 layer-0 topics that is roughly −0.10 judge-points of layer
+average — the same order as the ±0.17 aggregate effect FEATURES.md measured, which *already
+contained* it.
+
+So the corrected statement is not "keyphrases are quality-neutral" but: **dropping keyphrases is
+roughly neutral on average while concentrating a large loss on a handful of topics** — and those
+are precisely the fine-layer topics that collide, i.e. the crowded parts of the map where labels are
+hardest to read. An average over 74 topics is the wrong summary for a cost shaped like that. This
+strengthens the case against defaulting keyphrases off, on quality grounds rather than token
+grounds.
+
+### Caveats
+
+- **One corpus, structurally.** arXiv never fires; this cannot be replicated on the second substrate.
+- **Neither instrument scores the defect the pass exists to fix.** Duplicate names across two
+  clusters are a real map-usability problem, and the grounded judge scores each label against its
+  own cluster's documents while the lineup measures one cluster against neighbours. The pass's
+  benefit is real and *unmeasured here*; what is measured is that it is not on either axis this
+  program has instruments for.
+- 42 instances over 12 distinct clusters, with clusters recurring across draws — the effective n is
+  smaller than 42.
+
 ## Files (experiments/label_quality/)
 
 - `PLAN.md` — this plan + running findings/status.
@@ -1053,6 +1116,11 @@ the confirmation that experiment never had.
 - `judge_repeat.py` — Phase 7c follow-up: the pure judge repeat band (same labels, same documents,
   same recipe; 120 calls) → `data/judge_repeat_20ng.json`. `--report-only` re-derives the
   decomposition without spending calls.
+- `disamb_value.py` — Phase 7 tranche 3b: measures what the disambiguation pass does on its OWN
+  trigger groups, reusing the pre/post names `disambiguation_load.py` already captured (so zero
+  renaming calls); fit (`--stage judge`) + identification through the frozen lineups
+  (`--stage lineup`) + the shared-vocabulary mechanism (`--stage report`) →
+  `data/disamb_value_{judge,lineup}.json`.
 - `repair_check.py` — Phase 7 tranche 3: rebuilds layer state without re-naming, drives Toponymy's
   OWN `distinguish_topic_names_prompt` + `generate_topic_cluster_names` on the confirmed-confusable
   pairs (`--stage rename`), re-measures identification (`--stage arbiter`) and fit (`--stage judge`)
@@ -1211,17 +1279,22 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   both corpora. Mechanism measured: ~41% of the pair's shared vocabulary is deleted from both new
   names at unchanged length — it names the contrast, not the region. Pre-registered prediction,
   confirmed. **Recommendation inverts: report confusability, do not act on it.** 570 calls.
-- [ ] **Is the disambiguation pass net-harmful whenever it fires?** Tranche 3 measured
-  score-selected pairs, not the near-duplicate strings the trigger actually catches. Cheap test:
-  rename the trigger's own groups and re-judge. Bears on FEATURES.md's keyphrase recommendation.
+- [x] **Is the disambiguation pass net-harmful whenever it fires? YES on fit.** On its own trigger's
+  groups: **−1.053 judge-pts** (p=3e-07, improved 0/41; −0.792 and 0/8 restricted to instances with
+  real headroom, so not a ceiling artifact) for **+0.028 pm** identification (n.s., inside band).
+  Same 41% shared-vocabulary deletion as tranche 3, from a different selection rule. Needed **zero**
+  renaming calls — `disamb_load.json` already held pre/post names and the groups. 20NG-only,
+  structurally. **Reprices FEATURES.md**: dropping keyphrases is neutral *on average* while
+  concentrating ~1.24 judge-pts of loss on the handful of colliding fine-layer topics.
 - [ ] **A constrained repair prompt** — "distinguish these without dropping the terms that make each
   name true of its own region"; 5a's load-bearing/free-rider split decides which terms those are.
 - [ ] **Write-up + venue call.** Nothing posted yet. The story completes as blind spot → free
   detector → held-out confirmation → *the obvious fix makes it worse*, which is a better and more
   honest arc than the one tranche 2 alone implied.
 
-**Phase 7 spend to date: 1,350 LLM calls** (660 tranche-2 arbiter + 120 judge repeat + 570 tranche
-3), against the ~1,500 agreed. Tranche 1 was free.
+**Phase 7 spend to date: 1,794 LLM calls** (660 tranche-2 arbiter + 120 judge repeat + 570 tranche
+3 + 444 tranche 3b), against the ~1,500 discussed — the 3b overrun bought both axes rather than
+fit alone, which the pass's purpose required. Tranche 1 was free, and 3b needed no renaming calls.
 - [ ] **Third corpus in a different register** — required before any *trained* rung is claimed to
   generalize; not needed for tranche 2, which uses no trained parameters.
 - [ ] **Not attempted, deliberately:** r1–r3 of the capacity ladder. 7a-fine + 7b together say the

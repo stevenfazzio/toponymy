@@ -1,0 +1,520 @@
+{
+ "0.20|Government Encryption Policy and Clipper Chip Wiretapping Surveillance Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Government Encryption Policy and Clipper Chip Wiretapping Surveillance Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.20|White House Clipper Chip Initiative and Key Escrow Policy for Law Enforcement Access": {
+  "L": 0,
+  "i": 20,
+  "label": "White House Clipper Chip Initiative and Key Escrow Policy for Law Enforcement Access",
+  "ver": "post",
+  "overall": 4.0
+ },
+ "0.22|Government Encryption Backdoors and Clipper Chip Wiretap Technology Debate": {
+  "L": 0,
+  "i": 22,
+  "label": "Government Encryption Backdoors and Clipper Chip Wiretap Technology Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Skipjack Algorithm Security Vulnerabilities and Pin-Compatible Chip Replacement Threats": {
+  "L": 0,
+  "i": 22,
+  "label": "Skipjack Algorithm Security Vulnerabilities and Pin-Compatible Chip Replacement Threats",
+  "ver": "post",
+  "overall": 1.0
+ },
+ "0.20|Clipper Chip Public Policy Announcement and Law Enforcement Wiretapping Capability Preservation": {
+  "L": 0,
+  "i": 20,
+  "label": "Clipper Chip Public Policy Announcement and Law Enforcement Wiretapping Capability Preservation",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.22|Government Encryption Backdoors and Clipper Chip Cryptography Policy Debates": {
+  "L": 0,
+  "i": 22,
+  "label": "Government Encryption Backdoors and Clipper Chip Cryptography Policy Debates",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Key Escrow Technical Implementation Vulnerabilities and Cryptographic Backdoor Security Analysis": {
+  "L": 0,
+  "i": 22,
+  "label": "Key Escrow Technical Implementation Vulnerabilities and Cryptographic Backdoor Security Analysis",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.34|Waco Siege: Federal Agents, Tear Gas Deployment, and Branch Davidian Compound Standoff": {
+  "L": 0,
+  "i": 34,
+  "label": "Waco Siege: Federal Agents, Tear Gas Deployment, and Branch Davidian Compound Standoff",
+  "ver": "pre",
+  "overall": 3.0
+ },
+ "0.34|Tear Gas Deployment Methods, Fire Origins, and Compound Destruction Mechanisms During Siege": {
+  "L": 0,
+  "i": 34,
+  "label": "Tear Gas Deployment Methods, Fire Origins, and Compound Destruction Mechanisms During Siege",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.41|Waco siege federal standoff between FBI BATF and Branch Davidian compound": {
+  "L": 0,
+  "i": 41,
+  "label": "Waco siege federal standoff between FBI BATF and Branch Davidian compound",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.41|Koresh Leadership, Siege Negotiations, Compound Surrender Refusal, and Government Tactical Decisions": {
+  "L": 0,
+  "i": 41,
+  "label": "Koresh Leadership, Siege Negotiations, Compound Surrender Refusal, and Government Tactical Decisions",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "0.38|Second Amendment Rights Advocacy and Gun Control Legislative Battles": {
+  "L": 0,
+  "i": 38,
+  "label": "Second Amendment Rights Advocacy and Gun Control Legislative Battles",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.38|State-by-State Legislative Tracking of Gun Control Bills and Second Amendment Protection Efforts": {
+  "L": 0,
+  "i": 38,
+  "label": "State-by-State Legislative Tracking of Gun Control Bills and Second Amendment Protection Efforts",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "0.39|Second Amendment Rights, Gun Control Debate, and Firearm Self-Defense Arguments": {
+  "L": 0,
+  "i": 39,
+  "label": "Second Amendment Rights, Gun Control Debate, and Firearm Self-Defense Arguments",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.39|Self-Defense Efficacy, Crime Statistics, and Comparative Gun Control Policy Analysis": {
+  "L": 0,
+  "i": 39,
+  "label": "Self-Defense Efficacy, Crime Statistics, and Comparative Gun Control Policy Analysis",
+  "ver": "post",
+  "overall": 3.6666666666666665
+ },
+ "0.40|Critical Analysis of BATF FBI Waco Siege Handling and Government Accountability": {
+  "L": 0,
+  "i": 40,
+  "label": "Critical Analysis of BATF FBI Waco Siege Handling and Government Accountability",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.40|BATF Initial Raid Tactics, Warrant Procedures, and Investigative Questions About Federal Response": {
+  "L": 0,
+  "i": 40,
+  "label": "BATF Initial Raid Tactics, Warrant Procedures, and Investigative Questions About Federal Response",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.41|Waco siege government accountability and FBI tactical decision-making controversy": {
+  "L": 0,
+  "i": 41,
+  "label": "Waco siege government accountability and FBI tactical decision-making controversy",
+  "ver": "pre",
+  "overall": 3.0
+ },
+ "0.41|FBI Siege Management, Tear Gas Operation, and Disputed Responsibility for Compound Fire and Deaths": {
+  "L": 0,
+  "i": 41,
+  "label": "FBI Siege Management, Tear Gas Operation, and Disputed Responsibility for Compound Fire and Deaths",
+  "ver": "post",
+  "overall": null
+ },
+ "0.20|Clipper Chip Encryption Technology Government Key Escrow Policy Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Clipper Chip Encryption Technology Government Key Escrow Policy Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.20|Government Clipper Chip Initiative Policy Rationale and Public Encryption Management Directive": {
+  "L": 0,
+  "i": 20,
+  "label": "Government Clipper Chip Initiative Policy Rationale and Public Encryption Management Directive",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "0.22|Clipper Chip Encryption Key Escrow System Security and Policy Implications": {
+  "L": 0,
+  "i": 22,
+  "label": "Clipper Chip Encryption Key Escrow System Security and Policy Implications",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Key Escrow System Technical Vulnerabilities Backdoor Risks and Institutional Security Weaknesses": {
+  "L": 0,
+  "i": 22,
+  "label": "Key Escrow System Technical Vulnerabilities Backdoor Risks and Institutional Security Weaknesses",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.38|State-by-State Legislative Tracking of Gun Control Bills and Second Amendment Advocacy Victories": {
+  "L": 0,
+  "i": 38,
+  "label": "State-by-State Legislative Tracking of Gun Control Bills and Second Amendment Advocacy Victories",
+  "ver": "post",
+  "overall": 1.0
+ },
+ "0.39|Empirical Self-Defense Data, Crime Statistics, and Comparative Gun Control Policy Analysis": {
+  "L": 0,
+  "i": 39,
+  "label": "Empirical Self-Defense Data, Crime Statistics, and Comparative Gun Control Policy Analysis",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.20|Government-Mandated Key Escrow Encryption Standards and Law Enforcement Wiretapping Capabilities": {
+  "L": 0,
+  "i": 20,
+  "label": "Government-Mandated Key Escrow Encryption Standards and Law Enforcement Wiretapping Capabilities",
+  "ver": "post",
+  "overall": 4.0
+ },
+ "0.22|Clipper Chip Key Escrow Encryption Policy Security Vulnerabilities and Criticisms": {
+  "L": 0,
+  "i": 22,
+  "label": "Clipper Chip Key Escrow Encryption Policy Security Vulnerabilities and Criticisms",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Technical Vulnerabilities in Clipper Chip Architecture and Key Escrow System Implementation Flaws": {
+  "L": 0,
+  "i": 22,
+  "label": "Technical Vulnerabilities in Clipper Chip Architecture and Key Escrow System Implementation Flaws",
+  "ver": "post",
+  "overall": 2.3333333333333335
+ },
+ "0.34|Waco siege fire investigation and government accountability debate": {
+  "L": 0,
+  "i": 34,
+  "label": "Waco siege fire investigation and government accountability debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.34|FBI tear gas deployment methods and accidental fire causation during compound siege": {
+  "L": 0,
+  "i": 34,
+  "label": "FBI tear gas deployment methods and accidental fire causation during compound siege",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "0.41|Waco siege government accountability and Koresh compound fire investigation": {
+  "L": 0,
+  "i": 41,
+  "label": "Waco siege government accountability and Koresh compound fire investigation",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.41|Koresh leadership decisions and government tactical choices during fifty-one day standoff": {
+  "L": 0,
+  "i": 41,
+  "label": "Koresh leadership decisions and government tactical choices during fifty-one day standoff",
+  "ver": "post",
+  "overall": 2.3333333333333335
+ },
+ "0.72|Classified Advertisements for Used Computer Hardware and Software Sales": {
+  "L": 0,
+  "i": 72,
+  "label": "Classified Advertisements for Used Computer Hardware and Software Sales",
+  "ver": "pre",
+  "overall": 3.0
+ },
+ "0.72|Vintage Software and Complete Computer Systems Sales with Original Documentation and Manuals": {
+  "L": 0,
+  "i": 72,
+  "label": "Vintage Software and Complete Computer Systems Sales with Original Documentation and Manuals",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "0.73|Classified Advertisements for Used Computer Hardware and Electronics Equipment": {
+  "L": 0,
+  "i": 73,
+  "label": "Classified Advertisements for Used Computer Hardware and Electronics Equipment",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.73|Individual Computer Components, Peripherals, and Specialized Hardware Equipment Sales": {
+  "L": 0,
+  "i": 73,
+  "label": "Individual Computer Components, Peripherals, and Specialized Hardware Equipment Sales",
+  "ver": "post",
+  "overall": 2.3333333333333335
+ },
+ "0.73|Classified Advertisements for Used Computer Hardware and Electronics Equipment Sales": {
+  "L": 0,
+  "i": 73,
+  "label": "Classified Advertisements for Used Computer Hardware and Electronics Equipment Sales",
+  "ver": "pre",
+  "overall": 3.6666666666666665
+ },
+ "0.73|Individual Computer Components and Peripheral Hardware Sales Including Drives and Upgrades": {
+  "L": 0,
+  "i": 73,
+  "label": "Individual Computer Components and Peripheral Hardware Sales Including Drives and Upgrades",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.20|Clipper Chip Encryption Key Escrow Government Surveillance Privacy Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Clipper Chip Encryption Key Escrow Government Surveillance Privacy Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.20|Government Key Escrow Proposal Debate Privacy Rights and Law Enforcement Access Tradeoffs": {
+  "L": 0,
+  "i": 20,
+  "label": "Government Key Escrow Proposal Debate Privacy Rights and Law Enforcement Access Tradeoffs",
+  "ver": "post",
+  "overall": 4.0
+ },
+ "0.22|Technical Vulnerabilities and Implementation Risks of Clipper Chip Key Escrow Architecture": {
+  "L": 0,
+  "i": 22,
+  "label": "Technical Vulnerabilities and Implementation Risks of Clipper Chip Key Escrow Architecture",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.37|Waco siege federal government accountability and tactical decision-making criticism": {
+  "L": 0,
+  "i": 37,
+  "label": "Waco siege federal government accountability and tactical decision-making criticism",
+  "ver": "pre",
+  "overall": 3.0
+ },
+ "0.37|Political Accountability and Responsibility Attribution for Waco Siege Leadership Decisions": {
+  "L": 0,
+  "i": 37,
+  "label": "Political Accountability and Responsibility Attribution for Waco Siege Leadership Decisions",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.40|Critical Analysis of BATF FBI Tactics and Government Accountability in Waco Siege": {
+  "L": 0,
+  "i": 40,
+  "label": "Critical Analysis of BATF FBI Tactics and Government Accountability in Waco Siege",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.40|Tactical Operational Failures and Procedural Violations in Initial BATF Assault and FBI Response": {
+  "L": 0,
+  "i": 40,
+  "label": "Tactical Operational Failures and Procedural Violations in Initial BATF Assault and FBI Response",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "0.20|Clipper Chip Encryption Technology and Government Key Escrow Policy Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Clipper Chip Encryption Technology and Government Key Escrow Policy Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.20|Government-Mandated Clipper Chip Initiative and NSA Key Escrow System Policy Framework": {
+  "L": 0,
+  "i": 20,
+  "label": "Government-Mandated Clipper Chip Initiative and NSA Key Escrow System Policy Framework",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.22|Clipper Chip Key Escrow Encryption Debate and Government Wiretap Concerns": {
+  "L": 0,
+  "i": 22,
+  "label": "Clipper Chip Key Escrow Encryption Debate and Government Wiretap Concerns",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Technical Vulnerabilities and Practical Implementation Challenges of Key Escrow Architecture": {
+  "L": 0,
+  "i": 22,
+  "label": "Technical Vulnerabilities and Practical Implementation Challenges of Key Escrow Architecture",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "1.2|Baseball Statistics and Player Analysis": {
+  "L": 1,
+  "i": 2,
+  "label": "Baseball Statistics and Player Analysis",
+  "ver": "pre",
+  "overall": 3.0
+ },
+ "1.2|Offensive Performance and Pitching Evaluation": {
+  "L": 1,
+  "i": 2,
+  "label": "Offensive Performance and Pitching Evaluation",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "1.3|Baseball Players Career Statistics Debate": {
+  "L": 1,
+  "i": 3,
+  "label": "Baseball Players Career Statistics Debate",
+  "ver": "pre",
+  "overall": 3.0
+ },
+ "1.3|Hall of Fame Eligibility and Career Comparisons": {
+  "L": 1,
+  "i": 3,
+  "label": "Hall of Fame Eligibility and Career Comparisons",
+  "ver": "post",
+  "overall": 1.6666666666666667
+ },
+ "0.20|Clipper Chip Encryption Key Escrow Government Surveillance Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Clipper Chip Encryption Key Escrow Government Surveillance Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.20|Government Clipper Chip Initiative: NSA-Developed Encryption Backdoor and Public Policy Controversy": {
+  "L": 0,
+  "i": 20,
+  "label": "Government Clipper Chip Initiative: NSA-Developed Encryption Backdoor and Public Policy Controversy",
+  "ver": "post",
+  "overall": 3.3333333333333335
+ },
+ "0.22|Clipper Chip Key Escrow Encryption Debate and Government Wiretap Backdoor Concerns": {
+  "L": 0,
+  "i": 22,
+  "label": "Clipper Chip Key Escrow Encryption Debate and Government Wiretap Backdoor Concerns",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Technical Vulnerabilities in Clipper Key Escrow System and Cryptographic Backdoor Implementation Risks": {
+  "L": 0,
+  "i": 22,
+  "label": "Technical Vulnerabilities in Clipper Key Escrow System and Cryptographic Backdoor Implementation Risks",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.20|Clipper Chip Key Escrow Encryption Government Surveillance Privacy Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Clipper Chip Key Escrow Encryption Government Surveillance Privacy Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.20|Government Key Escrow Policy Clipper Chip Public Debate Law Enforcement Access": {
+  "L": 0,
+  "i": 20,
+  "label": "Government Key Escrow Policy Clipper Chip Public Debate Law Enforcement Access",
+  "ver": "post",
+  "overall": 4.0
+ },
+ "0.22|Clipper Chip Key Escrow Encryption Debate and Technical Security Vulnerabilities": {
+  "L": 0,
+  "i": 22,
+  "label": "Clipper Chip Key Escrow Encryption Debate and Technical Security Vulnerabilities",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Clipper Chip Technical Vulnerabilities Backdoors Skipjack Algorithm Security Analysis": {
+  "L": 0,
+  "i": 22,
+  "label": "Clipper Chip Technical Vulnerabilities Backdoors Skipjack Algorithm Security Analysis",
+  "ver": "post",
+  "overall": 2.5
+ },
+ "1.2|Season Performance and Batting Analysis": {
+  "L": 1,
+  "i": 2,
+  "label": "Season Performance and Batting Analysis",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "1.3|Baseball Players Career Statistics Discussion": {
+  "L": 1,
+  "i": 3,
+  "label": "Baseball Players Career Statistics Discussion",
+  "ver": "pre",
+  "overall": 3.0
+ },
+ "1.3|Career Statistics and Hall of Fame Debates": {
+  "L": 1,
+  "i": 3,
+  "label": "Career Statistics and Hall of Fame Debates",
+  "ver": "post",
+  "overall": 2.0
+ },
+ "0.20|Government-Mandated Clipper Chip Encryption Standards and NSA Wiretap Capability Preservation": {
+  "L": 0,
+  "i": 20,
+  "label": "Government-Mandated Clipper Chip Encryption Standards and NSA Wiretap Capability Preservation",
+  "ver": "post",
+  "overall": 3.3333333333333335
+ },
+ "0.22|Technical Vulnerabilities and Circumvention Methods in Clipper Chip Key Escrow Architecture": {
+  "L": 0,
+  "i": 22,
+  "label": "Technical Vulnerabilities and Circumvention Methods in Clipper Chip Key Escrow Architecture",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.20|Clipper Chip Key Escrow Encryption Government Surveillance and Privacy Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Clipper Chip Key Escrow Encryption Government Surveillance and Privacy Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.20|Government-Mandated Clipper Chip Encryption Standard and Public Policy Implementation Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Government-Mandated Clipper Chip Encryption Standard and Public Policy Implementation Debate",
+  "ver": "post",
+  "overall": 4.0
+ },
+ "0.22|Clipper Chip Key Escrow Encryption Backdoor Government Surveillance Debate": {
+  "L": 0,
+  "i": 22,
+  "label": "Clipper Chip Key Escrow Encryption Backdoor Government Surveillance Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Technical Vulnerabilities and Circumvention Methods in Clipper Chip Key Escrow Systems": {
+  "L": 0,
+  "i": 22,
+  "label": "Technical Vulnerabilities and Circumvention Methods in Clipper Chip Key Escrow Systems",
+  "ver": "post",
+  "overall": 3.0
+ },
+ "0.20|Government Clipper Chip Key Escrow Encryption Policy and Privacy Debate": {
+  "L": 0,
+  "i": 20,
+  "label": "Government Clipper Chip Key Escrow Encryption Policy and Privacy Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.20|Presidential Clipper Chip Initiative: Balancing Law Enforcement Access with Public Privacy Rights": {
+  "L": 0,
+  "i": 20,
+  "label": "Presidential Clipper Chip Initiative: Balancing Law Enforcement Access with Public Privacy Rights",
+  "ver": "post",
+  "overall": 4.0
+ },
+ "0.22|Clipper Chip Key Escrow Encryption Backdoor Government Wiretap Debate": {
+  "L": 0,
+  "i": 22,
+  "label": "Clipper Chip Key Escrow Encryption Backdoor Government Wiretap Debate",
+  "ver": "pre",
+  "overall": 4.0
+ },
+ "0.22|Technical Vulnerabilities and Circumvention Strategies in Clipper Chip Key Escrow Architecture": {
+  "L": 0,
+  "i": 22,
+  "label": "Technical Vulnerabilities and Circumvention Strategies in Clipper Chip Key Escrow Architecture",
+  "ver": "post",
+  "overall": 3.0
+ }
+}
