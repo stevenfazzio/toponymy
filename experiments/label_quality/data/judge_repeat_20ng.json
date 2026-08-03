@@ -1,0 +1,285 @@
+{
+ "model": "anthropic/claude-sonnet-4-6",
+ "config": {
+  "n_near": 10,
+  "n_rand": 5,
+  "maxlen": 280,
+  "k": 3,
+  "temp": 0.7
+ },
+ "rows": [
+  {
+   "layer": 0,
+   "idx": 3,
+   "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 5,
+   "label": "Software Piracy, Copy Protection Schemes, and Hacker Ethics Debate",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 9,
+   "label": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 14,
+   "label": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics",
+   "first": 3.0,
+   "second": 3.6666666666666665
+  },
+  {
+   "layer": 0,
+   "idx": 15,
+   "label": "Medical Skepticism and Alternative Therapies Debate in Clinical Practice",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 18,
+   "label": "X Window System Frequently Asked Questions and Technical Documentation",
+   "first": 1.0,
+   "second": 1.0
+  },
+  {
+   "layer": 0,
+   "idx": 19,
+   "label": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 0,
+   "idx": 27,
+   "label": "Residential Electrical Wiring, Safety Codes, and Power Distribution Systems",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 0,
+   "idx": 28,
+   "label": "Commercial lunar base development and long-duration human spaceflight technical analysis",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 30,
+   "label": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+   "first": 2.6666666666666665,
+   "second": 2.3333333333333335
+  },
+  {
+   "layer": 0,
+   "idx": 32,
+   "label": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 33,
+   "label": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+   "first": 1.0,
+   "second": 1.0
+  },
+  {
+   "layer": 0,
+   "idx": 36,
+   "label": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 38,
+   "label": "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+   "first": 4.0,
+   "second": 4.0
+  },
+  {
+   "layer": 0,
+   "idx": 39,
+   "label": "Firearms self-defense effectiveness and gun control policy debate",
+   "first": 3.0,
+   "second": 4.0
+  },
+  {
+   "layer": 0,
+   "idx": 40,
+   "label": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege",
+   "first": 4.0,
+   "second": 4.0
+  },
+  {
+   "layer": 0,
+   "idx": 41,
+   "label": "Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh",
+   "first": 4.0,
+   "second": 4.0
+  },
+  {
+   "layer": 0,
+   "idx": 44,
+   "label": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 47,
+   "label": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 0,
+   "idx": 49,
+   "label": "Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 0,
+   "idx": 52,
+   "label": "TrueType Font Printing Issues and Configuration in Windows 3.1",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 0,
+   "idx": 54,
+   "label": "Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management",
+   "first": 1.5,
+   "second": 1.0
+  },
+  {
+   "layer": 0,
+   "idx": 57,
+   "label": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 60,
+   "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+   "first": 2.3333333333333335,
+   "second": 2.0
+  },
+  {
+   "layer": 0,
+   "idx": 62,
+   "label": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 63,
+   "label": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 66,
+   "label": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems",
+   "first": 2.6666666666666665,
+   "second": 2.3333333333333335
+  },
+  {
+   "layer": 0,
+   "idx": 71,
+   "label": "Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 0,
+   "idx": 73,
+   "label": "Vintage Computer Hardware and Peripherals For Sale Classifieds",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 1,
+   "idx": 1,
+   "label": "Nutritional and Alternative Medicine Debate",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 1,
+   "idx": 3,
+   "label": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+   "first": 3.0,
+   "second": 3.0
+  },
+  {
+   "layer": 1,
+   "idx": 5,
+   "label": "Clipper Chip Encryption Policy Debate",
+   "first": 4.0,
+   "second": 4.0
+  },
+  {
+   "layer": 1,
+   "idx": 7,
+   "label": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 1,
+   "idx": 13,
+   "label": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+   "first": 4.0,
+   "second": 4.0
+  },
+  {
+   "layer": 1,
+   "idx": 14,
+   "label": "Used Cars and Performance Vehicles",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 1,
+   "idx": 15,
+   "label": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+   "first": 2.3333333333333335,
+   "second": 2.0
+  },
+  {
+   "layer": 2,
+   "idx": 2,
+   "label": "Clipper Chip Encryption Policy Debate",
+   "first": 4.0,
+   "second": 4.0
+  },
+  {
+   "layer": 2,
+   "idx": 5,
+   "label": "Christian Theology",
+   "first": 2.0,
+   "second": 2.0
+  },
+  {
+   "layer": 2,
+   "idx": 6,
+   "label": "Waco Siege",
+   "first": 3.0,
+   "second": 3.0
+  }
+ ]
+}

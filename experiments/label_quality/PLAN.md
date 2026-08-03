@@ -836,6 +836,98 @@ documents (~120 calls) for a tight judge repeat band.**
   application that needs abstraction ordering (rung selection) is the one 7a says is out of reach,
   and 223 clusters over 2 corpora is thin for a trained artifact.
 
+## Phase 7 results — tranche 2: confusability (2026-08-03, 780 LLM calls)
+
+**Headline: Toponymy's disambiguation pass is blind to the confusability it exists to prevent, and
+a zero-cost geometric score finds it.** Validated on a fresh listener with fresh documents, two
+corpora, with the protocol's own floor and ceiling run before anything was interpreted.
+
+### The score, validated offline (`confusability.py --stage score`)
+
+`C(i→j) = softmax_j(cos(label_i, cent_j)/τ)` over cluster i's k=5 neighbourhood, τ = 0.170 carried
+over from 7a where it was fitted on the *other* corpus. Nothing is refitted here — no free
+parameters were tuned on the data being reported.
+
+| | 20NG (n=107) | arXiv (n=116) |
+|---|---|---|
+| predicted vs measured leaked mass (Pearson) | +0.534 | +0.661 |
+| top-confuser agreement where the listener drifted | **16/20 = 80%** | **5/7 = 71%** |
+| top-confuser agreement over all gold labels | 60% | 55% |
+| **AUC, detecting measurably-confusable labels** (measured pm < 0.40) | **0.803** | **0.920** |
+
+**What Toponymy's own trigger sees on the same name sets:** 20NG — 1 group covering 2 topics at
+L0, nothing at L1/L2; arXiv — **nothing at any layer**. Of the 40 most confusable labels by score,
+the trigger catches **2 (20NG) and 0 (arXiv)**.
+
+The examples make the mechanism plain. arXiv L1: `Uncertainty Quantification and Anomaly Detection`
+(c18, measured pm 0.20) and `Time Series Forecasting and Anomaly Detection` (c19, measured pm 0.09)
+are adjacent clusters sharing a conjunct, and the listener essentially cannot tell them apart —
+0.2-cosine-cap sees no problem. 20NG L1: `MLB Season Predictions and Player Analysis` (c2, pm 0.48)
+against `Major League Baseball Player Statistics, Career Comparisons…` (c3, pm 0.46). These are not
+duplicate strings; they are duplicate *referents*.
+
+### The arbiter: fresh docs, held-out listener, k=2 pairwise (`--stage arbiter`)
+
+660 calls on gpt-4o-mini (held out from the haiku namer and the sonnet listener), documents redrawn
+under a fresh seed, chance = 0.50. Flagged = the 40 highest-scoring pairs; control = the 40
+lowest-scoring; plus a ceiling and a positive control run **before** interpreting the arms:
+
+| arm | 20NG | arXiv |
+|---|---|---|
+| gimme (gold vs far cluster) — *ceiling* | 0.949 | 0.887 |
+| control (low score) | 0.767 | 0.746 |
+| **FLAGGED (high score)** | **0.610** | **0.634** |
+| sibling's label — *positive control* | 0.385 (10/15 below chance) | 0.347 (13/15 below chance) |
+| flagged < control | **p = 2.2e-05**, gap 0.157 | **p = 1.6e-05**, gap 0.112 |
+
+Instrument checks pass (gimme near ceiling, sibling below chance), so the arms are interpretable.
+**11/40 (20NG) and 7/40 (arXiv) flagged pairs land BELOW CHANCE** — shown the label and the two
+regions, a fresh reader picks the wrong one more often than a coin flip. Controls: 6/40 and 4/40.
+Honest note: the control arm is not clean either, so the score ranks confusability rather than
+partitioning it.
+
+### The judge repeat (`judge_repeat.py`, 120 calls) — and a correction to the correction
+
+The pure repeat 7c lacked: same 39 gold labels, **same documents** (`judge_fair.sample_docs` is
+deterministic, seed 1000+i), same rubric/model/k. Result: 32/39 identical scores, mean |Δ| 0.090,
+sd of paired difference 0.237 ⇒ **σ = 0.168 ⇒ best-of-2 floor +0.095**, far below the +0.197 that
+`clean_docs_rejudge` implied — because that comparison changed the documents, and doc-sample
+variance dominates judge noise.
+
+Which floor applies is decidable, not a judgement call: `exemplar_dose_response` judges via
+`sample_docs(ds, L, i)`, so **both naming draws were scored on identical documents**. The selection
+noise is therefore pure judge noise. Decomposition:
+
+| | judge-pts |
+|---|---|
+| observed oracle best-of-2 | +0.166 |
+| selection-on-noise (σ/√π) | −0.095 |
+| **true oracle gain** | **≈ +0.071** |
+
+So 7c's fit side is **not** a null: real label-to-label quality variation exists across redraws.
+It is also **small** — ~15% of the exemplars effect — and it is an *oracle* gain in which the
+grounded judge does the selecting. Capturing it would need a selector approaching judge quality,
+which is the expensive thing best-of-N was meant to avoid. Best-of-N is therefore unattractive on
+engineering grounds rather than dead on measurement grounds, which is a different and more accurate
+statement than either of the two made earlier in this phase.
+
+### What tranche 2 establishes
+
+1. **A measured failure mode Toponymy is structurally blind to.** The renaming trigger trips on
+   near-duplicate *strings*; confusability is about *referents*, and on real name sets the trigger
+   finds 0–2 of the 40 worst cases per corpus.
+2. **A zero-cost detector for it**, AUC 0.80/0.92 offline, confirmed on a held-out listener with
+   fresh documents at p ≈ 2e-05 on both corpora, with no parameter fitted on the reported data.
+3. **The natural library shape:** widen the disambiguation trigger from name-embedding similarity
+   to name-vs-neighbour-centroid confusability. Both quantities are already computed during `fit()`
+   — the centroids exist, the name embeddings exist, the pass already runs per layer. No LLM cost,
+   no new dependency.
+
+**Open before any PR:** whether *renaming* a flagged pair actually fixes it (tranche 2 measures
+detection, not repair) — the obvious tranche 3, and the point at which the disambiguation prompt
+itself would need contrast context. Also untested on a third corpus, and the τ, though carried
+across corpora, has only been asked to generalize once in each direction.
+
 ## Files (experiments/label_quality/)
 
 - `PLAN.md` — this plan + running findings/status.
@@ -883,6 +975,14 @@ documents (~120 calls) for a tight judge repeat band.**
   asymmetry failure rate for cosine, length, and Phase 2a's generality axis. No LLM calls.
 - `redraw_headroom.py` — Phase 7c: oracle best-of-N headroom for naming redraws on both axes,
   each against its own measured winner's-curse floor. No LLM calls.
+- `confusability.py` — Phase 7 tranche 2: the confusability score (`--stage score`, free), the
+  fresh-doc held-out-listener pairwise arbiter (`--stage arbiter`, 660 calls), and the synthesis
+  (`--stage report`) → `data/confusability_{20ng,arxiv_home}.json`,
+  `data/confusability_arbiter_*.json`.
+- `judge_repeat.py` — Phase 7c follow-up: the pure judge repeat band (same labels, same documents,
+  same recipe; 120 calls) → `data/judge_repeat_20ng.json`. `--report-only` re-derives the
+  decomposition without spending calls.
+
 Reuses the nibling harness (`../nibling_contrast/`): `ab_harness.{load_dataset,make_namer,make_embedder}`
 and `judge_fair.sample_docs`. All fits use `ToponymyClusterer(min_clusters=4, base_min_cluster_size=25)`
 on the full 20NG (`../nibling_contrast/data/ng_*`); cluster indices align across every script.
@@ -1024,10 +1124,16 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   headroom +0.166 does **not** clear its +0.197 winner's-curse floor. Best-of-N killed for ~$0.
 - [x] **Correction recorded** — the +0.166 fit headroom was quoted mid-discussion before its floor
   was computed; the floor removes it.
-- [ ] **Tranche 2 — confusability only** (the one application tranche 1 supports): pairwise
-  confusability score from the direction result, validated against the sibling arm, compared with
-  the 0.2-cosine-cap trigger on real name sets; fresh listener run over disagreements (~700 calls).
-- [ ] **Judge repeat band** (~120 calls) — would settle whether 7c's fit side is a true null.
+- [x] **Tranche 2 — confusability** — score validated offline (AUC 0.803 / 0.920; top-confuser
+  agreement 80% / 71%), Toponymy's trigger catches 2/40 and 0/40, and the fresh-doc held-out-listener
+  pairwise arbiter separates flagged from control at p ≈ 2e-05 on both corpora. 660 calls.
+- [x] **Judge repeat band** (120 calls) — σ = 0.168, floor +0.095. 7c's fit headroom **clears**;
+  true oracle gain ≈ +0.071 judge-pts. Best-of-N is unattractive, not null — earlier statement
+  corrected.
+- [ ] **Tranche 3 — does renaming repair it?** Tranche 2 measured detection only. Needs the
+  disambiguation prompt to carry contrast context, then a re-measured pairwise arbiter.
+- [ ] **Write-up + venue call.** Nothing posted yet; the story now completes (blind spot → free
+  detector → held-out confirmation), which is this program's bar for posting.
 - [ ] **Third corpus in a different register** — required before any *trained* rung is claimed to
   generalize; not needed for tranche 2, which uses no trained parameters.
 - [ ] **Not attempted, deliberately:** r1–r3 of the capacity ladder. 7a-fine + 7b together say the
