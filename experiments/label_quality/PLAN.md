@@ -928,6 +928,77 @@ detection, not repair) — the obvious tranche 3, and the point at which the dis
 itself would need contrast context. Also untested on a third corpus, and the τ, though carried
 across corpora, has only been asked to generalize once in each direction.
 
+## Phase 7 results — tranche 3: does renaming repair it? (2026-08-03, 570 LLM calls)
+
+**Headline: no — and the recommendation from tranche 2 inverts.** Toponymy's own disambiguation
+machinery, handed exactly what a widened trigger would give it, buys a small and non-significant
+identification gain at a large and highly significant fit cost, on both corpora. The blind spot
+tranche 2 found is real; the repair already in the package is not the fix for it.
+
+**This was the pre-registered prediction** (recorded in tranche 3's docstring before the run, on the
+strength of #173's nibling-contrast negative and #177's fit≠identification split): *identification
+improves and fit regresses*. It did.
+
+**Method.** The 15 most confusable arbiter-**confirmed** pairs per corpus (lowest measured pairwise
+pm). Layer state — exemplars, keyphrases, subtopics, gold names — rebuilt without re-naming
+anything, so `distinguish_topic_names_prompt` is byte-for-byte what `fit()` would have constructed
+for these names; then the library's own `generate_topic_cluster_names` (haiku, temp 0.4). Nothing
+bespoke: this is the production repair path, invoked on the pairs the trigger currently misses.
+30/30 pairs renamed successfully and all 30 changed. No plain-redraw control was re-run — 7c already
+measured that (no identification headroom above the winner's-curse floor), so movement here is
+attributable to the contrastive prompt rather than to drawing again.
+
+| | 20NG | arXiv |
+|---|---|---|
+| identification (pairwise, fresh docs, gpt-4o-mini, chance 0.50) | 0.591 → **0.641** (+0.050) | 0.571 → **0.633** (+0.063) |
+| | Wilcoxon p = 0.067, improved 22/30 sides | p = 0.36, improved 16/30 sides |
+| below chance | 10/30 → 8/30 | 9/30 → 8/30 |
+| **fit (grounded judge, paired vs committed gold)** | 2.722 → **2.139** (**−0.583**) | 2.605 → **2.068** (**−0.537**) |
+| | **p = 0.0004** | **p = 0.002** |
+
+The fit regression is **larger than the entire exemplars effect** (−0.49, the biggest number in the
+program) and roughly 3.5σ of the judge repeat band measured in tranche 2 (σ = 0.168). The
+identification gain does not clear significance on either corpus and barely moves the below-chance
+count — the pairs that were unusable stay unusable.
+
+**The mechanism is legible and measured.** Contrastive renaming names the *contrast*, not the
+region: within-pair token Jaccard collapses (0.176 → 0.025 on 20NG, 0.143 → 0.037 on arXiv) and
+**~41% of the vocabulary the pair shared is dropped from both new names**, at unchanged label length
+(9.7 → 9.3 / 9.1 → 9.1 words). It is substitution, not compression. The shared vocabulary is often
+the head noun that made each label a true description of its region, so dropping it trades
+truthfulness for separability:
+
+> `Motorcycle Riding Techniques, Safety, and Passenger Handling Advice` → `Riding Techniques,
+> Safety, and Passenger Handling` — "Motorcycle" is gone, because the sibling cluster (used
+> motorcycle sales) also had it.
+
+That is Phase 5a's anti-conjunct result running in reverse: 5a found conjuncts that are true of the
+region but wrong given the neighbours; this finds the prompt deleting content that is *right* for the
+region because it is shared with a neighbour.
+
+**Independent replication of #173.** The nibling-contrast experiment found that contrast context in
+the *naming* prompt made labels worse (judge preferred baseline ~2:1 across 4 models). That result
+had only ever been shown on a bespoke prompt built for that experiment. This reproduces it on
+Toponymy's own production disambiguation path, on two corpora, on the fit axis, with a mechanism —
+the confirmation that experiment never had.
+
+### What tranche 3 changes
+
+1. **Do not widen the trigger.** Tranche 2's blind spot stands, but routing more pairs into the
+   existing repair would make label quality worse on net. The honest recommendation is now
+   *diagnostic*: ship confusability as a **reported metric**, not as a trigger action.
+2. **The disambiguation pass may be net-harmful whenever it fires.** Measured here on
+   score-selected pairs rather than on the near-duplicate strings the trigger actually catches, so
+   this is a hypothesis with a cheap test (rename the trigger's own groups, re-judge), not a result.
+   If it holds it bears directly on **FEATURES.md's keyphrase recommendation**: dropping keyphrases
+   triples fine-layer renaming load on 20NG, which was priced as a token cost — if renaming also
+   costs ~0.5 judge-points per topic, that is a *quality* cost and the case against defaulting
+   keyphrases off gets substantially stronger.
+3. **A better repair would have to be constrained.** The failure is the prompt being free to delete
+   shared content. "Distinguish these topics **without dropping the terms that make each name true
+   of its own region**" is the obvious next prompt to test, and 5a's load-bearing/free-rider split
+   is the tool for deciding which terms those are.
+
 ## Files (experiments/label_quality/)
 
 - `PLAN.md` — this plan + running findings/status.
@@ -982,6 +1053,11 @@ across corpora, has only been asked to generalize once in each direction.
 - `judge_repeat.py` — Phase 7c follow-up: the pure judge repeat band (same labels, same documents,
   same recipe; 120 calls) → `data/judge_repeat_20ng.json`. `--report-only` re-derives the
   decomposition without spending calls.
+- `repair_check.py` — Phase 7 tranche 3: rebuilds layer state without re-naming, drives Toponymy's
+  OWN `distinguish_topic_names_prompt` + `generate_topic_cluster_names` on the confirmed-confusable
+  pairs (`--stage rename`), re-measures identification (`--stage arbiter`) and fit (`--stage judge`)
+  paired against the committed gold, and reports the shared-vocabulary mechanism (`--stage report`)
+  → `data/repair_{names,arbiter,judge}_*.json`.
 
 Reuses the nibling harness (`../nibling_contrast/`): `ab_harness.{load_dataset,make_namer,make_embedder}`
 and `judge_fair.sample_docs`. All fits use `ToponymyClusterer(min_clusters=4, base_min_cluster_size=25)`
@@ -1130,10 +1206,22 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
 - [x] **Judge repeat band** (120 calls) — σ = 0.168, floor +0.095. 7c's fit headroom **clears**;
   true oracle gain ≈ +0.071 judge-pts. Best-of-N is unattractive, not null — earlier statement
   corrected.
-- [ ] **Tranche 3 — does renaming repair it?** Tranche 2 measured detection only. Needs the
-  disambiguation prompt to carry contrast context, then a re-measured pairwise arbiter.
-- [ ] **Write-up + venue call.** Nothing posted yet; the story now completes (blind spot → free
-  detector → held-out confirmation), which is this program's bar for posting.
+- [x] **Tranche 3 — does renaming repair it? NO.** Toponymy's own disambiguation path gives
+  +0.050 / +0.063 pm identification (n.s.) for **−0.583 / −0.537 judge-pts fit** (p=4e-04 / 2e-03),
+  both corpora. Mechanism measured: ~41% of the pair's shared vocabulary is deleted from both new
+  names at unchanged length — it names the contrast, not the region. Pre-registered prediction,
+  confirmed. **Recommendation inverts: report confusability, do not act on it.** 570 calls.
+- [ ] **Is the disambiguation pass net-harmful whenever it fires?** Tranche 3 measured
+  score-selected pairs, not the near-duplicate strings the trigger actually catches. Cheap test:
+  rename the trigger's own groups and re-judge. Bears on FEATURES.md's keyphrase recommendation.
+- [ ] **A constrained repair prompt** — "distinguish these without dropping the terms that make each
+  name true of its own region"; 5a's load-bearing/free-rider split decides which terms those are.
+- [ ] **Write-up + venue call.** Nothing posted yet. The story completes as blind spot → free
+  detector → held-out confirmation → *the obvious fix makes it worse*, which is a better and more
+  honest arc than the one tranche 2 alone implied.
+
+**Phase 7 spend to date: 1,350 LLM calls** (660 tranche-2 arbiter + 120 judge repeat + 570 tranche
+3), against the ~1,500 agreed. Tranche 1 was free.
 - [ ] **Third corpus in a different register** — required before any *trained* rung is claimed to
   generalize; not needed for tranche 2, which uses no trained parameters.
 - [ ] **Not attempted, deliberately:** r1–r3 of the capacity ladder. 7a-fine + 7b together say the
