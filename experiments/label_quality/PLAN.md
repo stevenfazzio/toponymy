@@ -708,6 +708,134 @@ pointer → [#177 comment](https://github.com/TutteInstitute/toponymy/discussion
 data point → [#57 comment](https://github.com/TutteInstitute/toponymy/issues/57#issuecomment-5161568456).
 Branch pushed and FROZEN at the posted tip. Post drafts deliberately left untracked.
 
+## Phase 7 results — tranche 1, the three free probes (2026-08-03)
+
+Branch `experiment/lineup-scorer` (off the frozen `010f556`). No LLM calls, no new data. The
+predictions recorded in the plan above came out **half right**: 7a split exactly as predicted,
+7c did not.
+
+**Headline: a free, LLM-free scorer detects confusability well and abstraction level not at all.**
+That maps onto the three candidate applications with unusual sharpness — it supports (i)
+confusability disambiguation, does not support (ii) rung selection, and (iii) best-of-N over
+redraws is a null on both axes before it was ever built.
+
+### 7a — softmax-cosine over the frozen lineups (`lineup_scorer_probe.py`)
+
+All 6,272 committed units re-scored with `softmax_j(cos(label, cand_j)/τ)` on the same frozen
+candidate sets; τ fitted by KL on one corpus and applied to the **other** (0.170 both ways, so the
+parameter is not corpus-specific). Two candidate representations: cluster centroid, and the mean of
+the 5 held-out documents the listener actually saw.
+
+**COARSE — PASSES, and it repairs #173's padding blind spot** (paired gold-beats-variant, centroid
+representation; "raw" = pointwise cosine to the true centroid, i.e. the #173 metric):
+
+| | verbose | ancestor | sibling | generic | distant | shuffled |
+|---|---|---|---|---|---|---|
+| 20NG softmax | **93%** | 95% | 99% | 98% | 100% | 98% |
+| 20NG raw cosine | 78% | 89% | 96% | 100% | 100% | 100% |
+| arXiv softmax | **91%** | 91% | 97% | 97% | 99% | 99% |
+| arXiv raw cosine | **51%** | 91% | 95% | 99% | 99% | 97% |
+| *(listener, for reference)* | *79% / 83%* | *88% / 92%* | *89% / 95%* | *95% / 98%* | *99% / 100%* | *100% / 99%* |
+
+The arXiv verbose column is the result: **raw pointwise cosine is at chance (51%) on gold-vs-verbose,
+and normalizing over the neighbourhood takes it to 91%** — the predicted common-mode cancellation,
+confirmed. Padding raises cosine to all five candidates alike, so a softmax removes it for free. Note
+softmax also *exceeds* the listener on this contrast (93% vs 79%); that does not make it a better
+instrument, it means gold-vs-verbose is easy geometrically once normalized and hard for an LLM reader.
+
+**FINE — FAILS, as predicted.** Within-cluster correlation with measured pm across ladder rungs:
+
+| | softmax Pearson | raw cosine | oracle ceiling |
+|---|---|---|---|
+| 20NG (n=107 clusters) | +0.238 (docs rep +0.261) | +0.075 | ~0.75 |
+| arXiv (n=116) | +0.158 (docs rep +0.233) | +0.052 | ~0.79 |
+
+Normalization roughly **triples** raw cosine, and still recovers only ~10–12% of the explainable
+variance. Not enough for rung selection. The doc-mean representation is slightly better on the fine
+test and slightly worse on the coarse one.
+
+**DIRECTION — an unplanned positive, and the strongest signal in the tranche.** Restricted to units
+where the listener put more mass on a *wrong* candidate than on the true one, does the model point at
+**the same wrong candidate**? **20NG 277/399 = 69%, arXiv 239/357 = 67%, against ~25% chance.** This
+is Phase 5a's anti-conjunct mechanism confirmed geometrically — a label that overlaps a neighbour's
+territory is detectably nearer that neighbour — and it is exactly the signal confusability
+disambiguation needs.
+
+### 7b — the abstraction probe on 20NG gold categories (`abstraction_probe.py`)
+
+Closes **Phase 0 leg 2**. 260 trials (13 leaf categories × 20 aggregates × 15 docs); candidates =
+exact leaf / parent / grandparent / sibling leaf / distant leaf, rendered to natural language by a
+mapping written once from the group names and not tuned.
+
+| contender | exact leaf ranked 1st | **sibling ABOVE ancestor** |
+|---|---|---|
+| raw cosine to aggregate | 97.3% | **50.4%** |
+| cosine to individual docs (mean) | 97.3% | 50.4% |
+| cosine − 0.02·label length | 96.5% | 48.5% |
+| cosine − λ·generality (Phase 2a axis) | — | 53.3% (**λ fitted to 0.00** — the correction was rejected) |
+
+**The premise is confirmed and unfixed by anything cheap.** Cosine finds the right label easily when
+it is present (97%), but has no notion of *correct-but-general* versus *wrong-but-specific*: half the
+time a sibling outranks a true ancestor. Softmax over the candidate set cannot help here — within a
+single trial it is order-preserving, so it changes no ranking (reported explicitly rather than
+silently omitted; this is the precise limit of 7a's trick). Phase 2a's generality axis is rejected by
+its own fit, replicating Phase 2b's chance-level negative in a third setting.
+
+The failure is well-localised and tracks how semantically empty the ancestor term is: 100% for
+Automobiles and Motorcycles (ancestor "Recreation"), 100% for Macintosh Hardware (ancestor "Computer
+Systems"), 0% for Baseball and Medicine (ancestors "Sports", "Science"). *Caveat:* the rate is
+sensitive to that rendering — "Recreation" is a genuinely weak natural-language name for `rec.*` —
+so the mechanism is solid and the 50.4% number is not a corpus constant.
+
+**7a and 7b are the same negative.** Choosing among ladder rungs *is* choosing an abstraction level,
+so 7b explains why 7a's fine test fails: cosine has no principled handle on specificity, and that is
+precisely what within-cluster rung ordering requires.
+
+### 7c — redraw headroom (`redraw_headroom.py`) — NULL on both axes
+
+**Identification** (gold + the two Phase-6 ablation arms as independent redraws through identical
+frozen lineups; FEATURES.md measured those arms inert, which is what licenses the reuse):
+
+| | best-of-2 headroom | best-of-3 | floor (a) real repeat, haiku | floor (b) analytic, sonnet |
+|---|---|---|---|---|
+| 20NG | +0.046 | +0.067 | +0.038 | +0.016 / +0.024 |
+| arXiv | +0.039 | +0.057 | +0.028 | +0.015 / +0.022 |
+
+Floor (a) is a genuine repeat but on the noisier haiku listener (overstates); floor (b) counts only
+within-unit sample scatter (understates). The true sonnet floor lies between, and the headroom sits
+at the top of that range rather than above it. Cross-check: haiku-vs-gpt-4o-mini namings of the same
+cluster (Phase 4's 104 fine pairs) give **+0.041**, i.e. a genuine cross-model redraw buys no more
+than a same-model one. **No demonstrated identification headroom.**
+
+**Fit — and this is a correction to a number quoted mid-discussion before its floor was computed.**
+The two independent naming draws give oracle best-of-2 **+0.166 judge-pts** (20NG L0, k=4; 16/74
+identical strings, mean |Δ| 0.331, 13/74 a full point apart). The winner's-curse floor, from the one
+pure-ish judge repeat on disk (`clean_docs_rejudge` scored the same gold labels again on a fresh
+document draw): sd of paired difference 0.494 ⇒ σ ≈ 0.350 ⇒ **floor +0.197 judge-pts**. The headroom
+**does not clear its floor**. The apparent "a third of the exemplars effect" was selection on judge
+noise.
+
+That floor is an upper bound (it contains doc-sample variance, and the clean-doc draw is genuinely
+harder — a +0.061 systematic shift), so the fit side is *provisionally* null rather than settled. The
+one measurement that would settle it is cheap: **re-judge ~40 already-scored labels on the same
+documents (~120 calls) for a tight judge repeat band.**
+
+### What tranche 1 decided
+
+- **Rung selection via a cheap scorer: not supported.** 7a-fine at +0.24 against a ~0.75 ceiling,
+  and 7b says why. Do not climb to r1/r2/r3 hoping features rescue the fine test — the kill criterion
+  for that was written in advance and it did not fire in the scorer's favour.
+- **Confusability disambiguation: supported, and it is the application to carry forward.** 7a-coarse
+  at 91–99% and 7a-direction at 67–69% vs 25% chance, both replicated on two corpora, both free. It
+  targets a component that `collision_check.py` showed fires on *nothing* in real name sets (closest
+  pair 0.305 vs a 0.2 cap) while Phase 4 showed a confusable name relocates 0.51 of the listener's
+  mass — a measured failure the trigger is structurally blind to.
+- **Best-of-N over redraws: dead on identification, provisionally dead on fit.** Killed for ~$0.
+- **The dual-encoder premise: confirmed as a real gap** (50% asymmetry failure, both cheap fixes
+  rejected) **but Toponymy-facing value is unclear** — a tower would be justified by 7b, yet the
+  application that needs abstraction ordering (rung selection) is the one 7a says is out of reach,
+  and 223 clusters over 2 corpora is thin for a trained artifact.
+
 ## Files (experiments/label_quality/)
 
 - `PLAN.md` — this plan + running findings/status.
@@ -748,6 +876,13 @@ Branch pushed and FROZEN at the posted tip. Post drafts deliberately left untrac
   to capture pre-pass names + the groups the renaming trigger formed → `data/disamb_load.json`.
 - `price_dose_response.py` — Phase 6: exact call/token accounting via `count_tokens` on the real
   prompts (no generation), in the #177 house style of costing arms before running them.
+- `lineup_scorer_probe.py` — Phase 7a: re-scores every committed lineup unit with
+  `softmax(cos/τ)` over the frozen candidate set (τ fitted out-of-corpus), against raw pointwise
+  cosine as the #173 control; coarse/fine/direction tests. No LLM calls.
+- `abstraction_probe.py` — Phase 7b: the 20NG gold-category abstraction test (Phase 0 leg 2) —
+  asymmetry failure rate for cosine, length, and Phase 2a's generality axis. No LLM calls.
+- `redraw_headroom.py` — Phase 7c: oracle best-of-N headroom for naming redraws on both axes,
+  each against its own measured winner's-curse floor. No LLM calls.
 Reuses the nibling harness (`../nibling_contrast/`): `ab_harness.{load_dataset,make_namer,make_embedder}`
 and `judge_fair.sample_docs`. All fits use `ToponymyClusterer(min_clusters=4, base_min_cluster_size=25)`
 on the full 20NG (`../nibling_contrast/data/ng_*`); cluster indices align across every script.
@@ -874,3 +1009,26 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
 - [ ] **Terser-namer probe** — everything here is one namer (haiku), the caveat most likely to matter.
 - [ ] **Is the mild negative direction of keyphrases/subtopics real?** Needs more coarse clusters
   than this substrate has.
+
+## Phase 7 status (cheap scorer) — tranche 1 COMPLETE, not posted
+
+- [x] **Noise ceiling measured first** — within-cluster reliability of the committed 3-sample `pm`
+  is ≈0.57 / 0.62, so any predictor of it is capped near ρ 0.75. Everything below is read against
+  that, not against 1.0.
+- [x] **7a softmax-cosine** — passes coarse (and fixes the padding blind spot: arXiv verbose
+  51%→91%), fails fine (+0.24 vs a ~0.75 ceiling), and the unplanned direction test is the
+  tranche's strongest signal (67–69% vs 25% chance).
+- [x] **7b abstraction probe** — Phase 0 leg 2 closed. Premise confirmed (50.4% asymmetry failure),
+  both cheap fixes rejected, generality axis fitted to λ=0 (Phase 2b's negative, third replication).
+- [x] **7c redraw headroom** — null on identification (headroom inside the floor range); fit
+  headroom +0.166 does **not** clear its +0.197 winner's-curse floor. Best-of-N killed for ~$0.
+- [x] **Correction recorded** — the +0.166 fit headroom was quoted mid-discussion before its floor
+  was computed; the floor removes it.
+- [ ] **Tranche 2 — confusability only** (the one application tranche 1 supports): pairwise
+  confusability score from the direction result, validated against the sibling arm, compared with
+  the 0.2-cosine-cap trigger on real name sets; fresh listener run over disagreements (~700 calls).
+- [ ] **Judge repeat band** (~120 calls) — would settle whether 7c's fit side is a true null.
+- [ ] **Third corpus in a different register** — required before any *trained* rung is claimed to
+  generalize; not needed for tranche 2, which uses no trained parameters.
+- [ ] **Not attempted, deliberately:** r1–r3 of the capacity ladder. 7a-fine + 7b together say the
+  fine/abstraction signal is not in this geometry, so climbing would be tuning against a known wall.
