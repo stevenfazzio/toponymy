@@ -1,0 +1,182 @@
+[
+ {
+  "L": 1,
+  "i": 19,
+  "label": "Uncertainty Quantification and Out-of-Distribution Detection",
+  "overall": 3.0
+ },
+ {
+  "L": 1,
+  "i": 18,
+  "label": "Time Series Forecasting and Anomaly Detection",
+  "overall": 3.0
+ },
+ {
+  "L": 1,
+  "i": 18,
+  "label": "Time Series Forecasting and Predictive Maintenance",
+  "overall": 3.0
+ },
+ {
+  "L": 1,
+  "i": 19,
+  "label": "Uncertainty Quantification and Out-of-Distribution Detection",
+  "overall": 3.0
+ },
+ {
+  "L": 0,
+  "i": 64,
+  "label": "Clinical Diagnostic AI for Cardiac, Oncologic, and Neurological Disease Classification from Biomedical Signals and Imaging",
+  "overall": null
+ },
+ {
+  "L": 0,
+  "i": 67,
+  "label": "Automated Tissue and Anatomical Structure Segmentation Across Medical Imaging Modalities with Limited Annotated Data",
+  "overall": 3.0
+ },
+ {
+  "L": 0,
+  "i": 41,
+  "label": "Hierarchical Abstraction, Temporal Options, and State Representation Learning for Complex Action Spaces",
+  "overall": 1.0
+ },
+ {
+  "L": 0,
+  "i": 47,
+  "label": "Intrinsic Motivation, Density Models, and Pseudo-Count Exploration for Sparse Reward Hard Exploration",
+  "overall": 1.0
+ },
+ {
+  "L": 0,
+  "i": 73,
+  "label": "Conditional GANs and Controllable Generation for Image Synthesis, Reconstruction, and Domain Adaptation",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 72,
+  "label": "GAN Training Dynamics, Convergence Analysis, and Mode Collapse Mitigation Strategies",
+  "overall": 2.6666666666666665
+ },
+ {
+  "L": 1,
+  "i": 6,
+  "label": "Vision-Language Models for Cross-Modal Reasoning",
+  "overall": 2.0
+ },
+ {
+  "L": 1,
+  "i": 10,
+  "label": "Generative Models for Text-Guided Visual Synthesis",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 22,
+  "label": "Regret Bounds and Sample Complexity in MDPs with Function Approximation and Partial Observability",
+  "overall": 3.0
+ },
+ {
+  "L": 0,
+  "i": 17,
+  "label": "Regret Analysis and Exploration-Exploitation Algorithms for Linear and Contextual Bandits",
+  "overall": null
+ },
+ {
+  "L": 0,
+  "i": 77,
+  "label": "Specialized Domain Evaluation Benchmarks and Assessment Frameworks for Pre-trained Language Models",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 68,
+  "label": "Cross-lingual Transfer Learning and Computational NLP for Morphologically-rich Low-resource Languages",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 44,
+  "label": "Game-Theoretic Feature Attribution, Symbolic Interpretability, and Computational Complexity of Shapley-Based Explanations",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 45,
+  "label": "Post-hoc Explainability Methods, Counterfactual Reasoning, and User-Centric Interpretability for Black-box Models",
+  "overall": 2.6666666666666665
+ },
+ {
+  "L": 0,
+  "i": 20,
+  "label": "Metaheuristic and Learning-Based Optimization for Vehicle Routing and Scheduling Problems",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 21,
+  "label": "Multi-Agent Coordination and Real-Time Path Planning in Dynamic Traffic Systems",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 5,
+  "label": "Entity Alignment, Relation Extraction, and Complex Query Answering in Knowledge Graphs",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 4,
+  "label": "Knowledge Graph Embedding Models for Link Prediction and Knowledge Graph Completion",
+  "overall": 3.0
+ },
+ {
+  "L": 1,
+  "i": 26,
+  "label": "LLM Evaluation, Benchmarking, and Prompt Optimization",
+  "overall": 2.0
+ },
+ {
+  "L": 1,
+  "i": 25,
+  "label": "Cross-lingual Transfer and Low-resource Language Processing",
+  "overall": 2.0
+ },
+ {
+  "L": 1,
+  "i": 12,
+  "label": "Single-Agent Deep RL: Exploration, Abstraction, and Actor-Critic Methods",
+  "overall": 2.0
+ },
+ {
+  "L": 1,
+  "i": 8,
+  "label": "Multi-Agent Cooperative RL: Centralized Training with Decentralized Execution",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 50,
+  "label": "Privacy-Preserving Defense Against Byzantine Attacks and Model Poisoning in Federated Learning",
+  "overall": 1.0
+ },
+ {
+  "L": 0,
+  "i": 51,
+  "label": "Non-IID Data Handling and Decentralized Aggregation Strategies for Heterogeneous Federated Learning",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 13,
+  "label": "Uncertainty-Aware Trajectory Prediction and Risk Assessment for Autonomous Vehicle Perception and Planning",
+  "overall": 2.0
+ },
+ {
+  "L": 0,
+  "i": 12,
+  "label": "Multi-Agent Reinforcement Learning for Interactive Driving Behavior and Cooperative Maneuver Planning",
+  "overall": 1.0
+ }
+]

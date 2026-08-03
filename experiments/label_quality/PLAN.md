@@ -1062,6 +1062,54 @@ grounds.
 - 42 instances over 12 distinct clusters, with clusters recurring across draws — the effective n is
   smaller than 42.
 
+## Phase 7 results — tranche 3c: the obvious prompt fix does NOT work (2026-08-03, 390 calls)
+
+**Headline: a minimal wording patch does not recover the damage, on either corpus.** This is a
+negative, and it is the most useful thing to put in front of a maintainer, because it rules out the
+first thing anyone would try.
+
+**The cause is in the template, not in the model.** `templates.py` ends the disambiguation
+instruction with:
+
+> "**The primary goal** is to make each new topic name clearly distinguishable from the others in
+> this list, based on the provided details."
+
+Distinguishability is *declared* the primary goal, with nothing counterbalancing it about remaining
+a true description of the region. So the mechanism found in 3 and 3b is not an emergent quirk — it
+is compliance. The minimal patch appends two sentences supplying the counterweight ("...must also
+remain an accurate, self-contained description of its own topic: distinguish by adding what
+separates them, not by removing terms that are essential to what a topic is about, even when several
+topics share those terms"), changes nothing else, and re-runs tranche 3's pairs so the stock arm is
+already measured and the design is three-way paired on **both** corpora.
+
+| | pre-disambiguation | stock | **constrained** | recovered |
+|---|---|---|---|---|
+| 20NG fit (n=28) | 2.702 | 2.185 | **2.244** | +0.060, p=0.81 — **11% of the damage** |
+| arXiv fit (n=27) | 2.605 | 2.043 | **2.198** | +0.154, p=0.21 — **27% of the damage** |
+
+Neither is significant, and both remain far below the pre-disambiguation names (−0.458 p=3e-04;
+−0.407 p=0.012). **The patch fails.**
+
+**And it fails for an informative reason: the constraint doesn't take.** Token Jaccard within the
+pair is essentially unchanged (stock 0.025 → constrained 0.019 on 20NG; 0.037 → 0.044 on arXiv), and
+of the shared terms the stock prompt deleted, the constrained prompt restored only **3/13 (20NG) and
+1/12 (arXiv)**. The prompt did reach the model — 14/15 pairs on each corpus came back with different
+names than stock — it simply kept stripping shared vocabulary anyway. The pull toward
+differentiation is stronger than an added instruction.
+
+**De-duplication is achieved by every arm, so it is not the differentiator.** Pairwise cosine
+distance against the library's own 0.2 trigger cap: pre 0.400 / 0.500 (2/15 and 0/15 inside the
+cap), stock 0.624 / 0.612, constrained 0.621 / 0.590 — 0/15 inside the cap everywhere. Identification
+is flat across arms (constrained vs stock +0.022 p=0.44; +0.008 p=0.64).
+
+**Reading.** The disambiguation pass buys de-duplication, pays 0.4–0.6 judge-points for it here
+(1.05 on its own trigger groups, 3b), gains nothing measurable on identification, and **does not
+respond to a wording-level counterweight**. That points at a design change rather than a prompt
+tweak — rename only one member of a colliding pair; or constrain the edit to be additive by
+construction rather than by instruction; or accept duplicates at the fine layer and disambiguate for
+display instead. No further prompt variants were tried: this program's own standard is not to tune
+until something flatters.
+
 ## Files (experiments/label_quality/)
 
 - `PLAN.md` — this plan + running findings/status.
@@ -1121,6 +1169,11 @@ grounds.
   renaming calls); fit (`--stage judge`) + identification through the frozen lineups
   (`--stage lineup`) + the shared-vocabulary mechanism (`--stage report`) →
   `data/disamb_value_{judge,lineup}.json`.
+- `constrained_repair.py` — Phase 7 tranche 3c: appends a two-sentence counterweight to the stock
+  disambiguation instruction (`--stage rename`), re-measures fit / identification / de-duplication
+  three-way paired against the pre and stock arms (`--stage judge|arbiter|report`) →
+  `data/constrained_{names,judge,arbiter}_*.json`. Fails loudly if `templates.py` moves the sentence
+  it patches.
 - `repair_check.py` — Phase 7 tranche 3: rebuilds layer state without re-naming, drives Toponymy's
   OWN `distinguish_topic_names_prompt` + `generate_topic_cluster_names` on the confirmed-confusable
   pairs (`--stage rename`), re-measures identification (`--stage arbiter`) and fit (`--stage judge`)
@@ -1286,14 +1339,18 @@ Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/la
   renaming calls — `disamb_load.json` already held pre/post names and the groups. 20NG-only,
   structurally. **Reprices FEATURES.md**: dropping keyphrases is neutral *on average* while
   concentrating ~1.24 judge-pts of loss on the handful of colliding fine-layer topics.
-- [ ] **A constrained repair prompt** — "distinguish these without dropping the terms that make each
-  name true of its own region"; 5a's load-bearing/free-rider split decides which terms those are.
+- [x] **A constrained repair prompt — TRIED, FAILED.** Two-sentence counterweight appended to the
+  stock instruction: recovers 11% (p=0.81) / 27% (p=0.21) of the damage, both corpora, and the
+  constraint does not take — only 3/13 and 1/12 of the deleted shared terms come back, Jaccard
+  unchanged. Rules out the first fix anyone would try. Points at a design change, not wording.
+- [ ] **Design-level alternatives, untested:** rename only one member of a colliding pair; make the
+  edit additive by construction rather than by instruction; or disambiguate for display only.
 - [ ] **Write-up + venue call.** Nothing posted yet. The story completes as blind spot → free
   detector → held-out confirmation → *the obvious fix makes it worse*, which is a better and more
   honest arc than the one tranche 2 alone implied.
 
-**Phase 7 spend to date: 1,794 LLM calls** (660 tranche-2 arbiter + 120 judge repeat + 570 tranche
-3 + 444 tranche 3b), against the ~1,500 discussed — the 3b overrun bought both axes rather than
+**Phase 7 spend to date: 2,184 LLM calls** (660 tranche-2 arbiter + 120 judge repeat + 570 tranche
+3 + 444 tranche 3b + 390 tranche 3c), against the ~1,500 discussed — the 3b overrun bought both axes rather than
 fit alone, which the pass's purpose required. Tranche 1 was free, and 3b needed no renaming calls.
 - [ ] **Third corpus in a different register** — required before any *trained* rung is claimed to
   generalize; not needed for tranche 2, which uses no trained parameters.
