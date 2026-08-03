@@ -234,6 +234,146 @@ calls ≈ $25 + held-out eval.
 **5c (optional, at post-assembly time)** — human-as-listener form (~20 lineups: label + k candidate
 doc-groups, pick the group) to close c-3's fit-style-presentation gap.
 
+---
+
+## Phase 7 — can identification be scored without an LLM at all? *(the distillation question)*
+
+**Why.** #177's controller works but costs 25–30× stock naming, almost all of it listener traffic.
+The obvious move is to replace the listener with something cheap. The framing that makes this
+different from #173's dead centroid-cosine: **the lineup normalizes over a neighbourhood.**
+Centroid-cosine is a *pointwise* score, so it structurally cannot express "this label is true of
+the region but wrong given the neighbours" — the mechanism behind Phase 5a's 12% anti-conjuncts.
+A softmax over the k=5 frozen lineup candidates can, because the normalizer is the neighbourhood.
+The same normalization is also predicted to cancel the padding bias for free: padding pulls a label
+toward the anisotropic mean direction, centroids are document means in that same anisotropic space,
+so padding raises cosine to *all five* candidates by a similar amount and a softmax cancels
+common-mode shifts by construction. **So the cheap half of "train toward the lineup" may need no
+training at all** — which is why the first tranche is free and the tower is the last rung, not the
+first.
+
+**Two conditionals, two axes, two corpora on disk.** The lineup is `p(region | label)`; naming is
+`p(label | region)`. A CLIP-style dual encoder trains one scoring function against both. But what
+decides *what to build* is the axis, and the two supervision sets already committed here map onto
+the two axes cleanly:
+
+| corpus | size (committed) | axis | selects among |
+|---|---|---|---|
+| lineup units (full k-way `mass`) | **6,272** over 223 clusters | identification | regions, given a label |
+| grounded-judge records | **~3,192** | fit | labels, given a region |
+
+Phase 4/6 established these axes disagree (ρ 0.65–0.74; opposite directions on 37% of decided
+pairs), so this is two distillation problems, not one, and each application picks its own.
+
+**The noise ceiling (measured 2026-08-03, before any probe).** Split-half over the three stored
+listener samples, *within cluster across ladder rungs* — the exact regime rung selection operates
+in — with a Spearman-Brown extrapolation:
+
+| | 20NG | arXiv |
+|---|---|---|
+| within-cluster split-half (1 sample vs other 2), Pearson | 0.378 | 0.427 |
+| implied reliability of the committed 3-sample `pm` | **≈0.57** | **≈0.62** |
+| ⇒ correlation an *oracle* scorer would show against these targets | ~0.75 | ~0.79 |
+
+This is an **upper bound** relative to the held-out condition, because the three samples share
+frozen documents (only order and temperature vary) — document-draw variance is not in it. Three
+consequences that shape everything below: (1) never report R²/ρ against measured pm as a headline,
+it is capped near 0.75; (2) a smooth model fit over ~6k units can be a *lower-variance* estimator
+of the same quantity than any single 3-sample listener call, so the student can legitimately beat
+its teacher; (3) more samples is the competing lever — 3→9 samples takes reliability ≈0.57→≈0.80
+for 3× cost, and any "cheap scorer" claim must be priced against that alternative.
+
+**Capacity ladder** (report where the curve flattens; the `n_exemplars` house style):
+r0 `softmax(cosine/τ)`, one parameter · r1 + cheap features (IDF-weighted lexical overlap
+label↔candidate docs, length) under the same softmax · r2 learned diagonal/low-rank Mahalanobis
+over frozen embeddings — i.e. #173's whitening, but *learned from identification data* instead of
+by hand · r3 the label tower.
+
+### Tranche 1 — three free probes (no LLM calls, no new data)
+
+- **7a — softmax-cosine over the frozen lineups** (`lineup_scorer_probe.py`). Score every committed
+  lineup unit with `softmax_j(cos(label, centroid_j)/τ)` on the *same* frozen candidate sets, τ
+  fitted on one corpus and evaluated on the other (never in-sample). Two tests, and they are
+  different questions: **coarse** = does it reproduce the battery's paired gold-beats-variant
+  ordering (listener: verbose 79%, ancestor 88%, generic 95%, sibling 89%, distant 99%)?
+  **fine** = within-cluster correlation with measured pm across ladder rungs, read against the
+  ≈0.75 oracle ceiling above. Raw un-normalized cosine is run alongside as the control that
+  isolates what the softmax buys — specifically on the gold-vs-verbose contrast, which is where
+  #173's padding bias lives.
+- **7b — the abstraction probe on 20NG gold categories** (`abstraction_probe.py`). Closes the
+  long-open Phase 0 leg 2 and doubles as the kill criterion for the standalone dual-encoder idea,
+  whose premise is that "is a good label for" is asymmetric in a way cosine cannot express (for a
+  French recipe, "Italian cuisine" outscores "European cuisine" but is a far worse label).
+  `ng_target_names.json` is a naturally-occurring two-level naming hierarchy
+  (`rec.sport.hockey` ⊂ `rec.sport` ⊂ `rec`) with per-document assignments in `ng_targets.npy`, so
+  the test needs no new data: score a document aggregate against {exact leaf, parent, grandparent,
+  sibling leaf, distant leaf} rendered as natural-language phrases (mapping written once, not
+  tuned). Headline metric is **not** top-1 but the **asymmetry failure rate**: how often a
+  *wrong-but-specific* sibling outranks a *correct-but-general* ancestor. Contenders: raw cosine,
+  aggregate-vs-single-document scoring, and Phase 2a's saved `generality_axis.npy` as the Renner
+  `Sim + SpecLoss` fix. Relevant prior, and it is negative: **Phase 2b measured that axis at 50%
+  = chance** direction accuracy on real Toponymy parent→child label pairs, with length at 86%. The
+  dual-encoder's actual bet is that *set-level* supervision manufactures a generality signal that
+  word-level geometry lacks — which the Phase 2 linear probe never tested.
+- **7c — redraw headroom on both axes** (`redraw_headroom.py`). Prices the "resample exemplars,
+  generate N labels, pick the best" idea before building anything. On **fit** this is already
+  measured from the two committed independent naming draws (20NG L0, `dose_*` + `.draw1`): 16/74
+  identical strings, mean |Δjudge| 0.331, 13/74 differ by ≥1 full point, **oracle best-of-2
+  +0.166 judge-pts** — a third of the largest effect in the program (exemplars, −0.49), from an
+  intervention that is embarrassingly parallel. On **identification** the same statistic is
+  computable because the Phase-6 ablation arms are, for identification purposes, independent
+  redraws: FEATURES.md measured them inert (+0.011 / −0.006), so gold + `abl_exemplars` +
+  `abl_keyphrases` are up to 3 namings of the same cluster through *identical frozen lineups*.
+  **The winner's-curse floor is measured, not assumed:** `wayfinding_*_floors.json` contains the
+  same gold label on the same lineup run twice (`run` 1 and 2), so oracle best-of-2 over a pure
+  repeat gives the selection-on-noise inflation directly, and only headroom above that floor counts.
+
+### Kill criteria (Phase 7) — written before the probes run
+
+- **7a:** if softmax-cosine clears the oracle ceiling on the *fine* test, the tower is unnecessary
+  — report that and stop climbing the ladder. If it fails the *coarse* test (cannot even reproduce
+  the battery ordering), the neighbourhood-normalization premise is wrong and the whole cheap-scorer
+  branch is dead; do not proceed to r1 hoping features rescue it.
+- **7b:** if raw cosine already ranks the correct level first at a high rate, there is no asymmetry
+  problem to solve and the dual-encoder's stated premise is withdrawn. If cosine fails *and* both
+  cheap fixes (aggregate scoring, SpecLoss) also fail, the premise is confirmed but unresolved by
+  anything short of training — that is a real finding and the point at which a tower is justified.
+- **7c:** if identification headroom does not clear the measured winner's-curse floor, best-of-N
+  over redraws is a fit-axis lever only, and any selector for it must distil the **judge**, not the
+  listener. If fit headroom also fails to survive a held-out judge, drop the idea entirely.
+- **Global:** no scorer claim is believed on in-sample selection. Anything that survives tranche 1
+  goes to a fresh listener run over the *student's own picks* (~700 calls) — the committed
+  `wayfinding_*_heldout.json` files are contaminated for this purpose, since "chosen" was selected
+  using the very ladder data a student would train on. Benchmark is **always-shortest**, not stock:
+  in-sample the controller beats always-shortest by +0.097 (20NG) / +0.062 (arXiv) pm while
+  picking the shortest available rung only 41/107 and 68/116 times, so per-cluster selection is
+  doing real work — but always-shortest is unbiased and the controller is winner's-cursed, so the
+  comparison is only settled on fresh draws (budget agreed: ~1,500 calls including that arm).
+- **Generality:** 223 clusters over 2 corpora is enough to falsify a *measurement* but thin for a
+  *trained artifact*, which can overfit corpus idiosyncrasy in a way a fixed instrument cannot. A
+  third corpus in a different register (support tickets / code / chat, not a third collection of
+  long-form English prose) is in scope before any trained rung is claimed to generalize. Deployment
+  framing to prefer, since it dodges cross-corpus and cross-embedder transfer entirely: **fit the
+  scorer on a small measured budget on *this* corpus** and amortize, rather than shipping a
+  checkpoint — testable offline today by fitting on 30% of clusters and predicting the rest.
+
+**Predictions, recorded now so they can be wrong.** 7a passes coarse and fails fine (the fine signal
+is the distinguishing specific — "Larson's Reciprocal System Theory" — which cosine structurally
+under-weights), which would point at confusability detection and away from rung selection. 7c shows
+fit headroom and ~no identification headroom, per FEATURES.md's exemplars-are-identification-inert
+result. 7b is the one I have no confident prior on.
+
+**Downstream applications, ranked by how native they are to the library** (pick ONE to carry to a
+held-out evaluation after tranche 1): (i) **confusability disambiguation** — the existing renaming
+trigger is agglomerative over name embeddings with a 0.2 cosine-distance cap, i.e. symmetric,
+pointwise and string-similarity-based; `collision_check.py` found it fires on *nothing* in real name
+sets (closest pair 0.305), while Phase 4's sibling arm shows a confusable name relocates **0.51 of
+the listener's mass to the wrong region**. That is a measured failure mode the component is
+structurally blind to, not merely a suboptimal default — and Phase 4's own downstream note already
+proposed "generalizes the disambiguation pass from exact duplicates to confusables". (ii) **rung
+selection** (#177's controller, made cheap). (iii) **best-of-N over exemplar redraws** — fit axis,
+needs the judge distilled instead; also reframable as a fix for #154, converting the measured 76%
+naming churn from a liability into a budget.
+
 ## Kill criteria (so we don't fool ourselves)
 
 - **Phase 0:** if grounded judge–human κ stays low, fix the instrument before trusting any
@@ -608,7 +748,6 @@ Branch pushed and FROZEN at the posted tip. Post drafts deliberately left untrac
   to capture pre-pass names + the groups the renaming trigger formed → `data/disamb_load.json`.
 - `price_dose_response.py` — Phase 6: exact call/token accounting via `count_tokens` on the real
   prompts (no generation), in the #177 house style of costing arms before running them.
-
 Reuses the nibling harness (`../nibling_contrast/`): `ab_harness.{load_dataset,make_namer,make_embedder}`
 and `judge_fair.sample_docs`. All fits use `ToponymyClusterer(min_clusters=4, base_min_cluster_size=25)`
 on the full 20NG (`../nibling_contrast/data/ng_*`); cluster indices align across every script.
