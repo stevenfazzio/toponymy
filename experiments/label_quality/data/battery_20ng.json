@@ -1,0 +1,1239 @@
+[
+  {
+    "layer": 0,
+    "idx": 0,
+    "gold": "NHL Hockey Playoff Coverage Scheduling and Broadcast Rights Disputes",
+    "variants": {
+      "ancestor": "Sports Fantasy",
+      "distant": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting",
+      "generic": "Various topics",
+      "verbose": "NHL Hockey Playoff Coverage Scheduling and Broadcast Rights Disputes, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "gold": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "variants": {
+      "sibling": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "distant": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, including various related discussions of Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "gold": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+    "variants": {
+      "ancestor": "Early 1990s NHL Playoff Fantasy League",
+      "sibling": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention",
+      "distant": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+      "generic": "General content",
+      "verbose": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes, including various related discussions of Early 1990s NHL Playoff Fantasy League, Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "gold": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "generic": "Assorted posts",
+      "verbose": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "gold": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+    "variants": {
+      "ancestor": "Early 1990s NHL Playoff Fantasy League",
+      "sibling": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention",
+      "distant": "X11 Window System Software Distribution Sources and Toolkit Implementation Questions",
+      "generic": "A range of subjects",
+      "verbose": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary, including various related discussions of Early 1990s NHL Playoff Fantasy League, Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "gold": "Software Piracy, Copy Protection Schemes, and Hacker Ethics Debate",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "generic": "Various topics",
+      "verbose": "Software Piracy, Copy Protection Schemes, and Hacker Ethics Debate, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "gold": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention",
+    "variants": {
+      "ancestor": "Early 1990s NHL Playoff Fantasy League",
+      "sibling": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+      "distant": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention, including various related discussions of Early 1990s NHL Playoff Fantasy League, NHL Stanley Cup Playoff Games Discussion and Live Game Commentary, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "gold": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+    "variants": {
+      "ancestor": "Early 1990s NHL Playoff Fantasy League",
+      "sibling": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention",
+      "distant": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access",
+      "generic": "General content",
+      "verbose": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion, including various related discussions of Early 1990s NHL Playoff Fantasy League, Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "gold": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+    "variants": {
+      "distant": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "generic": "Assorted posts",
+      "verbose": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, including various related discussions of Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "gold": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+    "variants": {
+      "ancestor": "MLB Season Predictions and Player Analysis",
+      "sibling": "Major League Baseball Season Predictions, Standings, and Game Recaps",
+      "distant": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "generic": "A range of subjects",
+      "verbose": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation, including various related discussions of MLB Season Predictions and Player Analysis, Major League Baseball Season Predictions, Standings, and Game Recaps, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "gold": "Major League Baseball Season Predictions, Standings, and Game Recaps",
+    "variants": {
+      "ancestor": "MLB Season Predictions and Player Analysis",
+      "sibling": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+      "distant": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "generic": "Various topics",
+      "verbose": "Major League Baseball Season Predictions, Standings, and Game Recaps, including various related discussions of MLB Season Predictions and Player Analysis, Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "gold": "Bosnian War Ethnic Cleansing Conflict Debates and International Military Intervention",
+    "variants": {
+      "ancestor": "Israeli-Palestinian Conflict and Ethnic Violence",
+      "sibling": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+      "distant": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Bosnian War Ethnic Cleansing Conflict Debates and International Military Intervention, including various related discussions of Israeli-Palestinian Conflict and Ethnic Violence, Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "gold": "Debate on Male Homosexuality Prevalence and Sexual Behavior Survey Data",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+      "generic": "General content",
+      "verbose": "Debate on Male Homosexuality Prevalence and Sexual Behavior Survey Data, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "gold": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+    "variants": {
+      "ancestor": "Israeli-Palestinian Conflict and Ethnic Violence",
+      "sibling": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics",
+      "distant": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+      "generic": "Assorted posts",
+      "verbose": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute, including various related discussions of Israeli-Palestinian Conflict and Ethnic Violence, Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "gold": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics",
+    "variants": {
+      "ancestor": "Israeli-Palestinian Conflict and Ethnic Violence",
+      "sibling": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+      "distant": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+      "generic": "A range of subjects",
+      "verbose": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics, including various related discussions of Israeli-Palestinian Conflict and Ethnic Violence, Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "gold": "Medical Skepticism and Alternative Therapies Debate in Clinical Practice",
+    "variants": {
+      "ancestor": "Nutritional and Alternative Medicine Debate",
+      "sibling": "Alternative and Over-the-Counter Treatments for Chronic Conditions and Allergies",
+      "distant": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "generic": "Various topics",
+      "verbose": "Medical Skepticism and Alternative Therapies Debate in Clinical Practice, including various related discussions of Nutritional and Alternative Medicine Debate, Alternative and Over-the-Counter Treatments for Chronic Conditions and Allergies, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "gold": "Alternative and Over-the-Counter Treatments for Chronic Conditions and Allergies",
+    "variants": {
+      "ancestor": "Nutritional and Alternative Medicine Debate",
+      "sibling": "Medical Skepticism and Alternative Therapies Debate in Clinical Practice",
+      "distant": "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Alternative and Over-the-Counter Treatments for Chronic Conditions and Allergies, including various related discussions of Nutritional and Alternative Medicine Debate, Medical Skepticism and Alternative Therapies Debate in Clinical Practice, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "gold": "Gilligan's Island Character Sins Allegory and Literary Book Recommendations Discussion",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion",
+      "generic": "General content",
+      "verbose": "Gilligan's Island Character Sins Allegory and Literary Book Recommendations Discussion, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "gold": "X Window System Frequently Asked Questions and Technical Documentation",
+    "variants": {
+      "ancestor": "Space exploration missions and spacecraft",
+      "sibling": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+      "distant": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+      "generic": "Assorted posts",
+      "verbose": "X Window System Frequently Asked Questions and Technical Documentation, including various related discussions of Space exploration missions and spacecraft, Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "gold": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "generic": "A range of subjects",
+      "verbose": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "gold": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access",
+    "variants": {
+      "ancestor": "Clipper Chip Encryption Policy Debate",
+      "sibling": "Technical Weaknesses in Skipjack Algorithm and Key Escrow System Implementation Security",
+      "distant": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+      "generic": "Various topics",
+      "verbose": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access, including various related discussions of Clipper Chip Encryption Policy Debate, Technical Weaknesses in Skipjack Algorithm and Key Escrow System Implementation Security, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "gold": "Skipjack Encryption Algorithm Security Analysis and Key Escrow Vulnerabilities",
+    "variants": {
+      "ancestor": "Clipper Chip Encryption Policy Debate",
+      "sibling": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access",
+      "distant": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Skipjack Encryption Algorithm Security Analysis and Key Escrow Vulnerabilities, including various related discussions of Clipper Chip Encryption Policy Debate, Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "gold": "Technical Weaknesses in Skipjack Algorithm and Key Escrow System Implementation Security",
+    "variants": {
+      "ancestor": "Clipper Chip Encryption Policy Debate",
+      "sibling": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access",
+      "distant": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+      "generic": "General content",
+      "verbose": "Technical Weaknesses in Skipjack Algorithm and Key Escrow System Implementation Security, including various related discussions of Clipper Chip Encryption Policy Debate, Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "gold": "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "generic": "Assorted posts",
+      "verbose": "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "gold": "Clinton Administration Press Briefings and Official Statements April 1993",
+    "variants": {
+      "ancestor": "Waco Siege",
+      "sibling": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+      "distant": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion",
+      "generic": "A range of subjects",
+      "verbose": "Clinton Administration Press Briefings and Official Statements April 1993, including various related discussions of Waco Siege, FBI BATF Waco Siege Fire Cause Debate and Government Accountability, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "gold": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds",
+    "variants": {
+      "distant": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+      "generic": "Various topics",
+      "verbose": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds, including various related discussions of Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "gold": "Automotive Cleaning Products and Techniques for Paint Plastic and Components",
+    "variants": {
+      "ancestor": "Vehicle Sales",
+      "distant": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Automotive Cleaning Products and Techniques for Paint Plastic and Components, including various related discussions of Vehicle Sales, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "gold": "Residential Electrical Wiring, Safety Codes, and Power Distribution Systems",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion",
+      "generic": "General content",
+      "verbose": "Residential Electrical Wiring, Safety Codes, and Power Distribution Systems, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "gold": "Commercial lunar base development and long-duration human spaceflight technical analysis",
+    "variants": {
+      "ancestor": "Space exploration missions and spacecraft",
+      "sibling": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+      "distant": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+      "generic": "Assorted posts",
+      "verbose": "Commercial lunar base development and long-duration human spaceflight technical analysis, including various related discussions of Space exploration missions and spacecraft, Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "gold": "Historical and Current Planetary Space Probe Missions and Spacecraft Exploration",
+    "variants": {
+      "ancestor": "Space exploration missions and spacecraft",
+      "sibling": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+      "distant": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation",
+      "generic": "A range of subjects",
+      "verbose": "Historical and Current Planetary Space Probe Missions and Spacecraft Exploration, including various related discussions of Space exploration missions and spacecraft, Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "gold": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+    "variants": {
+      "ancestor": "Space exploration missions and spacecraft",
+      "sibling": "Historical and Current Planetary Space Probe Missions and Spacecraft Exploration",
+      "distant": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics",
+      "generic": "Various topics",
+      "verbose": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints, including various related discussions of Space exploration missions and spacecraft, Historical and Current Planetary Space Probe Missions and Spacecraft Exploration, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "gold": "Clinton Administration Tax Policy and Federal Spending Debates Early 1990s",
+    "variants": {
+      "ancestor": "Libertarian Philosophy and Clinton-Era Politics",
+      "sibling": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation",
+      "distant": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Clinton Administration Tax Policy and Federal Spending Debates Early 1990s, including various related discussions of Libertarian Philosophy and Clinton-Era Politics, Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "gold": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation",
+    "variants": {
+      "ancestor": "Libertarian Philosophy and Clinton-Era Politics",
+      "sibling": "Clinton Administration Tax Policy and Federal Spending Debates Early 1990s",
+      "distant": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "generic": "General content",
+      "verbose": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation, including various related discussions of Libertarian Philosophy and Clinton-Era Politics, Clinton Administration Tax Policy and Federal Spending Debates Early 1990s, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "gold": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+    "variants": {
+      "ancestor": "Christian Theology",
+      "sibling": "Biblical Interpretation of Homosexuality and Christian Theology Debate",
+      "distant": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "generic": "Assorted posts",
+      "verbose": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics, including various related discussions of Christian Theology, Biblical Interpretation of Homosexuality and Christian Theology Debate, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "gold": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+    "variants": {
+      "ancestor": "Waco Siege",
+      "sibling": "Clinton Administration Press Briefings and Official Statements April 1993",
+      "distant": "Vintage Computer Hardware and Software Sales from 1980s-1990s Era",
+      "generic": "A range of subjects",
+      "verbose": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability, including various related discussions of Waco Siege, Clinton Administration Press Briefings and Official Statements April 1993, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "gold": "Biblical Interpretation of Homosexuality and Christian Theology Debate",
+    "variants": {
+      "ancestor": "Christian Theology",
+      "sibling": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+      "distant": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+      "generic": "Various topics",
+      "verbose": "Biblical Interpretation of Homosexuality and Christian Theology Debate, including various related discussions of Christian Theology, Larson's Reciprocal System Theory and Challenges to Orthodox Physics, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "gold": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+    "variants": {
+      "distant": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice, including various related discussions of Motorcycle Riding Techniques, Safety, and Passenger Handling Advice, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "gold": "Waco Siege Controversy: Federal Agents, Clinton Administration Accountability Debate",
+    "variants": {
+      "ancestor": "Waco Siege Federal Government Accountability",
+      "sibling": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege",
+      "distant": "Macintosh Printer Connectivity and Driver Configuration for Non-Apple Printers",
+      "generic": "General content",
+      "verbose": "Waco Siege Controversy: Federal Agents, Clinton Administration Accountability Debate, including various related discussions of Waco Siege Federal Government Accountability, Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "gold": "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+    "variants": {
+      "ancestor": "Second Amendment Rights and Gun Control",
+      "sibling": "Firearms self-defense effectiveness and gun control policy debate",
+      "distant": "X Window System Colormap Management and Visual Configuration Techniques",
+      "generic": "Assorted posts",
+      "verbose": "Second Amendment Rights Advocacy and Legislative Gun Control Debate, including various related discussions of Second Amendment Rights and Gun Control, Firearms self-defense effectiveness and gun control policy debate, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "gold": "Firearms self-defense effectiveness and gun control policy debate",
+    "variants": {
+      "ancestor": "Second Amendment Rights and Gun Control",
+      "sibling": "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+      "distant": "Computational Geometry Algorithms for 3D Point Location and Polygon Analysis",
+      "generic": "A range of subjects",
+      "verbose": "Firearms self-defense effectiveness and gun control policy debate, including various related discussions of Second Amendment Rights and Gun Control, Second Amendment Rights Advocacy and Legislative Gun Control Debate, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "gold": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege",
+    "variants": {
+      "ancestor": "Waco Siege Federal Government Accountability",
+      "sibling": "Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh",
+      "distant": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+      "generic": "Various topics",
+      "verbose": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege, including various related discussions of Waco Siege Federal Government Accountability, Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "gold": "Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh",
+    "variants": {
+      "ancestor": "Waco Siege Federal Government Accountability",
+      "sibling": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege",
+      "distant": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh, including various related discussions of Waco Siege Federal Government Accountability, Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "gold": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting",
+    "variants": {
+      "distant": "Residential Electrical Wiring, Safety Codes, and Power Distribution Systems",
+      "generic": "General content",
+      "verbose": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting, including various related discussions of DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "gold": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+    "variants": {
+      "distant": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+      "generic": "Assorted posts",
+      "verbose": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith, including various related discussions of Philosophical Debate on Atheism, Theism, Belief, and Religious Faith, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "gold": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+    "variants": {
+      "distant": "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations",
+      "generic": "A range of subjects",
+      "verbose": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, including various related discussions of Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "gold": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "variants": {
+      "distant": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+      "generic": "Various topics",
+      "verbose": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine, including various related discussions of Christian theology debates on salvation, scripture interpretation, and biblical doctrine, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "gold": "Biblical Canon Formation, Deuterocanonical Books, and Scripture Authority Debates",
+    "variants": {
+      "ancestor": "Religious History and Scripture Authority Debates",
+      "sibling": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths",
+      "distant": "Automotive Cleaning Products and Techniques for Paint Plastic and Components",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Biblical Canon Formation, Deuterocanonical Books, and Scripture Authority Debates, including various related discussions of Religious History and Scripture Authority Debates, Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "gold": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths",
+    "variants": {
+      "ancestor": "Religious History and Scripture Authority Debates",
+      "sibling": "Biblical Canon Formation, Deuterocanonical Books, and Scripture Authority Debates",
+      "distant": "Automotive Cleaning Products and Techniques for Paint Plastic and Components",
+      "generic": "General content",
+      "verbose": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths, including various related discussions of Religious History and Scripture Authority Debates, Biblical Canon Formation, Deuterocanonical Books, and Scripture Authority Debates, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "gold": "Used Car Sales Listings with Detailed Vehicle Specifications and Pricing Information",
+    "variants": {
+      "ancestor": "Used Cars and Performance Vehicles",
+      "sibling": "Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options",
+      "distant": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+      "generic": "Assorted posts",
+      "verbose": "Used Car Sales Listings with Detailed Vehicle Specifications and Pricing Information, including various related discussions of Used Cars and Performance Vehicles, Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "gold": "Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options",
+    "variants": {
+      "ancestor": "Used Cars and Performance Vehicles",
+      "sibling": "Used Car Sales Listings with Detailed Vehicle Specifications and Pricing Information",
+      "distant": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+      "generic": "A range of subjects",
+      "verbose": "Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options, including various related discussions of Used Cars and Performance Vehicles, Used Car Sales Listings with Detailed Vehicle Specifications and Pricing Information, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "gold": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+      "generic": "Various topics",
+      "verbose": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "gold": "X Window System Colormap Management and Visual Configuration Techniques",
+    "variants": {
+      "sibling": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+      "distant": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+      "generic": "Miscellaneous discussions",
+      "verbose": "X Window System Colormap Management and Visual Configuration Techniques, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "gold": "TrueType Font Printing Issues and Configuration in Windows 3.1",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+      "distant": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+      "generic": "General content",
+      "verbose": "TrueType Font Printing Issues and Configuration in Windows 3.1, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "gold": "Modem Sales, Specifications, and Technical Features Discussion",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+      "distant": "Bosnian War Ethnic Cleansing Conflict Debates and International Military Intervention",
+      "generic": "Assorted posts",
+      "verbose": "Modem Sales, Specifications, and Technical Features Discussion, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "gold": "Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+      "distant": "Clinton Administration Tax Policy and Federal Spending Debates Early 1990s",
+      "generic": "A range of subjects",
+      "verbose": "Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "gold": "Used Electronics and Computer Equipment For Sale and Wanted Classifieds",
+    "variants": {
+      "ancestor": "Used Electronics and Equipment Classifieds",
+      "sibling": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+      "distant": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "generic": "Various topics",
+      "verbose": "Used Electronics and Computer Equipment For Sale and Wanted Classifieds, including various related discussions of Used Electronics and Equipment Classifieds, Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "gold": "Usenet Classified Advertisements for Collectibles Comics Music Videos and Media",
+    "variants": {
+      "ancestor": "Used Electronics and Equipment Classifieds",
+      "sibling": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+      "distant": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Usenet Classified Advertisements for Collectibles Comics Music Videos and Media, including various related discussions of Used Electronics and Equipment Classifieds, Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "gold": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+    "variants": {
+      "ancestor": "Used Electronics and Equipment Classifieds",
+      "sibling": "Usenet Classified Advertisements for Collectibles Comics Music Videos and Media",
+      "distant": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+      "generic": "General content",
+      "verbose": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components, including various related discussions of Used Electronics and Equipment Classifieds, Usenet Classified Advertisements for Collectibles Comics Music Videos and Media, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "gold": "Computational Geometry Algorithms for 3D Point Location and Polygon Analysis",
+    "variants": {
+      "ancestor": "X11 Graphics",
+      "sibling": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+      "distant": "Firearms self-defense effectiveness and gun control policy debate",
+      "generic": "Assorted posts",
+      "verbose": "Computational Geometry Algorithms for 3D Point Location and Polygon Analysis, including various related discussions of X11 Graphics, 3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "gold": "Macintosh Printer Connectivity and Driver Configuration for Non-Apple Printers",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+      "distant": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+      "generic": "A range of subjects",
+      "verbose": "Macintosh Printer Connectivity and Driver Configuration for Non-Apple Printers, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "gold": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+      "distant": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+      "generic": "Various topics",
+      "verbose": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "gold": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management",
+      "distant": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, including various related discussions of Computer Classifieds, Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "gold": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+    "variants": {
+      "ancestor": "X11 Graphics",
+      "sibling": "Computational Geometry Algorithms for 3D Point Location and Polygon Analysis",
+      "distant": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+      "generic": "General content",
+      "verbose": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion, including various related discussions of X11 Graphics, Computational Geometry Algorithms for 3D Point Location and Polygon Analysis, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "gold": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting",
+    "variants": {
+      "distant": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+      "generic": "Assorted posts",
+      "verbose": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting, including various related discussions of IDE and SCSI Hard Drive Installation Configuration and Troubleshooting, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "gold": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "variants": {
+      "distant": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+      "generic": "A range of subjects",
+      "verbose": "Image File Format Conversion and Viewer Software for Graphics Files, including various related discussions of Image File Format Conversion and Viewer Software for Graphics Files, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "gold": "X11 Window System Software Distribution Sources and Toolkit Implementation Questions",
+    "variants": {
+      "ancestor": "X11 Programming and Build Issues",
+      "sibling": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems",
+      "distant": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+      "generic": "Various topics",
+      "verbose": "X11 Window System Software Distribution Sources and Toolkit Implementation Questions, including various related discussions of X11 Programming and Build Issues, X11R5 Build Issues, Library Linking Errors, and Configuration Problems, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "gold": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems",
+    "variants": {
+      "ancestor": "X11 Programming and Build Issues",
+      "sibling": "X11 Window System Software Distribution Sources and Toolkit Implementation Questions",
+      "distant": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+      "generic": "Miscellaneous discussions",
+      "verbose": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems, including various related discussions of X11 Programming and Build Issues, X11 Window System Software Distribution Sources and Toolkit Implementation Questions, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "gold": "X Window System Programming: Window Creation, Positioning, Events and Window Manager Interactions",
+    "variants": {
+      "ancestor": "X11 Programming and Build Issues",
+      "sibling": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems",
+      "distant": "Firearms self-defense effectiveness and gun control policy debate",
+      "generic": "General content",
+      "verbose": "X Window System Programming: Window Creation, Positioning, Events and Window Manager Interactions, including various related discussions of X11 Programming and Build Issues, X11R5 Build Issues, Library Linking Errors, and Configuration Problems, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "gold": "Apple Centris and Quadra Macintosh Hardware Configuration Performance Specifications",
+    "variants": {
+      "ancestor": "Vintage Computer Hardware Sales Classifieds",
+      "sibling": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+      "distant": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+      "generic": "Assorted posts",
+      "verbose": "Apple Centris and Quadra Macintosh Hardware Configuration Performance Specifications, including various related discussions of Vintage Computer Hardware Sales Classifieds, Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "gold": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+    "variants": {
+      "ancestor": "Vintage Computer Hardware Sales Classifieds",
+      "sibling": "Vintage Computer Hardware and Peripherals For Sale Classifieds",
+      "distant": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+      "generic": "A range of subjects",
+      "verbose": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues, including various related discussions of Vintage Computer Hardware Sales Classifieds, Vintage Computer Hardware and Peripherals For Sale Classifieds, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "gold": "Vintage Windows Graphics Card Benchmarking and VESA Driver Performance Evaluation",
+    "variants": {
+      "ancestor": "Vintage Windows Graphics Card Driver Issues",
+      "sibling": "Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues",
+      "distant": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+      "generic": "Various topics",
+      "verbose": "Vintage Windows Graphics Card Benchmarking and VESA Driver Performance Evaluation, including various related discussions of Vintage Windows Graphics Card Driver Issues, Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "gold": "Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues",
+    "variants": {
+      "ancestor": "Vintage Windows Graphics Card Driver Issues",
+      "sibling": "Vintage Windows Graphics Card Benchmarking and VESA Driver Performance Evaluation",
+      "distant": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues, including various related discussions of Vintage Windows Graphics Card Driver Issues, Vintage Windows Graphics Card Benchmarking and VESA Driver Performance Evaluation, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "gold": "Vintage Computer Hardware and Software Sales from 1980s-1990s Era",
+    "variants": {
+      "ancestor": "Vintage Computer Hardware Sales Classifieds",
+      "sibling": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+      "distant": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+      "generic": "General content",
+      "verbose": "Vintage Computer Hardware and Software Sales from 1980s-1990s Era, including various related discussions of Vintage Computer Hardware Sales Classifieds, Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "gold": "Vintage Computer Hardware and Peripherals For Sale Classifieds",
+    "variants": {
+      "ancestor": "Vintage Computer Hardware Sales Classifieds",
+      "sibling": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+      "distant": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+      "generic": "Assorted posts",
+      "verbose": "Vintage Computer Hardware and Peripherals For Sale Classifieds, including various related discussions of Vintage Computer Hardware Sales Classifieds, Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "gold": "Early 1990s NHL Playoff Fantasy League",
+    "variants": {
+      "ancestor": "Sports Fantasy",
+      "sibling": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+      "distant": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting",
+      "generic": "A range of subjects",
+      "verbose": "Early 1990s NHL Playoff Fantasy League, including various related discussions of Sports Fantasy, Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "gold": "Nutritional and Alternative Medicine Debate",
+    "variants": {
+      "distant": "Image File Format Conversion and Viewer Software for Graphics Files",
+      "generic": "Various topics",
+      "verbose": "Nutritional and Alternative Medicine Debate, including various related discussions of Nutritional and Alternative Medicine Debate, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "gold": "MLB Season Predictions and Player Analysis",
+    "variants": {
+      "ancestor": "Sports Fantasy",
+      "sibling": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+      "distant": "X11 Programming and Build Issues",
+      "generic": "Miscellaneous discussions",
+      "verbose": "MLB Season Predictions and Player Analysis, including various related discussions of Sports Fantasy, Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "gold": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+    "variants": {
+      "ancestor": "Sports Fantasy",
+      "sibling": "Early 1990s NHL Playoff Fantasy League",
+      "distant": "Image File Format Conversion and Viewer Software for Graphics Files",
+      "generic": "General content",
+      "verbose": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, including various related discussions of Sports Fantasy, Early 1990s NHL Playoff Fantasy League, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "gold": "Israeli-Palestinian Conflict and Ethnic Violence",
+    "variants": {
+      "sibling": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting",
+      "distant": "Used Cars and Performance Vehicles",
+      "generic": "Assorted posts",
+      "verbose": "Israeli-Palestinian Conflict and Ethnic Violence, including various related discussions of DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "gold": "Clipper Chip Encryption Policy Debate",
+    "variants": {
+      "distant": "Early 1990s NHL Playoff Fantasy League",
+      "generic": "A range of subjects",
+      "verbose": "Clipper Chip Encryption Policy Debate, including various related discussions of Clipper Chip Encryption Policy Debate, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "gold": "Space exploration missions and spacecraft",
+    "variants": {
+      "distant": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+      "generic": "Various topics",
+      "verbose": "Space exploration missions and spacecraft, including various related discussions of Space exploration missions and spacecraft, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "gold": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds",
+    "variants": {
+      "ancestor": "Waco Siege",
+      "sibling": "Second Amendment Rights and Gun Control",
+      "distant": "Image File Format Conversion and Viewer Software for Graphics Files",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds, including various related discussions of Waco Siege, Second Amendment Rights and Gun Control, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "gold": "Libertarian Philosophy and Clinton-Era Politics",
+    "variants": {
+      "ancestor": "Waco Siege",
+      "sibling": "Second Amendment Rights and Gun Control",
+      "distant": "Vintage Windows Graphics Card Driver Issues",
+      "generic": "General content",
+      "verbose": "Libertarian Philosophy and Clinton-Era Politics, including various related discussions of Waco Siege, Second Amendment Rights and Gun Control, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "gold": "Waco Siege Federal Government Accountability",
+    "variants": {
+      "ancestor": "Waco Siege",
+      "sibling": "Second Amendment Rights and Gun Control",
+      "distant": "Vintage Windows Graphics Card Driver Issues",
+      "generic": "Assorted posts",
+      "verbose": "Waco Siege Federal Government Accountability, including various related discussions of Waco Siege, Second Amendment Rights and Gun Control, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "gold": "Second Amendment Rights and Gun Control",
+    "variants": {
+      "ancestor": "Waco Siege",
+      "sibling": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds",
+      "distant": "X11 Programming and Build Issues",
+      "generic": "A range of subjects",
+      "verbose": "Second Amendment Rights and Gun Control, including various related discussions of Waco Siege, Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "gold": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+    "variants": {
+      "ancestor": "Vehicle Sales",
+      "sibling": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+      "distant": "Image File Format Conversion and Viewer Software for Graphics Files",
+      "generic": "Various topics",
+      "verbose": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice, including various related discussions of Vehicle Sales, Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "gold": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting",
+    "variants": {
+      "sibling": "Israeli-Palestinian Conflict and Ethnic Violence",
+      "distant": "Early 1990s NHL Playoff Fantasy League",
+      "generic": "Miscellaneous discussions",
+      "verbose": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting, including various related discussions of Israeli-Palestinian Conflict and Ethnic Violence, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "gold": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+    "variants": {
+      "ancestor": "Christian Theology",
+      "sibling": "Religious History and Scripture Authority Debates",
+      "distant": "Image File Format Conversion and Viewer Software for Graphics Files",
+      "generic": "General content",
+      "verbose": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith, including various related discussions of Christian Theology, Religious History and Scripture Authority Debates, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "gold": "Used Cars and Performance Vehicles",
+    "variants": {
+      "ancestor": "Vehicle Sales",
+      "sibling": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+      "distant": "Israeli-Palestinian Conflict and Ethnic Violence",
+      "generic": "Assorted posts",
+      "verbose": "Used Cars and Performance Vehicles, including various related discussions of Vehicle Sales, Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "gold": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+    "variants": {
+      "ancestor": "Vehicle Sales",
+      "sibling": "Used Cars and Performance Vehicles",
+      "distant": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+      "generic": "A range of subjects",
+      "verbose": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, including various related discussions of Vehicle Sales, Used Cars and Performance Vehicles, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "gold": "Religious History and Scripture Authority Debates",
+    "variants": {
+      "ancestor": "Christian Theology",
+      "sibling": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+      "distant": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+      "generic": "Various topics",
+      "verbose": "Religious History and Scripture Authority Debates, including various related discussions of Christian Theology, Christian theology debates on salvation, scripture interpretation, and biblical doctrine, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "gold": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "variants": {
+      "ancestor": "Christian Theology",
+      "sibling": "Religious History and Scripture Authority Debates",
+      "distant": "Image File Format Conversion and Viewer Software for Graphics Files",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine, including various related discussions of Christian Theology, Religious History and Scripture Authority Debates, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "gold": "Used Electronics and Equipment Classifieds",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Computer Hardware Sales Classifieds",
+      "distant": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+      "generic": "General content",
+      "verbose": "Used Electronics and Equipment Classifieds, including various related discussions of Computer Classifieds, Vintage Computer Hardware Sales Classifieds, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "gold": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Computer Hardware Sales Classifieds",
+      "distant": "Early 1990s NHL Playoff Fantasy League",
+      "generic": "Assorted posts",
+      "verbose": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting, including various related discussions of Computer Classifieds, Vintage Computer Hardware Sales Classifieds, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "gold": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "variants": {
+      "ancestor": "X11 Graphics",
+      "sibling": "X11 Programming and Build Issues",
+      "distant": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+      "generic": "A range of subjects",
+      "verbose": "Image File Format Conversion and Viewer Software for Graphics Files, including various related discussions of X11 Graphics, X11 Programming and Build Issues, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "gold": "X11 Programming and Build Issues",
+    "variants": {
+      "ancestor": "X11 Graphics",
+      "sibling": "Image File Format Conversion and Viewer Software for Graphics Files",
+      "distant": "MLB Season Predictions and Player Analysis",
+      "generic": "Various topics",
+      "verbose": "X11 Programming and Build Issues, including various related discussions of X11 Graphics, Image File Format Conversion and Viewer Software for Graphics Files, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "gold": "Vintage Windows Graphics Card Driver Issues",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Computer Hardware Sales Classifieds",
+      "distant": "Libertarian Philosophy and Clinton-Era Politics",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Vintage Windows Graphics Card Driver Issues, including various related discussions of Computer Classifieds, Vintage Computer Hardware Sales Classifieds, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "gold": "Vintage Computer Hardware Sales Classifieds",
+    "variants": {
+      "ancestor": "Computer Classifieds",
+      "sibling": "Vintage Windows Graphics Card Driver Issues",
+      "distant": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+      "generic": "General content",
+      "verbose": "Vintage Computer Hardware Sales Classifieds, including various related discussions of Computer Classifieds, Vintage Windows Graphics Card Driver Issues, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "gold": "Sports Fantasy",
+    "variants": {
+      "sibling": "Nutritional and Alternative Medicine Debate",
+      "distant": "X11 Graphics",
+      "generic": "Assorted posts",
+      "verbose": "Sports Fantasy, including various related discussions of Nutritional and Alternative Medicine Debate, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "gold": "Nutritional and Alternative Medicine Debate",
+    "variants": {
+      "sibling": "Sports Fantasy",
+      "distant": "X11 Graphics",
+      "generic": "A range of subjects",
+      "verbose": "Nutritional and Alternative Medicine Debate, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "gold": "Clipper Chip Encryption Policy Debate",
+    "variants": {
+      "sibling": "Sports Fantasy",
+      "distant": "Sports Fantasy",
+      "generic": "Various topics",
+      "verbose": "Clipper Chip Encryption Policy Debate, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "gold": "Space exploration missions and spacecraft",
+    "variants": {
+      "sibling": "Sports Fantasy",
+      "distant": "Christian Theology",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Space exploration missions and spacecraft, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "gold": "Vehicle Sales",
+    "variants": {
+      "sibling": "Sports Fantasy",
+      "distant": "Christian Theology",
+      "generic": "General content",
+      "verbose": "Vehicle Sales, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "gold": "Christian Theology",
+    "variants": {
+      "sibling": "Sports Fantasy",
+      "distant": "X11 Graphics",
+      "generic": "Assorted posts",
+      "verbose": "Christian Theology, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "gold": "Waco Siege",
+    "variants": {
+      "sibling": "Sports Fantasy",
+      "distant": "X11 Graphics",
+      "generic": "A range of subjects",
+      "verbose": "Waco Siege, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 7,
+    "gold": "X11 Graphics",
+    "variants": {
+      "sibling": "Sports Fantasy",
+      "distant": "Christian Theology",
+      "generic": "Various topics",
+      "verbose": "X11 Graphics, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 2,
+    "idx": 8,
+    "gold": "Computer Classifieds",
+    "variants": {
+      "sibling": "Sports Fantasy",
+      "distant": "Christian Theology",
+      "generic": "Miscellaneous discussions",
+      "verbose": "Computer Classifieds, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics"
+    }
+  }
+]

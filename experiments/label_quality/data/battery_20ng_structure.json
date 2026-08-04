@@ -1,0 +1,362 @@
+[
+  {
+    "layer": 0,
+    "idx": 0,
+    "gold": "L0#0",
+    "variants": {
+      "ancestor": "L1#0",
+      "sibling": "L0#1",
+      "distant": "L0#16",
+      "generic": "Various topics",
+      "verbose": "L0#0, including various related discussions of L1#0, L0#1, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "gold": "L0#1",
+    "variants": {
+      "ancestor": "L1#0",
+      "sibling": "L0#0",
+      "distant": "L0#8",
+      "generic": "Miscellaneous discussions",
+      "verbose": "L0#1, including various related discussions of L1#0, L0#0, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "gold": "L0#2",
+    "variants": {
+      "ancestor": "L1#0",
+      "sibling": "L0#0",
+      "distant": "L0#21",
+      "generic": "General content",
+      "verbose": "L0#2, including various related discussions of L1#0, L0#0, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "gold": "L0#3",
+    "variants": {
+      "ancestor": "L1#1",
+      "distant": "L0#16",
+      "generic": "Assorted posts",
+      "verbose": "L0#3, including various related discussions of L1#1, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "gold": "L0#4",
+    "variants": {
+      "ancestor": "L1#2",
+      "distant": "L0#14",
+      "generic": "A range of subjects",
+      "verbose": "L0#4, including various related discussions of L1#2, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "gold": "L0#5",
+    "variants": {
+      "sibling": "L0#6",
+      "distant": "L0#2",
+      "generic": "Various topics",
+      "verbose": "L0#5, including various related discussions of L0#6, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "gold": "L0#6",
+    "variants": {
+      "sibling": "L0#5",
+      "distant": "L0#16",
+      "generic": "Miscellaneous discussions",
+      "verbose": "L0#6, including various related discussions of L0#5, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "gold": "L0#7",
+    "variants": {
+      "ancestor": "L1#3",
+      "sibling": "L0#10",
+      "distant": "L0#4",
+      "generic": "General content",
+      "verbose": "L0#7, including various related discussions of L1#3, L0#10, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "gold": "L0#8",
+    "variants": {
+      "ancestor": "L1#5",
+      "sibling": "L0#16",
+      "distant": "L0#2",
+      "generic": "Assorted posts",
+      "verbose": "L0#8, including various related discussions of L1#5, L0#16, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "gold": "L0#9",
+    "variants": {
+      "ancestor": "L1#6",
+      "sibling": "L0#18",
+      "distant": "L0#16",
+      "generic": "A range of subjects",
+      "verbose": "L0#9, including various related discussions of L1#6, L0#18, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "gold": "L0#10",
+    "variants": {
+      "ancestor": "L1#3",
+      "sibling": "L0#7",
+      "distant": "L0#13",
+      "generic": "Various topics",
+      "verbose": "L0#10, including various related discussions of L1#3, L0#7, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "gold": "L0#11",
+    "variants": {
+      "ancestor": "L1#3",
+      "sibling": "L0#7",
+      "distant": "L0#16",
+      "generic": "Miscellaneous discussions",
+      "verbose": "L0#11, including various related discussions of L1#3, L0#7, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "gold": "L0#12",
+    "variants": {
+      "ancestor": "L1#7",
+      "sibling": "L0#13",
+      "distant": "L0#16",
+      "generic": "General content",
+      "verbose": "L0#12, including various related discussions of L1#7, L0#13, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "gold": "L0#13",
+    "variants": {
+      "ancestor": "L1#7",
+      "sibling": "L0#12",
+      "distant": "L0#16",
+      "generic": "Assorted posts",
+      "verbose": "L0#13, including various related discussions of L1#7, L0#12, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "gold": "L0#14",
+    "variants": {
+      "ancestor": "L1#4",
+      "sibling": "L0#22",
+      "distant": "L0#4",
+      "generic": "A range of subjects",
+      "verbose": "L0#14, including various related discussions of L1#4, L0#22, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "gold": "L0#15",
+    "variants": {
+      "ancestor": "L1#5",
+      "sibling": "L0#8",
+      "distant": "L0#17",
+      "generic": "Various topics",
+      "verbose": "L0#15, including various related discussions of L1#5, L0#8, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "gold": "L0#16",
+    "variants": {
+      "ancestor": "L1#5",
+      "sibling": "L0#8",
+      "distant": "L0#12",
+      "generic": "Miscellaneous discussions",
+      "verbose": "L0#16, including various related discussions of L1#5, L0#8, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "gold": "L0#17",
+    "variants": {
+      "ancestor": "L1#6",
+      "sibling": "L0#18",
+      "distant": "L0#15",
+      "generic": "General content",
+      "verbose": "L0#17, including various related discussions of L1#6, L0#18, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "gold": "L0#18",
+    "variants": {
+      "ancestor": "L1#6",
+      "sibling": "L0#9",
+      "distant": "L0#19",
+      "generic": "Assorted posts",
+      "verbose": "L0#18, including various related discussions of L1#6, L0#9, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "gold": "L0#19",
+    "variants": {
+      "ancestor": "L1#4",
+      "sibling": "L0#22",
+      "distant": "L0#18",
+      "generic": "A range of subjects",
+      "verbose": "L0#19, including various related discussions of L1#4, L0#22, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "gold": "L0#20",
+    "variants": {
+      "ancestor": "L1#4",
+      "sibling": "L0#22",
+      "distant": "L0#8",
+      "generic": "Various topics",
+      "verbose": "L0#20, including various related discussions of L1#4, L0#22, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "gold": "L0#21",
+    "variants": {
+      "ancestor": "L1#4",
+      "sibling": "L0#22",
+      "distant": "L0#2",
+      "generic": "Miscellaneous discussions",
+      "verbose": "L0#21, including various related discussions of L1#4, L0#22, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "gold": "L0#22",
+    "variants": {
+      "ancestor": "L1#4",
+      "sibling": "L0#21",
+      "distant": "L0#2",
+      "generic": "General content",
+      "verbose": "L0#22, including various related discussions of L1#4, L0#21, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "gold": "L1#0",
+    "variants": {
+      "sibling": "L1#1",
+      "distant": "L1#5",
+      "generic": "A range of subjects",
+      "verbose": "L1#0, including various related discussions of L1#1, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "gold": "L1#1",
+    "variants": {
+      "sibling": "L1#0",
+      "distant": "L1#4",
+      "generic": "Various topics",
+      "verbose": "L1#1, including various related discussions of L1#0, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "gold": "L1#2",
+    "variants": {
+      "sibling": "L1#0",
+      "distant": "L1#4",
+      "generic": "Miscellaneous discussions",
+      "verbose": "L1#2, including various related discussions of L1#0, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "gold": "L1#3",
+    "variants": {
+      "sibling": "L1#0",
+      "distant": "L1#7",
+      "generic": "General content",
+      "verbose": "L1#3, including various related discussions of L1#0, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "gold": "L1#4",
+    "variants": {
+      "sibling": "L1#0",
+      "distant": "L1#2",
+      "generic": "Assorted posts",
+      "verbose": "L1#4, including various related discussions of L1#0, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "gold": "L1#5",
+    "variants": {
+      "sibling": "L1#0",
+      "distant": "L1#7",
+      "generic": "A range of subjects",
+      "verbose": "L1#5, including various related discussions of L1#0, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "gold": "L1#6",
+    "variants": {
+      "sibling": "L1#0",
+      "distant": "L1#5",
+      "generic": "Various topics",
+      "verbose": "L1#6, including various related discussions of L1#0, among other assorted and loosely connected topics"
+    }
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "gold": "L1#7",
+    "variants": {
+      "sibling": "L1#0",
+      "distant": "L1#5",
+      "generic": "Miscellaneous discussions",
+      "verbose": "L1#7, including various related discussions of L1#0, among other assorted and loosely connected topics"
+    }
+  }
+]

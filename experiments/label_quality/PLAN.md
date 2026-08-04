@@ -1190,6 +1190,30 @@ on the full 20NG (`../nibling_contrast/data/ng_*`); cluster indices align across
 Reproduce: `prep_labels.py --model haiku` → `perturbations.py --labels data/labels_20ng_haiku.json`
 → `metrics.py --labels ...` → `judge_quality.py --judge sonnet --k 3` → `validate_gate_b.py --judge sonnet`.
 
+**Provenance note (2026-08-03).** Eight Phase 0–2 artifacts — `battery_20ng.json`,
+`battery_20ng_structure.json`, `gate_b_20ng_sonnet.json`, `generality_axis.npy`,
+`hierarchy_20ng.json`, `judge_ratings_20ng_haiku.json`, `metric_scores_20ng.json`,
+`metrics_20ng.json` — were **produced on `experiment/label-quality` (2026-06-29) but never committed
+on any branch**. They rode the working tree untracked through four checkouts and were only noticed
+here. They are retro-committed on `experiment/lineup-scorer`, so their git history does not match
+where they were made; the frozen branches are deliberately left alone.
+
+This is low-severity because every *expensive* input was already tracked (`labels_20ng_haiku.json`,
+`labels_20ng_gpt4omini.json`, `judge_ratings_20ng_sonnet.json`, `home_20ng_minilm.json`) and the
+untracked ones are derived deterministically — `perturbations.py` contains no RNG at all (no seed, no
+`choice`/`shuffle`/`sample`) and `metrics.py` is pure geometry. The single genuinely unreproducible
+item is `judge_ratings_20ng_haiku.json`, a pilot run whose headline sibling is tracked. So the frozen
+branches behind #173/#177 are reproducible but not turnkey: two or three steps must be re-run.
+
+Unverified assumption worth one command someday: regenerate `battery_20ng.json` to a temp path and
+diff it, to confirm the determinism inferred above from absence-of-RNG rather than from a test.
+
+Large regenerable caches, quarantined `*.bak` artifacts, generated calibration HTML, and the
+third-party HyperLex download are excluded via `.git/info/exclude` (local only, nothing committed).
+Note `wayfinding.Cell("arxiv_home")` loads `home_arxiv_minilm_{emb,coords}.npy` by a *constructed*
+filename, so those excluded files are load-bearing — regenerate with `home_pipeline.py` before
+replaying any arXiv result.
+
 ## Status / next
 
 - [x] Plan agreed (all three choices locked); branch `experiment/label-quality` created.

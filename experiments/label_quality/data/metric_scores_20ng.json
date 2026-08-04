@@ -1,0 +1,5952 @@
+[
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "gold",
+    "label": "NHL Hockey Playoff Coverage Scheduling and Broadcast Rights Disputes",
+    "centroid": 0.7384125172132463,
+    "whitened": 0.4882737635791974,
+    "medoid": 0.6212996202487213,
+    "exemplar": 0.6212996202487213
+  },
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "ancestor",
+    "label": "Sports Fantasy",
+    "centroid": 0.448948867976165,
+    "whitened": 0.1543105211855184,
+    "medoid": 0.3491869590551441,
+    "exemplar": 0.3491869590551441
+  },
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "distant",
+    "label": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting",
+    "centroid": -0.027568616777046837,
+    "whitened": 0.012187915904327874,
+    "medoid": -0.023442756708253527,
+    "exemplar": -0.023442756708253527
+  },
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.05847398435401796,
+    "whitened": 0.029764334639495064,
+    "medoid": -0.02866983685683494,
+    "exemplar": -0.02866983685683494
+  },
+  {
+    "layer": 0,
+    "idx": 0,
+    "type": "verbose",
+    "label": "NHL Hockey Playoff Coverage Scheduling and Broadcast Rights Disputes, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.7053728275902375,
+    "whitened": 0.47564321024076556,
+    "medoid": 0.6051703733759687,
+    "exemplar": 0.6051703733759687
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "gold",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.49514164388387005,
+    "whitened": 0.3278123843104598,
+    "medoid": 0.4081486988057025,
+    "exemplar": 0.4081486988057025
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "sibling",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": -0.04609888176335866,
+    "whitened": -0.006697206517438856,
+    "medoid": -0.028596481838800578,
+    "exemplar": -0.028596481838800578
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "distant",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": -0.04609888176335866,
+    "whitened": -0.006697206517438856,
+    "medoid": -0.028596481838800578,
+    "exemplar": -0.028596481838800578
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.0088635389700129,
+    "whitened": -0.062258655451086775,
+    "medoid": -0.0629631852613173,
+    "exemplar": -0.0629631852613173
+  },
+  {
+    "layer": 0,
+    "idx": 1,
+    "type": "verbose",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, including various related discussions of Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility, among other assorted and loosely connected topics",
+    "centroid": 0.2182607867664954,
+    "whitened": 0.16537519947770968,
+    "medoid": 0.1717782327614501,
+    "exemplar": 0.1717782327614501
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "gold",
+    "label": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+    "centroid": 0.6627188827033814,
+    "whitened": 0.4010390207230046,
+    "medoid": 0.5085867230370891,
+    "exemplar": 0.5721229213567353
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "ancestor",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": 0.4846156863595823,
+    "whitened": 0.1650261792726926,
+    "medoid": 0.44841438314650717,
+    "exemplar": 0.35288266724904027
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "sibling",
+    "label": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention",
+    "centroid": 0.624153954028332,
+    "whitened": 0.24864480023612903,
+    "medoid": 0.528866329002744,
+    "exemplar": 0.4113681052513949
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "distant",
+    "label": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+    "centroid": 0.05392010033136214,
+    "whitened": 0.0482014838060454,
+    "medoid": 0.006432955353583004,
+    "exemplar": 0.04964599406715639
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.03155898671242755,
+    "whitened": -0.02273302372554256,
+    "medoid": 0.03249037886511786,
+    "exemplar": -0.055075094603179726
+  },
+  {
+    "layer": 0,
+    "idx": 2,
+    "type": "verbose",
+    "label": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes, including various related discussions of Early 1990s NHL Playoff Fantasy League, Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention, among other assorted and loosely connected topics",
+    "centroid": 0.5749423842575174,
+    "whitened": 0.30716681557091163,
+    "medoid": 0.46674034763617916,
+    "exemplar": 0.47870665223448383
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "gold",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": 0.7438916968825706,
+    "whitened": 0.4654901840177363,
+    "medoid": 0.7225213509854556,
+    "exemplar": 0.7225213509854556
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": -0.07561775548317422,
+    "whitened": -0.02134849603295095,
+    "medoid": -0.0857896510654112,
+    "exemplar": -0.0857896510654112
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "distant",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": -0.07561775548317422,
+    "whitened": -0.02134849603295095,
+    "medoid": -0.0857896510654112,
+    "exemplar": -0.0857896510654112
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.060914691944214006,
+    "whitened": -0.0012001587294620843,
+    "medoid": 0.0027532750763539088,
+    "exemplar": 0.0027532750763539088
+  },
+  {
+    "layer": 0,
+    "idx": 3,
+    "type": "verbose",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.70618471220221,
+    "whitened": 0.4474056571719463,
+    "medoid": 0.6671175060185001,
+    "exemplar": 0.6671175060185001
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "gold",
+    "label": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+    "centroid": 0.5036191510246635,
+    "whitened": 0.16769238824377533,
+    "medoid": 0.41238338265559876,
+    "exemplar": 0.41238338265559876
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "ancestor",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": 0.4419685590351309,
+    "whitened": 0.06016034547273381,
+    "medoid": 0.4246680155953004,
+    "exemplar": 0.4246680155953004
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "sibling",
+    "label": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention",
+    "centroid": 0.5697890956636519,
+    "whitened": 0.09521828281201675,
+    "medoid": 0.4654995198464583,
+    "exemplar": 0.4654995198464583
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "distant",
+    "label": "X11 Window System Software Distribution Sources and Toolkit Implementation Questions",
+    "centroid": -0.0739622626908334,
+    "whitened": -0.01673448724808288,
+    "medoid": -0.10314735946028881,
+    "exemplar": -0.10314735946028881
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": -0.029714050629747944,
+    "whitened": 0.06758760859629595,
+    "medoid": -0.04358273050625147,
+    "exemplar": -0.04358273050625147
+  },
+  {
+    "layer": 0,
+    "idx": 4,
+    "type": "verbose",
+    "label": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary, including various related discussions of Early 1990s NHL Playoff Fantasy League, Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention, among other assorted and loosely connected topics",
+    "centroid": 0.41541769522286254,
+    "whitened": 0.08876977705640748,
+    "medoid": 0.33784224601927504,
+    "exemplar": 0.33784224601927504
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "gold",
+    "label": "Software Piracy, Copy Protection Schemes, and Hacker Ethics Debate",
+    "centroid": 0.6961829457793668,
+    "whitened": 0.4736943387489723,
+    "medoid": 0.5633278940162414,
+    "exemplar": 0.5633278940162414
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": -0.001261520346612352,
+    "whitened": -0.08156646322044875,
+    "medoid": 0.0015417309331913938,
+    "exemplar": 0.0015417309331913938
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "distant",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": -0.001261520346612352,
+    "whitened": -0.08156646322044875,
+    "medoid": 0.0015417309331913938,
+    "exemplar": 0.0015417309331913938
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.036262794063726775,
+    "whitened": -0.014864623283344622,
+    "medoid": 0.031217339465785806,
+    "exemplar": 0.031217339465785806
+  },
+  {
+    "layer": 0,
+    "idx": 5,
+    "type": "verbose",
+    "label": "Software Piracy, Copy Protection Schemes, and Hacker Ethics Debate, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.5526885389152283,
+    "whitened": 0.26630686314552765,
+    "medoid": 0.45390268195886097,
+    "exemplar": 0.45390268195886097
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "gold",
+    "label": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention",
+    "centroid": 0.6756453154066073,
+    "whitened": 0.2696225374932409,
+    "medoid": 0.43870254343789394,
+    "exemplar": 0.43870254343789394
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "ancestor",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": 0.533050850594449,
+    "whitened": 0.16598181802844536,
+    "medoid": 0.31884228782793195,
+    "exemplar": 0.31884228782793195
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "sibling",
+    "label": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+    "centroid": 0.4386703646903239,
+    "whitened": 0.11367778383041847,
+    "medoid": 0.32080595043325094,
+    "exemplar": 0.32080595043325094
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "distant",
+    "label": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation",
+    "centroid": 0.003907028886333221,
+    "whitened": -0.014437190389383972,
+    "medoid": -0.005063597417434685,
+    "exemplar": -0.005063597417434685
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.04438344692174358,
+    "whitened": -0.02027144460402135,
+    "medoid": 0.03265188484789891,
+    "exemplar": 0.03265188484789891
+  },
+  {
+    "layer": 0,
+    "idx": 6,
+    "type": "verbose",
+    "label": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention, including various related discussions of Early 1990s NHL Playoff Fantasy League, NHL Stanley Cup Playoff Games Discussion and Live Game Commentary, among other assorted and loosely connected topics",
+    "centroid": 0.4795404303517179,
+    "whitened": 0.14350616744667186,
+    "medoid": 0.2915769464799898,
+    "exemplar": 0.2915769464799898
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "gold",
+    "label": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+    "centroid": 0.6783558755089638,
+    "whitened": 0.36719655970613624,
+    "medoid": 0.6660963600583266,
+    "exemplar": 0.6660963600583266
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "ancestor",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": 0.6090486389014561,
+    "whitened": 0.2420553414328866,
+    "medoid": 0.5949269491044262,
+    "exemplar": 0.5949269491044262
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "sibling",
+    "label": "Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention",
+    "centroid": 0.6669491853577416,
+    "whitened": 0.23472412809164084,
+    "medoid": 0.6183866078856343,
+    "exemplar": 0.6183866078856343
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "distant",
+    "label": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access",
+    "centroid": -0.05859670987073054,
+    "whitened": -0.018633274492321463,
+    "medoid": -0.012840928655028394,
+    "exemplar": -0.012840928655028394
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.02949974542203742,
+    "whitened": -0.05123591900282275,
+    "medoid": 0.0742978748846983,
+    "exemplar": 0.0742978748846983
+  },
+  {
+    "layer": 0,
+    "idx": 7,
+    "type": "verbose",
+    "label": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion, including various related discussions of Early 1990s NHL Playoff Fantasy League, Early 1990s NHL Season Analysis: Player Performance, Coaching Decisions, and Playoff Contention, among other assorted and loosely connected topics",
+    "centroid": 0.5717261232776174,
+    "whitened": 0.22864066012051418,
+    "medoid": 0.5872930513176196,
+    "exemplar": 0.5872930513176196
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "type": "gold",
+    "label": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+    "centroid": 0.5806060728835167,
+    "whitened": 0.26817634665141776,
+    "medoid": 0.4030433664484466,
+    "exemplar": 0.4030433664484466
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "type": "distant",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": -0.07072234271107328,
+    "whitened": -0.01820988157572969,
+    "medoid": -0.06855108455169458,
+    "exemplar": -0.06855108455169458
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.07364326739596117,
+    "whitened": 0.008791874971329779,
+    "medoid": 0.08470977091521448,
+    "exemplar": 0.08470977091521448
+  },
+  {
+    "layer": 0,
+    "idx": 8,
+    "type": "verbose",
+    "label": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, including various related discussions of Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, among other assorted and loosely connected topics",
+    "centroid": 0.403434411723384,
+    "whitened": 0.15367735357650353,
+    "medoid": 0.2673645606281134,
+    "exemplar": 0.2673645606281134
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "gold",
+    "label": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+    "centroid": 0.7269084895798781,
+    "whitened": 0.364922007493748,
+    "medoid": 0.6312111491353217,
+    "exemplar": 0.6312111491353217
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "ancestor",
+    "label": "MLB Season Predictions and Player Analysis",
+    "centroid": 0.5344698848600083,
+    "whitened": 0.041614388877549,
+    "medoid": 0.3973130662656583,
+    "exemplar": 0.3973130662656583
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "sibling",
+    "label": "Major League Baseball Season Predictions, Standings, and Game Recaps",
+    "centroid": 0.44041912182663645,
+    "whitened": -0.002190325502228317,
+    "medoid": 0.29788347274264015,
+    "exemplar": 0.29788347274264015
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "distant",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": -0.15270723591755897,
+    "whitened": -0.11463638259559653,
+    "medoid": -0.15345839735986236,
+    "exemplar": -0.15345839735986236
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.09197335058804343,
+    "whitened": 0.008956062332621664,
+    "medoid": 0.026072415151599845,
+    "exemplar": 0.026072415151599845
+  },
+  {
+    "layer": 0,
+    "idx": 9,
+    "type": "verbose",
+    "label": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation, including various related discussions of MLB Season Predictions and Player Analysis, Major League Baseball Season Predictions, Standings, and Game Recaps, among other assorted and loosely connected topics",
+    "centroid": 0.610507838600399,
+    "whitened": 0.24346892394321368,
+    "medoid": 0.49804449648161936,
+    "exemplar": 0.49804449648161936
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "gold",
+    "label": "Major League Baseball Season Predictions, Standings, and Game Recaps",
+    "centroid": 0.6621859746128593,
+    "whitened": 0.33183652297240707,
+    "medoid": 0.6117892444983127,
+    "exemplar": 0.6117892444983127
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "ancestor",
+    "label": "MLB Season Predictions and Player Analysis",
+    "centroid": 0.6734768254472916,
+    "whitened": 0.288479207156962,
+    "medoid": 0.5290440793121151,
+    "exemplar": 0.5290440793121151
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "sibling",
+    "label": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+    "centroid": 0.5590094404900576,
+    "whitened": 0.08528644599129304,
+    "medoid": 0.397032484998199,
+    "exemplar": 0.397032484998199
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "distant",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": -0.07008639676693945,
+    "whitened": -0.034570296784240034,
+    "medoid": 0.029525879251047788,
+    "exemplar": 0.029525879251047788
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.016498303018862945,
+    "whitened": 0.04320926535123199,
+    "medoid": 0.008230862845587453,
+    "exemplar": 0.008230862845587453
+  },
+  {
+    "layer": 0,
+    "idx": 10,
+    "type": "verbose",
+    "label": "Major League Baseball Season Predictions, Standings, and Game Recaps, including various related discussions of MLB Season Predictions and Player Analysis, Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation, among other assorted and loosely connected topics",
+    "centroid": 0.5329785343644144,
+    "whitened": 0.15001171364467047,
+    "medoid": 0.42589799713233684,
+    "exemplar": 0.42589799713233684
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "gold",
+    "label": "Bosnian War Ethnic Cleansing Conflict Debates and International Military Intervention",
+    "centroid": 0.726814219016586,
+    "whitened": 0.45608480056597345,
+    "medoid": 0.5406402421270551,
+    "exemplar": 0.5406402421270551
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "ancestor",
+    "label": "Israeli-Palestinian Conflict and Ethnic Violence",
+    "centroid": 0.46974606438597566,
+    "whitened": 0.14834634792034324,
+    "medoid": 0.3986776580292394,
+    "exemplar": 0.3986776580292394
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "sibling",
+    "label": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+    "centroid": 0.39428067572922554,
+    "whitened": 0.0736063456633544,
+    "medoid": 0.3214215820358845,
+    "exemplar": 0.3214215820358845
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "distant",
+    "label": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation",
+    "centroid": -0.21535121376596106,
+    "whitened": -0.0673607880833521,
+    "medoid": -0.15258316759550755,
+    "exemplar": -0.15258316759550755
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.1308960922583477,
+    "whitened": -0.062111933180725484,
+    "medoid": 0.11425632543124978,
+    "exemplar": 0.11425632543124978
+  },
+  {
+    "layer": 0,
+    "idx": 11,
+    "type": "verbose",
+    "label": "Bosnian War Ethnic Cleansing Conflict Debates and International Military Intervention, including various related discussions of Israeli-Palestinian Conflict and Ethnic Violence, Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute, among other assorted and loosely connected topics",
+    "centroid": 0.6288710250866502,
+    "whitened": 0.34091962995376207,
+    "medoid": 0.47098062239961297,
+    "exemplar": 0.47098062239961297
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "gold",
+    "label": "Debate on Male Homosexuality Prevalence and Sexual Behavior Survey Data",
+    "centroid": 0.7073401462535744,
+    "whitened": 0.42591622381940875,
+    "medoid": 0.6045749426027613,
+    "exemplar": 0.691783980398978
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.02153573902747993,
+    "whitened": -0.02189862818189099,
+    "medoid": -0.03175777256122343,
+    "exemplar": -0.018734794632221805
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "distant",
+    "label": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+    "centroid": -0.051078613825528835,
+    "whitened": -0.014912720859480075,
+    "medoid": -0.11219794926150164,
+    "exemplar": 0.0011353965975410413
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.14154608739006974,
+    "whitened": 0.02696987600328697,
+    "medoid": 0.08530580792168053,
+    "exemplar": 0.07799041802600898
+  },
+  {
+    "layer": 0,
+    "idx": 12,
+    "type": "verbose",
+    "label": "Debate on Male Homosexuality Prevalence and Sexual Behavior Survey Data, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.6469473856873298,
+    "whitened": 0.36841366604361503,
+    "medoid": 0.5302990706111634,
+    "exemplar": 0.5735523415310058
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "gold",
+    "label": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+    "centroid": 0.6910569383756313,
+    "whitened": 0.3712688837910394,
+    "medoid": 0.6247407801347707,
+    "exemplar": 0.535058501050645
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "ancestor",
+    "label": "Israeli-Palestinian Conflict and Ethnic Violence",
+    "centroid": 0.691860496121247,
+    "whitened": 0.3526443222986879,
+    "medoid": 0.5972311705033992,
+    "exemplar": 0.5493805092985072
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "sibling",
+    "label": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics",
+    "centroid": 0.6018229494044979,
+    "whitened": 0.2175289782652215,
+    "medoid": 0.4577882622583064,
+    "exemplar": 0.36012535328274303
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "distant",
+    "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+    "centroid": -0.15167956175522188,
+    "whitened": -0.03218202757963708,
+    "medoid": -0.13462451939252462,
+    "exemplar": -0.13142441325869794
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.058382392245508785,
+    "whitened": 0.010967076562350363,
+    "medoid": 0.025870539762047097,
+    "exemplar": -0.05770514386303417
+  },
+  {
+    "layer": 0,
+    "idx": 13,
+    "type": "verbose",
+    "label": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute, including various related discussions of Israeli-Palestinian Conflict and Ethnic Violence, Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics, among other assorted and loosely connected topics",
+    "centroid": 0.6233597663160456,
+    "whitened": 0.2930482503457745,
+    "medoid": 0.5407390403628923,
+    "exemplar": 0.44064303896874646
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "gold",
+    "label": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics",
+    "centroid": 0.6682822618998138,
+    "whitened": 0.36340794002936316,
+    "medoid": 0.5668195936487694,
+    "exemplar": 0.5668195936487694
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "ancestor",
+    "label": "Israeli-Palestinian Conflict and Ethnic Violence",
+    "centroid": 0.4788470048863455,
+    "whitened": 0.13696636766072245,
+    "medoid": 0.34554676929766437,
+    "exemplar": 0.34554676929766437
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "sibling",
+    "label": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+    "centroid": 0.4320557493715288,
+    "whitened": 0.10565464554343001,
+    "medoid": 0.32652622099074663,
+    "exemplar": 0.32652622099074663
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "distant",
+    "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+    "centroid": -0.1095663028211718,
+    "whitened": -0.03923066171896271,
+    "medoid": -0.10067661110137874,
+    "exemplar": -0.10067661110137874
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.03335772254022078,
+    "whitened": -0.055423647613138685,
+    "medoid": 0.04295696228699852,
+    "exemplar": 0.04295696228699852
+  },
+  {
+    "layer": 0,
+    "idx": 14,
+    "type": "verbose",
+    "label": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics, including various related discussions of Israeli-Palestinian Conflict and Ethnic Violence, Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute, among other assorted and loosely connected topics",
+    "centroid": 0.5974662524444581,
+    "whitened": 0.2785978862238856,
+    "medoid": 0.5041385693520333,
+    "exemplar": 0.5041385693520333
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "gold",
+    "label": "Medical Skepticism and Alternative Therapies Debate in Clinical Practice",
+    "centroid": 0.555506049602033,
+    "whitened": 0.2504175339145322,
+    "medoid": 0.38233960081635415,
+    "exemplar": 0.38233960081635415
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "ancestor",
+    "label": "Nutritional and Alternative Medicine Debate",
+    "centroid": 0.42192527869336544,
+    "whitened": 0.09840654837293145,
+    "medoid": 0.3505075711913087,
+    "exemplar": 0.3505075711913087
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "sibling",
+    "label": "Alternative and Over-the-Counter Treatments for Chronic Conditions and Allergies",
+    "centroid": 0.29094399702570173,
+    "whitened": 0.044636962144776124,
+    "medoid": 0.206886810170898,
+    "exemplar": 0.206886810170898
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "distant",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.0064541882666065975,
+    "whitened": 0.03189813641973691,
+    "medoid": -0.007539036935753862,
+    "exemplar": -0.007539036935753862
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.09390216648022805,
+    "whitened": -0.0109652038862693,
+    "medoid": 0.02127180532817838,
+    "exemplar": 0.02127180532817838
+  },
+  {
+    "layer": 0,
+    "idx": 15,
+    "type": "verbose",
+    "label": "Medical Skepticism and Alternative Therapies Debate in Clinical Practice, including various related discussions of Nutritional and Alternative Medicine Debate, Alternative and Over-the-Counter Treatments for Chronic Conditions and Allergies, among other assorted and loosely connected topics",
+    "centroid": 0.5133660001952153,
+    "whitened": 0.158135196010745,
+    "medoid": 0.374500252588314,
+    "exemplar": 0.374500252588314
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "gold",
+    "label": "Alternative and Over-the-Counter Treatments for Chronic Conditions and Allergies",
+    "centroid": 0.5138160701701386,
+    "whitened": 0.2928753809142536,
+    "medoid": 0.5915493793152751,
+    "exemplar": 0.5915493793152751
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "ancestor",
+    "label": "Nutritional and Alternative Medicine Debate",
+    "centroid": 0.32565819809296725,
+    "whitened": 0.04620927655808936,
+    "medoid": 0.3657761540155531,
+    "exemplar": 0.3657761540155531
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "sibling",
+    "label": "Medical Skepticism and Alternative Therapies Debate in Clinical Practice",
+    "centroid": 0.3733854493694387,
+    "whitened": 0.1182805109236873,
+    "medoid": 0.3242650441623318,
+    "exemplar": 0.3242650441623318
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "distant",
+    "label": "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations",
+    "centroid": -0.09241477999119921,
+    "whitened": -0.027029853745278838,
+    "medoid": 0.003403930962519541,
+    "exemplar": 0.003403930962519541
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.052783611226867824,
+    "whitened": 0.028286590378926165,
+    "medoid": 0.014114330652561805,
+    "exemplar": 0.014114330652561805
+  },
+  {
+    "layer": 0,
+    "idx": 16,
+    "type": "verbose",
+    "label": "Alternative and Over-the-Counter Treatments for Chronic Conditions and Allergies, including various related discussions of Nutritional and Alternative Medicine Debate, Medical Skepticism and Alternative Therapies Debate in Clinical Practice, among other assorted and loosely connected topics",
+    "centroid": 0.5172314236483515,
+    "whitened": 0.2111593554157497,
+    "medoid": 0.5292836508860395,
+    "exemplar": 0.5292836508860395
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "gold",
+    "label": "Gilligan's Island Character Sins Allegory and Literary Book Recommendations Discussion",
+    "centroid": 0.3479578232453437,
+    "whitened": 0.17637391459234583,
+    "medoid": 0.3238058643403173,
+    "exemplar": 0.3238058643403173
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.09706475916645543,
+    "whitened": 0.06366240750382945,
+    "medoid": 0.07419210505068996,
+    "exemplar": 0.07419210505068996
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "distant",
+    "label": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion",
+    "centroid": 0.025059735457359962,
+    "whitened": 0.03886774394129133,
+    "medoid": 0.08453048178880151,
+    "exemplar": 0.08453048178880151
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.16764806276054034,
+    "whitened": -0.010840081323111882,
+    "medoid": 0.2125657082253652,
+    "exemplar": 0.2125657082253652
+  },
+  {
+    "layer": 0,
+    "idx": 17,
+    "type": "verbose",
+    "label": "Gilligan's Island Character Sins Allegory and Literary Book Recommendations Discussion, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.3567621263687548,
+    "whitened": 0.19633832032353354,
+    "medoid": 0.3051964358105104,
+    "exemplar": 0.3051964358105104
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "gold",
+    "label": "X Window System Frequently Asked Questions and Technical Documentation",
+    "centroid": 0.3614633270945671,
+    "whitened": 0.11485439490277832,
+    "medoid": 0.2064736543963545,
+    "exemplar": 0.2318515738705986
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "ancestor",
+    "label": "Space exploration missions and spacecraft",
+    "centroid": 0.10882161503029777,
+    "whitened": -0.03254182669779088,
+    "medoid": 0.02209463024054833,
+    "exemplar": 0.0736524438898134
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "sibling",
+    "label": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+    "centroid": 0.08752988398732811,
+    "whitened": 0.05574553526680906,
+    "medoid": 0.0022048181797008452,
+    "exemplar": 0.03164852444844336
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "distant",
+    "label": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+    "centroid": -0.0057304487655032,
+    "whitened": -0.006353487516567351,
+    "medoid": 0.03089989850142342,
+    "exemplar": -0.017942151227748955
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.2697945326985653,
+    "whitened": 0.1582223485445951,
+    "medoid": 0.11046791083237423,
+    "exemplar": 0.2594653414532239
+  },
+  {
+    "layer": 0,
+    "idx": 18,
+    "type": "verbose",
+    "label": "X Window System Frequently Asked Questions and Technical Documentation, including various related discussions of Space exploration missions and spacecraft, Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints, among other assorted and loosely connected topics",
+    "centroid": 0.42370278075461076,
+    "whitened": 0.19208820517040426,
+    "medoid": 0.22224553266165697,
+    "exemplar": 0.2694658028252648
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "gold",
+    "label": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation",
+    "centroid": 0.5935032046643296,
+    "whitened": 0.3172089703952543,
+    "medoid": 0.3881331722492633,
+    "exemplar": 0.3881331722492633
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.03818546034773712,
+    "whitened": -0.04915312496312247,
+    "medoid": 0.011251524851680357,
+    "exemplar": 0.011251524851680357
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "distant",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": -0.1030349896304013,
+    "whitened": -0.019377163910345267,
+    "medoid": -0.01139041321902121,
+    "exemplar": -0.01139041321902121
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.055819034370855516,
+    "whitened": -0.009553361825288943,
+    "medoid": 0.047720997759677225,
+    "exemplar": 0.047720997759677225
+  },
+  {
+    "layer": 0,
+    "idx": 19,
+    "type": "verbose",
+    "label": "Telephone Line Electronics and DTMF Signaling Circuits for Amateur Experimentation, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.5538761414849994,
+    "whitened": 0.2438429455807241,
+    "medoid": 0.3569386937029418,
+    "exemplar": 0.3569386937029418
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "gold",
+    "label": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access",
+    "centroid": 0.6710311376973608,
+    "whitened": 0.26251559352372544,
+    "medoid": 0.6675053381762518,
+    "exemplar": 0.5999134110299564
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "ancestor",
+    "label": "Clipper Chip Encryption Policy Debate",
+    "centroid": 0.6090937239280784,
+    "whitened": 0.27082605454573877,
+    "medoid": 0.6289741390419672,
+    "exemplar": 0.5940046720318607
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "sibling",
+    "label": "Technical Weaknesses in Skipjack Algorithm and Key Escrow System Implementation Security",
+    "centroid": 0.2595175799828653,
+    "whitened": 0.03081137095870408,
+    "medoid": 0.25901544093211526,
+    "exemplar": 0.2054941892513481
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "distant",
+    "label": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+    "centroid": -0.01898563294121173,
+    "whitened": -0.00928151549051544,
+    "medoid": -0.02781462842589849,
+    "exemplar": -0.03740011385033266
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.061533503980415266,
+    "whitened": -0.016740176037225246,
+    "medoid": 0.07258619587292481,
+    "exemplar": 0.09599384091641064
+  },
+  {
+    "layer": 0,
+    "idx": 20,
+    "type": "verbose",
+    "label": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access, including various related discussions of Clipper Chip Encryption Policy Debate, Technical Weaknesses in Skipjack Algorithm and Key Escrow System Implementation Security, among other assorted and loosely connected topics",
+    "centroid": 0.6780025127155004,
+    "whitened": 0.29398119501916103,
+    "medoid": 0.6925142109393811,
+    "exemplar": 0.6355894762489906
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "gold",
+    "label": "Skipjack Encryption Algorithm Security Analysis and Key Escrow Vulnerabilities",
+    "centroid": 0.4858976785593752,
+    "whitened": 0.2261443028843898,
+    "medoid": 0.3352612965210173,
+    "exemplar": 0.4017315601471838
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "ancestor",
+    "label": "Clipper Chip Encryption Policy Debate",
+    "centroid": 0.5246947693792988,
+    "whitened": 0.17535377019663365,
+    "medoid": 0.4531303526156332,
+    "exemplar": 0.4570561597983336
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "sibling",
+    "label": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access",
+    "centroid": 0.35272139811167846,
+    "whitened": -0.02025641005293964,
+    "medoid": 0.312198691717116,
+    "exemplar": 0.2724184850695517
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "distant",
+    "label": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+    "centroid": -0.039813139497152095,
+    "whitened": -0.013812783432624386,
+    "medoid": 0.015737799839657136,
+    "exemplar": 0.006102963454026751
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.08881485271854941,
+    "whitened": 0.0020338287337219457,
+    "medoid": 0.07049397086317824,
+    "exemplar": 0.10606900570575475
+  },
+  {
+    "layer": 0,
+    "idx": 21,
+    "type": "verbose",
+    "label": "Skipjack Encryption Algorithm Security Analysis and Key Escrow Vulnerabilities, including various related discussions of Clipper Chip Encryption Policy Debate, Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access, among other assorted and loosely connected topics",
+    "centroid": 0.5013220696017433,
+    "whitened": 0.13539431462022522,
+    "medoid": 0.43716273920120396,
+    "exemplar": 0.43483270550514186
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "gold",
+    "label": "Technical Weaknesses in Skipjack Algorithm and Key Escrow System Implementation Security",
+    "centroid": 0.5261511395538732,
+    "whitened": 0.3759913101974959,
+    "medoid": 0.4880640915960914,
+    "exemplar": 0.4880640915960914
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "ancestor",
+    "label": "Clipper Chip Encryption Policy Debate",
+    "centroid": 0.6425865323302193,
+    "whitened": 0.2518421264561791,
+    "medoid": 0.6655648748886955,
+    "exemplar": 0.6655648748886955
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "sibling",
+    "label": "Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access",
+    "centroid": 0.5986975651476981,
+    "whitened": 0.14880592122090053,
+    "medoid": 0.6069687801772329,
+    "exemplar": 0.6069687801772329
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "distant",
+    "label": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+    "centroid": -0.02547185469717969,
+    "whitened": 0.010216030460526764,
+    "medoid": -0.03288562761088401,
+    "exemplar": -0.03288562761088401
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.037944369926174636,
+    "whitened": 0.0039931600908684126,
+    "medoid": -0.04670140150219379,
+    "exemplar": -0.04670140150219379
+  },
+  {
+    "layer": 0,
+    "idx": 22,
+    "type": "verbose",
+    "label": "Technical Weaknesses in Skipjack Algorithm and Key Escrow System Implementation Security, including various related discussions of Clipper Chip Encryption Policy Debate, Government-Mandated Clipper Chip Initiative and Public Policy Debate on Law Enforcement Access, among other assorted and loosely connected topics",
+    "centroid": 0.7198753685547925,
+    "whitened": 0.38515619139812796,
+    "medoid": 0.7270918190728024,
+    "exemplar": 0.7270918190728024
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "gold",
+    "label": "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations",
+    "centroid": 0.7526017674489014,
+    "whitened": 0.5446596321694686,
+    "medoid": 0.6985554050914949,
+    "exemplar": 0.6985554050914949
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.002313382855304448,
+    "whitened": -0.007210168915255265,
+    "medoid": 0.012402653346563333,
+    "exemplar": 0.012402653346563333
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "distant",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.002313382855304448,
+    "whitened": -0.007210168915255265,
+    "medoid": 0.012402653346563333,
+    "exemplar": 0.012402653346563333
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.04233879390837404,
+    "whitened": -0.013305128206875353,
+    "medoid": 0.013736185287408992,
+    "exemplar": 0.013736185287408992
+  },
+  {
+    "layer": 0,
+    "idx": 23,
+    "type": "verbose",
+    "label": "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.6018632157047951,
+    "whitened": 0.4211473924036888,
+    "medoid": 0.5419658914518499,
+    "exemplar": 0.5419658914518499
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "gold",
+    "label": "Clinton Administration Press Briefings and Official Statements April 1993",
+    "centroid": 0.5266610304674082,
+    "whitened": 0.3549167436758408,
+    "medoid": 0.4491351451351818,
+    "exemplar": 0.4491351451351818
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "ancestor",
+    "label": "Waco Siege",
+    "centroid": 0.20112718984191047,
+    "whitened": -0.026719549259431503,
+    "medoid": 0.15968634596721829,
+    "exemplar": 0.15968634596721829
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "sibling",
+    "label": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+    "centroid": 0.38591174770526837,
+    "whitened": 0.040275298522914955,
+    "medoid": 0.25223280498024836,
+    "exemplar": 0.25223280498024836
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "distant",
+    "label": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion",
+    "centroid": -0.022922578784647547,
+    "whitened": -0.07787634501596771,
+    "medoid": 0.045927916198928706,
+    "exemplar": 0.045927916198928706
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.20974756060119018,
+    "whitened": 0.07278029405640216,
+    "medoid": 0.14611974344998357,
+    "exemplar": 0.14611974344998357
+  },
+  {
+    "layer": 0,
+    "idx": 24,
+    "type": "verbose",
+    "label": "Clinton Administration Press Briefings and Official Statements April 1993, including various related discussions of Waco Siege, FBI BATF Waco Siege Fire Cause Debate and Government Accountability, among other assorted and loosely connected topics",
+    "centroid": 0.4878894019583345,
+    "whitened": 0.22861437634494586,
+    "medoid": 0.38511601408841445,
+    "exemplar": 0.38511601408841445
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "gold",
+    "label": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds",
+    "centroid": 0.5247798156156512,
+    "whitened": 0.24339477538710574,
+    "medoid": 0.27756468082443986,
+    "exemplar": 0.34574362358177624
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "distant",
+    "label": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+    "centroid": -0.028067876730784286,
+    "whitened": 0.026874378387302743,
+    "medoid": -0.02464600819289313,
+    "exemplar": 0.006497529780150529
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.15849189027092586,
+    "whitened": 0.04167689381047767,
+    "medoid": 0.07302824130800371,
+    "exemplar": 0.09970233579328794
+  },
+  {
+    "layer": 0,
+    "idx": 25,
+    "type": "verbose",
+    "label": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds, including various related discussions of Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds, among other assorted and loosely connected topics",
+    "centroid": 0.5070470740635964,
+    "whitened": 0.20479884712715374,
+    "medoid": 0.2733599601958514,
+    "exemplar": 0.3474354847038703
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "gold",
+    "label": "Automotive Cleaning Products and Techniques for Paint Plastic and Components",
+    "centroid": 0.5458971266408852,
+    "whitened": 0.47642399875331,
+    "medoid": 0.3613901747192841,
+    "exemplar": 0.352169628452087
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "ancestor",
+    "label": "Vehicle Sales",
+    "centroid": 0.27261975397484317,
+    "whitened": 0.06942256658052796,
+    "medoid": 0.12797231953612026,
+    "exemplar": 0.21838764069931643
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "distant",
+    "label": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths",
+    "centroid": -0.09797500690041981,
+    "whitened": -0.09796969184854812,
+    "medoid": -0.09380496969458127,
+    "exemplar": -0.10309983205415008
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.13144799431828658,
+    "whitened": 0.03550464383363179,
+    "medoid": 0.12295177238158396,
+    "exemplar": 0.05513988201160994
+  },
+  {
+    "layer": 0,
+    "idx": 26,
+    "type": "verbose",
+    "label": "Automotive Cleaning Products and Techniques for Paint Plastic and Components, including various related discussions of Vehicle Sales, among other assorted and loosely connected topics",
+    "centroid": 0.5521010669539738,
+    "whitened": 0.42546166175360145,
+    "medoid": 0.3832469112032973,
+    "exemplar": 0.3829942875536908
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "gold",
+    "label": "Residential Electrical Wiring, Safety Codes, and Power Distribution Systems",
+    "centroid": 0.5092972336099837,
+    "whitened": 0.280657844025976,
+    "medoid": 0.42192907224958465,
+    "exemplar": 0.42192907224958465
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.0166251526962716,
+    "whitened": -0.06188133206968798,
+    "medoid": -0.018344477707521685,
+    "exemplar": -0.018344477707521685
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "distant",
+    "label": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion",
+    "centroid": -0.014468140197024913,
+    "whitened": 0.02744910420138045,
+    "medoid": -0.05462451135698644,
+    "exemplar": -0.05462451135698644
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.07076001432709475,
+    "whitened": 0.046212358092975345,
+    "medoid": 0.10611697898661732,
+    "exemplar": 0.10611697898661732
+  },
+  {
+    "layer": 0,
+    "idx": 27,
+    "type": "verbose",
+    "label": "Residential Electrical Wiring, Safety Codes, and Power Distribution Systems, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.41363511781230833,
+    "whitened": 0.1628326524271272,
+    "medoid": 0.3215203350880966,
+    "exemplar": 0.3215203350880966
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "gold",
+    "label": "Commercial lunar base development and long-duration human spaceflight technical analysis",
+    "centroid": 0.6157330274151812,
+    "whitened": 0.45817867936969214,
+    "medoid": 0.45881195273756104,
+    "exemplar": 0.44876521808208103
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "ancestor",
+    "label": "Space exploration missions and spacecraft",
+    "centroid": 0.5285251246968539,
+    "whitened": 0.2572211162562335,
+    "medoid": 0.4410786837392779,
+    "exemplar": 0.26751328665344354
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "sibling",
+    "label": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+    "centroid": 0.33821331748690275,
+    "whitened": 0.14218781690397017,
+    "medoid": 0.26411819905659517,
+    "exemplar": 0.18419911215861637
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "distant",
+    "label": "NHL Hockey Playoff Fantasy League Standings and Game Results Discussion",
+    "centroid": -0.07706189841543563,
+    "whitened": -0.019499909217156407,
+    "medoid": -0.007095536438009312,
+    "exemplar": -0.08938598814362934
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": -0.01982192175251079,
+    "whitened": -0.011222490646263822,
+    "medoid": -0.05485290478873374,
+    "exemplar": 0.013157621105938431
+  },
+  {
+    "layer": 0,
+    "idx": 28,
+    "type": "verbose",
+    "label": "Commercial lunar base development and long-duration human spaceflight technical analysis, including various related discussions of Space exploration missions and spacecraft, Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints, among other assorted and loosely connected topics",
+    "centroid": 0.6275991194851228,
+    "whitened": 0.4250472833383227,
+    "medoid": 0.5219578957567854,
+    "exemplar": 0.3820562555614661
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "gold",
+    "label": "Historical and Current Planetary Space Probe Missions and Spacecraft Exploration",
+    "centroid": 0.5832096735350314,
+    "whitened": 0.3457595832819007,
+    "medoid": 0.35912942540961923,
+    "exemplar": 0.4326572360874696
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "ancestor",
+    "label": "Space exploration missions and spacecraft",
+    "centroid": 0.4471857495069749,
+    "whitened": 0.20028704997170454,
+    "medoid": 0.35471840317704817,
+    "exemplar": 0.242148265470155
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "sibling",
+    "label": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+    "centroid": 0.41435184952695336,
+    "whitened": 0.2252803976486863,
+    "medoid": 0.29975153962976764,
+    "exemplar": 0.27022626854944076
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "distant",
+    "label": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation",
+    "centroid": -0.03778253443150934,
+    "whitened": -0.007637280227796046,
+    "medoid": -0.040589256377161965,
+    "exemplar": -0.07122310603293397
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.08416854400483234,
+    "whitened": 0.015634934678039423,
+    "medoid": 0.07861566994912966,
+    "exemplar": 0.03143805019460799
+  },
+  {
+    "layer": 0,
+    "idx": 29,
+    "type": "verbose",
+    "label": "Historical and Current Planetary Space Probe Missions and Spacecraft Exploration, including various related discussions of Space exploration missions and spacecraft, Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints, among other assorted and loosely connected topics",
+    "centroid": 0.5361264547544399,
+    "whitened": 0.3068009767803049,
+    "medoid": 0.3635719068739576,
+    "exemplar": 0.36302625319923887
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "gold",
+    "label": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints",
+    "centroid": 0.40559396224924654,
+    "whitened": 0.21728199035999407,
+    "medoid": 0.25617577123455615,
+    "exemplar": 0.25617577123455615
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "ancestor",
+    "label": "Space exploration missions and spacecraft",
+    "centroid": 0.5761114133357284,
+    "whitened": 0.3735578632627555,
+    "medoid": 0.34961952153654646,
+    "exemplar": 0.34961952153654646
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "sibling",
+    "label": "Historical and Current Planetary Space Probe Missions and Spacecraft Exploration",
+    "centroid": 0.4178710039207021,
+    "whitened": 0.26424745936117344,
+    "medoid": 0.22746921960005365,
+    "exemplar": 0.22746921960005365
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "distant",
+    "label": "Heated Usenet Debates on Israel, Anti-Semitism, and Jewish Identity Politics",
+    "centroid": 0.025150649285578343,
+    "whitened": 0.019953039349095893,
+    "medoid": -0.0012870948435053757,
+    "exemplar": -0.0012870948435053757
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.012572292027963401,
+    "whitened": -0.0219804042652301,
+    "medoid": 0.0019611708916225483,
+    "exemplar": 0.0019611708916225483
+  },
+  {
+    "layer": 0,
+    "idx": 30,
+    "type": "verbose",
+    "label": "Hubble Space Telescope Servicing Mission Planning and Orbital Mechanics Constraints, including various related discussions of Space exploration missions and spacecraft, Historical and Current Planetary Space Probe Missions and Spacecraft Exploration, among other assorted and loosely connected topics",
+    "centroid": 0.4286372598050202,
+    "whitened": 0.2415506131860082,
+    "medoid": 0.23673416786099763,
+    "exemplar": 0.23673416786099763
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "gold",
+    "label": "Clinton Administration Tax Policy and Federal Spending Debates Early 1990s",
+    "centroid": 0.5860290376341973,
+    "whitened": 0.44874476360235366,
+    "medoid": 0.5864816063587888,
+    "exemplar": 0.5864816063587888
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "ancestor",
+    "label": "Libertarian Philosophy and Clinton-Era Politics",
+    "centroid": 0.45889100354389695,
+    "whitened": 0.22540232984666977,
+    "medoid": 0.33150992417562997,
+    "exemplar": 0.33150992417562997
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "sibling",
+    "label": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation",
+    "centroid": 0.3378961748021124,
+    "whitened": 0.04594383949388569,
+    "medoid": 0.12467043153144414,
+    "exemplar": 0.12467043153144414
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "distant",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": -0.011708906841301752,
+    "whitened": -0.0009027114051171842,
+    "medoid": 0.06279505030467722,
+    "exemplar": 0.06279505030467722
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.2029782164547118,
+    "whitened": -0.007913575116763424,
+    "medoid": 0.09185178016161073,
+    "exemplar": 0.09185178016161073
+  },
+  {
+    "layer": 0,
+    "idx": 31,
+    "type": "verbose",
+    "label": "Clinton Administration Tax Policy and Federal Spending Debates Early 1990s, including various related discussions of Libertarian Philosophy and Clinton-Era Politics, Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation, among other assorted and loosely connected topics",
+    "centroid": 0.4429240501025612,
+    "whitened": 0.30566862110861004,
+    "medoid": 0.43558326434563,
+    "exemplar": 0.43558326434563
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "gold",
+    "label": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation",
+    "centroid": 0.756472333929723,
+    "whitened": 0.5731490662928149,
+    "medoid": 0.7484247927357695,
+    "exemplar": 0.6723090971346048
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "ancestor",
+    "label": "Libertarian Philosophy and Clinton-Era Politics",
+    "centroid": 0.5220569202257788,
+    "whitened": 0.405795969080849,
+    "medoid": 0.44298120500955646,
+    "exemplar": 0.47888726133999704
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "sibling",
+    "label": "Clinton Administration Tax Policy and Federal Spending Debates Early 1990s",
+    "centroid": 0.29051110202619423,
+    "whitened": 0.12861920698596144,
+    "medoid": 0.16455986112932544,
+    "exemplar": 0.19286692416585466
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "distant",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": -0.03483579608180805,
+    "whitened": -0.035248876076088786,
+    "medoid": -0.006968103495379812,
+    "exemplar": -0.028234777982235386
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.14340869974260834,
+    "whitened": 0.03578622010021651,
+    "medoid": 0.06837779884962922,
+    "exemplar": 0.10257490479455213
+  },
+  {
+    "layer": 0,
+    "idx": 32,
+    "type": "verbose",
+    "label": "Libertarian Philosophy Debate: Government Coercion, Limited State, and Social Implementation, including various related discussions of Libertarian Philosophy and Clinton-Era Politics, Clinton Administration Tax Policy and Federal Spending Debates Early 1990s, among other assorted and loosely connected topics",
+    "centroid": 0.5392723216058519,
+    "whitened": 0.40423934507139864,
+    "medoid": 0.552615736716502,
+    "exemplar": 0.5238079130447402
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "gold",
+    "label": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+    "centroid": 0.42239477206083137,
+    "whitened": 0.32714433656079506,
+    "medoid": 0.20777813221865002,
+    "exemplar": 0.23884672363753065
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "ancestor",
+    "label": "Christian Theology",
+    "centroid": 0.22486589046688377,
+    "whitened": 0.018641138101734896,
+    "medoid": 0.1552166786402102,
+    "exemplar": 0.033794269928756115
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "sibling",
+    "label": "Biblical Interpretation of Homosexuality and Christian Theology Debate",
+    "centroid": 0.14006961074143695,
+    "whitened": -0.00023255163282072389,
+    "medoid": 0.10942789831578216,
+    "exemplar": 0.04024365001369205
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "distant",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": -0.025178750337161954,
+    "whitened": 0.0427825755068231,
+    "medoid": -0.008484796645309066,
+    "exemplar": -0.05857749946422923
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.024153551060722967,
+    "whitened": 0.006301777160102132,
+    "medoid": 0.008201052147542227,
+    "exemplar": -0.00544900092369139
+  },
+  {
+    "layer": 0,
+    "idx": 33,
+    "type": "verbose",
+    "label": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics, including various related discussions of Christian Theology, Biblical Interpretation of Homosexuality and Christian Theology Debate, among other assorted and loosely connected topics",
+    "centroid": 0.505066248713047,
+    "whitened": 0.326573597801996,
+    "medoid": 0.3165903131287656,
+    "exemplar": 0.25956125747861525
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "gold",
+    "label": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+    "centroid": 0.5869003099520282,
+    "whitened": 0.22526201229685894,
+    "medoid": 0.424996297403,
+    "exemplar": 0.424996297403
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "ancestor",
+    "label": "Waco Siege",
+    "centroid": 0.18901402234728817,
+    "whitened": -0.03773065033836742,
+    "medoid": 0.11590168684291258,
+    "exemplar": 0.11590168684291258
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "sibling",
+    "label": "Clinton Administration Press Briefings and Official Statements April 1993",
+    "centroid": 0.2672402572669012,
+    "whitened": 0.02053521262973821,
+    "medoid": 0.20850360813703653,
+    "exemplar": 0.20850360813703653
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "distant",
+    "label": "Vintage Computer Hardware and Software Sales from 1980s-1990s Era",
+    "centroid": 0.014261724208812457,
+    "whitened": 0.03948570433994666,
+    "medoid": 0.022004811111530506,
+    "exemplar": 0.022004811111530506
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.03944731604553785,
+    "whitened": 0.013673645388745832,
+    "medoid": 0.06946956600336701,
+    "exemplar": 0.06946956600336701
+  },
+  {
+    "layer": 0,
+    "idx": 34,
+    "type": "verbose",
+    "label": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability, including various related discussions of Waco Siege, Clinton Administration Press Briefings and Official Statements April 1993, among other assorted and loosely connected topics",
+    "centroid": 0.48433147084276373,
+    "whitened": 0.124710389959905,
+    "medoid": 0.37183054841136354,
+    "exemplar": 0.37183054841136354
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "gold",
+    "label": "Biblical Interpretation of Homosexuality and Christian Theology Debate",
+    "centroid": 0.8071990063639763,
+    "whitened": 0.525758619409527,
+    "medoid": 0.7392359043081194,
+    "exemplar": 0.7392359043081194
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "ancestor",
+    "label": "Christian Theology",
+    "centroid": 0.4543879509734837,
+    "whitened": 0.08530238819710251,
+    "medoid": 0.28076228318054564,
+    "exemplar": 0.28076228318054564
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "sibling",
+    "label": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+    "centroid": 0.12726317523700076,
+    "whitened": -0.03243267510226086,
+    "medoid": 0.06681402168975507,
+    "exemplar": 0.06681402168975507
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "distant",
+    "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+    "centroid": -0.01252501322977094,
+    "whitened": -0.01562089768570724,
+    "medoid": -0.015928427712877835,
+    "exemplar": -0.015928427712877835
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": -0.03954299805535311,
+    "whitened": -0.016592017365424525,
+    "medoid": -0.10313903184061451,
+    "exemplar": -0.10313903184061451
+  },
+  {
+    "layer": 0,
+    "idx": 35,
+    "type": "verbose",
+    "label": "Biblical Interpretation of Homosexuality and Christian Theology Debate, including various related discussions of Christian Theology, Larson's Reciprocal System Theory and Challenges to Orthodox Physics, among other assorted and loosely connected topics",
+    "centroid": 0.6438373575866411,
+    "whitened": 0.3225784099965341,
+    "medoid": 0.5462230886659868,
+    "exemplar": 0.5462230886659868
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "gold",
+    "label": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+    "centroid": 0.6392132205098879,
+    "whitened": 0.38923622014426595,
+    "medoid": 0.3735627928542787,
+    "exemplar": 0.3735627928542787
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "distant",
+    "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+    "centroid": -0.09141378678050627,
+    "whitened": -0.019825223652686193,
+    "medoid": -0.16056937602834626,
+    "exemplar": -0.16056937602834626
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.10930424736129032,
+    "whitened": -0.03340255226948906,
+    "medoid": 0.0389101437121848,
+    "exemplar": 0.0389101437121848
+  },
+  {
+    "layer": 0,
+    "idx": 36,
+    "type": "verbose",
+    "label": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice, including various related discussions of Motorcycle Riding Techniques, Safety, and Passenger Handling Advice, among other assorted and loosely connected topics",
+    "centroid": 0.560293902027159,
+    "whitened": 0.3193369194606791,
+    "medoid": 0.324804927991155,
+    "exemplar": 0.324804927991155
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "gold",
+    "label": "Waco Siege Controversy: Federal Agents, Clinton Administration Accountability Debate",
+    "centroid": 0.6583871298529904,
+    "whitened": 0.3250141723157072,
+    "medoid": 0.4615894031170042,
+    "exemplar": 0.4724253917567576
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "ancestor",
+    "label": "Waco Siege Federal Government Accountability",
+    "centroid": 0.4975572344023337,
+    "whitened": 0.18163277576449338,
+    "medoid": 0.3596991017656367,
+    "exemplar": 0.30761122864383444
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "sibling",
+    "label": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege",
+    "centroid": 0.5062562862824601,
+    "whitened": 0.2295354374294624,
+    "medoid": 0.30818430775044886,
+    "exemplar": 0.3290364489253403
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "distant",
+    "label": "Macintosh Printer Connectivity and Driver Configuration for Non-Apple Printers",
+    "centroid": -0.07877912796263338,
+    "whitened": -0.056434250390957647,
+    "medoid": -0.13776904653967356,
+    "exemplar": -0.1048626262464572
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.0883866350767167,
+    "whitened": 0.0048533095294410675,
+    "medoid": 0.1463993038995076,
+    "exemplar": 0.010367701701229824
+  },
+  {
+    "layer": 0,
+    "idx": 37,
+    "type": "verbose",
+    "label": "Waco Siege Controversy: Federal Agents, Clinton Administration Accountability Debate, including various related discussions of Waco Siege Federal Government Accountability, Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege, among other assorted and loosely connected topics",
+    "centroid": 0.5915130854059867,
+    "whitened": 0.2786955723000092,
+    "medoid": 0.4095610243472946,
+    "exemplar": 0.3763407888619782
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "gold",
+    "label": "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+    "centroid": 0.7607785866482898,
+    "whitened": 0.4825167204225361,
+    "medoid": 0.5434752409062962,
+    "exemplar": 0.6907254774634897
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "ancestor",
+    "label": "Second Amendment Rights and Gun Control",
+    "centroid": 0.7220647683811017,
+    "whitened": 0.40953139598796784,
+    "medoid": 0.5165806208573638,
+    "exemplar": 0.6643896777218931
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "sibling",
+    "label": "Firearms self-defense effectiveness and gun control policy debate",
+    "centroid": 0.6293874023318575,
+    "whitened": 0.2199330206885914,
+    "medoid": 0.5211205380246289,
+    "exemplar": 0.5884866435312378
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "distant",
+    "label": "X Window System Colormap Management and Visual Configuration Techniques",
+    "centroid": -0.03933116616940695,
+    "whitened": -0.04270886056813232,
+    "medoid": 0.004819653441950254,
+    "exemplar": 0.0028786471227459157
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.06895882643044182,
+    "whitened": 0.047198703716602924,
+    "medoid": 0.01537596048401637,
+    "exemplar": 0.045030588268582375
+  },
+  {
+    "layer": 0,
+    "idx": 38,
+    "type": "verbose",
+    "label": "Second Amendment Rights Advocacy and Legislative Gun Control Debate, including various related discussions of Second Amendment Rights and Gun Control, Firearms self-defense effectiveness and gun control policy debate, among other assorted and loosely connected topics",
+    "centroid": 0.6196403573872783,
+    "whitened": 0.352352521702865,
+    "medoid": 0.4390848586353087,
+    "exemplar": 0.6297513643924697
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "gold",
+    "label": "Firearms self-defense effectiveness and gun control policy debate",
+    "centroid": 0.7241160161653302,
+    "whitened": 0.3622078571644665,
+    "medoid": 0.6105365730031272,
+    "exemplar": 0.6105365730031272
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "ancestor",
+    "label": "Second Amendment Rights and Gun Control",
+    "centroid": 0.6109814365582922,
+    "whitened": 0.22274688726146352,
+    "medoid": 0.5599760133403693,
+    "exemplar": 0.5599760133403693
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "sibling",
+    "label": "Second Amendment Rights Advocacy and Legislative Gun Control Debate",
+    "centroid": 0.5801138237956716,
+    "whitened": 0.18939988616596798,
+    "medoid": 0.5414589858347114,
+    "exemplar": 0.5414589858347114
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "distant",
+    "label": "Computational Geometry Algorithms for 3D Point Location and Polygon Analysis",
+    "centroid": -0.06774819257440082,
+    "whitened": -0.02477593391019809,
+    "medoid": -0.08307182081243508,
+    "exemplar": -0.08307182081243508
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.1138467775221243,
+    "whitened": 0.0075505769005396114,
+    "medoid": -0.011915398742291144,
+    "exemplar": -0.011915398742291144
+  },
+  {
+    "layer": 0,
+    "idx": 39,
+    "type": "verbose",
+    "label": "Firearms self-defense effectiveness and gun control policy debate, including various related discussions of Second Amendment Rights and Gun Control, Second Amendment Rights Advocacy and Legislative Gun Control Debate, among other assorted and loosely connected topics",
+    "centroid": 0.5615354922213185,
+    "whitened": 0.23870938569272243,
+    "medoid": 0.48289811390771253,
+    "exemplar": 0.48289811390771253
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "gold",
+    "label": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege",
+    "centroid": 0.6535648797810272,
+    "whitened": 0.4293582949405031,
+    "medoid": 0.6459413521417265,
+    "exemplar": 0.6459413521417265
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "ancestor",
+    "label": "Waco Siege Federal Government Accountability",
+    "centroid": 0.5522324367825462,
+    "whitened": 0.3220503238416063,
+    "medoid": 0.542527033164497,
+    "exemplar": 0.542527033164497
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "sibling",
+    "label": "Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh",
+    "centroid": 0.6106344109626889,
+    "whitened": 0.4239720296991233,
+    "medoid": 0.6463155619213358,
+    "exemplar": 0.6463155619213358
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "distant",
+    "label": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+    "centroid": -0.026511799277179244,
+    "whitened": 0.02067744134721112,
+    "medoid": 0.01038197121040365,
+    "exemplar": 0.01038197121040365
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.04044135551740943,
+    "whitened": -0.013585140125886479,
+    "medoid": 0.0904775730159269,
+    "exemplar": 0.0904775730159269
+  },
+  {
+    "layer": 0,
+    "idx": 40,
+    "type": "verbose",
+    "label": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege, including various related discussions of Waco Siege Federal Government Accountability, Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh, among other assorted and loosely connected topics",
+    "centroid": 0.6911616999525456,
+    "whitened": 0.4601781883290119,
+    "medoid": 0.715934034452843,
+    "exemplar": 0.715934034452843
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "gold",
+    "label": "Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh",
+    "centroid": 0.6193101081196778,
+    "whitened": 0.3422698006783807,
+    "medoid": 0.4620394500409128,
+    "exemplar": 0.4620394500409128
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "ancestor",
+    "label": "Waco Siege Federal Government Accountability",
+    "centroid": 0.31437757278187717,
+    "whitened": 0.05868954976359633,
+    "medoid": 0.21945827495884157,
+    "exemplar": 0.21945827495884157
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "sibling",
+    "label": "Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege",
+    "centroid": 0.43578586206723235,
+    "whitened": 0.16323810329166638,
+    "medoid": 0.3718790269342504,
+    "exemplar": 0.3718790269342504
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "distant",
+    "label": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+    "centroid": -0.05049113660228166,
+    "whitened": -0.06148564290283315,
+    "medoid": -0.052346622037456034,
+    "exemplar": -0.052346622037456034
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.14125985608188363,
+    "whitened": 0.04736873944822448,
+    "medoid": 0.07111840790697295,
+    "exemplar": 0.07111840790697295
+  },
+  {
+    "layer": 0,
+    "idx": 41,
+    "type": "verbose",
+    "label": "Waco Siege: FBI BATF Raid on Branch Davidian Compound and Koresh, including various related discussions of Waco Siege Federal Government Accountability, Critical Analysis of BATF FBI Tactics and Government Actions in Waco Siege, among other assorted and loosely connected topics",
+    "centroid": 0.5568382100261838,
+    "whitened": 0.25401531495351304,
+    "medoid": 0.4186138799892699,
+    "exemplar": 0.4186138799892699
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "gold",
+    "label": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting",
+    "centroid": 0.7000033279559066,
+    "whitened": 0.38956273928972185,
+    "medoid": 0.5434491067021422,
+    "exemplar": 0.5180218724497453
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "distant",
+    "label": "Residential Electrical Wiring, Safety Codes, and Power Distribution Systems",
+    "centroid": -0.019187703226491753,
+    "whitened": -0.01616072980394321,
+    "medoid": -0.011237585234727713,
+    "exemplar": -0.029617785067890676
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "generic",
+    "label": "General content",
+    "centroid": -0.005490784047238219,
+    "whitened": -0.03311635572745621,
+    "medoid": 0.0316205543029685,
+    "exemplar": 0.046585181125655795
+  },
+  {
+    "layer": 0,
+    "idx": 42,
+    "type": "verbose",
+    "label": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting, including various related discussions of DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting, among other assorted and loosely connected topics",
+    "centroid": 0.7460536452691309,
+    "whitened": 0.40116849935189314,
+    "medoid": 0.5256139235981805,
+    "exemplar": 0.5507194520393355
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "gold",
+    "label": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+    "centroid": 0.6593613681331836,
+    "whitened": 0.4084193079706872,
+    "medoid": 0.4814181928919936,
+    "exemplar": 0.5490964970581547
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "distant",
+    "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+    "centroid": -0.12280382029258353,
+    "whitened": -0.03959211731913251,
+    "medoid": -0.07643031765362829,
+    "exemplar": -0.084681915477679
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.02194336059972029,
+    "whitened": -0.045697382599869066,
+    "medoid": 0.052703439013211555,
+    "exemplar": 0.03999404767141701
+  },
+  {
+    "layer": 0,
+    "idx": 43,
+    "type": "verbose",
+    "label": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith, including various related discussions of Philosophical Debate on Atheism, Theism, Belief, and Religious Faith, among other assorted and loosely connected topics",
+    "centroid": 0.5570401582274992,
+    "whitened": 0.32608153980651544,
+    "medoid": 0.418682966311953,
+    "exemplar": 0.46982576680465543
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "gold",
+    "label": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+    "centroid": 0.6303988240121647,
+    "whitened": 0.22064140004087923,
+    "medoid": 0.4988682881241231,
+    "exemplar": 0.5110969257196885
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "distant",
+    "label": "Objective versus Subjective Morality: Philosophical Debate on Ethics Foundations",
+    "centroid": 0.004622839891313943,
+    "whitened": 0.006257392768214239,
+    "medoid": 0.019377776800315872,
+    "exemplar": 0.06816667744627997
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": -0.08218362930798238,
+    "whitened": -0.06037397928784129,
+    "medoid": -0.1115716302660161,
+    "exemplar": 0.017684942472029466
+  },
+  {
+    "layer": 0,
+    "idx": 44,
+    "type": "verbose",
+    "label": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, including various related discussions of Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, among other assorted and loosely connected topics",
+    "centroid": 0.4556106287933047,
+    "whitened": 0.12401475798121048,
+    "medoid": 0.33286334088680836,
+    "exemplar": 0.341303583960205
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "gold",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "centroid": 0.6157427900241814,
+    "whitened": 0.2801974965934129,
+    "medoid": 0.5172915534762967,
+    "exemplar": 0.5172915534762967
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "distant",
+    "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+    "centroid": -0.07150765294551541,
+    "whitened": -0.01803423587600825,
+    "medoid": -0.09802489085968444,
+    "exemplar": -0.09802489085968444
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": -0.053511144075323425,
+    "whitened": -0.037092548560488804,
+    "medoid": -0.020094382716111935,
+    "exemplar": -0.020094382716111935
+  },
+  {
+    "layer": 0,
+    "idx": 45,
+    "type": "verbose",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine, including various related discussions of Christian theology debates on salvation, scripture interpretation, and biblical doctrine, among other assorted and loosely connected topics",
+    "centroid": 0.4879755649160985,
+    "whitened": 0.1828983630578353,
+    "medoid": 0.42548318131246887,
+    "exemplar": 0.42548318131246887
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "gold",
+    "label": "Biblical Canon Formation, Deuterocanonical Books, and Scripture Authority Debates",
+    "centroid": 0.6371701940034142,
+    "whitened": 0.3629764461871579,
+    "medoid": 0.4527171852795988,
+    "exemplar": 0.4527171852795988
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "ancestor",
+    "label": "Religious History and Scripture Authority Debates",
+    "centroid": 0.63273289688597,
+    "whitened": 0.2362987441418061,
+    "medoid": 0.4933899240397781,
+    "exemplar": 0.4933899240397781
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "sibling",
+    "label": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths",
+    "centroid": 0.505675921637001,
+    "whitened": 0.18360856902347525,
+    "medoid": 0.2774076355530707,
+    "exemplar": 0.2774076355530707
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "distant",
+    "label": "Automotive Cleaning Products and Techniques for Paint Plastic and Components",
+    "centroid": -0.07187057851788897,
+    "whitened": 0.015972903185818274,
+    "medoid": -0.018870064639457375,
+    "exemplar": -0.018870064639457375
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.18873604403269356,
+    "whitened": 0.0015523083946679664,
+    "medoid": 0.1250231861753386,
+    "exemplar": 0.1250231861753386
+  },
+  {
+    "layer": 0,
+    "idx": 46,
+    "type": "verbose",
+    "label": "Biblical Canon Formation, Deuterocanonical Books, and Scripture Authority Debates, including various related discussions of Religious History and Scripture Authority Debates, Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths, among other assorted and loosely connected topics",
+    "centroid": 0.6223243561772528,
+    "whitened": 0.35743510707556253,
+    "medoid": 0.49224346305127975,
+    "exemplar": 0.49224346305127975
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "gold",
+    "label": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths",
+    "centroid": 0.5778797603597241,
+    "whitened": 0.23391732863592263,
+    "medoid": 0.498236876485587,
+    "exemplar": 0.498236876485587
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "ancestor",
+    "label": "Religious History and Scripture Authority Debates",
+    "centroid": 0.5606487471087631,
+    "whitened": 0.14519111106618324,
+    "medoid": 0.34720286826369057,
+    "exemplar": 0.34720286826369057
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "sibling",
+    "label": "Biblical Canon Formation, Deuterocanonical Books, and Scripture Authority Debates",
+    "centroid": 0.45198077815795024,
+    "whitened": 0.11613819728185232,
+    "medoid": 0.27540795082582026,
+    "exemplar": 0.27540795082582026
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "distant",
+    "label": "Automotive Cleaning Products and Techniques for Paint Plastic and Components",
+    "centroid": -0.10905003778798142,
+    "whitened": -0.03582138020039846,
+    "medoid": -0.057554689702842526,
+    "exemplar": -0.057554689702842526
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.06987584870325375,
+    "whitened": -0.03198127330579158,
+    "medoid": -0.004892654412917597,
+    "exemplar": -0.004892654412917597
+  },
+  {
+    "layer": 0,
+    "idx": 47,
+    "type": "verbose",
+    "label": "Comparative Analysis of Secret Religious Rituals and Esoteric Traditions Across Faiths, including various related discussions of Religious History and Scripture Authority Debates, Biblical Canon Formation, Deuterocanonical Books, and Scripture Authority Debates, among other assorted and loosely connected topics",
+    "centroid": 0.5656970697128253,
+    "whitened": 0.20829480897429584,
+    "medoid": 0.4437023389065631,
+    "exemplar": 0.4437023389065631
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "gold",
+    "label": "Used Car Sales Listings with Detailed Vehicle Specifications and Pricing Information",
+    "centroid": 0.6159417540588241,
+    "whitened": 0.2834185194795826,
+    "medoid": 0.46734391695395827,
+    "exemplar": 0.46734391695395827
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "ancestor",
+    "label": "Used Cars and Performance Vehicles",
+    "centroid": 0.49736629116485237,
+    "whitened": 0.1801374569342311,
+    "medoid": 0.35259430268478265,
+    "exemplar": 0.35259430268478265
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "sibling",
+    "label": "Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options",
+    "centroid": 0.501667966834553,
+    "whitened": 0.13139059297511244,
+    "medoid": 0.3430480777191675,
+    "exemplar": 0.3430480777191675
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "distant",
+    "label": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+    "centroid": -0.06389169804694482,
+    "whitened": -0.014366135221410174,
+    "medoid": -0.023100919317050005,
+    "exemplar": -0.023100919317050005
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.043685458288289666,
+    "whitened": 0.0006129809215052531,
+    "medoid": 0.0001130510749744601,
+    "exemplar": 0.0001130510749744601
+  },
+  {
+    "layer": 0,
+    "idx": 48,
+    "type": "verbose",
+    "label": "Used Car Sales Listings with Detailed Vehicle Specifications and Pricing Information, including various related discussions of Used Cars and Performance Vehicles, Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options, among other assorted and loosely connected topics",
+    "centroid": 0.5054420898654113,
+    "whitened": 0.18689613955530038,
+    "medoid": 0.36275817055024756,
+    "exemplar": 0.36275817055024756
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "gold",
+    "label": "Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options",
+    "centroid": 0.705143434897978,
+    "whitened": 0.37786572255003675,
+    "medoid": 0.49703437808193557,
+    "exemplar": 0.49703437808193557
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "ancestor",
+    "label": "Used Cars and Performance Vehicles",
+    "centroid": 0.6325565520225896,
+    "whitened": 0.23523502868306673,
+    "medoid": 0.41622507163688793,
+    "exemplar": 0.41622507163688793
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "sibling",
+    "label": "Used Car Sales Listings with Detailed Vehicle Specifications and Pricing Information",
+    "centroid": 0.4842698805632917,
+    "whitened": 0.13054747669050895,
+    "medoid": 0.29744984568791344,
+    "exemplar": 0.29744984568791344
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "distant",
+    "label": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+    "centroid": -0.13850895747452135,
+    "whitened": -0.07217309779133108,
+    "medoid": -0.12397482120776214,
+    "exemplar": -0.12397482120776214
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": -0.01676710193871534,
+    "whitened": -0.03987176744663713,
+    "medoid": 0.07981550415118686,
+    "exemplar": 0.07981550415118686
+  },
+  {
+    "layer": 0,
+    "idx": 49,
+    "type": "verbose",
+    "label": "Classic and Modern Automotive Engine Types, Performance Cars, and Convertible Options, including various related discussions of Used Cars and Performance Vehicles, Used Car Sales Listings with Detailed Vehicle Specifications and Pricing Information, among other assorted and loosely connected topics",
+    "centroid": 0.6063206514973096,
+    "whitened": 0.24886704423163897,
+    "medoid": 0.4374515788195688,
+    "exemplar": 0.4374515788195688
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "gold",
+    "label": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion",
+    "centroid": 0.5432424839746867,
+    "whitened": 0.2627178410092101,
+    "medoid": 0.45696964373542515,
+    "exemplar": 0.45696964373542515
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": 0.01935827155021097,
+    "whitened": 0.020138472862019696,
+    "medoid": 0.05016912798733147,
+    "exemplar": 0.05016912798733147
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "distant",
+    "label": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+    "centroid": 0.01544218522260569,
+    "whitened": -0.01903141308748119,
+    "medoid": 0.06047606445746663,
+    "exemplar": 0.06047606445746663
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.05538707051057348,
+    "whitened": -0.0075927210024871955,
+    "medoid": 0.04249307842333912,
+    "exemplar": 0.04249307842333912
+  },
+  {
+    "layer": 0,
+    "idx": 50,
+    "type": "verbose",
+    "label": "Windows 3.x Utility Software Recommendations and File Management Tools Discussion, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.4815188055892339,
+    "whitened": 0.22306856651453366,
+    "medoid": 0.4172375813952117,
+    "exemplar": 0.4172375813952117
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "gold",
+    "label": "X Window System Colormap Management and Visual Configuration Techniques",
+    "centroid": 0.7236910256435959,
+    "whitened": 0.4295333609167619,
+    "medoid": 0.6168978933581092,
+    "exemplar": 0.6168978933581092
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "sibling",
+    "label": "Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations",
+    "centroid": -0.027056384825217862,
+    "whitened": -0.03650758116193036,
+    "medoid": 0.06213276341199994,
+    "exemplar": 0.06213276341199994
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "distant",
+    "label": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+    "centroid": -0.04236850804995551,
+    "whitened": -0.012641077629005872,
+    "medoid": -0.00334847534521299,
+    "exemplar": -0.00334847534521299
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.0442269576852969,
+    "whitened": 0.008527801775145739,
+    "medoid": 0.06511468602161818,
+    "exemplar": 0.06511468602161818
+  },
+  {
+    "layer": 0,
+    "idx": 51,
+    "type": "verbose",
+    "label": "X Window System Colormap Management and Visual Configuration Techniques, including various related discussions of Classified Advertisements for Travel Tickets, Vacation Packages, and Event Reservations, among other assorted and loosely connected topics",
+    "centroid": 0.5781564643198263,
+    "whitened": 0.3046225750189137,
+    "medoid": 0.5167997603098577,
+    "exemplar": 0.5167997603098577
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "gold",
+    "label": "TrueType Font Printing Issues and Configuration in Windows 3.1",
+    "centroid": 0.5993772960678517,
+    "whitened": 0.44342315821358236,
+    "medoid": 0.6307712016796476,
+    "exemplar": 0.6307712016796476
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.22550176899807703,
+    "whitened": 0.056684759494387275,
+    "medoid": 0.01440739265663524,
+    "exemplar": 0.01440739265663524
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "sibling",
+    "label": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+    "centroid": 0.19940119110297574,
+    "whitened": -0.010197381653129438,
+    "medoid": 0.04675779082446035,
+    "exemplar": 0.04675779082446035
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "distant",
+    "label": "Israeli-Palestinian Conflict: Occupation, Violence, and Political Dispute",
+    "centroid": -0.12785983648081933,
+    "whitened": -0.03080269178469274,
+    "medoid": -0.04206359208563319,
+    "exemplar": -0.04206359208563319
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.05592369757034536,
+    "whitened": 0.05560325755337358,
+    "medoid": -0.04950054759647611,
+    "exemplar": -0.04950054759647611
+  },
+  {
+    "layer": 0,
+    "idx": 52,
+    "type": "verbose",
+    "label": "TrueType Font Printing Issues and Configuration in Windows 3.1, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics",
+    "centroid": 0.6547586051763381,
+    "whitened": 0.4682700560172467,
+    "medoid": 0.5948159097630199,
+    "exemplar": 0.5948159097630199
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "gold",
+    "label": "Modem Sales, Specifications, and Technical Features Discussion",
+    "centroid": 0.6288399807214369,
+    "whitened": 0.3447849274621145,
+    "medoid": 0.5368681914534885,
+    "exemplar": 0.5368681914534885
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.3880111217221182,
+    "whitened": 0.0662197729312437,
+    "medoid": 0.3152452388466967,
+    "exemplar": 0.3152452388466967
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "sibling",
+    "label": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+    "centroid": 0.2850098187668703,
+    "whitened": 0.016950458678739167,
+    "medoid": 0.15028329348670685,
+    "exemplar": 0.15028329348670685
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "distant",
+    "label": "Bosnian War Ethnic Cleansing Conflict Debates and International Military Intervention",
+    "centroid": -0.03461453157471735,
+    "whitened": -0.025537381625537744,
+    "medoid": -0.047920634605687976,
+    "exemplar": -0.047920634605687976
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.023472747208454138,
+    "whitened": 0.0018145403642362485,
+    "medoid": 0.07118269742909156,
+    "exemplar": 0.07118269742909156
+  },
+  {
+    "layer": 0,
+    "idx": 53,
+    "type": "verbose",
+    "label": "Modem Sales, Specifications, and Technical Features Discussion, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics",
+    "centroid": 0.5554147107616216,
+    "whitened": 0.22021425938909456,
+    "medoid": 0.43473680455914804,
+    "exemplar": 0.43473680455914804
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "gold",
+    "label": "Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management",
+    "centroid": 0.7720291551976759,
+    "whitened": 0.5394568208841323,
+    "medoid": 0.7193580013339229,
+    "exemplar": 0.7193580013339229
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.23407311523316493,
+    "whitened": -0.0009381847005798492,
+    "medoid": 0.2272427060743209,
+    "exemplar": 0.2272427060743209
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "sibling",
+    "label": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+    "centroid": 0.22141991947354756,
+    "whitened": -0.032139786855266306,
+    "medoid": 0.21729373638477092,
+    "exemplar": 0.21729373638477092
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "distant",
+    "label": "Clinton Administration Tax Policy and Federal Spending Debates Early 1990s",
+    "centroid": -0.09513457690010074,
+    "whitened": -0.05129187460630186,
+    "medoid": -0.03729368096173294,
+    "exemplar": -0.03729368096173294
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.026514595461457822,
+    "whitened": -0.029521561754655562,
+    "medoid": 0.018502077015840748,
+    "exemplar": 0.018502077015840748
+  },
+  {
+    "layer": 0,
+    "idx": 54,
+    "type": "verbose",
+    "label": "Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics",
+    "centroid": 0.7453122460037647,
+    "whitened": 0.4669352128780566,
+    "medoid": 0.7056164360709191,
+    "exemplar": 0.7056164360709191
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "gold",
+    "label": "Used Electronics and Computer Equipment For Sale and Wanted Classifieds",
+    "centroid": 0.570262118864804,
+    "whitened": 0.21842896158293415,
+    "medoid": 0.3859001782459498,
+    "exemplar": 0.3859001782459498
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "ancestor",
+    "label": "Used Electronics and Equipment Classifieds",
+    "centroid": 0.4518349515389508,
+    "whitened": 0.15636665320454768,
+    "medoid": 0.21945910865781673,
+    "exemplar": 0.21945910865781673
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "sibling",
+    "label": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+    "centroid": 0.46080742426816274,
+    "whitened": 0.18064693733731815,
+    "medoid": 0.3779706409955549,
+    "exemplar": 0.3779706409955549
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "distant",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": -0.02108193113205516,
+    "whitened": -0.013863368355197494,
+    "medoid": 0.007748995648037375,
+    "exemplar": 0.007748995648037375
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.05882252663494077,
+    "whitened": 0.054787615628609856,
+    "medoid": -0.0073171888414309515,
+    "exemplar": -0.0073171888414309515
+  },
+  {
+    "layer": 0,
+    "idx": 55,
+    "type": "verbose",
+    "label": "Used Electronics and Computer Equipment For Sale and Wanted Classifieds, including various related discussions of Used Electronics and Equipment Classifieds, Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components, among other assorted and loosely connected topics",
+    "centroid": 0.4454323874502645,
+    "whitened": 0.20282952474472402,
+    "medoid": 0.2890393875567846,
+    "exemplar": 0.2890393875567846
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "gold",
+    "label": "Usenet Classified Advertisements for Collectibles Comics Music Videos and Media",
+    "centroid": 0.42219398925784923,
+    "whitened": 0.23695754155768667,
+    "medoid": 0.33416890141590533,
+    "exemplar": 0.4277705809114918
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "ancestor",
+    "label": "Used Electronics and Equipment Classifieds",
+    "centroid": 0.30340983355254747,
+    "whitened": 0.05556985314195095,
+    "medoid": 0.1886804940965705,
+    "exemplar": 0.07693796937610806
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "sibling",
+    "label": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+    "centroid": 0.2783456580348088,
+    "whitened": -0.011374907318414274,
+    "medoid": 0.1716745068964174,
+    "exemplar": 0.07879987987015373
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "distant",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": 0.04982641366209381,
+    "whitened": 0.043516126103685035,
+    "medoid": 0.036522247415994115,
+    "exemplar": 0.050744911132009615
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.13636554837245912,
+    "whitened": 0.04942867941024977,
+    "medoid": 0.10588643571235984,
+    "exemplar": 0.1067998225867243
+  },
+  {
+    "layer": 0,
+    "idx": 56,
+    "type": "verbose",
+    "label": "Usenet Classified Advertisements for Collectibles Comics Music Videos and Media, including various related discussions of Used Electronics and Equipment Classifieds, Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components, among other assorted and loosely connected topics",
+    "centroid": 0.3841384166326943,
+    "whitened": 0.1668354308621005,
+    "medoid": 0.2777221522036377,
+    "exemplar": 0.312397922615557
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "gold",
+    "label": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components",
+    "centroid": 0.6402027446766863,
+    "whitened": 0.3691079240233087,
+    "medoid": 0.5497553690016195,
+    "exemplar": 0.5497553690016195
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "ancestor",
+    "label": "Used Electronics and Equipment Classifieds",
+    "centroid": 0.4502011198201286,
+    "whitened": 0.16744937992511655,
+    "medoid": 0.3798938014997103,
+    "exemplar": 0.3798938014997103
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "sibling",
+    "label": "Usenet Classified Advertisements for Collectibles Comics Music Videos and Media",
+    "centroid": 0.24776121554748085,
+    "whitened": 0.038481991650029725,
+    "medoid": 0.11639422441354956,
+    "exemplar": 0.11639422441354956
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "distant",
+    "label": "Larson's Reciprocal System Theory and Challenges to Orthodox Physics",
+    "centroid": 0.04978149989800413,
+    "whitened": -0.0010921478229757014,
+    "medoid": 0.062181463484981846,
+    "exemplar": 0.062181463484981846
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.01708444853502178,
+    "whitened": -0.003657767080807235,
+    "medoid": 0.09180708007784276,
+    "exemplar": 0.09180708007784276
+  },
+  {
+    "layer": 0,
+    "idx": 57,
+    "type": "verbose",
+    "label": "Used Home and Car Audio Equipment Sales: Receivers, Amplifiers, and Stereo Components, including various related discussions of Used Electronics and Equipment Classifieds, Usenet Classified Advertisements for Collectibles Comics Music Videos and Media, among other assorted and loosely connected topics",
+    "centroid": 0.5047158074320539,
+    "whitened": 0.23964096311399768,
+    "medoid": 0.42343913629935387,
+    "exemplar": 0.42343913629935387
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "gold",
+    "label": "Computational Geometry Algorithms for 3D Point Location and Polygon Analysis",
+    "centroid": 0.6090521522873903,
+    "whitened": 0.38831627488927845,
+    "medoid": 0.4571240172513351,
+    "exemplar": 0.5147445734753056
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "ancestor",
+    "label": "X11 Graphics",
+    "centroid": 0.16153143129437944,
+    "whitened": -0.06128985392420069,
+    "medoid": 0.1649253436310218,
+    "exemplar": 0.1502707688425337
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "sibling",
+    "label": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+    "centroid": 0.33879541635559973,
+    "whitened": 0.09189784276630386,
+    "medoid": 0.3732400959656573,
+    "exemplar": 0.46125340093496653
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "distant",
+    "label": "Firearms self-defense effectiveness and gun control policy debate",
+    "centroid": -0.07390964798127973,
+    "whitened": 0.0020525113562592477,
+    "medoid": -0.05859348580286252,
+    "exemplar": 0.010316956450547197
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.09010117336483654,
+    "whitened": 0.04118038527866677,
+    "medoid": 0.03650746336056947,
+    "exemplar": 0.016546187696216005
+  },
+  {
+    "layer": 0,
+    "idx": 58,
+    "type": "verbose",
+    "label": "Computational Geometry Algorithms for 3D Point Location and Polygon Analysis, including various related discussions of X11 Graphics, 3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion, among other assorted and loosely connected topics",
+    "centroid": 0.5924771651279259,
+    "whitened": 0.36499740948085857,
+    "medoid": 0.49196313270124226,
+    "exemplar": 0.5570978468634568
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "gold",
+    "label": "Macintosh Printer Connectivity and Driver Configuration for Non-Apple Printers",
+    "centroid": 0.6476146267128355,
+    "whitened": 0.5003918070311694,
+    "medoid": 0.5139651198316779,
+    "exemplar": 0.544700435941993
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.23137018926776737,
+    "whitened": 0.009873000669161268,
+    "medoid": 0.27639621137178183,
+    "exemplar": 0.08742270750249831
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "sibling",
+    "label": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+    "centroid": 0.2884035678952202,
+    "whitened": 0.05369759017984421,
+    "medoid": 0.21629585779632857,
+    "exemplar": 0.1132219991045249
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "distant",
+    "label": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+    "centroid": -0.01592431095429508,
+    "whitened": -0.0065970768116772605,
+    "medoid": 0.004123269880357945,
+    "exemplar": 0.027642753705766264
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": -0.06615740868337662,
+    "whitened": -0.02826182570489979,
+    "medoid": -0.004436888214605111,
+    "exemplar": -0.06532068366641465
+  },
+  {
+    "layer": 0,
+    "idx": 59,
+    "type": "verbose",
+    "label": "Macintosh Printer Connectivity and Driver Configuration for Non-Apple Printers, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics",
+    "centroid": 0.6745971620836434,
+    "whitened": 0.4814171523064934,
+    "medoid": 0.5473868287859126,
+    "exemplar": 0.48910497805361797
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "gold",
+    "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison",
+    "centroid": 0.7863270550183152,
+    "whitened": 0.5888057185614497,
+    "medoid": 0.6308668045545243,
+    "exemplar": 0.7571948290032746
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.24854258246751498,
+    "whitened": 0.008970369376752196,
+    "medoid": 0.18057307115332152,
+    "exemplar": 0.05997035468216586
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "sibling",
+    "label": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+    "centroid": 0.21901381679349308,
+    "whitened": 0.03002820258036246,
+    "medoid": 0.2039558555385364,
+    "exemplar": 0.07098291642596213
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "distant",
+    "label": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+    "centroid": -0.06428056602167266,
+    "whitened": -0.0025357342126261172,
+    "medoid": 0.012095817044933744,
+    "exemplar": -0.09648500855491027
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": -0.01585158263924254,
+    "whitened": -0.07146568178310837,
+    "medoid": 0.030030000411428472,
+    "exemplar": -0.09700486195711755
+  },
+  {
+    "layer": 0,
+    "idx": 60,
+    "type": "verbose",
+    "label": "HP Inkjet and Laser Printer Consumables, Cartridges, and Performance Comparison, including various related discussions of Computer Classifieds, Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, among other assorted and loosely connected topics",
+    "centroid": 0.744617769284569,
+    "whitened": 0.5157506887616545,
+    "medoid": 0.597338741814879,
+    "exemplar": 0.6263665861113729
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "gold",
+    "label": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems",
+    "centroid": 0.6459189002963769,
+    "whitened": 0.313781771319472,
+    "medoid": 0.5061860329192711,
+    "exemplar": 0.4290380252373249
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.2528617918572774,
+    "whitened": -0.038329809046321696,
+    "medoid": 0.25508718597323365,
+    "exemplar": 0.10003501711703384
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "sibling",
+    "label": "Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management",
+    "centroid": 0.20548871916983683,
+    "whitened": -0.036223925474248374,
+    "medoid": 0.1669150483495872,
+    "exemplar": 0.11912082629929438
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "distant",
+    "label": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+    "centroid": -0.047453144946481306,
+    "whitened": 0.032535771219877746,
+    "medoid": -0.012317842617172519,
+    "exemplar": -0.10207715687032033
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.08660481144857987,
+    "whitened": 0.022543276543686003,
+    "medoid": 0.10650468373206184,
+    "exemplar": 0.07867909048551319
+  },
+  {
+    "layer": 0,
+    "idx": 61,
+    "type": "verbose",
+    "label": "Vintage Computer Monitor Selection and Compatibility Across PC, Mac, and Atari Systems, including various related discussions of Computer Classifieds, Intel 486DX2 CPU Overclocking Performance Testing and Thermal Management, among other assorted and loosely connected topics",
+    "centroid": 0.5644865269667045,
+    "whitened": 0.23923482480103347,
+    "medoid": 0.4665180496443882,
+    "exemplar": 0.35637579086052473
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "gold",
+    "label": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion",
+    "centroid": 0.6769798395343853,
+    "whitened": 0.4135731329583593,
+    "medoid": 0.5650180539676508,
+    "exemplar": 0.6412338755800644
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "ancestor",
+    "label": "X11 Graphics",
+    "centroid": 0.4372015330157146,
+    "whitened": 0.10271093320487007,
+    "medoid": 0.3170394710540132,
+    "exemplar": 0.28894306790600843
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "sibling",
+    "label": "Computational Geometry Algorithms for 3D Point Location and Polygon Analysis",
+    "centroid": 0.2907601137729665,
+    "whitened": 0.10308779020457902,
+    "medoid": 0.2533004252287151,
+    "exemplar": 0.32812800481333065
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "distant",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "centroid": -0.017095829077605887,
+    "whitened": -0.0026673181404035205,
+    "medoid": -0.016885828330324707,
+    "exemplar": -0.04791618024663965
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.13214705718799477,
+    "whitened": 0.07667742042261835,
+    "medoid": 0.05399300598317576,
+    "exemplar": 0.03260362845948799
+  },
+  {
+    "layer": 0,
+    "idx": 62,
+    "type": "verbose",
+    "label": "3D Graphics Software Libraries, Rendering Techniques, and Animation Tools Discussion, including various related discussions of X11 Graphics, Computational Geometry Algorithms for 3D Point Location and Polygon Analysis, among other assorted and loosely connected topics",
+    "centroid": 0.6108476631969713,
+    "whitened": 0.34063623638216606,
+    "medoid": 0.5123240882044706,
+    "exemplar": 0.5750219661708078
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "gold",
+    "label": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting",
+    "centroid": 0.6925763563491795,
+    "whitened": 0.424143810063,
+    "medoid": 0.556426610193874,
+    "exemplar": 0.7318878393221562
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "distant",
+    "label": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+    "centroid": -0.008104542463557813,
+    "whitened": 0.050939482745224945,
+    "medoid": -0.03773393515951391,
+    "exemplar": -0.055368213510512576
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.03954571492778046,
+    "whitened": 0.026371806449123368,
+    "medoid": -0.025795343796208133,
+    "exemplar": -0.037403049529558814
+  },
+  {
+    "layer": 0,
+    "idx": 63,
+    "type": "verbose",
+    "label": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting, including various related discussions of IDE and SCSI Hard Drive Installation Configuration and Troubleshooting, among other assorted and loosely connected topics",
+    "centroid": 0.7101421193516195,
+    "whitened": 0.41236458198604214,
+    "medoid": 0.5534946881854086,
+    "exemplar": 0.6906239313474404
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "gold",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": 0.7194046236998491,
+    "whitened": 0.4462856372490859,
+    "medoid": 0.6123545383236917,
+    "exemplar": 0.6123545383236917
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "distant",
+    "label": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+    "centroid": -0.08740016158914511,
+    "whitened": -0.004491475748214804,
+    "medoid": -0.06660789114058505,
+    "exemplar": -0.06660789114058505
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": -0.06546004425681329,
+    "whitened": -0.04530572456122496,
+    "medoid": -0.07695950448830605,
+    "exemplar": -0.07695950448830605
+  },
+  {
+    "layer": 0,
+    "idx": 64,
+    "type": "verbose",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files, including various related discussions of Image File Format Conversion and Viewer Software for Graphics Files, among other assorted and loosely connected topics",
+    "centroid": 0.7094951452348978,
+    "whitened": 0.37219405960959673,
+    "medoid": 0.553493090562035,
+    "exemplar": 0.553493090562035
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "gold",
+    "label": "X11 Window System Software Distribution Sources and Toolkit Implementation Questions",
+    "centroid": 0.6955094185727801,
+    "whitened": 0.3601697043463837,
+    "medoid": 0.558965430811813,
+    "exemplar": 0.558965430811813
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "ancestor",
+    "label": "X11 Programming and Build Issues",
+    "centroid": 0.5520672096747481,
+    "whitened": 0.30046732358610595,
+    "medoid": 0.3980202544502375,
+    "exemplar": 0.3980202544502375
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "sibling",
+    "label": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems",
+    "centroid": 0.428654557199719,
+    "whitened": 0.23836580443444283,
+    "medoid": 0.2530579388877855,
+    "exemplar": 0.2530579388877855
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "distant",
+    "label": "NHL Stanley Cup Playoff Games Discussion and Live Game Commentary",
+    "centroid": 0.04122783165834677,
+    "whitened": 0.020012775832585233,
+    "medoid": 0.03690449958135717,
+    "exemplar": 0.03690449958135717
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.08795318431958682,
+    "whitened": -0.030983940246968898,
+    "medoid": 0.11848851990760027,
+    "exemplar": 0.11848851990760027
+  },
+  {
+    "layer": 0,
+    "idx": 65,
+    "type": "verbose",
+    "label": "X11 Window System Software Distribution Sources and Toolkit Implementation Questions, including various related discussions of X11 Programming and Build Issues, X11R5 Build Issues, Library Linking Errors, and Configuration Problems, among other assorted and loosely connected topics",
+    "centroid": 0.671982908326948,
+    "whitened": 0.35463349000957894,
+    "medoid": 0.5335911070819264,
+    "exemplar": 0.5335911070819264
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "gold",
+    "label": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems",
+    "centroid": 0.5332458854256417,
+    "whitened": 0.31511793773401936,
+    "medoid": 0.6042648779645474,
+    "exemplar": 0.6042648779645474
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "ancestor",
+    "label": "X11 Programming and Build Issues",
+    "centroid": 0.6234092753333025,
+    "whitened": 0.3265425004511199,
+    "medoid": 0.6299372327625757,
+    "exemplar": 0.6299372327625757
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "sibling",
+    "label": "X11 Window System Software Distribution Sources and Toolkit Implementation Questions",
+    "centroid": 0.4459559079697021,
+    "whitened": 0.09223534385341539,
+    "medoid": 0.32142503496638636,
+    "exemplar": 0.32142503496638636
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "distant",
+    "label": "Baseball Player Performance Analysis: Batting Patience, Power, and Defensive Evaluation",
+    "centroid": -0.06949533496204818,
+    "whitened": 0.00429275595386449,
+    "medoid": -0.06271594913767044,
+    "exemplar": -0.06271594913767044
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.1089755146574348,
+    "whitened": -0.04184452414917305,
+    "medoid": 0.05801063183033725,
+    "exemplar": 0.05801063183033725
+  },
+  {
+    "layer": 0,
+    "idx": 66,
+    "type": "verbose",
+    "label": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems, including various related discussions of X11 Programming and Build Issues, X11 Window System Software Distribution Sources and Toolkit Implementation Questions, among other assorted and loosely connected topics",
+    "centroid": 0.5483346948578531,
+    "whitened": 0.23925249062768084,
+    "medoid": 0.48171166669090626,
+    "exemplar": 0.48171166669090626
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "gold",
+    "label": "X Window System Programming: Window Creation, Positioning, Events and Window Manager Interactions",
+    "centroid": 0.7506752572994848,
+    "whitened": 0.4469348117032966,
+    "medoid": 0.603585263350245,
+    "exemplar": 0.603585263350245
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "ancestor",
+    "label": "X11 Programming and Build Issues",
+    "centroid": 0.395564904059056,
+    "whitened": 0.1289314051690572,
+    "medoid": 0.4201763036697666,
+    "exemplar": 0.4201763036697666
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "sibling",
+    "label": "X11R5 Build Issues, Library Linking Errors, and Configuration Problems",
+    "centroid": 0.2308311212079249,
+    "whitened": 0.03551687596081133,
+    "medoid": 0.2764128410154191,
+    "exemplar": 0.2764128410154191
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "distant",
+    "label": "Firearms self-defense effectiveness and gun control policy debate",
+    "centroid": -0.004307085754756378,
+    "whitened": 0.03009373425814925,
+    "medoid": 0.024681574180121894,
+    "exemplar": 0.024681574180121894
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "generic",
+    "label": "General content",
+    "centroid": -0.0024405275654025543,
+    "whitened": 0.043852006665771937,
+    "medoid": 0.07529436907427989,
+    "exemplar": 0.07529436907427989
+  },
+  {
+    "layer": 0,
+    "idx": 67,
+    "type": "verbose",
+    "label": "X Window System Programming: Window Creation, Positioning, Events and Window Manager Interactions, including various related discussions of X11 Programming and Build Issues, X11R5 Build Issues, Library Linking Errors, and Configuration Problems, among other assorted and loosely connected topics",
+    "centroid": 0.6173079871016245,
+    "whitened": 0.2688406211889778,
+    "medoid": 0.54647819993264,
+    "exemplar": 0.54647819993264
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "gold",
+    "label": "Apple Centris and Quadra Macintosh Hardware Configuration Performance Specifications",
+    "centroid": 0.6439125284664544,
+    "whitened": 0.33617225125043215,
+    "medoid": 0.5372131334020646,
+    "exemplar": 0.5372131334020646
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "ancestor",
+    "label": "Vintage Computer Hardware Sales Classifieds",
+    "centroid": 0.4838393270704039,
+    "whitened": 0.05743198322768568,
+    "medoid": 0.22089307578621753,
+    "exemplar": 0.22089307578621753
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "sibling",
+    "label": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+    "centroid": 0.43093990546722843,
+    "whitened": 0.0972693198452871,
+    "medoid": 0.2983642562557032,
+    "exemplar": 0.2983642562557032
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "distant",
+    "label": "Turkish-Armenian Historical Dispute Over 1914-1920 Genocide Claims and Responsibility",
+    "centroid": -0.08443327663581884,
+    "whitened": -0.028837235371171586,
+    "medoid": -0.03607273131508262,
+    "exemplar": -0.03607273131508262
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.03464284582500606,
+    "whitened": -0.009882822730691715,
+    "medoid": -0.00024574975211549225,
+    "exemplar": -0.00024574975211549225
+  },
+  {
+    "layer": 0,
+    "idx": 68,
+    "type": "verbose",
+    "label": "Apple Centris and Quadra Macintosh Hardware Configuration Performance Specifications, including various related discussions of Vintage Computer Hardware Sales Classifieds, Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues, among other assorted and loosely connected topics",
+    "centroid": 0.6889527011742113,
+    "whitened": 0.3429227502414465,
+    "medoid": 0.5598539615916871,
+    "exemplar": 0.5598539615916871
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "gold",
+    "label": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+    "centroid": 0.518919941920966,
+    "whitened": 0.21267505476917486,
+    "medoid": 0.352647533092765,
+    "exemplar": 0.4362102216749223
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "ancestor",
+    "label": "Vintage Computer Hardware Sales Classifieds",
+    "centroid": 0.4265897723221479,
+    "whitened": 0.10172226167473211,
+    "medoid": 0.2863859577553707,
+    "exemplar": 0.27005788588636115
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "sibling",
+    "label": "Vintage Computer Hardware and Peripherals For Sale Classifieds",
+    "centroid": 0.4234544075539962,
+    "whitened": 0.09569545537987408,
+    "medoid": 0.31141336664899877,
+    "exemplar": 0.27605894554681265
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "distant",
+    "label": "AHL and NHL Hockey League Franchise Relocations, Affiliations, and Organizational Changes",
+    "centroid": -0.03410651036115902,
+    "whitened": -0.009454159314108274,
+    "medoid": -0.05741182762279989,
+    "exemplar": -0.09335724880409244
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.015336597614783684,
+    "whitened": -0.028625602757170746,
+    "medoid": 0.13390429887376692,
+    "exemplar": -0.007484017205476777
+  },
+  {
+    "layer": 0,
+    "idx": 69,
+    "type": "verbose",
+    "label": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues, including various related discussions of Vintage Computer Hardware Sales Classifieds, Vintage Computer Hardware and Peripherals For Sale Classifieds, among other assorted and loosely connected topics",
+    "centroid": 0.5262876147088364,
+    "whitened": 0.19443686128015286,
+    "medoid": 0.4193523351127675,
+    "exemplar": 0.3376977455031237
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "gold",
+    "label": "Vintage Windows Graphics Card Benchmarking and VESA Driver Performance Evaluation",
+    "centroid": 0.682743273718828,
+    "whitened": 0.35456797008772584,
+    "medoid": 0.6161881118569505,
+    "exemplar": 0.6161881118569505
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "ancestor",
+    "label": "Vintage Windows Graphics Card Driver Issues",
+    "centroid": 0.4399441624898641,
+    "whitened": 0.1101263157545076,
+    "medoid": 0.2962390250695478,
+    "exemplar": 0.2962390250695478
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "sibling",
+    "label": "Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues",
+    "centroid": 0.4814626793249481,
+    "whitened": 0.1435921457420197,
+    "medoid": 0.3720582662752125,
+    "exemplar": 0.3720582662752125
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "distant",
+    "label": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+    "centroid": -0.05322139563695605,
+    "whitened": 0.014704984774524405,
+    "medoid": 0.005693560238831269,
+    "exemplar": 0.005693560238831269
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.026588594048371314,
+    "whitened": 0.06494465063121004,
+    "medoid": 0.053354467456497495,
+    "exemplar": 0.053354467456497495
+  },
+  {
+    "layer": 0,
+    "idx": 70,
+    "type": "verbose",
+    "label": "Vintage Windows Graphics Card Benchmarking and VESA Driver Performance Evaluation, including various related discussions of Vintage Windows Graphics Card Driver Issues, Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues, among other assorted and loosely connected topics",
+    "centroid": 0.6752681010624331,
+    "whitened": 0.3525747251029468,
+    "medoid": 0.5892639387518296,
+    "exemplar": 0.5892639387518296
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "gold",
+    "label": "Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues",
+    "centroid": 0.6323630813971469,
+    "whitened": 0.3869204407142103,
+    "medoid": 0.4695590620880308,
+    "exemplar": 0.5666773924153434
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "ancestor",
+    "label": "Vintage Windows Graphics Card Driver Issues",
+    "centroid": 0.609107997662439,
+    "whitened": 0.33668571637413625,
+    "medoid": 0.5072253309857093,
+    "exemplar": 0.4829294378010117
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "sibling",
+    "label": "Vintage Windows Graphics Card Benchmarking and VESA Driver Performance Evaluation",
+    "centroid": 0.5850412968574876,
+    "whitened": 0.19096710482067786,
+    "medoid": 0.5145254361400846,
+    "exemplar": 0.47152338622629364
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "distant",
+    "label": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+    "centroid": -0.09503808261975129,
+    "whitened": -0.05100681045618165,
+    "medoid": -0.0500727353406369,
+    "exemplar": -0.13778670992272957
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.049066209916382005,
+    "whitened": -0.009335205195720855,
+    "medoid": -0.02651316849693293,
+    "exemplar": -0.01965855646734052
+  },
+  {
+    "layer": 0,
+    "idx": 71,
+    "type": "verbose",
+    "label": "Windows 3.1 Video Card Drivers and Graphics Hardware Compatibility Issues, including various related discussions of Vintage Windows Graphics Card Driver Issues, Vintage Windows Graphics Card Benchmarking and VESA Driver Performance Evaluation, among other assorted and loosely connected topics",
+    "centroid": 0.681270927758403,
+    "whitened": 0.34122568200292175,
+    "medoid": 0.4765469034335615,
+    "exemplar": 0.5696832495320657
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "gold",
+    "label": "Vintage Computer Hardware and Software Sales from 1980s-1990s Era",
+    "centroid": 0.5404265574280829,
+    "whitened": 0.11241763357273761,
+    "medoid": 0.4442683599434528,
+    "exemplar": 0.4442683599434528
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "ancestor",
+    "label": "Vintage Computer Hardware Sales Classifieds",
+    "centroid": 0.6225839163016004,
+    "whitened": 0.1778336321663873,
+    "medoid": 0.4398180940161269,
+    "exemplar": 0.4398180940161269
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "sibling",
+    "label": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+    "centroid": 0.2782261523989612,
+    "whitened": -0.0191721841557815,
+    "medoid": 0.16749644978114522,
+    "exemplar": 0.16749644978114522
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "distant",
+    "label": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+    "centroid": -0.009932786273702218,
+    "whitened": 0.025002527681723084,
+    "medoid": -0.03817848043505348,
+    "exemplar": -0.03817848043505348
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.07462775539482744,
+    "whitened": 0.06278830814035477,
+    "medoid": -0.045313329300056174,
+    "exemplar": -0.045313329300056174
+  },
+  {
+    "layer": 0,
+    "idx": 72,
+    "type": "verbose",
+    "label": "Vintage Computer Hardware and Software Sales from 1980s-1990s Era, including various related discussions of Vintage Computer Hardware Sales Classifieds, Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues, among other assorted and loosely connected topics",
+    "centroid": 0.4740074051541467,
+    "whitened": 0.06381858217170394,
+    "medoid": 0.33958330095967976,
+    "exemplar": 0.33958330095967976
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "gold",
+    "label": "Vintage Computer Hardware and Peripherals For Sale Classifieds",
+    "centroid": 0.6505751557872039,
+    "whitened": 0.2342573752374803,
+    "medoid": 0.4815748504289153,
+    "exemplar": 0.5414822675201592
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "ancestor",
+    "label": "Vintage Computer Hardware Sales Classifieds",
+    "centroid": 0.6311101548407727,
+    "whitened": 0.17484595580974438,
+    "medoid": 0.5082275727107077,
+    "exemplar": 0.5038207085355784
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "sibling",
+    "label": "Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues",
+    "centroid": 0.4240707727168468,
+    "whitened": 0.09156364086686769,
+    "medoid": 0.34241812859600307,
+    "exemplar": 0.32138934654776563
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "distant",
+    "label": "FBI BATF Waco Siege Fire Cause Debate and Government Accountability",
+    "centroid": -0.03005974184326952,
+    "whitened": -0.036164402709067955,
+    "medoid": 0.014797952006389038,
+    "exemplar": -0.07094033670794882
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.06022985343972133,
+    "whitened": -0.008050878704376128,
+    "medoid": 0.08166998895472874,
+    "exemplar": 0.006359207775123048
+  },
+  {
+    "layer": 0,
+    "idx": 73,
+    "type": "verbose",
+    "label": "Vintage Computer Hardware and Peripherals For Sale Classifieds, including various related discussions of Vintage Computer Hardware Sales Classifieds, Macintosh Computer Memory Upgrades and Expansion Card Compatibility Issues, among other assorted and loosely connected topics",
+    "centroid": 0.6229025747530934,
+    "whitened": 0.16579787753902125,
+    "medoid": 0.45917818440936414,
+    "exemplar": 0.45391237220353087
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "gold",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": 0.5889692877301665,
+    "whitened": 0.23437081715563757,
+    "medoid": 0.5949269491044262,
+    "exemplar": 0.5949269491044262
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "ancestor",
+    "label": "Sports Fantasy",
+    "centroid": 0.438842313862038,
+    "whitened": 0.10778063400037141,
+    "medoid": 0.5108384149725151,
+    "exemplar": 0.5108384149725151
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "sibling",
+    "label": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+    "centroid": 0.31270795396147827,
+    "whitened": -0.02922411463801735,
+    "medoid": 0.27554286210925893,
+    "exemplar": 0.27554286210925893
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "distant",
+    "label": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting",
+    "centroid": -0.08443289034249685,
+    "whitened": -0.0202997956359836,
+    "medoid": -0.07217700353932405,
+    "exemplar": -0.07217700353932405
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": -0.027400442151554287,
+    "whitened": 0.0130974252908924,
+    "medoid": 0.0404548341914663,
+    "exemplar": 0.0404548341914663
+  },
+  {
+    "layer": 1,
+    "idx": 0,
+    "type": "verbose",
+    "label": "Early 1990s NHL Playoff Fantasy League, including various related discussions of Sports Fantasy, Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, among other assorted and loosely connected topics",
+    "centroid": 0.48768083798358275,
+    "whitened": 0.14902917311627545,
+    "medoid": 0.48528906999102905,
+    "exemplar": 0.48528906999102905
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "gold",
+    "label": "Nutritional and Alternative Medicine Debate",
+    "centroid": 0.4895976049924567,
+    "whitened": 0.21265247921148855,
+    "medoid": 0.3657761540155531,
+    "exemplar": 0.3657761540155531
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "distant",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": -0.008898473771697675,
+    "whitened": -0.018869101303759805,
+    "medoid": 0.0703982067000351,
+    "exemplar": 0.0703982067000351
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.0358215216626752,
+    "whitened": -0.02660877113588192,
+    "medoid": -0.07040387633055228,
+    "exemplar": -0.07040387633055228
+  },
+  {
+    "layer": 1,
+    "idx": 1,
+    "type": "verbose",
+    "label": "Nutritional and Alternative Medicine Debate, including various related discussions of Nutritional and Alternative Medicine Debate, among other assorted and loosely connected topics",
+    "centroid": 0.41061276140859077,
+    "whitened": 0.16536776264767108,
+    "medoid": 0.2655102817235001,
+    "exemplar": 0.2655102817235001
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "gold",
+    "label": "MLB Season Predictions and Player Analysis",
+    "centroid": 0.6523831381100529,
+    "whitened": 0.22540013390257824,
+    "medoid": 0.3973130662656583,
+    "exemplar": 0.3973130662656583
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "ancestor",
+    "label": "Sports Fantasy",
+    "centroid": 0.42174148116546917,
+    "whitened": 0.08237824157873358,
+    "medoid": 0.27046503613561845,
+    "exemplar": 0.27046503613561845
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "sibling",
+    "label": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+    "centroid": 0.533504641287258,
+    "whitened": 0.1611081602767696,
+    "medoid": 0.4038311733928999,
+    "exemplar": 0.4038311733928999
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "distant",
+    "label": "X11 Programming and Build Issues",
+    "centroid": -0.07194591857911889,
+    "whitened": -0.02329810135875171,
+    "medoid": -0.0681912341146773,
+    "exemplar": -0.0681912341146773
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.05278475161886775,
+    "whitened": -0.034877790924452715,
+    "medoid": 0.00715996527851615,
+    "exemplar": 0.00715996527851615
+  },
+  {
+    "layer": 1,
+    "idx": 2,
+    "type": "verbose",
+    "label": "MLB Season Predictions and Player Analysis, including various related discussions of Sports Fantasy, Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, among other assorted and loosely connected topics",
+    "centroid": 0.5384900918848523,
+    "whitened": 0.16787314330766112,
+    "medoid": 0.35804717387412577,
+    "exemplar": 0.35804717387412577
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "gold",
+    "label": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates",
+    "centroid": 0.5806060728835167,
+    "whitened": 0.26817634665141776,
+    "medoid": 0.4030433664484466,
+    "exemplar": 0.4030433664484466
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "ancestor",
+    "label": "Sports Fantasy",
+    "centroid": 0.4127716822870673,
+    "whitened": 0.11517932110412823,
+    "medoid": 0.3262994711083357,
+    "exemplar": 0.3262994711083357
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "sibling",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": 0.40935265877206356,
+    "whitened": 0.11253483101423344,
+    "medoid": 0.4170505103248752,
+    "exemplar": 0.4170505103248752
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "distant",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": 0.008904640173967669,
+    "whitened": 0.018258555749056604,
+    "medoid": 0.007036687208520978,
+    "exemplar": 0.007036687208520978
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.00296063967388209,
+    "whitened": -0.025318256379888677,
+    "medoid": -0.012510687823210975,
+    "exemplar": -0.012510687823210975
+  },
+  {
+    "layer": 1,
+    "idx": 3,
+    "type": "verbose",
+    "label": "Major League Baseball Player Statistics, Career Comparisons, and Hall of Fame Eligibility Debates, including various related discussions of Sports Fantasy, Early 1990s NHL Playoff Fantasy League, among other assorted and loosely connected topics",
+    "centroid": 0.44711835175120884,
+    "whitened": 0.15066479385583942,
+    "medoid": 0.34835053762260765,
+    "exemplar": 0.34835053762260765
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "gold",
+    "label": "Israeli-Palestinian Conflict and Ethnic Violence",
+    "centroid": 0.6565530063031593,
+    "whitened": 0.33073616201656375,
+    "medoid": 0.5026963471408119,
+    "exemplar": 0.5026963471408119
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "sibling",
+    "label": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting",
+    "centroid": 0.009019377940185886,
+    "whitened": -0.00020161673471806932,
+    "medoid": 0.0455304142557644,
+    "exemplar": 0.0455304142557644
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "distant",
+    "label": "Used Cars and Performance Vehicles",
+    "centroid": -0.1075939391143764,
+    "whitened": -0.03957185520801938,
+    "medoid": -0.11492763290675773,
+    "exemplar": -0.11492763290675773
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.08009986256507907,
+    "whitened": 0.0212605717209884,
+    "medoid": 0.07359351956885529,
+    "exemplar": 0.07359351956885529
+  },
+  {
+    "layer": 1,
+    "idx": 4,
+    "type": "verbose",
+    "label": "Israeli-Palestinian Conflict and Ethnic Violence, including various related discussions of DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting, among other assorted and loosely connected topics",
+    "centroid": 0.4092866634087838,
+    "whitened": 0.195726901360641,
+    "medoid": 0.32701236565849123,
+    "exemplar": 0.32701236565849123
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "gold",
+    "label": "Clipper Chip Encryption Policy Debate",
+    "centroid": 0.6793187206989213,
+    "whitened": 0.37355179446478504,
+    "medoid": 0.6289741390419672,
+    "exemplar": 0.6289741390419672
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "distant",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": 0.026204105621371453,
+    "whitened": 0.030510032076895458,
+    "medoid": -0.035581190661185265,
+    "exemplar": -0.035581190661185265
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.04235908751039942,
+    "whitened": -0.025049886358382706,
+    "medoid": -0.01153964003631626,
+    "exemplar": -0.01153964003631626
+  },
+  {
+    "layer": 1,
+    "idx": 5,
+    "type": "verbose",
+    "label": "Clipper Chip Encryption Policy Debate, including various related discussions of Clipper Chip Encryption Policy Debate, among other assorted and loosely connected topics",
+    "centroid": 0.660316762890022,
+    "whitened": 0.3394646657124806,
+    "medoid": 0.6066521204136786,
+    "exemplar": 0.6066521204136786
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "gold",
+    "label": "Space exploration missions and spacecraft",
+    "centroid": 0.5179983706958026,
+    "whitened": 0.30644756937779477,
+    "medoid": 0.35471840317704817,
+    "exemplar": 0.44329360384959504
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "distant",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "centroid": -0.02905945104983496,
+    "whitened": -0.05023715223373629,
+    "medoid": 0.0256461905445352,
+    "exemplar": -0.0009311489262398692
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.1842659908063459,
+    "whitened": 0.009915247509454612,
+    "medoid": 0.055930132670073456,
+    "exemplar": 0.06986858363776485
+  },
+  {
+    "layer": 1,
+    "idx": 6,
+    "type": "verbose",
+    "label": "Space exploration missions and spacecraft, including various related discussions of Space exploration missions and spacecraft, among other assorted and loosely connected topics",
+    "centroid": 0.5273297001387435,
+    "whitened": 0.278786105448977,
+    "medoid": 0.3525937306859829,
+    "exemplar": 0.41515635662967965
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "gold",
+    "label": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds",
+    "centroid": 0.5247798156156512,
+    "whitened": 0.24339477538710574,
+    "medoid": 0.27756468082443986,
+    "exemplar": 0.34574362358177624
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "ancestor",
+    "label": "Waco Siege",
+    "centroid": 0.1032688904549495,
+    "whitened": 0.032361122549143015,
+    "medoid": 0.05876071918834646,
+    "exemplar": 0.020569541694204267
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "sibling",
+    "label": "Second Amendment Rights and Gun Control",
+    "centroid": 0.2585899522125771,
+    "whitened": 0.0022230894231186,
+    "medoid": 0.12194718534028512,
+    "exemplar": 0.14974390136325672
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "distant",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": -0.06238178521487449,
+    "whitened": 0.0066405722618327195,
+    "medoid": 4.5553645148549426e-05,
+    "exemplar": 0.011573141494614594
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.4101248522865082,
+    "whitened": 0.09659882987305413,
+    "medoid": 0.31030889588555843,
+    "exemplar": 0.22451850238768983
+  },
+  {
+    "layer": 1,
+    "idx": 7,
+    "type": "verbose",
+    "label": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds, including various related discussions of Waco Siege, Second Amendment Rights and Gun Control, among other assorted and loosely connected topics",
+    "centroid": 0.4701858497430276,
+    "whitened": 0.17291669920912592,
+    "medoid": 0.24250055662980968,
+    "exemplar": 0.3089135563039592
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "gold",
+    "label": "Libertarian Philosophy and Clinton-Era Politics",
+    "centroid": 0.5403250976431144,
+    "whitened": 0.3853559156683153,
+    "medoid": 0.43722944929131974,
+    "exemplar": 0.5825416274955311
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "ancestor",
+    "label": "Waco Siege",
+    "centroid": 0.0326818440087316,
+    "whitened": -0.07816409012428532,
+    "medoid": 0.04878332311666914,
+    "exemplar": -0.055021929829352806
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "sibling",
+    "label": "Second Amendment Rights and Gun Control",
+    "centroid": 0.3245244886136319,
+    "whitened": 0.044231112548921335,
+    "medoid": 0.160295286003112,
+    "exemplar": 0.23735294998438652
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "distant",
+    "label": "Vintage Windows Graphics Card Driver Issues",
+    "centroid": -0.013606261090712723,
+    "whitened": -0.03262523075910107,
+    "medoid": -0.012470382166705712,
+    "exemplar": 0.012755619725318613
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.13149405373657505,
+    "whitened": 0.04371288737792963,
+    "medoid": 0.10746550142264834,
+    "exemplar": 0.09717105062463587
+  },
+  {
+    "layer": 1,
+    "idx": 8,
+    "type": "verbose",
+    "label": "Libertarian Philosophy and Clinton-Era Politics, including various related discussions of Waco Siege, Second Amendment Rights and Gun Control, among other assorted and loosely connected topics",
+    "centroid": 0.5021136099067961,
+    "whitened": 0.23601359752082285,
+    "medoid": 0.40204989212518943,
+    "exemplar": 0.5006201351069017
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "gold",
+    "label": "Waco Siege Federal Government Accountability",
+    "centroid": 0.51666762631475,
+    "whitened": 0.25313414038354354,
+    "medoid": 0.4480468218526434,
+    "exemplar": 0.4480468218526434
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "ancestor",
+    "label": "Waco Siege",
+    "centroid": 0.35047455627535345,
+    "whitened": 0.19794646291521664,
+    "medoid": 0.3301246409692917,
+    "exemplar": 0.3301246409692917
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "sibling",
+    "label": "Second Amendment Rights and Gun Control",
+    "centroid": 0.3003349251255371,
+    "whitened": -0.01030033304592341,
+    "medoid": 0.18731303535844676,
+    "exemplar": 0.18731303535844676
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "distant",
+    "label": "Vintage Windows Graphics Card Driver Issues",
+    "centroid": -0.029751869411827305,
+    "whitened": 0.004429211737419579,
+    "medoid": -0.03876792218266313,
+    "exemplar": -0.03876792218266313
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.004371576588080631,
+    "whitened": -0.0479405796639275,
+    "medoid": -0.059714359111146385,
+    "exemplar": -0.059714359111146385
+  },
+  {
+    "layer": 1,
+    "idx": 9,
+    "type": "verbose",
+    "label": "Waco Siege Federal Government Accountability, including various related discussions of Waco Siege, Second Amendment Rights and Gun Control, among other assorted and loosely connected topics",
+    "centroid": 0.4532902487495324,
+    "whitened": 0.18469789015819948,
+    "medoid": 0.3903102967777001,
+    "exemplar": 0.3903102967777001
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "gold",
+    "label": "Second Amendment Rights and Gun Control",
+    "centroid": 0.6928167266347576,
+    "whitened": 0.3435503196900438,
+    "medoid": 0.4650809851643079,
+    "exemplar": 0.5599760133403693
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "ancestor",
+    "label": "Waco Siege",
+    "centroid": 0.16491898559310653,
+    "whitened": -0.02060838438325873,
+    "medoid": 0.08155378069608497,
+    "exemplar": 0.08775306061621328
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "sibling",
+    "label": "Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds",
+    "centroid": 0.28393667360160857,
+    "whitened": -0.04694389759016089,
+    "medoid": 0.3470469484473957,
+    "exemplar": 0.17561157520547946
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "distant",
+    "label": "X11 Programming and Build Issues",
+    "centroid": -0.04571489236936467,
+    "whitened": -0.02592605238290267,
+    "medoid": -0.039144193017623195,
+    "exemplar": -0.035916888791996504
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.10989894695256211,
+    "whitened": -0.008392929204110566,
+    "medoid": 0.045328561849916786,
+    "exemplar": -0.011915398742291144
+  },
+  {
+    "layer": 1,
+    "idx": 10,
+    "type": "verbose",
+    "label": "Second Amendment Rights and Gun Control, including various related discussions of Waco Siege, Usenet Flame Wars and Personal Attacks on Racial and Intellectual Grounds, among other assorted and loosely connected topics",
+    "centroid": 0.5938298323634099,
+    "whitened": 0.20282612575245254,
+    "medoid": 0.43714411666429165,
+    "exemplar": 0.40210325921243417
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "gold",
+    "label": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+    "centroid": 0.6392132205098879,
+    "whitened": 0.38923622014426595,
+    "medoid": 0.3735627928542787,
+    "exemplar": 0.3735627928542787
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "ancestor",
+    "label": "Vehicle Sales",
+    "centroid": 0.22512313776664888,
+    "whitened": 0.07573914217569033,
+    "medoid": 0.12258906116523888,
+    "exemplar": 0.12258906116523888
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "sibling",
+    "label": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+    "centroid": 0.3912178300211284,
+    "whitened": 0.16979978175596425,
+    "medoid": 0.22123129455721724,
+    "exemplar": 0.22123129455721724
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "distant",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": -0.09357447659491885,
+    "whitened": -0.0016934991255309687,
+    "medoid": -0.05819586285536407,
+    "exemplar": -0.05819586285536407
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": -0.021324708491278765,
+    "whitened": -0.05340635095979167,
+    "medoid": -0.08262684401132334,
+    "exemplar": -0.08262684401132334
+  },
+  {
+    "layer": 1,
+    "idx": 11,
+    "type": "verbose",
+    "label": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice, including various related discussions of Vehicle Sales, Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, among other assorted and loosely connected topics",
+    "centroid": 0.47720072630532945,
+    "whitened": 0.2416716501326972,
+    "medoid": 0.2480523950178446,
+    "exemplar": 0.2480523950178446
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "gold",
+    "label": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting",
+    "centroid": 0.7000033279559066,
+    "whitened": 0.38956273928972185,
+    "medoid": 0.5434491067021422,
+    "exemplar": 0.5180218724497453
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "sibling",
+    "label": "Israeli-Palestinian Conflict and Ethnic Violence",
+    "centroid": 0.009879426539713429,
+    "whitened": -0.02455196938036914,
+    "medoid": 0.0898922261776582,
+    "exemplar": 0.014934049688497687
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "distant",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": -0.041197083129664226,
+    "whitened": -0.05499389890959861,
+    "medoid": -0.006460577497336813,
+    "exemplar": 0.005143088080626648
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.1599113834800454,
+    "whitened": -0.01019714405905962,
+    "medoid": 0.09046466716754376,
+    "exemplar": 0.07947065131353034
+  },
+  {
+    "layer": 1,
+    "idx": 12,
+    "type": "verbose",
+    "label": "DOS and Windows 3.1 System Configuration, Compatibility Issues, and Troubleshooting, including various related discussions of Israeli-Palestinian Conflict and Ethnic Violence, among other assorted and loosely connected topics",
+    "centroid": 0.7060101171184322,
+    "whitened": 0.3792143181949006,
+    "medoid": 0.540144189494383,
+    "exemplar": 0.5261461585913183
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "gold",
+    "label": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith",
+    "centroid": 0.6593613681331836,
+    "whitened": 0.4084193079706872,
+    "medoid": 0.4814181928919936,
+    "exemplar": 0.5490964970581547
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "ancestor",
+    "label": "Christian Theology",
+    "centroid": 0.47376113173745515,
+    "whitened": 0.1182134155787136,
+    "medoid": 0.22876799761184846,
+    "exemplar": 0.21807533110853033
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "sibling",
+    "label": "Religious History and Scripture Authority Debates",
+    "centroid": 0.5078996162771973,
+    "whitened": 0.11939703383226205,
+    "medoid": 0.3201178340342691,
+    "exemplar": 0.21579526627176798
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "distant",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": -0.010129588259478751,
+    "whitened": 0.007259095790404738,
+    "medoid": -0.014084002867431267,
+    "exemplar": 0.0025142531965675168
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.04179596654156893,
+    "whitened": -0.031851287526106914,
+    "medoid": 0.022466358273654632,
+    "exemplar": -0.06001852079507448
+  },
+  {
+    "layer": 1,
+    "idx": 13,
+    "type": "verbose",
+    "label": "Philosophical Debate on Atheism, Theism, Belief, and Religious Faith, including various related discussions of Christian Theology, Religious History and Scripture Authority Debates, among other assorted and loosely connected topics",
+    "centroid": 0.5704134564416716,
+    "whitened": 0.3026876781320512,
+    "medoid": 0.42791739587496486,
+    "exemplar": 0.42049076212814074
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "gold",
+    "label": "Used Cars and Performance Vehicles",
+    "centroid": 0.6248311064289186,
+    "whitened": 0.2717091968019779,
+    "medoid": 0.4336771856303283,
+    "exemplar": 0.4336771856303283
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "ancestor",
+    "label": "Vehicle Sales",
+    "centroid": 0.5825762231521757,
+    "whitened": 0.22054665488088177,
+    "medoid": 0.4596561033449777,
+    "exemplar": 0.4596561033449777
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "sibling",
+    "label": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+    "centroid": 0.4526805187816015,
+    "whitened": 0.08440491592622877,
+    "medoid": 0.3558690965722638,
+    "exemplar": 0.3558690965722638
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "distant",
+    "label": "Israeli-Palestinian Conflict and Ethnic Violence",
+    "centroid": -0.09363690116486059,
+    "whitened": -0.023220982677319153,
+    "medoid": -0.05956372737567086,
+    "exemplar": -0.05956372737567086
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.06517398733889289,
+    "whitened": 0.01564135201965542,
+    "medoid": 0.06591756898878487,
+    "exemplar": 0.06591756898878487
+  },
+  {
+    "layer": 1,
+    "idx": 14,
+    "type": "verbose",
+    "label": "Used Cars and Performance Vehicles, including various related discussions of Vehicle Sales, Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, among other assorted and loosely connected topics",
+    "centroid": 0.4805338680434589,
+    "whitened": 0.16414210763780335,
+    "medoid": 0.37148009804313775,
+    "exemplar": 0.37148009804313775
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "gold",
+    "label": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions",
+    "centroid": 0.6303988240121647,
+    "whitened": 0.22064140004087923,
+    "medoid": 0.4988682881241231,
+    "exemplar": 0.5110969257196885
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "ancestor",
+    "label": "Vehicle Sales",
+    "centroid": 0.4065119298580606,
+    "whitened": 0.05954893364303129,
+    "medoid": 0.28624352802113795,
+    "exemplar": 0.2374878215319539
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "sibling",
+    "label": "Used Cars and Performance Vehicles",
+    "centroid": 0.43114251410001736,
+    "whitened": 0.03968455729046279,
+    "medoid": 0.34357529643202805,
+    "exemplar": 0.30718922852840125
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "distant",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "centroid": 0.03881149220013371,
+    "whitened": 0.03642174803621426,
+    "medoid": -0.007470623217052247,
+    "exemplar": 0.0663460246930222
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": -0.08218362930798238,
+    "whitened": -0.06037397928784129,
+    "medoid": -0.1115716302660161,
+    "exemplar": 0.017684942472029466
+  },
+  {
+    "layer": 1,
+    "idx": 15,
+    "type": "verbose",
+    "label": "Used Motorcycle Sales, Pricing, and Purchase Advice Discussions, including various related discussions of Vehicle Sales, Used Cars and Performance Vehicles, among other assorted and loosely connected topics",
+    "centroid": 0.4767856468991663,
+    "whitened": 0.11809145175896245,
+    "medoid": 0.3458297781170754,
+    "exemplar": 0.363467526928578
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "gold",
+    "label": "Religious History and Scripture Authority Debates",
+    "centroid": 0.6385584294271758,
+    "whitened": 0.22615373888352838,
+    "medoid": 0.48720677954972863,
+    "exemplar": 0.48720677954972863
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "ancestor",
+    "label": "Christian Theology",
+    "centroid": 0.5655260693913612,
+    "whitened": 0.13804025887347735,
+    "medoid": 0.41965767284064903,
+    "exemplar": 0.41965767284064903
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "sibling",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "centroid": 0.4184107410947197,
+    "whitened": 0.028905368668534527,
+    "medoid": 0.34031157800610157,
+    "exemplar": 0.34031157800610157
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "distant",
+    "label": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+    "centroid": 0.022626001156963643,
+    "whitened": 0.04572260468586745,
+    "medoid": 0.045015412797378244,
+    "exemplar": 0.045015412797378244
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.08859361717632716,
+    "whitened": 0.03223196535358031,
+    "medoid": 0.13967399135456957,
+    "exemplar": 0.13967399135456957
+  },
+  {
+    "layer": 1,
+    "idx": 16,
+    "type": "verbose",
+    "label": "Religious History and Scripture Authority Debates, including various related discussions of Christian Theology, Christian theology debates on salvation, scripture interpretation, and biblical doctrine, among other assorted and loosely connected topics",
+    "centroid": 0.5244158550332918,
+    "whitened": 0.16867369227105963,
+    "medoid": 0.4645468177319755,
+    "exemplar": 0.4645468177319755
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "gold",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "centroid": 0.6157427900241814,
+    "whitened": 0.2801974965934129,
+    "medoid": 0.5172915534762967,
+    "exemplar": 0.5172915534762967
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "ancestor",
+    "label": "Christian Theology",
+    "centroid": 0.6479189399700711,
+    "whitened": 0.2065491156893567,
+    "medoid": 0.5061816957901422,
+    "exemplar": 0.5061816957901422
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "sibling",
+    "label": "Religious History and Scripture Authority Debates",
+    "centroid": 0.5762554143411828,
+    "whitened": 0.17067167627367152,
+    "medoid": 0.4752734033100482,
+    "exemplar": 0.4752734033100482
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "distant",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": 0.016560374310135264,
+    "whitened": 0.018008751839985508,
+    "medoid": 0.11473945855921902,
+    "exemplar": 0.11473945855921902
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.10248801849202413,
+    "whitened": -0.018030268193813294,
+    "medoid": 0.08623763308183155,
+    "exemplar": 0.08623763308183155
+  },
+  {
+    "layer": 1,
+    "idx": 17,
+    "type": "verbose",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine, including various related discussions of Christian Theology, Religious History and Scripture Authority Debates, among other assorted and loosely connected topics",
+    "centroid": 0.4952879074073213,
+    "whitened": 0.17409080931330584,
+    "medoid": 0.4485717485815383,
+    "exemplar": 0.4485717485815383
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "gold",
+    "label": "Used Electronics and Equipment Classifieds",
+    "centroid": 0.44583555429634003,
+    "whitened": 0.17288880131334222,
+    "medoid": 0.21945910865781673,
+    "exemplar": 0.21945910865781673
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.30641312265322207,
+    "whitened": 0.07010665129294963,
+    "medoid": 0.19392698352560278,
+    "exemplar": 0.19392698352560278
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "sibling",
+    "label": "Vintage Computer Hardware Sales Classifieds",
+    "centroid": 0.5709649868159243,
+    "whitened": 0.1428423595152606,
+    "medoid": 0.41671517460908214,
+    "exemplar": 0.41671517460908214
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "distant",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "centroid": 0.06539163176307602,
+    "whitened": -0.010391936614047137,
+    "medoid": 0.09591924047352161,
+    "exemplar": 0.09591924047352161
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.07174161165171733,
+    "whitened": -0.007238073225694679,
+    "medoid": 0.023666604840813635,
+    "exemplar": 0.023666604840813635
+  },
+  {
+    "layer": 1,
+    "idx": 18,
+    "type": "verbose",
+    "label": "Used Electronics and Equipment Classifieds, including various related discussions of Computer Classifieds, Vintage Computer Hardware Sales Classifieds, among other assorted and loosely connected topics",
+    "centroid": 0.38872155187568225,
+    "whitened": 0.145257997442224,
+    "medoid": 0.20868138425555982,
+    "exemplar": 0.20868138425555982
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "gold",
+    "label": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting",
+    "centroid": 0.6925763563491795,
+    "whitened": 0.424143810063,
+    "medoid": 0.556426610193874,
+    "exemplar": 0.7318878393221562
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.1878919768475067,
+    "whitened": -0.007619506921629611,
+    "medoid": 0.13357881665723778,
+    "exemplar": 0.04005380947868966
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "sibling",
+    "label": "Vintage Computer Hardware Sales Classifieds",
+    "centroid": 0.2710784294375185,
+    "whitened": -0.012991206140890443,
+    "medoid": 0.18479356309218578,
+    "exemplar": 0.098135019437909
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "distant",
+    "label": "Early 1990s NHL Playoff Fantasy League",
+    "centroid": 0.025514841524453265,
+    "whitened": 0.04251199075924838,
+    "medoid": 0.0008000317708591852,
+    "exemplar": -0.06562994720777814
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.03954571492778046,
+    "whitened": 0.026371806449123368,
+    "medoid": -0.025795343796208133,
+    "exemplar": -0.037403049529558814
+  },
+  {
+    "layer": 1,
+    "idx": 19,
+    "type": "verbose",
+    "label": "IDE and SCSI Hard Drive Installation Configuration and Troubleshooting, including various related discussions of Computer Classifieds, Vintage Computer Hardware Sales Classifieds, among other assorted and loosely connected topics",
+    "centroid": 0.7077473627316089,
+    "whitened": 0.38739179935352086,
+    "medoid": 0.5522238374974544,
+    "exemplar": 0.6514949545277479
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "gold",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": 0.7194046236998491,
+    "whitened": 0.4462856372490859,
+    "medoid": 0.6123545383236917,
+    "exemplar": 0.6123545383236917
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "ancestor",
+    "label": "X11 Graphics",
+    "centroid": 0.47911295999111797,
+    "whitened": 0.13630095802604833,
+    "medoid": 0.31767558492384185,
+    "exemplar": 0.31767558492384185
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "sibling",
+    "label": "X11 Programming and Build Issues",
+    "centroid": 0.2507503007081143,
+    "whitened": 0.00643265307662217,
+    "medoid": 0.12565621931623325,
+    "exemplar": 0.12565621931623325
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "distant",
+    "label": "Motorcycle Riding Techniques, Safety, and Passenger Handling Advice",
+    "centroid": -0.08740016158914511,
+    "whitened": -0.004491475748214804,
+    "medoid": -0.06660789114058505,
+    "exemplar": -0.06660789114058505
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": -0.06546004425681329,
+    "whitened": -0.04530572456122496,
+    "medoid": -0.07695950448830605,
+    "exemplar": -0.07695950448830605
+  },
+  {
+    "layer": 1,
+    "idx": 20,
+    "type": "verbose",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files, including various related discussions of X11 Graphics, X11 Programming and Build Issues, among other assorted and loosely connected topics",
+    "centroid": 0.7279636838664715,
+    "whitened": 0.3553863161198046,
+    "medoid": 0.5274001390142506,
+    "exemplar": 0.5274001390142506
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "gold",
+    "label": "X11 Programming and Build Issues",
+    "centroid": 0.611628941175826,
+    "whitened": 0.3505630572481341,
+    "medoid": 0.34055332359805285,
+    "exemplar": 0.34055332359805285
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "ancestor",
+    "label": "X11 Graphics",
+    "centroid": 0.5170401638141662,
+    "whitened": 0.1583088441954717,
+    "medoid": 0.42590534510255573,
+    "exemplar": 0.42590534510255573
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "sibling",
+    "label": "Image File Format Conversion and Viewer Software for Graphics Files",
+    "centroid": 0.2012561736655199,
+    "whitened": -0.057833201933691014,
+    "medoid": 0.15596927958637102,
+    "exemplar": 0.15596927958637102
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "distant",
+    "label": "MLB Season Predictions and Player Analysis",
+    "centroid": -0.0537191503534379,
+    "whitened": -0.013434356242816848,
+    "medoid": -0.017368349642141928,
+    "exemplar": -0.017368349642141928
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.024551475065417935,
+    "whitened": -0.02158856280506094,
+    "medoid": -0.039345220437319695,
+    "exemplar": -0.039345220437319695
+  },
+  {
+    "layer": 1,
+    "idx": 21,
+    "type": "verbose",
+    "label": "X11 Programming and Build Issues, including various related discussions of X11 Graphics, Image File Format Conversion and Viewer Software for Graphics Files, among other assorted and loosely connected topics",
+    "centroid": 0.5818684343534544,
+    "whitened": 0.20212526460120428,
+    "medoid": 0.36053743235839397,
+    "exemplar": 0.36053743235839397
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "gold",
+    "label": "Vintage Windows Graphics Card Driver Issues",
+    "centroid": 0.5410671756040533,
+    "whitened": 0.31071060227861236,
+    "medoid": 0.41792033754903707,
+    "exemplar": 0.41792033754903707
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.2594682587439153,
+    "whitened": 0.011871649776953165,
+    "medoid": 0.07373580179876746,
+    "exemplar": 0.07373580179876746
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "sibling",
+    "label": "Vintage Computer Hardware Sales Classifieds",
+    "centroid": 0.3442459833504322,
+    "whitened": 0.018586017549322115,
+    "medoid": 0.20953282337136525,
+    "exemplar": 0.20953282337136525
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "distant",
+    "label": "Libertarian Philosophy and Clinton-Era Politics",
+    "centroid": -0.009843447668595677,
+    "whitened": 0.029228662841252376,
+    "medoid": -0.050702234730155574,
+    "exemplar": -0.050702234730155574
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.06428559915861326,
+    "whitened": -0.0190079985984295,
+    "medoid": -0.014494001312765315,
+    "exemplar": -0.014494001312765315
+  },
+  {
+    "layer": 1,
+    "idx": 22,
+    "type": "verbose",
+    "label": "Vintage Windows Graphics Card Driver Issues, including various related discussions of Computer Classifieds, Vintage Computer Hardware Sales Classifieds, among other assorted and loosely connected topics",
+    "centroid": 0.5675402349904605,
+    "whitened": 0.2522839938062347,
+    "medoid": 0.38182635634518625,
+    "exemplar": 0.38182635634518625
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "gold",
+    "label": "Vintage Computer Hardware Sales Classifieds",
+    "centroid": 0.5965499364600684,
+    "whitened": 0.19811201132173165,
+    "medoid": 0.5082275727107077,
+    "exemplar": 0.5082275727107077
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "ancestor",
+    "label": "Computer Classifieds",
+    "centroid": 0.4306203649135669,
+    "whitened": 0.1212798849692703,
+    "medoid": 0.33103994932990966,
+    "exemplar": 0.33103994932990966
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "sibling",
+    "label": "Vintage Windows Graphics Card Driver Issues",
+    "centroid": 0.21368842051204842,
+    "whitened": -0.04421202455739751,
+    "medoid": 0.20521629339007008,
+    "exemplar": 0.20521629339007008
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "distant",
+    "label": "Christian theology debates on salvation, scripture interpretation, and biblical doctrine",
+    "centroid": 0.0064166594054074905,
+    "whitened": -0.007984926385842323,
+    "medoid": 0.054809484929850855,
+    "exemplar": 0.054809484929850855
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.018311498542050744,
+    "whitened": -0.010500434016820956,
+    "medoid": 0.04944090081975172,
+    "exemplar": 0.04944090081975172
+  },
+  {
+    "layer": 1,
+    "idx": 23,
+    "type": "verbose",
+    "label": "Vintage Computer Hardware Sales Classifieds, including various related discussions of Computer Classifieds, Vintage Windows Graphics Card Driver Issues, among other assorted and loosely connected topics",
+    "centroid": 0.5278195239978936,
+    "whitened": 0.10036076443940209,
+    "medoid": 0.440356905190704,
+    "exemplar": 0.440356905190704
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "gold",
+    "label": "Sports Fantasy",
+    "centroid": 0.5005844524711923,
+    "whitened": 0.18192726811753426,
+    "medoid": 0.5108384149725151,
+    "exemplar": 0.5108384149725151
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "sibling",
+    "label": "Nutritional and Alternative Medicine Debate",
+    "centroid": 0.03626052308458705,
+    "whitened": -0.018451979023196514,
+    "medoid": -0.017816431119173425,
+    "exemplar": -0.017816431119173425
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "distant",
+    "label": "X11 Graphics",
+    "centroid": -0.03451496466419843,
+    "whitened": -0.005782634542734792,
+    "medoid": -0.0340089225141266,
+    "exemplar": -0.0340089225141266
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.09362914425886165,
+    "whitened": 0.023288337080728513,
+    "medoid": 0.1899470272956137,
+    "exemplar": 0.1899470272956137
+  },
+  {
+    "layer": 2,
+    "idx": 0,
+    "type": "verbose",
+    "label": "Sports Fantasy, including various related discussions of Nutritional and Alternative Medicine Debate, among other assorted and loosely connected topics",
+    "centroid": 0.29969683940642716,
+    "whitened": 0.09198083431402505,
+    "medoid": 0.26180417413180224,
+    "exemplar": 0.26180417413180224
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "gold",
+    "label": "Nutritional and Alternative Medicine Debate",
+    "centroid": 0.4895976049924567,
+    "whitened": 0.21265247921148855,
+    "medoid": 0.3657761540155531,
+    "exemplar": 0.3657761540155531
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "sibling",
+    "label": "Sports Fantasy",
+    "centroid": 0.034424027074116154,
+    "whitened": -0.010083780040120546,
+    "medoid": 0.05085125396759195,
+    "exemplar": 0.05085125396759195
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "distant",
+    "label": "X11 Graphics",
+    "centroid": -0.05452229203702803,
+    "whitened": -0.03442507130080226,
+    "medoid": -0.05126388578466215,
+    "exemplar": -0.05126388578466215
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.09204905398415279,
+    "whitened": 0.005580999923188303,
+    "medoid": -0.03354721468117079,
+    "exemplar": -0.03354721468117079
+  },
+  {
+    "layer": 2,
+    "idx": 1,
+    "type": "verbose",
+    "label": "Nutritional and Alternative Medicine Debate, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.3983507014326566,
+    "whitened": 0.1767448999730754,
+    "medoid": 0.2515045265960555,
+    "exemplar": 0.2515045265960555
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "gold",
+    "label": "Clipper Chip Encryption Policy Debate",
+    "centroid": 0.6793187206989213,
+    "whitened": 0.37355179446478504,
+    "medoid": 0.6289741390419672,
+    "exemplar": 0.6289741390419672
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "sibling",
+    "label": "Sports Fantasy",
+    "centroid": 0.0616724381154796,
+    "whitened": 0.03271299971268055,
+    "medoid": 0.0064606610365061275,
+    "exemplar": 0.0064606610365061275
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "distant",
+    "label": "Sports Fantasy",
+    "centroid": 0.0616724381154796,
+    "whitened": 0.03271299971268055,
+    "medoid": 0.0064606610365061275,
+    "exemplar": 0.0064606610365061275
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.08185007300753624,
+    "whitened": -0.011534460166612678,
+    "medoid": 0.07258619587292481,
+    "exemplar": 0.07258619587292481
+  },
+  {
+    "layer": 2,
+    "idx": 2,
+    "type": "verbose",
+    "label": "Clipper Chip Encryption Policy Debate, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.5935641983317658,
+    "whitened": 0.32134508005041923,
+    "medoid": 0.5098493197372111,
+    "exemplar": 0.5098493197372111
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "gold",
+    "label": "Space exploration missions and spacecraft",
+    "centroid": 0.5179983706958026,
+    "whitened": 0.30644756937779477,
+    "medoid": 0.35471840317704817,
+    "exemplar": 0.44329360384959504
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "sibling",
+    "label": "Sports Fantasy",
+    "centroid": 0.06298827010078487,
+    "whitened": -0.047416684110239866,
+    "medoid": 0.022260323873407754,
+    "exemplar": -0.03577671201667791
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "distant",
+    "label": "Christian Theology",
+    "centroid": -0.008547714536081333,
+    "whitened": -0.0741456086973737,
+    "medoid": 0.019749091961927073,
+    "exemplar": -0.011864437970683206
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.32025355351659957,
+    "whitened": -0.0010339773123571386,
+    "medoid": 0.16750812573283072,
+    "exemplar": 0.06776672603590947
+  },
+  {
+    "layer": 2,
+    "idx": 3,
+    "type": "verbose",
+    "label": "Space exploration missions and spacecraft, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.4236892960323932,
+    "whitened": 0.20943907168316345,
+    "medoid": 0.23630375108936058,
+    "exemplar": 0.2764633314219679
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "gold",
+    "label": "Vehicle Sales",
+    "centroid": 0.5185221492755621,
+    "whitened": 0.2033979628407397,
+    "medoid": 0.28624352802113795,
+    "exemplar": 0.31506063502826837
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "sibling",
+    "label": "Sports Fantasy",
+    "centroid": 0.0678095102802562,
+    "whitened": -0.0020418408311428746,
+    "medoid": 0.0834846704710473,
+    "exemplar": 0.018339465110096265
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "distant",
+    "label": "Christian Theology",
+    "centroid": -0.02457288980692298,
+    "whitened": -0.019883503656334393,
+    "medoid": -0.05010344072107249,
+    "exemplar": -0.08311863417597704
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "generic",
+    "label": "General content",
+    "centroid": 0.03313480259336972,
+    "whitened": -0.01180723946732802,
+    "medoid": -0.033779568693938576,
+    "exemplar": 0.02866366406448223
+  },
+  {
+    "layer": 2,
+    "idx": 4,
+    "type": "verbose",
+    "label": "Vehicle Sales, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.38256510166323576,
+    "whitened": 0.12887017137308893,
+    "medoid": 0.2702677697735787,
+    "exemplar": 0.24717081026123067
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "gold",
+    "label": "Christian Theology",
+    "centroid": 0.6386619128358111,
+    "whitened": 0.22673080489924619,
+    "medoid": 0.43093972977521466,
+    "exemplar": 0.43093972977521466
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "sibling",
+    "label": "Sports Fantasy",
+    "centroid": 0.01868012220980604,
+    "whitened": -0.012357996357673741,
+    "medoid": -6.606092070764874e-05,
+    "exemplar": -6.606092070764874e-05
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "distant",
+    "label": "X11 Graphics",
+    "centroid": -0.015042000213510594,
+    "whitened": -0.0022654610076195472,
+    "medoid": -0.01048293273522395,
+    "exemplar": -0.01048293273522395
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "generic",
+    "label": "Assorted posts",
+    "centroid": 0.016949476657761486,
+    "whitened": -0.008466311881622748,
+    "medoid": -0.07622407080109944,
+    "exemplar": -0.07622407080109944
+  },
+  {
+    "layer": 2,
+    "idx": 5,
+    "type": "verbose",
+    "label": "Christian Theology, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.519804789743006,
+    "whitened": 0.20836372904221226,
+    "medoid": 0.3509005572902245,
+    "exemplar": 0.3509005572902245
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "gold",
+    "label": "Waco Siege",
+    "centroid": 0.23200572139226547,
+    "whitened": 0.05511857823110322,
+    "medoid": 0.1606785752838454,
+    "exemplar": 0.08155378069608497
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "sibling",
+    "label": "Sports Fantasy",
+    "centroid": -0.049690473961390924,
+    "whitened": -0.07475892332751108,
+    "medoid": 0.01056450486598016,
+    "exemplar": -0.03994548078078343
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "distant",
+    "label": "X11 Graphics",
+    "centroid": -0.03845705517727011,
+    "whitened": -0.037980822781399595,
+    "medoid": -0.02172830010884976,
+    "exemplar": -0.036865417226599556
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "generic",
+    "label": "A range of subjects",
+    "centroid": 0.13099298204878024,
+    "whitened": 0.028326899765987488,
+    "medoid": 0.09464319266176738,
+    "exemplar": 0.045328561849916786
+  },
+  {
+    "layer": 2,
+    "idx": 6,
+    "type": "verbose",
+    "label": "Waco Siege, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.1884691638954434,
+    "whitened": 0.010525222374345146,
+    "medoid": 0.1864128176406802,
+    "exemplar": 0.05425846855032908
+  },
+  {
+    "layer": 2,
+    "idx": 7,
+    "type": "gold",
+    "label": "X11 Graphics",
+    "centroid": 0.5733282847128811,
+    "whitened": 0.19405491923259915,
+    "medoid": 0.5114319212395594,
+    "exemplar": 0.3770226101458931
+  },
+  {
+    "layer": 2,
+    "idx": 7,
+    "type": "sibling",
+    "label": "Sports Fantasy",
+    "centroid": -0.00786123706421113,
+    "whitened": -0.02510357733216392,
+    "medoid": -0.0053868892111038295,
+    "exemplar": -0.014900495316492263
+  },
+  {
+    "layer": 2,
+    "idx": 7,
+    "type": "distant",
+    "label": "Christian Theology",
+    "centroid": 0.015511574397201897,
+    "whitened": 0.003002086171692578,
+    "medoid": -0.03885418082860148,
+    "exemplar": -0.02977171082425087
+  },
+  {
+    "layer": 2,
+    "idx": 7,
+    "type": "generic",
+    "label": "Various topics",
+    "centroid": 0.06850100524735414,
+    "whitened": 0.004898103181037948,
+    "medoid": 0.1661849853011576,
+    "exemplar": 0.09822059492075678
+  },
+  {
+    "layer": 2,
+    "idx": 7,
+    "type": "verbose",
+    "label": "X11 Graphics, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.34968261864331873,
+    "whitened": 0.10940997010604442,
+    "medoid": 0.37567502051440205,
+    "exemplar": 0.2043813865142454
+  },
+  {
+    "layer": 2,
+    "idx": 8,
+    "type": "gold",
+    "label": "Computer Classifieds",
+    "centroid": 0.41579231219086243,
+    "whitened": 0.09749946206317497,
+    "medoid": 0.33103994932990966,
+    "exemplar": 0.33103994932990966
+  },
+  {
+    "layer": 2,
+    "idx": 8,
+    "type": "sibling",
+    "label": "Sports Fantasy",
+    "centroid": 0.06865954020336743,
+    "whitened": -0.005560683464156342,
+    "medoid": 0.0982939651734307,
+    "exemplar": 0.0982939651734307
+  },
+  {
+    "layer": 2,
+    "idx": 8,
+    "type": "distant",
+    "label": "Christian Theology",
+    "centroid": 0.014651363509700498,
+    "whitened": -0.011411450224867913,
+    "medoid": 0.025630206997699995,
+    "exemplar": 0.025630206997699995
+  },
+  {
+    "layer": 2,
+    "idx": 8,
+    "type": "generic",
+    "label": "Miscellaneous discussions",
+    "centroid": 0.1335747874068593,
+    "whitened": 0.0018827393947633692,
+    "medoid": 0.10495436683454065,
+    "exemplar": 0.10495436683454065
+  },
+  {
+    "layer": 2,
+    "idx": 8,
+    "type": "verbose",
+    "label": "Computer Classifieds, including various related discussions of Sports Fantasy, among other assorted and loosely connected topics",
+    "centroid": 0.1596137700284083,
+    "whitened": 0.02675028843063355,
+    "medoid": 0.10932168915052054,
+    "exemplar": 0.10932168915052054
+  }
+]
