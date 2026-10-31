@@ -5,3 +5,5 @@ embedder_jobs_cache/
 *.tmp
 __pycache__/
 fresh_units.json
+dm_results.jsonl
+dm_pilot.jsonl

@@ -1,0 +1,25 @@
+========== 20ng ==========
+clusters 94; Haiku pick equals Sonnet's in 17, equals stock in 8
+within-cluster rho, Haiku single sample vs Sonnet mean +0.285 (n=94, p=8.9e-11); Sonnet single sample vs its other two +0.412
+HAIKU fresh gain over stock +0.031 (95% CI +0.006 to +0.057), wilcoxon p=0.163
+SONNET fresh gain over stock, same clusters +0.062 (95% CI +0.038 to +0.087)
+Haiku minus Sonnet -0.031 (95% CI -0.050 to -0.012), wilcoxon p=0.00116; Haiku keeps 50% of Sonnet's gain
+pick beats stock on fresh documents in 55% of differing clusters
+frozen documents, Sonnet-rated: Haiku pick 0.593, random candidate 0.545, Sonnet pick 0.661 (in-sample)
+words: Haiku pick 6.5, Sonnet pick 6.8, stock 8.0
+  L0: 65 clusters, Haiku +0.038, Sonnet +0.062
+  L1: 21 clusters, Haiku +0.017, Sonnet +0.069
+  L2: 8 clusters, Haiku +0.011, Sonnet +0.043
+========== arxiv_home ==========
+clusters 103; Haiku pick equals Sonnet's in 18, equals stock in 11
+within-cluster rho, Haiku single sample vs Sonnet mean +0.287 (n=103, p=2.9e-10); Sonnet single sample vs its other two +0.455
+HAIKU fresh gain over stock +0.013 (95% CI -0.005 to +0.033), wilcoxon p=0.136
+SONNET fresh gain over stock, same clusters +0.016 (95% CI -0.003 to +0.035)
+Haiku minus Sonnet -0.003 (95% CI -0.023 to +0.018), wilcoxon p=0.458; Haiku keeps 83% of Sonnet's gain
+pick beats stock on fresh documents in 60% of differing clusters
+frozen documents, Sonnet-rated: Haiku pick 0.599, random candidate 0.572, Sonnet pick 0.660 (in-sample)
+words: Haiku pick 6.6, Sonnet pick 7.2, stock 8.5
+  L0: 72 clusters, Haiku +0.002, Sonnet +0.002
+  L1: 24 clusters, Haiku +0.019, Sonnet +0.040
+  L2: 7 clusters, Haiku +0.112, Sonnet +0.077
+calls and tokens (calls, input, output): {'haiku_results.jsonl': (1906, 6445901, 89579), 'haiku_rate_results.jsonl': (498, 1405695, 9005)}

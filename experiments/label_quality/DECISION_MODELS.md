@@ -11,26 +11,31 @@ against neighbouring clusters with a wayfinding lineup, and select one. Any pref
 is optional. Cost was the main reason #177 stopped short of proposing its length controller as a
 default, so the hope is that a cheap decision model such as Jev could do the scoring.
 
-That splits into two questions, tested separately. Is selecting among candidates worth anything on
-documents the selection never saw? That used Sonnet as the scorer. Can a cheap model do the scoring?
-That used **Laya**, an open Jev-like model, on local hardware. **Jev itself was not tested.**
+That splits into two questions. Is selecting among candidates worth anything on documents the
+selection never saw? That used Sonnet as the scorer. Can a cheaper model do the scoring? That tested
+**Laya**, an open Jev-like model run locally, then **Haiku**, then four hosted decision models
+including **Jev 1.14** through OpenRouter.
 
 1. **Selection survives fresh documents.** The top-scoring candidate on one document draw beat stock
    on a fresh draw by +.059 (20NG) and +.018 (arXiv), while also being shorter. The arXiv gain only
    just clears zero, and most of the apparent gain on the original draw did not carry over.
 2. **Size is not what separates candidates.** Length explains under 6% of within-cluster score
    differences for every candidate source, and about 2% across the full length ladder.
-3. **Laya sorts bad labels from good but cannot rank one cluster's candidates.** Agreement with
+3. **Cheap scorers capture part of that gain.** On the same 197 clusters and fresh documents, Sonnet
+   gained +.062 / +.016, Haiku +.031 / +.013, Liquid d1-ultra +.032 / +.014, and Jev 1.14
+   +.033 / +.001. The decision models score at about a thirtieth of Haiku's cost, though neither
+   decision model's gain was significant on a signed-rank test.
+4. **Laya sorts bad labels from good but cannot rank one cluster's candidates.** Agreement with
    Sonnet across label kinds is 0.80 and 0.74. Among a single cluster's candidates it is +0.06 and
-   −0.04, where a Sonnet sample agrees with its own other samples at 0.34 and 0.42. So selection has
-   value, and Laya cannot capture it.
-4. **Among labels that differ only in length, a fixed terse rung is the baseline to beat.** Rung 5
+   −0.04, where a Sonnet sample agrees with its own other samples at 0.34 and 0.42.
+5. **Among labels that differ only in length, a fixed terse rung is the baseline to beat.** Rung 5
    at every layer matched or beat Laya's selections, about 60% shorter than stock and rated 0.020
    lower on 20NG and 0.001 lower on arXiv. This says nothing about choosing between labels with
    different content, which a fixed setting cannot do.
-5. **Question format matters more than checkpoint.** The literal lineup and per-group questions sat
-   near chance on Laya. Only documents as state with a Choice over labels carried signal.
-6. **Cluster ids are not stable between processes** (see below), which touched 2 of 111 clusters in
+6. **Question format decides whether a decision model works, and the right format varies by model.**
+   On Laya only documents as state with a Choice over labels carried signal, and the literal lineup
+   sat near chance. On all four hosted models it was the reverse.
+7. **Cluster ids are not stable between processes** (see below), which touched 2 of 111 clusters in
    the posted arXiv held-out result without changing its conclusion.
 
 ## Selection is not about size
@@ -82,12 +87,65 @@ they are not directly comparable with a pick from all three. By layer, the fresh
 +.071, +.050 on 20NG and +.007, +.035, +.077 on arXiv, with few clusters at the coarsest layers.
 
 This is the value of selection with a strong scorer and about ten candidates per cluster, at roughly
-30 listener calls per cluster. It is not yet a cheap way to get that value. Selection and evaluation
-also shared one listener and only one fresh draw was used. The earlier check against the #177
-held-out data looked much weaker (correlations of +.01 and +.37), but those picks were chosen for
-brevity, which restricts their range.
+30 listener calls per cluster. Selection and evaluation also shared one listener and only one fresh
+draw was used. The earlier check against the #177 held-out data looked much weaker (correlations of
++.01 and +.37), but those picks were chosen for brevity, which restricts their range.
+
+## Cheaper scorers
+
+Both tests keep the fresh-document design. A scorer picks among the pooled candidates on the frozen
+documents, then Sonnet rates picks and stock on the fresh draw, reusing ratings already paid for.
+Both ran on the same 197 of 223 clusters, a fixed random subset stratified by layer. Haiku's calls
+cost more than estimated and the full job would have passed the test's 9M token cap. Sonnet's
+numbers here are for those same clusters, so they differ slightly from the section above.
+
+Haiku used one sample per candidate with the July prompt. Four decision models ran through
+OpenRouter's Decisions API, once per label in the literal lineup and once per document in the labels
+format. The ranking rule was fixed before the run: mean within-cluster Spearman with Sonnet, averaged
+across corpora, with the top two models going forward in their better format.
+
+| scorer | format | agreement, 20NG | agreement, arXiv |
+|---|---|---|---|
+| Sonnet, one sample against its other two | reference | +.412 | +.455 |
+| Jev 1.14 | lineup | +.427 | +.382 |
+| Liquid d1-ultra | lineup | +.414 | +.337 |
+| Microsoft decision-1 | lineup | +.360 | +.345 |
+| Perplexity decider v1.2 | lineup | +.361 | +.333 |
+| Haiku | lineup prompt | +.285 | +.287 |
+| same four decision models | documents, Choice over labels | +.012 to +.059 | +.017 to +.047 |
+
+Fresh-document results over the same clusters, with 95% bootstrap intervals. Stock is 8.0 and 8.5
+words. Win rates cover clusters where the pick differs from stock.
+
+| scorer | gain, 20NG | gain, arXiv | wins | words | scoring cost per cluster |
+|---|---|---|---|---|---|
+| Sonnet, 3 samples | +.062 (+.038 to +.087) | +.016 (−.003 to +.035) | 75% / 63% | 6.8 / 7.2 | about $0.31 |
+| Haiku, 1 sample | +.031 (+.006 to +.057) | +.013 (−.005 to +.033) | 55% / 60% | 6.5 / 6.6 | about $0.035 |
+| Liquid d1-ultra, lineup | +.032 (+.006 to +.060) | +.014 (−.001 to +.031) | 57% / 61% | 7.6 / 7.3 | $0.0010 |
+| Jev 1.14, lineup | +.033 (+.008 to +.061) | +.001 (−.019 to +.021) | 49% / 53% | 5.7 / 4.9 | $0.0012 |
+
+- **The decision models match Haiku at far lower cost, and neither clearly beats the other.** The
+  differences between cheap scorers are within noise. Signed-rank p is .16 and .14 for Haiku, .14 and
+  .79 for Jev, and .054 and .17 for Liquid. Liquid won more often, and Jev's gain comes from fewer
+  clusters.
+- **Agreement did not predict gain.** Jev's agreement is near Sonnet's own reference and above Haiku,
+  yet its fresh gain is no better. All models read the same five documents, so some of that agreement
+  may concern those documents and not the region.
+- **All three cheap scorers trail Sonnet by about .03 on 20NG** (Haiku −.031, Jev −.028, Liquid
+  −.030, each interval excluding zero). Sonnet rated every pick including its own, so part of that
+  gap may be home advantage. On arXiv the gaps are −.003, −.015, and −.002, all within noise.
+- **Jev chose shorter labels without being asked,** 42% shorter than stock on arXiv at no measured
+  loss.
+- **Scoring cost excludes generating candidates.**
+
+The Haiku test used 1,906 Haiku calls and 498 Sonnet rating calls, 7,851,596 input tokens in all. The
+decision-model screen used 45,744 requests and 30.7M input tokens, $1.13 as reported by OpenRouter,
+and 669 Sonnet rating calls at 1,885,992 input tokens. Haiku and Sonnet costs use the prices in the
+installed litellm table ($1 and $5, and $3 and $15, per million input and output tokens).
 
 ## Format pilot
+
+This section covers Laya only. The hosted decision models behaved the opposite way, as shown above.
 
 Laya's English checkpoint reads 512 tokens and a k=5 lineup prompt is 3,751, so the lineup could
 not be replayed as written. Seven combinations of format and checkpoint ran on a stratified battery
@@ -200,9 +258,10 @@ recomputed. 20NG reproduced in every fit tried. The cause was not investigated.
 
 ## Caveats
 
-- The scoring results test Laya, not Jev. Jev may do better, and a Jev run should use documents as
-  state with a Choice over labels. It needs a key and is estimated at under a dollar. A pass would
-  mean within-cluster agreement near 0.34 to 0.42 and picks that beat stock on fresh documents.
+- Decision-model results rest on one call per label and one fresh draw. Identical requests returned
+  slightly different answers in the labels format on three of the four models. OpenRouter labels
+  its Decisions API as alpha. Versions served were `jev-1.14-20261014`, `d1-ultra-20261015`,
+  `microsoft-decision-1-20261009`, and `pplx-decider-v1.2-20261016`.
 - If gains are partly document-specific, scoring on more documents may help, and that is where a
   cheap scorer could add the most. Five documents was a cost choice, and more were not tried.
 - Laya ran zero-shot with its shipped checkpoints. Its docs say fine-tuning helps, and that was not
@@ -237,10 +296,25 @@ LAYA=$(mktemp -d); uv venv --python 3.12 "$LAYA" && uv pip install --python "$LA
 PYTHONPATH="$FROZEN:$D" .venv/bin/python $D/fresh_prep.py $D
 .venv/bin/python $D/fresh_run.py $D   # paid, about 3.3M input tokens, hard cap 5.0M
 .venv/bin/python $D/fresh_analyze.py $D
+
+.venv/bin/python $D/haiku_test.py $D prep
+.venv/bin/python $D/haiku_test.py $D score 6     # small paid pilot that calibrates the subset
+.venv/bin/python $D/haiku_test.py $D subset
+.venv/bin/python $D/haiku_test.py $D score       # paid
+.venv/bin/python $D/haiku_test.py $D rate        # paid
+.venv/bin/python $D/haiku_analyze.py $D
+
+.venv/bin/python $D/dm_screen.py $D pilot                     # paid, under a cent
+.venv/bin/python $D/dm_screen.py $D screen --cap-usd 1.50     # paid, needs OPENROUTER_API_KEY
+.venv/bin/python $D/dm_analyze.py $D rank
+.venv/bin/python $D/dm_analyze.py $D rate                     # paid
+.venv/bin/python $D/dm_analyze.py $D report
 ```
 
-`laya_analyze.py` and `fresh_analyze.py` regenerate the committed summaries exactly from the
-committed results. `dump_lineups.py` supplies helpers to `dump_lineups2.py`; running it directly
-fails whenever the arXiv fit lands on the other variant. `fresh_prep.py` stops for the same reason,
-so rerun it until it passes. Rebuilt lineup files and `fresh_units.json` contain corpus text and are
-gitignored. `fresh_pairs.json` is the same data without documents.
+`laya_analyze.py`, `fresh_analyze.py`, `haiku_analyze.py`, and `dm_analyze.py` regenerate the
+committed summaries exactly from the committed results. `dm_results.jsonl` is 12.8 MB and is not
+committed; `dm_scores.json` holds each label's score, which is all the analysis needs.
+`dump_lineups.py` supplies helpers to `dump_lineups2.py`; running it directly fails whenever the
+arXiv fit lands on the other variant. `fresh_prep.py` stops for the same reason, so rerun it until it
+passes. Rebuilt lineup files and `fresh_units.json` contain corpus text and are gitignored.
+`fresh_pairs.json` is the same data without documents.

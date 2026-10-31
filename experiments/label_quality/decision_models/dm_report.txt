@@ -1,0 +1,14 @@
+========== 20ng ==========
+sonnet                                       gain +0.062 (+0.038 to +0.087) p=8.2e-07 wins 75% words 6.8 same-as-Sonnet 94
+haiku                                        gain +0.031 (+0.006 to +0.057) p=0.163 wins 55% words 6.5 same-as-Sonnet 17 | vs Sonnet -0.031 (-0.050 to -0.012)
+typesafe/jev-1.14 (lineup)                   gain +0.033 (+0.008 to +0.061) p=0.136 wins 49% words 5.7 same-as-Sonnet 17 | vs Sonnet -0.028 (-0.043 to -0.014)
+liquid/d1-ultra (lineup)                     gain +0.032 (+0.006 to +0.060) p=0.0542 wins 57% words 7.6 same-as-Sonnet 24 | vs Sonnet -0.030 (-0.046 to -0.014)
+stock words 8.0, clusters 94
+========== arxiv_home ==========
+sonnet                                       gain +0.016 (-0.003 to +0.035) p=0.0388 wins 63% words 7.2 same-as-Sonnet 103
+haiku                                        gain +0.013 (-0.005 to +0.033) p=0.136 wins 60% words 6.6 same-as-Sonnet 18 | vs Sonnet -0.003 (-0.023 to +0.018)
+typesafe/jev-1.14 (lineup)                   gain +0.001 (-0.019 to +0.021) p=0.787 wins 53% words 4.9 same-as-Sonnet 20 | vs Sonnet -0.015 (-0.035 to +0.006)
+liquid/d1-ultra (lineup)                     gain +0.014 (-0.001 to +0.031) p=0.17 wins 61% words 7.3 same-as-Sonnet 25 | vs Sonnet -0.002 (-0.020 to +0.017)
+stock words 8.5, clusters 103
+screen: 45744 requests, 30,691,277 input tokens, reported cost $1.13
+sonnet rating: 669 calls, 1,885,992 input tokens, 0 failed

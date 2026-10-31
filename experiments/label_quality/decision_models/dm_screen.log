@@ -1,0 +1,24 @@
+0 done, 45744 to run, $0.000 spent, cap $1.50
+[22:46:55] 2000 requests, 0 failed, $0.048 spent
+[22:47:17] 4000 requests, 0 failed, $0.097 spent
+[22:47:44] 6000 requests, 0 failed, $0.145 spent
+[22:48:07] 8000 requests, 0 failed, $0.196 spent
+[22:48:30] 10000 requests, 0 failed, $0.247 spent
+[22:48:59] 12000 requests, 0 failed, $0.297 spent
+[22:49:27] 14000 requests, 0 failed, $0.346 spent
+[22:49:50] 16000 requests, 0 failed, $0.394 spent
+[22:50:12] 18000 requests, 0 failed, $0.445 spent
+[22:50:34] 20000 requests, 0 failed, $0.496 spent
+[22:50:57] 22000 requests, 0 failed, $0.545 spent
+[22:51:19] 24000 requests, 0 failed, $0.593 spent
+[22:51:41] 26000 requests, 0 failed, $0.641 spent
+[22:52:07] 28000 requests, 0 failed, $0.692 spent
+[22:52:28] 30000 requests, 0 failed, $0.741 spent
+[22:52:51] 32000 requests, 0 failed, $0.791 spent
+[22:53:15] 34000 requests, 0 failed, $0.843 spent
+[22:53:37] 36000 requests, 0 failed, $0.890 spent
+[22:54:03] 38000 requests, 0 failed, $0.940 spent
+[22:54:26] 40000 requests, 0 failed, $0.989 spent
+[22:54:48] 42000 requests, 0 failed, $1.038 spent
+[22:55:09] 44000 requests, 0 failed, $1.087 spent
+finished {'done': 45744, 'failed': 0, 'capped': 0}

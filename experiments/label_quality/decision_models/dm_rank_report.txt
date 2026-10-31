@@ -1,0 +1,12 @@
+reference: Haiku +.285 / +.287, Sonnet sample vs its other two +.412 / +.455
+model                              format     20ng   arxiv    mean  pick quality 20ng/arxiv (random 0.545/0.572)  labels scored
+typesafe/jev-1.14                  lineup  +0.427  +0.382  +0.405  0.597 / 0.607   998 / 908
+liquid/d1-ultra                    lineup  +0.414  +0.337  +0.376  0.603 / 0.610   998 / 908
+microsoft/microsoft-decision-1     lineup  +0.360  +0.345  +0.353  0.602 / 0.621   998 / 908
+perplexity/pplx-decider-v1.2       lineup  +0.361  +0.333  +0.347  0.589 / 0.618   998 / 908
+liquid/d1-ultra                    labels  +0.033  +0.047  +0.040  0.547 / 0.582   998 / 908
+perplexity/pplx-decider-v1.2       labels  +0.059  +0.017  +0.038  0.547 / 0.576   998 / 908
+microsoft/microsoft-decision-1     labels  +0.012  +0.036  +0.024  0.530 / 0.584   998 / 908
+typesafe/jev-1.14                  labels  +0.025  +0.017  +0.021  0.529 / 0.572   998 / 908
+failures none | incomplete labels none
+top two: [('typesafe/jev-1.14', 'lineup'), ('liquid/d1-ultra', 'lineup')]
