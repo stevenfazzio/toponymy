@@ -4,3 +4,4 @@ ladder_*.json
 embedder_jobs_cache/
 *.tmp
 __pycache__/
+fresh_units.json

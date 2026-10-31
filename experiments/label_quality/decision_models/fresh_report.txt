@@ -1,0 +1,25 @@
+========== 20ng ==========
+clusters 107, pick differs from stock in 95
+fresh documents: pick 0.617, stock 0.550 (differing clusters)
+frozen documents: pick 0.649, stock 0.537 (in-sample, inflated)
+PRIMARY fresh gain over all clusters +0.059 (95% CI +0.037 to +0.082), wilcoxon p=5.41e-07
+on the frozen draw: in-sample +0.100, cross-fit +0.048; fresh gain is 123% of cross-fit
+pick beats stock on fresh documents in 73% of differing clusters
+cluster-level: frozen vs fresh difference pearson +0.440, spearman +0.306, slope +0.57
+words: pick 6.7, stock 8.0
+  L0: 74 clusters, fresh gain +0.056
+  L1: 24 clusters, fresh gain +0.071
+  L2: 9 clusters, fresh gain +0.050
+========== arxiv_home ==========
+clusters 116, pick differs from stock in 103
+fresh documents: pick 0.571, stock 0.551 (differing clusters)
+frozen documents: pick 0.663, stock 0.564 (in-sample, inflated)
+PRIMARY fresh gain over all clusters +0.018 (95% CI +0.000 to +0.036), wilcoxon p=0.0242
+on the frozen draw: in-sample +0.088, cross-fit +0.045; fresh gain is 40% of cross-fit
+pick beats stock on fresh documents in 62% of differing clusters
+cluster-level: frozen vs fresh difference pearson +0.276, spearman +0.322, slope +0.25
+words: pick 7.1, stock 8.5
+  L0: 82 clusters, fresh gain +0.007
+  L1: 27 clusters, fresh gain +0.035
+  L2: 7 clusters, fresh gain +0.077
+input tokens 3,342,162, output tokens 21,461, calls 1188

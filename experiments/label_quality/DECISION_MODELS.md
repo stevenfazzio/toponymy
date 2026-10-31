@@ -6,25 +6,86 @@
 
 ## TL;DR
 
-The idea: generate several candidate labels per cluster, score each with a cheap decision model
-such as Jev using a wayfinding lineup, and keep the shortest label that still identifies its
-region. That is the #177 length controller with a much cheaper listener. Cost was the main reason
-#177 stopped short of proposing it as a default.
+The idea has three separable parts: generate several candidate labels per cluster, score them
+against neighbouring clusters with a wayfinding lineup, and select one. Any preference about size
+is optional. Cost was the main reason #177 stopped short of proposing its length controller as a
+default, so the hope is that a cheap decision model such as Jev could do the scoring.
 
-This replays the frozen lineups through **Laya**, an open Jev-like model, on local hardware.
-**Jev itself was not tested.** No API calls were made.
+That splits into two questions, tested separately. Is selecting among candidates worth anything on
+documents the selection never saw? That used Sonnet as the scorer. Can a cheap model do the scoring?
+That used **Laya**, an open Jev-like model, on local hardware. **Jev itself was not tested.**
 
-1. **Laya sorts bad labels from good but cannot rank one cluster's candidates.** Agreement with
-   Sonnet across label kinds is 0.80 (20NG) and 0.74 (arXiv). Among a single cluster's candidates
-   it is +0.06 and −0.04, where a Sonnet sample agrees with its own other samples at 0.34 and 0.42.
-2. **Its picks did no better than a fixed rung.** Rung 5 at every layer matched or beat Laya's
-   selections on both score and length, on both corpora.
-3. **The bar for any per-cluster scorer is therefore a fixed terse rung, not stock.** Rung 5 is
-   about 60% shorter than stock, and Sonnet rates it 0.020 lower on 20NG and 0.001 lower on arXiv.
-4. **Question format matters more than checkpoint.** The literal lineup and per-group questions sat
-   near chance. Only documents as state with a Choice over labels carried signal.
-5. **Cluster ids are not stable between processes** (see below), which touched 2 of 111 clusters in
+1. **Selection survives fresh documents.** The top-scoring candidate on one document draw beat stock
+   on a fresh draw by +.059 (20NG) and +.018 (arXiv), while also being shorter. The arXiv gain only
+   just clears zero, and most of the apparent gain on the original draw did not carry over.
+2. **Size is not what separates candidates.** Length explains under 6% of within-cluster score
+   differences for every candidate source, and about 2% across the full length ladder.
+3. **Laya sorts bad labels from good but cannot rank one cluster's candidates.** Agreement with
+   Sonnet across label kinds is 0.80 and 0.74. Among a single cluster's candidates it is +0.06 and
+   −0.04, where a Sonnet sample agrees with its own other samples at 0.34 and 0.42. So selection has
+   value, and Laya cannot capture it.
+4. **Among labels that differ only in length, a fixed terse rung is the baseline to beat.** Rung 5
+   at every layer matched or beat Laya's selections, about 60% shorter than stock and rated 0.020
+   lower on 20NG and 0.001 lower on arXiv. This says nothing about choosing between labels with
+   different content, which a fixed setting cannot do.
+5. **Question format matters more than checkpoint.** The literal lineup and per-group questions sat
+   near chance on Laya. Only documents as state with a Choice over labels carried signal.
+6. **Cluster ids are not stable between processes** (see below), which touched 2 of 111 clusters in
    the posted arXiv held-out result without changing its conclusion.
+
+## Selection is not about size
+
+Saved Sonnet lineups keep three listener samples per label, so a label can be picked on one sample
+and scored on the other two. That removes winner's curse from listener noise at no API cost. Real
+spread is the within-cluster SD of score after removing listener noise. Gain is against a random
+candidate from the same pool. Results are 20NG / arXiv.
+
+| candidate source | candidates per cluster | real spread | length explains | gain |
+|---|---|---|---|---|
+| length ladder | 6.8 / 6.3 | .068 / .057 | 2.1% / 2.3% | +.044 / +.037 |
+| same prompt, two draws | 2 / 2 | .047 / .091 | 1.1% / 1.2% | +.015 / +.029 |
+| different naming evidence (a feature dropped) | 3.2 / 3.1 | .072 / .074 | 0.0% / 0.1% | +.044 / +.040 |
+| different namers (Haiku, gpt-4o-mini) | 2 / n/a | .061 / n/a | 1.4% / n/a | +.019 / n/a |
+| all pooled | 10.6 / 8.8 | .069 / .069 | 0.8% / 0.8% | +.062 / +.045 |
+
+Even on the ladder, candidates differ mainly in what they say. Pooled picks were no longer than a
+random candidate (6.8 / 7.0 words against 6.6 / 6.8). The number of candidates appears to matter
+more than their source, since every source shows a similar spread. All samples here share one
+five-document draw, though, which is what the next test addresses.
+
+## Fresh-document test
+
+Everything was fixed before any paid call. A cluster's **pick** is its highest mean Sonnet score on
+the frozen documents among all pooled candidates, using all three samples. **Stock** is what stock
+Toponymy named it. The **fresh draw** is five new documents per cluster, excluding the namer's
+exemplars and every document in the frozen draw, and neighbouring groups were redrawn the same way.
+Prompt, model, temperature, and three reseeded samples match the July protocol. Clusters whose pick
+is the stock label count as zero difference and needed no calls.
+
+| | 20NG | arXiv |
+|---|---|---|
+| clusters / pick differs from stock | 107 / 95 | 116 / 103 |
+| **fresh gain over all clusters** | **+.059** | **+.018** |
+| 95% bootstrap interval | +.037 to +.082 | +.000 to +.036 |
+| Wilcoxon p, differing clusters | 5.4e-07 | .024 |
+| pick / stock on fresh documents | .617 / .550 | .571 / .551 |
+| pick beats stock, differing clusters | 73% | 62% |
+| gain on the frozen draw (in-sample) | +.100 | +.088 |
+| share of that gain kept | 59% | 20% |
+| frozen vs fresh difference, Spearman | +.31 | +.32 |
+| words, pick / stock | 6.7 / 8.0 | 7.1 / 8.5 |
+
+The cost was 1,188 calls, 3,342,162 input tokens, and 21,461 output tokens, with no failures.
+
+The cross-fit gains above were +.048 and +.045 against stock. They use a pick from one sample, so
+they are not directly comparable with a pick from all three. By layer, the fresh gain is +.056,
++.071, +.050 on 20NG and +.007, +.035, +.077 on arXiv, with few clusters at the coarsest layers.
+
+This is the value of selection with a strong scorer and about ten candidates per cluster, at roughly
+30 listener calls per cluster. It is not yet a cheap way to get that value. Selection and evaluation
+also shared one listener and only one fresh draw was used. The earlier check against the #177
+held-out data looked much weaker (correlations of +.01 and +.37), but those picks were chosen for
+brevity, which restricts their range.
 
 ## Format pilot
 
@@ -99,6 +160,10 @@ Laya's rule against always-shortest is +.014 (p = .08) on 20NG and +.012 (p = .7
 significance test was run on fixed rung against stock. A fixed rung also repairs the arXiv coarse
 layer, from .483 at 2.0 words to .656 at 3.6 for rung 5, though that layer has only 7 clusters.
 
+These comparisons cover the ladder only. The candidates differ mostly in content, as shown above,
+so Laya's failure is not specific to length. The fixed-rung comparison is, because a fixed rung can
+only stand in for a choice of length.
+
 ## What the `embedding_model` object does
 
 A separate question: could Toponymy stop requiring an embedding model object, while still taking
@@ -121,17 +186,25 @@ The trigger row is a proxy: saved names are post-disambiguation, so no pair reac
 
 ## Cluster ids are not stable between processes
 
-Refitting arXiv with identical inputs gave two numberings: clusters 18 and 19 at layer 1 swap ids.
-The battery and ladder ran under one numbering and the #177 held-out stage under the other, with
-labels keyed by (layer, index), so those two clusters' labels were scored against each other's
-regions. Without them, held-out chosen and stock move from .4475 and .4361 to .4517 and .4390, so
-the conclusion stands. 20NG reproduced exactly. The cause was not investigated.
+Refitting arXiv with identical inputs gives two variants of the fit. They number clusters 18 and 19
+at layer 1 the opposite way, and they also differ slightly beyond that: cluster 9's last neighbour
+changes on a near-tie (similarities of .559 and .558). The battery and ladder ran under one variant.
+The #177 held-out stage and the phase 6 feature and subtopic runs ran under the other.
+
+With labels keyed by (layer, index), the held-out stage scored those two clusters' labels against
+each other's regions. Without them, held-out chosen and stock move from .4475 and .4361 to .4517 and
+.4390, so the conclusion stands. Candidates from the feature and subtopic runs are relabelled to
+ladder numbering here, which moved the pooled gain against stock from +.051 to +.045. Phase 6's
+arXiv comparisons against gold labels may have mispaired the same two clusters and were not
+recomputed. 20NG reproduced in every fit tried. The cause was not investigated.
 
 ## Caveats
 
-- This tests Laya, not Jev. Jev may do better, and a Jev run should use documents as state with a
-  Choice over labels. It needs a key and is estimated at under a dollar. A pass would mean
-  within-cluster agreement near 0.34 to 0.42 and picks that beat a fixed rung.
+- The scoring results test Laya, not Jev. Jev may do better, and a Jev run should use documents as
+  state with a Choice over labels. It needs a key and is estimated at under a dollar. A pass would
+  mean within-cluster agreement near 0.34 to 0.42 and picks that beat stock on fresh documents.
+- If gains are partly document-specific, scoring on more documents may help, and that is where a
+  cheap scorer could add the most. Five documents was a cost choice, and more were not tried.
 - Laya ran zero-shot with its shipped checkpoints. Its docs say fine-tuning helps, and that was not
   tried. Laya version 0.4.18; checkpoints `laya` at `7b928d8`, `laya-typed-decisions` at `e929ae5`,
   `laya-multilingual` at `1720e3e`.
@@ -159,8 +232,15 @@ LAYA=$(mktemp -d); uv venv --python 3.12 "$LAYA" && uv pip install --python "$LA
 "$LAYA/bin/python" -I $D/laya_replay.py $D design
 "$LAYA/bin/python" -I $D/laya_replay.py $D full stock
 .venv/bin/python $D/laya_analyze.py $D
+
+.venv/bin/python $D/selection_value.py > $D/selection_value_report.txt
+PYTHONPATH="$FROZEN:$D" .venv/bin/python $D/fresh_prep.py $D
+.venv/bin/python $D/fresh_run.py $D   # paid, about 3.3M input tokens, hard cap 5.0M
+.venv/bin/python $D/fresh_analyze.py $D
 ```
 
-`laya_analyze.py` regenerates the committed `laya_replay_summary.json` exactly from the committed
-JSONL. `dump_lineups.py` supplies helpers to `dump_lineups2.py`; running it directly fails whenever
-the arXiv numbering flips. The rebuilt lineup files contain corpus text and are gitignored.
+`laya_analyze.py` and `fresh_analyze.py` regenerate the committed summaries exactly from the
+committed results. `dump_lineups.py` supplies helpers to `dump_lineups2.py`; running it directly
+fails whenever the arXiv fit lands on the other variant. `fresh_prep.py` stops for the same reason,
+so rerun it until it passes. Rebuilt lineup files and `fresh_units.json` contain corpus text and are
+gitignored. `fresh_pairs.json` is the same data without documents.

@@ -1,0 +1,21 @@
+========== 20ng ==========
+length ladder, all rungs           107 clusters, 6.8 cands | true SD 0.068 (raw 0.083), length explains 2.1% | picked 0.586 at 6.0w, random 0.542 at 5.7w, gain +0.044 (p=9e-11) | vs stock +0.029 (stock 0.556, n=107)
+ladder, only 2-3 word candidates    70 clusters, 2.0 cands | true SD 0.050 (raw 0.068), length explains 5.2% | picked 0.545 at 2.5w, random 0.534 at 2.5w, gain +0.011 (p=0.34)
+ladder, only 4-6 word candidates   106 clusters, 2.7 cands | true SD 0.057 (raw 0.075), length explains 0.5% | picked 0.563 at 4.9w, random 0.539 at 4.8w, gain +0.025 (p=6.5e-05)
+ladder, only 7-12 word candidates  106 clusters, 2.4 cands | true SD 0.026 (raw 0.057), length explains 0.5% | picked 0.562 at 9.0w, random 0.553 at 9.0w, gain +0.010 (p=0.16)
+same prompt, two draws              84 clusters, 2.0 cands | true SD 0.047 (raw 0.065), length explains 1.1% | picked 0.549 at 8.3w, random 0.534 at 8.3w, gain +0.015 (p=0.0027)
+different naming evidence          107 clusters, 3.2 cands | true SD 0.072 (raw 0.085), length explains 0.0% | picked 0.587 at 8.4w, random 0.543 at 8.4w, gain +0.044 (p=5.3e-12)
+different namers (haiku, gpt-4o-mini) 104 clusters, 2.0 cands | true SD 0.061 (raw 0.078), length explains 1.4% | picked 0.554 at 7.9w, random 0.534 at 7.8w, gain +0.019 (p=0.0067)
+everything pooled                  107 clusters, 10.6 cands | true SD 0.069 (raw 0.084), length explains 0.8% | picked 0.603 at 6.8w, random 0.540 at 6.6w, gain +0.062 (p=2.5e-14) | vs stock +0.048 (stock 0.554, n=107)
+fresh docs + gpt-4o-mini, chosen minus stock, n=91: pearson +0.010, spearman -0.070, sign agreement 48% on 50 band-clearing, slope -0.03
+label score level, in-run vs fresh: spearman +0.655 (n=91)
+========== arxiv_home ==========
+length ladder, all rungs           116 clusters, 6.3 cands | true SD 0.057 (raw 0.069), length explains 2.3% | picked 0.613 at 6.2w, random 0.576 at 5.8w, gain +0.037 (p=2.1e-12) | vs stock +0.037 (stock 0.576, n=116)
+ladder, only 2-3 word candidates    57 clusters, 2.1 cands | true SD 0.048 (raw 0.063), length explains 2.6% | picked 0.587 at 2.6w, random 0.568 at 2.5w, gain +0.018 (p=0.001)
+ladder, only 4-6 word candidates   107 clusters, 2.6 cands | true SD 0.045 (raw 0.057), length explains 0.5% | picked 0.600 at 4.9w, random 0.579 at 4.9w, gain +0.021 (p=6e-06)
+ladder, only 7-12 word candidates  103 clusters, 2.3 cands | true SD 0.037 (raw 0.052), length explains 3.7% | picked 0.584 at 9.1w, random 0.573 at 9.0w, gain +0.011 (p=0.0064)
+same prompt, two draws              79 clusters, 2.0 cands | true SD 0.091 (raw 0.099), length explains 1.2% | picked 0.593 at 8.6w, random 0.564 at 8.6w, gain +0.029 (p=0.00031)
+different naming evidence          114 clusters, 3.1 cands | true SD 0.074 (raw 0.084), length explains 0.1% | picked 0.607 at 9.2w, random 0.568 at 9.0w, gain +0.040 (p=1e-08)
+everything pooled                  116 clusters, 8.8 cands | true SD 0.069 (raw 0.079), length explains 0.8% | picked 0.618 at 7.0w, random 0.573 at 6.8w, gain +0.045 (p=2.5e-12) | vs stock +0.045 (stock 0.573, n=116)
+fresh docs + gpt-4o-mini, chosen minus stock, n=109: pearson +0.369, spearman +0.175, sign agreement 59% on 29 band-clearing, slope +0.44
+label score level, in-run vs fresh: spearman +0.503 (n=109)
