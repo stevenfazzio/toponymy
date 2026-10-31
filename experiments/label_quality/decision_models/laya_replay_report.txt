@@ -1,0 +1,78 @@
+========== 20ng ==========
+replayed units 1563
+kind       n    laya   sonnet
+gimme      107  0.635  0.936
+gold       107  0.371  0.545
+verbose    107  0.377  0.444
+ancestor    74  0.327  0.262
+generic    107  0.215  0.195
+sibling     93  0.201  0.154
+shuffled   107  0.118  0.038
+distant    107  0.085  0.004
+bar: gold-shuffled +0.253 (need >=0.10), gimme 0.635 (need >=0.50) -> PASS
+pooled rho vs Sonnet across all kinds +0.800 (n=809)
+laya repeat band p90 0.066 (n=30); sonnet band 0.047
+within-cluster rho, laya vs sonnet +0.062 (n=107, p=0.169)
+within-cluster rho, sonnet sample vs its other two samples +0.342 (n=107) <- noise reference
+  L0: +0.097 (n=74)
+  L1: +0.016 (n=24)
+  L2: -0.098 (n=9)
+'safe' agreement: precision 0.416 vs base rate 0.403 (tp 128 fp 180 fn 164 tn 252)
+method                     n   sonnet-rated   words | by layer sonnet/words
+stock                     107   0.556          8.0 | L0 0.505/9.6 L1 0.626/5.0 L2 0.797/2.0
+sonnet rule (in-sample)   107   0.619          4.0 | L0 0.574/4.0 L1 0.676/4.1 L2 0.835/3.4
+laya rule                 107   0.536          3.6 | L0 0.481/3.7 L1 0.606/3.5 L2 0.802/2.7
+laya max                  107   0.539          5.2 | L0 0.484/5.7 L1 0.609/4.3 L2 0.801/3.3
+always shortest           107   0.522          2.0 | L0 0.466/2.0 L1 0.592/2.0 L2 0.797/2.0
+random candidate          107   0.536          5.9 | L0 0.483/5.8 L1 0.595/6.0 L2 0.820/6.3
+fixed rung 0              107   0.556          9.9 | L0 0.505/9.6 L1 0.616/10.4 L2 0.821/10.2
+fixed rung 1              107   0.552          8.9 | L0 0.493/8.8 L1 0.626/9.2 L2 0.832/9.3
+fixed rung 2              107   0.548          6.4 | L0 0.501/6.3 L1 0.597/6.7 L2 0.807/6.7
+fixed rung 3              107   0.539          5.1 | L0 0.482/5.1 L1 0.626/5.0 L2 0.778/5.0
+fixed rung 4              107   0.535          4.0 | L0 0.482/4.0 L1 0.602/4.2 L2 0.792/4.1
+fixed rung 5              107   0.536          3.3 | L0 0.487/3.4 L1 0.588/3.3 L2 0.796/3.2
+fixed rung 6              107   0.522          2.0 | L0 0.466/2.0 L1 0.592/2.0 L2 0.797/2.0
+laya rule minus always-shortest on Sonnet score: +0.014 over 107 clusters, 58 differ, wilcoxon p=0.0808
+  (0, 18): laya 'X Window System FAQ' 0.04 vs shortest 'FAQ Resources' 0.66
+  (0, 67): laya 'X Window Manager Positioning' 0.67 vs shortest 'Programming Techniques' 0.14
+  (0, 2): laya 'AHL franchise relocations and NHL team movements in early 1990s' 0.65 vs shortest 'Minor League' 0.24
+  (0, 7): laya 'NHL Hockey Playoff Coverage' 0.43 vs shortest 'Draft Standings' 0.73
+========== arxiv_home ==========
+replayed units 1632
+kind       n    laya   sonnet
+gimme      116  0.463  0.814
+gold       116  0.290  0.574
+verbose    116  0.312  0.476
+ancestor    77  0.234  0.270
+generic    116  0.143  0.182
+sibling    103  0.167  0.163
+shuffled   116  0.134  0.121
+distant    116  0.097  0.062
+bar: gold-shuffled +0.156 (need >=0.10), gimme 0.463 (need >=0.50) -> FAIL
+pooled rho vs Sonnet across all kinds +0.744 (n=876)
+laya repeat band p90 0.036 (n=30); sonnet band 0.079
+within-cluster rho, laya vs sonnet -0.041 (n=116, p=0.251)
+within-cluster rho, sonnet sample vs its other two samples +0.416 (n=116) <- noise reference
+  L0: -0.068 (n=82)
+  L1: -0.033 (n=27)
+  L2: +0.241 (n=7)
+'safe' agreement: precision 0.603 vs base rate 0.613 (tp 152 fp 100 fn 293 tn 181)
+method                     n   sonnet-rated   words | by layer sonnet/words
+stock                     116   0.576          8.5 | L0 0.576/10.2 L1 0.601/5.3 L2 0.483/2.0
+sonnet rule (in-sample)   116   0.621          3.2 | L0 0.606/3.2 L1 0.655/3.1 L2 0.662/3.0
+laya rule                 116   0.569          5.1 | L0 0.560/4.9 L1 0.579/5.4 L2 0.635/5.6
+laya max                  116   0.576          6.6 | L0 0.561/6.7 L1 0.607/6.4 L2 0.641/6.3
+always shortest           116   0.557          2.1 | L0 0.553/2.1 L1 0.589/2.0 L2 0.483/2.0
+random candidate          116   0.584          6.0 | L0 0.569/6.0 L1 0.625/5.6 L2 0.601/7.6
+fixed rung 0              116   0.584         10.3 | L0 0.576/10.2 L1 0.596/10.8 L2 0.628/10.7
+fixed rung 1              116   0.591          8.9 | L0 0.582/8.8 L1 0.619/9.2 L2 0.585/8.6
+fixed rung 2              116   0.574          6.3 | L0 0.563/6.3 L1 0.599/6.4 L2 0.604/6.3
+fixed rung 3              116   0.579          5.1 | L0 0.567/4.9 L1 0.601/5.3 L2 0.639/5.6
+fixed rung 4              116   0.578          3.9 | L0 0.566/3.8 L1 0.606/4.0 L2 0.610/4.3
+fixed rung 5              116   0.575          3.4 | L0 0.557/3.3 L1 0.607/3.6 L2 0.656/3.6
+fixed rung 6              116   0.556          2.1 | L0 0.551/2.1 L1 0.589/2.0 L2 0.483/2.0
+laya rule minus always-shortest on Sonnet score: +0.012 over 116 clusters, 79 differ, wilcoxon p=0.714
+  (2, 6): laya 'Medical Imaging Deep Learning' 0.69 vs shortest 'Medical Detection' 0.14
+  (0, 55): laya 'Structured Pruning and Tensor Decomposition for Neural Network Compression' 0.64 vs shortest 'Neural Compression' 0.15
+  (1, 11): laya 'Robot Manipulation Learning with Reinforcement' 0.37 vs shortest 'Robot Manipulation' 0.74
+  (2, 5): laya 'Deep Learning for Time Series Anomaly Detection, Forecasting, and Predictive Maintenance with Uncertainty Quantification' 0.56 vs shortest 'Temporal Anomaly' 0.25

@@ -1,0 +1,6 @@
+# rebuilt locally by dump_lineups2.py and the ladder step; contain corpus text or copy tracked data
+lineups_*.json
+ladder_*.json
+embedder_jobs_cache/
+*.tmp
+__pycache__/

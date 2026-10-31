@@ -1,0 +1,6 @@
+[18:42:54] 20ng: 165 ladder units, 25 clusters; Sonnet slope per log-word +0.005
+[18:44:06]   stock slope per log-word -0.039, mean 0.404, within-cluster rho vs Sonnet -0.017 (n=25), 0.43s/unit
+[18:46:02]   rung  slope per log-word -0.063, mean 0.419, within-cluster rho vs Sonnet -0.086 (n=25), 0.71s/unit
+[18:46:02] arxiv_home: 156 ladder units, 25 clusters; Sonnet slope per log-word +0.026
+[18:47:28]   stock slope per log-word +0.035, mean 0.297, within-cluster rho vs Sonnet -0.033 (n=25), 0.55s/unit
+[18:49:06]   rung  slope per log-word -0.011, mean 0.312, within-cluster rho vs Sonnet -0.118 (n=25), 0.63s/unit

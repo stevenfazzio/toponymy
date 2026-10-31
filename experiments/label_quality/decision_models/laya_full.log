@@ -1,0 +1,16 @@
+[18:50:00] 20ng: 0 done, 3071 to go (754 ladder x 3, 809 battery x 1)
+[18:56:12]   500/3071 at 0.74s each
+[19:02:38]   1000/3071 at 0.76s each
+[19:07:38]   1500/3071 at 0.71s each
+[19:12:39]   2000/3071 at 0.68s each
+[19:17:30]   2500/3071 at 0.66s each
+[19:22:39]   3000/3071 at 0.65s each
+[19:23:15] 20ng: finished in 33.2 min
+[19:23:15] arxiv_home: 0 done, 3144 to go (756 ladder x 3, 876 battery x 1)
+[19:27:59]   500/3144 at 0.57s each
+[19:32:31]   1000/3144 at 0.56s each
+[19:36:28]   1500/3144 at 0.53s each
+[19:39:58]   2000/3144 at 0.50s each
+[19:43:26]   2500/3144 at 0.48s each
+[19:47:13]   3000/3144 at 0.48s each
+[19:48:15] arxiv_home: finished in 25.0 min

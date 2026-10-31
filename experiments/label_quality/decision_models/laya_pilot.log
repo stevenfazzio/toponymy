@@ -1,0 +1,19 @@
+[18:15:09] 20ng: 96 units across ['ancestor', 'distant', 'generic', 'gimme', 'gold', 'shuffled', 'sibling', 'verbose']
+[18:15:09] arxiv_home: 96 units across ['ancestor', 'distant', 'generic', 'gimme', 'gold', 'shuffled', 'sibling', 'verbose']
+[18:15:28] loaded convaiinnovations/laya-typed-decisions in 20s
+[18:15:39] loaded convaiinnovations/laya-multilingual in 11s
+[18:17:45] typed/group_noul     20ng       rho=+0.494 1.31s/unit {'ancestor': 0.2, 'distant': 0.201, 'generic': 0.197, 'gimme': 0.358, 'gold': 0.247, 'shuffled': 0.177, 'sibling': 0.18, 'verbose': 0.197}
+[18:19:40] typed/group_noul     arxiv_home rho=+0.148 1.20s/unit {'ancestor': 0.201, 'distant': 0.201, 'generic': 0.2, 'gimme': 0.224, 'gold': 0.206, 'shuffled': 0.206, 'sibling': 0.203, 'verbose': 0.2}
+[18:22:18] typed/group_score    20ng       rho=+0.127 1.64s/unit {'ancestor': 0.197, 'distant': 0.196, 'generic': 0.193, 'gimme': 0.201, 'gold': 0.206, 'shuffled': 0.198, 'sibling': 0.189, 'verbose': 0.196}
+[18:24:36] typed/group_score    arxiv_home rho=+0.376 1.45s/unit {'ancestor': 0.201, 'distant': 0.198, 'generic': 0.199, 'gimme': 0.209, 'gold': 0.202, 'shuffled': 0.2, 'sibling': 0.199, 'verbose': 0.203}
+[18:25:13] typed/label_choice   20ng       rho=+0.819 0.38s/unit {'ancestor': 0.232, 'distant': 0.074, 'generic': 0.161, 'gimme': 0.579, 'gold': 0.3, 'shuffled': 0.127, 'sibling': 0.188, 'verbose': 0.316}
+[18:25:44] typed/label_choice   arxiv_home rho=+0.578 0.32s/unit {'ancestor': 0.173, 'distant': 0.147, 'generic': 0.124, 'gimme': 0.248, 'gold': 0.201, 'shuffled': 0.182, 'sibling': 0.168, 'verbose': 0.217}
+[18:26:50] multi/group_noul     20ng       rho=+0.173 0.69s/unit {'ancestor': 0.229, 'distant': 0.127, 'generic': 0.163, 'gimme': 0.501, 'gold': 0.198, 'shuffled': 0.223, 'sibling': 0.28, 'verbose': 0.151}
+[18:27:47] multi/group_noul     arxiv_home rho=+0.062 0.59s/unit {'ancestor': 0.202, 'distant': 0.209, 'generic': 0.171, 'gimme': 0.205, 'gold': 0.208, 'shuffled': 0.193, 'sibling': 0.206, 'verbose': 0.195}
+[18:29:02] multi/group_score    20ng       rho=-0.120 0.79s/unit {'ancestor': 0.203, 'distant': 0.193, 'generic': 0.196, 'gimme': 0.227, 'gold': 0.195, 'shuffled': 0.214, 'sibling': 0.231, 'verbose': 0.187}
+[18:29:59] multi/group_score    arxiv_home rho=-0.051 0.60s/unit {'ancestor': 0.196, 'distant': 0.205, 'generic': 0.198, 'gimme': 0.195, 'gold': 0.204, 'shuffled': 0.192, 'sibling': 0.2, 'verbose': 0.203}
+[18:30:14] multi/label_choice   20ng       rho=+0.601 0.15s/unit {'ancestor': 0.291, 'distant': 0.048, 'generic': 0.053, 'gimme': 0.573, 'gold': 0.371, 'shuffled': 0.125, 'sibling': 0.097, 'verbose': 0.302}
+[18:30:26] multi/label_choice   arxiv_home rho=+0.269 0.13s/unit {'ancestor': 0.2, 'distant': 0.122, 'generic': 0.153, 'gimme': 0.207, 'gold': 0.216, 'shuffled': 0.138, 'sibling': 0.17, 'verbose': 0.228}
+[18:32:24] multi/group_choice   20ng       rho=+0.035 1.23s/unit {'ancestor': 0.175, 'distant': 0.101, 'generic': 0.282, 'gimme': 0.217, 'gold': 0.151, 'shuffled': 0.273, 'sibling': 0.135, 'verbose': 0.2}
+[18:33:58] multi/group_choice   arxiv_home rho=-0.011 0.97s/unit {'ancestor': 0.253, 'distant': 0.137, 'generic': 0.265, 'gimme': 0.149, 'gold': 0.309, 'shuffled': 0.157, 'sibling': 0.199, 'verbose': 0.207}
+[18:33:58] sonnet reference {'20ng': {'ancestor': 0.209, 'distant': 0.028, 'generic': 0.219, 'gimme': 0.93, 'gold': 0.551, 'shuffled': 0.029, 'sibling': 0.169, 'verbose': 0.425}, 'arxiv_home': {'ancestor': 0.194, 'distant': 0.075, 'generic': 0.178, 'gimme': 0.836, 'gold': 0.558, 'shuffled': 0.117, 'sibling': 0.126, 'verbose': 0.449}}

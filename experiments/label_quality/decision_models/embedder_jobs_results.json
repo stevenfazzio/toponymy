@@ -1,0 +1,184 @@
+{
+  "20ng": {
+    "counts": [
+      74,
+      24,
+      9
+    ],
+    "vocab": 50000,
+    "keyphrases": {
+      "mpnet": [
+        0.875,
+        0.8671875,
+        0.9097222222222222
+      ],
+      "docmean": [
+        0.5864623552123552,
+        0.5755208333333334,
+        0.4930555555555556
+      ],
+      "docmean_centered": [
+        0.5880389317889317,
+        0.5703125,
+        0.5
+      ],
+      "no_vectors_top_scores": [
+        0.7136824324324325,
+        0.640625,
+        0.7291666666666666
+      ],
+      "repeat_same_inputs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "subtopics": {
+      "parents": [
+        24,
+        9
+      ],
+      "parents_over_16_children": [
+        0,
+        0
+      ],
+      "mpnet_top16": [
+        1.0,
+        1.0
+      ],
+      "centroid_top16": [
+        1.0,
+        1.0
+      ],
+      "mpnet_top4": [
+        1.0,
+        0.8888888888888888
+      ],
+      "centroid_top4": [
+        1.0,
+        0.8611111111111112
+      ]
+    },
+    "trigger": {
+      "pairs_tested_if_all": [
+        2701,
+        276,
+        36
+      ],
+      "pairs_tested_k4": [
+        199,
+        63,
+        23
+      ],
+      "near0.2_covered_k4": "0/0",
+      "near0.35_covered_k4": "25/25",
+      "pairs_tested_k8": [
+        396,
+        117,
+        36
+      ],
+      "near0.2_covered_k8": "0/0",
+      "near0.35_covered_k8": "25/25",
+      "pairs_tested_k16": [
+        762,
+        221,
+        36
+      ],
+      "near0.2_covered_k16": "0/0",
+      "near0.35_covered_k16": "25/25",
+      "near0.2_share_a_word": "0/0",
+      "near0.35_share_a_word": "25/25"
+    }
+  },
+  "arxiv_home": {
+    "counts": [
+      82,
+      27,
+      7
+    ],
+    "vocab": 50000,
+    "keyphrases": {
+      "mpnet": [
+        0.8628048780487805,
+        0.8564814814814815,
+        0.9017857142857143
+      ],
+      "docmean": [
+        0.5545513937282229,
+        0.5671296296296297,
+        0.5803571428571429
+      ],
+      "docmean_centered": [
+        0.5594512195121951,
+        0.5763888888888888,
+        0.5803571428571429
+      ],
+      "no_vectors_top_scores": [
+        0.6486280487804879,
+        0.6597222222222222,
+        0.6607142857142857
+      ],
+      "repeat_same_inputs": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "subtopics": {
+      "parents": [
+        27,
+        7
+      ],
+      "parents_over_16_children": [
+        0,
+        1
+      ],
+      "mpnet_top16": [
+        1.0,
+        1.0
+      ],
+      "centroid_top16": [
+        1.0,
+        0.9910714285714286
+      ],
+      "mpnet_top4": [
+        0.9907407407407407,
+        0.8928571428571429
+      ],
+      "centroid_top4": [
+        0.9722222222222222,
+        0.7857142857142857
+      ]
+    },
+    "trigger": {
+      "pairs_tested_if_all": [
+        3321,
+        351,
+        21
+      ],
+      "pairs_tested_k4": [
+        252,
+        77,
+        17
+      ],
+      "near0.2_covered_k4": "0/0",
+      "near0.35_covered_k4": "19/21",
+      "pairs_tested_k8": [
+        468,
+        140,
+        21
+      ],
+      "near0.2_covered_k8": "0/0",
+      "near0.35_covered_k8": "21/21",
+      "pairs_tested_k16": [
+        850,
+        267,
+        21
+      ],
+      "near0.2_covered_k16": "0/0",
+      "near0.35_covered_k16": "21/21",
+      "near0.2_share_a_word": "0/0",
+      "near0.35_share_a_word": "20/21"
+    }
+  }
+}
