@@ -7,3 +7,5 @@ __pycache__/
 fresh_units.json
 dm_results.jsonl
 dm_pilot.jsonl
+more_results.jsonl
+more_groups.json

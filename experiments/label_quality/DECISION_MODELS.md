@@ -25,17 +25,19 @@ including **Jev 1.14** through OpenRouter.
    gained +.062 / +.016, Haiku +.031 / +.013, Liquid d1-ultra +.032 / +.014, and Jev 1.14
    +.033 / +.001. The decision models score at about a thirtieth of Haiku's cost, though neither
    decision model's gain was significant on a signed-rank test.
-4. **Laya sorts bad labels from good but cannot rank one cluster's candidates.** Agreement with
+4. **Scoring on 20 documents instead of 5 did not help.** Pooled across corpora, the gain moved by
+   +.001 for Jev and −.010 for Liquid, and the intervals rule out anything like a doubling.
+5. **Laya sorts bad labels from good but cannot rank one cluster's candidates.** Agreement with
    Sonnet across label kinds is 0.80 and 0.74. Among a single cluster's candidates it is +0.06 and
    −0.04, where a Sonnet sample agrees with its own other samples at 0.34 and 0.42.
-5. **Among labels that differ only in length, a fixed terse rung is the baseline to beat.** Rung 5
+6. **Among labels that differ only in length, a fixed terse rung is the baseline to beat.** Rung 5
    at every layer matched or beat Laya's selections, about 60% shorter than stock and rated 0.020
    lower on 20NG and 0.001 lower on arXiv. This says nothing about choosing between labels with
    different content, which a fixed setting cannot do.
-6. **Question format decides whether a decision model works, and the right format varies by model.**
+7. **Question format decides whether a decision model works, and the right format varies by model.**
    On Laya only documents as state with a Choice over labels carried signal, and the literal lineup
    sat near chance. On all four hosted models it was the reverse.
-7. **Cluster ids are not stable between processes** (see below), which touched 2 of 111 clusters in
+8. **Cluster ids are not stable between processes** (see below), which touched 2 of 111 clusters in
    the posted arXiv held-out result without changing its conclusion.
 
 ## Selection is not about size
@@ -142,6 +144,39 @@ The Haiku test used 1,906 Haiku calls and 498 Sonnet rating calls, 7,851,596 inp
 decision-model screen used 45,744 requests and 30.7M input tokens, $1.13 as reported by OpenRouter,
 and 669 Sonnet rating calls at 1,885,992 input tokens. Haiku and Sonnet costs use the prices in the
 installed litellm table ($1 and $5, and $3 and $15, per million input and output tokens).
+
+## More documents
+
+Five documents per group was a cost choice, so this tested whether scoring on more improves picks.
+Jev 1.14 and Liquid d1-ultra scored every candidate on three extra five-document lineups, one call
+each, with documents that are not exemplars and not in the frozen or fresh draws. A label's score is
+the mean of its four lineups, 20 documents per group. Picks used the same rule, and Sonnet rated them
+on the same fresh draw across the same 197 clusters. The full 15 extra documents were available for
+167 clusters. The other 30 have 7 to 14 and reuse some across draws.
+
+The rule was fixed before the run: more documents help only if the 95% interval on 20-document gain
+minus 5-document gain, per model over both corpora, sits above zero. Neither model passed.
+
+| model | gain, 5 documents | gain, 20 documents | difference (95% interval) | signed-rank p |
+|---|---|---|---|---|
+| Jev 1.14 | +.017 | +.018 | +.001 (−.011 to +.014) | .49 |
+| Liquid d1-ultra | +.023 | +.013 | −.010 (−.020 to −.000) | .10 |
+
+For reference, on these clusters Sonnet's 5-document picks gain +.038 and Haiku's +.022.
+
+- **This is a fairly tight null.** Both intervals rule out anything like a doubling of the gain.
+  Liquid's decline only just excludes zero and its signed-rank test is not significant, so "no help"
+  is the safer reading than "harmful". By corpus, Jev moved −.011 on 20NG and +.013 on arXiv, and
+  Liquid moved −.020 and −.001.
+- **Document count does not explain the gap to Sonnet.** Sonnet's picks on five documents still beat
+  these scorers on twenty.
+- **Agreement with Sonnet fell once scores used other documents,** from +.427 / +.382 to
+  +.300 / +.259 for Jev and from +.414 / +.337 to +.296 / +.252 for Liquid. Sonnet's scores come from
+  the original five documents, so this supports the reading that part of the earlier agreement was
+  about those documents and not the region.
+
+This used 11,436 requests and 30.4M input tokens, $1.28 as reported by OpenRouter, and 369 Sonnet
+rating calls at 1,045,854 input tokens, with no failures.
 
 ## Format pilot
 
@@ -262,8 +297,10 @@ recomputed. 20NG reproduced in every fit tried. The cause was not investigated.
   slightly different answers in the labels format on three of the four models. OpenRouter labels
   its Decisions API as alpha. Versions served were `jev-1.14-20261014`, `d1-ultra-20261015`,
   `microsoft-decision-1-20261009`, and `pplx-decider-v1.2-20261016`.
-- If gains are partly document-specific, scoring on more documents may help, and that is where a
-  cheap scorer could add the most. Five documents was a cost choice, and more were not tried.
+- Sonnet rated every pick, including its own, so its lead over the cheap scorers may be partly home
+  advantage. No independent rater has been run, and that is the main open question.
+- How few candidates can keep the gain is untested with a cheap scorer. Candidate generation is now
+  the main cost, and it is not included in any scoring cost above.
 - Laya ran zero-shot with its shipped checkpoints. Its docs say fine-tuning helps, and that was not
   tried. Laya version 0.4.18; checkpoints `laya` at `7b928d8`, `laya-typed-decisions` at `e929ae5`,
   `laya-multilingual` at `1720e3e`.
@@ -309,11 +346,19 @@ PYTHONPATH="$FROZEN:$D" .venv/bin/python $D/fresh_prep.py $D
 .venv/bin/python $D/dm_analyze.py $D rank
 .venv/bin/python $D/dm_analyze.py $D rate                     # paid
 .venv/bin/python $D/dm_analyze.py $D report
+
+PYTHONPATH="$FROZEN:$D" .venv/bin/python $D/docs_available.py $D   # free, sizes the test
+PYTHONPATH="$FROZEN:$D" .venv/bin/python $D/more_prep.py $D
+.venv/bin/python $D/more_docs.py $D score --cap-usd 1.50      # paid, needs OPENROUTER_API_KEY
+.venv/bin/python $D/more_docs.py $D rate                      # paid, hard cap 3.4M input tokens
+.venv/bin/python $D/more_docs.py $D report
 ```
 
-`laya_analyze.py`, `fresh_analyze.py`, `haiku_analyze.py`, and `dm_analyze.py` regenerate the
-committed summaries exactly from the committed results. `dm_results.jsonl` is 12.8 MB and is not
-committed; `dm_scores.json` holds each label's score, which is all the analysis needs.
+`laya_analyze.py`, `fresh_analyze.py`, `haiku_analyze.py`, `dm_analyze.py`, and `more_docs.py report`
+regenerate the committed summaries exactly from the committed results. `dm_results.jsonl` (12.8 MB)
+and `more_results.jsonl` (3.0 MB) are not committed; `dm_scores.json` and `more_scores.json` hold
+each label's scores, which is all the analysis needs. `more_groups.json` contains corpus text and is
+gitignored, and `more_unique.json` keeps its per-cluster document counts.
 `dump_lineups.py` supplies helpers to `dump_lineups2.py`; running it directly fails whenever the
 arXiv fit lands on the other variant. `fresh_prep.py` stops for the same reason, so rerun it until it
 passes. Rebuilt lineup files and `fresh_units.json` contain corpus text and are gitignored.

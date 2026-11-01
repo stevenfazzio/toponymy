@@ -1,0 +1,7 @@
+0 done, 11436 to run, $0.000 spent, cap $1.50
+[13:09:19] 2000 requests, 0 failed, $0.224 spent
+[13:09:39] 4000 requests, 0 failed, $0.447 spent
+[13:09:59] 6000 requests, 0 failed, $0.671 spent
+[13:10:20] 8000 requests, 0 failed, $0.894 spent
+[13:10:41] 10000 requests, 0 failed, $1.118 spent
+finished {'done': 11436, 'failed': 0, 'capped': 0}
